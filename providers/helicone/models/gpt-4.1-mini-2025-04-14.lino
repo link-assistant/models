@@ -1,0 +1,41 @@
+model 'OpenAI GPT-4.1 Mini'
+  has id
+    'gpt-4.1-mini-2025-04-14'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2025-04-14
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 047 576'
+    output
+      '32 768'
+  costs
+    input
+      0.39999999999999997
+    output
+      1.5999999999999999
+    cacheRead
+      0.09999999999999999

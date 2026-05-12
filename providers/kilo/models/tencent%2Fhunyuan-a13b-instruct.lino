@@ -1,0 +1,35 @@
+model 'Tencent: Hunyuan A13B Instruct'
+  has id
+    'tencent/hunyuan-a13b-instruct'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-06-30
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.14
+    output
+      0.57

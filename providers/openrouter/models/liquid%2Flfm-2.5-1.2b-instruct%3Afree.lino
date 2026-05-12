@@ -1,0 +1,38 @@
+model 'LFM2.5-1.2B-Instruct (free)'
+  has id
+    'liquid/lfm-2.5-1.2b-instruct:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'liquid'
+  status
+    active
+  released at
+    2026-01-20
+  last updated at
+    2026-01-28
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

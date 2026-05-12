@@ -1,0 +1,39 @@
+model 'Qwen3 Coder Flash'
+  has id
+    'qwen3-coder-flash'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2026-04-30
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.45
+    output
+      1.7

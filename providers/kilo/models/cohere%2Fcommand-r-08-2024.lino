@@ -1,0 +1,35 @@
+model 'Cohere: Command R (08-2024)'
+  has id
+    'cohere/command-r-08-2024'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-08-30
+  last updated at
+    2024-08-30
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4000
+  costs
+    input
+      0.15
+    output
+      0.6

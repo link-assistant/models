@@ -1,0 +1,36 @@
+model 'Mistral Small 31 24b Instruct'
+  has id
+    'mistral-small-31-24b-instruct'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-04-15
+  last updated at
+    2025-04-15
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '131 072'
+  costs
+    input
+      0.1
+    output
+      0.3

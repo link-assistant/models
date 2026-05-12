@@ -1,0 +1,39 @@
+model 'chatgpt-4o-latest'
+  has id
+    'chatgpt-4o-latest'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-08-08
+  last updated at
+    2024-08-08
+  has knowledge cutoff at
+    2023-09
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      5
+    output
+      15

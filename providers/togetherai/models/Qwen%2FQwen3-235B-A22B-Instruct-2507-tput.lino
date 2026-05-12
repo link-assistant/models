@@ -1,0 +1,40 @@
+model 'Qwen3 235B A22B Instruct 2507 FP8'
+  has id
+    'Qwen/Qwen3-235B-A22B-Instruct-2507-tput'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2025-07-25
+  has knowledge cutoff at
+    2025-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.2
+    output
+      0.6

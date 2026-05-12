@@ -1,0 +1,35 @@
+model 'Qwen3 8B'
+  has id
+    'qwen/qwen3-8b-fp8'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-04-29
+  last updated at
+    2025-04-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '20 000'
+  costs
+    input
+      0.035
+    output
+      0.138

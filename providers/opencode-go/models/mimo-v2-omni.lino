@@ -1,0 +1,44 @@
+model 'MiMo V2 Omni'
+  has id
+    'mimo-v2-omni'
+  provider id
+    'opencode-go'
+  provided by
+    'OpenCode Go'
+  family
+    'mimo-v2-omni'
+  status
+    deprecated
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image audio pdf
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '128 000'
+  costs
+    input
+      0.4
+    output
+      2
+    cacheRead
+      0.08

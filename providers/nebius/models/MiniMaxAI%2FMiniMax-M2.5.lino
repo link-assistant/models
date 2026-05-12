@@ -1,0 +1,45 @@
+model 'MiniMax-M2.5'
+  has id
+    'MiniMaxAI/MiniMax-M2.5'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2026-05-07
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 608'
+    input
+      '190 000'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.03
+    cacheWrite
+      0.375

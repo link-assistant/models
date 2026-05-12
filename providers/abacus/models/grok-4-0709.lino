@@ -1,0 +1,39 @@
+model 'Grok 4'
+  has id
+    'grok-4-0709'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'grok'
+  status
+    active
+  released at
+    2025-07-09
+  last updated at
+    2025-07-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '16 384'
+  costs
+    input
+      3
+    output
+      15

@@ -1,0 +1,41 @@
+model 'Phi-4-mini-instruct'
+  has id
+    'microsoft/Phi-4-mini-instruct'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'phi'
+  status
+    active
+  released at
+    2024-12-11
+  last updated at
+    2026-03-12
+  has knowledge cutoff at
+    2023-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.08
+    output
+      0.35

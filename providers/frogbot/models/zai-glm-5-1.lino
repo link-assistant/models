@@ -1,0 +1,42 @@
+model 'Z.AI GLM-5.1'
+  has id
+    'zai-glm-5-1'
+  provider id
+    'frogbot'
+  provided by
+    'FrogBot'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2025-02-22
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '198 000'
+    output
+      8192
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      0.26

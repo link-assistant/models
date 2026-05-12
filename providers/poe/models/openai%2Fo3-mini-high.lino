@@ -1,0 +1,38 @@
+model 'o3-mini-high'
+  has id
+    'openai/o3-mini-high'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'o-mini'
+  status
+    active
+  released at
+    2025-01-31
+  last updated at
+    2025-01-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      0.99
+    output
+      4

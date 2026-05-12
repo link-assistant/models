@@ -1,0 +1,34 @@
+model 'Inflection 3 Pi'
+  has id
+    'inflection/inflection-3-pi'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-10-11
+  last updated at
+    2024-10-11
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8000
+    input
+      8000
+    output
+      4096
+  costs
+    input
+      2.499
+    output
+      9.996

@@ -1,0 +1,37 @@
+model 'Mercury Coder Small Beta'
+  has id
+    'inception/mercury-coder-small'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mercury'
+  status
+    active
+  released at
+    2025-02-26
+  last updated at
+    2026-05-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '16 384'
+  costs
+    input
+      0.25
+    output
+      1

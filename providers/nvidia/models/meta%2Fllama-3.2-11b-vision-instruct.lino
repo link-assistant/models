@@ -1,0 +1,39 @@
+model 'Llama 3.2 11b Vision Instruct'
+  has id
+    'meta/llama-3.2-11b-vision-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-09-18
+  last updated at
+    2024-09-18
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

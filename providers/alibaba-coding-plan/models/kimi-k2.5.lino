@@ -1,0 +1,46 @@
+model 'Kimi K2.5'
+  has id
+    'kimi-k2.5'
+  provider id
+    'alibaba-coding-plan'
+  provided by
+    'Alibaba Coding Plan'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2026-01-27
+  last updated at
+    2026-01-27
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

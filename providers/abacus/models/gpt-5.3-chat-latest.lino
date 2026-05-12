@@ -1,0 +1,39 @@
+model 'GPT-5.3 Chat Latest'
+  has id
+    'gpt-5.3-chat-latest'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-03-01
+  last updated at
+    2026-03-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      1.75
+    output
+      14

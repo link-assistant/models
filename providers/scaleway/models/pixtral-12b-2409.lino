@@ -1,0 +1,38 @@
+model 'Pixtral 12B 2409'
+  has id
+    'pixtral-12b-2409'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  family
+    'pixtral'
+  status
+    active
+  released at
+    2024-09-25
+  last updated at
+    2026-03-17
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.2
+    output
+      0.2

@@ -1,0 +1,32 @@
+model 'Text Multilingual Embedding 002'
+  has id
+    'google/text-multilingual-embedding-002'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2024-03
+  last updated at
+    2024-03
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1536
+  costs
+    input
+      0.03
+    output
+      0

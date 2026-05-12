@@ -1,0 +1,44 @@
+model 'Qwen 3 235B Thinking'
+  has id
+    'Qwen/Qwen3-235B-A22B-Thinking-2507'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-01
+  last updated at
+    2025-07-01
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      4096
+  costs
+    input
+      0.11
+    output
+      0.6
+    cacheRead
+      0.055
+    cacheWrite
+      0.22

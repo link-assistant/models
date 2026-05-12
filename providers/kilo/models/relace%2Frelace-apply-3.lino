@@ -1,0 +1,30 @@
+model 'Relace: Relace Apply 3'
+  has id
+    'relace/relace-apply-3'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-09-26
+  last updated at
+    2026-03-15
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      0.85
+    output
+      1.25

@@ -1,0 +1,38 @@
+model 'baichuan-m2-32b'
+  has id
+    'baichuan/baichuan-m2-32b'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'baichuan'
+  status
+    active
+  released at
+    2025-08-13
+  last updated at
+    2025-08-13
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.07
+    output
+      0.07

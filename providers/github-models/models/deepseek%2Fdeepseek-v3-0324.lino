@@ -1,0 +1,40 @@
+model 'DeepSeek-V3-0324'
+  has id
+    'deepseek/deepseek-v3-0324'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-03-24
+  last updated at
+    2025-03-24
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

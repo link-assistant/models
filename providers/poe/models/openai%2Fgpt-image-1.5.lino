@@ -1,0 +1,29 @@
+model 'gpt-image-1.5'
+  has id
+    'openai/gpt-image-1.5'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2025-12-16
+  last updated at
+    2025-12-16
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      '128 000'
+    output
+      0

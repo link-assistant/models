@@ -1,0 +1,43 @@
+model 'GLM 4.6 (exacto)'
+  has id
+    'z-ai/glm-4.6:exacto'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-09-30
+  last updated at
+    2025-09-30
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.6
+    output
+      1.9
+    cacheRead
+      0.11

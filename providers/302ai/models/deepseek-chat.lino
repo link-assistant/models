@@ -1,0 +1,39 @@
+model 'Deepseek-Chat'
+  has id
+    'deepseek-chat'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2024-11-29
+  last updated at
+    2024-11-29
+  has knowledge cutoff at
+    2024-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.29
+    output
+      0.43

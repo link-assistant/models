@@ -1,0 +1,40 @@
+model 'Qwen3 32B'
+  has id
+    'qwen/qwen3-32b'
+  provider id
+    'groq'
+  provided by
+    'Groq'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-12-23
+  last updated at
+    2024-12-23
+  has knowledge cutoff at
+    2024-11-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '40 960'
+  costs
+    input
+      0.29
+    output
+      0.59

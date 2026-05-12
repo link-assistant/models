@@ -1,0 +1,42 @@
+model 'DeepSeek V3.1 Terminus'
+  has id
+    'deepseek-v3.1-terminus'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-09-22
+  last updated at
+    2025-09-22
+  has knowledge cutoff at
+    2025-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.27
+    output
+      1
+    cacheRead
+      0.21600000000000003

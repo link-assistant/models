@@ -1,0 +1,39 @@
+model 'solar-mini'
+  has id
+    'solar-mini'
+  provider id
+    'upstage'
+  provided by
+    'Upstage'
+  family
+    'solar-mini'
+  status
+    active
+  released at
+    2024-06-12
+  last updated at
+    2025-04-22
+  has knowledge cutoff at
+    2024-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.15
+    output
+      0.15

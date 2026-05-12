@@ -1,0 +1,40 @@
+model 'OpenAI GPT OSS 120B'
+  has id
+    'openai-gpt-oss-120b'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-11-06
+  last updated at
+    2026-05-06
+  has knowledge cutoff at
+    2025-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.07
+    output
+      0.3

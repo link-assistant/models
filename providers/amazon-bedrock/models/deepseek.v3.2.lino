@@ -1,0 +1,40 @@
+model 'DeepSeek-V3.2'
+  has id
+    'deepseek.v3.2'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-02-06
+  last updated at
+    2026-02-06
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '81 920'
+  costs
+    input
+      0.62
+    output
+      1.85

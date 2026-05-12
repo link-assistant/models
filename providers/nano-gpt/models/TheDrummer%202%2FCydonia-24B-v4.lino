@@ -1,0 +1,34 @@
+model 'The Drummer Cydonia 24B v4'
+  has id
+    'TheDrummer 2/Cydonia-24B-v4'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-07-22
+  last updated at
+    2025-07-22
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    input
+      '16 384'
+    output
+      '32 768'
+  costs
+    input
+      0.2006
+    output
+      0.2414

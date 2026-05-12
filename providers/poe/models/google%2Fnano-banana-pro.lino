@@ -1,0 +1,39 @@
+model 'Nano-Banana-Pro'
+  has id
+    'google/nano-banana-pro'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'nano-banana'
+  status
+    active
+  released at
+    2025-11-19
+  last updated at
+    2025-11-19
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      '65 536'
+    output
+      0
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.2

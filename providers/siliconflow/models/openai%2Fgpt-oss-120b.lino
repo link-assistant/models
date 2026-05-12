@@ -1,0 +1,39 @@
+model 'openai/gpt-oss-120b'
+  has id
+    'openai/gpt-oss-120b'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-13
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      8000
+  costs
+    input
+      0.05
+    output
+      0.45

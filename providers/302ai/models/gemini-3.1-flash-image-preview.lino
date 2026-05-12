@@ -1,0 +1,37 @@
+model 'gemini-3.1-flash-image-preview'
+  has id
+    'gemini-3.1-flash-image-preview'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2026-02-27
+  last updated at
+    2026-02-27
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text image
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.5
+    output
+      60

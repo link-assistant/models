@@ -1,0 +1,41 @@
+model 'Kimi K2 Thinking'
+  has id
+    'moonshotai/Kimi-K2-Thinking'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'kimi-thinking'
+  status
+    deprecated
+  released at
+    2025-11-06
+  last updated at
+    2026-03-06
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.6
+    output
+      2.5

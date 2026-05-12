@@ -1,0 +1,34 @@
+model 'Shisa V2.1 Llama 3.3 70B'
+  has id
+    'shisa-ai/shisa-v2.1-llama3.3-70b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-12-06
+  last updated at
+    2024-12-06
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.5
+    output
+      0.5

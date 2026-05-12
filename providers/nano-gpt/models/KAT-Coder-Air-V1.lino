@@ -1,0 +1,32 @@
+model 'KAT Coder Air V1'
+  has id
+    'KAT-Coder-Air-V1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-10-28
+  last updated at
+    2025-10-28
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.2

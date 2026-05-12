@@ -1,0 +1,37 @@
+model 'Qwen: Qwen2.5 VL 72B Instruct'
+  has id
+    'qwen/qwen2.5-vl-72b-instruct'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-02-01
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.8
+    output
+      0.8
+    cacheRead
+      0.075

@@ -1,0 +1,36 @@
+model 'Amazon: Nova Pro 1.0'
+  has id
+    'amazon/nova-pro-v1'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-12-03
+  last updated at
+    2024-12-03
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '300 000'
+    output
+      5120
+  costs
+    input
+      0.8
+    output
+      3.2

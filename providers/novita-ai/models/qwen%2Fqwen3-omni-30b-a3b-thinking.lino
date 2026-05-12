@@ -1,0 +1,42 @@
+model 'Qwen3 Omni 30B A3B Thinking'
+  has id
+    'qwen/qwen3-omni-30b-a3b-thinking'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-09-24
+  last updated at
+    2025-09-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text audio video image
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '16 384'
+  costs
+    input
+      0.25
+    output
+      0.97
+    inputAudio
+      2.2
+    outputAudio
+      1.788

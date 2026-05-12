@@ -1,0 +1,35 @@
+model 'MiniMax: MiniMax-01'
+  has id
+    'minimax/minimax-01'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-01-15
+  last updated at
+    2025-01-15
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 192'
+    output
+      '1 000 192'
+  costs
+    input
+      0.2
+    output
+      1.1

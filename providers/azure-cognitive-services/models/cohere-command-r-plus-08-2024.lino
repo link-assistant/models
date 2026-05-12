@@ -1,0 +1,39 @@
+model 'Command R+'
+  has id
+    'cohere-command-r-plus-08-2024'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'command-r'
+  status
+    active
+  released at
+    2024-08-30
+  last updated at
+    2024-08-30
+  has knowledge cutoff at
+    2024-06-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4000
+  costs
+    input
+      2.5
+    output
+      10

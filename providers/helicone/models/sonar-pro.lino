@@ -1,0 +1,38 @@
+model 'Perplexity Sonar Pro'
+  has id
+    'sonar-pro'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'sonar-pro'
+  status
+    active
+  released at
+    2025-01-27
+  last updated at
+    2025-01-27
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      4096
+  costs
+    input
+      3
+    output
+      15

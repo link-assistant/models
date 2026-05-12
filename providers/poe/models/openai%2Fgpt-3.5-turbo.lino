@@ -1,0 +1,37 @@
+model 'GPT-3.5-Turbo'
+  has id
+    'openai/gpt-3.5-turbo'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2023-09-13
+  last updated at
+    2023-09-13
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      2048
+  costs
+    input
+      0.45
+    output
+      1.4

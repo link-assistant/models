@@ -1,0 +1,41 @@
+model 'claude-haiku-4-5-20251001'
+  has id
+    'claude-haiku-4-5-20251001'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2025-10-16
+  last updated at
+    2025-10-16
+  has knowledge cutoff at
+    2025-02-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      1
+    output
+      5

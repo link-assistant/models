@@ -1,0 +1,45 @@
+model 'Qwen3-Next-80B-A3B-Thinking-fast'
+  has id
+    'Qwen/Qwen3-Next-80B-A3B-Thinking-fast'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2026-05-07
+  has knowledge cutoff at
+    2025-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8000
+    input
+      7000
+    output
+      8192
+  costs
+    input
+      0.15
+    output
+      1.2
+    cacheRead
+      0.015
+    cacheWrite
+      0.1875

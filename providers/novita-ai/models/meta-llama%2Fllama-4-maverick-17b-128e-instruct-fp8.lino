@@ -1,0 +1,35 @@
+model 'Llama 4 Maverick Instruct'
+  has id
+    'meta-llama/llama-4-maverick-17b-128e-instruct-fp8'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-04-06
+  last updated at
+    2025-04-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      8192
+  costs
+    input
+      0.27
+    output
+      0.85

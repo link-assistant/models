@@ -1,0 +1,30 @@
+model 'Doubao 1.5 Vision Pro'
+  has id
+    'doubao-1.5-vision-pro'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 000'

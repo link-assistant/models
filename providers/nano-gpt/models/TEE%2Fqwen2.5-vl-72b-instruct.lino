@@ -1,0 +1,38 @@
+model 'Qwen2.5 VL 72B TEE'
+  has id
+    'TEE/qwen2.5-vl-72b-instruct'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-02-01
+  last updated at
+    2025-02-01
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '65 536'
+    input
+      '65 536'
+    output
+      8192
+  costs
+    input
+      0.7
+    output
+      0.7

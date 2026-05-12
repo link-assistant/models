@@ -1,0 +1,39 @@
+model 'Qwen3-32B'
+  has id
+    'alibaba-qwen3-32b'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04-30
+  last updated at
+    2026-04-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '40 960'
+  costs
+    input
+      0.25
+    output
+      0.55

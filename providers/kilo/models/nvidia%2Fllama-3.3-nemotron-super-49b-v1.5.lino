@@ -1,0 +1,36 @@
+model 'NVIDIA: Llama 3.3 Nemotron Super 49B V1.5'
+  has id
+    'nvidia/llama-3.3-nemotron-super-49b-v1.5'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-03-16
+  last updated at
+    2025-03-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '26 215'
+  costs
+    input
+      0.1
+    output
+      0.4

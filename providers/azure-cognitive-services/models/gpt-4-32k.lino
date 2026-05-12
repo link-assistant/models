@@ -1,0 +1,39 @@
+model 'GPT-4 32K'
+  has id
+    'gpt-4-32k'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2023-03-14
+  last updated at
+    2023-03-14
+  has knowledge cutoff at
+    2023-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      60
+    output
+      120

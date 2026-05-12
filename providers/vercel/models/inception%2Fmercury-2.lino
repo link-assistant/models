@@ -1,0 +1,40 @@
+model 'Mercury 2'
+  has id
+    'inception/mercury-2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mercury'
+  status
+    active
+  released at
+    2026-02-24
+  last updated at
+    2026-03-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.25
+    output
+      0.75
+    cacheRead
+      0.024999999999999998

@@ -1,0 +1,39 @@
+model 'Qwen3-Next-80B-A3B-Instruct'
+  has id
+    'Qwen/Qwen3-Next-80B-A3B-Instruct'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-11
+  last updated at
+    2025-09-11
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '66 536'
+  costs
+    input
+      0.25
+    output
+      1

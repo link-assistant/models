@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "update:data": "node ../scripts/update-models-data.mjs",
+    "check:data": "node ../scripts/update-models-data.mjs --check",
     "test": "vitest run",
     "test:watch": "vitest"
   },

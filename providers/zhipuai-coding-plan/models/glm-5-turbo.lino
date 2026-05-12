@@ -1,0 +1,44 @@
+model 'GLM-5-Turbo'
+  has id
+    'glm-5-turbo'
+  provider id
+    'zhipuai-coding-plan'
+  provided by
+    'Zhipu AI Coding Plan'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-03-16
+  last updated at
+    2026-03-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

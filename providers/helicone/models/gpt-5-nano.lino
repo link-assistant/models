@@ -1,0 +1,40 @@
+model 'OpenAI GPT-5 Nano'
+  has id
+    'gpt-5-nano'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'gpt-nano'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      0.049999999999999996
+    output
+      0.39999999999999997
+    cacheRead
+      0.005

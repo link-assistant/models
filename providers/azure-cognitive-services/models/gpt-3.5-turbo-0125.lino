@@ -1,0 +1,38 @@
+model 'GPT-3.5 Turbo 0125'
+  has id
+    'gpt-3.5-turbo-0125'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2024-01-25
+  has knowledge cutoff at
+    2021-08
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      0.5
+    output
+      1.5

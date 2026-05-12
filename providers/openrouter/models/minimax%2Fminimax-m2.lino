@@ -1,0 +1,44 @@
+model 'MiniMax M2'
+  has id
+    'minimax/minimax-m2'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2025-10-23
+  last updated at
+    2025-10-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 600'
+    output
+      '118 000'
+  costs
+    input
+      0.28
+    output
+      1.15
+    cacheRead
+      0.28
+    cacheWrite
+      1.15

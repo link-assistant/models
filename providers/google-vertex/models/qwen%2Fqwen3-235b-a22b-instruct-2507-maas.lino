@@ -1,0 +1,39 @@
+model 'Qwen3 235B A22B Instruct'
+  has id
+    'qwen/qwen3-235b-a22b-instruct-2507-maas'
+  provider id
+    'google-vertex'
+  provided by
+    'Vertex'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-08-13
+  last updated at
+    2025-08-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.22
+    output
+      0.88

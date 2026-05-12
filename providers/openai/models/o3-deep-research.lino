@@ -1,0 +1,42 @@
+model 'o3-deep-research'
+  has id
+    'o3-deep-research'
+  provider id
+    'openai'
+  provided by
+    'OpenAI'
+  family
+    'o'
+  status
+    active
+  released at
+    2024-06-26
+  last updated at
+    2024-06-26
+  has knowledge cutoff at
+    2024-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      10
+    output
+      40
+    cacheRead
+      2.5

@@ -1,0 +1,39 @@
+model 'Coding MiniMax M2.7 Highspeed'
+  has id
+    'coding-minimax-m2.7-highspeed'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '13 100'
+  costs
+    input
+      0.2
+    output
+      0.2

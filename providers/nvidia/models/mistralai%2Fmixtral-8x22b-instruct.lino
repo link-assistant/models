@@ -1,0 +1,35 @@
+model 'Mistral: Mixtral 8x22B Instruct'
+  has id
+    'mistralai/mixtral-8x22b-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-04-17
+  last updated at
+    2024-04-17
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '13 108'
+  costs
+    input
+      0
+    output
+      0

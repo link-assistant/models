@@ -1,0 +1,34 @@
+model 'Neural Daredevil 8B abliterated'
+  has id
+    'mlabonne/NeuralDaredevil-8B-abliterated'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    input
+      8192
+    output
+      8192
+  costs
+    input
+      0.44
+    output
+      0.44

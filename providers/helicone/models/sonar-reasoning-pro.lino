@@ -1,0 +1,39 @@
+model 'Perplexity Sonar Reasoning Pro'
+  has id
+    'sonar-reasoning-pro'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'sonar-reasoning'
+  status
+    active
+  released at
+    2025-01-27
+  last updated at
+    2025-01-27
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '127 000'
+    output
+      4096
+  costs
+    input
+      2
+    output
+      8

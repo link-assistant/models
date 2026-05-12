@@ -1,0 +1,38 @@
+model 'baidu/ERNIE-4.5-300B-A47B'
+  has id
+    'baidu/ERNIE-4.5-300B-A47B'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'ernie'
+  status
+    active
+  released at
+    2025-07-02
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.28
+    output
+      1.1

@@ -1,0 +1,37 @@
+model 'Qwen: Qwen3 Coder Plus'
+  has id
+    'qwen/qwen3-coder-plus'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-07-01
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.65
+    output
+      3.25
+    cacheRead
+      0.2

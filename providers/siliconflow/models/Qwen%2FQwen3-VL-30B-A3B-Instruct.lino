@@ -1,0 +1,39 @@
+model 'Qwen/Qwen3-VL-30B-A3B-Instruct'
+  has id
+    'Qwen/Qwen3-VL-30B-A3B-Instruct'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-10-05
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.29
+    output
+      1

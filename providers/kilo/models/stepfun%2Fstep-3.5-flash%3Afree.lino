@@ -1,0 +1,36 @@
+model 'StepFun: Step 3.5 Flash (free)'
+  has id
+    'stepfun/step-3.5-flash:free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-08-26
+  last updated at
+    2026-05-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

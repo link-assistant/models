@@ -1,0 +1,38 @@
+model 'DeepSeek: DeepSeek V3.1 Terminus'
+  has id
+    'deepseek/deepseek-v3.1-terminus'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-09-22
+  last updated at
+    2025-09-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '32 768'
+  costs
+    input
+      0.21
+    output
+      0.79
+    cacheRead
+      0.13

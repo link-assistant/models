@@ -1,0 +1,40 @@
+model 'Qwen 3.32B'
+  has id
+    'alibaba/qwen-3-32b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04
+  last updated at
+    2025-04
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '40 960'
+    output
+      '16 384'
+  costs
+    input
+      0.1
+    output
+      0.3

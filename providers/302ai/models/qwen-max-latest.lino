@@ -1,0 +1,39 @@
+model 'Qwen-Max-Latest'
+  has id
+    'qwen-max-latest'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-04-03
+  last updated at
+    2025-01-25
+  has knowledge cutoff at
+    2024-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.343
+    output
+      1.372

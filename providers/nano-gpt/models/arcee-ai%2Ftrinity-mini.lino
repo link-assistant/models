@@ -1,0 +1,34 @@
+model 'Trinity Mini'
+  has id
+    'arcee-ai/trinity-mini'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'trinity-mini'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    input
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.045000000000000005
+    output
+      0.15

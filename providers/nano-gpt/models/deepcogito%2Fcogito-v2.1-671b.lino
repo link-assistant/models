@@ -1,0 +1,38 @@
+model 'Cogito v2.1 671B MoE'
+  has id
+    'deepcogito/cogito-v2.1-671b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'cogito'
+  status
+    active
+  released at
+    2025-11-19
+  last updated at
+    2025-11-19
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      1.25
+    output
+      1.25

@@ -1,0 +1,38 @@
+model 'GPT OSS 120B'
+  has id
+    'openai/gpt-oss-120b'
+  provider id
+    'submodel'
+  provided by
+    'submodel'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-23
+  last updated at
+    2025-08-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.5

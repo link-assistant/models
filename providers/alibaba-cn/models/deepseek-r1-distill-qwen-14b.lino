@@ -1,0 +1,38 @@
+model 'DeepSeek R1 Distill Qwen 14B'
+  has id
+    'deepseek-r1-distill-qwen-14b'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '16 384'
+  costs
+    input
+      0.144
+    output
+      0.431

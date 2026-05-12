@@ -1,0 +1,42 @@
+model 'GPT-4.1'
+  has id
+    'gpt-4.1'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2025-04-14
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '64 000'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

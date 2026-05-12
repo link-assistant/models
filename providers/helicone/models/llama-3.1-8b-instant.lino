@@ -1,0 +1,39 @@
+model 'Meta Llama 3.1 8B Instant'
+  has id
+    'llama-3.1-8b-instant'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-07-01
+  last updated at
+    2024-07-01
+  has knowledge cutoff at
+    2024-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 678'
+  costs
+    input
+      0.049999999999999996
+    output
+      0.08

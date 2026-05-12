@@ -1,0 +1,35 @@
+model 'OpenAI: GPT-4 Turbo Preview'
+  has id
+    'openai/gpt-4-turbo-preview'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      10
+    output
+      30

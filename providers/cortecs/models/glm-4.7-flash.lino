@@ -1,0 +1,41 @@
+model 'GLM-4.7-Flash'
+  has id
+    'glm-4.7-flash'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-08-08
+  last updated at
+    2025-08-08
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '203 000'
+    output
+      '203 000'
+  costs
+    input
+      0.09
+    output
+      0.53

@@ -1,0 +1,40 @@
+model 'GPT-OSS-120B'
+  has id
+    'openai/gpt-oss-120b'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-04
+  last updated at
+    2025-08-14
+  has knowledge cutoff at
+    2025-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

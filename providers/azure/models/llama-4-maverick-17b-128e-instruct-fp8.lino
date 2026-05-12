@@ -1,0 +1,40 @@
+model 'Llama 4 Maverick 17B 128E Instruct FP8'
+  has id
+    'llama-4-maverick-17b-128e-instruct-fp8'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-05
+  last updated at
+    2025-04-05
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.25
+    output
+      1

@@ -1,0 +1,38 @@
+model 'DeepSeek-V4-Flash-EL'
+  has id
+    'empiriolabs/deepseek-v4-flash-el'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-05-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.14
+    output
+      0.28

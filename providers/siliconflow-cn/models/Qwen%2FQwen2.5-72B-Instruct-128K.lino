@@ -1,0 +1,38 @@
+model 'Qwen/Qwen2.5-72B-Instruct-128K'
+  has id
+    'Qwen/Qwen2.5-72B-Instruct-128K'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-09-18
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      4000
+  costs
+    input
+      0.59
+    output
+      0.59

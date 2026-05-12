@@ -1,0 +1,39 @@
+model 'Cohere Command R+'
+  has id
+    'cohere/cohere-command-r-plus'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'command-r'
+  status
+    active
+  released at
+    2024-04-04
+  last updated at
+    2024-08-01
+  has knowledge cutoff at
+    2024-03
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

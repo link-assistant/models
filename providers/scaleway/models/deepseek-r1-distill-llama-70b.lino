@@ -1,0 +1,40 @@
+model 'DeepSeek R1 Distill Llama 70B'
+  has id
+    'deepseek-r1-distill-llama-70b'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2026-03-17
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      8196
+  costs
+    input
+      0.9
+    output
+      0.9

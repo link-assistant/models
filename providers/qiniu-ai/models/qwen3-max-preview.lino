@@ -1,0 +1,30 @@
+model 'Qwen3 Max Preview'
+  has id
+    'qwen3-max-preview'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-09-06
+  last updated at
+    2025-09-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'

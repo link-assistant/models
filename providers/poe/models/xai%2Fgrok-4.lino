@@ -1,0 +1,40 @@
+model 'Grok-4'
+  has id
+    'xai/grok-4'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'grok'
+  status
+    active
+  released at
+    2025-07-10
+  last updated at
+    2025-07-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.75

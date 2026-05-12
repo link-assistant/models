@@ -1,0 +1,42 @@
+model 'DeepSeek v4 Pro'
+  has id
+    'deepseek-v4-pro'
+  provider id
+    'frogbot'
+  provided by
+    'FrogBot'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2026-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      1.74
+    output
+      3.48
+    cacheRead
+      0.14

@@ -1,0 +1,35 @@
+model 'ERNIE 4.5 300B A47B'
+  has id
+    'baidu/ernie-4.5-300b-a47b-paddle'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-06-30
+  last updated at
+    2025-06-30
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '123 000'
+    output
+      '12 000'
+  costs
+    input
+      0.28
+    output
+      1.1

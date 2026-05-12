@@ -1,0 +1,36 @@
+model 'Baidu: Qianfan-OCR-Fast (free)'
+  has id
+    'baidu/qianfan-ocr-fast:free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-05-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '28 672'
+  costs
+    input
+      0
+    output
+      0

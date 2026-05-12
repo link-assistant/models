@@ -1,0 +1,45 @@
+model 'Qwen3.6 Max Preview'
+  has id
+    'qwen3.6-max-preview'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-05-09
+  last updated at
+    2026-05-09
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '240 000'
+    output
+      '64 000'
+  costs
+    input
+      1.268
+    output
+      7.608
+    cacheRead
+      0.1268
+    cacheWrite
+      1.585

@@ -1,0 +1,37 @@
+model 'xAI: Grok 3 Beta'
+  has id
+    'x-ai/grok-3-beta'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-02-17
+  last updated at
+    2025-02-17
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '26 215'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.75

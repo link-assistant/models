@@ -1,0 +1,43 @@
+model 'Devstral Small 2505'
+  has id
+    'mistralai/Devstral-Small-2505'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2025-05-01
+  last updated at
+    2025-05-01
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.05
+    output
+      0.22
+    cacheRead
+      0.025
+    cacheWrite
+      0.1

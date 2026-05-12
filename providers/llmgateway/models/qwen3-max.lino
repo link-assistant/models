@@ -1,0 +1,39 @@
+model 'Qwen3 Max'
+  has id
+    'qwen3-max'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      1.2
+    output
+      6

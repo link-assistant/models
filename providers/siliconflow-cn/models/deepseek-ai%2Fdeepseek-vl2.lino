@@ -1,0 +1,39 @@
+model 'deepseek-ai/deepseek-vl2'
+  has id
+    'deepseek-ai/deepseek-vl2'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2024-12-13
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      4000
+    output
+      4000
+  costs
+    input
+      0.15
+    output
+      0.15

@@ -1,0 +1,40 @@
+model 'GPT-5.4-Nano'
+  has id
+    'openai/gpt-5.4-nano'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      0.18
+    output
+      1.1
+    cacheRead
+      0.018

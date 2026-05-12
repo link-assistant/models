@@ -1,0 +1,36 @@
+model 'Agnes 1.5 Lite'
+  has id
+    'sapiens-ai/agnes-1.5-lite'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-03-26
+  last updated at
+    2026-03-26
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.12
+    output
+      0.6

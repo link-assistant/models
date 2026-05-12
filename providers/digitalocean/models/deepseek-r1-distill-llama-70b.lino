@@ -1,0 +1,39 @@
+model 'DeepSeek R1 Distill Llama 70B'
+  has id
+    'deepseek-r1-distill-llama-70b'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-01-30
+  last updated at
+    2025-01-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.99
+    output
+      0.99

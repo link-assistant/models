@@ -1,0 +1,44 @@
+model 'MiMo V2 Pro Free'
+  has id
+    'mimo-v2-pro-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'mimo-pro-free'
+  status
+    deprecated
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

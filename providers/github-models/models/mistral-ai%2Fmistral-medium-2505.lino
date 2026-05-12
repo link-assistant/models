@@ -1,0 +1,40 @@
+model 'Mistral Medium 3 (25.05)'
+  has id
+    'mistral-ai/mistral-medium-2505'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2025-05-01
+  last updated at
+    2025-05-01
+  has knowledge cutoff at
+    2024-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

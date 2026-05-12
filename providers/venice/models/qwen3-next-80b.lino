@@ -1,0 +1,40 @@
+model 'Qwen 3 Next 80b'
+  has id
+    'qwen3-next-80b'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04-29
+  last updated at
+    2026-03-12
+  has knowledge cutoff at
+    2025-07
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '16 384'
+  costs
+    input
+      0.35
+    output
+      1.9

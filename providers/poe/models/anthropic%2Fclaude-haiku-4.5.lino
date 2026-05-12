@@ -1,0 +1,42 @@
+model 'Claude-Haiku-4.5'
+  has id
+    'anthropic/claude-haiku-4.5'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '192 000'
+    output
+      '64 000'
+  costs
+    input
+      0.85
+    output
+      4.3
+    cacheRead
+      0.085
+    cacheWrite
+      1.1

@@ -1,0 +1,41 @@
+model 'MiniMax-M2.5'
+  has id
+    'MiniMaxAI/MiniMax-M2.5'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  has knowledge cutoff at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 000'
+    output
+      '204 000'
+  costs
+    input
+      0.3
+    output
+      1.2

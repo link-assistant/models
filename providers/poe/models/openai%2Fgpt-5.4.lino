@@ -1,0 +1,40 @@
+model 'GPT-5.4'
+  has id
+    'openai/gpt-5.4'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2026-02-26
+  last updated at
+    2026-02-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      image
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      2.2
+    output
+      14
+    cacheRead
+      0.22

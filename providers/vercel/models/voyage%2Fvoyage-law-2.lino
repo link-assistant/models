@@ -1,0 +1,32 @@
+model 'voyage-law-2'
+  has id
+    'voyage/voyage-law-2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'voyage'
+  status
+    active
+  released at
+    2024-03
+  last updated at
+    2024-03
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1536
+  costs
+    input
+      0.12
+    output
+      0

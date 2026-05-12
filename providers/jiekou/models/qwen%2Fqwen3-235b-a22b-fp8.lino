@@ -1,0 +1,37 @@
+model 'Qwen3 235B A22B'
+  has id
+    'qwen/qwen3-235b-a22b-fp8'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '40 960'
+    output
+      '20 000'
+  costs
+    input
+      0.2
+    output
+      0.8

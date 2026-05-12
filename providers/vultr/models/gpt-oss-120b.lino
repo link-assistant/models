@@ -1,0 +1,39 @@
+model 'GPT OSS 120B'
+  has id
+    'gpt-oss-120b'
+  provider id
+    'vultr'
+  provided by
+    'Vultr'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '129 000'
+    output
+      4096
+  costs
+    input
+      0.15
+    output
+      0.6

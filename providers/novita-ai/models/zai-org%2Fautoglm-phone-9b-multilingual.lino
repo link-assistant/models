@@ -1,0 +1,35 @@
+model 'AutoGLM-Phone-9B-Multilingual'
+  has id
+    'zai-org/autoglm-phone-9b-multilingual'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-12-10
+  last updated at
+    2025-12-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.035
+    output
+      0.138

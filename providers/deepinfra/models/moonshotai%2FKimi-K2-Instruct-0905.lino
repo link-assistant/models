@@ -1,0 +1,41 @@
+model 'Kimi K2 0905'
+  has id
+    'moonshotai/Kimi-K2-Instruct-0905'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-09-05
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.4
+    output
+      2
+    cacheRead
+      0.15

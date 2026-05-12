@@ -1,0 +1,37 @@
+model 'Mistral: Mistral Small 3.1 24B'
+  has id
+    'mistralai/mistral-small-3.1-24b-instruct'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-03-17
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '131 072'
+  costs
+    input
+      0.35
+    output
+      0.56
+    cacheRead
+      0.015

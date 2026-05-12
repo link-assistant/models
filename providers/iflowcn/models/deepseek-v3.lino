@@ -1,0 +1,39 @@
+model 'DeepSeek-V3'
+  has id
+    'deepseek-v3'
+  provider id
+    'iflowcn'
+  provided by
+    'iFlow'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2024-12-26
+  last updated at
+    2024-12-26
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 000'
+  costs
+    input
+      0
+    output
+      0

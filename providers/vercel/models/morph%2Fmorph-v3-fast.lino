@@ -1,0 +1,32 @@
+model 'Morph v3 Fast'
+  has id
+    'morph/morph-v3-fast'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'morph'
+  status
+    active
+  released at
+    2024-08-15
+  last updated at
+    2024-08-15
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 000'
+    output
+      '16 000'
+  costs
+    input
+      0.8
+    output
+      1.2

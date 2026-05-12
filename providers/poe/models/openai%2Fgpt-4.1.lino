@@ -1,0 +1,39 @@
+model 'GPT-4.1'
+  has id
+    'openai/gpt-4.1'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2025-04-14
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 047 576'
+    output
+      '32 768'
+  costs
+    input
+      1.8
+    output
+      7.2
+    cacheRead
+      0.45

@@ -1,0 +1,42 @@
+model 'Gemini 1.5 Flash'
+  has id
+    'gemini-1.5-flash'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2024-05-14
+  last updated at
+    2024-05-14
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      8192
+  costs
+    input
+      0.075
+    output
+      0.3
+    cacheRead
+      0.01875

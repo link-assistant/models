@@ -1,0 +1,30 @@
+model 'Gemini 3.0 Pro Image Preview'
+  has id
+    'gemini-3.0-pro-image-preview'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-11-20
+  last updated at
+    2025-11-20
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      '32 768'
+    output
+      8192

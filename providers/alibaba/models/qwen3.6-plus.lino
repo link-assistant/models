@@ -1,0 +1,44 @@
+model 'Qwen3.6 Plus'
+  has id
+    'qwen3.6-plus'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.276
+    output
+      1.651
+    cacheRead
+      0.028
+    cacheWrite
+      0.344

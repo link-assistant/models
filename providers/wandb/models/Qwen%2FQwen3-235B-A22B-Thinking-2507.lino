@@ -1,0 +1,41 @@
+model 'Qwen3-235B-A22B-Thinking-2507'
+  has id
+    'Qwen/Qwen3-235B-A22B-Thinking-2507'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2026-03-12
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.1
+    output
+      0.1

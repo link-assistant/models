@@ -1,0 +1,36 @@
+model 'OpenAI: gpt-oss-120b'
+  has id
+    'openai/gpt-oss-120b'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '26 215'
+  costs
+    input
+      0.039
+    output
+      0.19

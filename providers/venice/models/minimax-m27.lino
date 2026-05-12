@@ -1,0 +1,40 @@
+model 'MiniMax M2.7'
+  has id
+    'minimax-m27'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-04-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '198 000'
+    output
+      '32 768'
+  costs
+    input
+      0.375
+    output
+      1.5
+    cacheRead
+      0.075

@@ -1,0 +1,40 @@
+model 'Mistral Medium 3.1'
+  has id
+    'mistral/mistral-medium'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2025-05-07
+  last updated at
+    2025-05-07
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '64 000'
+  costs
+    input
+      0.4
+    output
+      2

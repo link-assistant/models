@@ -1,0 +1,42 @@
+model 'Google Gemini 3 Pro Preview'
+  has id
+    'gemini-3-pro-preview'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-11-18
+  last updated at
+    2025-11-18
+  has knowledge cutoff at
+    2025-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.19999999999999998

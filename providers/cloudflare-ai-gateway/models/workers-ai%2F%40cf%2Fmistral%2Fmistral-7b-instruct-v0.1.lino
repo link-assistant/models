@@ -1,0 +1,36 @@
+model 'Mistral 7B Instruct v0.1'
+  has id
+    'workers-ai/@cf/mistral/mistral-7b-instruct-v0.1'
+  provider id
+    'cloudflare-ai-gateway'
+  provided by
+    'Cloudflare AI Gateway'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2025-04-03
+  last updated at
+    2025-04-03
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.11
+    output
+      0.19

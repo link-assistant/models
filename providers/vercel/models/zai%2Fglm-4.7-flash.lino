@@ -1,0 +1,38 @@
+model 'GLM 4.7 Flash'
+  has id
+    'zai/glm-4.7-flash'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-03-13
+  last updated at
+    2026-03-13
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '131 000'
+  costs
+    input
+      0.07
+    output
+      0.39999999999999997

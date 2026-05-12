@@ -1,0 +1,42 @@
+model 'DeepSeek V3.2 TEE'
+  has id
+    'deepseek-ai/DeepSeek-V3.2-TEE'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-12-29
+  last updated at
+    2026-04-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.28
+    output
+      0.42
+    cacheRead
+      0.14

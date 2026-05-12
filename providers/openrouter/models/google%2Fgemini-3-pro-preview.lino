@@ -1,0 +1,43 @@
+model 'Gemini 3 Pro Preview'
+  has id
+    'google/gemini-3-pro-preview'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-11-18
+  last updated at
+    2025-11
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image audio video pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '66 000'
+  costs
+    input
+      2
+    output
+      12

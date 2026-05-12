@@ -1,0 +1,31 @@
+model 'Claude 3.5 Haiku'
+  has id
+    'claude-3.5-haiku'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-08-26
+  last updated at
+    2025-08-26
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      8192

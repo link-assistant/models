@@ -1,0 +1,39 @@
+model 'deepseek-ai/DeepSeek-V3.2-Exp'
+  has id
+    'deepseek-ai/DeepSeek-V3.2-Exp'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-10-10
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '164 000'
+    output
+      '164 000'
+  costs
+    input
+      0.27
+    output
+      0.41

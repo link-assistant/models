@@ -1,0 +1,31 @@
+model 'glm-4.6v'
+  has id
+    'novita/glm-4.6v'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2025-12-09
+  last updated at
+    2025-12-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '32 768'

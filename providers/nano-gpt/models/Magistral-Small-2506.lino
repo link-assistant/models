@@ -1,0 +1,32 @@
+model 'Magistral Small 2506'
+  has id
+    'Magistral-Small-2506'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-09-25
+  last updated at
+    2025-09-25
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.4
+    output
+      1.4

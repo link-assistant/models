@@ -1,0 +1,43 @@
+model 'Qwen3.6 Plus Free'
+  has id
+    'qwen3.6-plus-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'qwen-free'
+  status
+    deprecated
+  released at
+    2026-03-30
+  last updated at
+    2026-03-30
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

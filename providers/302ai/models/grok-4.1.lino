@@ -1,0 +1,38 @@
+model 'grok-4.1'
+  has id
+    'grok-4.1'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-11-18
+  last updated at
+    2025-11-18
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      2
+    output
+      10

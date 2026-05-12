@@ -1,0 +1,35 @@
+model 'NVIDIA: Llama 3.1 Nemotron 70B Instruct'
+  has id
+    'nvidia/llama-3.1-nemotron-70b-instruct'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-10-12
+  last updated at
+    2024-10-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      1.2
+    output
+      1.2

@@ -1,0 +1,32 @@
+model 'Ernie X1 32k'
+  has id
+    'ernie-x1-32k-preview'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-04-03
+  last updated at
+    2025-04-03
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    input
+      '32 000'
+    output
+      '16 384'
+  costs
+    input
+      0.33
+    output
+      1.32

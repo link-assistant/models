@@ -1,0 +1,32 @@
+model 'Runway-Gen-4-Turbo'
+  has id
+    'runwayml/runway-gen-4-turbo'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'runway'
+  status
+    active
+  released at
+    2025-05-09
+  last updated at
+    2025-05-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      256
+    output
+      0

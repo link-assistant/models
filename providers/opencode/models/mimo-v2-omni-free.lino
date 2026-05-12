@@ -1,0 +1,44 @@
+model 'MiMo V2 Omni Free'
+  has id
+    'mimo-v2-omni-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'mimo-omni-free'
+  status
+    deprecated
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image audio pdf
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

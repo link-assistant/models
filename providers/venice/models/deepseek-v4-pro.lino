@@ -1,0 +1,42 @@
+model 'DeepSeek V4 Pro'
+  has id
+    'deepseek-v4-pro'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      1.73
+    output
+      3.796
+    cacheRead
+      0.33

@@ -1,0 +1,40 @@
+model 'Hermes 4 405B'
+  has id
+    'nousresearch/hermes-4-405b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'hermes'
+  status
+    active
+  released at
+    2025-08-25
+  last updated at
+    2025-08-25
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      3

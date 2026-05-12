@@ -1,0 +1,41 @@
+model 'Mistral Small 3.2 24B Instruct'
+  has id
+    'mistralai/Mistral-Small-3.2-24B-Instruct-2506'
+  provider id
+    'meganova'
+  provided by
+    'Meganova'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-06-20
+  last updated at
+    2025-06-20
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

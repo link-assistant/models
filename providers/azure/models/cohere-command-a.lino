@@ -1,0 +1,40 @@
+model 'Command A'
+  has id
+    'cohere-command-a'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'command-a'
+  status
+    active
+  released at
+    2025-03-13
+  last updated at
+    2025-03-13
+  has knowledge cutoff at
+    2024-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      8000
+  costs
+    input
+      2.5
+    output
+      10

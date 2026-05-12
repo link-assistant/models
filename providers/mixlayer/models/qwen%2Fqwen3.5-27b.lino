@@ -1,0 +1,38 @@
+model 'Qwen3.5 27B'
+  has id
+    'qwen/qwen3.5-27b'
+  provider id
+    'mixlayer'
+  provided by
+    'Mixlayer'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.3
+    output
+      2.4

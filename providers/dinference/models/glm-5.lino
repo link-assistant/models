@@ -1,0 +1,39 @@
+model 'GLM-5'
+  has id
+    'glm-5'
+  provider id
+    'dinference'
+  provided by
+    'DInference'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-11
+  last updated at
+    2026-02-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.75
+    output
+      2.4

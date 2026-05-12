@@ -1,0 +1,41 @@
+model 'GLM-4.6V'
+  has id
+    'glm-4.6v'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-08
+  last updated at
+    2025-12-08
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.145
+    output
+      0.43

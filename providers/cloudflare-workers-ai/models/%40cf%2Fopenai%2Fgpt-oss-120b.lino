@@ -1,0 +1,36 @@
+model 'GPT OSS 120B'
+  has id
+    '@cf/openai/gpt-oss-120b'
+  provider id
+    'cloudflare-workers-ai'
+  provided by
+    'Cloudflare Workers AI'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.35
+    output
+      0.75

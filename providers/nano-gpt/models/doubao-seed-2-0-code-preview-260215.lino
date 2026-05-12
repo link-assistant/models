@@ -1,0 +1,32 @@
+model 'Doubao Seed 2.0 Code Preview'
+  has id
+    'doubao-seed-2-0-code-preview-260215'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-02-14
+  last updated at
+    2026-02-14
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      0.782
+    output
+      3.893

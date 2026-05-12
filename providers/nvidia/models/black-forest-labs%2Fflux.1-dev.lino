@@ -1,0 +1,38 @@
+model 'FLUX.1-dev'
+  has id
+    'black-forest-labs/flux.1-dev'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'flux'
+  status
+    active
+  released at
+    2024-08-01
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2024-08
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      4096
+    output
+      0
+  costs
+    input
+      0
+    output
+      0

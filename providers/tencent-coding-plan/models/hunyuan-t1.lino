@@ -1,0 +1,43 @@
+model 'Hunyuan-T1'
+  has id
+    'hunyuan-t1'
+  provider id
+    'tencent-coding-plan'
+  provided by
+    'Tencent Coding Plan (China)'
+  family
+    'hunyuan'
+  status
+    active
+  released at
+    2026-03-08
+  last updated at
+    2026-03-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

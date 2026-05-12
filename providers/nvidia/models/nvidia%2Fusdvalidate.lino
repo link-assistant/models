@@ -1,0 +1,30 @@
+model 'usdvalidate'
+  has id
+    'nvidia/usdvalidate'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-07-24
+  last updated at
+    2025-01-08
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      0
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

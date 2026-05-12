@@ -1,4 +1,14 @@
 model 'Claude Opus 3'
+  has id
+    'claude-3-opus-20240229'
+  provider id
+    'anthropic'
+  provided by
+    'Anthropic'
+  family
+    'claude-opus'
+  status
+    active
   released at
     2024-02-29
   last updated at
@@ -15,20 +25,20 @@ model 'Claude Opus 3'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
       '200 000'
     output
-      '4 096'
+      4096
   costs
     input
-      15.00
+      15
     output
-      75.00
+      75
     cacheRead
-      1.50
+      1.5
     cacheWrite
       18.75

@@ -1,0 +1,38 @@
+model 'DeepSeek R1 Distill Llama 70B'
+  has id
+    'deepseek-r1-distill-llama-70b'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '16 384'
+  costs
+    input
+      0.287
+    output
+      0.861

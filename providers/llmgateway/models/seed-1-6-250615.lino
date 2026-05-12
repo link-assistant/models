@@ -1,0 +1,42 @@
+model 'Seed 1.6 (250615)'
+  has id
+    'seed-1-6-250615'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'seed'
+  status
+    active
+  released at
+    2025-06-25
+  last updated at
+    2025-06-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      8192
+  costs
+    input
+      0.25
+    output
+      2
+    cacheRead
+      0.05

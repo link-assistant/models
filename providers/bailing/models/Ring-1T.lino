@@ -1,0 +1,39 @@
+model 'Ring-1T'
+  has id
+    'Ring-1T'
+  provider id
+    'bailing'
+  provided by
+    'Bailing'
+  family
+    'ring'
+  status
+    active
+  released at
+    2025-10
+  last updated at
+    2025-10
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 000'
+  costs
+    input
+      0.57
+    output
+      2.29

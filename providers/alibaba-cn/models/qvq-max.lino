@@ -1,0 +1,40 @@
+model 'QVQ Max'
+  has id
+    'qvq-max'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qvq'
+  status
+    active
+  released at
+    2025-03-25
+  last updated at
+    2025-03-25
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      1.147
+    output
+      4.588

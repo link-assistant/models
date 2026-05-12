@@ -1,0 +1,33 @@
+model 'gpt-image-1-mini'
+  has id
+    'gpt-image-1-mini'
+  provider id
+    'openai'
+  provided by
+    'OpenAI'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2025-09-26
+  last updated at
+    2025-09-26
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      0
+    input
+      0
+    output
+      0

@@ -1,0 +1,40 @@
+model 'Google Gemma 3'
+  has id
+    'google/gemma-3'
+  provider id
+    'inference'
+  provided by
+    'Inference'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '125 000'
+    output
+      4096
+  costs
+    input
+      0.15
+    output
+      0.3

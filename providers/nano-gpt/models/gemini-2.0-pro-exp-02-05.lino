@@ -1,0 +1,36 @@
+model 'Gemini 2.0 Pro 0205'
+  has id
+    'gemini-2.0-pro-exp-02-05'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-02-05
+  last updated at
+    2025-02-05
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '2 097 152'
+    input
+      '2 097 152'
+    output
+      8192
+  costs
+    input
+      1.989
+    output
+      7.956

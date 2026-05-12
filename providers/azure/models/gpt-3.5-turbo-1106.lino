@@ -1,0 +1,38 @@
+model 'GPT-3.5 Turbo 1106'
+  has id
+    'gpt-3.5-turbo-1106'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2023-11-06
+  has knowledge cutoff at
+    2021-08
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      1
+    output
+      2

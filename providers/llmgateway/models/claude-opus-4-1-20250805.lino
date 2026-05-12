@@ -1,0 +1,45 @@
+model 'Claude Opus 4.1'
+  has id
+    'claude-opus-4-1-20250805'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '32 000'
+  costs
+    input
+      15
+    output
+      75
+    cacheRead
+      1.5
+    cacheWrite
+      18.75

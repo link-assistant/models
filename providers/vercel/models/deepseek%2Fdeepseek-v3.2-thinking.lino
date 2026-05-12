@@ -1,0 +1,43 @@
+model 'DeepSeek V3.2 Thinking'
+  has id
+    'deepseek/deepseek-v3.2-thinking'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  has knowledge cutoff at
+    2024-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '64 000'
+  costs
+    input
+      0.28
+    output
+      0.42
+    cacheRead
+      0.03

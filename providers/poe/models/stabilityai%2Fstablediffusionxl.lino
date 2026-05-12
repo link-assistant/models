@@ -1,0 +1,32 @@
+model 'StableDiffusionXL'
+  has id
+    'stabilityai/stablediffusionxl'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'stable-diffusion'
+  status
+    active
+  released at
+    2023-07-09
+  last updated at
+    2023-07-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      200
+    output
+      0

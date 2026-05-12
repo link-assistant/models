@@ -1,0 +1,39 @@
+model 'glm-4.5-airx'
+  has id
+    'glm-4.5-airx'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-07-29
+  last updated at
+    2025-07-29
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.572
+    output
+      1.714

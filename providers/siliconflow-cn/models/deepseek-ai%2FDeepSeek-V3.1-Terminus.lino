@@ -1,0 +1,39 @@
+model 'deepseek-ai/DeepSeek-V3.1-Terminus'
+  has id
+    'deepseek-ai/DeepSeek-V3.1-Terminus'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-09-29
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '164 000'
+    output
+      '164 000'
+  costs
+    input
+      0.27
+    output
+      1

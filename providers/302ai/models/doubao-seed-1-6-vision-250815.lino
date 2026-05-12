@@ -1,0 +1,36 @@
+model 'doubao-seed-1-6-vision-250815'
+  has id
+    'doubao-seed-1-6-vision-250815'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-09-30
+  last updated at
+    2025-09-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      0.114
+    output
+      1.143

@@ -1,0 +1,41 @@
+model 'GPT 5.5 Pro'
+  has id
+    'openai/gpt-5.5-pro'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '872 000'
+    output
+      '128 000'
+  costs
+    input
+      30
+    output
+      180

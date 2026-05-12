@@ -1,0 +1,40 @@
+model 'GPT-5.1-Codex-Mini'
+  has id
+    'openai/gpt-5.1-codex-mini'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt-codex'
+  status
+    active
+  released at
+    2025-11-12
+  last updated at
+    2025-11-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      0.22
+    output
+      1.8
+    cacheRead
+      0.022

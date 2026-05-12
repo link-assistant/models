@@ -1,0 +1,39 @@
+model 'Qwen/Qwen3-VL-235B-A22B-Instruct'
+  has id
+    'qwen.qwen3-vl-235b-a22b'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-10-04
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.3
+    output
+      1.5

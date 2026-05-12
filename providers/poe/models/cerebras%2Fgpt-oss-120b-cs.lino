@@ -1,0 +1,36 @@
+model 'GPT-OSS-120B-CS'
+  has id
+    'cerebras/gpt-oss-120b-cs'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2025-08-06
+  last updated at
+    2025-08-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      0
+  costs
+    input
+      0.35
+    output
+      0.75

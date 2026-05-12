@@ -1,0 +1,40 @@
+model 'Claude 3 Opus'
+  has id
+    'claude-3-opus'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'claude'
+  status
+    active
+  released at
+    2024-03-04
+  last updated at
+    2024-03-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      4096
+  costs
+    input
+      15
+    output
+      75
+    cacheRead
+      1.5

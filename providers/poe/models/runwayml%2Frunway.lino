@@ -1,0 +1,32 @@
+model 'Runway'
+  has id
+    'runwayml/runway'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'runway'
+  status
+    active
+  released at
+    2024-10-11
+  last updated at
+    2024-10-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      256
+    output
+      0

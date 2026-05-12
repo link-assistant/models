@@ -1,0 +1,34 @@
+model 'Nvidia Nemotron Ultra 253B'
+  has id
+    'nvidia/Llama-3.1-Nemotron-Ultra-253B-v1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-07-03
+  last updated at
+    2025-07-03
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.4
+    output
+      0.8

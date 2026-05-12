@@ -1,0 +1,31 @@
+model 'claude-code'
+  has id
+    'poetools/claude-code'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2025-11-27
+  last updated at
+    2025-11-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

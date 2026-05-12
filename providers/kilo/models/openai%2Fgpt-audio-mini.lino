@@ -1,0 +1,34 @@
+model 'OpenAI: GPT Audio Mini'
+  has id
+    'openai/gpt-audio-mini'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-01-20
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      audio text
+    output
+      audio text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.6
+    output
+      2.4

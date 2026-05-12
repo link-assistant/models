@@ -1,0 +1,40 @@
+model 'Qwen3 235B A22B 2507'
+  has id
+    'qwen.qwen3-235b-a22b-2507-v1:0'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-18
+  last updated at
+    2025-09-18
+  has knowledge cutoff at
+    2024-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.22
+    output
+      0.88

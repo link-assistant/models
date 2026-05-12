@@ -1,0 +1,36 @@
+model 'doubao-seed-code-preview-251028'
+  has id
+    'doubao-seed-code-preview-251028'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-11-11
+  last updated at
+    2025-11-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      0.17
+    output
+      1.14

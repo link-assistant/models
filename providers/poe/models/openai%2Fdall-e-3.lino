@@ -1,0 +1,32 @@
+model 'DALL-E-3'
+  has id
+    'openai/dall-e-3'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'dall-e'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2023-11-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      800
+    output
+      0

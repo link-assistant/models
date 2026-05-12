@@ -1,0 +1,38 @@
+model 'Kimi K2 Instruct'
+  has id
+    'moonshotai/kimi-k2-instruct'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.57
+    output
+      2.3

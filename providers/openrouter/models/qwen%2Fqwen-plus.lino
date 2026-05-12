@@ -1,0 +1,43 @@
+model 'Qwen: Qwen-Plus'
+  has id
+    'qwen/qwen-plus'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-01-25
+  last updated at
+    2025-01-25
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      0.26
+    output
+      0.78
+    cacheRead
+      0.052
+    cacheWrite
+      0.325

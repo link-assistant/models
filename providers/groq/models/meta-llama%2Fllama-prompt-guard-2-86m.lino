@@ -1,0 +1,38 @@
+model 'Llama Prompt Guard 2 86M'
+  has id
+    'meta-llama/llama-prompt-guard-2-86m'
+  provider id
+    'groq'
+  provided by
+    'Groq'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-10-01
+  last updated at
+    2024-10-01
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      512
+    output
+      512
+  costs
+    input
+      0.04
+    output
+      0.04

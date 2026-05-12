@@ -1,0 +1,39 @@
+model 'ERNIE 4.5 21B A3B'
+  has id
+    'baidu/ernie-4.5-21B-a3b'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'ernie'
+  status
+    active
+  released at
+    2025-06-30
+  last updated at
+    2025-06-30
+  has knowledge cutoff at
+    2025-03
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '120 000'
+    output
+      8000
+  costs
+    input
+      0.07
+    output
+      0.28

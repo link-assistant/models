@@ -1,0 +1,37 @@
+model 'qwen3-max-2025-09-23'
+  has id
+    'qwen3-max-2025-09-23'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-09-24
+  last updated at
+    2025-09-24
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '258 048'
+    output
+      '65 536'
+  costs
+    input
+      0.86
+    output
+      3.43

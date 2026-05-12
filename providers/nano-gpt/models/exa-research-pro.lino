@@ -1,0 +1,32 @@
+model 'Exa (Research Pro)'
+  has id
+    'exa-research-pro'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-06-04
+  last updated at
+    2025-06-04
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    input
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      2.5
+    output
+      2.5

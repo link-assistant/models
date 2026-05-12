@@ -1,0 +1,40 @@
+model 'Qwen3-Coder 30B-A3B'
+  has id
+    'qwen3-coder-30b-a3b'
+  provider id
+    'privatemode-ai'
+  provided by
+    'Privatemode AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04
+  last updated at
+    2025-04
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,40 @@
+model 'gemini-2.5-flash'
+  has id
+    'gemini-2.5-flash'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2025-06-17
+  last updated at
+    2025-06-17
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.3
+    output
+      2.5

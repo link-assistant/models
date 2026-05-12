@@ -1,0 +1,39 @@
+model 'Qwen2.5 Coder 32B Instruct'
+  has id
+    'qwen/qwen-2.5-coder-32b-instruct'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-11-11
+  last updated at
+    2024-11-11
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

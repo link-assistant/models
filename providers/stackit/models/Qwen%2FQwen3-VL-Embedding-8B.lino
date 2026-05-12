@@ -1,0 +1,36 @@
+model 'Qwen3-VL Embedding 8B'
+  has id
+    'Qwen/Qwen3-VL-Embedding-8B'
+  provider id
+    'stackit'
+  provided by
+    'STACKIT'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-05
+  last updated at
+    2026-02-05
+  weights
+    open
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      4096
+  costs
+    input
+      0.09
+    output
+      0.09

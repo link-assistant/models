@@ -1,0 +1,42 @@
+model 'GLM-4.6V'
+  has id
+    'zai-org/GLM-4.6V'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-09-30
+  last updated at
+    2025-09-30
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      0.9

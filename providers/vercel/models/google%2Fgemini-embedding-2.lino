@@ -1,0 +1,31 @@
+model 'Gemini Embedding 2'
+  has id
+    'google/gemini-embedding-2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gemini-embedding'
+  status
+    active
+  released at
+    2026-03-10
+  last updated at
+    2026-03-23
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

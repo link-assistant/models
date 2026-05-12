@@ -1,0 +1,38 @@
+model 'DeepSeek-V3.2-Exp'
+  has id
+    'deepseek/deepseek-v3.2-exp'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-09-29
+  last updated at
+    2025-09-29
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 000'
+    output
+      '64 000'
+  costs
+    input
+      0.22
+    output
+      0.33

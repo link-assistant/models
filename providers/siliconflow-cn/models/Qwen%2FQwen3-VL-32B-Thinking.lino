@@ -1,0 +1,40 @@
+model 'Qwen/Qwen3-VL-32B-Thinking'
+  has id
+    'Qwen/Qwen3-VL-32B-Thinking'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-10-21
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.2
+    output
+      1.5

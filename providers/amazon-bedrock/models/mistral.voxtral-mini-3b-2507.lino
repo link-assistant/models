@@ -1,0 +1,38 @@
+model 'Voxtral Mini 3B 2507'
+  has id
+    'mistral.voxtral-mini-3b-2507'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      audio text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.04
+    output
+      0.04

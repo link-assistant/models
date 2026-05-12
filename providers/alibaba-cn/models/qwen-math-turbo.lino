@@ -1,0 +1,39 @@
+model 'Qwen Math Turbo'
+  has id
+    'qwen-math-turbo'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-09-19
+  last updated at
+    2024-09-19
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      3072
+  costs
+    input
+      0.287
+    output
+      0.861

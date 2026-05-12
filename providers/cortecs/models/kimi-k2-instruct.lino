@@ -1,0 +1,39 @@
+model 'Kimi K2 Instruct'
+  has id
+    'kimi-k2-instruct'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-07-11
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.551
+    output
+      2.646

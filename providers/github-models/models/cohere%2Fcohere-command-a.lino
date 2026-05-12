@@ -1,0 +1,40 @@
+model 'Cohere Command A'
+  has id
+    'cohere/cohere-command-a'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'command-a'
+  status
+    active
+  released at
+    2024-11-01
+  last updated at
+    2024-11-01
+  has knowledge cutoff at
+    2024-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

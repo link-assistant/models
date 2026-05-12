@@ -1,0 +1,32 @@
+model 'Titan Text Embeddings V2'
+  has id
+    'amazon/titan-embed-text-v2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'titan-embed'
+  status
+    active
+  released at
+    2024-04
+  last updated at
+    2024-04
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1536
+  costs
+    input
+      0.02
+    output
+      0

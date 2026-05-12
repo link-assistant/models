@@ -1,0 +1,42 @@
+model 'GLM 5.1'
+  has id
+    'zai-org/glm-5.1'
+  provider id
+    'hpc-ai'
+  provided by
+    'HPC-AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-08
+  last updated at
+    2026-04-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 000'
+    output
+      '202 000'
+  costs
+    input
+      0.66
+    output
+      2
+    cacheRead
+      0.12

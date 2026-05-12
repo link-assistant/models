@@ -1,0 +1,38 @@
+model 'GPT OSS 20B'
+  has id
+    'accounts/fireworks/models/gpt-oss-20b'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.05
+    output
+      0.2

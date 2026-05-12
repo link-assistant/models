@@ -1,0 +1,40 @@
+model 'Ling-2.6-flash'
+  has id
+    'inclusionai/ling-2.6-flash'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.3
+    cacheRead
+      0.02

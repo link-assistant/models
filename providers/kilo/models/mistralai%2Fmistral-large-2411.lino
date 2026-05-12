@@ -1,0 +1,35 @@
+model 'Mistral Large 2411'
+  has id
+    'mistralai/mistral-large-2411'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-07-24
+  last updated at
+    2024-11-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '26 215'
+  costs
+    input
+      2
+    output
+      6

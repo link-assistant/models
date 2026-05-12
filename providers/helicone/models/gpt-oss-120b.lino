@@ -1,0 +1,40 @@
+model 'OpenAI GPT-OSS 120b'
+  has id
+    'gpt-oss-120b'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2024-06-01
+  last updated at
+    2024-06-01
+  has knowledge cutoff at
+    2024-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.04
+    output
+      0.16

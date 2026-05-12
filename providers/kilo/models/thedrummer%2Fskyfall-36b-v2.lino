@@ -1,0 +1,34 @@
+model 'TheDrummer: Skyfall 36B V2'
+  has id
+    'thedrummer/skyfall-36b-v2'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-03-11
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.55
+    output
+      0.8

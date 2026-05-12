@@ -1,0 +1,37 @@
+model 'Microsoft: Phi 4 Mini Instruct'
+  has id
+    'microsoft/phi-4-mini-instruct'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-10-17
+  last updated at
+    2026-05-07
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.08
+    output
+      0.35
+    cacheRead
+      0.08

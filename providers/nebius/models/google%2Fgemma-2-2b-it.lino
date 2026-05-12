@@ -1,0 +1,42 @@
+model 'Gemma-2-2b-it'
+  has id
+    'google/gemma-2-2b-it'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  status
+    active
+  released at
+    2024-07-31
+  last updated at
+    2026-02-04
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    input
+      8000
+    output
+      4096
+  costs
+    input
+      0.02
+    output
+      0.06
+    cacheRead
+      0.002
+    cacheWrite
+      0.025

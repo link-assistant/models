@@ -1,0 +1,37 @@
+model 'Gemini-2.0-Flash'
+  has id
+    'google/gemini-2.0-flash'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2024-12-11
+  last updated at
+    2024-12-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '990 000'
+    output
+      8192
+  costs
+    input
+      0.1
+    output
+      0.42

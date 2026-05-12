@@ -1,0 +1,39 @@
+model 'Sonar Pro'
+  has id
+    'sonar-pro'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'sonar-pro'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2025-09-01
+  has knowledge cutoff at
+    2025-09-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      8192
+  costs
+    input
+      3
+    output
+      15

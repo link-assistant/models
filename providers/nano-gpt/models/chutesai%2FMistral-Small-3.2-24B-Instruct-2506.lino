@@ -1,0 +1,34 @@
+model 'Mistral Small 3.2 24b Instruct'
+  has id
+    'chutesai/Mistral-Small-3.2-24B-Instruct-2506'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'chutesai'
+  status
+    active
+  released at
+    2025-04-15
+  last updated at
+    2025-04-15
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '131 072'
+  costs
+    input
+      0.2
+    output
+      0.4

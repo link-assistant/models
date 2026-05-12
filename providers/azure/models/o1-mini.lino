@@ -1,0 +1,41 @@
+model 'o1-mini'
+  has id
+    'o1-mini'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'o-mini'
+  status
+    active
+  released at
+    2024-09-12
+  last updated at
+    2024-09-12
+  has knowledge cutoff at
+    2023-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '65 536'
+  costs
+    input
+      1.1
+    output
+      4.4
+    cacheRead
+      0.55

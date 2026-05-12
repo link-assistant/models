@@ -1,0 +1,39 @@
+model 'Qwen3-Coder-Plus'
+  has id
+    'qwen3-coder-plus'
+  provider id
+    'iflowcn'
+  provided by
+    'iFlow'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-01
+  last updated at
+    2025-07-01
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0

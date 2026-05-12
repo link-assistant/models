@@ -1,0 +1,32 @@
+model 'Auto'
+  has id
+    'auto'
+  provider id
+    'morph'
+  provided by
+    'Morph'
+  family
+    'auto'
+  status
+    active
+  released at
+    2024-06-01
+  last updated at
+    2024-06-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.85
+    output
+      1.55

@@ -1,0 +1,31 @@
+model 'voyage-4'
+  has id
+    'voyage/voyage-4'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'voyage'
+  status
+    active
+  released at
+    2026-03-06
+  last updated at
+    2026-03-06
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      0

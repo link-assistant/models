@@ -1,0 +1,41 @@
+model 'DeepSeek V3.1'
+  has id
+    'deepseek/deepseek-v3.1'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.27
+    output
+      1
+    cacheRead
+      0.135

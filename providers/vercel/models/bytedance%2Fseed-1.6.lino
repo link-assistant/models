@@ -1,0 +1,42 @@
+model 'Seed 1.6'
+  has id
+    'bytedance/seed-1.6'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'seed'
+  status
+    active
+  released at
+    2025-09
+  last updated at
+    2025-09
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      0.25
+    output
+      2
+    cacheRead
+      0.05

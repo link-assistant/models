@@ -1,0 +1,39 @@
+model 'GLM 4.7 Flash (Free)'
+  has id
+    'z-ai/glm-4.7-flash-free'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,42 @@
+model 'MiniMax-M2.5'
+  has id
+    'minimax-m2-5'
+  provider id
+    'frogbot'
+  provided by
+    'FrogBot'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2025-01-15
+  last updated at
+    2025-02-22
+  has knowledge cutoff at
+    2024-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '192 000'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.03

@@ -1,0 +1,39 @@
+model 'MiniMax M2.5'
+  has id
+    'public/minimax-m25'
+  provider id
+    'drun'
+  provided by
+    'D.Run (China)'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2025-03-01
+  last updated at
+    2025-03-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0.29
+    output
+      1.16

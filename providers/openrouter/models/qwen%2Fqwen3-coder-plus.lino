@@ -1,0 +1,44 @@
+model 'Qwen3 Coder Plus'
+  has id
+    'qwen/qwen3-coder-plus'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.65
+    output
+      3.25
+    cacheRead
+      0.13
+    cacheWrite
+      0.8125

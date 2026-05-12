@@ -1,0 +1,34 @@
+model 'DeepSeek V3.1 Thinking'
+  has id
+    'deepseek-ai/DeepSeek-V3.1:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '65 536'
+  costs
+    input
+      0.2
+    output
+      0.7

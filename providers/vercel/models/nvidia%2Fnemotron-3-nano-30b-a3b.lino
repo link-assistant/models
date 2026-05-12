@@ -1,0 +1,39 @@
+model 'Nemotron 3 Nano 30B A3B'
+  has id
+    'nvidia/nemotron-3-nano-30b-a3b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2024-12
+  last updated at
+    2024-12
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.06
+    output
+      0.24

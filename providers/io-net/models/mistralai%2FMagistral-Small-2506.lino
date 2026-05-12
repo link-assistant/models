@@ -1,0 +1,43 @@
+model 'Magistral Small 2506'
+  has id
+    'mistralai/Magistral-Small-2506'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'magistral-small'
+  status
+    active
+  released at
+    2025-06-01
+  last updated at
+    2025-06-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.5
+    output
+      1.5
+    cacheRead
+      0.25
+    cacheWrite
+      1

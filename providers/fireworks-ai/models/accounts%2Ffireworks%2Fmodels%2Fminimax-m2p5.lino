@@ -1,0 +1,41 @@
+model 'MiniMax-M2.5'
+  has id
+    'accounts/fireworks/models/minimax-m2p5'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 608'
+    output
+      '196 608'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.03

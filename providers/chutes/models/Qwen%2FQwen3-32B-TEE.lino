@@ -1,0 +1,41 @@
+model 'Qwen3 32B TEE'
+  has id
+    'Qwen/Qwen3-32B-TEE'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-25
+  last updated at
+    2026-04-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '40 960'
+    output
+      '40 960'
+  costs
+    input
+      0.08
+    output
+      0.24
+    cacheRead
+      0.04

@@ -1,0 +1,40 @@
+model 'Qwen3-235B-A22B'
+  has id
+    'qwen3-235b'
+  provider id
+    'iflowcn'
+  provided by
+    'iFlow'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 000'
+  costs
+    input
+      0
+    output
+      0

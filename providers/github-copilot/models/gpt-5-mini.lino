@@ -1,0 +1,43 @@
+model 'GPT-5-mini'
+  has id
+    'gpt-5-mini'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-08-13
+  last updated at
+    2025-08-13
+  has knowledge cutoff at
+    2024-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '264 000'
+    input
+      '128 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0

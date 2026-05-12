@@ -1,0 +1,43 @@
+model 'Qwen 2.5 VL 32B Instruct'
+  has id
+    'Qwen/Qwen2.5-VL-32B-Instruct'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-11-01
+  last updated at
+    2024-11-01
+  has knowledge cutoff at
+    2024-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      4096
+  costs
+    input
+      0.05
+    output
+      0.22
+    cacheRead
+      0.025
+    cacheWrite
+      0.1

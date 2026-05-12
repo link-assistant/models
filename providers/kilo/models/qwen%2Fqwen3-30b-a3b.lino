@@ -1,0 +1,38 @@
+model 'Qwen: Qwen3 30B A3B'
+  has id
+    'qwen/qwen3-30b-a3b'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-04
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '40 960'
+    output
+      '40 960'
+  costs
+    input
+      0.08
+    output
+      0.28
+    cacheRead
+      0.03

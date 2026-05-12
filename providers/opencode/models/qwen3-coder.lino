@@ -1,0 +1,39 @@
+model 'Qwen3 Coder'
+  has id
+    'qwen3-coder'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'qwen'
+  status
+    deprecated
+  released at
+    2025-07-23
+  last updated at
+    2025-07-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.45
+    output
+      1.8

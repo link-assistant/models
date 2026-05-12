@@ -1,0 +1,43 @@
+model 'GLM 4.7'
+  has id
+    'accounts/fireworks/models/glm-4p7'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-22
+  last updated at
+    2025-12-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '198 000'
+    output
+      '198 000'
+  costs
+    input
+      0.6
+    output
+      2.2
+    cacheRead
+      0.3

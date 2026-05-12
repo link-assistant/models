@@ -1,0 +1,32 @@
+model 'Mistral Embed'
+  has id
+    'mistral/mistral-embed'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mistral-embed'
+  status
+    active
+  released at
+    2023-12-11
+  last updated at
+    2023-12-11
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1536
+  costs
+    input
+      0.1
+    output
+      0

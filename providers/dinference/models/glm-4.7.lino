@@ -1,0 +1,41 @@
+model 'GLM-4.7'
+  has id
+    'glm-4.7'
+  provider id
+    'dinference'
+  provided by
+    'DInference'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-22
+  last updated at
+    2025-12-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.45
+    output
+      1.65

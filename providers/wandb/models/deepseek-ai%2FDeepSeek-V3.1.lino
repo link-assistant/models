@@ -1,0 +1,38 @@
+model 'DeepSeek V3.1'
+  has id
+    'deepseek-ai/DeepSeek-V3.1'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2026-03-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '161 000'
+    output
+      '161 000'
+  costs
+    input
+      0.55
+    output
+      1.65

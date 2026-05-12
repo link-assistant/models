@@ -1,0 +1,39 @@
+model 'Qwen3.5 397B A17B FP8'
+  has id
+    'Qwen/Qwen3.5-397B-A17B-FP8'
+  provider id
+    'neuralwatt'
+  provided by
+    'Neuralwatt'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-01
+  last updated at
+    2026-02-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.69
+    output
+      4.14

@@ -1,0 +1,37 @@
+model 'Kimi-K2.5-FW'
+  has id
+    'fireworks-ai/kimi-k2.5-fw'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2026-01-27
+  last updated at
+    2026-01-27
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '245 760'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

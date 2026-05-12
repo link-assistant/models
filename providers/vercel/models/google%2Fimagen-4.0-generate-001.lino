@@ -1,0 +1,27 @@
+model 'Imagen 4'
+  has id
+    'google/imagen-4.0-generate-001'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'imagen'
+  status
+    active
+  released at
+    2025-05-22
+  last updated at
+    2025-05-22
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      480
+    output
+      0

@@ -1,0 +1,38 @@
+model 'Z.ai: GLM 4.7 Flash'
+  has id
+    'z-ai/glm-4.7-flash'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '40 551'
+  costs
+    input
+      0.06
+    output
+      0.4
+    cacheRead
+      0.01

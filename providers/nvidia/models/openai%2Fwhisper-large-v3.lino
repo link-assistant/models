@@ -1,0 +1,34 @@
+model 'Whisper Large v3'
+  has id
+    'openai/whisper-large-v3'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2023-09-01
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2023-09
+  weights
+    open
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

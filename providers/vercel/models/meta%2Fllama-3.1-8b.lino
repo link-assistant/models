@@ -1,0 +1,39 @@
+model 'Llama 3.1 8B Instruct'
+  has id
+    'meta/llama-3.1-8b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-07-23
+  last updated at
+    2024-07-23
+  has knowledge cutoff at
+    2023-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.03
+    output
+      0.05

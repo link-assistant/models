@@ -1,0 +1,39 @@
+model 'Qwen Long'
+  has id
+    'qwen-long'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-01-25
+  last updated at
+    2025-01-25
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '10 000 000'
+    output
+      8192
+  costs
+    input
+      0.072
+    output
+      0.287

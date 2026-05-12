@@ -1,0 +1,36 @@
+model 'Llama 3.3 70b Instruct'
+  has id
+    'meta/llama-3.3-70b-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-11-26
+  last updated at
+    2024-11-26
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

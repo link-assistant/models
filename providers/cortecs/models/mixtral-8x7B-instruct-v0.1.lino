@@ -1,0 +1,37 @@
+model 'Mixtral 8x7B Instruct v0.1'
+  has id
+    'mixtral-8x7B-instruct-v0.1'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2023-12-11
+  last updated at
+    2023-12-11
+  has knowledge cutoff at
+    2023-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.438
+    output
+      0.68

@@ -1,0 +1,41 @@
+model 'GLM 4.5'
+  has id
+    'glm-4.5'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-07-29
+  last updated at
+    2025-07-29
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.67
+    output
+      2.46

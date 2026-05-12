@@ -1,0 +1,32 @@
+model 'E5 Large v2'
+  has id
+    'e5-large-v2'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2023-05-19
+  last updated at
+    2026-04-30
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      512
+    output
+      1024
+  costs
+    input
+      0.02
+    output
+      0

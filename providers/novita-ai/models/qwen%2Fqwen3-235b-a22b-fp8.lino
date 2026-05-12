@@ -1,0 +1,35 @@
+model 'Qwen3 235B A22B'
+  has id
+    'qwen/qwen3-235b-a22b-fp8'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-04-29
+  last updated at
+    2025-04-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '40 960'
+    output
+      '20 000'
+  costs
+    input
+      0.2
+    output
+      0.8

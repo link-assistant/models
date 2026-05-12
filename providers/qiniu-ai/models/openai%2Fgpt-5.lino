@@ -1,0 +1,30 @@
+model 'OpenAI/GPT-5'
+  has id
+    'openai/gpt-5'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-09-19
+  last updated at
+    2025-09-19
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'

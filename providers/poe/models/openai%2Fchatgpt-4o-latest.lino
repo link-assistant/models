@@ -1,0 +1,37 @@
+model 'ChatGPT-4o-Latest'
+  has id
+    'openai/chatgpt-4o-latest'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt'
+  status
+    deprecated
+  released at
+    2024-08-14
+  last updated at
+    2024-08-14
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      4.5
+    output
+      14

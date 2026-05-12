@@ -1,0 +1,39 @@
+model 'siliconflow/deepseek-v3.1-terminus'
+  has id
+    'siliconflow/deepseek-v3.1-terminus'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-09-29
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '65 536'
+  costs
+    input
+      0.27
+    output
+      1

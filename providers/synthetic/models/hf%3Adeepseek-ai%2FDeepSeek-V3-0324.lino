@@ -1,0 +1,37 @@
+model 'DeepSeek V3 (0324)'
+  has id
+    'hf:deepseek-ai/DeepSeek-V3-0324'
+  provider id
+    'synthetic'
+  provided by
+    'Synthetic'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-01
+  last updated at
+    2025-08-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      1.2
+    output
+      1.2

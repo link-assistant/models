@@ -1,0 +1,38 @@
+model 'FLUX.2 Klein 4B'
+  has id
+    'black-forest-labs/flux_2-klein-4b'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'flux'
+  status
+    active
+  released at
+    2026-01-14
+  last updated at
+    2026-01-31
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      image text
+    output
+      image
+  limits
+    context
+      '40 960'
+    output
+      '40 960'
+  costs
+    input
+      0
+    output
+      0

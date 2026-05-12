@@ -1,0 +1,43 @@
+model 'GPT-OSS 20B'
+  has id
+    'openai/gpt-oss-20b'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '64 000'
+    output
+      4096
+  costs
+    input
+      0.03
+    output
+      0.14
+    cacheRead
+      0.015
+    cacheWrite
+      0.06

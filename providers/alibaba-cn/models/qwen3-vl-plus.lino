@@ -1,0 +1,42 @@
+model 'Qwen3-VL Plus'
+  has id
+    'qwen3-vl-plus'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.143353
+    output
+      1.433525
+    reasoning
+      4.300576

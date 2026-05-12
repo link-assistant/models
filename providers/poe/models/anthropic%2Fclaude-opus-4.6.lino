@@ -1,0 +1,40 @@
+model 'Claude-Opus-4.6'
+  has id
+    'anthropic/claude-opus-4.6'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2026-02-04
+  last updated at
+    2026-02-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '983 040'
+    output
+      '128 000'
+  costs
+    input
+      4.3
+    output
+      21
+    cacheRead
+      0.43
+    cacheWrite
+      5.3

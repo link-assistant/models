@@ -1,0 +1,40 @@
+model 'Qwen3 Next 80B A3B Thinking'
+  has id
+    'alibaba/qwen3-next-80b-a3b-thinking'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-12
+  last updated at
+    2025-09-12
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.15
+    output
+      1.5

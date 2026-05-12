@@ -1,0 +1,38 @@
+model 'Mistral Small'
+  has id
+    'mistral-small'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2024-02-26
+  last updated at
+    2024-02-26
+  has knowledge cutoff at
+    2024-02
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      75
+    output
+      200

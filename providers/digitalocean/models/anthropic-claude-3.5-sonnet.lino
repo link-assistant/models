@@ -1,0 +1,44 @@
+model 'Claude 3.5 Sonnet'
+  has id
+    'anthropic-claude-3.5-sonnet'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'claude-sonnet'
+  status
+    deprecated
+  released at
+    2024-06-20
+  last updated at
+    2024-10-22
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      8192
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

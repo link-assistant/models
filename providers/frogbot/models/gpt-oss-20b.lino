@@ -1,0 +1,39 @@
+model 'GPT OSS 20B'
+  has id
+    'gpt-oss-20b'
+  provider id
+    'frogbot'
+  provided by
+    'FrogBot'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    1970-01-01
+  last updated at
+    1970-01-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.07
+    output
+      0.2

@@ -1,0 +1,42 @@
+model 'Claude 3.5 Haiku'
+  has id
+    'anthropic/claude-3.5-haiku'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2024-11-04
+  last updated at
+    2024-11-04
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      0.8
+    output
+      4
+    cacheRead
+      0.08
+    cacheWrite
+      1

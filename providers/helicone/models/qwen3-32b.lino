@@ -1,0 +1,40 @@
+model 'Qwen3 32B'
+  has id
+    'qwen3-32b'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04-28
+  last updated at
+    2025-04-28
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '40 960'
+  costs
+    input
+      0.29
+    output
+      0.59

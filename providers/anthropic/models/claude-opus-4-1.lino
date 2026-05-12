@@ -1,4 +1,14 @@
 model 'Claude Opus 4.1 (latest)'
+  has id
+    'claude-opus-4-1'
+  provider id
+    'anthropic'
+  provided by
+    'Anthropic'
+  family
+    'claude-opus'
+  status
+    active
   released at
     2025-08-05
   last updated at
@@ -16,7 +26,7 @@ model 'Claude Opus 4.1 (latest)'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
@@ -26,10 +36,10 @@ model 'Claude Opus 4.1 (latest)'
       '32 000'
   costs
     input
-      15.00
+      15
     output
-      75.00
+      75
     cacheRead
-      1.50
+      1.5
     cacheWrite
       18.75

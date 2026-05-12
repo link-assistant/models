@@ -1,0 +1,41 @@
+model 'Kimi K2 Thinking'
+  has id
+    'moonshotai/Kimi-K2-Thinking'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2025-11-06
+  last updated at
+    2025-11-07
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.47
+    output
+      2

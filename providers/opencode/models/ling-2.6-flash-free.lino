@@ -1,0 +1,39 @@
+model 'Ling 2.6 Flash Free'
+  has id
+    'ling-2.6-flash-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'ling-flash-free'
+  status
+    deprecated
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 100'
+    output
+      '32 800'
+  costs
+    input
+      0
+    output
+      0

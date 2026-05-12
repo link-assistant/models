@@ -1,0 +1,32 @@
+model 'Llama 3.3 70B'
+  has id
+    'nvidia/Llama-3.3-70B-Instruct-FP8'
+  provider id
+    'evroc'
+  provided by
+    'evroc'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      1.18
+    output
+      1.18

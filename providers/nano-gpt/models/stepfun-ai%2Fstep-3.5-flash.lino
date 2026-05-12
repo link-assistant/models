@@ -1,0 +1,38 @@
+model 'Step 3.5 Flash'
+  has id
+    'stepfun-ai/step-3.5-flash'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'step'
+  status
+    active
+  released at
+    2026-02-02
+  last updated at
+    2026-02-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.2
+    output
+      0.5

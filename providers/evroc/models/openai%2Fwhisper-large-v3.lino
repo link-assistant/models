@@ -1,0 +1,34 @@
+model 'Whisper 3 Large'
+  has id
+    'openai/whisper-large-v3'
+  provider id
+    'evroc'
+  provided by
+    'evroc'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2024-10-01
+  last updated at
+    2024-10-01
+  weights
+    open
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      448
+    output
+      4096
+  costs
+    input
+      0.00236
+    output
+      0.00236
+    outputAudio
+      2.36

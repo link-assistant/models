@@ -1,0 +1,38 @@
+model 'MiniMax M1'
+  has id
+    'minimaxai/minimax-m1-80k'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '40 000'
+  costs
+    input
+      0.55
+    output
+      2.2

@@ -1,0 +1,85 @@
+name: Update models.dev data
+
+on:
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-models:
+    name: Refresh catalog and open PR
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24.x'
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --prefix website
+
+      - name: Update model data
+        run: npm --prefix website run update:data
+
+      - name: Validate generated model data
+        run: npm --prefix website run check:data
+
+      - name: Run tests
+        run: npm --prefix website run test
+
+      - name: Build website
+        run: npm --prefix website run build
+
+      - name: Open update pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          UPDATE_BRANCH: automation/update-models-dev-data
+        run: |
+          if git diff --quiet && [ -z "$(git status --short)" ]; then
+            echo "No models.dev data changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$UPDATE_BRANCH"
+          git add providers website/public/models.json
+          git commit -m "Update models.dev catalog data"
+          git push --force-with-lease origin "$UPDATE_BRANCH"
+
+          existing_pr="$(gh pr list --head "$UPDATE_BRANCH" --base main --state open --json number --jq '.[0].number')"
+          body="$(cat <<'BODY'
+          Updates the generated Links Notation model files and website catalog from https://models.dev/api.json.
+
+          Verification:
+          - npm --prefix website run check:data
+          - npm --prefix website run test
+          - npm --prefix website run build
+          BODY
+          )"
+
+          if [ -n "$existing_pr" ]; then
+            gh pr edit "$existing_pr" --title "Update models.dev catalog data" --body "$body"
+          else
+            gh pr create \
+              --base main \
+              --head "$UPDATE_BRANCH" \
+              --title "Update models.dev catalog data" \
+              --body "$body"
+          fi

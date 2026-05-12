@@ -1,0 +1,38 @@
+model 'Meta Llama Prompt Guard 2 86M'
+  has id
+    'llama-prompt-guard-2-86m'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-10-01
+  last updated at
+    2024-10-01
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      512
+    output
+      2
+  costs
+    input
+      0.01
+    output
+      0.01

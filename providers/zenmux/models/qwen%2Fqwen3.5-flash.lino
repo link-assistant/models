@@ -1,0 +1,38 @@
+model 'Qwen3.5 Flash'
+  has id
+    'qwen/qwen3.5-flash'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-03-20
+  last updated at
+    2026-03-20
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 020 000'
+    output
+      '1 020 000'
+  costs
+    input
+      0.1
+    output
+      0.4

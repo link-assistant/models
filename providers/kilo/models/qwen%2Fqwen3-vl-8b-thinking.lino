@@ -1,0 +1,37 @@
+model 'Qwen: Qwen3 VL 8B Thinking'
+  has id
+    'qwen/qwen3-vl-8b-thinking'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.117
+    output
+      1.365

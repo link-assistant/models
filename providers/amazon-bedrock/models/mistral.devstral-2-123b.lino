@@ -1,0 +1,37 @@
+model 'Devstral 2 123B'
+  has id
+    'mistral.devstral-2-123b'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2026-02-17
+  last updated at
+    2026-02-17
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      8192
+  costs
+    input
+      0.4
+    output
+      2

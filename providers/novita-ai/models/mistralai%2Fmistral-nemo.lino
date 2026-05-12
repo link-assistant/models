@@ -1,0 +1,37 @@
+model 'Mistral Nemo'
+  has id
+    'mistralai/mistral-nemo'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'mistral-nemo'
+  status
+    active
+  released at
+    2024-07-30
+  last updated at
+    2024-07-30
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '60 288'
+    output
+      '16 000'
+  costs
+    input
+      0.04
+    output
+      0.17

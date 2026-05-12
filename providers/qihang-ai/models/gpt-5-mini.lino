@@ -1,0 +1,41 @@
+model 'GPT-5-Mini'
+  has id
+    'gpt-5-mini'
+  provider id
+    'qihang-ai'
+  provided by
+    'QiHang'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-09-15
+  last updated at
+    2025-09-15
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      0.04
+    output
+      0.29

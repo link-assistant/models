@@ -1,0 +1,40 @@
+model 'DeepSeek V3.1'
+  has id
+    'accounts/fireworks/models/deepseek-v3p1'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  has knowledge cutoff at
+    2025-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '163 840'
+  costs
+    input
+      0.56
+    output
+      1.68

@@ -1,0 +1,43 @@
+model 'Claude Sonnet 4.6'
+  has id
+    'anthropic/claude-sonnet-4-6'
+  provider id
+    'perplexity-agent'
+  provided by
+    'Perplexity Agent'
+  family
+    'claude-sonnet'
+  status
+    active
+  released at
+    2026-02-17
+  last updated at
+    2026-02-17
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.3

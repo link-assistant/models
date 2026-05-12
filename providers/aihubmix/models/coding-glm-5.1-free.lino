@@ -1,0 +1,42 @@
+model 'Coding GLM 5.1 (free)'
+  has id
+    'coding-glm-5.1-free'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-11
+  last updated at
+    2026-04-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

@@ -1,0 +1,33 @@
+model 'kimi-k2-thinking'
+  has id
+    'novita/kimi-k2-thinking'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-11-07
+  last updated at
+    2025-11-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      0

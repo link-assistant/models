@@ -1,0 +1,38 @@
+model 'Trinity Large Thinking'
+  has id
+    'arcee-ai/trinity-large-thinking'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'trinity'
+  status
+    active
+  released at
+    2026-04-01
+  last updated at
+    2026-04-03
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '80 000'
+  costs
+    input
+      0.22
+    output
+      0.85

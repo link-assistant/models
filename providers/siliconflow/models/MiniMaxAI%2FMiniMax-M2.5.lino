@@ -1,0 +1,37 @@
+model 'MiniMaxAI/MiniMax-M2.5'
+  has id
+    'MiniMaxAI/MiniMax-M2.5'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-15
+  last updated at
+    2026-02-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '197 000'
+    output
+      '131 000'
+  costs
+    input
+      0.3
+    output
+      1.2

@@ -1,0 +1,39 @@
+model 'Nemotron 3 Super 120B'
+  has id
+    '@cf/nvidia/nemotron-3-120b-a12b'
+  provider id
+    'cloudflare-workers-ai'
+  provided by
+    'Cloudflare Workers AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.5
+    output
+      1.5

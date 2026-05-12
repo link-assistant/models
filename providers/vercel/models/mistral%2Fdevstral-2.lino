@@ -1,0 +1,34 @@
+model 'Devstral 2'
+  has id
+    'mistral/devstral-2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2025-12-09
+  last updated at
+    2025-12-09
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'

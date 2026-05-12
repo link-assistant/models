@@ -1,0 +1,37 @@
+model 'qwen3-235b-a22b-instruct-2507'
+  has id
+    'qwen3-235b-a22b-instruct-2507'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-07-30
+  last updated at
+    2025-07-30
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '65 536'
+  costs
+    input
+      0.29
+    output
+      1.143

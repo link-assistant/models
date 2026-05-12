@@ -1,0 +1,32 @@
+model 'ministral-3:14b'
+  has id
+    'ministral-3:14b'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2026-01-19
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '128 000'

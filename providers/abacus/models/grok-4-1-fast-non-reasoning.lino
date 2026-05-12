@@ -1,0 +1,38 @@
+model 'Grok 4.1 Fast (Non-Reasoning)'
+  has id
+    'grok-4-1-fast-non-reasoning'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'grok'
+  status
+    active
+  released at
+    2025-11-17
+  last updated at
+    2025-11-17
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '16 384'
+  costs
+    input
+      0.2
+    output
+      0.5

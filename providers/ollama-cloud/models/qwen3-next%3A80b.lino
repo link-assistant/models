@@ -1,0 +1,32 @@
+model 'qwen3-next:80b'
+  has id
+    'qwen3-next:80b'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-15
+  last updated at
+    2026-01-19
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'

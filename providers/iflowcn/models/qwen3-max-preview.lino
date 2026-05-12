@@ -1,0 +1,39 @@
+model 'Qwen3-Max-Preview'
+  has id
+    'qwen3-max-preview'
+  provider id
+    'iflowcn'
+  provided by
+    'iFlow'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      0
+    output
+      0

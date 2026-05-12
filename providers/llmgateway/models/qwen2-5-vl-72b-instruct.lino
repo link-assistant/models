@@ -1,0 +1,39 @@
+model 'Qwen2.5-VL 72B Instruct'
+  has id
+    'qwen2-5-vl-72b-instruct'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-09
+  last updated at
+    2024-09
+  has knowledge cutoff at
+    2024-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      2.8
+    output
+      8.4

@@ -1,0 +1,37 @@
+model 'Kimi K2.6'
+  has id
+    'moonshotai/kimi-k2.6'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'kimi-k2.6'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-04-21
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '65 536'
+  costs
+    input
+      0.53
+    output
+      2.73

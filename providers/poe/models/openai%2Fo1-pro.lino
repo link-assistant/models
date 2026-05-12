@@ -1,0 +1,38 @@
+model 'o1-pro'
+  has id
+    'openai/o1-pro'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'o-pro'
+  status
+    active
+  released at
+    2025-03-19
+  last updated at
+    2025-03-19
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      140
+    output
+      540

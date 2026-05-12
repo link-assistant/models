@@ -1,0 +1,32 @@
+model 'v0 1.5 LG'
+  has id
+    'v0-1.5-lg'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-07-04
+  last updated at
+    2025-07-04
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '64 000'
+  costs
+    input
+      15
+    output
+      75

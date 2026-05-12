@@ -1,0 +1,41 @@
+model 'Grok 2 (1212)'
+  has id
+    'grok-2-1212'
+  provider id
+    'xai'
+  provided by
+    'xAI'
+  family
+    'grok'
+  status
+    active
+  released at
+    2024-12-12
+  last updated at
+    2024-12-12
+  has knowledge cutoff at
+    2024-08
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      2
+    output
+      10
+    cacheRead
+      2

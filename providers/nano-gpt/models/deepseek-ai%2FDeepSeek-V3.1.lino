@@ -1,0 +1,38 @@
+model 'DeepSeek V3.1'
+  has id
+    'deepseek-ai/DeepSeek-V3.1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-07-26
+  last updated at
+    2025-07-26
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '65 536'
+  costs
+    input
+      0.2
+    output
+      0.7

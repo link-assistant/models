@@ -1,0 +1,38 @@
+model 'QwQ 32B'
+  has id
+    'Qwen/QwQ-32B'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-11-28
+  last updated at
+    2024-11-28
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.4
+    output
+      0.4

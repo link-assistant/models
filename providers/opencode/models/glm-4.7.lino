@@ -1,0 +1,43 @@
+model 'GLM-4.7'
+  has id
+    'glm-4.7'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'glm'
+  status
+    deprecated
+  released at
+    2025-12-22
+  last updated at
+    2025-12-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0.6
+    output
+      2.2
+    cacheRead
+      0.1

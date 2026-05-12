@@ -1,0 +1,40 @@
+model 'GLM 4.5 Air'
+  has id
+    'glm-4.5-air'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'glm-air'
+  status
+    active
+  released at
+    2025-08-01
+  last updated at
+    2025-08-01
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.22
+    output
+      1.34

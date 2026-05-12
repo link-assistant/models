@@ -1,0 +1,38 @@
+model 'Qwen/Qwen2.5-14B-Instruct'
+  has id
+    'Qwen/Qwen2.5-14B-Instruct'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-09-18
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '33 000'
+    output
+      4000
+  costs
+    input
+      0.1
+    output
+      0.1

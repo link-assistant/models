@@ -1,0 +1,32 @@
+model 'ElevenLabs-Music'
+  has id
+    'elevenlabs/elevenlabs-music'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'elevenlabs'
+  status
+    active
+  released at
+    2025-08-29
+  last updated at
+    2025-08-29
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      2000
+    output
+      0

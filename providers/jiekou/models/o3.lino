@@ -1,0 +1,37 @@
+model 'o3'
+  has id
+    'o3'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      10
+    output
+      40

@@ -1,0 +1,42 @@
+model 'Grok Code Fast 1'
+  has id
+    'grok-code-fast-1'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'grok'
+  status
+    active
+  released at
+    2025-08-27
+  last updated at
+    2025-08-27
+  has knowledge cutoff at
+    2025-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0

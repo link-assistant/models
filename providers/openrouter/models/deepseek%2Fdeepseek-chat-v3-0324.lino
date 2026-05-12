@@ -1,0 +1,39 @@
+model 'DeepSeek V3 0324'
+  has id
+    'deepseek/deepseek-chat-v3-0324'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-03-24
+  last updated at
+    2025-03-24
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

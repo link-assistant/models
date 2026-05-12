@@ -1,0 +1,39 @@
+model 'GPT-5.3 Codex'
+  has id
+    'openai/gpt-5.3-codex'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-03-20
+  last updated at
+    2026-03-20
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      1.75
+    output
+      14

@@ -1,0 +1,37 @@
+model 'Pixtral Large (25.02)'
+  has id
+    'mistral.pixtral-large-2502-v1:0'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2025-04-08
+  last updated at
+    2025-04-08
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      2
+    output
+      6

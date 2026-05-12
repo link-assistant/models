@@ -1,0 +1,41 @@
+model 'Qwen3 VL Flash'
+  has id
+    'qwen3-vl-flash'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-10-09
+  last updated at
+    2025-10-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 000'
+  costs
+    input
+      0.05
+    output
+      0.4
+    cacheRead
+      0.01

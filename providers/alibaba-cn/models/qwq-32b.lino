@@ -1,0 +1,40 @@
+model 'QwQ 32B'
+  has id
+    'qwq-32b'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-12
+  last updated at
+    2024-12
+  has knowledge cutoff at
+    2024-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.287
+    output
+      0.861

@@ -1,0 +1,32 @@
+model 'deepseek-v4-flash'
+  has id
+    'deepseek-v4-flash'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'

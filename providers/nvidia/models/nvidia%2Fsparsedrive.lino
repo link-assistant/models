@@ -1,0 +1,35 @@
+model 'sparsedrive'
+  has id
+    'nvidia/sparsedrive'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2025-03-18
+  last updated at
+    2025-07-20
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      video
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,42 @@
+model 'Qwen3-LiveTranslate Flash Realtime'
+  has id
+    'qwen3-livetranslate-flash-realtime'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-22
+  last updated at
+    2025-09-22
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text audio
+  limits
+    context
+      '53 248'
+    output
+      4096
+  costs
+    input
+      10
+    output
+      10
+    inputAudio
+      10
+    outputAudio
+      38

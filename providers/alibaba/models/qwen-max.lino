@@ -1,0 +1,39 @@
+model 'Qwen Max'
+  has id
+    'qwen-max'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-04-03
+  last updated at
+    2025-01-25
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      1.6
+    output
+      6.4

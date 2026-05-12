@@ -1,0 +1,36 @@
+model 'Qwen Long 10M'
+  has id
+    'qwen-long'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-01-25
+  last updated at
+    2025-01-25
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '10 000 000'
+    input
+      '10 000 000'
+    output
+      8192
+  costs
+    input
+      0.1003
+    output
+      0.408

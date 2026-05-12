@@ -1,0 +1,39 @@
+model 'Qwen3 Coder 480B A35B Instruct'
+  has id
+    'qwen/qwen3-coder-480b-a35b-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-23
+  last updated at
+    2025-07-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '66 536'
+  costs
+    input
+      0
+    output
+      0

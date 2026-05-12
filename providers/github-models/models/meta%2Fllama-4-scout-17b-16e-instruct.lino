@@ -1,0 +1,40 @@
+model 'Llama 4 Scout 17B 16E Instruct'
+  has id
+    'meta/llama-4-scout-17b-16e-instruct'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-01-31
+  last updated at
+    2025-01-31
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

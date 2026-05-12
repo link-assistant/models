@@ -1,0 +1,42 @@
+model 'Mimo-V2-Flash'
+  has id
+    'mimo-v2-flash'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2025-12-16
+  last updated at
+    2026-02-04
+  has knowledge cutoff at
+    2024-12-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.1
+    output
+      0.3
+    cacheRead
+      0.01

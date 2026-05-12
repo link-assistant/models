@@ -1,0 +1,33 @@
+model 'kimi-k2:1t'
+  has id
+    'kimi-k2:1t'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-07-11
+  last updated at
+    2026-01-19
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'

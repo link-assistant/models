@@ -1,0 +1,41 @@
+model 'GPT-5.4'
+  has id
+    'gpt-5.4'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      2.5
+    output
+      15
+    cacheRead
+      0.25

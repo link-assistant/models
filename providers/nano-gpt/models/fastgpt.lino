@@ -1,0 +1,32 @@
+model 'Web Answer'
+  has id
+    'fastgpt'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2023-08-01
+  last updated at
+    2024-01-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      7.5
+    output
+      7.5

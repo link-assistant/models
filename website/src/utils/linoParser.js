@@ -194,29 +194,16 @@ export function parseLinoFile(content) {
 }
 
 /**
- * Load all model files from the providers directory
- * @returns {Promise<Array>} Array of parsed models
+ * Load all model records from the generated browser catalog.
+ * @returns {Promise<Array>} Array of normalized models
  */
 export async function loadAllModels() {
-  // This will be replaced with actual file loading in the build process
-  const models = [];
+  const response = await fetch(`${import.meta.env.BASE_URL || '/'}models.json`);
 
-  // Import all .lino files from the providers directory
-  const modelFiles = import.meta.glob('/public/providers/**/*.lino', {
-    query: '?raw',
-    import: 'default'
-  });
-
-  for (const path in modelFiles) {
-    try {
-      const content = await modelFiles[path]();
-      const model = parseLinoFile(content);
-      model.id = path.split('/').pop().replace('.lino', '');
-      models.push(model);
-    } catch (error) {
-      console.error(`Error loading ${path}:`, error);
-    }
+  if (!response.ok) {
+    throw new Error(`Failed to load model catalog: ${response.status}`);
   }
 
-  return models;
+  const catalog = await response.json();
+  return Array.isArray(catalog.models) ? catalog.models : [];
 }

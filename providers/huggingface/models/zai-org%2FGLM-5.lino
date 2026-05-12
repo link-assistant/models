@@ -1,0 +1,41 @@
+model 'GLM-5'
+  has id
+    'zai-org/GLM-5'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-11
+  last updated at
+    2026-02-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      3.2
+    cacheRead
+      0.2

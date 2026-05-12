@@ -1,0 +1,34 @@
+model 'usdcode'
+  has id
+    'nvidia/usdcode'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2026-01-01
+  last updated at
+    2026-01-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

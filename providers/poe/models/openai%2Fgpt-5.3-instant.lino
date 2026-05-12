@@ -1,0 +1,39 @@
+model 'GPT-5.3-Instant'
+  has id
+    'openai/gpt-5.3-instant'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2026-03-03
+  last updated at
+    2026-03-03
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '111 616'
+    output
+      '16 384'
+  costs
+    input
+      1.6
+    output
+      13
+    cacheRead
+      0.16

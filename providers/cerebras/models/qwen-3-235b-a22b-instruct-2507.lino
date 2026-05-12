@@ -1,0 +1,39 @@
+model 'Qwen 3 235B Instruct'
+  has id
+    'qwen-3-235b-a22b-instruct-2507'
+  provider id
+    'cerebras'
+  provided by
+    'Cerebras'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-22
+  last updated at
+    2025-07-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '32 000'
+  costs
+    input
+      0.6
+    output
+      1.2

@@ -1,0 +1,38 @@
+model 'DeepSeek V3.1'
+  has id
+    'deepseek-ai/DeepSeek-V3.1'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-25
+  last updated at
+    2025-08-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '164 000'
+    output
+      '131 000'
+  costs
+    input
+      0.5
+    output
+      1.5

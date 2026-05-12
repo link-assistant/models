@@ -1,0 +1,43 @@
+model 'Anthropic: Claude 3 Haiku'
+  has id
+    'claude-3-haiku-20240307'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2024-03-07
+  last updated at
+    2024-03-07
+  has knowledge cutoff at
+    2024-03
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      4096
+  costs
+    input
+      0.25
+    output
+      1.25
+    cacheRead
+      0.03
+    cacheWrite
+      0.3

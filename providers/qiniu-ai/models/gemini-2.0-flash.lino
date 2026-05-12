@@ -1,0 +1,31 @@
+model 'Gemini 2.0 Flash'
+  has id
+    'gemini-2.0-flash'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      8192

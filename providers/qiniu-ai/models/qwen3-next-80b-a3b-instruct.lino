@@ -1,0 +1,30 @@
+model 'Qwen3 Next 80B A3B Instruct'
+  has id
+    'qwen3-next-80b-a3b-instruct'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-09-12
+  last updated at
+    2025-09-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'

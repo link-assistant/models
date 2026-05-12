@@ -1,0 +1,44 @@
+model 'GLM-5.1'
+  has id
+    'glm-5.1'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-03-27
+  last updated at
+    2026-03-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '131 072'
+  costs
+    input
+      6
+    output
+      24
+    cacheRead
+      1.3
+    cacheWrite
+      0

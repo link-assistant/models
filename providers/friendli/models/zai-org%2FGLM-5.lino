@@ -1,0 +1,42 @@
+model 'GLM-5'
+  has id
+    'zai-org/GLM-5'
+  provider id
+    'friendli'
+  provided by
+    'Friendli'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '202 752'
+  costs
+    input
+      1
+    output
+      3.2
+    cacheRead
+      0.5

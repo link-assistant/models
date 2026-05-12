@@ -1,0 +1,38 @@
+model 'OpenReasoning Nemotron 32B'
+  has id
+    'pamanseau/OpenReasoning-Nemotron-32B'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      '65 536'
+  costs
+    input
+      0.1
+    output
+      0.4

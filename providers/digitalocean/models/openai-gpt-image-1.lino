@@ -1,0 +1,38 @@
+model 'GPT Image 1'
+  has id
+    'openai-gpt-image-1'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2025-04-24
+  last updated at
+    2025-04-24
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      5
+    output
+      40
+    cacheRead
+      1.25

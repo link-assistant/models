@@ -1,0 +1,40 @@
+model 'Qwen3.5 397B A17B'
+  has id
+    'qwen3.5-397b-a17b'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-16
+  last updated at
+    2026-02-16
+  has knowledge cutoff at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '250 000'
+    output
+      '250 000'
+  costs
+    input
+      0.6
+    output
+      3.6

@@ -1,0 +1,31 @@
+model 'Z-Ai/GLM 4.7'
+  has id
+    'z-ai/glm-4.7'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-12-23
+  last updated at
+    2025-12-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '200 000'

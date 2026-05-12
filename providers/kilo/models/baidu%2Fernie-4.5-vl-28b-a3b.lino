@@ -1,0 +1,37 @@
+model 'Baidu: ERNIE 4.5 VL 28B A3B'
+  has id
+    'baidu/ernie-4.5-vl-28b-a3b'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-06-30
+  last updated at
+    2025-06-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '30 000'
+    output
+      8000
+  costs
+    input
+      0.14
+    output
+      0.56

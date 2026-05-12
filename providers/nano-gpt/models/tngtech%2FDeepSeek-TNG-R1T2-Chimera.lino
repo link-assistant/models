@@ -1,0 +1,34 @@
+model 'DeepSeek TNG R1T2 Chimera'
+  has id
+    'tngtech/DeepSeek-TNG-R1T2-Chimera'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'tngtech'
+  status
+    active
+  released at
+    2025-09-05
+  last updated at
+    2025-09-05
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.31
+    output
+      0.31

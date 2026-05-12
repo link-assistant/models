@@ -1,0 +1,37 @@
+model 'Qwen: Qwen-Plus'
+  has id
+    'qwen/qwen-plus'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2025-09-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      0.4
+    output
+      1.2
+    cacheRead
+      0.08

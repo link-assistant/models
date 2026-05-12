@@ -1,0 +1,35 @@
+model 'Meta: Llama 3.1 70B Instruct'
+  has id
+    'meta-llama/llama-3.1-70b-instruct'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-07-16
+  last updated at
+    2024-07-23
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '26 215'
+  costs
+    input
+      0.4
+    output
+      0.4

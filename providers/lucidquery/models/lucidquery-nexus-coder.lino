@@ -1,0 +1,40 @@
+model 'LucidQuery Nexus Coder'
+  has id
+    'lucidquery-nexus-coder'
+  provider id
+    'lucidquery'
+  provided by
+    'LucidQuery AI'
+  family
+    'lucid'
+  status
+    active
+  released at
+    2025-09-01
+  last updated at
+    2025-09-01
+  has knowledge cutoff at
+    2025-08-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '250 000'
+    output
+      '60 000'
+  costs
+    input
+      2
+    output
+      5

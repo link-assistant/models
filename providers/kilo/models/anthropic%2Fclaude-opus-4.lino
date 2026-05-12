@@ -1,0 +1,41 @@
+model 'Anthropic: Claude Opus 4'
+  has id
+    'anthropic/claude-opus-4'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-05-22
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image pdf text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '32 000'
+  costs
+    input
+      15
+    output
+      75
+    cacheRead
+      1.5
+    cacheWrite
+      18.75

@@ -1,0 +1,27 @@
+model 'ElevenLabs Multilingual TTS v2'
+  has id
+    'fal-ai/elevenlabs/tts/multilingual-v2'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'elevenlabs'
+  status
+    active
+  released at
+    2023-08-22
+  last updated at
+    2026-04-16
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      0
+    output
+      0

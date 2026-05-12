@@ -1,0 +1,35 @@
+model 'Perplexity: Sonar Deep Research'
+  has id
+    'perplexity/sonar-deep-research'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-01-27
+  last updated at
+    2025-01-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '25 600'
+  costs
+    input
+      2
+    output
+      8

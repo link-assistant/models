@@ -1,0 +1,38 @@
+model 'Whisper Large V3'
+  has id
+    'whisper-large-v3'
+  provider id
+    'groq'
+  provided by
+    'Groq'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2023-09-01
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2023-09
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      448
+    output
+      448
+  costs
+    input
+      0
+    output
+      0

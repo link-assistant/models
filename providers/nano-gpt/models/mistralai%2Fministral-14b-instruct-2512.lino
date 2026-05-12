@@ -1,0 +1,38 @@
+model 'Ministral 3 14B'
+  has id
+    'mistralai/ministral-14b-instruct-2512'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2025-12-02
+  last updated at
+    2025-12-02
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.4

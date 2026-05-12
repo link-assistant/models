@@ -1,0 +1,44 @@
+model 'gemini-2.5-pro'
+  has id
+    'gemini-2.5-pro'
+  provider id
+    'sap-ai-core'
+  provided by
+    'SAP AI Core'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-03-25
+  last updated at
+    2025-06-05
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      1.25
+    output
+      10
+    cacheRead
+      0.125

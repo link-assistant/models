@@ -1,0 +1,34 @@
+model 'Gemma 3 1B IT'
+  has id
+    'unsloth/gemma-3-1b-it'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'unsloth'
+  status
+    active
+  released at
+    2025-03-10
+  last updated at
+    2025-03-10
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.1003
+    output
+      0.1003

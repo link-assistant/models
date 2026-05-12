@@ -1,0 +1,41 @@
+model 'Claude 4.6 Opus Thinking Low'
+  has id
+    'anthropic/claude-opus-4.6:thinking:low'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2026-02-05
+  last updated at
+    2026-02-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      4.998
+    output
+      25.007

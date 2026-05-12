@@ -1,0 +1,43 @@
+model 'GPT-5.3 Codex'
+  has id
+    'gpt-5.3-codex'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-02-05
+  last updated at
+    2026-02-05
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      1.75
+    output
+      14

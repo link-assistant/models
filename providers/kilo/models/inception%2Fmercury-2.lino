@@ -1,0 +1,38 @@
+model 'Inception: Mercury 2'
+  has id
+    'inception/mercury-2'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-02-24
+  last updated at
+    2026-02-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '50 000'
+  costs
+    input
+      0.25
+    output
+      0.75
+    cacheRead
+      0.025

@@ -1,0 +1,40 @@
+model 'Llama-3.1-8B-Instruct'
+  has id
+    'hf:meta-llama/Llama-3.1-8B-Instruct'
+  provider id
+    'synthetic'
+  provided by
+    'Synthetic'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-07-23
+  last updated at
+    2024-07-23
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.2
+    output
+      0.2

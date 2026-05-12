@@ -1,0 +1,42 @@
+model 'Qwen3 Coder Next'
+  has id
+    'qwen3-coder-next'
+  provider id
+    'alibaba-coding-plan-cn'
+  provided by
+    'Alibaba Coding Plan (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-03
+  last updated at
+    2026-02-03
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

@@ -1,0 +1,37 @@
+model 'DeepSeek Chat 0324'
+  has id
+    'deepseek-v3-0324'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-03-24
+  last updated at
+    2025-03-24
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.25
+    output
+      0.7

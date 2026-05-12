@@ -1,0 +1,41 @@
+model 'Codestral 2508'
+  has id
+    'codestral-2508'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2025-07-30
+  last updated at
+    2025-07-30
+  has knowledge cutoff at
+    2025-03
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.3
+    output
+      0.9
+    cacheRead
+      0.03

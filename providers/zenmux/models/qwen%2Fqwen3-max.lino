@@ -1,0 +1,38 @@
+model 'Qwen3-Max-Thinking'
+  has id
+    'qwen/qwen3-max'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-01-23
+  last updated at
+    2026-01-23
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      1.2
+    output
+      6

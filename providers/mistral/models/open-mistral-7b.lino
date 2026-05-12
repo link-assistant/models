@@ -1,0 +1,39 @@
+model 'Mistral 7B'
+  has id
+    'open-mistral-7b'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2023-09-27
+  last updated at
+    2023-09-27
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8000
+    output
+      8000
+  costs
+    input
+      0.25
+    output
+      0.25

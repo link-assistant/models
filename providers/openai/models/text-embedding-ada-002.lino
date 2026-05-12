@@ -1,0 +1,34 @@
+model 'text-embedding-ada-002'
+  has id
+    'text-embedding-ada-002'
+  provider id
+    'openai'
+  provided by
+    'OpenAI'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2022-12-15
+  last updated at
+    2022-12-15
+  has knowledge cutoff at
+    2022-12
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1536
+  costs
+    input
+      0.1
+    output
+      0

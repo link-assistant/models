@@ -1,0 +1,40 @@
+model 'Nemotron 3 Nano Omni (free)'
+  has id
+    'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-04-28
+  last updated at
+    2026-04-28
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

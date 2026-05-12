@@ -1,0 +1,43 @@
+model 'Claude Opus 4.5'
+  has id
+    'anthropic/claude-opus-4.5'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-11-24
+  last updated at
+    2025-11-24
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      pdf image text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      5
+    output
+      25
+    cacheRead
+      0.5
+    cacheWrite
+      6.25

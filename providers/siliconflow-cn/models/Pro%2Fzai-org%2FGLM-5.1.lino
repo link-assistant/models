@@ -1,0 +1,42 @@
+model 'Pro/zai-org/GLM-5.1'
+  has id
+    'Pro/zai-org/GLM-5.1'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-08
+  last updated at
+    2026-04-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '205 000'
+    output
+      '205 000'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheWrite
+      0

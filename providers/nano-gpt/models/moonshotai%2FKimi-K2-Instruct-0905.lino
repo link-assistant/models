@@ -1,0 +1,39 @@
+model 'Kimi K2 0905'
+  has id
+    'moonshotai/Kimi-K2-Instruct-0905'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-09-25
+  last updated at
+    2025-09-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '256 000'
+    output
+      '262 144'
+  costs
+    input
+      0.4
+    output
+      2

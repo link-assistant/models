@@ -1,0 +1,36 @@
+model 'Qwen: Qwen3 235B A22B Instruct 2507'
+  has id
+    'qwen/qwen3-235b-a22b-2507'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-04
+  last updated at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '52 429'
+  costs
+    input
+      0.071
+    output
+      0.1

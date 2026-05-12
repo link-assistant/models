@@ -1,0 +1,36 @@
+model 'Tongyi DeepResearch 30B A3B'
+  has id
+    'alibaba/tongyi-deepresearch-30b-a3b'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-09-18
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.09
+    output
+      0.45

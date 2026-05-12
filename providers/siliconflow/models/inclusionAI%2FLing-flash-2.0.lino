@@ -1,0 +1,38 @@
+model 'inclusionAI/Ling-flash-2.0'
+  has id
+    'inclusionAI/Ling-flash-2.0'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'ling'
+  status
+    active
+  released at
+    2025-09-18
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.14
+    output
+      0.57

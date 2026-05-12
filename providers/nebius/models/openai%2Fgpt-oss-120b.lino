@@ -1,0 +1,48 @@
+model 'gpt-oss-120b'
+  has id
+    'openai/gpt-oss-120b'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  status
+    active
+  released at
+    2026-01-10
+  last updated at
+    2026-02-04
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '124 000'
+    output
+      8192
+  costs
+    input
+      0.15
+    output
+      0.6
+    cacheRead
+      0.015
+    cacheWrite
+      0.18
+    reasoning
+      0.6

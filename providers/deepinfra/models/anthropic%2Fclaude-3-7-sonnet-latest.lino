@@ -1,0 +1,43 @@
+model 'Claude Sonnet 3.7 (Latest)'
+  has id
+    'anthropic/claude-3-7-sonnet-latest'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'claude-sonnet'
+  status
+    active
+  released at
+    2025-03-13
+  last updated at
+    2025-03-13
+  has knowledge cutoff at
+    2024-10-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      3.3
+    output
+      16.5
+    cacheRead
+      0.33

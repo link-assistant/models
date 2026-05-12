@@ -1,0 +1,38 @@
+model 'Abliterated Model'
+  has id
+    'abliterated-model'
+  provider id
+    'abliteration-ai'
+  provided by
+    'abliteration.ai'
+  status
+    active
+  released at
+    2026-01-06
+  last updated at
+    2026-01-06
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '150 000'
+    input
+      '150 000'
+    output
+      8192
+  costs
+    input
+      3
+    output
+      3

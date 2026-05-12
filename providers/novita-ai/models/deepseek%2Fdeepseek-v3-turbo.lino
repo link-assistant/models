@@ -1,0 +1,35 @@
+model 'DeepSeek V3 (Turbo)	'
+  has id
+    'deepseek/deepseek-v3-turbo'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-03-05
+  last updated at
+    2025-03-05
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '64 000'
+    output
+      '16 000'
+  costs
+    input
+      0.4
+    output
+      1.3

@@ -1,0 +1,30 @@
+model 'Kimi K2 Thinking'
+  has id
+    'moonshotai/kimi-k2-thinking'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-11-07
+  last updated at
+    2025-11-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '100 000'

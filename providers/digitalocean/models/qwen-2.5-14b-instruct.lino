@@ -1,0 +1,34 @@
+model 'Qwen 2.5 14B Instruct'
+  has id
+    'qwen-2.5-14b-instruct'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-09-19
+  last updated at
+    2024-09-19
+  has knowledge cutoff at
+    2024-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'

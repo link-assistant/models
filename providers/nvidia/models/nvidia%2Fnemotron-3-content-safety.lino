@@ -1,0 +1,30 @@
+model 'nemotron-3-content-safety'
+  has id
+    'nvidia/nemotron-3-content-safety'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-04-16
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

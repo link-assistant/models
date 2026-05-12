@@ -1,0 +1,32 @@
+model 'Phi 4 Multimodal'
+  has id
+    'microsoft/phi-4-multimodal-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2025-07-26
+  last updated at
+    2025-07-26
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

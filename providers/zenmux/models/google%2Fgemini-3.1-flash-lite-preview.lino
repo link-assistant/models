@@ -1,0 +1,36 @@
+model 'Gemini 3.1 Flash Lite Preview'
+  has id
+    'google/gemini-3.1-flash-lite-preview'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-03-20
+  last updated at
+    2025-03-20
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '65 530'
+  costs
+    input
+      0.25
+    output
+      1.5

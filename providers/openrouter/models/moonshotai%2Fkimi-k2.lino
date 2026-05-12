@@ -1,0 +1,39 @@
+model 'Kimi K2'
+  has id
+    'moonshotai/kimi-k2'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-07-11
+  last updated at
+    2025-07-11
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.55
+    output
+      2.2

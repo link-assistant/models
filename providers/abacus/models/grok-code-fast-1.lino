@@ -1,0 +1,38 @@
+model 'Grok Code Fast 1'
+  has id
+    'grok-code-fast-1'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'grok'
+  status
+    active
+  released at
+    2025-09-01
+  last updated at
+    2025-09-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '16 384'
+  costs
+    input
+      0.2
+    output
+      1.5

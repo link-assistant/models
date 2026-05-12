@@ -1,0 +1,32 @@
+model 'Ideogram-v2a'
+  has id
+    'ideogramai/ideogram-v2a'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'ideogram'
+  status
+    active
+  released at
+    2025-02-27
+  last updated at
+    2025-02-27
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      150
+    output
+      0

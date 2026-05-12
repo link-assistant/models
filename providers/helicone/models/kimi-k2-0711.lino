@@ -1,0 +1,39 @@
+model 'Kimi K2 (07/11)'
+  has id
+    'kimi-k2-0711'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.5700000000000001
+    output
+      2.3

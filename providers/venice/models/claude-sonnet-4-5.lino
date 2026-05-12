@@ -1,0 +1,44 @@
+model 'Claude Sonnet 4.5'
+  has id
+    'claude-sonnet-4-5'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'claude-sonnet'
+  status
+    active
+  released at
+    2025-01-15
+  last updated at
+    2026-04-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '198 000'
+    output
+      '64 000'
+  costs
+    input
+      3.75
+    output
+      18.75
+    cacheRead
+      0.375
+    cacheWrite
+      4.69

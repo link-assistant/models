@@ -1,0 +1,27 @@
+model 'FLUX1.1 [pro]'
+  has id
+    'bfl/flux-pro-1.1'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'flux'
+  status
+    active
+  released at
+    2024-10
+  last updated at
+    2024-10
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      512
+    output
+      0

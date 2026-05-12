@@ -1,0 +1,42 @@
+model 'Claude-Sonnet-4'
+  has id
+    'anthropic/claude-sonnet-4'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'claude-sonnet'
+  status
+    active
+  released at
+    2025-05-21
+  last updated at
+    2025-05-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '983 040'
+    output
+      '64 000'
+  costs
+    input
+      2.6
+    output
+      13
+    cacheRead
+      0.26
+    cacheWrite
+      3.2

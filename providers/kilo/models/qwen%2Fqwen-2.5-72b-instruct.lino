@@ -1,0 +1,35 @@
+model 'Qwen2.5 72B Instruct'
+  has id
+    'qwen/qwen-2.5-72b-instruct'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-09
+  last updated at
+    2026-01-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '16 384'
+  costs
+    input
+      0.12
+    output
+      0.39

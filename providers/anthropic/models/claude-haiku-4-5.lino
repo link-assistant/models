@@ -1,10 +1,20 @@
 model 'Claude Haiku 4.5 (latest)'
+  has id
+    'claude-haiku-4-5'
+  provider id
+    'anthropic'
+  provided by
+    'Anthropic'
+  family
+    'claude-haiku'
+  status
+    active
   released at
     2025-10-15
   last updated at
     2025-10-15
   has knowledge cutoff at
-    2025-02-31
+    2025-02-28
   weights
     closed
   capabilities
@@ -16,7 +26,7 @@ model 'Claude Haiku 4.5 (latest)'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
@@ -26,10 +36,10 @@ model 'Claude Haiku 4.5 (latest)'
       '64 000'
   costs
     input
-      1.00
+      1
     output
-      5.00
+      5
     cacheRead
-      0.10
+      0.1
     cacheWrite
       1.25

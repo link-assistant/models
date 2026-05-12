@@ -1,0 +1,39 @@
+model 'DeepSeek V3 0324'
+  has id
+    'deepseek/deepseek-v3'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2024-12-26
+  last updated at
+    2024-12-26
+  has knowledge cutoff at
+    2024-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '16 384'
+  costs
+    input
+      0.77
+    output
+      0.77

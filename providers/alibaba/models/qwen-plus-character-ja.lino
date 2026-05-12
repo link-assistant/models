@@ -1,0 +1,39 @@
+model 'Qwen Plus Character (Japanese)'
+  has id
+    'qwen-plus-character-ja'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-01
+  last updated at
+    2024-01
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      512
+  costs
+    input
+      0.5
+    output
+      1.4

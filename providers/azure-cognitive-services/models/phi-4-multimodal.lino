@@ -1,0 +1,41 @@
+model 'Phi-4-multimodal'
+  has id
+    'phi-4-multimodal'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'phi'
+  status
+    active
+  released at
+    2024-12-11
+  last updated at
+    2024-12-11
+  has knowledge cutoff at
+    2023-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.08
+    output
+      0.32
+    inputAudio
+      4

@@ -1,0 +1,44 @@
+model 'Qwen3.5 Flash'
+  has id
+    'qwen3.5-flash'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-23
+  last updated at
+    2026-02-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.172
+    output
+      1.72
+    reasoning
+      1.72

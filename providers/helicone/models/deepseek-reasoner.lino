@@ -1,0 +1,40 @@
+model 'DeepSeek Reasoner'
+  has id
+    'deepseek-reasoner'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2025-01-20
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '64 000'
+  costs
+    input
+      0.56
+    output
+      1.68
+    cacheRead
+      0.07

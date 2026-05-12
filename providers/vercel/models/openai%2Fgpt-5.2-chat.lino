@@ -1,0 +1,45 @@
+model 'GPT-5.2 Chat'
+  has id
+    'openai/gpt-5.2-chat'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '111 616'
+    output
+      '16 384'
+  costs
+    input
+      1.75
+    output
+      14
+    cacheRead
+      0.18

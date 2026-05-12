@@ -1,0 +1,37 @@
+model 'GPT-4-Classic-0314'
+  has id
+    'openai/gpt-4-classic-0314'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt'
+  status
+    deprecated
+  released at
+    2024-08-26
+  last updated at
+    2024-08-26
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      8192
+    output
+      4096
+  costs
+    input
+      27
+    output
+      54

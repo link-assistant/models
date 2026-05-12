@@ -1,0 +1,39 @@
+model 'Ministral 3B (latest)'
+  has id
+    'ministral-3b-latest'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2024-10-01
+  last updated at
+    2024-10-04
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.04
+    output
+      0.04

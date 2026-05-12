@@ -1,0 +1,44 @@
+model 'Llama-3.1-Nemotron-Ultra-253B-v1'
+  has id
+    'nvidia/Llama-3_1-Nemotron-Ultra-253B-v1'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  status
+    active
+  released at
+    2025-01-15
+  last updated at
+    2026-02-04
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '120 000'
+    output
+      4096
+  costs
+    input
+      0.6
+    output
+      1.8
+    cacheRead
+      0.06
+    cacheWrite
+      0.75

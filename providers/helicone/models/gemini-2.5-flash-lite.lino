@@ -1,0 +1,44 @@
+model 'Google Gemini 2.5 Flash Lite'
+  has id
+    'gemini-2.5-flash-lite'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'gemini-flash-lite'
+  status
+    active
+  released at
+    2025-07-22
+  last updated at
+    2025-07-22
+  has knowledge cutoff at
+    2025-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 535'
+  costs
+    input
+      0.09999999999999999
+    output
+      0.39999999999999997
+    cacheRead
+      0.024999999999999998
+    cacheWrite
+      0.09999999999999999

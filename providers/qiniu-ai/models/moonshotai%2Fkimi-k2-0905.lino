@@ -1,0 +1,30 @@
+model 'Kimi K2 0905'
+  has id
+    'moonshotai/kimi-k2-0905'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-09-08
+  last updated at
+    2025-09-08
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '100 000'

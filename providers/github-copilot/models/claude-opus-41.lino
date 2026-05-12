@@ -1,0 +1,40 @@
+model 'Claude Opus 4.1'
+  has id
+    'claude-opus-41'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'claude-opus'
+  status
+    deprecated
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '80 000'
+    output
+      '16 000'
+  costs
+    input
+      0
+    output
+      0

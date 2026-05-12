@@ -1,0 +1,39 @@
+model 'Baidu Ernie 4.5 21B A3B Thinking'
+  has id
+    'ernie-4.5-21b-a3b-thinking'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'ernie'
+  status
+    active
+  released at
+    2025-03-16
+  last updated at
+    2025-03-16
+  has knowledge cutoff at
+    2025-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8000
+  costs
+    input
+      0.07
+    output
+      0.28

@@ -1,0 +1,35 @@
+model 'OpenAI: GPT-3.5 Turbo (older v0613)'
+  has id
+    'openai/gpt-3.5-turbo-0613'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2023-06-13
+  last updated at
+    2023-06-13
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4095
+    output
+      4096
+  costs
+    input
+      1
+    output
+      2

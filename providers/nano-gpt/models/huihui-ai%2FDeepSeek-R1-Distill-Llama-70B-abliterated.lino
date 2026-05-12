@@ -1,0 +1,38 @@
+model 'DeepSeek R1 Llama 70B Abliterated'
+  has id
+    'huihui-ai/DeepSeek-R1-Distill-Llama-70B-abliterated'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2025-01-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    input
+      '16 384'
+    output
+      8192
+  costs
+    input
+      0.7
+    output
+      0.7

@@ -1,0 +1,43 @@
+model 'Kimi K2.6'
+  has id
+    'kimi-k2-6'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '65 536'
+  costs
+    input
+      0.85
+    output
+      4.655
+    cacheRead
+      0.22

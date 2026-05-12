@@ -1,0 +1,38 @@
+model 'MiniMax 2.5'
+  has id
+    'minimax-m2.5'
+  provider id
+    'regolo-ai'
+  provided by
+    'Regolo AI'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-03-10
+  last updated at
+    2026-03-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '190 000'
+    output
+      '64 000'
+  costs
+    input
+      0.8
+    output
+      3.5

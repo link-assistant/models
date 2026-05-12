@@ -1,0 +1,38 @@
+model 'Mistral Nemo Instruct 2407'
+  has id
+    'mistralai/Mistral-Nemo-Instruct-2407'
+  provider id
+    'meganova'
+  provided by
+    'Meganova'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2024-07-18
+  last updated at
+    2024-07-18
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.02
+    output
+      0.04

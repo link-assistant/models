@@ -1,0 +1,41 @@
+model 'OpenAI GPT-4o'
+  has id
+    'gpt-4o'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-05-13
+  last updated at
+    2024-05-13
+  has knowledge cutoff at
+    2024-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      2.5
+    output
+      10
+    cacheRead
+      1.25

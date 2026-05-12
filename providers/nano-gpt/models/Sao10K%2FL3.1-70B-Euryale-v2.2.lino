@@ -1,0 +1,34 @@
+model 'Llama 3.1 70B Euryale'
+  has id
+    'Sao10K/L3.1-70B-Euryale-v2.2'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-07-23
+  last updated at
+    2024-07-23
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '20 480'
+    input
+      '20 480'
+    output
+      '16 384'
+  costs
+    input
+      0.306
+    output
+      0.357

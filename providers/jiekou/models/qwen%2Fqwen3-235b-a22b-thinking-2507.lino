@@ -1,0 +1,39 @@
+model 'Qwen3 235B A22b Thinking 2507'
+  has id
+    'qwen/qwen3-235b-a22b-thinking-2507'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      3

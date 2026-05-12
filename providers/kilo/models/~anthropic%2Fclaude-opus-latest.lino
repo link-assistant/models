@@ -1,0 +1,40 @@
+model 'Anthropic: Claude Opus Latest'
+  has id
+    '~anthropic/claude-opus-latest'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-05-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      5
+    output
+      25
+    cacheRead
+      0.5
+    cacheWrite
+      6.25

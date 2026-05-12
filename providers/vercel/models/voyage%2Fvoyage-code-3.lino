@@ -1,0 +1,32 @@
+model 'voyage-code-3'
+  has id
+    'voyage/voyage-code-3'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'voyage'
+  status
+    active
+  released at
+    2024-09
+  last updated at
+    2024-09
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1536
+  costs
+    input
+      0.18
+    output
+      0
