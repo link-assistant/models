@@ -1,0 +1,29 @@
+model 'DeepSeek-V3'
+  has id
+    'deepseek-v3'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-08-13
+  last updated at
+    2025-08-13
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 000'

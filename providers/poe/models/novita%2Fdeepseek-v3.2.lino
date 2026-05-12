@@ -1,0 +1,39 @@
+model 'DeepSeek-V3.2'
+  has id
+    'novita/deepseek-v3.2'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      0
+  costs
+    input
+      0.27
+    output
+      0.4
+    cacheRead
+      0.13

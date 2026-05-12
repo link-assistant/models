@@ -1,0 +1,43 @@
+model 'Doubao-Seed-2.0-pro'
+  has id
+    'volcengine/doubao-seed-2.0-pro'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-02-14
+  last updated at
+    2026-02-14
+  has knowledge cutoff at
+    2026-02-14
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0.45
+    output
+      2.24
+    cacheRead
+      0.09
+    cacheWrite
+      0.0024

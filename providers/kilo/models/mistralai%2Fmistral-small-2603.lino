@@ -1,0 +1,39 @@
+model 'Mistral: Mistral Small 4'
+  has id
+    'mistralai/mistral-small-2603'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-03-16
+  last updated at
+    2026-04-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.15
+    output
+      0.6
+    cacheRead
+      0.015

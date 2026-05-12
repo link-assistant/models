@@ -1,0 +1,38 @@
+model 'Hermes 4 70B'
+  has id
+    'hermes-4-70b'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-08-26
+  last updated at
+    2025-08-26
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.116
+    output
+      0.358

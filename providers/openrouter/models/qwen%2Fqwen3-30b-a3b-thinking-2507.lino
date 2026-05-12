@@ -1,0 +1,41 @@
+model 'Qwen3 30B A3B Thinking 2507'
+  has id
+    'qwen/qwen3-30b-a3b-thinking-2507'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-29
+  last updated at
+    2025-07-29
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.2
+    output
+      0.8

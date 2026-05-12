@@ -1,0 +1,30 @@
+model 'Pareto Code Router'
+  has id
+    'openrouter/pareto-code'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-05-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

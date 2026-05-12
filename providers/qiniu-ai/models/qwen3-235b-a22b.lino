@@ -1,0 +1,30 @@
+model 'Qwen 3 235B A22B'
+  has id
+    'qwen3-235b-a22b'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 000'

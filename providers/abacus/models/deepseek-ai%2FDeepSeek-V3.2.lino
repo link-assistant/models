@@ -1,0 +1,38 @@
+model 'DeepSeek V3.2'
+  has id
+    'deepseek-ai/DeepSeek-V3.2'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-06-15
+  last updated at
+    2025-06-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.27
+    output
+      0.4

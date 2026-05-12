@@ -1,0 +1,35 @@
+model 'Amazon: Nova Micro 1.0'
+  has id
+    'amazon/nova-micro-v1'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-12-06
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      5120
+  costs
+    input
+      0.035
+    output
+      0.14

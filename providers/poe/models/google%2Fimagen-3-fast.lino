@@ -1,0 +1,32 @@
+model 'Imagen-3-Fast'
+  has id
+    'google/imagen-3-fast'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'imagen'
+  status
+    active
+  released at
+    2024-10-17
+  last updated at
+    2024-10-17
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      480
+    output
+      0

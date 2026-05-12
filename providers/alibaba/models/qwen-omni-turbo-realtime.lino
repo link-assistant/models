@@ -1,0 +1,43 @@
+model 'Qwen-Omni Turbo Realtime'
+  has id
+    'qwen-omni-turbo-realtime'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-05-08
+  last updated at
+    2025-05-08
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image audio
+    output
+      text audio
+  limits
+    context
+      '32 768'
+    output
+      2048
+  costs
+    input
+      0.27
+    output
+      1.07
+    inputAudio
+      4.44
+    outputAudio
+      8.89

@@ -1,0 +1,40 @@
+model 'Gemma 3 12B'
+  has id
+    'gemma-3-12b-it'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2025-03-13
+  last updated at
+    2025-03-13
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,41 @@
+model 'GPT-5.5'
+  has id
+    'gpt-5.5'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0

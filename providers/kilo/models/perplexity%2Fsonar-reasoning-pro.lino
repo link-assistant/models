@@ -1,0 +1,36 @@
+model 'Perplexity: Sonar Reasoning Pro'
+  has id
+    'perplexity/sonar-reasoning-pro'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2025-09-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '25 600'
+  costs
+    input
+      2
+    output
+      8

@@ -1,0 +1,37 @@
+model 'Free Models Router'
+  has id
+    'openrouter/free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-02-01
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

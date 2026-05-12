@@ -1,0 +1,39 @@
+model 'Qwen/Qwen3-235B-A22B-Thinking-2507'
+  has id
+    'Qwen/Qwen3-235B-A22B-Thinking-2507'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.13
+    output
+      0.6

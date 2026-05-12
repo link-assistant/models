@@ -1,0 +1,40 @@
+model 'DeepSeek-R1'
+  has id
+    'deepseek-r1'
+  provider id
+    'iflowcn'
+  provided by
+    'iFlow'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2025-01-20
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 000'
+  costs
+    input
+      0
+    output
+      0

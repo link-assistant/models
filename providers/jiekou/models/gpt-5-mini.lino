@@ -1,0 +1,40 @@
+model 'gpt-5-mini'
+  has id
+    'gpt-5-mini'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      0.225
+    output
+      1.8

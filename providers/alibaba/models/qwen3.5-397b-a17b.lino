@@ -1,0 +1,40 @@
+model 'Qwen3.5 397B-A17B'
+  has id
+    'qwen3.5-397b-a17b'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-15
+  last updated at
+    2026-02-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.6
+    output
+      3.6

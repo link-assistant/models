@@ -1,0 +1,36 @@
+model 'Mistral-7B-Instruct-v0.3'
+  has id
+    'mistral-7b-instruct-v0.3'
+  provider id
+    'ovhcloud'
+  provided by
+    'OVHcloud AI Endpoints'
+  status
+    active
+  released at
+    2025-04-01
+  last updated at
+    2025-04-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.11
+    output
+      0.11

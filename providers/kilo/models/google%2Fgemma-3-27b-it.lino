@@ -1,0 +1,38 @@
+model 'Google: Gemma 3 27B'
+  has id
+    'google/gemma-3-27b-it'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-03-12
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '65 536'
+  costs
+    input
+      0.03
+    output
+      0.11
+    cacheRead
+      0.02

@@ -1,0 +1,40 @@
+model 'INTELLECT 3'
+  has id
+    'prime-intellect/intellect-3'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'intellect'
+  status
+    active
+  released at
+    2025-11-26
+  last updated at
+    2025-11-26
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.2
+    output
+      1.1

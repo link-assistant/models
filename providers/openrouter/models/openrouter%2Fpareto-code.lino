@@ -1,0 +1,33 @@
+model 'Pareto Code Router'
+  has id
+    'openrouter/pareto-code'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '200 000'

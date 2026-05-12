@@ -1,0 +1,32 @@
+model 'voyage-3.5-lite'
+  has id
+    'voyage/voyage-3.5-lite'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'voyage'
+  status
+    active
+  released at
+    2025-05-20
+  last updated at
+    2025-05-20
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1536
+  costs
+    input
+      0.02
+    output
+      0

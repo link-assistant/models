@@ -1,0 +1,33 @@
+model 'Ministral 3 8B'
+  has id
+    'ministral-3-8b-instruct-2512'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2025-12-15
+  last updated at
+    2025-12-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'

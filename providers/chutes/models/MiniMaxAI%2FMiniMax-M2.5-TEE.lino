@@ -1,0 +1,42 @@
+model 'MiniMax M2.5 TEE'
+  has id
+    'MiniMaxAI/MiniMax-M2.5-TEE'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-15
+  last updated at
+    2026-04-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 608'
+    output
+      '65 536'
+  costs
+    input
+      0.15
+    output
+      1.2
+    cacheRead
+      0.075

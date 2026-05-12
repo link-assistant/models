@@ -1,0 +1,31 @@
+model 'Qwen 2.5 VL 7B Instruct'
+  has id
+    'qwen2.5-vl-7b-instruct'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192

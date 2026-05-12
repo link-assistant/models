@@ -1,0 +1,41 @@
+model 'Claude Haiku 4.5'
+  has id
+    'claude-haiku-4-5-20251001'
+  provider id
+    'qihang-ai'
+  provided by
+    'QiHang'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2025-10-01
+  last updated at
+    2025-10-01
+  has knowledge cutoff at
+    2025-07-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      0.14
+    output
+      0.71

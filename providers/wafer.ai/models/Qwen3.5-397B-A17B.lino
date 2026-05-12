@@ -1,0 +1,46 @@
+model 'Qwen3.5 397B A17B'
+  has id
+    'Qwen3.5-397B-A17B'
+  provider id
+    'wafer.ai'
+  provided by
+    'Wafer'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-16
+  last updated at
+    2026-02-16
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

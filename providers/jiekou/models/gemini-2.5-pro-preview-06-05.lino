@@ -1,0 +1,39 @@
+model 'gemini-2.5-pro-preview-06-05'
+  has id
+    'gemini-2.5-pro-preview-06-05'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '200 000'
+  costs
+    input
+      1.125
+    output
+      9

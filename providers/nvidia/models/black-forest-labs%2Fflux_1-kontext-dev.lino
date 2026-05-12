@@ -1,0 +1,34 @@
+model 'FLUX.1-Kontext-dev'
+  has id
+    'black-forest-labs/flux_1-kontext-dev'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2025-08-12
+  last updated at
+    2025-08-12
+  weights
+    open
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      '40 960'
+    output
+      '40 960'
+  costs
+    input
+      0
+    output
+      0

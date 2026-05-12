@@ -1,0 +1,41 @@
+model 'DeepSeek V3'
+  has id
+    'deepseek-v3'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2024-12-26
+  last updated at
+    2024-12-26
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.56
+    output
+      1.68
+    cacheRead
+      0.07

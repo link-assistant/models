@@ -1,0 +1,32 @@
+model 'MiniMax M1'
+  has id
+    'MiniMax-M1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-06-16
+  last updated at
+    2025-06-16
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.1394
+    output
+      1.3328

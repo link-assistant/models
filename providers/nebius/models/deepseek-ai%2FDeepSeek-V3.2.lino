@@ -1,0 +1,48 @@
+model 'DeepSeek-V3.2'
+  has id
+    'deepseek-ai/DeepSeek-V3.2'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  status
+    active
+  released at
+    2026-01-20
+  last updated at
+    2026-02-04
+  has knowledge cutoff at
+    2025-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 000'
+    input
+      '160 000'
+    output
+      '16 384'
+  costs
+    input
+      0.3
+    output
+      0.45
+    cacheRead
+      0.03
+    cacheWrite
+      0.375
+    reasoning
+      0.45

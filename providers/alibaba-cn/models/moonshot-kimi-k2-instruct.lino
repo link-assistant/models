@@ -1,0 +1,37 @@
+model 'Moonshot Kimi K2 Instruct'
+  has id
+    'moonshot-kimi-k2-instruct'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.574
+    output
+      2.294

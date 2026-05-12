@@ -1,0 +1,38 @@
+model 'Qwen/Qwen3-235B-A22B-Instruct-2507'
+  has id
+    'Qwen/Qwen3-235B-A22B-Instruct-2507'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-23
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.09
+    output
+      0.6

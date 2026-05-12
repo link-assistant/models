@@ -1,0 +1,38 @@
+model 'Magnum v4 72B'
+  has id
+    'anthracite-org/magnum-v4-72b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '16 384'
+    input
+      '16 384'
+    output
+      8192
+  costs
+    input
+      2.006
+    output
+      2.992

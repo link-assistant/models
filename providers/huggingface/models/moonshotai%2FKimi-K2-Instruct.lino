@@ -1,0 +1,39 @@
+model 'Kimi-K2-Instruct'
+  has id
+    'moonshotai/Kimi-K2-Instruct'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-07-14
+  last updated at
+    2025-07-14
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      1
+    output
+      3

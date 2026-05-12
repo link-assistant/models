@@ -1,0 +1,43 @@
+model 'Grok Code Fast 1'
+  has id
+    'grok-code'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'grok'
+  status
+    deprecated
+  released at
+    2025-08-20
+  last updated at
+    2025-08-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

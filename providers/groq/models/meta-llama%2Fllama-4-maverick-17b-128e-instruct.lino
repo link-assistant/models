@@ -1,0 +1,40 @@
+model 'Llama 4 Maverick 17B'
+  has id
+    'meta-llama/llama-4-maverick-17b-128e-instruct'
+  provider id
+    'groq'
+  provided by
+    'Groq'
+  family
+    'llama'
+  status
+    deprecated
+  released at
+    2025-04-05
+  last updated at
+    2025-04-05
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.2
+    output
+      0.6

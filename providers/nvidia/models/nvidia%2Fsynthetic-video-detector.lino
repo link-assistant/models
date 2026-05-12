@@ -1,0 +1,35 @@
+model 'synthetic-video-detector'
+  has id
+    'nvidia/synthetic-video-detector'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-04-16
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      video
+    output
+      text
+  limits
+    context
+      0
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

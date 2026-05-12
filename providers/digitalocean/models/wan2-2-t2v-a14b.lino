@@ -1,0 +1,30 @@
+model 'Wan2.2-T2V-A14B'
+  has id
+    'wan2-2-t2v-a14b'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2026-04-30
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      100
+    output
+      1
+  costs
+    input
+      0.6
+    output
+      0

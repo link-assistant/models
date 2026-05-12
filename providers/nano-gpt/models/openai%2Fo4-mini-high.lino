@@ -1,0 +1,40 @@
+model 'OpenAI o4-mini high'
+  has id
+    'openai/o4-mini-high'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'o-mini'
+  status
+    active
+  released at
+    2025-04-16
+  last updated at
+    2025-04-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    input
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      1.1
+    output
+      4.4

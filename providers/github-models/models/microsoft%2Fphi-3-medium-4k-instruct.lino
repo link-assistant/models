@@ -1,0 +1,40 @@
+model 'Phi-3-medium instruct (4k)'
+  has id
+    'microsoft/phi-3-medium-4k-instruct'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'phi'
+  status
+    active
+  released at
+    2024-04-23
+  last updated at
+    2024-04-23
+  has knowledge cutoff at
+    2023-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      1024
+  costs
+    input
+      0
+    output
+      0

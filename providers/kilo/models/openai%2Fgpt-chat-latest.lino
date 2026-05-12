@@ -1,0 +1,39 @@
+model 'OpenAI: GPT Chat Latest'
+  has id
+    'openai/gpt-chat-latest'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-05-05
+  last updated at
+    2026-05-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      image pdf text
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      5
+    output
+      30
+    cacheRead
+      0.5

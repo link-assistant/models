@@ -1,0 +1,41 @@
+model 'Qwen3 32B (dense)'
+  has id
+    'qwen.qwen3-32b-v1:0'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-18
+  last updated at
+    2025-09-18
+  has knowledge cutoff at
+    2024-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      0.15
+    output
+      0.6

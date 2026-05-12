@@ -1,0 +1,38 @@
+model 'gpt-oss-20b'
+  has id
+    'openai/gpt-oss-20b'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2026-03-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.05
+    output
+      0.2

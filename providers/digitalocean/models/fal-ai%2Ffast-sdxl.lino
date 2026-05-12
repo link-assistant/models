@@ -1,0 +1,27 @@
+model 'Fast SDXL'
+  has id
+    'fal-ai/fast-sdxl'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'stable-diffusion'
+  status
+    active
+  released at
+    2023-07-26
+  last updated at
+    2026-04-16
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

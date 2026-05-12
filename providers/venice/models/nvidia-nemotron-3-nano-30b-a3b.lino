@@ -1,0 +1,38 @@
+model 'NVIDIA Nemotron 3 Nano 30B'
+  has id
+    'nvidia-nemotron-3-nano-30b-a3b'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-01-27
+  last updated at
+    2026-03-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.075
+    output
+      0.3

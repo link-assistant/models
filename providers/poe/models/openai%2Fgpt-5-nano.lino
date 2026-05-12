@@ -1,0 +1,40 @@
+model 'GPT-5-nano'
+  has id
+    'openai/gpt-5-nano'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt-nano'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      0.045
+    output
+      0.36
+    cacheRead
+      0.0045

@@ -1,0 +1,41 @@
+model 'gpt-oss-120b'
+  has id
+    'gpt-oss-120b'
+  provider id
+    'privatemode-ai'
+  provided by
+    'Privatemode AI'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-04
+  last updated at
+    2025-08-14
+  has knowledge cutoff at
+    2025-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0

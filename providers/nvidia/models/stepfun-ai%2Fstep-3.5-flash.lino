@@ -1,0 +1,36 @@
+model 'Step 3.5 Flash'
+  has id
+    'stepfun-ai/step-3.5-flash'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2026-02-02
+  last updated at
+    2026-02-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

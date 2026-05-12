@@ -1,0 +1,37 @@
+model 'Amazon: Nova 2 Lite'
+  has id
+    'amazon/nova-2-lite-v1'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image pdf text video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 535'
+  costs
+    input
+      0.3
+    output
+      2.5

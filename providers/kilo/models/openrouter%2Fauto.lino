@@ -1,0 +1,37 @@
+model 'Auto Router'
+  has id
+    'openrouter/auto'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-03-15
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      audio image pdf text video
+    output
+      image text
+  limits
+    context
+      '2 000 000'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

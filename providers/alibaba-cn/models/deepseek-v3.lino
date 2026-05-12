@@ -1,0 +1,37 @@
+model 'DeepSeek V3'
+  has id
+    'deepseek-v3'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      8192
+  costs
+    input
+      0.287
+    output
+      1.147

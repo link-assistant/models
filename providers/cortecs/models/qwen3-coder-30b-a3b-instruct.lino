@@ -1,0 +1,40 @@
+model 'Qwen3 Coder 30B A3B Instruct'
+  has id
+    'qwen3-coder-30b-a3b-instruct'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-31
+  last updated at
+    2025-07-31
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.053
+    output
+      0.222

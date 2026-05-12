@@ -1,0 +1,32 @@
+model 'Ray2'
+  has id
+    'lumalabs/ray2'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'ray'
+  status
+    active
+  released at
+    2025-02-20
+  last updated at
+    2025-02-20
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      5000
+    output
+      0

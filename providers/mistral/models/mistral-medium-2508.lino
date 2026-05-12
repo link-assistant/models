@@ -1,0 +1,40 @@
+model 'Mistral Medium 3.1'
+  has id
+    'mistral-medium-2508'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2025-08-12
+  last updated at
+    2025-08-12
+  has knowledge cutoff at
+    2025-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.4
+    output
+      2

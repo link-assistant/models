@@ -1,0 +1,39 @@
+model 'Mistral Large 3'
+  has id
+    'mistral/mistral-large-3'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mistral-large'
+  status
+    active
+  released at
+    2025-12-02
+  last updated at
+    2025-12-02
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.5
+    output
+      1.5

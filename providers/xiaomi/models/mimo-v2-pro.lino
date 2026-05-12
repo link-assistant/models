@@ -1,0 +1,43 @@
+model 'MiMo-V2-Pro'
+  has id
+    'mimo-v2-pro'
+  provider id
+    'xiaomi'
+  provided by
+    'Xiaomi'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      3
+    cacheRead
+      0.2

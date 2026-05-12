@@ -1,0 +1,40 @@
+model 'Phi-3-small instruct (8k)'
+  has id
+    'microsoft/phi-3-small-8k-instruct'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'phi'
+  status
+    active
+  released at
+    2024-04-23
+  last updated at
+    2024-04-23
+  has knowledge cutoff at
+    2023-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      2048
+  costs
+    input
+      0
+    output
+      0

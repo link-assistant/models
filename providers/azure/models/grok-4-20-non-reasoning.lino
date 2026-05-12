@@ -1,0 +1,39 @@
+model 'Grok 4.20 (Non-Reasoning)'
+  has id
+    'grok-4-20-non-reasoning'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'grok'
+  status
+    beta
+  released at
+    2026-04-08
+  last updated at
+    2026-04-08
+  has knowledge cutoff at
+    2025-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      8192
+  costs
+    input
+      2
+    output
+      6

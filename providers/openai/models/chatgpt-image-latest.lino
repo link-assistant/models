@@ -1,0 +1,33 @@
+model 'chatgpt-image-latest'
+  has id
+    'chatgpt-image-latest'
+  provider id
+    'openai'
+  provided by
+    'OpenAI'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2025-12-16
+  last updated at
+    2025-12-16
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      0
+    input
+      0
+    output
+      0

@@ -1,0 +1,39 @@
+model 'Kimi K2 0905'
+  has id
+    'hf:moonshotai/Kimi-K2-Instruct-0905'
+  provider id
+    'synthetic'
+  provided by
+    'Synthetic'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-09-05
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      1.2
+    output
+      1.2

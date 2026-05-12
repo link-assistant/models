@@ -1,0 +1,39 @@
+model 'DeepSeek R1 0528'
+  has id
+    'deepseek/deepseek-r1-0528'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '32 768'
+  costs
+    input
+      0.7
+    output
+      2.5

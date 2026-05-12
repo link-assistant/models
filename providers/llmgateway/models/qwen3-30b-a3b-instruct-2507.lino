@@ -1,0 +1,38 @@
+model 'Qwen3 30B A3B Instruct (2507)'
+  has id
+    'qwen3-30b-a3b-instruct-2507'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-08
+  last updated at
+    2025-07-08
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.1
+    output
+      0.1

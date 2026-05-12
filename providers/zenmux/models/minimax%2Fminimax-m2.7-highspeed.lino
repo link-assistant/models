@@ -1,0 +1,39 @@
+model 'MiniMax M2.7 highspeed'
+  has id
+    'minimax/minimax-m2.7-highspeed'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-03-20
+  last updated at
+    2026-03-20
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 070'
+  costs
+    input
+      0.611
+    output
+      2.4439

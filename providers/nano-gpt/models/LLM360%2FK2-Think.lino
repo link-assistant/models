@@ -1,0 +1,34 @@
+model 'K2-Think'
+  has id
+    'LLM360/K2-Think'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2025-07-26
+  last updated at
+    2025-07-26
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.17
+    output
+      0.68

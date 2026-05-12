@@ -1,0 +1,40 @@
+model 'Safety GPT OSS 20B'
+  has id
+    'openai/gpt-oss-safeguard-20b'
+  provider id
+    'groq'
+  provided by
+    'Groq'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-03-05
+  last updated at
+    2025-03-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.075
+    output
+      0.3
+    cacheRead
+      0.037

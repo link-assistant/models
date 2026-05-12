@@ -1,0 +1,37 @@
+model 'Llama 3.3 70B Versatile'
+  has id
+    'llama-3.3-70b-versatile'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-12-06
+  last updated at
+    2024-12-06
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.59
+    output
+      0.79

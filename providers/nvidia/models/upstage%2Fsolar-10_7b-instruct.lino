@@ -1,0 +1,35 @@
+model 'solar-10.7b-instruct'
+  has id
+    'upstage/solar-10_7b-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-06-05
+  last updated at
+    2025-04-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,32 @@
+model 'Azure gpt-4-turbo'
+  has id
+    'azure-gpt-4-turbo'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2024-01-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      4096
+  costs
+    input
+      9.996
+    output
+      30.005

@@ -1,0 +1,44 @@
+model 'Claude Haiku 3.5'
+  has id
+    'claude-3-5-haiku@20241022'
+  provider id
+    'google-vertex-anthropic'
+  provided by
+    'Vertex (Anthropic)'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2024-10-22
+  last updated at
+    2024-10-22
+  has knowledge cutoff at
+    2024-07-31
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      8192
+  costs
+    input
+      0.8
+    output
+      4
+    cacheRead
+      0.08
+    cacheWrite
+      1

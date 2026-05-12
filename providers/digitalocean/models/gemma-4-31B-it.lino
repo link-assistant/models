@@ -1,0 +1,39 @@
+model 'Gemma 4 31B'
+  has id
+    'gemma-4-31B-it'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-30
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      8192
+  costs
+    input
+      0.18
+    output
+      0.5

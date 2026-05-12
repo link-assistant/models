@@ -1,0 +1,36 @@
+model 'IndicTrans2 EN-Indic 1B'
+  has id
+    'workers-ai/@cf/ai4bharat/indictrans2-en-indic-1B'
+  provider id
+    'cloudflare-ai-gateway'
+  provided by
+    'Cloudflare AI Gateway'
+  family
+    'indictrans'
+  status
+    active
+  released at
+    2025-09-25
+  last updated at
+    2025-09-25
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.34
+    output
+      0.34

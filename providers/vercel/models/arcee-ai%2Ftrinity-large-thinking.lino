@@ -1,0 +1,38 @@
+model 'Trinity Large Thinking'
+  has id
+    'arcee-ai/trinity-large-thinking'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'trinity'
+  status
+    active
+  released at
+    2026-04-01
+  last updated at
+    2026-04-03
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 100'
+    output
+      '80 000'
+  costs
+    input
+      0.25
+    output
+      0.8999999999999999

@@ -1,0 +1,36 @@
+model 'ERNIE 4.5 VL 424B A47B'
+  has id
+    'baidu/ernie-4.5-vl-424b-a47b'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-06-30
+  last updated at
+    2025-06-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '123 000'
+    output
+      '16 000'
+  costs
+    input
+      0.42
+    output
+      1.25

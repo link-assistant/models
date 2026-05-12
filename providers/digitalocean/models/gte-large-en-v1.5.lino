@@ -1,0 +1,32 @@
+model 'GTE Large (v1.5)'
+  has id
+    'gte-large-en-v1.5'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2024-03-27
+  last updated at
+    2026-04-16
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1024
+  costs
+    input
+      0.09
+    output
+      0

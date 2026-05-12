@@ -1,0 +1,40 @@
+model 'MiniMax-M2.5'
+  has id
+    'minimaxai/minimax-m2.5'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  has knowledge cutoff at
+    2025-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0

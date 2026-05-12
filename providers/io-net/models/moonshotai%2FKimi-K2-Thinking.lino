@@ -1,0 +1,44 @@
+model 'Kimi K2 Thinking'
+  has id
+    'moonshotai/Kimi-K2-Thinking'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2024-11-01
+  last updated at
+    2024-11-01
+  has knowledge cutoff at
+    2024-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.55
+    output
+      2.25
+    cacheRead
+      0.275
+    cacheWrite
+      1.1

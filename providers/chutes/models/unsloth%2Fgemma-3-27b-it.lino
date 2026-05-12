@@ -1,0 +1,41 @@
+model 'gemma 3 27b it'
+  has id
+    'unsloth/gemma-3-27b-it'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'unsloth'
+  status
+    active
+  released at
+    2025-12-29
+  last updated at
+    2026-04-25
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '65 536'
+  costs
+    input
+      0.0272
+    output
+      0.1087
+    cacheRead
+      0.0136

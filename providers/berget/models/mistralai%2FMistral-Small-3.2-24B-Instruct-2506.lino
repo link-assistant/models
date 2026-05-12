@@ -1,0 +1,41 @@
+model 'Mistral Small 3.2 24B Instruct 2506'
+  has id
+    'mistralai/Mistral-Small-3.2-24B-Instruct-2506'
+  provider id
+    'berget'
+  provided by
+    'Berget.AI'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-10-01
+  last updated at
+    2025-10-01
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      8192
+  costs
+    input
+      0.33
+    output
+      0.33

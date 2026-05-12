@@ -1,0 +1,40 @@
+model 'GPT-4 Turbo Vision'
+  has id
+    'gpt-4-turbo-vision'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2024-04-09
+  has knowledge cutoff at
+    2023-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      10
+    output
+      30

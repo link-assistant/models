@@ -1,0 +1,42 @@
+model 'Gemini 2.5 Flash Image'
+  has id
+    'gemini-2.5-flash-image'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2025-08-26
+  last updated at
+    2025-08-26
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.3
+    output
+      30
+    cacheRead
+      0.075

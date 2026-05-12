@@ -1,0 +1,39 @@
+model 'Mistral Nemo'
+  has id
+    'mistral/mistral-nemo'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mistral-nemo'
+  status
+    active
+  released at
+    2024-07-01
+  last updated at
+    2024-07-01
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '60 288'
+    output
+      '16 000'
+  costs
+    input
+      0.04
+    output
+      0.17

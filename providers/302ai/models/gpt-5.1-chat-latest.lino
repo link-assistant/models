@@ -1,0 +1,41 @@
+model 'gpt-5.1-chat-latest'
+  has id
+    'gpt-5.1-chat-latest'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'gpt-codex'
+  status
+    active
+  released at
+    2025-11-14
+  last updated at
+    2025-11-14
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      1.25
+    output
+      10

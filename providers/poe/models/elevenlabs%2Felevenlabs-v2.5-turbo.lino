@@ -1,0 +1,32 @@
+model 'ElevenLabs-v2.5-Turbo'
+  has id
+    'elevenlabs/elevenlabs-v2.5-turbo'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'elevenlabs'
+  status
+    active
+  released at
+    2024-10-28
+  last updated at
+    2024-10-28
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      '128 000'
+    output
+      0

@@ -1,0 +1,40 @@
+model 'Grok 4.20 Multi-Agent'
+  has id
+    'grok-4.20-multi-agent-0309'
+  provider id
+    'xai'
+  provided by
+    'xAI'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-03-09
+  last updated at
+    2026-03-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '30 000'
+  costs
+    input
+      2
+    output
+      6
+    cacheRead
+      0.2

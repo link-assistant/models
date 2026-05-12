@@ -1,0 +1,38 @@
+model 'Qwen3-Embedding 4B'
+  has id
+    'qwen3-embedding-4b'
+  provider id
+    'privatemode-ai'
+  provided by
+    'Privatemode AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-06-06
+  last updated at
+    2025-06-06
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      2560
+  costs
+    input
+      0
+    output
+      0

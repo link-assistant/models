@@ -1,0 +1,35 @@
+model 'gemma4:31b'
+  has id
+    'gemma4:31b'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-08
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'

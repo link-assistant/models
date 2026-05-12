@@ -1,0 +1,38 @@
+model 'GPT OSS Safeguard 20B'
+  has id
+    'openai/gpt-oss-safeguard-20b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-10-29
+  last updated at
+    2025-10-29
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.075
+    output
+      0.3

@@ -1,0 +1,40 @@
+model 'GLM-4.5'
+  has id
+    'ZhipuAI/GLM-4.5'
+  provider id
+    'modelscope'
+  provided by
+    'ModelScope'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-07-28
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '98 304'
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,40 @@
+model 'Magistral Small'
+  has id
+    'magistral-small'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'magistral-small'
+  status
+    active
+  released at
+    2025-03-17
+  last updated at
+    2025-03-17
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.5
+    output
+      1.5

@@ -1,0 +1,32 @@
+model 'MiMo-V2-TTS'
+  has id
+    'mimo-v2-tts'
+  provider id
+    'xiaomi-token-plan-sgp'
+  provided by
+    'Xiaomi Token Plan (Singapore)'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      8192
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

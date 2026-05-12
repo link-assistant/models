@@ -1,0 +1,43 @@
+model 'GLM 4.6'
+  has id
+    'zai-org/GLM-4.6'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'glm'
+  status
+    active
+  released at
+    2024-11-15
+  last updated at
+    2024-11-15
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      4096
+  costs
+    input
+      0.4
+    output
+      1.75
+    cacheRead
+      0.2
+    cacheWrite
+      0.8

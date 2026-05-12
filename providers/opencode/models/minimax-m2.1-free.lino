@@ -1,0 +1,42 @@
+model 'MiniMax M2.1 Free'
+  has id
+    'minimax-m2.1-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'minimax-free'
+  status
+    deprecated
+  released at
+    2025-12-23
+  last updated at
+    2025-12-23
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

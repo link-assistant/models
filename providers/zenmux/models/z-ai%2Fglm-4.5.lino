@@ -1,0 +1,40 @@
+model 'GLM 4.5'
+  has id
+    'z-ai/glm-4.5'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2025-07-25
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '64 000'
+  costs
+    input
+      0.35
+    output
+      1.54
+    cacheRead
+      0.07

@@ -1,0 +1,42 @@
+model 'Qwen 3 Max Thinking'
+  has id
+    'alibaba/qwen3-max-thinking'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-01
+  last updated at
+    2025-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '65 536'
+  costs
+    input
+      1.2
+    output
+      6
+    cacheRead
+      0.24

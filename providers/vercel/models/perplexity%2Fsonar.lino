@@ -1,0 +1,40 @@
+model 'Sonar'
+  has id
+    'perplexity/sonar'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'sonar'
+  status
+    active
+  released at
+    2025-02-19
+  last updated at
+    2025-02-19
+  has knowledge cutoff at
+    2025-02
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '127 000'
+    output
+      8000
+  costs
+    input
+      1
+    output
+      1

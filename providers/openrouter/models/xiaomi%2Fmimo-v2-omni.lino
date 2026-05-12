@@ -1,0 +1,44 @@
+model 'Xiaomi: MiMo-V2-Omni'
+  has id
+    'xiaomi/mimo-v2-omni'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image audio video pdf
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.4
+    output
+      2
+    cacheRead
+      0.08

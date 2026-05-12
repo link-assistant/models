@@ -1,0 +1,38 @@
+model 'GPT-OSS 120B'
+  has id
+    'openai/gpt-oss-120b'
+  provider id
+    'stackit'
+  provided by
+    'STACKIT'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      8192
+  costs
+    input
+      0.49
+    output
+      0.71

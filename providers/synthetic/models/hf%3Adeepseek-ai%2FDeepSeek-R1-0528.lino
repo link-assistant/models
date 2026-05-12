@@ -1,0 +1,38 @@
+model 'DeepSeek R1 (0528)'
+  has id
+    'hf:deepseek-ai/DeepSeek-R1-0528'
+  provider id
+    'synthetic'
+  provided by
+    'Synthetic'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-08-01
+  last updated at
+    2025-08-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      3
+    output
+      8

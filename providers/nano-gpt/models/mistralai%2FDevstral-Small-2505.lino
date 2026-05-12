@@ -1,0 +1,34 @@
+model 'Mistral Devstral Small 2505'
+  has id
+    'mistralai/Devstral-Small-2505'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2025-08-02
+  last updated at
+    2025-08-02
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0.060000000000000005
+    output
+      0.060000000000000005

@@ -1,0 +1,38 @@
+model 'zai-org/GLM-4.5-Air'
+  has id
+    'zai-org/GLM-4.5-Air'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'glm-air'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.14
+    output
+      0.86

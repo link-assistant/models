@@ -1,0 +1,41 @@
+model 'GPT 5.2 Codex'
+  has id
+    'openai/gpt-5.2-codex'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'gpt-codex'
+  status
+    active
+  released at
+    2026-01-14
+  last updated at
+    2026-01-14
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      1.75
+    output
+      14

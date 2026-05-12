@@ -1,0 +1,36 @@
+model 'Qwen2.5 Coder 32b Instruct'
+  has id
+    'qwen/qwen2.5-coder-32b-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-11-06
+  last updated at
+    2024-11-06
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

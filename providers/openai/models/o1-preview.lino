@@ -1,0 +1,41 @@
+model 'o1-preview'
+  has id
+    'o1-preview'
+  provider id
+    'openai'
+  provided by
+    'OpenAI'
+  family
+    'o'
+  status
+    active
+  released at
+    2024-09-12
+  last updated at
+    2024-09-12
+  has knowledge cutoff at
+    2023-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      15
+    output
+      60
+    cacheRead
+      7.5

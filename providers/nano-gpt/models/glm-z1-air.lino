@@ -1,0 +1,37 @@
+model 'GLM Z1 Air'
+  has id
+    'glm-z1-air'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-04-15
+  last updated at
+    2025-04-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    input
+      '32 000'
+    output
+      '16 384'
+  costs
+    input
+      0.07
+    output
+      0.07

@@ -1,0 +1,37 @@
+model 'Mistral Nemo Instruct'
+  has id
+    'mistral-nemo-instruct-2407'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'mistral'
+  status
+    deprecated
+  released at
+    2024-07-18
+  last updated at
+    2024-07-18
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.3
+    output
+      0.3

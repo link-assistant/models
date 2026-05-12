@@ -1,0 +1,39 @@
+model 'zai-org/GLM-4.6V'
+  has id
+    'zai-org/GLM-4.6V'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-07
+  last updated at
+    2025-12-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.3
+    output
+      0.9

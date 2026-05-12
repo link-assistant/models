@@ -1,0 +1,32 @@
+model 'Perplexity Pro'
+  has id
+    'sonar-pro'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-02-19
+  last updated at
+    2025-02-19
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    input
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      2.992
+    output
+      14.994

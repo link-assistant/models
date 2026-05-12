@@ -1,0 +1,46 @@
+model 'Big Pickle'
+  has id
+    'big-pickle'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'big-pickle'
+  status
+    active
+  released at
+    2025-10-17
+  last updated at
+    2025-10-17
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

@@ -1,0 +1,36 @@
+model 'MiniMax: MiniMax M1'
+  has id
+    'minimax/minimax-m1'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-06-17
+  last updated at
+    2025-06-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '40 000'
+  costs
+    input
+      0.4
+    output
+      2.2

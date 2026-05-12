@@ -1,0 +1,42 @@
+model 'Gemini 2.5 Pro'
+  has id
+    'gemini-2.5-pro'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-03-20
+  last updated at
+    2025-06-05
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0

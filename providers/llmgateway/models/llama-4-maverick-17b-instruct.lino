@@ -1,0 +1,37 @@
+model 'Llama 4 Maverick 17B Instruct'
+  has id
+    'llama-4-maverick-17b-instruct'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-05
+  last updated at
+    2025-04-05
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      8192
+    output
+      2048
+  costs
+    input
+      0.24
+    output
+      0.97

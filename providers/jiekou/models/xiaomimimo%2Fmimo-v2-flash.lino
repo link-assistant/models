@@ -1,0 +1,39 @@
+model 'XiaomiMiMo/MiMo-V2-Flash'
+  has id
+    'xiaomimimo/mimo-v2-flash'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0

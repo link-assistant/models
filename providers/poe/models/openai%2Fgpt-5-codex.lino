@@ -1,0 +1,38 @@
+model 'GPT-5-Codex'
+  has id
+    'openai/gpt-5-codex'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt-codex'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      1.1
+    output
+      9

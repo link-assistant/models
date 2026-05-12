@@ -1,0 +1,37 @@
+model 'gemini-3-pro-image-preview'
+  has id
+    'gemini-3-pro-image-preview'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-11-20
+  last updated at
+    2025-11-20
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '64 000'
+  costs
+    input
+      2
+    output
+      120

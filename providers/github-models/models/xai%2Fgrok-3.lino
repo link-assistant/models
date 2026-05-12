@@ -1,0 +1,40 @@
+model 'Grok 3'
+  has id
+    'xai/grok-3'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'grok'
+  status
+    active
+  released at
+    2024-12-09
+  last updated at
+    2024-12-09
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,25 @@
+model 'Stable Audio 2.5 (Text-to-Audio)'
+  has id
+    'fal-ai/stable-audio-25/text-to-audio'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  status
+    active
+  released at
+    2025-10-08
+  last updated at
+    2026-04-16
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      0
+    output
+      0

@@ -1,0 +1,38 @@
+model 'Claude 4 Sonnet'
+  has id
+    'claude-sonnet-4-20250514'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-09-29
+  last updated at
+    2025-09-29
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    input
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      2.992
+    output
+      14.994

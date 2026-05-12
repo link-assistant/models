@@ -1,0 +1,39 @@
+model 'Qwen3 30B A3B'
+  has id
+    'qwen3-30b-a3b'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-06-01
+  last updated at
+    2025-06-01
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '41 000'
+    output
+      '41 000'
+  costs
+    input
+      0.08
+    output
+      0.29

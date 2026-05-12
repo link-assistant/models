@@ -1,0 +1,39 @@
+model 'Devstral Small'
+  has id
+    'devstral-small-2507'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2025-07-10
+  last updated at
+    2025-07-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.1
+    output
+      0.3

@@ -1,0 +1,43 @@
+model 'Mistral Nemo Instruct 2407'
+  has id
+    'mistralai/Mistral-Nemo-Instruct-2407'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'mistral-nemo'
+  status
+    active
+  released at
+    2024-07-01
+  last updated at
+    2024-07-01
+  has knowledge cutoff at
+    2024-05
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.02
+    output
+      0.04
+    cacheRead
+      0.01
+    cacheWrite
+      0.04

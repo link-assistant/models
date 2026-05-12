@@ -1,0 +1,39 @@
+model 'Kimi-K2-0905'
+  has id
+    'kimi-k2-0905'
+  provider id
+    'iflowcn'
+  provided by
+    'iFlow'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-09-05
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0

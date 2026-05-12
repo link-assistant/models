@@ -1,0 +1,45 @@
+model 'GPT-5.4'
+  has id
+    'openai/gpt-5.4'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-03-05
+  last updated at
+    2026-03-05
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      2.5
+    output
+      15
+    cacheRead
+      0.25

@@ -1,0 +1,34 @@
+model 'studiovoice'
+  has id
+    'nvidia/studiovoice'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-10-03
+  last updated at
+    2025-06-13
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,34 @@
+model 'Qwen3.5 397B A17B TEE'
+  has id
+    'TEE/qwen3.5-397b-a17b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-28
+  last updated at
+    2026-02-28
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '258 048'
+    input
+      '258 048'
+    output
+      '65 536'
+  costs
+    input
+      0.6
+    output
+      3.6

@@ -1,0 +1,36 @@
+model 'Llama 3.1 8B Instruct'
+  has id
+    'meta-llama/llama-3.1-8b-instruct'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-07-24
+  last updated at
+    2024-07-24
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      0.02
+    output
+      0.05

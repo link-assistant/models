@@ -1,0 +1,34 @@
+model 'Writer: Palmyra X5'
+  has id
+    'writer/palmyra-x5'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-04-28
+  last updated at
+    2025-04-28
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 040 000'
+    output
+      8192
+  costs
+    input
+      0.6
+    output
+      6

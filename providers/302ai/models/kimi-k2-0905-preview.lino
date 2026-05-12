@@ -1,0 +1,37 @@
+model 'kimi-k2-0905-preview'
+  has id
+    'kimi-k2-0905-preview'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-09-05
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.632
+    output
+      2.53

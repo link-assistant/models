@@ -1,0 +1,39 @@
+model 'DeepSeek-R1'
+  has id
+    'deepseek-r1'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2025-01-20
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '163 840'
+  costs
+    input
+      1.35
+    output
+      5.4

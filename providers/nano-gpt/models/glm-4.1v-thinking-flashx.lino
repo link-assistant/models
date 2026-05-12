@@ -1,0 +1,36 @@
+model 'GLM 4.1V Thinking FlashX'
+  has id
+    'glm-4.1v-thinking-flashx'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-07-09
+  last updated at
+    2025-07-09
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '64 000'
+    input
+      '64 000'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      0.3

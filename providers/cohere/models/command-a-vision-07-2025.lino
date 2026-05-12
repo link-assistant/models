@@ -1,0 +1,38 @@
+model 'Command A Vision'
+  has id
+    'command-a-vision-07-2025'
+  provider id
+    'cohere'
+  provided by
+    'Cohere'
+  family
+    'command-a'
+  status
+    active
+  released at
+    2025-07-31
+  last updated at
+    2025-07-31
+  has knowledge cutoff at
+    2024-06-01
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8000
+  costs
+    input
+      2.5
+    output
+      10

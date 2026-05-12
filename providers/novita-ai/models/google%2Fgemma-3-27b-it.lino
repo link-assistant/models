@@ -1,0 +1,37 @@
+model 'Gemma 3 27B'
+  has id
+    'google/gemma-3-27b-it'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2025-03-25
+  last updated at
+    2025-03-25
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '98 304'
+    output
+      '16 384'
+  costs
+    input
+      0.119
+    output
+      0.2

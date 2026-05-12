@@ -1,0 +1,31 @@
+model 'glm-4.7-flash'
+  has id
+    'novita/glm-4.7-flash'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '65 500'

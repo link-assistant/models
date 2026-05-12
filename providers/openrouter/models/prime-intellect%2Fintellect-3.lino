@@ -1,0 +1,41 @@
+model 'Intellect 3'
+  has id
+    'prime-intellect/intellect-3'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-01-15
+  last updated at
+    2025-01-15
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.2
+    output
+      1.1

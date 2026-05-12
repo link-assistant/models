@@ -1,0 +1,42 @@
+model 'Kimi K2.5'
+  has id
+    'kimi-k2.5'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2026-02-06
+  last updated at
+    2026-02-06
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.6
+    output
+      3

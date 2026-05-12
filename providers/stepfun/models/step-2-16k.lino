@@ -1,0 +1,42 @@
+model 'Step 2 (16K)'
+  has id
+    'step-2-16k'
+  provider id
+    'stepfun'
+  provided by
+    'StepFun'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2026-02-13
+  has knowledge cutoff at
+    2024-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    input
+      '16 384'
+    output
+      8192
+  costs
+    input
+      5.21
+    output
+      16.44
+    cacheRead
+      1.04

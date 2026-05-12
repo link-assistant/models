@@ -1,0 +1,42 @@
+model 'Qwen Turbo'
+  has id
+    'qwen-turbo'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-11-01
+  last updated at
+    2025-04-28
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '16 384'
+  costs
+    input
+      0.05
+    output
+      0.2
+    reasoning
+      0.5

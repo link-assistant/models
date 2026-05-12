@@ -1,0 +1,32 @@
+model 'Text Max'
+  has id
+    'text-max'
+  provider id
+    'the-grid-ai'
+  provided by
+    'The Grid AI'
+  status
+    beta
+  released at
+    2026-03-24
+  last updated at
+    2026-03-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'

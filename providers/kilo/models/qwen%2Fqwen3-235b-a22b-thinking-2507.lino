@@ -1,0 +1,36 @@
+model 'Qwen: Qwen3 235B A22B Thinking 2507'
+  has id
+    'qwen/qwen3-235b-a22b-thinking-2507'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.11
+    output
+      0.6

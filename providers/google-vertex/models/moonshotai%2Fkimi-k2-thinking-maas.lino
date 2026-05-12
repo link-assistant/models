@@ -1,0 +1,42 @@
+model 'Kimi K2 Thinking'
+  has id
+    'moonshotai/kimi-k2-thinking-maas'
+  provider id
+    'google-vertex'
+  provided by
+    'Vertex'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2025-11-13
+  last updated at
+    2025-11-13
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.6
+    output
+      2.5

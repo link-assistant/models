@@ -1,0 +1,37 @@
+model 'Llama 3.1 Nemotron Ultra 253B'
+  has id
+    'llama-3.1-nemotron-ultra-253b'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-07
+  last updated at
+    2025-04-07
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.6
+    output
+      1.8

@@ -1,0 +1,34 @@
+model 'GPT-3.5 Turbo'
+  has id
+    'openai/gpt-3.5-turbo'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2022-11-30
+  last updated at
+    2024-01-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 385'
+    input
+      '16 385'
+    output
+      4096
+  costs
+    input
+      0.5
+    output
+      1.5

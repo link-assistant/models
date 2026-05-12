@@ -1,0 +1,38 @@
+model 'Perplexity Sonar'
+  has id
+    'sonar'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'sonar'
+  status
+    active
+  released at
+    2025-01-27
+  last updated at
+    2025-01-27
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '127 000'
+    output
+      4096
+  costs
+    input
+      1
+    output
+      1

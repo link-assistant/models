@@ -1,0 +1,34 @@
+model 'MiniMax M2-her'
+  has id
+    'minimax/minimax-m2-her'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-01-24
+  last updated at
+    2026-01-24
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 532'
+    input
+      '65 532'
+    output
+      2048
+  costs
+    input
+      0.30200000000000005
+    output
+      1.2069999999999999

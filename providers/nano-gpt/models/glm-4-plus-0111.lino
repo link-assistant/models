@@ -1,0 +1,32 @@
+model 'GLM 4 Plus 0111'
+  has id
+    'glm-4-plus-0111'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-02-19
+  last updated at
+    2025-02-19
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      4096
+  costs
+    input
+      9.996
+    output
+      9.996

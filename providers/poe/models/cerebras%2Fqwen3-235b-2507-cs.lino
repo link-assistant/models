@@ -1,0 +1,31 @@
+model 'qwen3-235b-2507-cs'
+  has id
+    'cerebras/qwen3-235b-2507-cs'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    deprecated
+  released at
+    2025-08-06
+  last updated at
+    2025-08-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

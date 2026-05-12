@@ -1,0 +1,41 @@
+model 'Phi-4-Mini'
+  has id
+    'microsoft/phi-4-mini-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'phi'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,35 @@
+model 'Qwen: Qwen3 Next 80B A3B Instruct'
+  has id
+    'qwen/qwen3-next-80b-a3b-instruct'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-09-11
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '52 429'
+  costs
+    input
+      0.09
+    output
+      1.1

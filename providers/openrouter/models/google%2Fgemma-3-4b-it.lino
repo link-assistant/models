@@ -1,0 +1,39 @@
+model 'Gemma 3 4B'
+  has id
+    'google/gemma-3-4b-it'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2025-03-13
+  last updated at
+    2025-03-13
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '96 000'
+    output
+      '96 000'
+  costs
+    input
+      0.01703
+    output
+      0.06815

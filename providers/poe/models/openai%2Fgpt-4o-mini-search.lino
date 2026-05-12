@@ -1,0 +1,37 @@
+model 'GPT-4o-mini-Search'
+  has id
+    'openai/gpt-4o-mini-search'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-03-11
+  last updated at
+    2025-03-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.14
+    output
+      0.54

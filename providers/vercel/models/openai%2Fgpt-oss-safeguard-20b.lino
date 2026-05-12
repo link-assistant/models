@@ -1,0 +1,44 @@
+model 'gpt-oss-safeguard-20b'
+  has id
+    'openai/gpt-oss-safeguard-20b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    input
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.08
+    output
+      0.3
+    cacheRead
+      0.04

@@ -1,0 +1,40 @@
+model 'GPT-5.5 Pro'
+  has id
+    'openai-gpt-55-pro'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'gpt-pro'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      37.5
+    output
+      225

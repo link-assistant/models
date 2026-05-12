@@ -1,0 +1,39 @@
+model 'DeepSeek R1'
+  has id
+    'deepseek-ai/DeepSeek-R1'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2024-12-26
+  last updated at
+    2025-03-24
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 839'
+    output
+      '163 839'
+  costs
+    input
+      3
+    output
+      7

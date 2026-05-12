@@ -1,0 +1,41 @@
+model 'Doubao-Seed-Code'
+  has id
+    'volcengine/doubao-seed-code'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-11-11
+  last updated at
+    2025-11-11
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0.17
+    output
+      1.12
+    cacheRead
+      0.03

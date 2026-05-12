@@ -1,0 +1,43 @@
+model 'Qwen 3.6 Plus'
+  has id
+    'alibaba/qwen3.6-plus'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '64 000'
+  costs
+    input
+      0.5
+    output
+      3
+    cacheRead
+      0.09999999999999999
+    cacheWrite
+      0.625

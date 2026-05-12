@@ -1,0 +1,35 @@
+model 'Perplexity: Sonar'
+  has id
+    'perplexity/sonar'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2025-09-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '127 072'
+    output
+      '25 415'
+  costs
+    input
+      1
+    output
+      1

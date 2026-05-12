@@ -1,0 +1,34 @@
+model 'Omega Directive 24B Unslop v2.0'
+  has id
+    'ReadyArt/MS3.2-The-Omega-Directive-24B-Unslop-v2.0'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-12-08
+  last updated at
+    2025-12-08
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    input
+      '16 384'
+    output
+      '32 768'
+  costs
+    input
+      0.5
+    output
+      0.5

@@ -1,0 +1,41 @@
+model 'Ring 2.6 1T Free'
+  has id
+    'ring-2.6-1t-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'ring-1t-free'
+  status
+    active
+  released at
+    2026-05-08
+  last updated at
+    2026-05-08
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '66 000'
+  costs
+    input
+      0
+    output
+      0

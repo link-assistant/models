@@ -1,0 +1,40 @@
+model 'Llama-3.3-70B-Instruct'
+  has id
+    'llama-3.3-70b-instruct'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-12-06
+  last updated at
+    2026-03-17
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '100 000'
+    output
+      '16 384'
+  costs
+    input
+      0.9
+    output
+      0.9

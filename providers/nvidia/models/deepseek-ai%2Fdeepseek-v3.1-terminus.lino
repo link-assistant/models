@@ -1,0 +1,40 @@
+model 'DeepSeek V3.1 Terminus'
+  has id
+    'deepseek-ai/deepseek-v3.1-terminus'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-09-22
+  last updated at
+    2025-09-22
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

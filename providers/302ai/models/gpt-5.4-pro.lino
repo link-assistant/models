@@ -1,0 +1,46 @@
+model 'gpt-5.4-pro'
+  has id
+    'gpt-5.4-pro'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'gpt-pro'
+  status
+    active
+  released at
+    2026-03-05
+  last updated at
+    2026-03-05
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      30
+    output
+      180
+    cacheRead
+      0
+    cacheWrite
+      0

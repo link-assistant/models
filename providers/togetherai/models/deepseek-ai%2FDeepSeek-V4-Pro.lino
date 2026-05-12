@@ -1,0 +1,42 @@
+model 'DeepSeek V4 Pro'
+  has id
+    'deepseek-ai/DeepSeek-V4-Pro'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '512 000'
+    output
+      '384 000'
+  costs
+    input
+      2.1
+    output
+      4.4
+    cacheRead
+      0.2

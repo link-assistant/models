@@ -1,0 +1,39 @@
+model 'Mistral Small 3.2'
+  has id
+    'mistral-small-2506'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-06-20
+  last updated at
+    2025-06-20
+  has knowledge cutoff at
+    2025-03
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.1
+    output
+      0.3

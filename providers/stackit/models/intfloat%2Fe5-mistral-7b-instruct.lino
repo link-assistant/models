@@ -1,0 +1,32 @@
+model 'E5 Mistral 7B'
+  has id
+    'intfloat/e5-mistral-7b-instruct'
+  provider id
+    'stackit'
+  provided by
+    'STACKIT'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2023-12-11
+  last updated at
+    2023-12-11
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      4096
+  costs
+    input
+      0.02
+    output
+      0.02

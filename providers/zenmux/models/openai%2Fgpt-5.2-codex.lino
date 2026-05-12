@@ -1,0 +1,40 @@
+model 'GPT-5.2-Codex'
+  has id
+    'openai/gpt-5.2-codex'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-01-15
+  last updated at
+    2026-01-15
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '64 000'
+  costs
+    input
+      1.75
+    output
+      14
+    cacheRead
+      0.17

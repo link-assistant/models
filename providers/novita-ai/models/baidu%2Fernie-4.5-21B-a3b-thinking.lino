@@ -1,0 +1,39 @@
+model 'ERNIE-4.5-21B-A3B-Thinking'
+  has id
+    'baidu/ernie-4.5-21B-a3b-thinking'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'ernie'
+  status
+    active
+  released at
+    2025-09-19
+  last updated at
+    2025-09-19
+  has knowledge cutoff at
+    2025-03
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.07
+    output
+      0.28

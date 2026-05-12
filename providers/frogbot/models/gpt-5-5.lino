@@ -1,0 +1,42 @@
+model 'GPT-5.5'
+  has id
+    'gpt-5-5'
+  provider id
+    'frogbot'
+  provided by
+    'FrogBot'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-03-05
+  last updated at
+    2026-03-05
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      2.5
+    output
+      15
+    cacheRead
+      0.25

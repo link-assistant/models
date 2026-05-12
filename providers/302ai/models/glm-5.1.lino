@@ -1,0 +1,40 @@
+model 'glm-5.1'
+  has id
+    'glm-5.1'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-10
+  last updated at
+    2026-04-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '131 072'
+  costs
+    input
+      0.86
+    output
+      3.5

@@ -1,0 +1,40 @@
+model 'GLM-4.7-Flash'
+  has id
+    '@cf/zai-org/glm-4.7-flash'
+  provider id
+    'cloudflare-workers-ai'
+  provided by
+    'Cloudflare Workers AI'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.06
+    output
+      0.4

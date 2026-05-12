@@ -1,0 +1,45 @@
+model 'Qwen2.5-VL-72B-Instruct'
+  has id
+    'Qwen/Qwen2.5-VL-72B-Instruct'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2026-02-04
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '120 000'
+    output
+      8192
+  costs
+    input
+      0.25
+    output
+      0.75
+    cacheRead
+      0.025
+    cacheWrite
+      0.31

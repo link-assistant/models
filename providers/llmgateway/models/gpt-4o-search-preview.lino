@@ -1,0 +1,37 @@
+model 'GPT-4o Search Preview'
+  has id
+    'gpt-4o-search-preview'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-10-01
+  last updated at
+    2024-10-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      2.5
+    output
+      10

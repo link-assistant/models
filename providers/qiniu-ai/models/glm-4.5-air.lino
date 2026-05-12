@@ -1,0 +1,31 @@
+model 'GLM 4.5 Air'
+  has id
+    'glm-4.5-air'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      4096

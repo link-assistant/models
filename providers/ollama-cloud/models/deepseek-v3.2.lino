@@ -1,0 +1,32 @@
+model 'deepseek-v3.2'
+  has id
+    'deepseek-v3.2'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-06-15
+  last updated at
+    2026-01-19
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '65 536'

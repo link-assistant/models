@@ -1,0 +1,33 @@
+model 'kimi-k2.5'
+  has id
+    'kimi-k2.5'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2026-01-27
+  last updated at
+    2026-01-27
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'

@@ -1,0 +1,36 @@
+model 'Qwen3 Coder 30b A3B Instruct'
+  has id
+    'qwen/qwen3-coder-30b-a3b-instruct'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-10-09
+  last updated at
+    2025-10-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '160 000'
+    output
+      '32 768'
+  costs
+    input
+      0.07
+    output
+      0.27

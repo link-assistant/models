@@ -1,0 +1,42 @@
+model 'Qwen3-VL 235B-A22B'
+  has id
+    'qwen3-vl-235b-a22b'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04
+  last updated at
+    2025-04
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.7
+    output
+      2.8
+    reasoning
+      8.4

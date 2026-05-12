@@ -1,0 +1,38 @@
+model 'OpenAI o1 Pro'
+  has id
+    'openai/o1-pro'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'o-pro'
+  status
+    active
+  released at
+    2025-01-25
+  last updated at
+    2025-01-25
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    input
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      150
+    output
+      600

@@ -1,0 +1,36 @@
+model 'Google: Gemini 2.0 Flash Lite'
+  has id
+    'google/gemini-2.0-flash-lite-001'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-12-11
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      audio image pdf text video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      8192
+  costs
+    input
+      0.075
+    output
+      0.3

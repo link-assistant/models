@@ -1,0 +1,32 @@
+model 'All-MiniLM-L6-v2'
+  has id
+    'all-mini-lm-l6-v2'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2021-08-30
+  last updated at
+    2026-04-16
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      256
+    output
+      384
+  costs
+    input
+      0.009
+    output
+      0

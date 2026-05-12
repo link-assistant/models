@@ -1,0 +1,36 @@
+model 'Gemma 2 27B IT'
+  has id
+    'gemma-2-27b-it-together'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2024-06-27
+  last updated at
+    2024-06-27
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      '16 384'
+  costs
+    input
+      0.08
+    output
+      0.08

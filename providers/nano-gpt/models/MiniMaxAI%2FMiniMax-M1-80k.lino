@@ -1,0 +1,34 @@
+model 'MiniMax M1 80K'
+  has id
+    'MiniMaxAI/MiniMax-M1-80k'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2025-06-16
+  last updated at
+    2025-06-16
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.6052
+    output
+      2.4225000000000003

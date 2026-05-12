@@ -1,0 +1,39 @@
+model 'Mistral Nemo'
+  has id
+    'mistral-nemo'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'mistral-nemo'
+  status
+    active
+  released at
+    2024-07-18
+  last updated at
+    2024-07-18
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.15
+    output
+      0.15

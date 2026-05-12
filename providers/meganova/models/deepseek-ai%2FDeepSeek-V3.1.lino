@@ -1,0 +1,38 @@
+model 'DeepSeek V3.1'
+  has id
+    'deepseek-ai/DeepSeek-V3.1'
+  provider id
+    'meganova'
+  provided by
+    'Meganova'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-25
+  last updated at
+    2025-08-25
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '164 000'
+    output
+      '164 000'
+  costs
+    input
+      0.27
+    output
+      1

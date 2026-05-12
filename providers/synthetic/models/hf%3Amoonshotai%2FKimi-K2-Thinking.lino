@@ -1,0 +1,40 @@
+model 'Kimi K2 Thinking'
+  has id
+    'hf:moonshotai/Kimi-K2-Thinking'
+  provider id
+    'synthetic'
+  provided by
+    'Synthetic'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2025-11-07
+  last updated at
+    2025-11-07
+  has knowledge cutoff at
+    2025-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.55
+    output
+      2.19

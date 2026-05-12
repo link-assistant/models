@@ -1,0 +1,41 @@
+model 'Ministral 3 14B Reasoning 2512'
+  has id
+    'mistralai/completion/models/Ministral-3-14B-Reasoning-2512'
+  provider id
+    'clarifai'
+  provided by
+    'Clarifai'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-12
+  has knowledge cutoff at
+    2025-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      2.5
+    output
+      1.7

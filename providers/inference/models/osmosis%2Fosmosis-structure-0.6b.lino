@@ -1,0 +1,39 @@
+model 'Osmosis Structure 0.6B'
+  has id
+    'osmosis/osmosis-structure-0.6b'
+  provider id
+    'inference'
+  provided by
+    'Inference'
+  family
+    'osmosis'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4000
+    output
+      2048
+  costs
+    input
+      0.1
+    output
+      0.5

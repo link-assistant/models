@@ -1,0 +1,38 @@
+model 'Mistral Nemo'
+  has id
+    'mistral-nemo'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'mistral-nemo'
+  status
+    active
+  released at
+    2024-07-18
+  last updated at
+    2024-07-18
+  has knowledge cutoff at
+    2024-07
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 400'
+  costs
+    input
+      20
+    output
+      40

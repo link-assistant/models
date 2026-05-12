@@ -1,0 +1,36 @@
+model 'Qwen3 VL 30B'
+  has id
+    'Qwen/Qwen3-VL-30B-A3B-Instruct'
+  provider id
+    'evroc'
+  provided by
+    'evroc'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-30
+  last updated at
+    2025-07-30
+  weights
+    open
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '100 000'
+    output
+      '100 000'
+  costs
+    input
+      0.24
+    output
+      0.94

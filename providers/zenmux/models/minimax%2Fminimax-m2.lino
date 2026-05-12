@@ -1,0 +1,42 @@
+model 'MiniMax M2'
+  has id
+    'minimax/minimax-m2'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-10-27
+  last updated at
+    2025-10-27
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 000'
+    output
+      '64 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.03
+    cacheWrite
+      0.38

@@ -1,0 +1,36 @@
+model 'DeepSeek R1 Distill Qwen 32B'
+  has id
+    'workers-ai/@cf/deepseek-ai/deepseek-r1-distill-qwen-32b'
+  provider id
+    'cloudflare-ai-gateway'
+  provided by
+    'Cloudflare AI Gateway'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-04-03
+  last updated at
+    2025-04-03
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.5
+    output
+      4.88

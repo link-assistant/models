@@ -1,0 +1,38 @@
+model 'Qwen-MT Plus'
+  has id
+    'qwen-mt-plus'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-01
+  last updated at
+    2025-01
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      8192
+  costs
+    input
+      2.46
+    output
+      7.37

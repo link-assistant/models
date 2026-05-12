@@ -1,0 +1,32 @@
+model 'nemotron-3-super'
+  has id
+    'nemotron-3-super'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'

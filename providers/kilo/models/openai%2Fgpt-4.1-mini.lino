@@ -1,0 +1,38 @@
+model 'OpenAI: GPT-4.1 Mini'
+  has id
+    'openai/gpt-4.1-mini'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image pdf text
+    output
+      text
+  limits
+    context
+      '1 047 576'
+    output
+      '32 768'
+  costs
+    input
+      0.4
+    output
+      1.6
+    cacheRead
+      0.1

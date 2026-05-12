@@ -1,0 +1,40 @@
+model 'zai-org/GLM-5'
+  has id
+    'zai-org/GLM-5'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '205 000'
+    output
+      '205 000'
+  costs
+    input
+      1
+    output
+      3.2

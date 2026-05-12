@@ -1,0 +1,32 @@
+model 'Yi Lightning'
+  has id
+    'yi-lightning'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2024-10-16
+  last updated at
+    2024-10-16
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '12 000'
+    input
+      '12 000'
+    output
+      4096
+  costs
+    input
+      0.2006
+    output
+      0.2006

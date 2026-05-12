@@ -1,0 +1,43 @@
+model 'Kimi K2.5'
+  has id
+    'accounts/fireworks/models/kimi-k2p5'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2026-01-27
+  last updated at
+    2026-01-27
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.6
+    output
+      3
+    cacheRead
+      0.1

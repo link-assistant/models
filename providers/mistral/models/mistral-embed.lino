@@ -1,0 +1,32 @@
+model 'Mistral Embed'
+  has id
+    'mistral-embed'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'mistral-embed'
+  status
+    active
+  released at
+    2023-12-11
+  last updated at
+    2023-12-11
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8000
+    output
+      3072
+  costs
+    input
+      0.1
+    output
+      0

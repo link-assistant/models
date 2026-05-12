@@ -1,0 +1,37 @@
+model 'OpenAI: o3 Mini'
+  has id
+    'openai/o3-mini'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2024-12-20
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      pdf text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      1.1
+    output
+      4.4
+    cacheRead
+      0.55

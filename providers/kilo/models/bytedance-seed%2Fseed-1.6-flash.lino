@@ -1,0 +1,37 @@
+model 'ByteDance Seed: Seed 1.6 Flash'
+  has id
+    'bytedance-seed/seed-1.6-flash'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-12-23
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.075
+    output
+      0.3

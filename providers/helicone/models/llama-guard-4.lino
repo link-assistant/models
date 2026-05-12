@@ -1,0 +1,38 @@
+model 'Meta Llama Guard 4 12B'
+  has id
+    'llama-guard-4'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      1024
+  costs
+    input
+      0.21
+    output
+      0.21

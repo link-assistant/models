@@ -1,0 +1,39 @@
+model 'Trinity Large Preview'
+  has id
+    'arcee-ai/trinity-large-preview'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'trinity'
+  status
+    active
+  released at
+    2025-01
+  last updated at
+    2025-01
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.25
+    output
+      1

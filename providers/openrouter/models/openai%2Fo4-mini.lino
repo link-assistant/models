@@ -1,0 +1,44 @@
+model 'o4 Mini'
+  has id
+    'openai/o4-mini'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'o-mini'
+  status
+    active
+  released at
+    2025-04-16
+  last updated at
+    2025-04-16
+  has knowledge cutoff at
+    2024-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      1.1
+    output
+      4.4
+    cacheRead
+      0.28

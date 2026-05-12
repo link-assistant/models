@@ -1,0 +1,38 @@
+model 'Devstral Small 2 24B Instruct 2512'
+  has id
+    'mistralai/Devstral-Small-2-24B-Instruct-2512'
+  provider id
+    'neuralwatt'
+  provided by
+    'Neuralwatt'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2025-12-09
+  last updated at
+    2025-12-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.12
+    output
+      0.35

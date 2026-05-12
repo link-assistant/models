@@ -1,0 +1,38 @@
+model 'ByteDance-Seed/Seed-OSS-36B-Instruct'
+  has id
+    'ByteDance-Seed/Seed-OSS-36B-Instruct'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'seed'
+  status
+    active
+  released at
+    2025-09-04
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.21
+    output
+      0.57

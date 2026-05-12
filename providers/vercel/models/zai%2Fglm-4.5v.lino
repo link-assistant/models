@@ -1,0 +1,41 @@
+model 'GLM 4.5V'
+  has id
+    'zai/glm-4.5v'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-08-11
+  last updated at
+    2025-08-11
+  has knowledge cutoff at
+    2025-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '66 000'
+    output
+      '66 000'
+  costs
+    input
+      0.6
+    output
+      1.8

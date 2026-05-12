@@ -1,0 +1,34 @@
+model 'esm2-650m'
+  has id
+    'meta/esm2-650m'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-08-29
+  last updated at
+    2025-03-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

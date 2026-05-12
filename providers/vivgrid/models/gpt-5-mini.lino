@@ -1,0 +1,42 @@
+model 'GPT-5 Mini'
+  has id
+    'gpt-5-mini'
+  provider id
+    'vivgrid'
+  provided by
+    'Vivgrid'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2024-05-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      0.25
+    output
+      2
+    cacheRead
+      0.03

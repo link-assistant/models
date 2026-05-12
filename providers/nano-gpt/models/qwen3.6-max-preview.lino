@@ -1,0 +1,32 @@
+model 'Qwen3.6 Max Preview'
+  has id
+    'qwen3.6-max-preview'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen3.6'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-21
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '245 800'
+    output
+      '65 536'
+  costs
+    input
+      1.3
+    output
+      7.8

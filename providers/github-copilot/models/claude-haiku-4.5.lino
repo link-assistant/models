@@ -1,0 +1,43 @@
+model 'Claude Haiku 4.5'
+  has id
+    'claude-haiku-4.5'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  has knowledge cutoff at
+    2025-02-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '144 000'
+    input
+      '128 000'
+    output
+      '32 000'
+  costs
+    input
+      0
+    output
+      0

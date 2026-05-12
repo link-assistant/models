@@ -1,0 +1,44 @@
+model 'GPT-5.5 Pro'
+  has id
+    'gpt-5.5-pro'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'gpt-pro'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-12-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      30
+    output
+      180
+    cacheRead
+      30

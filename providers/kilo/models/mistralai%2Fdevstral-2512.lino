@@ -1,0 +1,37 @@
+model 'Mistral: Devstral 2 2512'
+  has id
+    'mistralai/devstral-2512'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-09-12
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.4
+    output
+      2
+    cacheRead
+      0.025

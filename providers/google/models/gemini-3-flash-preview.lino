@@ -1,0 +1,44 @@
+model 'Gemini 3 Flash Preview'
+  has id
+    'gemini-3-flash-preview'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2025-12-17
+  last updated at
+    2025-12-17
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.5
+    output
+      3
+    cacheRead
+      0.05

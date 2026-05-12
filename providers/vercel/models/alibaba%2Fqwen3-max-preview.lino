@@ -1,0 +1,41 @@
+model 'Qwen3 Max Preview'
+  has id
+    'alibaba/qwen3-max-preview'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      1.2
+    output
+      6
+    cacheRead
+      0.24

@@ -1,0 +1,43 @@
+model 'MiniMax-M2.5'
+  has id
+    'minimax-m2.5'
+  provider id
+    'tencent-coding-plan'
+  provided by
+    'Tencent Coding Plan (China)'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

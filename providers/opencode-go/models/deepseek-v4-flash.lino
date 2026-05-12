@@ -1,0 +1,44 @@
+model 'DeepSeek V4 Flash'
+  has id
+    'deepseek-v4-flash'
+  provider id
+    'opencode-go'
+  provided by
+    'OpenCode Go'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.14
+    output
+      0.28
+    cacheRead
+      0.0028

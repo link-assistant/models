@@ -1,0 +1,39 @@
+model 'Meta Llama 3.1 8B Instruct Turbo'
+  has id
+    'llama-3.1-8b-instruct-turbo'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-07-23
+  last updated at
+    2024-07-23
+  has knowledge cutoff at
+    2024-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.02
+    output
+      0.03

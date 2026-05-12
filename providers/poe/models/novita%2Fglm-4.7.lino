@@ -1,0 +1,32 @@
+model 'glm-4.7'
+  has id
+    'novita/glm-4.7'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    deprecated
+  released at
+    2025-12-22
+  last updated at
+    2025-12-22
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '205 000'
+    output
+      '131 072'

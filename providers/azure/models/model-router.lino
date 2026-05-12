@@ -1,0 +1,37 @@
+model 'Model Router'
+  has id
+    'model-router'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'model-router'
+  status
+    active
+  released at
+    2025-05-19
+  last updated at
+    2025-11-18
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.14
+    output
+      0

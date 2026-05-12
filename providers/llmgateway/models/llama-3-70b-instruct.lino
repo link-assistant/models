@@ -1,0 +1,37 @@
+model 'Llama 3 70B Instruct'
+  has id
+    'llama-3-70b-instruct'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-04-18
+  last updated at
+    2024-04-18
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      8000
+  costs
+    input
+      0.51
+    output
+      0.74

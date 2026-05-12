@@ -1,0 +1,32 @@
+model 'Veo-3'
+  has id
+    'google/veo-3'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'veo'
+  status
+    active
+  released at
+    2025-05-21
+  last updated at
+    2025-05-21
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      480
+    output
+      0

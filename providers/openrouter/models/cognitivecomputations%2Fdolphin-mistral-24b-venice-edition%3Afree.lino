@@ -1,0 +1,39 @@
+model 'Uncensored (free)'
+  has id
+    'cognitivecomputations/dolphin-mistral-24b-venice-edition:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2025-07-09
+  last updated at
+    2026-01-31
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

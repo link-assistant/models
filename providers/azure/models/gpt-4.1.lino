@@ -1,0 +1,42 @@
+model 'GPT-4.1'
+  has id
+    'gpt-4.1'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2025-04-14
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 047 576'
+    output
+      '32 768'
+  costs
+    input
+      2
+    output
+      8
+    cacheRead
+      0.5

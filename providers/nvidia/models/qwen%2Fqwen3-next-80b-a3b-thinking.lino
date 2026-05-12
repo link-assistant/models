@@ -1,0 +1,40 @@
+model 'Qwen3-Next-80B-A3B-Thinking'
+  has id
+    'qwen/qwen3-next-80b-a3b-thinking'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

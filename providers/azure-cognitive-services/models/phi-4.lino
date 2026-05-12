@@ -1,0 +1,38 @@
+model 'Phi-4'
+  has id
+    'phi-4'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'phi'
+  status
+    active
+  released at
+    2024-12-11
+  last updated at
+    2024-12-11
+  has knowledge cutoff at
+    2023-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.125
+    output
+      0.5

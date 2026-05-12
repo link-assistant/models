@@ -1,0 +1,30 @@
+model 'nv-embed-v1'
+  has id
+    'nvidia/nv-embed-v1'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-06-07
+  last updated at
+    2025-07-22
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      2048
+  costs
+    input
+      0
+    output
+      0

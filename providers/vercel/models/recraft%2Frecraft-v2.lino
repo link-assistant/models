@@ -1,0 +1,27 @@
+model 'Recraft V2'
+  has id
+    'recraft/recraft-v2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'recraft'
+  status
+    active
+  released at
+    2024-03
+  last updated at
+    2024-03
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      512
+    output
+      0

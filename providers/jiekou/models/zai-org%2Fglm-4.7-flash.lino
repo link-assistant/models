@@ -1,0 +1,39 @@
+model 'GLM-4.7-Flash'
+  has id
+    'zai-org/glm-4.7-flash'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.07
+    output
+      0.4

@@ -1,0 +1,38 @@
+model 'Ministral 14B 3.0'
+  has id
+    'mistral.ministral-3-14b-instruct'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.2
+    output
+      0.2

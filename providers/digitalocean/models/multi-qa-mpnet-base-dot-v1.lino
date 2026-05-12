@@ -1,0 +1,32 @@
+model 'Multi-QA-mpnet-base-dot-v1'
+  has id
+    'multi-qa-mpnet-base-dot-v1'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2021-08-30
+  last updated at
+    2026-04-16
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      512
+    output
+      768
+  costs
+    input
+      0.009
+    output
+      0

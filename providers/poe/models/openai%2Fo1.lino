@@ -1,0 +1,38 @@
+model 'o1'
+  has id
+    'openai/o1'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'o'
+  status
+    active
+  released at
+    2024-12-18
+  last updated at
+    2024-12-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      14
+    output
+      54

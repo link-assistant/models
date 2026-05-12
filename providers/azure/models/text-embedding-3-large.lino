@@ -1,0 +1,32 @@
+model 'text-embedding-3-large'
+  has id
+    'text-embedding-3-large'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2024-01-25
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8191
+    output
+      3072
+  costs
+    input
+      0.13
+    output
+      0

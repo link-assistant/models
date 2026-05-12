@@ -1,0 +1,41 @@
+model 'Qwen2.5-Omni 7B'
+  has id
+    'qwen2-5-omni-7b'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-12
+  last updated at
+    2024-12
+  has knowledge cutoff at
+    2024-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text audio
+  limits
+    context
+      '32 768'
+    output
+      2048
+  costs
+    input
+      0.1
+    output
+      0.4
+    inputAudio
+      6.76

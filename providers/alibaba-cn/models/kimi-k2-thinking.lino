@@ -1,0 +1,40 @@
+model 'Moonshot Kimi K2 Thinking'
+  has id
+    'kimi-k2-thinking'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-11-06
+  last updated at
+    2025-11-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.574
+    output
+      2.294

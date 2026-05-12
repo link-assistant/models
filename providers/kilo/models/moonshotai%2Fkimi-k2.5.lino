@@ -1,0 +1,37 @@
+model 'MoonshotAI: Kimi K2.5'
+  has id
+    'moonshotai/kimi-k2.5'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-01-27
+  last updated at
+    2026-03-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 535'
+  costs
+    input
+      0.45
+    output
+      2.2

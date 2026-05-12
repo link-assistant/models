@@ -1,0 +1,43 @@
+model 'Google: Gemini 2.5 Flash Lite Preview 09-2025'
+  has id
+    'google/gemini-2.5-flash-lite-preview-09-2025'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-09-25
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      audio image pdf text video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.1
+    output
+      0.4
+    cacheRead
+      0.01
+    cacheWrite
+      0.083333
+    reasoning
+      0.4

@@ -1,0 +1,40 @@
+model 'Command A Reasoning'
+  has id
+    'command-a-reasoning-08-2025'
+  provider id
+    'cohere'
+  provided by
+    'Cohere'
+  family
+    'command-a'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  has knowledge cutoff at
+    2024-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      2.5
+    output
+      10

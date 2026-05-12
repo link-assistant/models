@@ -1,0 +1,35 @@
+model 'nemotron-mini-4b-instruct'
+  has id
+    'nvidia/nemotron-mini-4b-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-08-21
+  last updated at
+    2024-08-26
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

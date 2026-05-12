@@ -1,0 +1,38 @@
+model 'GPT OSS 120B'
+  has id
+    'hf:openai/gpt-oss-120b'
+  provider id
+    'synthetic'
+  provided by
+    'Synthetic'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.1

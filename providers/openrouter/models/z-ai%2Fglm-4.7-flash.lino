@@ -1,0 +1,40 @@
+model 'GLM-4.7-Flash'
+  has id
+    'z-ai/glm-4.7-flash'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '65 535'
+  costs
+    input
+      0.07
+    output
+      0.4

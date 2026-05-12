@@ -1,0 +1,43 @@
+model 'gpt-5-mini'
+  has id
+    'gpt-5-mini'
+  provider id
+    'sap-ai-core'
+  provided by
+    'SAP AI Core'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2024-05-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      0.25
+    output
+      2
+    cacheRead
+      0.025

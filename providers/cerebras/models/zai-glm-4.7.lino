@@ -1,0 +1,39 @@
+model 'Z.AI GLM-4.7'
+  has id
+    'zai-glm-4.7'
+  provider id
+    'cerebras'
+  provided by
+    'Cerebras'
+  status
+    active
+  released at
+    2026-01-10
+  last updated at
+    2026-01-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '40 000'
+  costs
+    input
+      2.25
+    output
+      2.75
+    cacheRead
+      0
+    cacheWrite
+      0

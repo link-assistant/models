@@ -1,0 +1,38 @@
+model 'ERNIE-4.5-VL-28B-A3B-Thinking'
+  has id
+    'baidu/ernie-4.5-vl-28b-a3b-thinking'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-11-26
+  last updated at
+    2025-11-26
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.39
+    output
+      0.39

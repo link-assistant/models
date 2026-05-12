@@ -1,0 +1,34 @@
+model 'Gemini 1.5 Flash'
+  has id
+    'google/gemini-flash-1.5'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2024-05-14
+  last updated at
+    2024-05-14
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    input
+      '2 000 000'
+    output
+      8192
+  costs
+    input
+      0.0748
+    output
+      0.306

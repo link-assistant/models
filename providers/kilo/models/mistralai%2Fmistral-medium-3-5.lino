@@ -1,0 +1,38 @@
+model 'Mistral: Mistral Medium 3.5'
+  has id
+    'mistralai/mistral-medium-3-5'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-04-30
+  last updated at
+    2026-05-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      1.5
+    output
+      7.5

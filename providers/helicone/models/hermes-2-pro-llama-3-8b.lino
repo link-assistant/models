@@ -1,0 +1,39 @@
+model 'Hermes 2 Pro Llama 3 8B'
+  has id
+    'hermes-2-pro-llama-3-8b'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-05-27
+  last updated at
+    2024-05-27
+  has knowledge cutoff at
+    2024-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.14
+    output
+      0.14

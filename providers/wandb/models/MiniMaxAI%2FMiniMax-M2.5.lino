@@ -1,0 +1,38 @@
+model 'MiniMax M2.5'
+  has id
+    'MiniMaxAI/MiniMax-M2.5'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-03-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 608'
+    output
+      '196 608'
+  costs
+    input
+      0.3
+    output
+      1.2

@@ -1,0 +1,37 @@
+model 'Gemma 3 27B'
+  has id
+    'google/gemma-3-27b-it'
+  provider id
+    'stackit'
+  provided by
+    'STACKIT'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2025-05-17
+  last updated at
+    2025-05-17
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '37 000'
+    output
+      8192
+  costs
+    input
+      0.49
+    output
+      0.71

@@ -1,0 +1,40 @@
+model 'Mistral Medium (latest)'
+  has id
+    'mistral-medium-latest'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2026-04-29
+  last updated at
+    2026-04-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      1.5
+    output
+      7.5

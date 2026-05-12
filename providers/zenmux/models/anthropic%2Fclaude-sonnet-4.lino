@@ -1,0 +1,43 @@
+model 'Claude Sonnet 4'
+  has id
+    'anthropic/claude-sonnet-4'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-05-22
+  last updated at
+    2025-05-22
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '64 000'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

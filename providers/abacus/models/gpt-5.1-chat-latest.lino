@@ -1,0 +1,40 @@
+model 'GPT-5.1 Chat Latest'
+  has id
+    'gpt-5.1-chat-latest'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-11-13
+  last updated at
+    2025-11-13
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      1.25
+    output
+      10

@@ -1,0 +1,36 @@
+model 'GPT-Image-2'
+  has id
+    'openai/gpt-image-2'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      5.0505
+    output
+      32.3232
+    cacheRead
+      1.2626

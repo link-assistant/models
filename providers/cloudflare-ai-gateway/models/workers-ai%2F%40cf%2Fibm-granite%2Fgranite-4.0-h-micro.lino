@@ -1,0 +1,36 @@
+model 'IBM Granite 4.0 H Micro'
+  has id
+    'workers-ai/@cf/ibm-granite/granite-4.0-h-micro'
+  provider id
+    'cloudflare-ai-gateway'
+  provided by
+    'Cloudflare AI Gateway'
+  family
+    'granite'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.017
+    output
+      0.11

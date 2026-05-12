@@ -1,0 +1,36 @@
+model 'OpenAI: GPT-5.3-Codex'
+  has id
+    'openai/gpt-5.3-codex'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-02-25
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      1.75
+    output
+      14

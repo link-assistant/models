@@ -1,0 +1,40 @@
+model 'Qwen3 235B A22B Instruct 2507'
+  has id
+    'qwen3-235b-a22b-instruct-2507'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-23
+  last updated at
+    2025-07-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.062
+    output
+      0.408

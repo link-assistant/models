@@ -1,0 +1,32 @@
+model 'Stable Diffusion 3.5 Large'
+  has id
+    'stable-diffusion-3.5-large'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'stable-diffusion'
+  status
+    active
+  released at
+    2024-10-22
+  last updated at
+    2026-04-30
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      256
+    output
+      1
+  costs
+    input
+      0.08
+    output
+      0

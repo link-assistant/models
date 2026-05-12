@@ -1,0 +1,38 @@
+model 'ByteDance-Seed/Seed-OSS-36B-Instruct'
+  has id
+    'bytedance/seed-oss-36b-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'seed'
+  status
+    active
+  released at
+    2025-09-04
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0
+    output
+      0

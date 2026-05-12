@@ -1,0 +1,40 @@
+model 'DeepSeek V3'
+  has id
+    'hf:deepseek-ai/DeepSeek-V3'
+  provider id
+    'synthetic'
+  provided by
+    'Synthetic'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2025-05-29
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      1.25
+    output
+      1.25

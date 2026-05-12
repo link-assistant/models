@@ -1,0 +1,32 @@
+model 'Text Prime'
+  has id
+    'text-prime'
+  provider id
+    'the-grid-ai'
+  provided by
+    'The Grid AI'
+  status
+    beta
+  released at
+    2026-02-26
+  last updated at
+    2026-02-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '30 000'

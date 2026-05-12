@@ -1,0 +1,39 @@
+model 'Ministral 14B'
+  has id
+    'mistral/ministral-14b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.2
+    output
+      0.2

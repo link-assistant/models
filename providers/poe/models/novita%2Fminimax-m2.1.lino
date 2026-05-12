@@ -1,0 +1,31 @@
+model 'minimax-m2.1'
+  has id
+    'novita/minimax-m2.1'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  status
+    active
+  released at
+    2025-12-26
+  last updated at
+    2025-12-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '205 000'
+    output
+      '131 072'

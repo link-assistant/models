@@ -1,0 +1,38 @@
+model 'FLUX.2 Flex'
+  has id
+    'black-forest-labs/flux.2-flex'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'flux'
+  status
+    active
+  released at
+    2025-11-25
+  last updated at
+    2026-01-31
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      image text
+    output
+      image
+  limits
+    context
+      '67 344'
+    output
+      '67 344'
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,39 @@
+model 'THUDM/GLM-Z1-9B-0414'
+  has id
+    'THUDM/GLM-Z1-9B-0414'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'glm-z'
+  status
+    active
+  released at
+    2025-04-18
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.086
+    output
+      0.086

@@ -1,0 +1,35 @@
+model 'Meta: Llama Guard 4 12B'
+  has id
+    'meta-llama/llama-guard-4-12b'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-04-05
+  last updated at
+    2025-04-05
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '32 768'
+  costs
+    input
+      0.18
+    output
+      0.18

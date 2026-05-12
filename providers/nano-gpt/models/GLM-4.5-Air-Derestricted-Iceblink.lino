@@ -1,0 +1,32 @@
+model 'GLM 4.5 Air Derestricted Iceblink'
+  has id
+    'GLM-4.5-Air-Derestricted-Iceblink'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-07-28
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    input
+      '131 072'
+    output
+      '98 304'
+  costs
+    input
+      0.306
+    output
+      0.306

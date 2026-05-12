@@ -1,0 +1,30 @@
+model 'Aya Vision 8B'
+  has id
+    'c4ai-aya-vision-8b'
+  provider id
+    'cohere'
+  provided by
+    'Cohere'
+  status
+    active
+  released at
+    2025-03-04
+  last updated at
+    2025-05-14
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '16 000'
+    output
+      4000

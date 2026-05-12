@@ -1,0 +1,32 @@
+model 'Yi Large'
+  has id
+    'yi-large'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2024-05-13
+  last updated at
+    2024-05-13
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    input
+      '32 000'
+    output
+      4096
+  costs
+    input
+      3.196
+    output
+      3.196

@@ -1,0 +1,40 @@
+model 'MiniMax M2.5'
+  has id
+    'minimax-m2.5'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'minimax-m2.5'
+  status
+    beta
+  released at
+    2026-02-12
+  last updated at
+    2026-04-16
+  has knowledge cutoff at
+    2025-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '128 000'
+  costs
+    input
+      0.3
+    output
+      1.2

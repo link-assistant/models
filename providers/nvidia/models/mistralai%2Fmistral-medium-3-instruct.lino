@@ -1,0 +1,38 @@
+model 'Mistral Medium 3'
+  has id
+    'mistralai/mistral-medium-3-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2025-09-25
+  last updated at
+    2025-09-25
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    input
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,40 @@
+model 'GPT-5-mini'
+  has id
+    'openai/gpt-5-mini'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-06-25
+  last updated at
+    2025-06-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      0.22
+    output
+      1.8
+    cacheRead
+      0.022

@@ -1,0 +1,41 @@
+model 'GPT-5'
+  has id
+    'openai/gpt-5'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '64 000'
+  costs
+    input
+      1.25
+    output
+      10
+    cacheRead
+      0.12

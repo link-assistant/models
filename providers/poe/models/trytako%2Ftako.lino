@@ -1,0 +1,32 @@
+model 'Tako'
+  has id
+    'trytako/tako'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'tako'
+  status
+    active
+  released at
+    2024-08-15
+  last updated at
+    2024-08-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      2048
+    output
+      0

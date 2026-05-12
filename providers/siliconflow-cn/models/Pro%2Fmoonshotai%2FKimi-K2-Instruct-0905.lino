@@ -1,0 +1,38 @@
+model 'Pro/moonshotai/Kimi-K2-Instruct-0905'
+  has id
+    'Pro/moonshotai/Kimi-K2-Instruct-0905'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-09-08
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.4
+    output
+      2

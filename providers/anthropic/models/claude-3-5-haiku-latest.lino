@@ -1,4 +1,14 @@
 model 'Claude Haiku 3.5 (latest)'
+  has id
+    'claude-3-5-haiku-latest'
+  provider id
+    'anthropic'
+  provided by
+    'Anthropic'
+  family
+    'claude-haiku'
+  status
+    active
   released at
     2024-10-22
   last updated at
@@ -15,20 +25,20 @@ model 'Claude Haiku 3.5 (latest)'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
       '200 000'
     output
-      '8 192'
+      8192
   costs
     input
-      0.80
+      0.8
     output
-      4.00
+      4
     cacheRead
       0.08
     cacheWrite
-      1.00
+      1

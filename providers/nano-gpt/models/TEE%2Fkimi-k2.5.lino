@@ -1,0 +1,34 @@
+model 'Kimi K2.5 TEE'
+  has id
+    'TEE/kimi-k2.5'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2026-01-29
+  last updated at
+    2026-01-29
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '65 535'
+  costs
+    input
+      0.3
+    output
+      1.9

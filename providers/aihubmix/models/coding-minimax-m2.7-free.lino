@@ -1,0 +1,38 @@
+model 'Coding-MiniMax-M2.7-Free'
+  has id
+    'coding-minimax-m2.7-free'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '13 100'
+  costs
+    input
+      0
+    output
+      0

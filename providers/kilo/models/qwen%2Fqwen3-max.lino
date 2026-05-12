@@ -1,0 +1,37 @@
+model 'Qwen: Qwen3 Max'
+  has id
+    'qwen/qwen3-max'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-09-05
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      1.2
+    output
+      6
+    cacheRead
+      0.24

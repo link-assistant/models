@@ -1,0 +1,46 @@
+model 'Gemini 3.1 Flash Lite Preview'
+  has id
+    'gemini-3.1-flash-lite-preview'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'gemini-flash-lite'
+  status
+    active
+  released at
+    2026-03-03
+  last updated at
+    2026-03-03
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.25
+    output
+      1.5
+    cacheRead
+      0.025
+    cacheWrite
+      1

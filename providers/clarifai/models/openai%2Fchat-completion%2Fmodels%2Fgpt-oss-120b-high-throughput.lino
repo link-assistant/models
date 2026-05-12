@@ -1,0 +1,38 @@
+model 'GPT OSS 120B High Throughput'
+  has id
+    'openai/chat-completion/models/gpt-oss-120b-high-throughput'
+  provider id
+    'clarifai'
+  provided by
+    'Clarifai'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2026-02-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.09
+    output
+      0.36

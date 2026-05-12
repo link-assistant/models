@@ -1,0 +1,41 @@
+model 'GPT-5 Pro'
+  has id
+    'gpt-5-pro'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'gpt-pro'
+  status
+    active
+  released at
+    2025-10-06
+  last updated at
+    2025-10-06
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    output
+      '272 000'
+  costs
+    input
+      15
+    output
+      120

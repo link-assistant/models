@@ -1,0 +1,40 @@
+model 'AI21 Jamba 1.5 Mini'
+  has id
+    'ai21-labs/ai21-jamba-1.5-mini'
+  provider id
+    'github-models'
+  provided by
+    'GitHub Models'
+  family
+    'jamba'
+  status
+    active
+  released at
+    2024-08-29
+  last updated at
+    2024-08-29
+  has knowledge cutoff at
+    2024-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

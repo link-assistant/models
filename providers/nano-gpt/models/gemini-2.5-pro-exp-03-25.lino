@@ -1,0 +1,37 @@
+model 'Gemini 2.5 Pro Experimental 0325'
+  has id
+    'gemini-2.5-pro-exp-03-25'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-03-25
+  last updated at
+    2025-03-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 756'
+    input
+      '1 048 756'
+    output
+      '65 536'
+  costs
+    input
+      2.5
+    output
+      10

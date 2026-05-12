@@ -1,0 +1,44 @@
+model 'Gemini 3 Pro Preview'
+  has id
+    'databricks-gemini-3-pro'
+  provider id
+    'databricks'
+  provided by
+    'Databricks'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-11-18
+  last updated at
+    2025-11-18
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '64 000'
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.2

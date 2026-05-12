@@ -1,0 +1,32 @@
+model 'Embed v3 Multilingual'
+  has id
+    'cohere-embed-v3-multilingual'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'cohere-embed'
+  status
+    active
+  released at
+    2023-11-07
+  last updated at
+    2023-11-07
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      512
+    output
+      1024
+  costs
+    input
+      0.1
+    output
+      0

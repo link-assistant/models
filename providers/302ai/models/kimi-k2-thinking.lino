@@ -1,0 +1,38 @@
+model 'kimi-k2-thinking'
+  has id
+    'kimi-k2-thinking'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-09-05
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.575
+    output
+      2.3

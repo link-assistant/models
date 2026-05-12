@@ -1,0 +1,38 @@
+model 'Qwen3 32B'
+  has id
+    'Qwen/Qwen3-32B'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04-29
+  last updated at
+    2025-04-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.09
+    output
+      0.29

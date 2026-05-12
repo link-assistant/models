@@ -1,0 +1,38 @@
+model 'Ling-2.6-1T'
+  has id
+    'inclusionai/ling-2.6-1t'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-04-23
+  last updated at
+    2026-04-23
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

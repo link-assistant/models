@@ -1,0 +1,40 @@
+model 'MiniMax M2.5'
+  has id
+    'minimax/minimax-m2.5'
+  provider id
+    'hpc-ai'
+  provided by
+    'HPC-AI'
+  family
+    'minimax-m2.5'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-03-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.14
+    output
+      0.56
+    cacheRead
+      0.014

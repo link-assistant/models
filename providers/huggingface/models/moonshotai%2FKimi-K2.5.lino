@@ -1,0 +1,44 @@
+model 'Kimi-K2.5'
+  has id
+    'moonshotai/Kimi-K2.5'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2026-01-01
+  last updated at
+    2026-01-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.6
+    output
+      3
+    cacheRead
+      0.1

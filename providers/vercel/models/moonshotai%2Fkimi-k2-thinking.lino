@@ -1,0 +1,43 @@
+model 'Kimi K2 Thinking'
+  has id
+    'moonshotai/kimi-k2-thinking'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2025-11-06
+  last updated at
+    2025-11-06
+  has knowledge cutoff at
+    2024-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '216 144'
+    output
+      '216 144'
+  costs
+    input
+      0.47
+    output
+      2
+    cacheRead
+      0.14

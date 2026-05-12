@@ -1,0 +1,40 @@
+model 'GPT-4o Mini'
+  has id
+    'gpt-4o-mini'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-07-18
+  last updated at
+    2024-07-18
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.15
+    output
+      0.6

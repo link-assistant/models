@@ -1,0 +1,39 @@
+model 'Voxtral Small 24B 2507'
+  has id
+    'mistral.voxtral-small-24b-2507'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2025-07-01
+  last updated at
+    2025-07-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      8192
+  costs
+    input
+      0.15
+    output
+      0.35

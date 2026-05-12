@@ -1,0 +1,32 @@
+model 'GLM 4 Air 0111'
+  has id
+    'glm-4-air-0111'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-01-11
+  last updated at
+    2025-01-11
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.1394
+    output
+      0.1394

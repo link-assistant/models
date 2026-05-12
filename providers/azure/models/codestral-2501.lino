@@ -1,0 +1,39 @@
+model 'Codestral 25.01'
+  has id
+    'codestral-2501'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'codestral'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  has knowledge cutoff at
+    2024-03
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.3
+    output
+      0.9

@@ -1,0 +1,30 @@
+model 'OpenAI: GPT-4o-mini Search Preview'
+  has id
+    'openai/gpt-4o-mini-search-preview'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-01
+  last updated at
+    2025-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.15
+    output
+      0.6

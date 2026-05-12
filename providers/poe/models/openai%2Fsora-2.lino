@@ -1,0 +1,32 @@
+model 'Sora-2'
+  has id
+    'openai/sora-2'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'sora'
+  status
+    active
+  released at
+    2025-10-06
+  last updated at
+    2025-10-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

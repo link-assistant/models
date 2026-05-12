@@ -1,0 +1,43 @@
+model 'Claude 3.5 Haiku'
+  has id
+    'anthropic-claude-3.5-haiku'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'claude-haiku'
+  status
+    deprecated
+  released at
+    2024-11-05
+  last updated at
+    2024-11-05
+  has knowledge cutoff at
+    2024-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      8192
+  costs
+    input
+      0.8
+    output
+      4
+    cacheRead
+      0.08
+    cacheWrite
+      1

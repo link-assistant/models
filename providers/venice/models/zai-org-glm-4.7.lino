@@ -1,0 +1,44 @@
+model 'GLM 4.7'
+  has id
+    'zai-org-glm-4.7'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-24
+  last updated at
+    2026-03-12
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '198 000'
+    output
+      '16 384'
+  costs
+    input
+      0.55
+    output
+      2.65
+    cacheRead
+      0.11

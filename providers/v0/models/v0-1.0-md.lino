@@ -1,0 +1,39 @@
+model 'v0-1.0-md'
+  has id
+    'v0-1.0-md'
+  provider id
+    'v0'
+  provided by
+    'v0'
+  family
+    'v0'
+  status
+    active
+  released at
+    2025-05-22
+  last updated at
+    2025-05-22
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 000'
+  costs
+    input
+      3
+    output
+      15

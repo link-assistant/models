@@ -1,0 +1,42 @@
+model 'MiniMax-M2.5-highspeed'
+  has id
+    'MiniMax-M2.5-highspeed'
+  provider id
+    'minimax-coding-plan'
+  provided by
+    'MiniMax Coding Plan (minimax.io)'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-13
+  last updated at
+    2026-02-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

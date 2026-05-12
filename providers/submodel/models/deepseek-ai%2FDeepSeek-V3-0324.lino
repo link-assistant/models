@@ -1,0 +1,37 @@
+model 'DeepSeek V3 0324'
+  has id
+    'deepseek-ai/DeepSeek-V3-0324'
+  provider id
+    'submodel'
+  provided by
+    'submodel'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-23
+  last updated at
+    2025-08-23
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '75 000'
+    output
+      '163 840'
+  costs
+    input
+      0.2
+    output
+      0.8

@@ -1,0 +1,36 @@
+model 'Meta-Llama-3_3-70B-Instruct'
+  has id
+    'meta-llama-3_3-70b-instruct'
+  provider id
+    'ovhcloud'
+  provided by
+    'OVHcloud AI Endpoints'
+  status
+    active
+  released at
+    2025-04-01
+  last updated at
+    2025-04-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.74
+    output
+      0.74

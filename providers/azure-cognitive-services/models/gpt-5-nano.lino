@@ -1,0 +1,42 @@
+model 'GPT-5 Nano'
+  has id
+    'gpt-5-nano'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'gpt-nano'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2024-05-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      0.05
+    output
+      0.4
+    cacheRead
+      0.01

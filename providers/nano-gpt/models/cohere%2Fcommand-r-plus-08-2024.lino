@@ -1,0 +1,38 @@
+model 'Cohere: Command R+'
+  has id
+    'cohere/command-r-plus-08-2024'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'command-r'
+  status
+    active
+  released at
+    2024-08-30
+  last updated at
+    2024-08-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      4096
+  costs
+    input
+      2.856
+    output
+      14.246

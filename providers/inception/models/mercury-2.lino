@@ -1,0 +1,43 @@
+model 'Mercury 2'
+  has id
+    'mercury-2'
+  provider id
+    'inception'
+  provided by
+    'Inception'
+  family
+    'mercury'
+  status
+    active
+  released at
+    2026-02-24
+  last updated at
+    2026-02-24
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '50 000'
+  costs
+    input
+      0.25
+    output
+      0.75
+    cacheRead
+      0.025

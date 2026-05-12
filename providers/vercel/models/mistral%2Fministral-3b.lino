@@ -1,0 +1,39 @@
+model 'Ministral 3B (latest)'
+  has id
+    'mistral/ministral-3b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2024-10-01
+  last updated at
+    2024-10-04
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.04
+    output
+      0.04

@@ -1,0 +1,32 @@
+model 'Llama 3.3+ 70B TenyxChat DaybreakStorywriter'
+  has id
+    'Llama-3.3+(3v3.3)-70B-TenyxChat-DaybreakStorywriter'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2024-12-06
+  last updated at
+    2024-12-06
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      '16 384'
+  costs
+    input
+      0.306
+    output
+      0.306

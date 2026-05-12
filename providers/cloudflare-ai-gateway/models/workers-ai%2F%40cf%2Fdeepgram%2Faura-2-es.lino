@@ -1,0 +1,36 @@
+model 'Deepgram Aura 2 (ES)'
+  has id
+    'workers-ai/@cf/deepgram/aura-2-es'
+  provider id
+    'cloudflare-ai-gateway'
+  provided by
+    'Cloudflare AI Gateway'
+  family
+    'aura'
+  status
+    active
+  released at
+    2025-11-14
+  last updated at
+    2025-11-14
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

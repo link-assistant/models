@@ -1,0 +1,39 @@
+model 'DeepSeek TNG R1T2 Chimera'
+  has id
+    'deepseek-tng-r1t2-chimera'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-07-02
+  last updated at
+    2025-07-02
+  has knowledge cutoff at
+    2025-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '130 000'
+    output
+      '163 840'
+  costs
+    input
+      0.3
+    output
+      1.2

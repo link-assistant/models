@@ -1,0 +1,30 @@
+model 'rerank-qa-mistral-4b'
+  has id
+    'nvidia/rerank-qa-mistral-4b'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2024-03-17
+  last updated at
+    2025-01-17
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

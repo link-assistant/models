@@ -1,0 +1,44 @@
+model 'Claude 3 Opus'
+  has id
+    'anthropic-claude-3-opus'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'claude-opus'
+  status
+    deprecated
+  released at
+    2024-02-29
+  last updated at
+    2024-02-29
+  has knowledge cutoff at
+    2023-08
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      4096
+  costs
+    input
+      15
+    output
+      75
+    cacheRead
+      1.5
+    cacheWrite
+      18.75

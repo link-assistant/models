@@ -1,0 +1,39 @@
+model 'GLM 5 Turbo'
+  has id
+    'z-ai/glm-5-turbo'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-03-20
+  last updated at
+    2026-03-20
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.88
+    output
+      3.48

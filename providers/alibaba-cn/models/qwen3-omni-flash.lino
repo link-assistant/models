@@ -1,0 +1,44 @@
+model 'Qwen3-Omni Flash'
+  has id
+    'qwen3-omni-flash'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-15
+  last updated at
+    2025-09-15
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text audio
+  limits
+    context
+      '65 536'
+    output
+      '16 384'
+  costs
+    input
+      0.058
+    output
+      0.23
+    inputAudio
+      3.584
+    outputAudio
+      7.168

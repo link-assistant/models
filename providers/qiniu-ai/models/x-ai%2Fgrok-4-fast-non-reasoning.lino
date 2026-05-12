@@ -1,0 +1,32 @@
+model 'X-Ai/Grok-4-Fast-Non-Reasoning'
+  has id
+    'x-ai/grok-4-fast-non-reasoning'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-12-18
+  last updated at
+    2025-12-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '2 000 000'

@@ -1,0 +1,38 @@
+model 'Qwen3.6 Plus'
+  has id
+    'Qwen/Qwen3.6-Plus'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-30
+  last updated at
+    2026-04-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '500 000'
+  costs
+    input
+      0.5
+    output
+      3

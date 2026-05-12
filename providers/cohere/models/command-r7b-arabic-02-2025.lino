@@ -1,0 +1,39 @@
+model 'Command R7B Arabic'
+  has id
+    'command-r7b-arabic-02-2025'
+  provider id
+    'cohere'
+  provided by
+    'Cohere'
+  family
+    'command-r'
+  status
+    active
+  released at
+    2025-02-27
+  last updated at
+    2025-02-27
+  has knowledge cutoff at
+    2024-06-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4000
+  costs
+    input
+      0.0375
+    output
+      0.15

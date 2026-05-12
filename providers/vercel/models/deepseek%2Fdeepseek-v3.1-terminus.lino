@@ -1,0 +1,40 @@
+model 'DeepSeek V3.1 Terminus'
+  has id
+    'deepseek/deepseek-v3.1-terminus'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-09-22
+  last updated at
+    2025-09-22
+  has knowledge cutoff at
+    2025-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.27
+    output
+      1

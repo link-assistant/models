@@ -1,0 +1,40 @@
+model 'GLM-4.6'
+  has id
+    'glm-4.6'
+  provider id
+    'iflowcn'
+  provided by
+    'iFlow'
+  family
+    'glm'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2025-11-13
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0

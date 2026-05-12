@@ -1,0 +1,41 @@
+model 'Qwen3 235B A22B Thinking 2507'
+  has id
+    'qwen/qwen3-235b-a22b-thinking-2507'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2025-07-25
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '81 920'
+  costs
+    input
+      0.078
+    output
+      0.312

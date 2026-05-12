@@ -1,0 +1,40 @@
+model 'Trinity Large Thinking'
+  has id
+    'arcee-trinity-large-thinking'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'trinity'
+  status
+    beta
+  released at
+    2026-04-02
+  last updated at
+    2026-04-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      0.25
+    output
+      0.9
+    cacheRead
+      0.06

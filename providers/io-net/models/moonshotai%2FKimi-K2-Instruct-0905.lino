@@ -1,0 +1,43 @@
+model 'Kimi K2 Instruct'
+  has id
+    'moonshotai/Kimi-K2-Instruct-0905'
+  provider id
+    'io-net'
+  provided by
+    'IO.NET'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2024-09-05
+  last updated at
+    2024-09-05
+  has knowledge cutoff at
+    2024-08
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.39
+    output
+      1.9
+    cacheRead
+      0.195
+    cacheWrite
+      0.78

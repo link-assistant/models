@@ -1,0 +1,41 @@
+model 'Laguna M.1'
+  has id
+    'poolside/laguna-m.1:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2026-04-28
+  last updated at
+    2026-04-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

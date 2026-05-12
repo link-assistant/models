@@ -1,0 +1,44 @@
+model 'DeepSeek V4 Pro'
+  has id
+    'deepseek/deepseek-v4-pro'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '393 216'
+  costs
+    input
+      1.69
+    output
+      3.38
+    cacheRead
+      0.13

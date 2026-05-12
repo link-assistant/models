@@ -1,0 +1,32 @@
+model 'ElevenLabs-v3'
+  has id
+    'elevenlabs/elevenlabs-v3'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'elevenlabs'
+  status
+    active
+  released at
+    2025-06-05
+  last updated at
+    2025-06-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      '128 000'
+    output
+      0

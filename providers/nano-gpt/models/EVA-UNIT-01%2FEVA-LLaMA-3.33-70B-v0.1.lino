@@ -1,0 +1,34 @@
+model 'EVA-LLaMA-3.33-70B-v0.1'
+  has id
+    'EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-09-25
+  last updated at
+    2025-09-25
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    input
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      2.006
+    output
+      2.006

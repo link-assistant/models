@@ -1,0 +1,35 @@
+model 'Mistral: Codestral 2508'
+  has id
+    'mistralai/codestral-2508'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-08-01
+  last updated at
+    2025-08-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '51 200'
+  costs
+    input
+      0.3
+    output
+      0.9

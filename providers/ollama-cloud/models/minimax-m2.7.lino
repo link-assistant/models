@@ -1,0 +1,32 @@
+model 'minimax-m2.7'
+  has id
+    'minimax-m2.7'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 608'
+    output
+      '196 608'

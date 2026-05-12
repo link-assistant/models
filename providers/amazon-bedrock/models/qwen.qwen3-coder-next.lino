@@ -1,0 +1,39 @@
+model 'Qwen3 Coder Next'
+  has id
+    'qwen.qwen3-coder-next'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-06
+  last updated at
+    2026-02-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.22
+    output
+      1.8

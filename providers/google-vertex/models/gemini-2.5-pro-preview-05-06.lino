@@ -1,0 +1,43 @@
+model 'Gemini 2.5 Pro Preview 05-06'
+  has id
+    'gemini-2.5-pro-preview-05-06'
+  provider id
+    'google-vertex'
+  provided by
+    'Vertex'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-05-06
+  last updated at
+    2025-05-06
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      1.25
+    output
+      10
+    cacheRead
+      0.31

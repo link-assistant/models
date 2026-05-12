@@ -1,0 +1,38 @@
+model 'grok-4-1-fast-non-reasoning'
+  has id
+    'grok-4-1-fast-non-reasoning'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  status
+    active
+  released at
+    2025-11-20
+  last updated at
+    2025-11-20
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '30 000'
+  costs
+    input
+      0.2
+    output
+      0.5

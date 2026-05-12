@@ -1,0 +1,34 @@
+model 'DeepHermes-3 Mistral 24B (Preview)'
+  has id
+    'NousResearch 2/DeepHermes-3-Mistral-24B-Preview'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'nousresearch'
+  status
+    active
+  released at
+    2025-05-10
+  last updated at
+    2025-05-10
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.3
+    output
+      0.3

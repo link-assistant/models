@@ -1,0 +1,39 @@
+model 'xAI: Grok 4.20'
+  has id
+    'x-ai/grok-4.20'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-03-31
+  last updated at
+    2026-04-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image pdf text
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '2 000 000'
+  costs
+    input
+      2
+    output
+      6
+    cacheRead
+      0.2

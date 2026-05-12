@@ -1,0 +1,44 @@
+model 'Gemini 2.5 Flash Lite'
+  has id
+    'gemini-2.5-flash-lite'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-flash-lite'
+  status
+    active
+  released at
+    2025-06-17
+  last updated at
+    2025-06-17
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.1
+    output
+      0.4
+    cacheRead
+      0.025

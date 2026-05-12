@@ -1,0 +1,34 @@
+model 'GLM 4.7 TEE'
+  has id
+    'TEE/glm-4.7'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-01-29
+  last updated at
+    2026-01-29
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    input
+      '131 000'
+    output
+      '65 535'
+  costs
+    input
+      0.85
+    output
+      3.3

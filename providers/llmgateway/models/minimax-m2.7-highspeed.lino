@@ -1,0 +1,42 @@
+model 'MiniMax-M2.7-highspeed'
+  has id
+    'minimax-m2.7-highspeed'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0.6
+    output
+      2.4
+    cacheRead
+      0.06
+    cacheWrite
+      0.375

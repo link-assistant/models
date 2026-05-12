@@ -1,0 +1,31 @@
+model 'qwen3-coder-next'
+  has id
+    'qwen3-coder-next'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-02
+  last updated at
+    2026-02-08
+  weights
+    open
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'

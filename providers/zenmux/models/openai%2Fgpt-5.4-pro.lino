@@ -1,0 +1,39 @@
+model 'GPT-5.4 Pro'
+  has id
+    'openai/gpt-5.4-pro'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-03-20
+  last updated at
+    2026-03-20
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '128 000'
+  costs
+    input
+      45
+    output
+      225

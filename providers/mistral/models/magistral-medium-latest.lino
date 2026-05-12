@@ -1,0 +1,40 @@
+model 'Magistral Medium (latest)'
+  has id
+    'magistral-medium-latest'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'magistral-medium'
+  status
+    active
+  released at
+    2025-03-17
+  last updated at
+    2025-03-20
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      2
+    output
+      5

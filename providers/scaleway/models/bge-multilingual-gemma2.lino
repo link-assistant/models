@@ -1,0 +1,32 @@
+model 'BGE Multilingual Gemma2'
+  has id
+    'bge-multilingual-gemma2'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2024-07-26
+  last updated at
+    2025-06-15
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8191
+    output
+      3072
+  costs
+    input
+      0.1
+    output
+      0

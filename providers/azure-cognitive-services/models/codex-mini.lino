@@ -1,0 +1,42 @@
+model 'Codex Mini'
+  has id
+    'codex-mini'
+  provider id
+    'azure-cognitive-services'
+  provided by
+    'Azure Cognitive Services'
+  family
+    'gpt-codex-mini'
+  status
+    active
+  released at
+    2025-05-16
+  last updated at
+    2025-05-16
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      1.5
+    output
+      6
+    cacheRead
+      0.375

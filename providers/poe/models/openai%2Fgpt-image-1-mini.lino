@@ -1,0 +1,32 @@
+model 'GPT-Image-1-Mini'
+  has id
+    'openai/gpt-image-1-mini'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-08-26
+  last updated at
+    2025-08-26
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

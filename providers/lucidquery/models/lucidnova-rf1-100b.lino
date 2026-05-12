@@ -1,0 +1,40 @@
+model 'LucidNova RF1 100B'
+  has id
+    'lucidnova-rf1-100b'
+  provider id
+    'lucidquery'
+  provided by
+    'LucidQuery AI'
+  family
+    'nova'
+  status
+    active
+  released at
+    2024-12-28
+  last updated at
+    2025-09-10
+  has knowledge cutoff at
+    2025-09-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '120 000'
+    output
+      8000
+  costs
+    input
+      2
+    output
+      5

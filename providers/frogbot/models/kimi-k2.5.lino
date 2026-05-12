@@ -1,0 +1,39 @@
+model 'Kimi-K2.5'
+  has id
+    'kimi-k2.5'
+  provider id
+    'frogbot'
+  provided by
+    'FrogBot'
+  status
+    active
+  released at
+    1970-01-01
+  last updated at
+    1970-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      0.6
+    output
+      3
+    cacheRead
+      0.1

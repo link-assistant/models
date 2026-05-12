@@ -1,0 +1,32 @@
+model 'Qwen3.5 397B A17B'
+  has id
+    'qwen3.5-397b-a17b'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2026-02-22
+  last updated at
+    2026-02-22
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'

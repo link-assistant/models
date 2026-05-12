@@ -1,0 +1,40 @@
+model 'Codestral 2508'
+  has id
+    'mistralai/codestral-2508'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'codestral'
+  status
+    active
+  released at
+    2025-08-01
+  last updated at
+    2025-08-01
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.3
+    output
+      0.9

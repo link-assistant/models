@@ -1,0 +1,42 @@
+model 'GLM-5.1'
+  has id
+    'glm-5.1'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-14
+  last updated at
+    2026-04-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '128 000'
+  costs
+    input
+      0.87
+    output
+      3.48
+    cacheRead
+      0.17

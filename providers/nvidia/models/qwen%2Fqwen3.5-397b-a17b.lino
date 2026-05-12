@@ -1,0 +1,42 @@
+model 'Qwen3.5-397B-A17B'
+  has id
+    'qwen/qwen3.5-397b-a17b'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-16
+  last updated at
+    2026-02-16
+  has knowledge cutoff at
+    2026-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

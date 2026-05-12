@@ -1,0 +1,39 @@
+model 'Kimi K2 Thinking'
+  has id
+    'kimi-k2-thinking'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2025-11-06
+  last updated at
+    2025-11-06
+  has knowledge cutoff at
+    2025-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '262 144'
+  costs
+    input
+      0.48
+    output
+      2

@@ -1,0 +1,36 @@
+model 'OpenAI: GPT-5.4'
+  has id
+    'openai/gpt-5.4'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-03-06
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      image pdf text
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '128 000'
+  costs
+    input
+      2.5
+    output
+      15

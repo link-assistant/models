@@ -1,0 +1,42 @@
+model 'GLM-4.7'
+  has id
+    'zai-org/glm-4.7-maas'
+  provider id
+    'google-vertex'
+  provided by
+    'Vertex'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-01-06
+  last updated at
+    2026-01-06
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.6
+    output
+      2.2

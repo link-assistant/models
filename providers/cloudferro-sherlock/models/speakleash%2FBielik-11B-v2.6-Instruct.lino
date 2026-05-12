@@ -1,0 +1,38 @@
+model 'Bielik 11B v2.6 Instruct'
+  has id
+    'speakleash/Bielik-11B-v2.6-Instruct'
+  provider id
+    'cloudferro-sherlock'
+  provided by
+    'CloudFerro Sherlock'
+  status
+    active
+  released at
+    2025-03-13
+  last updated at
+    2025-03-13
+  has knowledge cutoff at
+    2025-03
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.67
+    output
+      0.67

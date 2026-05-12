@@ -1,0 +1,41 @@
+model 'Nemotron 3 Super'
+  has id
+    'nvidia/Nemotron-120B-A12B'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  has knowledge cutoff at
+    2026-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 678'
+  costs
+    input
+      0.3
+    output
+      0.75

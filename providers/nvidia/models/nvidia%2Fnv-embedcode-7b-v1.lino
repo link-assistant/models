@@ -1,0 +1,30 @@
+model 'nv-embedcode-7b-v1'
+  has id
+    'nvidia/nv-embedcode-7b-v1'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2025-03-17
+  last updated at
+    2025-05-29
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      2048
+  costs
+    input
+      0
+    output
+      0

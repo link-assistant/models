@@ -1,0 +1,39 @@
+model 'Kimi K2 0905'
+  has id
+    'moonshotai/kimi-k2-0905'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2025-09-04
+  last updated at
+    2025-09-04
+  has knowledge cutoff at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '64 000'
+  costs
+    input
+      0.6
+    output
+      2.5
+    cacheRead
+      0.15

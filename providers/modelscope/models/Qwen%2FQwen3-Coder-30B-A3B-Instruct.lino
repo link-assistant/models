@@ -1,0 +1,39 @@
+model 'Qwen3 Coder 30B A3B Instruct'
+  has id
+    'Qwen/Qwen3-Coder-30B-A3B-Instruct'
+  provider id
+    'modelscope'
+  provided by
+    'ModelScope'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-31
+  last updated at
+    2025-07-31
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

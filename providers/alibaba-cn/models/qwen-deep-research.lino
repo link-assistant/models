@@ -1,0 +1,39 @@
+model 'Qwen Deep Research'
+  has id
+    'qwen-deep-research'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-01
+  last updated at
+    2024-01
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      7.742
+    output
+      23.367

@@ -1,0 +1,32 @@
+model 'Qwen3-Reranker-4B'
+  has id
+    'qwen3-reranker-4b'
+  provider id
+    'regolo-ai'
+  provided by
+    'Regolo AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-01
+  last updated at
+    2026-02-01
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0.12
+    output
+      0.12

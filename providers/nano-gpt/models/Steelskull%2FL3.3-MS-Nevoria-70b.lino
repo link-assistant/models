@@ -1,0 +1,34 @@
+model 'Steelskull Nevoria 70b'
+  has id
+    'Steelskull/L3.3-MS-Nevoria-70b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-12-06
+  last updated at
+    2024-12-06
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 384'
+    input
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      0.49299999999999994
+    output
+      0.49299999999999994

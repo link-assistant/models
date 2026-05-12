@@ -1,0 +1,35 @@
+model 'PaddlePaddle/PaddleOCR-VL'
+  has id
+    'PaddlePaddle/PaddleOCR-VL'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  status
+    active
+  released at
+    2025-10-16
+  last updated at
+    2025-10-16
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

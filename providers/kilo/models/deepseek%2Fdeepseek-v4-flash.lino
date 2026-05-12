@@ -1,0 +1,38 @@
+model 'DeepSeek: DeepSeek V4 Flash'
+  has id
+    'deepseek/deepseek-v4-flash'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-05-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '384 000'
+  costs
+    input
+      0.14
+    output
+      0.28
+    cacheRead
+      0.0028

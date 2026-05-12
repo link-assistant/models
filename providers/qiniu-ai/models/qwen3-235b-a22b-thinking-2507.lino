@@ -1,0 +1,31 @@
+model 'Qwen3 235B A22B Thinking 2507'
+  has id
+    'qwen3-235b-a22b-thinking-2507'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-08-12
+  last updated at
+    2025-08-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      4096

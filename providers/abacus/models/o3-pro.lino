@@ -1,0 +1,40 @@
+model 'o3-pro'
+  has id
+    'o3-pro'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'o-pro'
+  status
+    active
+  released at
+    2025-06-10
+  last updated at
+    2025-06-10
+  has knowledge cutoff at
+    2024-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      20
+    output
+      40

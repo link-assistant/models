@@ -1,0 +1,38 @@
+model 'TNG: DeepSeek R1T2 Chimera'
+  has id
+    'tngtech/deepseek-r1t2-chimera'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-07-08
+  last updated at
+    2025-07-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '163 840'
+  costs
+    input
+      0.25
+    output
+      0.85
+    cacheRead
+      0.125

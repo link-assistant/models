@@ -1,0 +1,35 @@
+model 'Llama 4 Scout Instruct'
+  has id
+    'meta-llama/llama-4-scout-17b-16e-instruct'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-04-06
+  last updated at
+    2025-04-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.18
+    output
+      0.59

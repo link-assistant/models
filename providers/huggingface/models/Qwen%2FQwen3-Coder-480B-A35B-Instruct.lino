@@ -1,0 +1,39 @@
+model 'Qwen3-Coder-480B-A35B-Instruct'
+  has id
+    'Qwen/Qwen3-Coder-480B-A35B-Instruct'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-23
+  last updated at
+    2025-07-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '66 536'
+  costs
+    input
+      2
+    output
+      2

@@ -1,0 +1,39 @@
+model 'Kimi K2 Turbo'
+  has id
+    'moonshotai/kimi-k2-turbo'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2025-09-05
+  last updated at
+    2025-09-05
+  has knowledge cutoff at
+    2024-08
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '16 384'
+  costs
+    input
+      2.4
+    output
+      10

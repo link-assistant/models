@@ -1,0 +1,39 @@
+model 'GPT Oss 120b'
+  has id
+    'gpt-oss-120b'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2024-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0

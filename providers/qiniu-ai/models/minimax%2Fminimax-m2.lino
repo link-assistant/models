@@ -1,0 +1,31 @@
+model 'Minimax/Minimax-M2'
+  has id
+    'minimax/minimax-m2'
+  provider id
+    'qiniu-ai'
+  provided by
+    'Qiniu'
+  status
+    active
+  released at
+    2025-10-28
+  last updated at
+    2025-10-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'

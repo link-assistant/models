@@ -1,0 +1,45 @@
+model 'Qwen3.5-397B-A17B-fast'
+  has id
+    'Qwen/Qwen3.5-397B-A17B-fast'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  status
+    active
+  released at
+    2025-07-15
+  last updated at
+    2026-05-07
+  has knowledge cutoff at
+    2025-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8000
+    input
+      7000
+    output
+      8192
+  costs
+    input
+      0.6
+    output
+      3.6
+    cacheRead
+      0.06
+    cacheWrite
+      0.75

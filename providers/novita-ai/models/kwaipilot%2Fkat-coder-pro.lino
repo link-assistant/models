@@ -1,0 +1,38 @@
+model 'Kat Coder Pro'
+  has id
+    'kwaipilot/kat-coder-pro'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2026-01-05
+  last updated at
+    2026-01-05
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

@@ -1,0 +1,39 @@
+model 'GLM 5.1 FP8'
+  has id
+    'zai-org/GLM-5.1-FP8'
+  provider id
+    'neuralwatt'
+  provided by
+    'Neuralwatt'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '200 000'
+  costs
+    input
+      1.1
+    output
+      3.6

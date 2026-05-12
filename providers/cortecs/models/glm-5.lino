@@ -1,0 +1,39 @@
+model 'GLM 5'
+  has id
+    'glm-5'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-11
+  last updated at
+    2026-02-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '202 752'
+  costs
+    input
+      1.08
+    output
+      3.44

@@ -1,0 +1,32 @@
+model 'Qwen3 Embedding 8B'
+  has id
+    'qwen3-embedding-8b'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-25-11
+  last updated at
+    2026-03-17
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.1
+    output
+      0

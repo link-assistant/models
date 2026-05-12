@@ -1,0 +1,43 @@
+model 'DeepSeek V4 Flash'
+  has id
+    'deepseek-v4-flash'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '384 000'
+  costs
+    input
+      0.133
+    output
+      0.266
+    cacheRead
+      0.028

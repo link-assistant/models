@@ -1,0 +1,38 @@
+model 'Qwen: Qwen3.6 Max Preview'
+  has id
+    'qwen/qwen3.6-max-preview'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-04-27
+  last updated at
+    2026-05-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      1.04
+    output
+      6.24
+    cacheWrite
+      1.3

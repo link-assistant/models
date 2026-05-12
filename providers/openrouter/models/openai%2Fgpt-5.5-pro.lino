@@ -1,0 +1,43 @@
+model 'GPT-5.5 Pro'
+  has id
+    'openai/gpt-5.5-pro'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gpt-pro'
+  status
+    active
+  released at
+    2026-04-23
+  last updated at
+    2026-04-23
+  has knowledge cutoff at
+    2025-12-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      30
+    output
+      180

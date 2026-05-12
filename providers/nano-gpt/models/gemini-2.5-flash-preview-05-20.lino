@@ -1,0 +1,36 @@
+model 'Gemini 2.5 Flash 0520'
+  has id
+    'gemini-2.5-flash-preview-05-20'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-05-20
+  last updated at
+    2025-05-20
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 000'
+    input
+      '1 048 000'
+    output
+      '65 536'
+  costs
+    input
+      0.15
+    output
+      0.6

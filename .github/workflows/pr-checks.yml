@@ -2,43 +2,56 @@ name: PR Checks
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened]
     branches:
       - main
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref == 'refs/heads/main' }}
 
 jobs:
   lint-and-test:
+    name: Lint, test, and build website
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: '24.x'
+          cache: npm
           cache-dependency-path: website/package-lock.json
 
       - name: Install dependencies
-        run: cd website && npm ci
+        run: npm ci --prefix website
+
+      - name: Validate generated model data
+        run: npm --prefix website run check:data
 
       - name: Run ESLint
-        run: cd website && npm run lint
+        run: npm --prefix website run lint
 
       - name: Run tests
-        run: cd website && npm run test
+        run: npm --prefix website run test
 
       - name: Build website
-        run: cd website && npm run build
+        run: npm --prefix website run build
 
-      - name: Check build output
-        run: |
-          if [ ! -d "website/dist" ]; then
-            echo "Build failed: dist directory not found"
-            exit 1
-          fi
-          echo "Build successful: dist directory exists"
+      - name: Upload website build
+        uses: actions/upload-artifact@v7
+        with:
+          name: website-dist
+          path: website/dist
+          if-no-files-found: error

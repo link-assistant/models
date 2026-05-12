@@ -1,0 +1,41 @@
+model 'Gemma-3-27B-IT'
+  has id
+    'gemma-3-27b-it'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2026-03-17
+  has knowledge cutoff at
+    2024-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '40 000'
+    output
+      8192
+  costs
+    input
+      0.25
+    output
+      0.5

@@ -1,0 +1,42 @@
+model 'moonshotai/Kimi-K2.6'
+  has id
+    'moonshotai/Kimi-K2.6'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'kimi'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.95
+    output
+      4
+    cacheRead
+      0.16

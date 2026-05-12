@@ -1,0 +1,39 @@
+model 'Qwen Plus Latest'
+  has id
+    'qwen-plus-latest'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-01-25
+  last updated at
+    2025-01-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      0.9

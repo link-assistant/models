@@ -1,0 +1,38 @@
+model 'NVIDIA Nemotron Nano 9B v2'
+  has id
+    'nvidia.nemotron-nano-9b-v2'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2024-12-01
+  last updated at
+    2024-12-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.06
+    output
+      0.23

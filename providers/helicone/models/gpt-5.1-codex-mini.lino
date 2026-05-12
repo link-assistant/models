@@ -1,0 +1,40 @@
+model 'OpenAI: GPT-5.1 Codex Mini'
+  has id
+    'gpt-5.1-codex-mini'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'gpt-codex'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      '400 000'
+    output
+      '128 000'
+  costs
+    input
+      0.25
+    output
+      2
+    cacheRead
+      0.024999999999999998

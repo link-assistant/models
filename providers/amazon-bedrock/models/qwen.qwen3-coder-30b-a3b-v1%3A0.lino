@@ -1,0 +1,40 @@
+model 'Qwen3 Coder 30B A3B Instruct'
+  has id
+    'qwen.qwen3-coder-30b-a3b-v1:0'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-18
+  last updated at
+    2025-09-18
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.15
+    output
+      0.6

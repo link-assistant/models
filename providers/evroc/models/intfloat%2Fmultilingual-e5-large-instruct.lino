@@ -1,0 +1,32 @@
+model 'E5 Multi-Lingual Large Embeddings 0.6B'
+  has id
+    'intfloat/multilingual-e5-large-instruct'
+  provider id
+    'evroc'
+  provided by
+    'evroc'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2024-06-01
+  last updated at
+    2024-06-01
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      512
+    output
+      512
+  costs
+    input
+      0.12
+    output
+      0.12

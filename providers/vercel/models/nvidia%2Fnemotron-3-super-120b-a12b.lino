@@ -1,0 +1,36 @@
+model 'NVIDIA Nemotron 3 Super 120B A12B'
+  has id
+    'nvidia/nemotron-3-super-120b-a12b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-30
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      0.15
+    output
+      0.65

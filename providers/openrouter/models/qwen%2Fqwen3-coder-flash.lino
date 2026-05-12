@@ -1,0 +1,43 @@
+model 'Qwen3 Coder Flash'
+  has id
+    'qwen/qwen3-coder-flash'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-23
+  last updated at
+    2025-07-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '66 536'
+  costs
+    input
+      0.3
+    output
+      1.5
+    cacheRead
+      0.039
+    cacheWrite
+      0.24375

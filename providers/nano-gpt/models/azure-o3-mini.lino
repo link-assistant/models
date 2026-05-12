@@ -1,0 +1,32 @@
+model 'Azure o3-mini'
+  has id
+    'azure-o3-mini'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-01-31
+  last updated at
+    2025-01-31
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    input
+      '200 000'
+    output
+      '65 536'
+  costs
+    input
+      1.088
+    output
+      4.3996

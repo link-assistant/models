@@ -1,0 +1,42 @@
+model 'DeepSeek R1 0528 TEE'
+  has id
+    'deepseek-ai/DeepSeek-R1-0528-TEE'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-12-29
+  last updated at
+    2026-04-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '65 536'
+  costs
+    input
+      0.45
+    output
+      2.15
+    cacheRead
+      0.225

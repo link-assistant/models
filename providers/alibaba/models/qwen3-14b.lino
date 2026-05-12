@@ -1,0 +1,42 @@
+model 'Qwen3 14B'
+  has id
+    'qwen3-14b'
+  provider id
+    'alibaba'
+  provided by
+    'Alibaba'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04
+  last updated at
+    2025-04
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.35
+    output
+      1.4
+    reasoning
+      4.2

@@ -1,0 +1,36 @@
+model 'PLaMo Embedding 1B'
+  has id
+    'workers-ai/@cf/pfnet/plamo-embedding-1b'
+  provider id
+    'cloudflare-ai-gateway'
+  provided by
+    'Cloudflare AI Gateway'
+  family
+    'plamo'
+  status
+    active
+  released at
+    2025-09-25
+  last updated at
+    2025-09-25
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.019
+    output
+      0

@@ -1,0 +1,40 @@
+model 'DeepSeek V3.2 Exp'
+  has id
+    'deepseek/deepseek-v3.2-exp'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-09-29
+  last updated at
+    2025-09-29
+  has knowledge cutoff at
+    2025-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '163 840'
+  costs
+    input
+      0.27
+    output
+      0.4

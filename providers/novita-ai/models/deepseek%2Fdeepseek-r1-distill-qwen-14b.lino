@@ -1,0 +1,36 @@
+model 'DeepSeek R1 Distill Qwen 14B'
+  has id
+    'deepseek/deepseek-r1-distill-qwen-14b'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2025-01-20
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '16 384'
+  costs
+    input
+      0.15
+    output
+      0.15

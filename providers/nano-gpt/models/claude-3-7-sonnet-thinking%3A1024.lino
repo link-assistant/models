@@ -1,0 +1,39 @@
+model 'Claude 3.7 Sonnet Thinking (1K)'
+  has id
+    'claude-3-7-sonnet-thinking:1024'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-02-24
+  last updated at
+    2025-02-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    input
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      2.992
+    output
+      14.994

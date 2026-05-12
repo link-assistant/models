@@ -1,0 +1,39 @@
+model 'GPT-4.1-mini'
+  has id
+    'openai/gpt-4.1-mini'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-04-15
+  last updated at
+    2025-04-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 047 576'
+    output
+      '32 768'
+  costs
+    input
+      0.36
+    output
+      1.4
+    cacheRead
+      0.09

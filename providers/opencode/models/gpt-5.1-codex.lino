@@ -1,0 +1,45 @@
+model 'GPT-5.1 Codex'
+  has id
+    'gpt-5.1-codex'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'gpt-codex'
+  status
+    active
+  released at
+    2025-11-13
+  last updated at
+    2025-11-13
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      1.07
+    output
+      8.5
+    cacheRead
+      0.107

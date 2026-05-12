@@ -1,0 +1,41 @@
+model 'Grok 3 Fast'
+  has id
+    'grok-3-fast'
+  provider id
+    'xai'
+  provided by
+    'xAI'
+  family
+    'grok'
+  status
+    active
+  released at
+    2025-02-17
+  last updated at
+    2025-02-17
+  has knowledge cutoff at
+    2024-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      5
+    output
+      25
+    cacheRead
+      1.25

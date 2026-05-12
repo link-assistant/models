@@ -1,0 +1,40 @@
+model 'gemini-2.5-flash-lite-preview-09-2025'
+  has id
+    'gemini-2.5-flash-lite-preview-09-2025'
+  provider id
+    'jiekou'
+  provided by
+    'Jiekou.AI'
+  family
+    'gemini-flash-lite'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.09
+    output
+      0.36

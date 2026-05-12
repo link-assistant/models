@@ -1,0 +1,40 @@
+model 'Qwen3 VL Instruct'
+  has id
+    'alibaba/qwen3-vl-instruct'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-24
+  last updated at
+    2025-09-24
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '129 024'
+  costs
+    input
+      0.7
+    output
+      2.8

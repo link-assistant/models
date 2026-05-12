@@ -1,0 +1,42 @@
+model 'GPT-5.4'
+  has id
+    'openai-gpt-54'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-03-05
+  last updated at
+    2026-03-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      3.13
+    output
+      18.8
+    cacheRead
+      0.313

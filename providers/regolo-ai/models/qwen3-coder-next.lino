@@ -1,0 +1,38 @@
+model 'Qwen3-Coder-Next'
+  has id
+    'qwen3-coder-next'
+  provider id
+    'regolo-ai'
+  provided by
+    'Regolo AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-03-01
+  last updated at
+    2026-03-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.3
+    output
+      1.2

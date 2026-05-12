@@ -1,0 +1,37 @@
+model 'DeepSeek V3 0324'
+  has id
+    'deepseek-ai/DeepSeek-V3-0324'
+  provider id
+    'meganova'
+  provided by
+    'Meganova'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-03-24
+  last updated at
+    2025-03-24
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '163 840'
+  costs
+    input
+      0.25
+    output
+      0.88

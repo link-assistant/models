@@ -1,0 +1,41 @@
+model 'Claude-Sonnet-3.5-June'
+  has id
+    'anthropic/claude-sonnet-3.5-june'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'claude-sonnet'
+  status
+    deprecated
+  released at
+    2024-11-18
+  last updated at
+    2024-11-18
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '189 096'
+    output
+      8192
+  costs
+    input
+      2.6
+    output
+      13
+    cacheRead
+      0.26
+    cacheWrite
+      3.2

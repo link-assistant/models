@@ -1,0 +1,35 @@
+model 'DeepSeek R1 0528 Qwen3 8B'
+  has id
+    'deepseek/deepseek-r1-0528-qwen3-8b'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  status
+    active
+  released at
+    2025-05-29
+  last updated at
+    2025-05-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 000'
+  costs
+    input
+      0.06
+    output
+      0.09

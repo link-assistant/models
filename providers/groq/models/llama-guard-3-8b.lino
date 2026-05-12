@@ -1,0 +1,36 @@
+model 'Llama Guard 3 8B'
+  has id
+    'llama-guard-3-8b'
+  provider id
+    'groq'
+  provided by
+    'Groq'
+  family
+    'llama'
+  status
+    deprecated
+  released at
+    2024-07-23
+  last updated at
+    2024-07-23
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      8192
+  costs
+    input
+      0.2
+    output
+      0.2

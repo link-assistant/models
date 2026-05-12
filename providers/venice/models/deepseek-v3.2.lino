@@ -1,0 +1,43 @@
+model 'DeepSeek V3.2'
+  has id
+    'deepseek-v3.2'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-12-04
+  last updated at
+    2026-03-24
+  has knowledge cutoff at
+    2025-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '160 000'
+    output
+      '32 768'
+  costs
+    input
+      0.33
+    output
+      0.48
+    cacheRead
+      0.16

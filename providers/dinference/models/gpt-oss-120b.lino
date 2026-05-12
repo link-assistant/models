@@ -1,0 +1,35 @@
+model 'GPT OSS 120B'
+  has id
+    'gpt-oss-120b'
+  provider id
+    'dinference'
+  provided by
+    'DInference'
+  status
+    active
+  released at
+    2025-08
+  last updated at
+    2025-08
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.0675
+    output
+      0.27

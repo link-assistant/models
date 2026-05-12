@@ -1,0 +1,37 @@
+model 'GPT-4o-Search'
+  has id
+    'openai/gpt-4o-search'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-03-11
+  last updated at
+    2025-03-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      2.2
+    output
+      9

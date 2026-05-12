@@ -1,0 +1,35 @@
+model 'Baidu: CoBuddy (free)'
+  has id
+    'baidu/cobuddy:free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-05-06
+  last updated at
+    2026-05-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

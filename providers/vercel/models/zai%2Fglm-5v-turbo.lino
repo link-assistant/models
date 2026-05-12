@@ -1,0 +1,41 @@
+model 'GLM 5V Turbo'
+  has id
+    'zai/glm-5v-turbo'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-01
+  last updated at
+    2026-04-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      1.2
+    output
+      4
+    cacheRead
+      0.24

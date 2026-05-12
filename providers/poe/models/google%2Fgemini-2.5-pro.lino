@@ -1,0 +1,40 @@
+model 'Gemini-2.5-Pro'
+  has id
+    'google/gemini-2.5-pro'
+  provider id
+    'poe'
+  provided by
+    'Poe'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-02-05
+  last updated at
+    2025-02-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '1 065 535'
+    output
+      '65 535'
+  costs
+    input
+      0.87
+    output
+      7
+    cacheRead
+      0.087

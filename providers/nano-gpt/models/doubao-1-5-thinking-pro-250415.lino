@@ -1,0 +1,36 @@
+model 'Doubao 1.5 Thinking Pro'
+  has id
+    'doubao-1-5-thinking-pro-250415'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-04-17
+  last updated at
+    2025-04-17
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.6
+    output
+      2.4

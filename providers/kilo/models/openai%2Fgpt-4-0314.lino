@@ -1,0 +1,35 @@
+model 'OpenAI: GPT-4 (older v0314)'
+  has id
+    'openai/gpt-4-0314'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2023-05-28
+  last updated at
+    2026-03-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8191
+    output
+      4096
+  costs
+    input
+      30
+    output
+      60

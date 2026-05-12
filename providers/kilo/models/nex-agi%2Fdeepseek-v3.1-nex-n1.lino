@@ -1,0 +1,35 @@
+model 'Nex AGI: DeepSeek V3.1 Nex N1'
+  has id
+    'nex-agi/deepseek-v3.1-nex-n1'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '163 840'
+  costs
+    input
+      0.27
+    output
+      1

@@ -1,0 +1,39 @@
+model 'Qwen3 Coder 480B A35B Instruct Turbo'
+  has id
+    'qwen3-coder'
+  provider id
+    'helicone'
+  provided by
+    'Helicone'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-23
+  last updated at
+    2025-07-23
+  has knowledge cutoff at
+    2025-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.22
+    output
+      0.95

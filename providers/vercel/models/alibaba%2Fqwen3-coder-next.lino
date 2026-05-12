@@ -1,0 +1,38 @@
+model 'Qwen3 Coder Next'
+  has id
+    'alibaba/qwen3-coder-next'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-22
+  last updated at
+    2026-02-19
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.5
+    output
+      1.2

@@ -1,0 +1,38 @@
+model 'DeepSeek R1 0528'
+  has id
+    'deepseek-ai/DeepSeek-R1-0528'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-05-28
+  last updated at
+    2025-05-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '163 840'
+  costs
+    input
+      0.4
+    output
+      1.7

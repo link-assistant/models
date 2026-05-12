@@ -1,0 +1,36 @@
+model 'Meta: Llama 4 Scout'
+  has id
+    'meta-llama/llama-4-scout'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2025-04-05
+  last updated at
+    2025-04-05
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '327 680'
+    output
+      '16 384'
+  costs
+    input
+      0.08
+    output
+      0.3

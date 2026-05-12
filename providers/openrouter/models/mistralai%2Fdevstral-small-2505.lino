@@ -1,0 +1,39 @@
+model 'Devstral Small'
+  has id
+    'mistralai/devstral-small-2505'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2025-05-07
+  last updated at
+    2025-05-07
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.06
+    output
+      0.12

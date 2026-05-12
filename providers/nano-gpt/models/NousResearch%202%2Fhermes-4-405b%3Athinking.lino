@@ -1,0 +1,39 @@
+model 'Hermes 4 Large (Thinking)'
+  has id
+    'NousResearch 2/hermes-4-405b:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'nousresearch'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2025-01-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      1.2

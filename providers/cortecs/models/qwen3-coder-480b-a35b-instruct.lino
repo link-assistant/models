@@ -1,0 +1,39 @@
+model 'Qwen3 Coder 480B A35B Instruct'
+  has id
+    'qwen3-coder-480b-a35b-instruct'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2025-07-25
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.441
+    output
+      1.984
