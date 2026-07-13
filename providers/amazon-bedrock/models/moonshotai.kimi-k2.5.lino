@@ -20,6 +20,7 @@ model 'Kimi K2.5'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -29,9 +30,9 @@ model 'Kimi K2.5'
       text
   limits
     context
-      '256 000'
+      '262 143'
     output
-      '256 000'
+      '16 000'
   costs
     input
       0.6

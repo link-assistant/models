@@ -5,6 +5,8 @@ model 'Nemotron-3-Super-120B-A12B'
     'nebius'
   provided by
     'Nebius Token Factory'
+  family
+    'nemotron'
   status
     active
   released at

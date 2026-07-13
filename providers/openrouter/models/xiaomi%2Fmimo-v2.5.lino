@@ -1,4 +1,4 @@
-model 'Xiaomi: MiMo-V2.5'
+model 'MiMo-V2.5'
   has id
     'xiaomi/mimo-v2.5'
   provider id
@@ -23,6 +23,7 @@ model 'Xiaomi: MiMo-V2.5'
       tool calls
       temperature
       attachments
+      structured output
       interleaved output
     )
   modalities
@@ -37,8 +38,8 @@ model 'Xiaomi: MiMo-V2.5'
       '131 072'
   costs
     input
-      0.4
+      0.105
     output
-      2
+      0.28
     cacheRead
-      0.08
+      0.028

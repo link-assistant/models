@@ -1,0 +1,42 @@
+model 'Muse Spark 1.1'
+  has id
+    'muse-spark-1.1'
+  provider id
+    'meta'
+  provided by
+    'Meta'
+  family
+    'muse'
+  status
+    active
+  released at
+    2026-04-08
+  last updated at
+    2026-07-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 000'
+  costs
+    input
+      1.25
+    output
+      4.25
+    cacheRead
+      0.15

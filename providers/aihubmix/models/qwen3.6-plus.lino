@@ -6,7 +6,7 @@ model 'Qwen3.6 Plus'
   provided by
     'AIHubMix'
   family
-    'qwen'
+    'qwen3.6'
   status
     active
   released at
@@ -24,6 +24,7 @@ model 'Qwen3.6 Plus'
       temperature
       attachments
       structured output
+      interleaved output
     )
   modalities
     input
@@ -37,9 +38,9 @@ model 'Qwen3.6 Plus'
       '64 000'
   costs
     input
-      0.282
+      0.28
     output
-      1.692
+      1.69
     cacheRead
       0.0282
     cacheWrite

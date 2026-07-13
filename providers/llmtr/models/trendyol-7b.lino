@@ -1,0 +1,36 @@
+model 'Trendyol 7B'
+  has id
+    'trendyol-7b'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-06-06
+  last updated at
+    2026-06-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

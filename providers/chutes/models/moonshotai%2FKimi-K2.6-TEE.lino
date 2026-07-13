@@ -6,13 +6,13 @@ model 'Kimi K2.6 TEE'
   provided by
     'Chutes'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
-    2026-04-20
+    2026-04-21
   last updated at
-    2026-04-25
+    2026-04-21
   has knowledge cutoff at
     2025-12
   weights
@@ -38,8 +38,8 @@ model 'Kimi K2.6 TEE'
       '65 535'
   costs
     input
-      0.95
+      0.66
     output
-      4
+      3.5
     cacheRead
-      0.475
+      0.33

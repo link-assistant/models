@@ -1,0 +1,40 @@
+model 'deepseek-ai/DeepSeek-V4-Pro'
+  has id
+    'deepseek-ai/DeepSeek-V4-Pro'
+  provider id
+    'siliconflow-cn'
+  provided by
+    'SiliconFlow (China)'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 049 000'
+    output
+      '393 000'
+  costs
+    input
+      1.74
+    output
+      3.48
+    cacheRead
+      0.145

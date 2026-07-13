@@ -6,7 +6,7 @@ model 'Kimi K2.5 Fast'
   provided by
     'Neuralwatt'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
@@ -28,11 +28,13 @@ model 'Kimi K2.5 Fast'
       text
   limits
     context
-      '262 144'
+      '262 128'
     output
-      '262 144'
+      '262 128'
   costs
     input
       0.52
     output
       2.59
+    cacheRead
+      0.13

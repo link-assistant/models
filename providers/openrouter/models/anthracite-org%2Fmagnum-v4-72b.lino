@@ -1,0 +1,37 @@
+model 'Magnum v4 72B'
+  has id
+    'anthracite-org/magnum-v4-72b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2024-10-22
+  last updated at
+    2024-10-22
+  has knowledge cutoff at
+    2024-06-30
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      2048
+  costs
+    input
+      3
+    output
+      5

@@ -1,0 +1,38 @@
+model 'Sarvam 105B'
+  has id
+    'sarvam/sarvam-105b'
+  provider id
+    'fastrouter'
+  provided by
+    'FastRouter'
+  family
+    'sarvam'
+  status
+    active
+  released at
+    2025-09-01
+  last updated at
+    2025-09-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.04
+    output
+      0.16

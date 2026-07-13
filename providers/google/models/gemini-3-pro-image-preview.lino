@@ -1,0 +1,40 @@
+model 'Nano Banana Pro'
+  has id
+    'gemini-3-pro-image-preview'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-11-20
+  last updated at
+    2025-11-20
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      2
+    output
+      120

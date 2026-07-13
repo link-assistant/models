@@ -6,7 +6,7 @@ model 'kimi/kimi-k2.5'
   provided by
     'Alibaba (China)'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at

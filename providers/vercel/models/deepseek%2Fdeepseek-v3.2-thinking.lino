@@ -33,11 +33,9 @@ model 'DeepSeek V3.2 Thinking'
     context
       '128 000'
     output
-      '64 000'
+      8000
   costs
     input
-      0.28
+      0.62
     output
-      0.42
-    cacheRead
-      0.03
+      1.85

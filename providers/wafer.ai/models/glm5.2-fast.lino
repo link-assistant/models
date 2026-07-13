@@ -1,0 +1,44 @@
+model 'GLM5.2-Fast'
+  has id
+    'glm5.2-fast'
+  provider id
+    'wafer.ai'
+  provided by
+    'Wafer'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      3
+    output
+      10.25
+    cacheRead
+      0.5
+    cacheWrite
+      0

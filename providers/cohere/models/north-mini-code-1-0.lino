@@ -1,0 +1,42 @@
+model 'North Mini Code'
+  has id
+    'north-mini-code-1-0'
+  provider id
+    'cohere'
+  provided by
+    'Cohere'
+  family
+    'north'
+  status
+    active
+  released at
+    2026-06-09
+  last updated at
+    2026-06-09
+  has knowledge cutoff at
+    2025-09-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0

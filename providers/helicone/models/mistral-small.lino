@@ -1,4 +1,4 @@
-model 'Mistral Small'
+model 'Mistral Small 3.2'
   has id
     'mistral-small'
   provider id
@@ -10,15 +10,16 @@ model 'Mistral Small'
   status
     active
   released at
-    2024-02-26
+    2025-06-20
   last updated at
-    2024-02-26
+    2025-06-20
   has knowledge cutoff at
-    2024-02
+    2025-03
   weights
-    closed
+    open
   capabilities
     (
+      tool calls
       temperature
     )
   modalities
@@ -30,9 +31,9 @@ model 'Mistral Small'
     context
       '128 000'
     output
-      '128 000'
+      '16 384'
   costs
     input
-      75
+      0.075
     output
-      200
+      0.2

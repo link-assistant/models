@@ -6,7 +6,7 @@ model 'DeepSeek-V3.2-fast'
   provided by
     'Nebius Token Factory'
   status
-    active
+    deprecated
   released at
     2025-01-27
   last updated at

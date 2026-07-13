@@ -20,10 +20,11 @@ model 'Grok 4.20 (Non-Reasoning)'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

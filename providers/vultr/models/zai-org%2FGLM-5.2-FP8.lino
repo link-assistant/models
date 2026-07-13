@@ -1,0 +1,40 @@
+model 'GLM-5.2'
+  has id
+    'zai-org/GLM-5.2-FP8'
+  provider id
+    'vultr'
+  provided by
+    'Vultr'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '393 216'
+    output
+      '131 072'
+  costs
+    input
+      0.85
+    output
+      3.1

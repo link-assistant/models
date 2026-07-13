@@ -1,0 +1,36 @@
+model 'Morph V3 Fast'
+  has id
+    'morph/morph-v3-fast'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'morph'
+  status
+    active
+  released at
+    2025-07-07
+  last updated at
+    2025-07-07
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '81 920'
+    output
+      '38 000'
+  costs
+    input
+      0.8
+    output
+      1.2

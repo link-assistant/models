@@ -1,0 +1,39 @@
+model 'Sonar Pro Search'
+  has id
+    'perplexity/sonar-pro-search'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'sonar-pro'
+  status
+    active
+  released at
+    2025-10-30
+  last updated at
+    2025-10-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      8000
+  costs
+    input
+      3
+    output
+      15

@@ -1,4 +1,4 @@
-model 'Llama-3.3-70B-Instruct'
+model 'Llama 3.3 70B'
   has id
     'meta-llama/Llama-3.3-70B-Instruct'
   provider id
@@ -10,16 +10,15 @@ model 'Llama-3.3-70B-Instruct'
   status
     active
   released at
-    2024-12-06
+    2024-12-01
   last updated at
-    2026-03-12
+    2024-12-01
   has knowledge cutoff at
     2023-12
   weights
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
       structured output
@@ -38,4 +37,6 @@ model 'Llama-3.3-70B-Instruct'
     input
       0.71
     output
+      0.71
+    cacheRead
       0.71

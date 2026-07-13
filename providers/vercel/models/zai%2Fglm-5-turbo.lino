@@ -12,7 +12,7 @@ model 'GLM 5 Turbo'
   released at
     2026-03-15
   last updated at
-    2026-03-17
+    2026-03-16
   weights
     closed
   capabilities
@@ -20,6 +20,7 @@ model 'GLM 5 Turbo'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

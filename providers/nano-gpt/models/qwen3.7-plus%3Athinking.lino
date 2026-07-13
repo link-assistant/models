@@ -1,0 +1,39 @@
+model 'Qwen3.7 Plus Thinking'
+  has id
+    'qwen3.7-plus:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '983 616'
+    input
+      '983 616'
+    output
+      '65 536'
+  costs
+    input
+      0.4
+    output
+      1.6
+    cacheRead
+      0.04

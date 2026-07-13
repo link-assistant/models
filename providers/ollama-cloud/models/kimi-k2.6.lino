@@ -6,7 +6,7 @@ model 'kimi-k2.6'
   provided by
     'Ollama Cloud'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at

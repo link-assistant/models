@@ -6,7 +6,7 @@ model 'Llama 3.1 Nemotron Ultra 253B'
   provided by
     'LLM Gateway'
   family
-    'llama'
+    'nemotron'
   status
     active
   released at

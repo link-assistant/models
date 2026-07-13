@@ -1,0 +1,45 @@
+model 'GPT-5.6 Luna Pro'
+  has id
+    'openai-gpt-56-luna-pro'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'gpt-luna'
+  status
+    active
+  released at
+    2026-07-09
+  last updated at
+    2026-07-09
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      1.25
+    output
+      7.5
+    cacheRead
+      0.125
+    cacheWrite
+      1.5625

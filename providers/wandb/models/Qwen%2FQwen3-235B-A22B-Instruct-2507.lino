@@ -1,4 +1,4 @@
-model 'Qwen3 235B A22B Instruct 2507'
+model 'Qwen3 235B A22B-2507'
   has id
     'Qwen/Qwen3-235B-A22B-Instruct-2507'
   provider id
@@ -8,11 +8,11 @@ model 'Qwen3 235B A22B Instruct 2507'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
-    2025-04-28
+    2025-07-22
   last updated at
-    2026-03-12
+    2025-07-22
   has knowledge cutoff at
     2025-04
   weights
@@ -37,4 +37,6 @@ model 'Qwen3 235B A22B Instruct 2507'
     input
       0.1
     output
+      0.1
+    cacheRead
       0.1

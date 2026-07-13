@@ -1,0 +1,39 @@
+model 'Llama 3.3 Euryale 70B'
+  has id
+    'sao10k/l3.3-euryale-70b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-12-18
+  last updated at
+    2024-12-18
+  has knowledge cutoff at
+    2023-12-31
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.65
+    output
+      0.75

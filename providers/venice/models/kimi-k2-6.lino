@@ -6,13 +6,15 @@ model 'Kimi K2.6'
   provided by
     'Venice AI'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
     2026-04-20
   last updated at
-    2026-04-30
+    2026-06-11
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -36,8 +38,8 @@ model 'Kimi K2.6'
       '65 536'
   costs
     input
-      0.85
+      0.75
     output
-      4.655
+      3.5
     cacheRead
-      0.22
+      0.16

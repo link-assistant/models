@@ -1,0 +1,32 @@
+model 'Seedance 2.0 Fast'
+  has id
+    'bytedance/seedance-2.0-fast'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-04-14
+  last updated at
+    2026-04-14
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

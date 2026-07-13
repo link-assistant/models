@@ -12,7 +12,7 @@ model 'GLM-5.1'
   released at
     2026-04-07
   last updated at
-    2026-04-07
+    2026-06-01
   has knowledge cutoff at
     2025-04
   weights
@@ -36,10 +36,10 @@ model 'GLM-5.1'
       '131 072'
   costs
     input
-      0
+      1
     output
-      0
+      3.2
     cacheRead
-      0
+      0.1
     cacheWrite
       0

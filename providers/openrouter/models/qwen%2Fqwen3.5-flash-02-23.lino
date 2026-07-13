@@ -1,4 +1,4 @@
-model 'Qwen: Qwen3.5-Flash'
+model 'Qwen3.5-Flash'
   has id
     'qwen/qwen3.5-flash-02-23'
   provider id

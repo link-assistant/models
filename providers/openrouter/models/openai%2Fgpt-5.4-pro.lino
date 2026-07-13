@@ -22,6 +22,7 @@ model 'GPT-5.4 Pro'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
@@ -40,5 +41,3 @@ model 'GPT-5.4 Pro'
       30
     output
       180
-    cacheRead
-      30

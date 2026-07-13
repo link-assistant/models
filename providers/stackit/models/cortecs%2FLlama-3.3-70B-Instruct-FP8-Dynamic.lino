@@ -29,9 +29,9 @@ model 'Llama 3.3 70B'
     context
       '128 000'
     output
-      8192
+      4096
   costs
     input
-      0.49
+      0.53
     output
-      0.71
+      0.76

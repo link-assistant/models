@@ -5,6 +5,8 @@ model 'NVIDIA: Nemotron 3 Nano 30B A3B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'nemotron'
   status
     active
   released at

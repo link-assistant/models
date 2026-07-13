@@ -8,7 +8,7 @@ model 'Gemini 2.0 Flash'
   family
     'gemini-flash'
   status
-    active
+    deprecated
   released at
     2024-12-11
   last updated at

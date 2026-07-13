@@ -1,0 +1,36 @@
+model 'Perceptron: Perceptron Mk1'
+  has id
+    'perceptron/perceptron-mk1'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-05-12
+  last updated at
+    2026-05-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text video
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0.15
+    output
+      1.5

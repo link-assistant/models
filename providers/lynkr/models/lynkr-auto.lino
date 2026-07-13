@@ -1,0 +1,37 @@
+model 'Lynkr Auto (complexity routing)'
+  has id
+    'lynkr-auto'
+  provider id
+    'lynkr'
+  provided by
+    'Lynkr'
+  family
+    'auto'
+  status
+    active
+  released at
+    2025-12-03
+  last updated at
+    2026-07-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

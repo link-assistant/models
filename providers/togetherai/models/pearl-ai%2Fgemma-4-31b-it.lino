@@ -1,0 +1,37 @@
+model 'Pearl AI Gemma 4 31B Instruct'
+  has id
+    'pearl-ai/gemma-4-31b-it'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.28
+    output
+      0.86

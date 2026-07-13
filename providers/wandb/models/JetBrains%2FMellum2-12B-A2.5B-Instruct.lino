@@ -1,0 +1,38 @@
+model 'Mellum2 12B A2.5B'
+  has id
+    'JetBrains/Mellum2-12B-A2.5B-Instruct'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.05
+    output
+      0.1
+    cacheRead
+      0.05

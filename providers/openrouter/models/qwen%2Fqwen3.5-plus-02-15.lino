@@ -37,6 +37,6 @@ model 'Qwen3.5 Plus 2026-02-15'
       '65 536'
   costs
     input
-      0.4
+      0.26
     output
-      2.4
+      1.56

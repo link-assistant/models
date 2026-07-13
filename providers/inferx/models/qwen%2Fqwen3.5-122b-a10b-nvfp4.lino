@@ -1,0 +1,40 @@
+model 'Qwen3.5 122B A10B NVFP4'
+  has id
+    'qwen/qwen3.5-122b-a10b-nvfp4'
+  provider id
+    'inferx'
+  provided by
+    'InferX'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-23
+  last updated at
+    2026-02-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '256 144'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

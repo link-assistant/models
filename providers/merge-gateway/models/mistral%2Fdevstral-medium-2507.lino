@@ -1,0 +1,39 @@
+model 'Devstral Medium'
+  has id
+    'mistral/devstral-medium-2507'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'devstral'
+  status
+    deprecated
+  released at
+    2025-07-10
+  last updated at
+    2025-07-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.4
+    output
+      2

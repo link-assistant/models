@@ -12,7 +12,7 @@ model 'Qwen 3.5 35B A3B'
   released at
     2026-02-25
   last updated at
-    2026-04-16
+    2026-06-11
   weights
     open
   capabilities
@@ -32,7 +32,7 @@ model 'Qwen 3.5 35B A3B'
     context
       '256 000'
     output
-      '65 536'
+      '16 384'
   costs
     input
       0.3125

@@ -1,0 +1,42 @@
+model 'Qwen 3.6 35B A3B FP8'
+  has id
+    'Qwen/Qwen3.6-35B-A3B-FP8'
+  provider id
+    'nearai'
+  provided by
+    'NEAR AI Cloud'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.17
+    output
+      1.1
+    cacheRead
+      0.056

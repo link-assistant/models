@@ -28,14 +28,14 @@ model 'Gemini 3 Flash Preview'
     )
   modalities
     input
-      text image audio video pdf
+      text image video audio pdf
     output
       text
   limits
     context
       '1 048 576'
     output
-      '65 536'
+      '65 535'
   costs
     input
       0.5
@@ -43,3 +43,7 @@ model 'Gemini 3 Flash Preview'
       3
     cacheRead
       0.05
+    cacheWrite
+      0.083333
+    reasoning
+      3

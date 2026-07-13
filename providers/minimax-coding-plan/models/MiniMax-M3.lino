@@ -1,0 +1,43 @@
+model 'MiniMax-M3'
+  has id
+    'MiniMax-M3'
+  provider id
+    'minimax-coding-plan'
+  provided by
+    'MiniMax Token Plan (minimax.io)'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

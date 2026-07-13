@@ -10,11 +10,11 @@ model 'Mistral Medium 3.1'
   status
     active
   released at
-    2025-08-12
+    2025-08-13
   last updated at
-    2025-08-12
+    2025-08-13
   has knowledge cutoff at
-    2025-05
+    2025-06-30
   weights
     closed
   capabilities
@@ -26,12 +26,12 @@ model 'Mistral Medium 3.1'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
-      '262 144'
+      '131 072'
     output
       '262 144'
   costs
@@ -39,3 +39,5 @@ model 'Mistral Medium 3.1'
       0.4
     output
       2
+    cacheRead
+      0.04

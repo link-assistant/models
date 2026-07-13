@@ -1,0 +1,41 @@
+model 'Qwen3 1.7B Base'
+  has id
+    'Qwen/Qwen3-1.7B-Base'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2025-03-31
+  last updated at
+    2025-03-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.1
+    output
+      0.1
+    cacheRead
+      0.1
+    cacheWrite
+      0.1

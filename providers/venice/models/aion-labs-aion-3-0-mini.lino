@@ -1,0 +1,38 @@
+model 'Aion 3.0 Mini'
+  has id
+    'aion-labs-aion-3-0-mini'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  status
+    active
+  released at
+    2026-07-08
+  last updated at
+    2026-07-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.875
+    output
+      1.75
+    cacheRead
+      0.225

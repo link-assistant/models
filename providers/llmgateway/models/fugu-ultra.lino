@@ -1,0 +1,39 @@
+model 'Fugu Ultra'
+  has id
+    'fugu-ultra'
+  provider id
+    'llmgateway'
+  provided by
+    'LLM Gateway'
+  status
+    active
+  released at
+    2026-06-22
+  last updated at
+    2026-06-22
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '1 000 000'
+  costs
+    input
+      5
+    output
+      30
+    cacheRead
+      0.5

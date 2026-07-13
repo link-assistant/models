@@ -33,8 +33,3 @@ model 'Sonar Pro'
       '200 000'
     output
       8000
-  costs
-    input
-      3
-    output
-      15

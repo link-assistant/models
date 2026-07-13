@@ -1,0 +1,47 @@
+model 'Kimi K2.6'
+  has id
+    'moonshotai/kimi-k2.6'
+  provider id
+    'ambient'
+  provided by
+    'Ambient'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.95
+    output
+      4
+    cacheRead
+      0.2
+    cacheWrite
+      0

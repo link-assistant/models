@@ -1,0 +1,42 @@
+model 'Xpersona Frieren 1'
+  has id
+    'xpersona-frieren-coder'
+  provider id
+    'xpersona'
+  provided by
+    'Xpersona'
+  status
+    active
+  released at
+    2026-05-01
+  last updated at
+    2026-05-25
+  has knowledge cutoff at
+    2025-12-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      1.5
+    output
+      6
+    cacheRead
+      0.15
+    reasoning
+      6

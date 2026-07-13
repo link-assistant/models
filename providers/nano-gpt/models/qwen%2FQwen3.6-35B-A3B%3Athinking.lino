@@ -5,19 +5,18 @@ model 'Qwen3.6 35B A3B Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
-  family
-    'qwen3.6'
   status
     active
   released at
     2026-04-19
   last updated at
-    2026-04-21
+    2026-04-19
   weights
-    open
+    closed
   capabilities
     (
       reasoning
+      attachments
     )
   modalities
     input
@@ -27,10 +26,12 @@ model 'Qwen3.6 35B A3B Thinking'
   limits
     context
       '262 144'
+    input
+      '262 144'
     output
       '16 384'
   costs
     input
-      0.29
+      0.112
     output
-      1.74
+      0.8

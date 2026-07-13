@@ -1,0 +1,41 @@
+model 'Qwen 3.7 Plus'
+  has id
+    'accounts/fireworks/models/qwen3p7-plus'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-06-12
+  last updated at
+    2026-06-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.4
+    output
+      1.6
+    cacheRead
+      0.08

@@ -1,4 +1,4 @@
-model 'Meta-Llama-3.1-8B-Instruct'
+model 'Llama 3.1 8B'
   has id
     'meta-llama/Llama-3.1-8B-Instruct'
   provider id
@@ -12,14 +12,13 @@ model 'Meta-Llama-3.1-8B-Instruct'
   released at
     2024-07-23
   last updated at
-    2026-03-12
+    2024-07-23
   has knowledge cutoff at
     2023-12
   weights
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
       structured output
@@ -38,4 +37,6 @@ model 'Meta-Llama-3.1-8B-Instruct'
     input
       0.22
     output
+      0.22
+    cacheRead
       0.22

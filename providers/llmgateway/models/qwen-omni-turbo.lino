@@ -34,10 +34,6 @@ model 'Qwen-Omni Turbo'
       2048
   costs
     input
-      0.07
+      0.2
     output
-      0.27
-    inputAudio
-      4.44
-    outputAudio
-      8.89
+      0.8

@@ -15,7 +15,6 @@ model 'X-Ai/Grok-4-Fast-Non-Reasoning'
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments

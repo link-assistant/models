@@ -6,13 +6,13 @@ model 'Kimi K2.5'
   provided by
     'OpenRouter'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
-    2026-01-27
+    2026-01
   last updated at
-    2026-01-27
+    2026-01
   has knowledge cutoff at
     2025-01
   weights
@@ -28,18 +28,18 @@ model 'Kimi K2.5'
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits
     context
       '262 144'
     output
-      '262 144'
+      '256 000'
   costs
     input
-      0.6
+      0.375
     output
-      3
+      2.025
     cacheRead
-      0.1
+      0.203

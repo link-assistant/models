@@ -1,4 +1,4 @@
-model 'GLM-4.7'
+model 'GLM 4.7'
   has id
     'zai-org/GLM-4.7'
   provider id
@@ -22,6 +22,7 @@ model 'GLM-4.7'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -31,11 +32,13 @@ model 'GLM-4.7'
       text
   limits
     context
-      '204 800'
+      '200 000'
     output
-      '131 072'
+      '200 000'
   costs
     input
       0.6
     output
       2.2
+    cacheRead
+      0.12

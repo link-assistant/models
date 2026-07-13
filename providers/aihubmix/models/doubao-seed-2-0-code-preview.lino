@@ -1,0 +1,43 @@
+model 'Doubao Seed 2.0 Code Preview'
+  has id
+    'doubao-seed-2-0-code-preview'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-02-14
+  last updated at
+    2026-02-14
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      0.48
+    output
+      2.41
+    cacheRead
+      0.09644

@@ -1,4 +1,4 @@
-model 'Whisper Large V3'
+model 'Whisper'
   has id
     'whisper-large-v3'
   provider id
@@ -13,8 +13,6 @@ model 'Whisper Large V3'
     2023-09-01
   last updated at
     2025-09-05
-  has knowledge cutoff at
-    2023-09
   weights
     open
   capabilities
@@ -28,11 +26,6 @@ model 'Whisper Large V3'
       text
   limits
     context
-      448
-    output
-      448
-  costs
-    input
       0
     output
       0

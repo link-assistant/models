@@ -10,9 +10,9 @@ model 'GPT 5.1 Codex Max'
   status
     active
   released at
-    2025-08-07
+    2025-11-19
   last updated at
-    2025-08-07
+    2025-11-13
   has knowledge cutoff at
     2024-10
   weights
@@ -23,6 +23,7 @@ model 'GPT 5.1 Codex Max'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -42,4 +43,4 @@ model 'GPT 5.1 Codex Max'
     output
       10
     cacheRead
-      0.13
+      0.125

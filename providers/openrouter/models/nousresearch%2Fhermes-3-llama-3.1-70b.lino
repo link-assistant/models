@@ -1,0 +1,39 @@
+model 'Hermes 3 70B Instruct'
+  has id
+    'nousresearch/hermes-3-llama-3.1-70b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'nousresearch'
+  status
+    active
+  released at
+    2024-08-18
+  last updated at
+    2024-08-18
+  has knowledge cutoff at
+    2023-12-31
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.7
+    output
+      0.7

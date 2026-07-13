@@ -1,0 +1,32 @@
+model 'Anubis 70B v1.1'
+  has id
+    'TheDrummer/Anubis-70B-v1.1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2024-01-01
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    input
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.31
+    output
+      0.31

@@ -18,7 +18,9 @@ model 'DeepSeek-R1-0528'
   capabilities
     (
       reasoning
+      tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities

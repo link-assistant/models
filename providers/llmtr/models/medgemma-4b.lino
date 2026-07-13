@@ -1,0 +1,35 @@
+model 'MedGemma 4B'
+  has id
+    'medgemma-4b'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  status
+    active
+  released at
+    2026-04-26
+  last updated at
+    2026-04-26
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      8192
+    output
+      4096
+  costs
+    input
+      3
+    output
+      5

@@ -33,6 +33,6 @@ model 'Qwen Coder Plus'
       8192
   costs
     input
-      0.5
+      0.502
     output
-      1
+      1.004

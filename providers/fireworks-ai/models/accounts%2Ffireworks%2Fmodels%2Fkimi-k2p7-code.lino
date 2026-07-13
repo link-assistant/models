@@ -1,0 +1,42 @@
+model 'Kimi K2.7 Code'
+  has id
+    'accounts/fireworks/models/kimi-k2p7-code'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-06-12
+  last updated at
+    2026-06-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.95
+    output
+      4
+    cacheRead
+      0.19

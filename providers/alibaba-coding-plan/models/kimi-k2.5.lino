@@ -6,7 +6,7 @@ model 'Kimi K2.5'
   provided by
     'Alibaba Coding Plan'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at

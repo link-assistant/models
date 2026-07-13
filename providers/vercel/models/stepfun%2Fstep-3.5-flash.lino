@@ -1,0 +1,42 @@
+model 'StepFun 3.5 Flash'
+  has id
+    'stepfun/step-3.5-flash'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'step'
+  status
+    active
+  released at
+    2026-01-29
+  last updated at
+    2026-02-13
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 114'
+    output
+      '262 114'
+  costs
+    input
+      0.09
+    output
+      0.3
+    cacheRead
+      0.02

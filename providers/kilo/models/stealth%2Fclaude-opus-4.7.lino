@@ -1,0 +1,40 @@
+model 'Stealth: Claude Opus 4.7 (20% off)'
+  has id
+    'stealth/claude-opus-4.7'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-05-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      image pdf text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      4
+    output
+      20
+    cacheRead
+      0.4
+    cacheWrite
+      5

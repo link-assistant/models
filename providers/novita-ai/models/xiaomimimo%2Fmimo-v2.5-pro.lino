@@ -1,0 +1,44 @@
+model 'MiMo-V2.5-Pro'
+  has id
+    'xiaomimimo/mimo-v2.5-pro'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-05-27
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.522
+    output
+      1.044
+    cacheRead
+      0.0043

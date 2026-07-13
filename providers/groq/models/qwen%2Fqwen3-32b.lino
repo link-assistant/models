@@ -1,4 +1,4 @@
-model 'Qwen3 32B'
+model 'Qwen3-32B'
   has id
     'qwen/qwen3-32b'
   provider id
@@ -8,13 +8,11 @@ model 'Qwen3 32B'
   family
     'qwen'
   status
-    active
+    beta
   released at
-    2024-12-23
+    2025-06-11
   last updated at
-    2024-12-23
-  has knowledge cutoff at
-    2024-11-08
+    2025-06-12
   weights
     open
   capabilities

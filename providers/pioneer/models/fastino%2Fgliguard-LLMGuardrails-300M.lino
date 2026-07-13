@@ -1,0 +1,39 @@
+model 'GLiGuard LLM Guardrails 300M'
+  has id
+    'fastino/gliguard-LLMGuardrails-300M'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2026-04-30
+  last updated at
+    2026-04-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      4096
+  costs
+    input
+      0.15
+    output
+      0.15
+    cacheRead
+      0.15
+    cacheWrite
+      0.15

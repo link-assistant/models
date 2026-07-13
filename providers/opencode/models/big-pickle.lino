@@ -33,8 +33,10 @@ model 'Big Pickle'
   limits
     context
       '200 000'
+    input
+      '160 000'
     output
-      '128 000'
+      '32 000'
   costs
     input
       0

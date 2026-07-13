@@ -1,0 +1,42 @@
+model 'Kimi K2.6 Fast'
+  has id
+    'accounts/fireworks/routers/kimi-k2p6-fast'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-06-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      2
+    output
+      8
+    cacheRead
+      0.3

@@ -14,7 +14,7 @@ model 'Llama 3.2 11B Vision Instruct'
   last updated at
     2024-09-25
   has knowledge cutoff at
-    2023-12
+    2023-12-31
   weights
     open
   capabilities
@@ -31,9 +31,9 @@ model 'Llama 3.2 11B Vision Instruct'
     context
       '131 072'
     output
-      8192
+      '16 384'
   costs
     input
-      0
+      0.345
     output
-      0
+      0.345

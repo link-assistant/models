@@ -1,0 +1,40 @@
+model 'GPT-4 Turbo Preview'
+  has id
+    'openai/gpt-4-turbo-preview'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2024-01-25
+  has knowledge cutoff at
+    2023-12-31
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      10
+    output
+      30

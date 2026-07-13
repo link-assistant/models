@@ -1,0 +1,41 @@
+model 'Mistral Small (latest)'
+  has id
+    'mistral/mistral-small-latest'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2026-03-16
+  last updated at
+    2026-03-16
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.15
+    output
+      0.6

@@ -8,7 +8,7 @@ model 'Qwen3.5 Plus'
   family
     'qwen3.5'
   status
-    active
+    deprecated
   released at
     2026-02-16
   last updated at

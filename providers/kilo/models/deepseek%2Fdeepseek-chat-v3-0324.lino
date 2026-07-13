@@ -15,7 +15,6 @@ model 'DeepSeek: DeepSeek V3 0324'
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
     )

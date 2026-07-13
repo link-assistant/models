@@ -28,11 +28,13 @@ model 'GPT OSS 120B'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
       '32 768'
   costs
     input
       0.1
     output
+      0.1
+    cacheRead
       0.1

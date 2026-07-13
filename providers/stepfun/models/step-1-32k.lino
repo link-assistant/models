@@ -4,7 +4,7 @@ model 'Step 1 (32K)'
   provider id
     'stepfun'
   provided by
-    'StepFun'
+    'StepFun (China)'
   status
     active
   released at
@@ -17,7 +17,6 @@ model 'Step 1 (32K)'
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
     )

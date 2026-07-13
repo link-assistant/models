@@ -27,11 +27,13 @@ model 'Qwen3.5 397B Fast'
       text
   limits
     context
-      '262 144'
+      '262 128'
     output
-      '262 144'
+      '262 128'
   costs
     input
       0.69
     output
       4.14
+    cacheRead
+      0.1725

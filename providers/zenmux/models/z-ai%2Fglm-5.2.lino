@@ -1,0 +1,41 @@
+model 'GLM 5.2'
+  has id
+    'z-ai/glm-5.2'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      1.4
+    output
+      4.5
+    cacheRead
+      0.26

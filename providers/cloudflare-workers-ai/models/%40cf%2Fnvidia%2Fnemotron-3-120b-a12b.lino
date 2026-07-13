@@ -20,6 +20,7 @@ model 'Nemotron 3 Super 120B'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities

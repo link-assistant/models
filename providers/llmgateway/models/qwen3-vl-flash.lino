@@ -29,7 +29,7 @@ model 'Qwen3 VL Flash'
       text
   limits
     context
-      '1 000 000'
+      '262 144'
     output
       '32 000'
   costs

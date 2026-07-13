@@ -1,0 +1,44 @@
+model 'Claude 3 Haiku'
+  has id
+    'anthropic/claude-3-haiku'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'claude'
+  status
+    active
+  released at
+    2024-03-13
+  last updated at
+    2024-03-13
+  has knowledge cutoff at
+    2023-08-31
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      4096
+  costs
+    input
+      0.25
+    output
+      1.25
+    cacheRead
+      0.03
+    cacheWrite
+      0.3

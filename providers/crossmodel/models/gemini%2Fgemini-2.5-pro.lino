@@ -1,0 +1,46 @@
+model 'Gemini 2.5 Pro'
+  has id
+    'gemini/gemini-2.5-pro'
+  provider id
+    'crossmodel'
+  provided by
+    'CrossModel'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-06-17
+  last updated at
+    2025-06-17
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      1.25
+    output
+      10
+    cacheRead
+      0.125
+    cacheWrite
+      1.25

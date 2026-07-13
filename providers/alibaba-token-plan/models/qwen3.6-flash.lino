@@ -1,0 +1,44 @@
+model 'Qwen3.6 Flash'
+  has id
+    'qwen3.6-flash'
+  provider id
+    'alibaba-token-plan'
+  provided by
+    'Alibaba Token Plan'
+  family
+    'qwen3.6'
+  status
+    active
+  released at
+    2026-04-27
+  last updated at
+    2026-04-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

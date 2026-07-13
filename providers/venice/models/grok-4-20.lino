@@ -12,14 +12,13 @@ model 'Grok 4.20'
   released at
     2026-03-12
   last updated at
-    2026-05-07
+    2026-06-11
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )

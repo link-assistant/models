@@ -1,0 +1,32 @@
+model 'Nemotron 3 Ultra'
+  has id
+    'nemotron-3-ultra-550b'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192

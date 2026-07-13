@@ -15,6 +15,10 @@ model 'voyage-3.5-lite'
     2025-05-20
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -25,8 +29,3 @@ model 'voyage-3.5-lite'
       8192
     output
       1536
-  costs
-    input
-      0.02
-    output
-      0

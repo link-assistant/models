@@ -10,9 +10,9 @@ model 'Qwen3.6 27B TEE'
   status
     active
   released at
-    2026-04-25
+    2026-04-22
   last updated at
-    2026-04-25
+    2026-04-22
   weights
     open
   capabilities
@@ -35,8 +35,8 @@ model 'Qwen3.6 27B TEE'
       '65 536'
   costs
     input
-      0.195
+      0.3
     output
-      1.56
+      2
     cacheRead
-      0.0975
+      0.15

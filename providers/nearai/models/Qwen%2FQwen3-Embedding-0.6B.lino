@@ -1,0 +1,32 @@
+model 'Qwen3 Embedding 0.6B'
+  has id
+    'Qwen/Qwen3-Embedding-0.6B'
+  provider id
+    'nearai'
+  provided by
+    'NEAR AI Cloud'
+  family
+    'text-embedding'
+  status
+    active
+  released at
+    2025-06-03
+  last updated at
+    2025-06-03
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '40 960'
+    output
+      1024
+  costs
+    input
+      0.01
+    output
+      0

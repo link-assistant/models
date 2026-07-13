@@ -31,7 +31,7 @@ model 'GLM-4.5V'
       text
   limits
     context
-      '64 000'
+      '128 000'
     output
       '16 384'
   costs
@@ -39,3 +39,5 @@ model 'GLM-4.5V'
       0.6
     output
       1.8
+    cacheRead
+      0.11

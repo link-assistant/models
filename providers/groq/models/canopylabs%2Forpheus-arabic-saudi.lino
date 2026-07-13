@@ -1,4 +1,4 @@
-model 'Orpheus Arabic Saudi'
+model 'Canopy Labs Orpheus Arabic Saudi'
   has id
     'canopylabs/orpheus-arabic-saudi'
   provider id
@@ -8,19 +8,13 @@ model 'Orpheus Arabic Saudi'
   family
     'canopylabs'
   status
-    active
+    beta
   released at
     2025-12-16
   last updated at
     2025-12-16
-  has knowledge cutoff at
-    2025-12-16
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -31,8 +25,3 @@ model 'Orpheus Arabic Saudi'
       4000
     output
       '50 000'
-  costs
-    input
-      40
-    output
-      0

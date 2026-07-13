@@ -1,4 +1,4 @@
-model 'DeepSeek V3'
+model 'DeepSeek-V3'
   has id
     'deepseek-ai/DeepSeek-V3'
   provider id
@@ -8,9 +8,9 @@ model 'DeepSeek V3'
   family
     'deepseek'
   status
-    active
+    deprecated
   released at
-    2025-01-20
+    2024-12-26
   last updated at
     2025-05-29
   has knowledge cutoff at
@@ -19,7 +19,6 @@ model 'DeepSeek V3'
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
     )

@@ -6,13 +6,15 @@ model 'Gemini 3.1 Pro Preview'
   provided by
     'Venice AI'
   family
-    'gemini-pro'
+    'gemini'
   status
     active
   released at
     2026-02-19
   last updated at
-    2026-03-12
+    2026-06-11
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities

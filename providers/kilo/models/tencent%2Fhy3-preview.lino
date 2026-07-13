@@ -1,0 +1,38 @@
+model 'Tencent: Hy3 Preview'
+  has id
+    'tencent/hy3-preview'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-05-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.066
+    output
+      0.26
+    cacheRead
+      0.029

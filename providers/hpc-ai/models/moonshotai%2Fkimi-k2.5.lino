@@ -6,38 +6,40 @@ model 'Kimi K2.5'
   provided by
     'HPC-AI'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
-    2026-01-01
+    2026-01
   last updated at
-    2026-03-25
+    2026-01
   has knowledge cutoff at
-    2025-01-01
+    2025-01
   weights
     open
   capabilities
     (
       reasoning
       tool calls
+      temperature
+      attachments
       structured output
       interleaved output
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits
     context
-      '262 144'
+      '256 000'
     output
-      '262 144'
+      '256 000'
   costs
     input
-      0.21
+      0.6
     output
-      1
+      3
     cacheRead
-      0.03
+      0.1

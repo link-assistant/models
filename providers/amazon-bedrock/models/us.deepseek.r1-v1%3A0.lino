@@ -16,7 +16,7 @@ model 'DeepSeek-R1 (US)'
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning

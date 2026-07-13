@@ -1,0 +1,38 @@
+model 'Qwen3.5 35B-A3B'
+  has id
+    'Qwen/Qwen3.5-35B-A3B'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-23
+  last updated at
+    2026-02-23
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.24
+    output
+      1.8

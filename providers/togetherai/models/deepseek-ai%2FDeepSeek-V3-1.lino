@@ -8,7 +8,7 @@ model 'DeepSeek V3.1'
   family
     'deepseek'
   status
-    active
+    deprecated
   released at
     2025-08-21
   last updated at

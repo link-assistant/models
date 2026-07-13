@@ -19,6 +19,7 @@ model 'nemotron-3-super'
     (
       reasoning
       tool calls
+      temperature
     )
   modalities
     input

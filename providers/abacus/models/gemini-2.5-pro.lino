@@ -10,9 +10,9 @@ model 'Gemini 2.5 Pro'
   status
     active
   released at
-    2025-03-25
+    2025-06-17
   last updated at
-    2025-03-25
+    2025-06-17
   has knowledge cutoff at
     2025-01
   weights
@@ -23,10 +23,11 @@ model 'Gemini 2.5 Pro'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image audio video pdf
+      text image audio
     output
       text
   limits
@@ -39,3 +40,5 @@ model 'Gemini 2.5 Pro'
       1.25
     output
       10
+    cacheRead
+      0.125

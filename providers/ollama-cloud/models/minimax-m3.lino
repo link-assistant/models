@@ -1,0 +1,36 @@
+model 'minimax-m3'
+  has id
+    'minimax-m3'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'minimax-m3'
+  status
+    active
+  released at
+    2026-05-31
+  last updated at
+    2026-05-31
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '512 000'
+    output
+      '131 072'

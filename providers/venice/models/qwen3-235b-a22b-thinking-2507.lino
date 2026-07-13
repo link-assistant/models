@@ -12,16 +12,13 @@ model 'Qwen 3 235B A22B Thinking 2507'
   released at
     2025-04-29
   last updated at
-    2026-03-12
-  has knowledge cutoff at
-    2025-07
+    2026-06-11
   weights
     open
   capabilities
     (
       reasoning
       tool calls
-      temperature
       structured output
       interleaved output
     )

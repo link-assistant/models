@@ -26,12 +26,14 @@ model 'GPT-5.2 Pro'
     )
   modalities
     input
-      text image
+      image text pdf
     output
       text
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

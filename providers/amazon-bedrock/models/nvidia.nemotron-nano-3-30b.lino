@@ -20,6 +20,7 @@ model 'NVIDIA Nemotron Nano 3 30B'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

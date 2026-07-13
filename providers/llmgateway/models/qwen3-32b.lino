@@ -30,13 +30,13 @@ model 'Qwen3 32B'
       text
   limits
     context
-      '131 072'
+      '32 768'
     output
       '16 384'
   costs
     input
-      0.7
+      0.1
     output
-      2.8
+      0.3
     reasoning
       8.4

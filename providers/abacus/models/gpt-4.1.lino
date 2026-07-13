@@ -22,6 +22,7 @@ model 'GPT-4.1'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -38,3 +39,5 @@ model 'GPT-4.1'
       2
     output
       8
+    cacheRead
+      0.5

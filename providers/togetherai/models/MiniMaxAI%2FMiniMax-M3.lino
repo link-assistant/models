@@ -1,0 +1,42 @@
+model 'MiniMax-M3'
+  has id
+    'MiniMaxAI/MiniMax-M3'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-12
+  last updated at
+    2026-06-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '250 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

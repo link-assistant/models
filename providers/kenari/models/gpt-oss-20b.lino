@@ -1,0 +1,37 @@
+model 'GPT OSS 20B'
+  has id
+    'gpt-oss-20b'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

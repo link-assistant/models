@@ -1,0 +1,39 @@
+model 'GLM 5.2 Short Fast Flex'
+  has id
+    'glm-5.2-short-fast-flex'
+  provider id
+    'neuralwatt'
+  provided by
+    'Neuralwatt'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-17
+  last updated at
+    2026-06-17
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '199 984'
+    output
+      '199 984'
+  costs
+    input
+      0.725
+    output
+      2.25
+    cacheRead
+      0.18125

@@ -1,4 +1,4 @@
-model 'Gemini 2.5 Flash Image'
+model 'Nano Banana'
   has id
     'gemini-2.5-flash-image'
   provider id
@@ -14,7 +14,7 @@ model 'Gemini 2.5 Flash Image'
   last updated at
     2025-08-26
   has knowledge cutoff at
-    2025-06
+    2024-06
   weights
     closed
   capabilities

@@ -1,0 +1,42 @@
+model 'MiniMax-M3 Free'
+  has id
+    'minimax-m3-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'minimax-m3-free'
+  status
+    deprecated
+  released at
+    2026-05-31
+  last updated at
+    2026-05-31
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '32 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

@@ -10,11 +10,11 @@ model 'GLM-5.1'
   status
     active
   released at
-    2026-03-27
+    2026-04-07
   last updated at
-    2026-03-27
+    2026-04-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning

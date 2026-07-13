@@ -6,7 +6,7 @@ model 'Kimi K2.6'
   provided by
     'Baseten'
   family
-    'kimi-k2.6'
+    'kimi-k2'
   status
     active
   released at
@@ -28,14 +28,14 @@ model 'Kimi K2.6'
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits
     context
-      '262 144'
+      '262 000'
     output
-      '262 144'
+      '262 000'
   costs
     input
       0.95

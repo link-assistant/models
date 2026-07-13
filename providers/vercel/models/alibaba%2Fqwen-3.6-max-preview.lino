@@ -24,7 +24,7 @@ model 'Qwen 3.6 Max Preview'
     )
   modalities
     input
-      text image pdf
+      text
     output
       text
   limits

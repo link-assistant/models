@@ -1,0 +1,37 @@
+model 'Qwq 32B'
+  has id
+    '@cf/qwen/qwq-32b'
+  provider id
+    'cloudflare-workers-ai'
+  provided by
+    'Cloudflare Workers AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-03-05
+  last updated at
+    2025-03-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '24 000'
+    output
+      '24 000'
+  costs
+    input
+      0.66
+    output
+      1

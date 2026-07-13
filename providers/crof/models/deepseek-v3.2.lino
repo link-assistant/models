@@ -1,0 +1,39 @@
+model 'DeepSeek V3.2'
+  has id
+    'deepseek-v3.2'
+  provider id
+    'crof'
+  provided by
+    'CrofAI'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-07-22
+  last updated at
+    2025-07-22
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '163 840'
+  costs
+    input
+      0.18
+    output
+      0.35
+    cacheRead
+      0.04

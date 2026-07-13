@@ -1,0 +1,41 @@
+model 'Gemini 3.1 Pro (Preview Low)'
+  has id
+    'google/gemini-3.1-pro-preview-low'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-02-21
+  last updated at
+    2026-02-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 756'
+    input
+      '1 048 756'
+    output
+      '65 536'
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.2

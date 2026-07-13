@@ -23,6 +23,7 @@ model 'Gemma 4 31B Instruct'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -36,6 +37,6 @@ model 'Gemma 4 31B Instruct'
       '131 072'
   costs
     input
-      0.2
+      0.39
     output
-      0.5
+      0.97

@@ -39,4 +39,4 @@ model 'DeepSeek Chat'
     output
       0.28
     cacheRead
-      0.028
+      0.0028

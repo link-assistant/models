@@ -1,0 +1,31 @@
+model 'Grok Imagine Image'
+  has id
+    'grok-imagine-image'
+  provider id
+    'xai'
+  provided by
+    'xAI'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-01-28
+  last updated at
+    2026-01-28
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      image pdf
+  limits
+    context
+      8000
+    output
+      0

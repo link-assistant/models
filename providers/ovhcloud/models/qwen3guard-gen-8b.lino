@@ -1,0 +1,29 @@
+model 'Qwen3Guard-Gen-8B'
+  has id
+    'qwen3guard-gen-8b'
+  provider id
+    'ovhcloud'
+  provided by
+    'OVHcloud AI Endpoints'
+  status
+    active
+  released at
+    2026-01-22
+  last updated at
+    2026-01-22
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '16 384'

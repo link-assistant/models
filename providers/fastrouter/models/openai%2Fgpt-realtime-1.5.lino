@@ -1,0 +1,38 @@
+model 'GPT Realtime 1.5'
+  has id
+    'openai/gpt-realtime-1.5'
+  provider id
+    'fastrouter'
+  provided by
+    'FastRouter'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-06-01
+  last updated at
+    2025-06-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text audio image
+    output
+      text audio
+  limits
+    context
+      '32 000'
+    output
+      4096
+  costs
+    input
+      4
+    output
+      16

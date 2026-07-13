@@ -5,6 +5,8 @@ model 'llama-nemotron-embed-vl-1b-v2'
     'nvidia'
   provided by
     'Nvidia'
+  family
+    'nemotron'
   status
     active
   released at

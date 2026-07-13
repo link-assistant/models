@@ -1,0 +1,38 @@
+model 'Llama 3.3 Nemotron Super 49B v1.5'
+  has id
+    'nvidia/llama-3.3-nemotron-super-49b-v1.5'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2025-07-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.4
+    output
+      0.4

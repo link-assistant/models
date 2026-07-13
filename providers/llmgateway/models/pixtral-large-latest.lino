@@ -35,6 +35,6 @@ model 'Pixtral Large (latest)'
       '128 000'
   costs
     input
-      2
+      4
     output
-      6
+      12

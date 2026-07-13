@@ -17,6 +17,7 @@ model 'gemini-2.5-flash-preview-05-20'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments

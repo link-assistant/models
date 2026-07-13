@@ -30,11 +30,11 @@ model 'DeepSeek-V3.1'
       text
   limits
     context
-      '163 840'
+      '128 000'
     output
       '128 000'
   costs
     input
-      0.3
+      0.6
     output
-      1
+      1.7

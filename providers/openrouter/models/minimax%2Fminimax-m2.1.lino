@@ -1,4 +1,4 @@
-model 'MiniMax M2.1'
+model 'MiniMax-M2.1'
   has id
     'minimax/minimax-m2.1'
   provider id
@@ -20,7 +20,6 @@ model 'MiniMax M2.1'
       reasoning
       tool calls
       temperature
-      structured output
       interleaved output
     )
   modalities
@@ -38,3 +37,5 @@ model 'MiniMax M2.1'
       0.3
     output
       1.2
+    cacheRead
+      0.03

@@ -1,0 +1,42 @@
+model 'GLM-5.2'
+  has id
+    'glm-5.2'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      1.1268
+    output
+      3.9438
+    cacheRead
+      0.2817

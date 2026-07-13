@@ -1,4 +1,4 @@
-model 'Claude Sonnet 4.5'
+model 'Claude Sonnet 4.5 (latest)'
   has id
     'claude-sonnet-4.5'
   provider id
@@ -14,7 +14,7 @@ model 'Claude Sonnet 4.5'
   last updated at
     2025-09-29
   has knowledge cutoff at
-    2025-03-31
+    2025-07-31
   weights
     closed
   capabilities
@@ -26,18 +26,22 @@ model 'Claude Sonnet 4.5'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
-      '144 000'
+      '200 000'
     input
-      '128 000'
+      '168 000'
     output
       '32 000'
   costs
     input
-      0
+      3
     output
-      0
+      15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

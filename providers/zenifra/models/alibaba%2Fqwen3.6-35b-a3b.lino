@@ -1,0 +1,40 @@
+model 'Qwen3.6 35B-A3B'
+  has id
+    'alibaba/qwen3.6-35b-a3b'
+  provider id
+    'zenifra'
+  provided by
+    'Zenifra'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.19
+    output
+      0.48

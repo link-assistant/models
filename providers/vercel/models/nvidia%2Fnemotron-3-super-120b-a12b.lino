@@ -10,13 +10,14 @@ model 'NVIDIA Nemotron 3 Super 120B A12B'
   status
     active
   released at
-    2026-03-18
+    2026-03-11
   last updated at
-    2026-03-30
+    2026-03-11
   weights
     closed
   capabilities
     (
+      reasoning
       temperature
     )
   modalities

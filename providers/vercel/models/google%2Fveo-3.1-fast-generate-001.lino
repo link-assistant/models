@@ -1,0 +1,31 @@
+model 'Veo 3.1 Fast Generate'
+  has id
+    'google/veo-3.1-fast-generate-001'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'veo'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2026-06-08
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

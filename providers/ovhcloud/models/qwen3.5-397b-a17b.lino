@@ -1,0 +1,38 @@
+model 'Qwen3.5-397B-A17B'
+  has id
+    'qwen3.5-397b-a17b'
+  provider id
+    'ovhcloud'
+  provided by
+    'OVHcloud AI Endpoints'
+  status
+    active
+  released at
+    2026-05-18
+  last updated at
+    2026-05-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.71
+    output
+      4.25

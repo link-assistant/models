@@ -14,7 +14,7 @@ model 'Claude Opus 4.5'
   last updated at
     2025-11-01
   has knowledge cutoff at
-    2025-03-31
+    2025-05
   weights
     closed
   capabilities
@@ -26,7 +26,7 @@ model 'Claude Opus 4.5'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits

@@ -5,6 +5,8 @@ model 'Nemotron-3-Nano-30B-A3B'
     'nebius'
   provided by
     'Nebius Token Factory'
+  family
+    'nemotron'
   status
     active
   released at

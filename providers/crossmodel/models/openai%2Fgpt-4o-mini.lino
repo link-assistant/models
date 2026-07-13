@@ -1,0 +1,45 @@
+model 'GPT-4o mini'
+  has id
+    'openai/gpt-4o-mini'
+  provider id
+    'crossmodel'
+  provided by
+    'CrossModel'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2024-07-18
+  last updated at
+    2024-07-18
+  has knowledge cutoff at
+    2023-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.15
+    output
+      0.6
+    cacheRead
+      0.075
+    cacheWrite
+      0.15

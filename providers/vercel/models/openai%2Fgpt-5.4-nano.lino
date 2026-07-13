@@ -13,6 +13,8 @@ model 'GPT 5.4 Nano'
     2026-03-17
   last updated at
     2026-03-17
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
@@ -21,6 +23,7 @@ model 'GPT 5.4 Nano'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -36,7 +39,7 @@ model 'GPT 5.4 Nano'
       '128 000'
   costs
     input
-      0.19999999999999998
+      0.2
     output
       1.25
     cacheRead

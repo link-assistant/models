@@ -1,4 +1,4 @@
-model 'Gemma 4 31B'
+model 'Gemma 4 31B IT'
   has id
     'gemma-4-31b-it'
   provider id
@@ -20,6 +20,7 @@ model 'Gemma 4 31B'
       reasoning
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
@@ -29,6 +30,6 @@ model 'Gemma 4 31B'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
-      8192
+      '32 768'

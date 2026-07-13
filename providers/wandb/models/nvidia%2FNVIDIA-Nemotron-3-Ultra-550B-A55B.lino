@@ -1,0 +1,41 @@
+model 'Nemotron 3 Ultra'
+  has id
+    'nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.75
+    output
+      2.75
+    cacheRead
+      0.15

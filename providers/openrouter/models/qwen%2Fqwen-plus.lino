@@ -1,4 +1,4 @@
-model 'Qwen: Qwen-Plus'
+model 'Qwen Plus'
   has id
     'qwen/qwen-plus'
   provider id
@@ -10,9 +10,9 @@ model 'Qwen: Qwen-Plus'
   status
     active
   released at
-    2025-01-25
+    2024-01-25
   last updated at
-    2025-01-25
+    2025-09-11
   has knowledge cutoff at
     2024-04
   weights
@@ -21,6 +21,7 @@ model 'Qwen: Qwen-Plus'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

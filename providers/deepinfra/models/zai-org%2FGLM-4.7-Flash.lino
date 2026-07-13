@@ -22,6 +22,7 @@ model 'GLM-4.7-Flash'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -39,3 +40,5 @@ model 'GLM-4.7-Flash'
       0.06
     output
       0.4
+    cacheRead
+      0.01

@@ -12,7 +12,7 @@ model 'GPT OSS 20B'
   released at
     2025-08-05
   last updated at
-    2025-08-05
+    2025-09-25
   weights
     open
   capabilities
@@ -37,3 +37,5 @@ model 'GPT OSS 20B'
       0.075
     output
       0.3
+    cacheRead
+      0.0375

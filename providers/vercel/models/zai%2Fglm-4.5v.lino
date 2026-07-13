@@ -33,9 +33,11 @@ model 'GLM 4.5V'
     context
       '66 000'
     output
-      '66 000'
+      '16 000'
   costs
     input
       0.6
     output
       1.8
+    cacheRead
+      0.11

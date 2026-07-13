@@ -1,0 +1,37 @@
+model 'Mistral Code Agent Latest'
+  has id
+    'mistral-code-agent-latest'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-06-02
+  last updated at
+    2026-06-02
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.4
+    output
+      2

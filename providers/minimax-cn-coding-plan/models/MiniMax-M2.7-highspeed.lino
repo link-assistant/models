@@ -4,7 +4,7 @@ model 'MiniMax-M2.7-highspeed'
   provider id
     'minimax-cn-coding-plan'
   provided by
-    'MiniMax Coding Plan (minimaxi.com)'
+    'MiniMax Token Plan (minimaxi.com)'
   family
     'minimax'
   status

@@ -1,0 +1,45 @@
+model 'Mistral Medium 3.5'
+  has id
+    'mistral-medium-3.5'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2026-04-29
+  last updated at
+    2026-04-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      1.5
+    output
+      7.5
+    cacheRead
+      1.5
+    cacheWrite
+      1.5

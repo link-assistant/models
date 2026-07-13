@@ -1,4 +1,4 @@
-model 'Coding-MiniMax-M2.7-Free'
+model 'Coding MiniMax M2.7 (Free)'
   has id
     'coding-minimax-m2.7-free'
   provider id
@@ -6,7 +6,7 @@ model 'Coding-MiniMax-M2.7-Free'
   provided by
     'AIHubMix'
   family
-    'minimax'
+    'minimax-free'
   status
     active
   released at
@@ -20,6 +20,8 @@ model 'Coding-MiniMax-M2.7-Free'
       reasoning
       tool calls
       temperature
+      structured output
+      interleaved output
     )
   modalities
     input
@@ -30,7 +32,7 @@ model 'Coding-MiniMax-M2.7-Free'
     context
       '204 800'
     output
-      '13 100'
+      '128 100'
   costs
     input
       0

@@ -1,4 +1,4 @@
-model 'Grok 4.1 Fast (Non-Reasoning)'
+model 'Grok 4.1 Fast Non-Reasoning'
   has id
     'grok-4-1-fast-non-reasoning'
   provider id
@@ -13,8 +13,6 @@ model 'Grok 4.1 Fast (Non-Reasoning)'
     2025-11-19
   last updated at
     2025-11-19
-  has knowledge cutoff at
-    2025-07
   weights
     closed
   capabilities
@@ -32,7 +30,7 @@ model 'Grok 4.1 Fast (Non-Reasoning)'
     context
       '2 000 000'
     output
-      '30 000'
+      '2 000 000'
   costs
     input
       0.2

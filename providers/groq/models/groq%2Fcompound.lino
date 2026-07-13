@@ -13,14 +13,10 @@ model 'Compound'
     2025-09-04
   last updated at
     2025-09-04
-  has knowledge cutoff at
-    2025-09-04
   weights
     closed
   capabilities
     (
-      reasoning
-      tool calls
       temperature
     )
   modalities
@@ -33,8 +29,3 @@ model 'Compound'
       '131 072'
     output
       8192
-  costs
-    input
-      0
-    output
-      0

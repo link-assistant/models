@@ -1,4 +1,4 @@
-model 'Nemotron 3 Super'
+model 'Nemotron Super'
   has id
     'nvidia/Nemotron-120B-A12B'
   provider id
@@ -22,6 +22,7 @@ model 'Nemotron 3 Super'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -31,11 +32,13 @@ model 'Nemotron 3 Super'
       text
   limits
     context
-      '262 144'
+      '202 800'
     output
-      '32 678'
+      '202 800'
   costs
     input
       0.3
     output
       0.75
+    cacheRead
+      0.06

@@ -1,0 +1,37 @@
+model 'Sonar Pro'
+  has id
+    'perplexity/sonar-pro'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'sonar-pro'
+  status
+    active
+  released at
+    2025-03-07
+  last updated at
+    2025-03-07
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      8000
+  costs
+    input
+      3
+    output
+      15

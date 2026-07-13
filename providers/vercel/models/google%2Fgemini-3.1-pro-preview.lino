@@ -10,9 +10,11 @@ model 'Gemini 3.1 Pro Preview'
   status
     active
   released at
-    2026-02-19
+    2025-11-18
   last updated at
-    2026-02-24
+    2026-02-19
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -21,6 +23,7 @@ model 'Gemini 3.1 Pro Preview'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

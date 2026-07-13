@@ -1,0 +1,36 @@
+model 'TheDrummer Skyfall 36B V2'
+  has id
+    'TheDrummer/skyfall-36b-v2'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-03-10
+  last updated at
+    2025-03-10
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '64 000'
+    input
+      '64 000'
+    output
+      '32 768'
+  costs
+    input
+      0.493
+    output
+      0.493

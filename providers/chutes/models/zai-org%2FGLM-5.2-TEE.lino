@@ -1,0 +1,42 @@
+model 'GLM 5.2 TEE'
+  has id
+    'zai-org/GLM-5.2-TEE'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 535'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      0.7

@@ -12,15 +12,12 @@ model 'Llama 3.3 70B'
   released at
     2025-04-06
   last updated at
-    2026-03-12
-  has knowledge cutoff at
-    2023-12
+    2026-06-11
   weights
     open
   capabilities
     (
       tool calls
-      temperature
     )
   modalities
     input

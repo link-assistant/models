@@ -1,0 +1,31 @@
+model 'Grok Imagine Video'
+  has id
+    'grok-imagine-video'
+  provider id
+    'xai'
+  provided by
+    'xAI'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-01-28
+  last updated at
+    2026-01-28
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      video
+  limits
+    context
+      1024
+    output
+      0

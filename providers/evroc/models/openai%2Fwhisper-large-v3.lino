@@ -27,8 +27,8 @@ model 'Whisper 3 Large'
       4096
   costs
     input
-      0.00236
+      0.0023
     output
-      0.00236
+      0.0023
     outputAudio
-      2.36
+      2.3

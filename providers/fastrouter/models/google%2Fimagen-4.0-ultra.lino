@@ -1,0 +1,27 @@
+model 'Imagen 4 Ultra'
+  has id
+    'google/imagen-4.0-ultra'
+  provider id
+    'fastrouter'
+  provided by
+    'FastRouter'
+  family
+    'imagen'
+  status
+    active
+  released at
+    2025-05-20
+  last updated at
+    2025-05-20
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      480
+    output
+      0

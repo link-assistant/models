@@ -19,26 +19,24 @@ model 'GPT-5.1 Chat'
     closed
   capabilities
     (
-      reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
   modalities
     input
-      text image
+      pdf image text
     output
       text
   limits
     context
       '128 000'
     output
-      '16 384'
+      '32 000'
   costs
     input
       1.25
     output
       10
     cacheRead
-      0.125
+      0.13

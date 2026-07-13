@@ -39,4 +39,4 @@ model 'Seed 1.6 Flash (250715)'
     output
       0.3
     cacheRead
-      0.01
+      0.015

@@ -38,4 +38,4 @@ model 'MiniMax-M2.7'
     output
       1.2
     cacheRead
-      0.03
+      0.06

@@ -12,9 +12,9 @@ model 'MiniMax M2.7'
   released at
     2026-03-18
   last updated at
-    2026-04-12
+    2026-06-11
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -37,4 +37,4 @@ model 'MiniMax M2.7'
     output
       1.5
     cacheRead
-      0.075
+      0.06875

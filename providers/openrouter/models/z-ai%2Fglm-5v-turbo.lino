@@ -1,0 +1,41 @@
+model 'GLM-5V-Turbo'
+  has id
+    'z-ai/glm-5v-turbo'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-01
+  last updated at
+    2026-04-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text video
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '131 072'
+  costs
+    input
+      1.2
+    output
+      4
+    cacheRead
+      0.24

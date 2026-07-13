@@ -1,0 +1,41 @@
+model 'DeepSeek V3.2 Exp'
+  has id
+    'deepseek/deepseek-v3.2-exp'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-09-29
+  last updated at
+    2025-09-29
+  has knowledge cutoff at
+    2025-07-31
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '65 536'
+  costs
+    input
+      0.27
+    output
+      0.41

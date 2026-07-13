@@ -8,7 +8,7 @@ model 'minimax-m2'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2025-10-23
   last updated at
@@ -17,6 +17,7 @@ model 'minimax-m2'
     open
   capabilities
     (
+      reasoning
       tool calls
     )
   modalities

@@ -1,4 +1,4 @@
-model 'GPT-4o Mini'
+model 'GPT-4o mini'
   has id
     'gpt-4o-mini'
   provider id
@@ -6,7 +6,7 @@ model 'GPT-4o Mini'
   provided by
     'Abacus'
   family
-    'gpt'
+    'gpt-mini'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'GPT-4o Mini'
   last updated at
     2024-07-18
   has knowledge cutoff at
-    2024-04
+    2023-09
   weights
     closed
   capabilities
@@ -22,6 +22,7 @@ model 'GPT-4o Mini'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

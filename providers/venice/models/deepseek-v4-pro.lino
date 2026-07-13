@@ -12,7 +12,9 @@ model 'DeepSeek V4 Pro'
   released at
     2026-04-24
   last updated at
-    2026-04-29
+    2026-06-11
+  has knowledge cutoff at
+    2025-05
   weights
     open
   capabilities
@@ -35,8 +37,8 @@ model 'DeepSeek V4 Pro'
       '32 768'
   costs
     input
-      1.73
+      1.65
     output
-      3.796
+      3.301
     cacheRead
       0.33

@@ -1,0 +1,41 @@
+model 'Claude Sonnet Latest'
+  has id
+    'anthropic/claude-sonnet-latest'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-03-01
+  last updated at
+    2026-03-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      2.992
+    output
+      14.994
+    cacheRead
+      0.2992

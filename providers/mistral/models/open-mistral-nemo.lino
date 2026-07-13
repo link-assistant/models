@@ -1,0 +1,39 @@
+model 'Open Mistral Nemo'
+  has id
+    'open-mistral-nemo'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'mistral-nemo'
+  status
+    deprecated
+  released at
+    2024-07-01
+  last updated at
+    2024-07-01
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.15
+    output
+      0.15

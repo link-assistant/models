@@ -1,0 +1,44 @@
+model 'Qwen3 235B A22B Thinking 2507 TEE'
+  has id
+    'Qwen/Qwen3-235B-A22B-Thinking-2507-TEE'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07
+  last updated at
+    2026-06-21
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.2989
+    output
+      1.1957
+    cacheRead
+      0.14945

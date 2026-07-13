@@ -1,0 +1,38 @@
+model 'Claw Medium'
+  has id
+    'claw-medium'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-05-11
+  last updated at
+    2026-05-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    input
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      1.2

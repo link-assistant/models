@@ -8,7 +8,7 @@ model 'Devstral Small'
   family
     'devstral'
   status
-    active
+    deprecated
   released at
     2025-07-10
   last updated at

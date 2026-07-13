@@ -10,9 +10,9 @@ model 'MiniMax M2.1'
   status
     active
   released at
-    2025-10-27
+    2025-12-23
   last updated at
-    2025-10-27
+    2025-12-23
   has knowledge cutoff at
     2024-10
   weights
@@ -42,4 +42,4 @@ model 'MiniMax M2.1'
     cacheRead
       0.03
     cacheWrite
-      0.38
+      0.375

@@ -1,0 +1,44 @@
+model 'Anthropic Claude Haiku Latest'
+  has id
+    '~anthropic/claude-haiku-latest'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2026-04-27
+  last updated at
+    2026-04-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      1
+    output
+      5
+    cacheRead
+      0.1
+    cacheWrite
+      1.25

@@ -1,4 +1,4 @@
-model 'MiniMax M2.7'
+model 'MiniMax-M2.7'
   has id
     'minimax/minimax-m2.7'
   provider id
@@ -20,6 +20,7 @@ model 'MiniMax M2.7'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,13 +31,9 @@ model 'MiniMax M2.7'
     context
       '204 800'
     output
-      '131 072'
+      '196 608'
   costs
     input
-      0.3
+      0.24
     output
-      1.2
-    cacheRead
-      0.06
-    cacheWrite
-      0.375
+      0.96

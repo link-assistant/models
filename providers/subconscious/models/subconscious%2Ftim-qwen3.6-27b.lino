@@ -1,0 +1,41 @@
+model 'TIM-Qwen3.6 27B'
+  has id
+    'subconscious/tim-qwen3.6-27b'
+  provider id
+    'subconscious'
+  provided by
+    'Subconscious'
+  status
+    active
+  released at
+    2026-05-11
+  last updated at
+    2026-05-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    input
+      8192
+    output
+      5000
+  costs
+    input
+      0.3
+    output
+      3
+    cacheRead
+      0.15

@@ -12,7 +12,9 @@ model 'Qwen 3.6 Plus Uncensored'
   released at
     2026-04-06
   last updated at
-    2026-04-12
+    2026-06-11
+  has knowledge cutoff at
+    2025-04
   weights
     closed
   capabilities

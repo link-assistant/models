@@ -1,0 +1,42 @@
+model 'Hy3'
+  has id
+    'hy3'
+  provider id
+    'tencent-tokenhub'
+  provided by
+    'Tencent TokenHub'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-07-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

@@ -10,11 +10,15 @@ model 'Imagen 4'
   status
     active
   released at
-    2025-05-22
+    2025-05-20
   last updated at
     2025-05-22
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text

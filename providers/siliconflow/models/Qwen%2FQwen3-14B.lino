@@ -17,6 +17,7 @@ model 'Qwen/Qwen3-14B'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       structured output

@@ -1,4 +1,4 @@
-model 'Qwen3 Coder'
+model 'Qwen3 Coder 480B A35B'
   has id
     'qwen/qwen3-coder'
   provider id
@@ -14,7 +14,7 @@ model 'Qwen3 Coder'
   last updated at
     2025-07-23
   has knowledge cutoff at
-    2025-04
+    2025-06-30
   weights
     open
   capabilities
@@ -30,11 +30,11 @@ model 'Qwen3 Coder'
       text
   limits
     context
-      '262 144'
+      '1 048 576'
     output
-      '66 536'
+      '65 536'
   costs
     input
-      0.3
+      0.22
     output
-      1.2
+      1.8

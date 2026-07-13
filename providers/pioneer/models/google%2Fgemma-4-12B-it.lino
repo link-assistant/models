@@ -1,0 +1,41 @@
+model 'Gemma 4 12B IT'
+  has id
+    'google/gemma-4-12B-it'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2026-05-31
+  last updated at
+    2026-05-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.25
+    output
+      0.25
+    cacheRead
+      0.25
+    cacheWrite
+      0.25

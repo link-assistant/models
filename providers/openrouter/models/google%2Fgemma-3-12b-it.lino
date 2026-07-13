@@ -14,11 +14,12 @@ model 'Gemma 3 12B'
   last updated at
     2025-03-13
   has knowledge cutoff at
-    2024-10
+    2024-08-31
   weights
     open
   capabilities
     (
+      tool calls
       temperature
       attachments
       structured output
@@ -32,9 +33,9 @@ model 'Gemma 3 12B'
     context
       '131 072'
     output
-      '131 072'
+      '16 384'
   costs
     input
-      0.03
+      0.05
     output
-      0.1
+      0.15

@@ -1,4 +1,4 @@
-model 'GPT-5.1-Codex-Max'
+model 'GPT-5.1 Codex Max'
   has id
     'openai/gpt-5.1-codex-max'
   provider id
@@ -21,7 +21,6 @@ model 'GPT-5.1-Codex-Max'
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -33,12 +32,14 @@ model 'GPT-5.1-Codex-Max'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
     input
-      1.1
+      1.25
     output
-      9
+      10
     cacheRead
-      0.11
+      0.125

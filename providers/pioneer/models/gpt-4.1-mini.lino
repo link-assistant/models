@@ -1,0 +1,47 @@
+model 'GPT-4.1 mini'
+  has id
+    'gpt-4.1-mini'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2025-04-14
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 047 576'
+    output
+      '32 768'
+  costs
+    input
+      0.4
+    output
+      1.6
+    cacheRead
+      0.2
+    cacheWrite
+      0.4

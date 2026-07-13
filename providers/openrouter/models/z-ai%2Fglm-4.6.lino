@@ -1,4 +1,4 @@
-model 'GLM 4.6'
+model 'GLM-4.6'
   has id
     'z-ai/glm-4.6'
   provider id
@@ -14,7 +14,7 @@ model 'GLM 4.6'
   last updated at
     2025-09-30
   has knowledge cutoff at
-    2025-09
+    2025-04
   weights
     open
   capabilities
@@ -33,11 +33,11 @@ model 'GLM 4.6'
     context
       '200 000'
     output
-      '128 000'
+      '16 384'
   costs
     input
-      0.6
+      0.43
     output
-      2.2
+      1.75
     cacheRead
-      0.11
+      0.08

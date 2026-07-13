@@ -1,0 +1,40 @@
+model 'Gemma 4 26B A4B IT'
+  has id
+    'google/gemma-4-26B-A4B-it'
+  provider id
+    'evroc'
+  provided by
+    'evroc'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.144
+    output
+      0.575

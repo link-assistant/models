@@ -1,0 +1,43 @@
+model 'Claude Opus 4.7 (Fast)'
+  has id
+    'anthropic/claude-opus-4.7-fast'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2026-05-12
+  last updated at
+    2026-05-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      30
+    output
+      150
+    cacheRead
+      3
+    cacheWrite
+      37.5

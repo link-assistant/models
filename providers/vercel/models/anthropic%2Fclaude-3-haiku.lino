@@ -25,7 +25,7 @@ model 'Claude Haiku 3'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits

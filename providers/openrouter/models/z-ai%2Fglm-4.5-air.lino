@@ -1,4 +1,4 @@
-model 'GLM 4.5 Air'
+model 'GLM-4.5-Air'
   has id
     'z-ai/glm-4.5-air'
   provider id
@@ -22,7 +22,6 @@ model 'GLM 4.5 Air'
       reasoning
       tool calls
       temperature
-      structured output
     )
   modalities
     input
@@ -31,11 +30,13 @@ model 'GLM 4.5 Air'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      '96 000'
+      '98 304'
   costs
     input
-      0.2
+      0.13
     output
-      1.1
+      0.85
+    cacheRead
+      0.025

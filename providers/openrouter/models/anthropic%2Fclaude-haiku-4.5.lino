@@ -1,4 +1,4 @@
-model 'Claude Haiku 4.5'
+model 'Claude Haiku 4.5 (latest)'
   has id
     'anthropic/claude-haiku-4.5'
   provider id

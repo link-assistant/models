@@ -6,13 +6,13 @@ model 'Gemini 3 Flash Preview'
   provided by
     'Venice AI'
   family
-    'gemini-flash'
+    'gemini'
   status
     active
   released at
     2025-12-19
   last updated at
-    2026-03-12
+    2026-06-11
   has knowledge cutoff at
     2025-01
   weights
@@ -28,7 +28,7 @@ model 'Gemini 3 Flash Preview'
     )
   modalities
     input
-      text image audio video pdf
+      text image video audio pdf
     output
       text
   limits

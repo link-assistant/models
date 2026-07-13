@@ -1,4 +1,4 @@
-model 'OpenPipe Qwen3 14B Instruct'
+model 'Qwen3 14B Instruct'
   has id
     'OpenPipe/Qwen3-14B-Instruct'
   provider id
@@ -12,7 +12,7 @@ model 'OpenPipe Qwen3 14B Instruct'
   released at
     2025-04-29
   last updated at
-    2026-03-12
+    2025-04-29
   weights
     open
   capabilities
@@ -36,3 +36,5 @@ model 'OpenPipe Qwen3 14B Instruct'
       0.05
     output
       0.22
+    cacheRead
+      0.05

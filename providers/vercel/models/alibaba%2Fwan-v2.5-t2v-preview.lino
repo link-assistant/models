@@ -1,0 +1,31 @@
+model 'Wan v2.5 Text-to-Video Preview'
+  has id
+    'alibaba/wan-v2.5-t2v-preview'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'o'
+  status
+    active
+  released at
+    2025-09-24
+  last updated at
+    2025-09-24
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

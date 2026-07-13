@@ -13,8 +13,14 @@ model 'Gemini Embedding 001'
     2025-05-20
   last updated at
     2025-05-20
+  has knowledge cutoff at
+    2025-05
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -25,8 +31,3 @@ model 'Gemini Embedding 001'
       8192
     output
       1536
-  costs
-    input
-      0.15
-    output
-      0

@@ -6,7 +6,7 @@ model 'Kimi K2 Instruct'
   provided by
     'IO.NET'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at

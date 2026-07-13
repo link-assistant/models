@@ -1,0 +1,41 @@
+model 'Nemotron 3 Ultra 550B A55B'
+  has id
+    'nvidia/nemotron-3-ultra-550b-a55b'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '512 300'
+    output
+      '512 300'
+  costs
+    input
+      0.6
+    output
+      3.6
+    cacheRead
+      0.2

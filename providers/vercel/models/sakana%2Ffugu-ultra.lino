@@ -1,0 +1,41 @@
+model 'Fugu Ultra'
+  has id
+    'sakana/fugu-ultra'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'aura'
+  status
+    active
+  released at
+    2026-06-21
+  last updated at
+    2026-06-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '1 000 000'
+  costs
+    input
+      5
+    output
+      30
+    cacheRead
+      0.5

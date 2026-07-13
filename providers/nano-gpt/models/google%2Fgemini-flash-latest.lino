@@ -1,0 +1,39 @@
+model 'Gemini Flash Latest'
+  has id
+    'google/gemini-flash-latest'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-03-29
+  last updated at
+    2026-03-29
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 756'
+    input
+      '1 048 756'
+    output
+      '65 536'
+  costs
+    input
+      1.5
+    output
+      9
+    cacheRead
+      0.15

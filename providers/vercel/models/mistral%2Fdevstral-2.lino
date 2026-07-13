@@ -32,3 +32,8 @@ model 'Devstral 2'
       '256 000'
     output
       '256 000'
+  costs
+    input
+      0.4
+    output
+      2

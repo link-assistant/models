@@ -12,7 +12,9 @@ model 'Mistral Small 4'
   released at
     2026-03-16
   last updated at
-    2026-04-09
+    2026-06-11
+  has knowledge cutoff at
+    2025-06
   weights
     open
   capabilities

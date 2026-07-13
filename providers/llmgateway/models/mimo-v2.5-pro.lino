@@ -31,13 +31,13 @@ model 'MiMo-V2.5-Pro'
       text
   limits
     context
-      '1 048 576'
+      '1 000 000'
     output
       '131 072'
   costs
     input
-      1
+      0.435
     output
-      3
+      0.87
     cacheRead
-      0.2
+      0.0036

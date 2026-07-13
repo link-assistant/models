@@ -1,0 +1,42 @@
+model 'MiniMax-M3'
+  has id
+    'accounts/fireworks/models/minimax-m3'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-12
+  last updated at
+    2026-06-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '512 000'
+    output
+      '512 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

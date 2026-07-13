@@ -6,13 +6,15 @@ model 'Kimi K2.6'
   provided by
     'Vercel AI Gateway'
   family
-    'kimi-k2.6'
+    'kimi-k2'
   status
     active
   released at
     2026-04-20
   last updated at
-    2026-04-24
+    2026-04-21
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -21,10 +23,11 @@ model 'Kimi K2.6'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits

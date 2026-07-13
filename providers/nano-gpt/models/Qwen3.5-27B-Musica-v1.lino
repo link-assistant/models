@@ -1,0 +1,37 @@
+model 'Qwen3.5 27B Musica v1'
+  has id
+    'Qwen3.5-27B-Musica-v1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-03-27
+  last updated at
+    2026-03-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.306
+    output
+      0.306

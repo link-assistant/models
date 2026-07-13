@@ -10,7 +10,7 @@ model 'Mistral Small (latest)'
   status
     active
   released at
-    2026-03-16
+    2024-09-17
   last updated at
     2026-03-16
   has knowledge cutoff at
@@ -19,7 +19,6 @@ model 'Mistral Small (latest)'
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments
@@ -31,11 +30,11 @@ model 'Mistral Small (latest)'
       text
   limits
     context
-      '256 000'
+      '32 000'
     output
-      '256 000'
+      4000
   costs
     input
-      0.15
+      0.1
     output
-      0.6
+      0.3

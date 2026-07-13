@@ -28,7 +28,7 @@ model 'MiniMax-M2.5'
       text
   limits
     context
-      '204 800'
+      '228 700'
     output
       '131 072'
   costs

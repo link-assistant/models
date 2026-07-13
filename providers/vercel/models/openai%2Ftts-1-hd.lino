@@ -1,0 +1,31 @@
+model 'TTS-1 HD'
+  has id
+    'openai/tts-1-hd'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'o'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2023-11-06
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      0
+    output
+      0

@@ -1,0 +1,42 @@
+model 'Claude Opus 4.7'
+  has id
+    'anthropic/claude-opus-4.7'
+  provider id
+    'gmicloud'
+  provided by
+    'GMI Cloud'
+  family
+    'claude-opus'
+  status
+    experimental
+  released at
+    2026-04-16
+  last updated at
+    2026-04-16
+  has knowledge cutoff at
+    2026-01-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '409 600'
+    output
+      '128 000'
+  costs
+    input
+      4.5
+    output
+      22.5
+    cacheRead
+      0.45

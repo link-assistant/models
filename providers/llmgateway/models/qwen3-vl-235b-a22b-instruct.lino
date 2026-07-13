@@ -34,6 +34,6 @@ model 'Qwen3 VL 235B A22B Instruct'
       8192
   costs
     input
-      0.8
+      0.3
     output
-      2.4
+      1.5

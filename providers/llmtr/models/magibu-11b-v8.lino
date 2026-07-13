@@ -1,0 +1,34 @@
+model 'Magibu 11B v8'
+  has id
+    'magibu-11b-v8'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  status
+    active
+  released at
+    2026-06-05
+  last updated at
+    2026-06-05
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

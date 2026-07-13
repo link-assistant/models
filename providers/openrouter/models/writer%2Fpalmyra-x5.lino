@@ -1,0 +1,36 @@
+model 'Palmyra X5'
+  has id
+    'writer/palmyra-x5'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'palmyra'
+  status
+    active
+  released at
+    2026-01-21
+  last updated at
+    2026-01-21
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 040 000'
+    output
+      8192
+  costs
+    input
+      0.6
+    output
+      6

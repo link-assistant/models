@@ -1,0 +1,38 @@
+model 'Olmo 3 32B Think'
+  has id
+    'allenai/olmo-3-32b-think'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'allenai'
+  status
+    active
+  released at
+    2025-11-21
+  last updated at
+    2025-11-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.15
+    output
+      0.5

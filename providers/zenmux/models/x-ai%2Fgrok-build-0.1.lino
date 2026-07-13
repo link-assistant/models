@@ -1,0 +1,42 @@
+model 'Grok Build 0.1'
+  has id
+    'x-ai/grok-build-0.1'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  family
+    'grok-build'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-04-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      1
+    output
+      2
+    cacheRead
+      0.2

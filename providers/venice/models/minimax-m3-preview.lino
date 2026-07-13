@@ -1,0 +1,40 @@
+model 'MiniMax M3 Preview'
+  has id
+    'minimax-m3-preview'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'minimax-m3'
+  status
+    active
+  released at
+    2026-06-12
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '65 536'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

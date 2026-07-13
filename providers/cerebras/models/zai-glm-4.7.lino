@@ -6,17 +6,19 @@ model 'Z.AI GLM-4.7'
   provided by
     'Cerebras'
   status
-    active
+    beta
   released at
-    2026-01-10
+    2026-01-07
   last updated at
-    2026-01-10
+    2026-06-10
   weights
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -27,7 +29,7 @@ model 'Z.AI GLM-4.7'
     context
       '131 072'
     output
-      '40 000'
+      '40 960'
   costs
     input
       2.25

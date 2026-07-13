@@ -36,6 +36,6 @@ model 'GPT-OSS-120B'
       8192
   costs
     input
-      0.44
+      0.22
     output
-      0.99
+      0.83

@@ -1,0 +1,35 @@
+model 'Agent Max'
+  has id
+    'agent-max'
+  provider id
+    'the-grid-ai'
+  provided by
+    'The Grid AI'
+  status
+    beta
+  released at
+    2026-05-04
+  last updated at
+    2026-07-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '922 000'
+    output
+      '128 000'

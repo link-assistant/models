@@ -23,10 +23,11 @@ model 'Gemini 3 Pro Preview'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image video audio pdf
+      text image pdf
     output
       text
   limits

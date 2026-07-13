@@ -10,7 +10,7 @@ model 'LongCat Flash Chat'
   status
     active
   released at
-    2025-08-30
+    2025-09-01
   last updated at
     2025-08-30
   has knowledge cutoff at
@@ -31,4 +31,4 @@ model 'LongCat Flash Chat'
     context
       '128 000'
     output
-      8192
+      '100 000'

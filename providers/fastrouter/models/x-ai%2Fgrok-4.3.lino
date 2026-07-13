@@ -1,0 +1,40 @@
+model 'Grok 4.3'
+  has id
+    'x-ai/grok-4.3'
+  provider id
+    'fastrouter'
+  provided by
+    'FastRouter'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '30 000'
+  costs
+    input
+      1.25
+    output
+      2.5

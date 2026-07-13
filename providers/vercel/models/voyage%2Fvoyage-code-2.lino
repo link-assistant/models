@@ -10,11 +10,15 @@ model 'voyage-code-2'
   status
     active
   released at
-    2024-01
+    2024-01-01
   last updated at
     2024-01
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -25,8 +29,3 @@ model 'voyage-code-2'
       8192
     output
       1536
-  costs
-    input
-      0.12
-    output
-      0

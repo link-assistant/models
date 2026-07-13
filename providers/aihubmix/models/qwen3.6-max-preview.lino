@@ -6,7 +6,7 @@ model 'Qwen3.6 Max Preview'
   provided by
     'AIHubMix'
   family
-    'qwen'
+    'qwen3.6'
   status
     active
   released at
@@ -23,6 +23,7 @@ model 'Qwen3.6 Max Preview'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -36,9 +37,9 @@ model 'Qwen3.6 Max Preview'
       '64 000'
   costs
     input
-      1.268
+      1.27
     output
-      7.608
+      7.61
     cacheRead
       0.1268
     cacheWrite

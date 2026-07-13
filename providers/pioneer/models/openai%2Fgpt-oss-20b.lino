@@ -1,0 +1,44 @@
+model 'GPT OSS 20B'
+  has id
+    'openai/gpt-oss-20b'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.07
+    output
+      0.3
+    cacheRead
+      0.035
+    cacheWrite
+      0.07

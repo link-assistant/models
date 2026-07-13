@@ -1,0 +1,40 @@
+model 'GLM-4.5'
+  has id
+    'zai-org/GLM-4.5'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-07-28
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '96 000'
+  costs
+    input
+      0.6
+    output
+      2.2

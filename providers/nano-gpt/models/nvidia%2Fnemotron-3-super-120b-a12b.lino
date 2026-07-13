@@ -1,0 +1,40 @@
+model 'Nvidia Nemotron 3 Super 120B'
+  has id
+    'nvidia/nemotron-3-super-120b-a12b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-01
+  last updated at
+    2026-03-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.05
+    output
+      0.25

@@ -1,0 +1,41 @@
+model 'Stealth: Claude Sonnet 4.6 (20% off)'
+  has id
+    'stealth/claude-sonnet-4.6'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-02-17
+  last updated at
+    2026-05-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image pdf text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '64 000'
+  costs
+    input
+      2.4
+    output
+      12
+    cacheRead
+      0.24
+    cacheWrite
+      3

@@ -8,7 +8,7 @@ model 'Claude Opus 4.1 (latest)'
   family
     'claude-opus'
   status
-    active
+    deprecated
   released at
     2025-08-05
   last updated at
@@ -23,6 +23,7 @@ model 'Claude Opus 4.1 (latest)'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

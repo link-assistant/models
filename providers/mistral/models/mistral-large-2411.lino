@@ -10,9 +10,9 @@ model 'Mistral Large 2.1'
   status
     active
   released at
-    2024-11-01
+    2024-11-18
   last updated at
-    2024-11-04
+    2024-11-18
   has knowledge cutoff at
     2024-11
   weights

@@ -1,0 +1,40 @@
+model 'NVIDIA Nemotron Cascade 2'
+  has id
+    'nvidia/Nemotron-Cascade-2-30B-A3B'
+  provider id
+    'vultr'
+  provided by
+    'Vultr'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.15
+    output
+      0.6

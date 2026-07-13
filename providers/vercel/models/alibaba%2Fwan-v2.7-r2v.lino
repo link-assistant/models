@@ -1,0 +1,31 @@
+model 'Wan v2.7 Reference-to-Video'
+  has id
+    'alibaba/wan-v2.7-r2v'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'o'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

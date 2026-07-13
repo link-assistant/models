@@ -24,7 +24,7 @@ model 'MiniMax M2.7 High Speed'
     )
   modalities
     input
-      text image
+      text
     output
       text
   limits

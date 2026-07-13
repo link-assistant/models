@@ -1,0 +1,35 @@
+model 'Auto Router'
+  has id
+    'openrouter/auto'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'auto'
+  status
+    active
+  released at
+    2023-11-08
+  last updated at
+    2023-11-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio pdf video
+    output
+      text image
+  limits
+    context
+      '2 000 000'
+    output
+      '2 000 000'

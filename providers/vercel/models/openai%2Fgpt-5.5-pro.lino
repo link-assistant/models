@@ -12,7 +12,9 @@ model 'GPT 5.5 Pro'
   released at
     2026-04-24
   last updated at
-    2026-04-24
+    2026-04-23
+  has knowledge cutoff at
+    2025-12-01
   weights
     closed
   capabilities
@@ -21,6 +23,7 @@ model 'GPT 5.5 Pro'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

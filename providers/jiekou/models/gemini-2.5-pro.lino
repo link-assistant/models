@@ -17,6 +17,7 @@ model 'gemini-2.5-pro'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments

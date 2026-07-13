@@ -10,16 +10,18 @@ model 'Qwen3 Max'
   status
     active
   released at
-    2025-09-05
+    2025-09-23
   last updated at
-    2025-09-05
+    2025-09-23
+  has knowledge cutoff at
+    2025-04
   weights
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -33,9 +35,9 @@ model 'Qwen3 Max'
       '32 768'
   costs
     input
-      1.2
+      0.78
     output
-      6
+      3.9
     cacheRead
       0.156
     cacheWrite

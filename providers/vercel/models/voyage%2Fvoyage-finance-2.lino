@@ -10,11 +10,15 @@ model 'voyage-finance-2'
   status
     active
   released at
-    2024-03
+    2024-06-03
   last updated at
     2024-03
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -25,8 +29,3 @@ model 'voyage-finance-2'
       8192
     output
       1536
-  costs
-    input
-      0.12
-    output
-      0

@@ -14,13 +14,14 @@ model 'Gemma 3 4B'
   last updated at
     2025-03-13
   has knowledge cutoff at
-    2024-10
+    2024-08-31
   weights
     open
   capabilities
     (
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -29,11 +30,11 @@ model 'Gemma 3 4B'
       text
   limits
     context
-      '96 000'
+      '131 072'
     output
-      '96 000'
+      '16 384'
   costs
     input
-      0.01703
+      0.05
     output
-      0.06815
+      0.1

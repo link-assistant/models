@@ -17,6 +17,7 @@ model 'gemini-2.5-flash-lite'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments

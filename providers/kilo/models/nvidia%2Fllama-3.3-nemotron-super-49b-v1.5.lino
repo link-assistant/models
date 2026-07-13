@@ -5,6 +5,8 @@ model 'NVIDIA: Llama 3.3 Nemotron Super 49B V1.5'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'nemotron'
   status
     active
   released at

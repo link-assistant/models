@@ -1,0 +1,40 @@
+model 'Claudinio'
+  has id
+    'claudinio'
+  provider id
+    'claudinio'
+  provided by
+    'Claudinio'
+  status
+    active
+  released at
+    2026-05-12
+  last updated at
+    2026-06-02
+  has knowledge cutoff at
+    2026-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0.5
+    output
+      2
+    cacheRead
+      0.15

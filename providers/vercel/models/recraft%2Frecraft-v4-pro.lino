@@ -1,0 +1,31 @@
+model 'Recraft V4 Pro'
+  has id
+    'recraft/recraft-v4-pro'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'recraft'
+  status
+    active
+  released at
+    2026-02-17
+  last updated at
+    2026-02-17
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

@@ -38,5 +38,9 @@ model 'Qwen3-VL Plus'
       0.2
     output
       1.6
+    cacheRead
+      0.04
+    cacheWrite
+      0.25
     reasoning
       4.8

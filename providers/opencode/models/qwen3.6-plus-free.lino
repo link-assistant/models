@@ -10,11 +10,11 @@ model 'Qwen3.6 Plus Free'
   status
     deprecated
   released at
-    2026-03-30
+    2026-04-02
   last updated at
-    2026-03-30
+    2026-04-02
   has knowledge cutoff at
-    2024-12
+    2025-04
   weights
     closed
   capabilities
@@ -22,18 +22,18 @@ model 'Qwen3.6 Plus Free'
       reasoning
       tool calls
       temperature
-      interleaved output
+      attachments
     )
   modalities
     input
-      text
+      text image video
     output
       text
   limits
     context
-      '1 048 576'
+      '262 144'
     output
-      '64 000'
+      '65 536'
   costs
     input
       0

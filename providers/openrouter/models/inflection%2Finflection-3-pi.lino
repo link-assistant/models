@@ -1,0 +1,36 @@
+model 'Inflection 3 Pi'
+  has id
+    'inflection/inflection-3-pi'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2024-10-11
+  last updated at
+    2024-10-11
+  has knowledge cutoff at
+    2024-10-31
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8000
+    output
+      1024
+  costs
+    input
+      2.5
+    output
+      10

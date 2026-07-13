@@ -8,7 +8,7 @@ model 'Ring 2.6 1T Free'
   family
     'ring-1t-free'
   status
-    active
+    deprecated
   released at
     2026-05-08
   last updated at

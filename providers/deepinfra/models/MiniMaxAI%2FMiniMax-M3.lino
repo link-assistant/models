@@ -1,0 +1,41 @@
+model 'MiniMax-M3'
+  has id
+    'MiniMaxAI/MiniMax-M3'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '128 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

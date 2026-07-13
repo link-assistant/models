@@ -1,0 +1,34 @@
+model 'Tencent: Hy3 preview'
+  has id
+    'tencent/hy3-preview'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-04-23
+  last updated at
+    2026-04-23
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.066
+    output
+      0.26
+    cacheRead
+      0.029

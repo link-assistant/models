@@ -1,0 +1,29 @@
+model 'Wan 2.6'
+  has id
+    'wanx/wan-v2-6'
+  provider id
+    'fastrouter'
+  provided by
+    'FastRouter'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  weights
+    open
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      '400 000'
+    output
+      0

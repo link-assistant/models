@@ -5,14 +5,12 @@ model 'Step 3.5 Flash'
     'openrouter'
   provided by
     'OpenRouter'
-  family
-    'step'
   status
     active
   released at
     2026-01-29
   last updated at
-    2026-01-29
+    2026-02-13
   has knowledge cutoff at
     2025-01
   weights
@@ -30,13 +28,11 @@ model 'Step 3.5 Flash'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
-      '256 000'
+      '65 536'
   costs
     input
       0.1
     output
       0.3
-    cacheRead
-      0.02

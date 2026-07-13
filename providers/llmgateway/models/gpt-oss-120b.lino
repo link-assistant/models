@@ -34,6 +34,6 @@ model 'GPT OSS 120B'
       '32 766'
   costs
     input
-      0.15
+      0.05
     output
-      0.75
+      0.25

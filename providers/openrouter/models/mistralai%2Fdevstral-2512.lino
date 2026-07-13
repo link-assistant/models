@@ -1,4 +1,4 @@
-model 'Devstral 2 2512'
+model 'Devstral 2'
   has id
     'mistralai/devstral-2512'
   provider id
@@ -8,11 +8,11 @@ model 'Devstral 2 2512'
   family
     'devstral'
   status
-    active
+    deprecated
   released at
-    2025-09-12
+    2025-12-09
   last updated at
-    2025-09-12
+    2025-12-09
   has knowledge cutoff at
     2025-12
   weights
@@ -21,11 +21,12 @@ model 'Devstral 2 2512'
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
@@ -35,6 +36,8 @@ model 'Devstral 2 2512'
       '262 144'
   costs
     input
-      0.15
+      0.4
     output
-      0.6
+      2
+    cacheRead
+      0.04

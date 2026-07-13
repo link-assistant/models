@@ -12,7 +12,9 @@ model 'Gemini 3.1 Flash Lite'
   released at
     2026-05-07
   last updated at
-    2026-05-08
+    2026-05-07
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -21,6 +23,7 @@ model 'Gemini 3.1 Flash Lite'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

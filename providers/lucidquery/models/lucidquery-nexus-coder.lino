@@ -4,7 +4,7 @@ model 'LucidQuery Nexus Coder'
   provider id
     'lucidquery'
   provided by
-    'LucidQuery AI'
+    'LucidQuery'
   family
     'lucid'
   status

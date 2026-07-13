@@ -39,4 +39,4 @@ model 'GLM-4.6V FlashX'
     output
       0.4
     cacheRead
-      0
+      0.004

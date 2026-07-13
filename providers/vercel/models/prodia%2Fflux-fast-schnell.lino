@@ -1,0 +1,31 @@
+model 'Flux Schnell'
+  has id
+    'prodia/flux-fast-schnell'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'flux'
+  status
+    active
+  released at
+    2024-08-02
+  last updated at
+    2026-06-08
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      512
+    output
+      0

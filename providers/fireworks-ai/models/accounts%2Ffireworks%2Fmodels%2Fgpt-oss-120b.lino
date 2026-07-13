@@ -12,7 +12,7 @@ model 'GPT OSS 120B'
   released at
     2025-08-05
   last updated at
-    2025-08-05
+    2026-06-16
   weights
     open
   capabilities
@@ -36,3 +36,5 @@ model 'GPT OSS 120B'
       0.15
     output
       0.6
+    cacheRead
+      0.015

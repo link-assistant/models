@@ -27,18 +27,20 @@ model 'Gemini 3.1 Pro Preview'
     )
   modalities
     input
-      text image
+      text image video audio pdf
     output
       text
   limits
     context
-      '128 000'
+      '1 000 000'
     input
-      '128 000'
+      '936 000'
     output
       '64 000'
   costs
     input
-      0
+      2
     output
-      0
+      12
+    cacheRead
+      0.2

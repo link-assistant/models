@@ -1,0 +1,40 @@
+model 'Ring-2.6-1T'
+  has id
+    'inclusionai/ring-2.6-1t'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'ring'
+  status
+    active
+  released at
+    2026-05-08
+  last updated at
+    2026-05-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.075
+    output
+      0.625
+    cacheRead
+      0.015

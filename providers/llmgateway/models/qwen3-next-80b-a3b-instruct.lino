@@ -34,6 +34,6 @@ model 'Qwen3-Next 80B-A3B Instruct'
       '32 768'
   costs
     input
-      0.5
+      0.15
     output
-      2
+      1.2

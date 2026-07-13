@@ -29,11 +29,11 @@ model 'Qwen3 235B A22B FP8'
       text
   limits
     context
-      '131 072'
+      '40 960'
     output
       8192
   costs
     input
-      0.5
+      0.2
     output
-      2.5
+      0.8

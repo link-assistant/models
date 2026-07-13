@@ -1,0 +1,42 @@
+model 'GLM-5.2'
+  has id
+    'zai-org/GLM-5.2'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '32 768'
+  costs
+    input
+      0.93
+    output
+      3
+    cacheRead
+      0.18

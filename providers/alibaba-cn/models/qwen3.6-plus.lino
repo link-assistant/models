@@ -35,10 +35,10 @@ model 'Qwen3.6 Plus'
       '65 536'
   costs
     input
-      0.276
+      0.5
     output
-      1.651
+      3
     cacheRead
-      0.028
+      0.05
     cacheWrite
-      0.344
+      0.625

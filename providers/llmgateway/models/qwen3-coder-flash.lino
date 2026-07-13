@@ -37,3 +37,7 @@ model 'Qwen3 Coder Flash'
       0.3
     output
       1.5
+    cacheRead
+      0.06
+    cacheWrite
+      0.375

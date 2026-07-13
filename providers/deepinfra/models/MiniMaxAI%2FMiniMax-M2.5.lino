@@ -31,15 +31,13 @@ model 'MiniMax M2.5'
       text
   limits
     context
-      '204 800'
+      '196 608'
     output
       '131 072'
   costs
     input
-      0.27
+      0.15
     output
-      0.95
+      1.15
     cacheRead
       0.03
-    cacheWrite
-      0.375

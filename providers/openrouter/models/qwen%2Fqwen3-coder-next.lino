@@ -1,0 +1,40 @@
+model 'Qwen3 Coder Next'
+  has id
+    'qwen/qwen3-coder-next'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-04
+  last updated at
+    2026-02-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.11
+    output
+      0.8
+    cacheRead
+      0.07

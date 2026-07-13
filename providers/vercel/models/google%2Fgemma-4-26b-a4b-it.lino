@@ -12,7 +12,7 @@ model 'Gemma 4 26B A4B IT'
   released at
     2026-04-02
   last updated at
-    2026-04-03
+    2026-04-02
   weights
     closed
   capabilities
@@ -21,6 +21,7 @@ model 'Gemma 4 26B A4B IT'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -34,6 +35,8 @@ model 'Gemma 4 26B A4B IT'
       '131 072'
   costs
     input
-      0.13
+      0.15
     output
-      0.39999999999999997
+      0.6
+    cacheRead
+      0.015

@@ -1,4 +1,4 @@
-model 'Llama 3.3 70B Versatile'
+model 'Llama 3.3 70B'
   has id
     'llama-3.3-70b-versatile'
   provider id

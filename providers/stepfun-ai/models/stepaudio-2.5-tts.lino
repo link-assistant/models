@@ -1,0 +1,27 @@
+model 'StepAudio 2.5 TTS'
+  has id
+    'stepaudio-2.5-tts'
+  provider id
+    'stepfun-ai'
+  provided by
+    'StepFun (Global)'
+  family
+    'step'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-07-02
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      0
+    output
+      0

@@ -1,0 +1,38 @@
+model 'GPT-Image-1.5'
+  has id
+    'gpt-image-1.5'
+  provider id
+    'azure'
+  provided by
+    'Azure'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2025-11-25
+  last updated at
+    2025-11-25
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      5
+    output
+      32
+    cacheRead
+      1.25

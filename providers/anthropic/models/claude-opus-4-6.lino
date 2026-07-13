@@ -10,7 +10,7 @@ model 'Claude Opus 4.6'
   status
     experimental
   released at
-    2026-02-05
+    2026-02-04
   last updated at
     2026-03-13
   has knowledge cutoff at
@@ -23,6 +23,7 @@ model 'Claude Opus 4.6'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

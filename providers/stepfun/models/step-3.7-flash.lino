@@ -1,0 +1,44 @@
+model 'Step 3.7 Flash'
+  has id
+    'step-3.7-flash'
+  provider id
+    'stepfun'
+  provided by
+    'StepFun (China)'
+  status
+    active
+  released at
+    2026-05-29
+  last updated at
+    2026-06-29
+  has knowledge cutoff at
+    2026-03-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.185
+    output
+      1.11
+    cacheRead
+      0.037

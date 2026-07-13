@@ -37,8 +37,8 @@ model 'DeepSeek V4 Pro'
       '393 216'
   costs
     input
-      1.69
+      1.6
     output
-      3.38
+      3.2
     cacheRead
-      0.13
+      0.135

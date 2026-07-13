@@ -12,7 +12,7 @@ model 'Google Gemma 4 26B A4B Instruct'
   released at
     2026-04-02
   last updated at
-    2026-04-12
+    2026-06-11
   weights
     open
   capabilities
@@ -35,6 +35,8 @@ model 'Google Gemma 4 26B A4B Instruct'
       8192
   costs
     input
-      0.1625
+      0.13
     output
-      0.5
+      0.4
+    cacheRead
+      0.05

@@ -1,0 +1,40 @@
+model 'Qwen3 8B'
+  has id
+    'qwen/qwen3-8b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04-28
+  last updated at
+    2025-04-28
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.117
+    output
+      0.455

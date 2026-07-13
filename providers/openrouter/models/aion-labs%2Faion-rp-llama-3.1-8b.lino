@@ -1,0 +1,38 @@
+model 'Aion-RP 1.0 (8B)'
+  has id
+    'aion-labs/aion-rp-llama-3.1-8b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-02-04
+  last updated at
+    2025-02-04
+  has knowledge cutoff at
+    2023-12-31
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.8
+    output
+      1.6

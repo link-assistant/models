@@ -6,7 +6,7 @@ model 'GLM 5 Vision Turbo'
   provided by
     'AIHubMix'
   family
-    'glm'
+    'glmv'
   status
     active
   released at

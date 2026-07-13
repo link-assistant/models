@@ -1,0 +1,40 @@
+model 'GPT-3.5-turbo'
+  has id
+    'openai/gpt-3.5-turbo'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2023-03-01
+  last updated at
+    2023-11-06
+  has knowledge cutoff at
+    2021-09-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '16 385'
+    output
+      4096
+  costs
+    input
+      0.5
+    output
+      1.5

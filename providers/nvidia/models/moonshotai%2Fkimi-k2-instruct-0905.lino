@@ -6,9 +6,9 @@ model 'Kimi K2 0905'
   provided by
     'Nvidia'
   family
-    'kimi'
+    'kimi-k2'
   status
-    active
+    deprecated
   released at
     2025-09-05
   last updated at

@@ -1,0 +1,43 @@
+model 'Qwen Plus 0728 (thinking)'
+  has id
+    'qwen/qwen-plus-2025-07-28:thinking'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-08
+  last updated at
+    2025-09-08
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      0.26
+    output
+      0.78
+    cacheWrite
+      0.325

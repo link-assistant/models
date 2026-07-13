@@ -1,0 +1,37 @@
+model 'MythoMax 13B'
+  has id
+    'gryphe/mythomax-l2-13b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2023-07-02
+  last updated at
+    2023-07-02
+  has knowledge cutoff at
+    2023-06-30
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      4096
+  costs
+    input
+      0.06
+    output
+      0.06

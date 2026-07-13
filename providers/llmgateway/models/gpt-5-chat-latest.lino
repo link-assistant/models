@@ -41,3 +41,5 @@ model 'GPT-5 Chat (latest)'
       1.25
     output
       10
+    cacheRead
+      0.125

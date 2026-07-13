@@ -10,9 +10,9 @@ model 'Gemma 4 26B A4B IT'
   status
     active
   released at
-    2025-12-15
+    2026-04-02
   last updated at
-    2025-12-15
+    2026-04-02
   weights
     open
   capabilities
@@ -21,6 +21,8 @@ model 'Gemma 4 26B A4B IT'
       tool calls
       temperature
       attachments
+      structured output
+      interleaved output
     )
   modalities
     input

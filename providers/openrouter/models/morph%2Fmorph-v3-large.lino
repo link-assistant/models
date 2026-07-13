@@ -1,0 +1,37 @@
+model 'Morph V3 Large'
+  has id
+    'morph/morph-v3-large'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'morph'
+  status
+    active
+  released at
+    2025-07-07
+  last updated at
+    2025-07-07
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.9
+    output
+      1.9

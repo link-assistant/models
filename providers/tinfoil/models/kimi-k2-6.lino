@@ -1,0 +1,42 @@
+model 'Kimi K2.6'
+  has id
+    'kimi-k2-6'
+  provider id
+    'tinfoil'
+  provided by
+    'Tinfoil'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '262 144'
+  costs
+    input
+      1.5
+    output
+      5.25

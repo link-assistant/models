@@ -1,0 +1,43 @@
+model 'GLM-5.1'
+  has id
+    'z-ai/glm-5.1'
+  provider id
+    'crossmodel'
+  provided by
+    'CrossModel'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      1
+    output
+      3.8
+    cacheRead
+      0.2
+    cacheWrite
+      1

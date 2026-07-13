@@ -1,0 +1,42 @@
+model 'LFM2 24B A2B'
+  has id
+    'LiquidAI/LFM2-24B-A2B'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'liquid'
+  status
+    active
+  released at
+    2026-01-31
+  last updated at
+    2026-02-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.03
+    output
+      0.12
+    cacheRead
+      0.03
+    cacheWrite
+      0.03

@@ -1,0 +1,37 @@
+model 'Qwen3.7 Max'
+  has id
+    'Qwen/Qwen3.7-Max'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-05-21
+  last updated at
+    2026-07-02
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '500 000'
+  costs
+    input
+      1.25
+    output
+      3.75

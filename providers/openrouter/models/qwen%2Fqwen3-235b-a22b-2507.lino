@@ -1,0 +1,40 @@
+model 'Qwen3 235B A22B Instruct 2507'
+  has id
+    'qwen/qwen3-235b-a22b-2507'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-21
+  last updated at
+    2025-07-21
+  has knowledge cutoff at
+    2025-06-30
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.09
+    output
+      0.55

@@ -1,4 +1,4 @@
-model 'Claude Haiku 3.5'
+model 'Claude 3.5 Haiku'
   has id
     'anthropic/claude-3.5-haiku'
   provider id
@@ -10,7 +10,7 @@ model 'Claude Haiku 3.5'
   status
     active
   released at
-    2024-10-22
+    2024-11-04
   last updated at
     2024-10-22
   has knowledge cutoff at

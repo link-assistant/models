@@ -1,4 +1,4 @@
-model 'Llama Prompt Guard 2 86M'
+model 'Prompt Guard 2 86M'
   has id
     'meta-llama/llama-prompt-guard-2-86m'
   provider id
@@ -8,19 +8,13 @@ model 'Llama Prompt Guard 2 86M'
   family
     'llama'
   status
-    active
+    beta
   released at
-    2024-10-01
+    2025-05-29
   last updated at
-    2024-10-01
-  has knowledge cutoff at
-    2024-10
+    2025-05-29
   weights
     open
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text

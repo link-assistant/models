@@ -8,11 +8,11 @@ model 'Safety GPT OSS 20B'
   family
     'gpt-oss'
   status
-    active
+    beta
   released at
-    2025-03-05
+    2025-10-29
   last updated at
-    2025-03-05
+    2026-06-29
   weights
     open
   capabilities
@@ -20,6 +20,7 @@ model 'Safety GPT OSS 20B'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -36,5 +37,3 @@ model 'Safety GPT OSS 20B'
       0.075
     output
       0.3
-    cacheRead
-      0.037

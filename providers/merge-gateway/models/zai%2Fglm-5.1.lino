@@ -1,0 +1,44 @@
+model 'GLM-5.1'
+  has id
+    'zai/glm-5.1'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '131 072'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      0.26
+    cacheWrite
+      0

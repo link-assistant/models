@@ -1,0 +1,40 @@
+model 'Nova Lite 1.0'
+  has id
+    'amazon/nova-lite-v1'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'nova-lite'
+  status
+    active
+  released at
+    2024-12-05
+  last updated at
+    2024-12-05
+  has knowledge cutoff at
+    2024-10-31
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '300 000'
+    output
+      5120
+  costs
+    input
+      0.06
+    output
+      0.24

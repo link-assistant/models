@@ -1,0 +1,42 @@
+model 'DeepSeek-V3.2'
+  has id
+    'deepseek-ai/DeepSeek-V3.2'
+  provider id
+    'friendli'
+  provided by
+    'Friendli'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '163 840'
+  costs
+    input
+      0.5
+    output
+      1.5
+    cacheRead
+      0.25

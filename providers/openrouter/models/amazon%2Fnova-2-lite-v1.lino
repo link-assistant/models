@@ -1,0 +1,39 @@
+model 'Nova 2 Lite'
+  has id
+    'amazon/nova-2-lite-v1'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'nova'
+  status
+    active
+  released at
+    2025-12-02
+  last updated at
+    2025-12-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 535'
+  costs
+    input
+      0.3
+    output
+      2.5

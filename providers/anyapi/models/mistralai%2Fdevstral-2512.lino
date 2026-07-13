@@ -1,0 +1,34 @@
+model 'Devstral 2'
+  has id
+    'mistralai/devstral-2512'
+  provider id
+    'anyapi'
+  provided by
+    'AnyAPI'
+  family
+    'devstral'
+  status
+    deprecated
+  released at
+    2025-12-09
+  last updated at
+    2025-12-09
+  has knowledge cutoff at
+    2025-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'

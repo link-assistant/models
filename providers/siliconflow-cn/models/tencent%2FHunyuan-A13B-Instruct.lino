@@ -17,6 +17,7 @@ model 'tencent/Hunyuan-A13B-Instruct'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       structured output

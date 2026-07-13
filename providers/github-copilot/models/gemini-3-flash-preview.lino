@@ -1,4 +1,4 @@
-model 'Gemini 3 Flash'
+model 'Gemini 3 Flash Preview'
   has id
     'gemini-3-flash-preview'
   provider id
@@ -27,7 +27,7 @@ model 'Gemini 3 Flash'
     )
   modalities
     input
-      text image audio video
+      text image video audio pdf
     output
       text
   limits
@@ -39,6 +39,10 @@ model 'Gemini 3 Flash'
       '64 000'
   costs
     input
-      0
+      0.5
     output
-      0
+      3
+    cacheRead
+      0.05
+    inputAudio
+      1

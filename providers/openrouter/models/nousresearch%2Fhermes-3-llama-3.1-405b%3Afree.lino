@@ -14,12 +14,11 @@ model 'Hermes 3 405B Instruct (free)'
   last updated at
     2024-08-16
   has knowledge cutoff at
-    2023-12
+    2023-12-31
   weights
     open
   capabilities
     (
-      reasoning
       temperature
     )
   modalities

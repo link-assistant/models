@@ -1,0 +1,40 @@
+model 'Qwen2.5 7B Instruct'
+  has id
+    'qwen/qwen-2.5-7b-instruct'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-10-16
+  last updated at
+    2024-10-16
+  has knowledge cutoff at
+    2024-06-30
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.04
+    output
+      0.1
