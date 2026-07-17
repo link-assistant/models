@@ -1,0 +1,36 @@
+model 'GPT-4o mini Transcribe'
+  has id
+    'openai/gpt-4o-mini-transcribe'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'o-mini'
+  status
+    active
+  released at
+    2024-03-13
+  last updated at
+    2024-03-13
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      1.25
+    output
+      5

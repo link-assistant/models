@@ -10,7 +10,7 @@ model 'Mistral Nemo'
   status
     active
   released at
-    2024-07-01
+    2024-07-18
   last updated at
     2024-07-01
   has knowledge cutoff at
@@ -29,11 +29,11 @@ model 'Mistral Nemo'
       text
   limits
     context
-      '60 288'
+      '128 000'
     output
-      '16 000'
+      '128 000'
   costs
     input
-      0.04
+      0.15
     output
-      0.17
+      0.15

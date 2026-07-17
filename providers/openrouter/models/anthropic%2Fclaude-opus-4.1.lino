@@ -1,4 +1,4 @@
-model 'Claude Opus 4.1'
+model 'Claude Opus 4.1 (latest)'
   has id
     'anthropic/claude-opus-4.1'
   provider id

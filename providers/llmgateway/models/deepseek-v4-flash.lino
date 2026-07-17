@@ -32,7 +32,7 @@ model 'DeepSeek V4 Flash'
       text
   limits
     context
-      '1 000 000'
+      '1 050 000'
     output
       '384 000'
   costs
@@ -41,4 +41,4 @@ model 'DeepSeek V4 Flash'
     output
       0.28
     cacheRead
-      0.028
+      0.0028

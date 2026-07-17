@@ -35,10 +35,10 @@ model 'GLM-4.7-Flash'
       '131 072'
   costs
     input
-      0
+      0.06
     output
-      0
+      0.4
     cacheRead
-      0
+      0.01
     cacheWrite
       0

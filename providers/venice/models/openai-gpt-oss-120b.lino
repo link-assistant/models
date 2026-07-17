@@ -12,9 +12,7 @@ model 'OpenAI GPT OSS 120B'
   released at
     2025-11-06
   last updated at
-    2026-05-06
-  has knowledge cutoff at
-    2025-07
+    2026-06-11
   weights
     open
   capabilities
@@ -22,6 +20,7 @@ model 'OpenAI GPT OSS 120B'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

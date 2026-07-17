@@ -13,6 +13,8 @@ model 'Pixtral 12B 2409'
     2024-09-25
   last updated at
     2026-03-17
+  has knowledge cutoff at
+    2024-09
   weights
     open
   capabilities

@@ -10,9 +10,11 @@ model 'Qwen3 32B'
   status
     active
   released at
-    2025-04-29
+    2025-04
   last updated at
-    2025-04-29
+    2025-04
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities
@@ -28,7 +30,7 @@ model 'Qwen3 32B'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
       8192
   costs

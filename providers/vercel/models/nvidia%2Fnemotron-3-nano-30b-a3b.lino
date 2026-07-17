@@ -10,9 +10,9 @@ model 'Nemotron 3 Nano 30B A3B'
   status
     active
   released at
-    2024-12
+    2025-12-15
   last updated at
-    2024-12
+    2025-12-15
   has knowledge cutoff at
     2024-10
   weights
@@ -34,6 +34,6 @@ model 'Nemotron 3 Nano 30B A3B'
       '262 144'
   costs
     input
-      0.06
+      0.05
     output
       0.24

@@ -12,15 +12,12 @@ model 'Google Gemma 3 27B Instruct'
   released at
     2025-11-04
   last updated at
-    2026-03-12
-  has knowledge cutoff at
-    2025-07
+    2026-06-11
   weights
     open
   capabilities
     (
       tool calls
-      temperature
       attachments
       structured output
     )

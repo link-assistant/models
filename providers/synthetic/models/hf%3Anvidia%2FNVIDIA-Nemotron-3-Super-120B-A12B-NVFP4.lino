@@ -1,4 +1,4 @@
-model 'Nemotron 3 Super 120B'
+model 'Nemotron 3 Super 120B A12B'
   has id
     'hf:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4'
   provider id
@@ -12,9 +12,7 @@ model 'Nemotron 3 Super 120B'
   released at
     2026-03-11
   last updated at
-    2026-04-03
-  has knowledge cutoff at
-    2024-04
+    2026-03-11
   weights
     open
   capabilities
@@ -22,7 +20,6 @@ model 'Nemotron 3 Super 120B'
       reasoning
       tool calls
       temperature
-      structured output
       interleaved output
     )
   modalities

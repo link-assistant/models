@@ -13,12 +13,15 @@ model 'Claude Opus 4.7'
     2026-04-16
   last updated at
     2026-04-16
+  has knowledge cutoff at
+    2026-01-31
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
     )
   modalities

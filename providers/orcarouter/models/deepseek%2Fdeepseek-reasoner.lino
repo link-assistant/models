@@ -1,0 +1,44 @@
+model 'DeepSeek Reasoner'
+  has id
+    'deepseek/deepseek-reasoner'
+  provider id
+    'orcarouter'
+  provided by
+    'OrcaRouter'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2026-02-28
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.435
+    output
+      0.87
+    cacheRead
+      0.028

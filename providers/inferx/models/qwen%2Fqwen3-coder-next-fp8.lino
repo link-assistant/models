@@ -1,0 +1,40 @@
+model 'Qwen3 Coder Next FP8'
+  has id
+    'qwen/qwen3-coder-next-fp8'
+  provider id
+    'inferx'
+  provided by
+    'InferX'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-03
+  last updated at
+    2026-02-03
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 144'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

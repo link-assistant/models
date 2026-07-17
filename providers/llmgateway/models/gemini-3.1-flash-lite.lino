@@ -43,4 +43,4 @@ model 'Gemini 3.1 Flash Lite'
     cacheRead
       0.025
     cacheWrite
-      1
+      0.08333

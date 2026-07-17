@@ -5,14 +5,16 @@ model 'Poolside: Laguna M.1 (free)'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'laguna'
   status
     active
   released at
     2026-04-28
   last updated at
-    2026-05-01
+    2026-06-13
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -26,9 +28,9 @@ model 'Poolside: Laguna M.1 (free)'
       text
   limits
     context
-      '131 072'
+      '262 144'
     output
-      8192
+      '32 768'
   costs
     input
       0

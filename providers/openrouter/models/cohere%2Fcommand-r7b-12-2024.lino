@@ -1,0 +1,39 @@
+model 'Command R7B'
+  has id
+    'cohere/command-r7b-12-2024'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'command-r'
+  status
+    active
+  released at
+    2024-12-02
+  last updated at
+    2024-12-02
+  has knowledge cutoff at
+    2024-06-01
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4000
+  costs
+    input
+      0.0375
+    output
+      0.15

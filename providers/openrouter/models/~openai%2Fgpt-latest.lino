@@ -1,0 +1,45 @@
+model 'OpenAI GPT Latest'
+  has id
+    '~openai/gpt-latest'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-04-27
+  last updated at
+    2026-04-27
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      pdf image text
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '128 000'
+  costs
+    input
+      5
+    output
+      30
+    cacheRead
+      0.5
+    cacheWrite
+      6.25

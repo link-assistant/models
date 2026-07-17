@@ -13,6 +13,8 @@ model 'GPT 5.4 Mini'
     2026-03-17
   last updated at
     2026-03-17
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
@@ -21,6 +23,7 @@ model 'GPT 5.4 Mini'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

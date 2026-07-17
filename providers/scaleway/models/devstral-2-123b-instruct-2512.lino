@@ -8,11 +8,13 @@ model 'Devstral 2 123B Instruct (2512)'
   family
     'devstral'
   status
-    active
+    deprecated
   released at
     2026-01-07
   last updated at
     2026-03-17
+  has knowledge cutoff at
+    2025-12
   weights
     open
   capabilities

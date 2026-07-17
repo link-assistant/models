@@ -12,7 +12,9 @@ model 'MiMo M2.5'
   released at
     2026-04-22
   last updated at
-    2026-05-01
+    2026-04-22
+  has knowledge cutoff at
+    2024-12
   weights
     closed
   capabilities
@@ -24,7 +26,7 @@ model 'MiMo M2.5'
     )
   modalities
     input
-      text image audio video
+      text image pdf
     output
       text
   limits
@@ -34,8 +36,8 @@ model 'MiMo M2.5'
       '131 100'
   costs
     input
-      0.39999999999999997
+      0.14
     output
-      2
+      0.28
     cacheRead
-      0.08
+      0.0028

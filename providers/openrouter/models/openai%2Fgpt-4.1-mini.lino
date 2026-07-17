@@ -1,4 +1,4 @@
-model 'GPT-4.1 Mini'
+model 'GPT-4.1 mini'
   has id
     'openai/gpt-4.1-mini'
   provider id
@@ -26,7 +26,7 @@ model 'GPT-4.1 Mini'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

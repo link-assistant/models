@@ -33,8 +33,3 @@ model 'Sonar'
       '127 000'
     output
       8000
-  costs
-    input
-      1
-    output
-      1

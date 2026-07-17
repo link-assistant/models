@@ -10,23 +10,22 @@ model 'GPT-5.2 Chat'
   status
     active
   released at
-    2025-12-11
+    2025-12-10
   last updated at
-    2025-12-11
+    2025-12-10
   has knowledge cutoff at
     2025-08-31
   weights
     closed
   capabilities
     (
-      reasoning
       tool calls
       attachments
       structured output
     )
   modalities
     input
-      text image
+      pdf image text
     output
       text
   limits

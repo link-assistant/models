@@ -1,0 +1,31 @@
+model 'Grok Voice Think Fast 1.0'
+  has id
+    'xai/grok-voice-think-fast-1.0'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-04-23
+  last updated at
+    2026-04-23
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text audio
+    output
+      text audio
+  limits
+    context
+      0
+    output
+      0

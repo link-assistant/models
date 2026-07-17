@@ -6,7 +6,7 @@ model 'kimi-k2-thinking'
   provided by
     'Poe'
   family
-    'kimi'
+    'kimi-thinking'
   status
     active
   released at

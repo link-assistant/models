@@ -23,6 +23,7 @@ model 'Qwen 3.5 397B A17B'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -36,6 +37,8 @@ model 'Qwen 3.5 397B A17B'
       '81 920'
   costs
     input
-      0.54
+      0.45
     output
-      3.4
+      3
+    cacheRead
+      0.22

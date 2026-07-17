@@ -10,11 +10,11 @@ model 'GLM-5.1'
   status
     active
   released at
-    2026-03-27
+    2026-04-07
   last updated at
-    2026-03-27
+    2026-04-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -30,15 +30,15 @@ model 'GLM-5.1'
       text
   limits
     context
-      '200 000'
+      '204 800'
     output
       '131 072'
   costs
     input
-      6
+      0.931
     output
-      24
+      2.93
     cacheRead
-      1.3
+      0.173
     cacheWrite
       0

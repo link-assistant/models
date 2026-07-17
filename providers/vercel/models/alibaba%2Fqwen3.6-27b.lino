@@ -12,7 +12,7 @@ model 'Qwen 3.6 27B'
   released at
     2026-04-22
   last updated at
-    2026-05-01
+    2026-04-22
   weights
     closed
   capabilities
@@ -21,6 +21,7 @@ model 'Qwen 3.6 27B'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -36,4 +37,4 @@ model 'Qwen 3.6 27B'
     input
       0.6
     output
-      3.5999999999999996
+      3.6

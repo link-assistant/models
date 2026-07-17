@@ -28,12 +28,12 @@ model 'Gemini 3.1 Pro Preview Custom Tools'
     )
   modalities
     input
-      text image audio video pdf
+      text image video audio pdf
     output
       text
   limits
     context
-      '1 048 576'
+      '1 048 756'
     output
       '65 536'
   costs
@@ -41,5 +41,9 @@ model 'Gemini 3.1 Pro Preview Custom Tools'
       2
     output
       12
+    cacheRead
+      0.2
+    cacheWrite
+      0.375
     reasoning
       12

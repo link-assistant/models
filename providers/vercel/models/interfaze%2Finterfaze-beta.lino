@@ -20,7 +20,7 @@ model 'Interfaze Beta'
     )
   modalities
     input
-      text
+      text image pdf
     output
       text
   limits

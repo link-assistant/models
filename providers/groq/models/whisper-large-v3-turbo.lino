@@ -1,4 +1,4 @@
-model 'Whisper Large v3 Turbo'
+model 'Whisper Large V3 Turbo'
   has id
     'whisper-large-v3-turbo'
   provider id
@@ -13,8 +13,6 @@ model 'Whisper Large v3 Turbo'
     2024-10-01
   last updated at
     2024-10-01
-  has knowledge cutoff at
-    2024-10
   weights
     open
   capabilities
@@ -28,11 +26,6 @@ model 'Whisper Large v3 Turbo'
       text
   limits
     context
-      448
-    output
-      448
-  costs
-    input
       0
     output
       0

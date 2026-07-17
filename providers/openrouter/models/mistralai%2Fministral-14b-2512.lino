@@ -1,0 +1,41 @@
+model 'Ministral 3 14B 2512'
+  has id
+    'mistralai/ministral-14b-2512'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2025-12-02
+  last updated at
+    2025-12-02
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.2
+    output
+      0.2
+    cacheRead
+      0.02

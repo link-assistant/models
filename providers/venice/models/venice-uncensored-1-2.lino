@@ -12,13 +12,12 @@ model 'Venice Uncensored 1.2'
   released at
     2026-04-01
   last updated at
-    2026-04-19
+    2026-06-11
   weights
     open
   capabilities
     (
       tool calls
-      temperature
       attachments
       structured output
     )

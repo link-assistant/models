@@ -13,6 +13,8 @@ model 'Mistral Small 3.2 24B Instruct (2506)'
     2025-06-20
   last updated at
     2026-03-17
+  has knowledge cutoff at
+    2025-03
   weights
     open
   capabilities

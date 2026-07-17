@@ -1,0 +1,36 @@
+model 'Gemma Sea Lion V4 27B It'
+  has id
+    '@cf/aisingapore/gemma-sea-lion-v4-27b-it'
+  provider id
+    'cloudflare-workers-ai'
+  provided by
+    'Cloudflare Workers AI'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.351
+    output
+      0.555

@@ -1,0 +1,31 @@
+model 'Veo 3.1 Fast'
+  has id
+    'google/veo3.1-fast'
+  provider id
+    'fastrouter'
+  provided by
+    'FastRouter'
+  family
+    'veo'
+  status
+    active
+  released at
+    2026-05-01
+  last updated at
+    2026-05-01
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      '400 000'
+    output
+      0

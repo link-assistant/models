@@ -1,0 +1,32 @@
+model 'Deepseek V4 Flash'
+  has id
+    'deepseek-4-flash'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-05-27
+  last updated at
+    2026-05-29
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      8192

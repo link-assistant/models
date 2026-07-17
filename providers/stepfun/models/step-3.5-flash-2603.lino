@@ -4,7 +4,7 @@ model 'Step 3.5 Flash 2603'
   provider id
     'stepfun'
   provided by
-    'StepFun'
+    'StepFun (China)'
   status
     active
   released at
@@ -20,6 +20,7 @@ model 'Step 3.5 Flash 2603'
       reasoning
       tool calls
       temperature
+      interleaved output
     )
   modalities
     input

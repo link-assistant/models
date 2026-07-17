@@ -12,7 +12,9 @@ model 'GPT 5.4 Pro'
   released at
     2026-03-05
   last updated at
-    2026-03-06
+    2026-03-05
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities

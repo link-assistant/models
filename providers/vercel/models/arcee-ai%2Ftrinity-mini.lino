@@ -10,7 +10,7 @@ model 'Trinity Mini'
   status
     active
   released at
-    2025-12
+    2025-12-01
   last updated at
     2025-12
   has knowledge cutoff at
@@ -33,6 +33,6 @@ model 'Trinity Mini'
       '131 072'
   costs
     input
-      0.05
+      0.045
     output
       0.15

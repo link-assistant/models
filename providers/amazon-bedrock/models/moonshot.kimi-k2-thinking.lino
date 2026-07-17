@@ -30,9 +30,9 @@ model 'Kimi K2 Thinking'
       text
   limits
     context
-      '256 000'
+      '262 143'
     output
-      '256 000'
+      '16 000'
   costs
     input
       0.6

@@ -30,7 +30,7 @@ model 'Qwen Plus'
       text
   limits
     context
-      '1 000 000'
+      '131 072'
     output
       '32 768'
   costs
@@ -38,5 +38,9 @@ model 'Qwen Plus'
       0.4
     output
       1.2
+    cacheRead
+      0.08
+    cacheWrite
+      0.5
     reasoning
       4

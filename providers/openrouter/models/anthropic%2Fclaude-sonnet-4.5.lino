@@ -1,4 +1,4 @@
-model 'Claude Sonnet 4.5'
+model 'Claude Sonnet 4.5 (latest)'
   has id
     'anthropic/claude-sonnet-4.5'
   provider id

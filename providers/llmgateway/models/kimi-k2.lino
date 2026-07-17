@@ -6,7 +6,7 @@ model 'Kimi K2'
   provided by
     'LLM Gateway'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
@@ -28,13 +28,13 @@ model 'Kimi K2'
       text
   limits
     context
-      '131 072'
+      '256 000'
     output
       '16 384'
   costs
     input
-      1
+      0.57
     output
-      3
+      2.3
     cacheRead
       0.5

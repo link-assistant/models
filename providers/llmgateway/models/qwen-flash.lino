@@ -38,3 +38,7 @@ model 'Qwen Flash'
       0.05
     output
       0.4
+    cacheRead
+      0.01
+    cacheWrite
+      0.0625

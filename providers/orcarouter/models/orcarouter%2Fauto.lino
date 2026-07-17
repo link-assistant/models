@@ -1,0 +1,39 @@
+model 'OrcaRouter Auto'
+  has id
+    'orcarouter/auto'
+  provider id
+    'orcarouter'
+  provided by
+    'OrcaRouter'
+  family
+    'auto'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2026-05-14
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

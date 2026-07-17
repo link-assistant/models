@@ -31,7 +31,7 @@ model 'GPT-4.1 nano'
       text
   limits
     context
-      '1 047 576'
+      '1 000 000'
     output
       '32 768'
   costs
@@ -40,4 +40,4 @@ model 'GPT-4.1 nano'
     output
       0.4
     cacheRead
-      0.03
+      0.025

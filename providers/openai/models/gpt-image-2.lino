@@ -1,0 +1,40 @@
+model 'gpt-image-2'
+  has id
+    'gpt-image-2'
+  provider id
+    'openai'
+  provided by
+    'OpenAI'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      0
+    input
+      0
+    output
+      0
+  costs
+    input
+      5
+    output
+      30
+    cacheRead
+      1.25

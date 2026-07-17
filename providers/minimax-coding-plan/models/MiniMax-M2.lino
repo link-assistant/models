@@ -4,7 +4,7 @@ model 'MiniMax-M2'
   provider id
     'minimax-coding-plan'
   provided by
-    'MiniMax Coding Plan (minimax.io)'
+    'MiniMax Token Plan (minimax.io)'
   family
     'minimax'
   status

@@ -1,4 +1,4 @@
-model 'Claude Sonnet 4'
+model 'Claude Sonnet 4 (latest)'
   has id
     'claude-sonnet-4'
   provider id
@@ -8,7 +8,7 @@ model 'Claude Sonnet 4'
   family
     'claude-sonnet'
   status
-    deprecated
+    active
   released at
     2025-05-22
   last updated at
@@ -26,7 +26,7 @@ model 'Claude Sonnet 4'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
@@ -38,6 +38,10 @@ model 'Claude Sonnet 4'
       '16 000'
   costs
     input
-      0
+      3
     output
-      0
+      15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

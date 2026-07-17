@@ -10,9 +10,11 @@ model 'Llama 4 Scout 17B 16E Instruct'
   status
     active
   released at
-    2025-04-16
+    2025-04-05
   last updated at
-    2025-04-16
+    2025-04-05
+  has knowledge cutoff at
+    2024-08
   weights
     open
   capabilities
@@ -28,7 +30,7 @@ model 'Llama 4 Scout 17B 16E Instruct'
       text
   limits
     context
-      '128 000'
+      '131 000'
     output
       '16 384'
   costs

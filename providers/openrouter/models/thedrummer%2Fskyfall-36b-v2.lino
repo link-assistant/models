@@ -1,0 +1,39 @@
+model 'Skyfall 36B V2'
+  has id
+    'thedrummer/skyfall-36b-v2'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2025-03-10
+  last updated at
+    2025-03-10
+  has knowledge cutoff at
+    2024-06-30
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.55
+    output
+      0.8
+    cacheRead
+      0.25

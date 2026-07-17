@@ -10,7 +10,7 @@ model 'gpt-oss-safeguard-20b'
   status
     active
   released at
-    2024-12-01
+    2025-10-29
   last updated at
     2024-12-01
   has knowledge cutoff at
@@ -37,8 +37,8 @@ model 'gpt-oss-safeguard-20b'
       '65 536'
   costs
     input
-      0.08
+      0.075
     output
       0.3
     cacheRead
-      0.04
+      0.037

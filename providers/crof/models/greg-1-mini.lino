@@ -1,0 +1,36 @@
+model 'Greg 1 Mini'
+  has id
+    'greg-1-mini'
+  provider id
+    'crof'
+  provided by
+    'CrofAI'
+  status
+    active
+  released at
+    2026-01-27
+  last updated at
+    2026-01-27
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '229 376'
+    output
+      '229 376'
+  costs
+    input
+      0.07
+    output
+      0.15
+    cacheRead
+      0.01

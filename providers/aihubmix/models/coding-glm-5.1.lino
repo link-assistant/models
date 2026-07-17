@@ -1,4 +1,4 @@
-model 'Coding-GLM-5.1'
+model 'Coding GLM 5.1'
   has id
     'coding-glm-5.1'
   provider id
@@ -14,12 +14,13 @@ model 'Coding-GLM-5.1'
   last updated at
     2026-04-11
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -37,3 +38,5 @@ model 'Coding-GLM-5.1'
       0.06
     output
       0.22
+    cacheRead
+      0.013

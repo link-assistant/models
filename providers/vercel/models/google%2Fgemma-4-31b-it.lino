@@ -12,15 +12,15 @@ model 'Gemma 4 31B IT'
   released at
     2026-04-02
   last updated at
-    2026-04-03
+    2026-04-02
   weights
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -36,4 +36,4 @@ model 'Gemma 4 31B IT'
     input
       0.14
     output
-      0.39999999999999997
+      0.4

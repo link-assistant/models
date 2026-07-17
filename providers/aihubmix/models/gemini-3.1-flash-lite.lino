@@ -10,9 +10,9 @@ model 'Gemini 3.1 Flash Lite'
   status
     active
   released at
-    2026-03-03
+    2026-05-07
   last updated at
-    2026-03-03
+    2026-05-07
   has knowledge cutoff at
     2025-01
   weights
@@ -41,4 +41,6 @@ model 'Gemini 3.1 Flash Lite'
     output
       1.5
     cacheRead
-      0.25
+      0.025
+    cacheWrite
+      1

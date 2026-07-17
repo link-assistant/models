@@ -19,6 +19,7 @@ model 'nemotron-3-nano:30b'
     (
       reasoning
       tool calls
+      temperature
     )
   modalities
     input

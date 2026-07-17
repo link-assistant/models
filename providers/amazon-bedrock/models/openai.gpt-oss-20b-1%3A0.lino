@@ -10,13 +10,14 @@ model 'gpt-oss-20b'
   status
     active
   released at
-    2024-12-01
+    2025-08-05
   last updated at
-    2024-12-01
+    2025-08-05
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       structured output
@@ -30,7 +31,7 @@ model 'gpt-oss-20b'
     context
       '128 000'
     output
-      4096
+      '16 384'
   costs
     input
       0.07

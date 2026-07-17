@@ -1,0 +1,39 @@
+model 'Llama 3.3 Nemotron Super 49B v1.5'
+  has id
+    'nvidia/Llama-3.3-Nemotron-Super-49B-v1.5'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2025-07-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.4
+    output
+      0.4

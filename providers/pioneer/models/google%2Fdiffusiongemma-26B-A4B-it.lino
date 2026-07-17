@@ -1,0 +1,41 @@
+model 'DiffusionGemma 26B-A4B IT'
+  has id
+    'google/diffusiongemma-26B-A4B-it'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2026-05-31
+  last updated at
+    2026-05-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      4096
+  costs
+    input
+      0.5
+    output
+      0.5
+    cacheRead
+      0.5
+    cacheWrite
+      0.5

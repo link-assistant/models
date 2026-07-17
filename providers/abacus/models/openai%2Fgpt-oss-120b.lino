@@ -1,4 +1,4 @@
-model 'GPT-OSS 120B'
+model 'GPT OSS 120B'
   has id
     'openai/gpt-oss-120b'
   provider id
@@ -20,18 +20,18 @@ model 'GPT-OSS 120B'
       reasoning
       tool calls
       temperature
-      attachments
+      structured output
     )
   modalities
     input
-      text image
+      text
     output
       text
   limits
     context
       '128 000'
     output
-      '32 768'
+      '16 384'
   costs
     input
       0.08

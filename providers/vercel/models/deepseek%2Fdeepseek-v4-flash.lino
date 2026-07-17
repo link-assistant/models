@@ -13,6 +13,8 @@ model 'DeepSeek V4 Flash'
     2026-04-23
   last updated at
     2026-04-24
+  has knowledge cutoff at
+    2025-05
   weights
     open
   capabilities
@@ -20,6 +22,7 @@ model 'DeepSeek V4 Flash'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

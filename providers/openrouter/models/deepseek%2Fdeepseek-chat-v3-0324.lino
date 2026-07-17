@@ -14,11 +14,12 @@ model 'DeepSeek V3 0324'
   last updated at
     2025-03-24
   has knowledge cutoff at
-    2024-10
+    2024-07-31
   weights
     open
   capabilities
     (
+      tool calls
       temperature
       structured output
     )
@@ -29,11 +30,13 @@ model 'DeepSeek V3 0324'
       text
   limits
     context
-      '16 384'
+      '163 840'
     output
-      8192
+      '16 384'
   costs
     input
-      0
+      0.24
     output
-      0
+      0.9
+    cacheRead
+      0.135

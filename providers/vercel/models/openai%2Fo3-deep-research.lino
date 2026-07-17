@@ -10,7 +10,7 @@ model 'o3-deep-research'
   status
     active
   released at
-    2024-06-26
+    2025-06-26
   last updated at
     2024-06-26
   has knowledge cutoff at
@@ -21,6 +21,7 @@ model 'o3-deep-research'
     (
       reasoning
       tool calls
+      temperature
       attachments
     )
   modalities

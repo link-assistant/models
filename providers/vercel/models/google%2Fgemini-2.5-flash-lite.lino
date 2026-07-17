@@ -23,10 +23,11 @@ model 'Gemini 2.5 Flash Lite'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image audio video pdf
+      text image pdf
     output
       text
   limits

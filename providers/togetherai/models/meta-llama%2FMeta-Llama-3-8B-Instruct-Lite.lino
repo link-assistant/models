@@ -1,0 +1,36 @@
+model 'Meta Llama 3 8B Instruct Lite'
+  has id
+    'meta-llama/Meta-Llama-3-8B-Instruct-Lite'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-04-18
+  last updated at
+    2024-04-18
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      8192
+  costs
+    input
+      0.14
+    output
+      0.14

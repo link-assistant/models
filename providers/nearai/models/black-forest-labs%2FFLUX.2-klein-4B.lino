@@ -1,0 +1,36 @@
+model 'FLUX.2 Klein 4B'
+  has id
+    'black-forest-labs/FLUX.2-klein-4B'
+  provider id
+    'nearai'
+  provided by
+    'NEAR AI Cloud'
+  family
+    'flux'
+  status
+    active
+  released at
+    2026-01-14
+  last updated at
+    2026-01-14
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      1
+    output
+      1

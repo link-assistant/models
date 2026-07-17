@@ -10,9 +10,11 @@ model 'Qwen3 32B TEE'
   status
     active
   released at
-    2026-04-25
+    2025-04
   last updated at
-    2026-04-25
+    2025-04
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities
@@ -34,8 +36,8 @@ model 'Qwen3 32B TEE'
       '40 960'
   costs
     input
-      0.08
+      0.104
     output
-      0.24
+      0.416
     cacheRead
-      0.04
+      0.052

@@ -1,0 +1,44 @@
+model 'Llama 4 Maverick 17B Instruct'
+  has id
+    'llama-4-maverick'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-05
+  last updated at
+    2025-04-05
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '16 384'
+  costs
+    input
+      0.124
+    output
+      0.603
+    cacheRead
+      0.03
+    cacheWrite
+      0.151

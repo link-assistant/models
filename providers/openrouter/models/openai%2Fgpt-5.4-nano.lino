@@ -1,4 +1,4 @@
-model 'GPT-5.4 Nano'
+model 'GPT-5.4 nano'
   has id
     'openai/gpt-5.4-nano'
   provider id
@@ -19,19 +19,21 @@ model 'GPT-5.4 Nano'
     closed
   capabilities
     (
+      reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
   modalities
     input
-      text image pdf
+      pdf image text
     output
       text
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

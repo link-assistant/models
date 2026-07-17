@@ -1,0 +1,40 @@
+model 'DeepSeek V4 Pro Thinking TEE'
+  has id
+    'TEE/deepseek-v4-pro:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-04-29
+  last updated at
+    2026-04-29
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '800 000'
+    input
+      '800 000'
+    output
+      '65 536'
+  costs
+    input
+      1.5
+    output
+      5.25
+    cacheRead
+      0.15

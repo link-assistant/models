@@ -1,0 +1,38 @@
+model 'GLM 4.5 Air (Thinking)'
+  has id
+    'zai-org/GLM-4.5-Air:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2024-01-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '98 304'
+  costs
+    input
+      0.12
+    output
+      0.8

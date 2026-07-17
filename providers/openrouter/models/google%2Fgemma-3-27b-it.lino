@@ -14,7 +14,7 @@ model 'Gemma 3 27B'
   last updated at
     2025-03-12
   has knowledge cutoff at
-    2024-10
+    2024-08-31
   weights
     open
   capabilities
@@ -31,11 +31,11 @@ model 'Gemma 3 27B'
       text
   limits
     context
-      '96 000'
+      '131 072'
     output
-      '96 000'
+      '16 384'
   costs
     input
-      0.04
+      0.08
     output
-      0.15
+      0.16

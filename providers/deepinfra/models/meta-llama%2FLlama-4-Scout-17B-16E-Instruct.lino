@@ -18,6 +18,8 @@ model 'Llama 4 Scout 17B'
   capabilities
     (
       tool calls
+      attachments
+      structured output
     )
   modalities
     input
@@ -26,11 +28,11 @@ model 'Llama 4 Scout 17B'
       text
   limits
     context
-      '10 000 000'
+      '327 680'
     output
       '16 384'
   costs
     input
-      0.08
+      0.1
     output
       0.3

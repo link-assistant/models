@@ -1,4 +1,4 @@
-model 'Llama 4 Maverick 17B 128E Instruct FP8'
+model 'Llama 4 Maverick 17B Instruct'
   has id
     'meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8'
   provider id
@@ -30,9 +30,9 @@ model 'Llama 4 Maverick 17B 128E Instruct FP8'
       text
   limits
     context
-      '1 000 000'
+      '1 048 576'
     output
-      '32 768'
+      8192
   costs
     input
       0.14

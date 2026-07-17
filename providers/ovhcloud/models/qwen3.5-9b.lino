@@ -8,13 +8,14 @@ model 'Qwen3.5-9B'
   status
     active
   released at
-    2026-02-15
+    2026-04-22
   last updated at
-    2026-02-15
+    2026-04-22
   weights
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
@@ -32,6 +33,6 @@ model 'Qwen3.5-9B'
       '262 144'
   costs
     input
-      0.1
+      0.12
     output
-      0.15
+      0.18

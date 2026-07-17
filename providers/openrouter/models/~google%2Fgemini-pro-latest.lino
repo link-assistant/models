@@ -1,0 +1,46 @@
+model 'Google Gemini Pro Latest'
+  has id
+    '~google/gemini-pro-latest'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2026-04-27
+  last updated at
+    2026-04-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      audio pdf image text video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.2
+    cacheWrite
+      0.375
+    reasoning
+      12

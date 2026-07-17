@@ -23,17 +23,18 @@ model 'Claude Opus 4.7 Thinking'
       tool calls
       attachments
       structured output
+      interleaved output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
-      '200 000'
+      '1 000 000'
     output
-      '32 000'
+      '128 000'
   costs
     input
       5

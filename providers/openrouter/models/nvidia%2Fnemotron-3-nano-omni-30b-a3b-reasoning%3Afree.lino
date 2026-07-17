@@ -21,7 +21,6 @@ model 'Nemotron 3 Nano Omni (free)'
       tool calls
       temperature
       attachments
-      structured output
     )
   modalities
     input

@@ -12,7 +12,7 @@ model 'LFM2.5-1.2B-Thinking (free)'
   released at
     2026-01-20
   last updated at
-    2026-01-28
+    2026-01-20
   has knowledge cutoff at
     2025-06
   weights
@@ -20,7 +20,9 @@ model 'LFM2.5-1.2B-Thinking (free)'
   capabilities
     (
       reasoning
+      tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -29,7 +31,7 @@ model 'LFM2.5-1.2B-Thinking (free)'
       text
   limits
     context
-      '131 072'
+      '32 768'
     output
       '32 768'
   costs

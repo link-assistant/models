@@ -1,0 +1,45 @@
+model 'Claude Haiku 4.5 (latest)'
+  has id
+    'claude-haiku-4-5'
+  provider id
+    'neon'
+  provided by
+    'Neon'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  has knowledge cutoff at
+    2025-02-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      1
+    output
+      5
+    cacheRead
+      0.1
+    cacheWrite
+      1.25

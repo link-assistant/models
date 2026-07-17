@@ -12,7 +12,7 @@ model 'Claude Sonnet 4.6'
   released at
     2026-02-17
   last updated at
-    2026-02-17
+    2026-03-13
   has knowledge cutoff at
     2025-08-31
   weights
@@ -26,18 +26,22 @@ model 'Claude Sonnet 4.6'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
       '200 000'
     input
-      '128 000'
+      '168 000'
     output
       '32 000'
   costs
     input
-      0
+      3
     output
-      0
+      15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

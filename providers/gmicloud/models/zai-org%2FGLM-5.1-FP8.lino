@@ -1,0 +1,42 @@
+model 'GLM-5.1'
+  has id
+    'zai-org/GLM-5.1-FP8'
+  provider id
+    'gmicloud'
+  provided by
+    'GMI Cloud'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '131 072'
+  costs
+    input
+      0.98
+    output
+      3.08
+    cacheRead
+      0.182

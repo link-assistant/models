@@ -1,0 +1,40 @@
+model 'Hy3 Free'
+  has id
+    'hy3-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'hy3-free'
+  status
+    active
+  released at
+    2026-06-26
+  last updated at
+    2026-06-26
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '190 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

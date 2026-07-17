@@ -6,7 +6,7 @@ model 'Kimi K2 0711 Instruct FP4'
   provided by
     'NanoGPT'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at

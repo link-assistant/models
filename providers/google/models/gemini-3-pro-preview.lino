@@ -8,7 +8,7 @@ model 'Gemini 3 Pro Preview'
   family
     'gemini-pro'
   status
-    active
+    deprecated
   released at
     2025-11-18
   last updated at
@@ -32,9 +32,9 @@ model 'Gemini 3 Pro Preview'
       text
   limits
     context
-      '1 000 000'
+      '1 048 576'
     output
-      '64 000'
+      '65 536'
   costs
     input
       2

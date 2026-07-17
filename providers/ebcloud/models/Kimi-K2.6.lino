@@ -1,0 +1,42 @@
+model 'Kimi K2.6'
+  has id
+    'Kimi-K2.6'
+  provider id
+    'ebcloud'
+  provided by
+    'EBCloud'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.9286
+    output
+      3.8571

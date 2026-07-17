@@ -32,6 +32,8 @@ model 'gpt-5'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

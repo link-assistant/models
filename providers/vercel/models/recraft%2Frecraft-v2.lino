@@ -10,11 +10,15 @@ model 'Recraft V2'
   status
     active
   released at
-    2024-03
+    2024-03-13
   last updated at
     2024-03
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text

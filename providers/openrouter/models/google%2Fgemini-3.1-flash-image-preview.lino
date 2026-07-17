@@ -1,4 +1,4 @@
-model 'Gemini 3.1 Flash Image Preview (Nano Banana 2)'
+model 'Nano Banana 2'
   has id
     'google/gemini-3.1-flash-image-preview'
   provider id
@@ -26,14 +26,14 @@ model 'Gemini 3.1 Flash Image Preview (Nano Banana 2)'
     )
   modalities
     input
-      text image
+      image text
     output
       text image
   limits
     context
-      '65 536'
+      '131 072'
     output
-      '65 536'
+      '32 768'
   costs
     input
       0.5

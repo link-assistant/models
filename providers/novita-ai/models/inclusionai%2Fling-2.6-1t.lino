@@ -12,7 +12,7 @@ model 'Ling-2.6-1T'
   released at
     2026-04-23
   last updated at
-    2026-04-23
+    2026-06-29
   weights
     open
   capabilities
@@ -33,6 +33,8 @@ model 'Ling-2.6-1T'
       '32 768'
   costs
     input
-      0
+      0.3
     output
-      0
+      2.5
+    cacheRead
+      0.06

@@ -12,7 +12,7 @@ model 'Llama 3.3 70B'
   released at
     2024-12-06
   last updated at
-    2024-12-06
+    2026-07-02
   has knowledge cutoff at
     2023-12
   weights
@@ -34,6 +34,6 @@ model 'Llama 3.3 70B'
       '131 072'
   costs
     input
-      0.88
+      1.04
     output
-      0.88
+      1.04

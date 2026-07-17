@@ -40,4 +40,4 @@ model 'Kimi K2 Thinking'
     output
       2.5
     cacheRead
-      0.15
+      0.06

@@ -1,4 +1,4 @@
-model 'MiniMax M2.5'
+model 'MiniMax-M2.5'
   has id
     'minimax/minimax-m2.5'
   provider id
@@ -32,11 +32,11 @@ model 'MiniMax M2.5'
     context
       '204 800'
     output
-      '131 072'
+      '196 608'
   costs
     input
-      0.3
+      0.15
     output
-      1.2
+      0.9
     cacheRead
-      0.03
+      0.05

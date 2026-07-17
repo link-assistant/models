@@ -1,4 +1,4 @@
-model 'Mistral Small 3.1 24B Instruct'
+model 'Mistral Small 3.1 24B'
   has id
     'mistralai/mistral-small-3.1-24b-instruct'
   provider id
@@ -14,15 +14,13 @@ model 'Mistral Small 3.1 24B Instruct'
   last updated at
     2025-03-17
   has knowledge cutoff at
-    2024-10
+    2023-10-31
   weights
     open
   capabilities
     (
-      tool calls
       temperature
       attachments
-      structured output
     )
   modalities
     input
@@ -33,9 +31,9 @@ model 'Mistral Small 3.1 24B Instruct'
     context
       '128 000'
     output
-      8192
+      '128 000'
   costs
     input
-      0
+      0.351
     output
-      0
+      0.555

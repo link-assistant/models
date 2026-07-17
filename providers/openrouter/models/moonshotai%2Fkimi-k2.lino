@@ -1,4 +1,4 @@
-model 'Kimi K2'
+model 'Kimi K2 0711'
   has id
     'moonshotai/kimi-k2'
   provider id
@@ -6,7 +6,7 @@ model 'Kimi K2'
   provided by
     'OpenRouter'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'Kimi K2'
   last updated at
     2025-07-11
   has knowledge cutoff at
-    2024-10
+    2024-12-31
   weights
     open
   capabilities
@@ -31,9 +31,9 @@ model 'Kimi K2'
     context
       '131 072'
     output
-      '32 768'
+      '100 352'
   costs
     input
-      0.55
+      0.57
     output
-      2.2
+      2.3

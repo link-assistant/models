@@ -6,13 +6,13 @@ model 'Kimi K2.5 TEE'
   provided by
     'Chutes'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
-    2026-01-27
+    2026-01
   last updated at
-    2026-04-25
+    2026-01
   has knowledge cutoff at
     2024-10
   weights

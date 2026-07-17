@@ -22,6 +22,7 @@ model 'GLM-4.7'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -36,7 +37,7 @@ model 'GLM-4.7'
       '16 384'
   costs
     input
-      0.43
+      0.4
     output
       1.75
     cacheRead

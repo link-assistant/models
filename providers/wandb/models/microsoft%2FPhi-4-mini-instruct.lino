@@ -1,4 +1,4 @@
-model 'Phi-4-mini-instruct'
+model 'Phi 4 Mini 3.8B'
   has id
     'microsoft/Phi-4-mini-instruct'
   provider id
@@ -8,18 +8,17 @@ model 'Phi-4-mini-instruct'
   family
     'phi'
   status
-    active
+    deprecated
   released at
-    2024-12-11
+    2025-02-01
   last updated at
-    2026-03-12
+    2025-02-01
   has knowledge cutoff at
     2023-10
   weights
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
       structured output
@@ -39,3 +38,5 @@ model 'Phi-4-mini-instruct'
       0.08
     output
       0.35
+    cacheRead
+      0.08

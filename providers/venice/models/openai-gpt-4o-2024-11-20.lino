@@ -12,7 +12,9 @@ model 'GPT-4o'
   released at
     2026-02-28
   last updated at
-    2026-03-06
+    2026-06-11
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities

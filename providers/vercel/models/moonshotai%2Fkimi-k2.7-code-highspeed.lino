@@ -1,0 +1,44 @@
+model 'Kimi K2.7 Code High Speed'
+  has id
+    'moonshotai/kimi-k2.7-code-highspeed'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-06-15
+  last updated at
+    2026-06-12
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      1.9
+    output
+      8
+    cacheRead
+      0.38

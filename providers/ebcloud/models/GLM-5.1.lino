@@ -1,0 +1,40 @@
+model 'GLM-5.1'
+  has id
+    'GLM-5.1'
+  provider id
+    'ebcloud'
+  provided by
+    'EBCloud'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '131 072'
+  costs
+    input
+      0.8571
+    output
+      3.4286

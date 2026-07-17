@@ -1,0 +1,38 @@
+model 'Qwen 2.5 7B Instruct Turbo'
+  has id
+    'Qwen/Qwen2.5-7B-Instruct-Turbo'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-09-19
+  last updated at
+    2024-09-19
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.3
+    output
+      0.3

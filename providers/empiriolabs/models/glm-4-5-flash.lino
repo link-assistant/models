@@ -1,0 +1,41 @@
+model 'GLM 4.5 Flash'
+  has id
+    'glm-4-5-flash'
+  provider id
+    'empiriolabs'
+  provided by
+    'EmpirioLabs AI'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-07-28
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '98 304'
+  costs
+    input
+      0
+    output
+      0

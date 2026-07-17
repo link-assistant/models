@@ -12,13 +12,12 @@ model 'Mistral Small 3.2 24B Instruct'
   released at
     2026-01-15
   last updated at
-    2026-03-16
+    2026-06-11
   weights
     open
   capabilities
     (
       tool calls
-      temperature
       structured output
     )
   modalities

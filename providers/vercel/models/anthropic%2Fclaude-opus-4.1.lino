@@ -1,4 +1,4 @@
-model 'Claude Opus 4'
+model 'Claude Opus 4.1'
   has id
     'anthropic/claude-opus-4.1'
   provider id
@@ -8,11 +8,11 @@ model 'Claude Opus 4'
   family
     'claude-opus'
   status
-    active
+    deprecated
   released at
-    2025-05-22
+    2025-08-05
   last updated at
-    2025-05-22
+    2025-08-05
   has knowledge cutoff at
     2025-03-31
   weights
@@ -23,6 +23,7 @@ model 'Claude Opus 4'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

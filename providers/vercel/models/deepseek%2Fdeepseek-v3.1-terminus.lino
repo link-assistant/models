@@ -38,3 +38,5 @@ model 'DeepSeek V3.1 Terminus'
       0.27
     output
       1
+    cacheRead
+      0.135

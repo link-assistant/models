@@ -1,0 +1,47 @@
+model 'GPT-5.6 Luna'
+  has id
+    'openai/gpt-5.6-luna'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gpt-luna'
+  status
+    active
+  released at
+    2026-07-09
+  last updated at
+    2026-07-09
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      1
+    output
+      6
+    cacheRead
+      0.1
+    cacheWrite
+      1.25

@@ -6,7 +6,7 @@ model 'GPT-5.1 Codex'
   provided by
     'Abacus'
   family
-    'gpt'
+    'gpt-codex'
   status
     active
   released at
@@ -41,3 +41,5 @@ model 'GPT-5.1 Codex'
       1.25
     output
       10
+    cacheRead
+      0.125

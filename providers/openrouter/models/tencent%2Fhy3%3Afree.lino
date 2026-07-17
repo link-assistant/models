@@ -1,0 +1,39 @@
+model 'Hy3 (free)'
+  has id
+    'tencent/hy3:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'hy3'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-07-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

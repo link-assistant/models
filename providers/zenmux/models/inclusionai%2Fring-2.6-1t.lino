@@ -1,0 +1,41 @@
+model 'inclusionAI: Ring-2.6-1T'
+  has id
+    'inclusionai/ring-2.6-1t'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-05-07
+  last updated at
+    2026-05-14
+  has knowledge cutoff at
+    2025-12-31
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '65 000'
+  costs
+    input
+      0.3
+    output
+      2.5
+    cacheRead
+      0.06

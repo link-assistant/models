@@ -1,0 +1,40 @@
+model 'Granite 4.1 8B'
+  has id
+    'ibm-granite/granite-4.1-8b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'granite'
+  status
+    active
+  released at
+    2026-04-30
+  last updated at
+    2026-04-30
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.05
+    output
+      0.1
+    cacheRead
+      0.05

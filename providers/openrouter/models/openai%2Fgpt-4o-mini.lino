@@ -1,4 +1,4 @@
-model 'GPT-4o-mini'
+model 'GPT-4o mini'
   has id
     'openai/gpt-4o-mini'
   provider id
@@ -14,7 +14,7 @@ model 'GPT-4o-mini'
   last updated at
     2024-07-18
   has knowledge cutoff at
-    2024-10
+    2023-09
   weights
     closed
   capabilities
@@ -26,7 +26,7 @@ model 'GPT-4o-mini'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
@@ -40,4 +40,4 @@ model 'GPT-4o-mini'
     output
       0.6
     cacheRead
-      0.08
+      0.075

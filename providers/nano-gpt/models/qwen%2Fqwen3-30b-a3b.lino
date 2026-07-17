@@ -1,0 +1,32 @@
+model 'Qwen3 30B A3B'
+  has id
+    'qwen/qwen3-30b-a3b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-02-27
+  last updated at
+    2025-02-27
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '41 000'
+    input
+      '41 000'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.3

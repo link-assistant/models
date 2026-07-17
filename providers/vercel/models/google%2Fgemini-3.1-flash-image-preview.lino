@@ -12,7 +12,9 @@ model 'Gemini 3.1 Flash Image Preview (Nano Banana 2)'
   released at
     2026-02-26
   last updated at
-    2026-03-06
+    2026-02-26
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -36,3 +38,5 @@ model 'Gemini 3.1 Flash Image Preview (Nano Banana 2)'
       0.5
     output
       3
+    cacheRead
+      0.05

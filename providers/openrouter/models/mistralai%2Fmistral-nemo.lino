@@ -1,0 +1,40 @@
+model 'Mistral Nemo'
+  has id
+    'mistralai/mistral-nemo'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'mistral-nemo'
+  status
+    active
+  released at
+    2024-07-01
+  last updated at
+    2024-07-01
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.02
+    output
+      0.03

@@ -10,19 +10,19 @@ model 'GPT-5.1'
   status
     active
   released at
-    2025-11-15
+    2025-11-13
   last updated at
-    2025-11-15
+    2025-11-13
   has knowledge cutoff at
-    2025-11
+    2024-09-30
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -32,6 +32,8 @@ model 'GPT-5.1'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
@@ -40,4 +42,4 @@ model 'GPT-5.1'
     output
       10
     cacheRead
-      0.125
+      0.13

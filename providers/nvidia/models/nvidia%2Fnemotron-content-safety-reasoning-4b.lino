@@ -5,6 +5,8 @@ model 'nemotron-content-safety-reasoning-4b'
     'nvidia'
   provided by
     'Nvidia'
+  family
+    'nemotron'
   status
     active
   released at

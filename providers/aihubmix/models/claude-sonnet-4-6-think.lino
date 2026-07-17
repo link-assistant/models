@@ -1,4 +1,4 @@
-model 'Claude Sonnet 4.6 Think'
+model 'Claude Sonnet 4.6 Thinking'
   has id
     'claude-sonnet-4-6-think'
   provider id
@@ -12,7 +12,7 @@ model 'Claude Sonnet 4.6 Think'
   released at
     2026-02-17
   last updated at
-    2026-02-17
+    2026-03-13
   has knowledge cutoff at
     2025-08-31
   weights
@@ -23,6 +23,8 @@ model 'Claude Sonnet 4.6 Think'
       tool calls
       temperature
       attachments
+      structured output
+      interleaved output
     )
   modalities
     input
@@ -31,7 +33,7 @@ model 'Claude Sonnet 4.6 Think'
       text
   limits
     context
-      '200 000'
+      '1 000 000'
     output
       '64 000'
   costs

@@ -6,7 +6,7 @@ model 'Qwen3-235B-A22B-Thinking-2507-fast'
   provided by
     'Nebius Token Factory'
   status
-    active
+    deprecated
   released at
     2025-07-25
   last updated at

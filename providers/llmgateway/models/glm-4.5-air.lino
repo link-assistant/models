@@ -30,15 +30,15 @@ model 'GLM-4.5-Air'
       text
   limits
     context
-      '131 072'
+      '131 000'
     output
       '98 304'
   costs
     input
-      0.2
+      0.13
     output
-      1.1
+      0.85
     cacheRead
-      0.03
+      0.025
     cacheWrite
       0

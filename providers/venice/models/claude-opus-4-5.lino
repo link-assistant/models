@@ -12,7 +12,9 @@ model 'Claude Opus 4.5'
   released at
     2025-12-06
   last updated at
-    2026-04-12
+    2026-06-11
+  has knowledge cutoff at
+    2025-05
   weights
     closed
   capabilities

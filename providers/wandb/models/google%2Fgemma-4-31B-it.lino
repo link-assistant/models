@@ -1,0 +1,42 @@
+model 'Gemma 4 31B'
+  has id
+    'google/gemma-4-31B-it'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.12
+    output
+      0.35
+    cacheRead
+      0.09

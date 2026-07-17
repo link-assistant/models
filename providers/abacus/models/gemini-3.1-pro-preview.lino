@@ -27,7 +27,7 @@ model 'Gemini 3.1 Pro Preview'
     )
   modalities
     input
-      text image video audio pdf
+      text image audio
     output
       text
   limits
@@ -40,3 +40,5 @@ model 'Gemini 3.1 Pro Preview'
       2
     output
       12
+    cacheRead
+      0.2

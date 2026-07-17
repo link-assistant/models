@@ -20,7 +20,6 @@ model 'GLM-5-Turbo'
       reasoning
       tool calls
       temperature
-      structured output
       interleaved output
     )
   modalities
@@ -30,15 +29,13 @@ model 'GLM-5-Turbo'
       text
   limits
     context
-      '202 752'
+      '262 144'
     output
       '131 072'
   costs
     input
-      0.96
+      1.2
     output
-      3.2
+      4
     cacheRead
-      0.192
-    cacheWrite
-      0
+      0.24

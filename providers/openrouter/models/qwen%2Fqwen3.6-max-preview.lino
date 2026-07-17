@@ -1,0 +1,43 @@
+model 'Qwen3.6 Max Preview'
+  has id
+    'qwen/qwen3.6-max-preview'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-20
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      1.04
+    output
+      6.24
+    cacheWrite
+      1.3

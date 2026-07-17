@@ -1,0 +1,38 @@
+model 'GPT Image 1'
+  has id
+    'openai/gpt-image-1'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2025-03-25
+  last updated at
+    2025-04-24
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      5
+    output
+      40
+    cacheRead
+      1.25

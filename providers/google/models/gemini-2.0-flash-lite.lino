@@ -1,4 +1,4 @@
-model 'Gemini 2.0 Flash Lite'
+model 'Gemini 2.0 Flash-Lite'
   has id
     'gemini-2.0-flash-lite'
   provider id
@@ -8,7 +8,7 @@ model 'Gemini 2.0 Flash Lite'
   family
     'gemini-flash-lite'
   status
-    active
+    deprecated
   released at
     2024-12-11
   last updated at

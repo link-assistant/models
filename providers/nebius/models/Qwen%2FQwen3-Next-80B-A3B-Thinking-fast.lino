@@ -6,7 +6,7 @@ model 'Qwen3-Next-80B-A3B-Thinking-fast'
   provided by
     'Nebius Token Factory'
   status
-    active
+    deprecated
   released at
     2025-07-25
   last updated at

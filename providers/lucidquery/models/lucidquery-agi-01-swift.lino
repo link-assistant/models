@@ -1,0 +1,41 @@
+model 'AGI-01 Swift'
+  has id
+    'lucidquery-agi-01-swift'
+  provider id
+    'lucidquery'
+  provided by
+    'LucidQuery'
+  family
+    'agi'
+  status
+    active
+  released at
+    2026-06-16
+  last updated at
+    2026-06-16
+  has knowledge cutoff at
+    2026-06-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '300 000'
+    output
+      '120 000'
+  costs
+    input
+      2.5
+    output
+      15

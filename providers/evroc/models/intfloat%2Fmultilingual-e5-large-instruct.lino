@@ -27,6 +27,6 @@ model 'E5 Multi-Lingual Large Embeddings 0.6B'
       512
   costs
     input
-      0.12
+      0.114
     output
-      0.12
+      0.114

@@ -12,7 +12,7 @@ model 'Llama 3.1 70B'
   released at
     2024-07-23
   last updated at
-    2026-03-12
+    2024-07-23
   weights
     open
   capabilities
@@ -35,4 +35,6 @@ model 'Llama 3.1 70B'
     input
       0.8
     output
+      0.8
+    cacheRead
       0.8

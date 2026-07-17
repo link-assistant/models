@@ -1,0 +1,41 @@
+model 'Llama 4 Scout'
+  has id
+    'meta-llama/llama-4-scout'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-05
+  last updated at
+    2025-04-05
+  has knowledge cutoff at
+    2024-08-31
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '10 000 000'
+    output
+      '16 384'
+  costs
+    input
+      0.1
+    output
+      0.3

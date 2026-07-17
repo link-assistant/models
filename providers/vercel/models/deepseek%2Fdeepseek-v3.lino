@@ -31,9 +31,11 @@ model 'DeepSeek V3 0324'
     context
       '163 840'
     output
-      '16 384'
+      '163 840'
   costs
     input
-      0.77
+      0.27
     output
-      0.77
+      1.12
+    cacheRead
+      0.135

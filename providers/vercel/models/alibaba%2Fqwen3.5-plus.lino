@@ -12,7 +12,9 @@ model 'Qwen 3.5 Plus'
   released at
     2026-02-16
   last updated at
-    2026-02-19
+    2026-02-16
+  has knowledge cutoff at
+    2025-04
   weights
     closed
   capabilities

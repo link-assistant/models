@@ -19,6 +19,7 @@ model 'GPT Oss 120b'
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
     )

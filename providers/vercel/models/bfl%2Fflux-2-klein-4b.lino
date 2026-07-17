@@ -1,0 +1,31 @@
+model 'FLUX.2 [klein] 4B'
+  has id
+    'bfl/flux-2-klein-4b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'flux'
+  status
+    active
+  released at
+    2026-01-15
+  last updated at
+    2026-06-08
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

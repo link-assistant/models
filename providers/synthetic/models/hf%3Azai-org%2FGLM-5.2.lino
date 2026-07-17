@@ -1,0 +1,42 @@
+model 'GLM-5.2'
+  has id
+    'hf:zai-org/GLM-5.2'
+  provider id
+    'synthetic'
+  provided by
+    'Synthetic'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '65 536'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      1.4

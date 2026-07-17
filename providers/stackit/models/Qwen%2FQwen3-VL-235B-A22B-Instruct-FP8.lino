@@ -30,9 +30,9 @@ model 'Qwen3-VL 235B'
     context
       '218 000'
     output
-      8192
+      '16 384'
   costs
     input
-      1.64
+      1.76
     output
-      1.91
+      2.05

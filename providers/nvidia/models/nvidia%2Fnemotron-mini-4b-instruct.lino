@@ -5,6 +5,8 @@ model 'nemotron-mini-4b-instruct'
     'nvidia'
   provided by
     'Nvidia'
+  family
+    'nemotron'
   status
     active
   released at

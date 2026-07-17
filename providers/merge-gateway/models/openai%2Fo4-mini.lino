@@ -1,0 +1,43 @@
+model 'o4-mini'
+  has id
+    'openai/o4-mini'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'o-mini'
+  status
+    active
+  released at
+    2025-04-16
+  last updated at
+    2025-04-16
+  has knowledge cutoff at
+    2024-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      1.1
+    output
+      4.4
+    cacheRead
+      0.275

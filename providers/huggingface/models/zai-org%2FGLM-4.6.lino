@@ -1,0 +1,40 @@
+model 'GLM-4.6'
+  has id
+    'zai-org/GLM-4.6'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-09-30
+  last updated at
+    2025-09-30
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0.55
+    output
+      2.2

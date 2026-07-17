@@ -13,8 +13,10 @@ model 'MiniMax M1'
     2025-06-17
   last updated at
     2025-06-17
+  has knowledge cutoff at
+    2024-06-30
   weights
-    open
+    closed
   capabilities
     (
       reasoning

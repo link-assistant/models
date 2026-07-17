@@ -24,7 +24,7 @@ model 'Minimax M2.7'
     )
   modalities
     input
-      text image pdf
+      text
     output
       text
   limits

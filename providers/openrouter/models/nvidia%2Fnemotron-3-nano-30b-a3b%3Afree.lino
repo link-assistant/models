@@ -10,11 +10,9 @@ model 'Nemotron 3 Nano 30B A3B (free)'
   status
     active
   released at
-    2025-12-14
+    2025-12-15
   last updated at
-    2026-01-31
-  has knowledge cutoff at
-    2025-11
+    2025-12-15
   weights
     open
   capabilities
@@ -22,7 +20,6 @@ model 'Nemotron 3 Nano 30B A3B (free)'
       reasoning
       tool calls
       temperature
-      structured output
     )
   modalities
     input

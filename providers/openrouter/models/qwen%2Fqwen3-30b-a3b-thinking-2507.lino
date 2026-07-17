@@ -10,11 +10,11 @@ model 'Qwen3 30B A3B Thinking 2507'
   status
     active
   released at
-    2025-07-29
+    2025-08-28
   last updated at
-    2025-07-29
+    2025-08-28
   has knowledge cutoff at
-    2025-04
+    2025-06-30
   weights
     open
   capabilities
@@ -22,7 +22,6 @@ model 'Qwen3 30B A3B Thinking 2507'
       reasoning
       tool calls
       temperature
-      structured output
     )
   modalities
     input
@@ -31,11 +30,11 @@ model 'Qwen3 30B A3B Thinking 2507'
       text
   limits
     context
-      '262 000'
+      '131 072'
     output
-      '262 000'
+      '32 768'
   costs
     input
-      0.2
+      0.13
     output
-      0.8
+      1.56

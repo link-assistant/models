@@ -1,0 +1,40 @@
+model 'KAT-Coder-Pro V2'
+  has id
+    'kwaipilot/kat-coder-pro-v2'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'kat-coder'
+  status
+    active
+  released at
+    2026-03-27
+  last updated at
+    2026-03-27
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '80 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

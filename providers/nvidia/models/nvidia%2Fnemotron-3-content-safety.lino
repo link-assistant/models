@@ -5,6 +5,8 @@ model 'nemotron-3-content-safety'
     'nvidia'
   provided by
     'Nvidia'
+  family
+    'nemotron'
   status
     active
   released at

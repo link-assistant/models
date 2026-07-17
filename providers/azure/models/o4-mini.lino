@@ -39,4 +39,4 @@ model 'o4-mini'
     output
       4.4
     cacheRead
-      0.28
+      0.275

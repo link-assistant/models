@@ -1,0 +1,32 @@
+model 'MiMo-V2.5-TTS-VoiceDesign'
+  has id
+    'mimo-v2.5-tts-voicedesign'
+  provider id
+    'xiaomi-token-plan-ams'
+  provided by
+    'Xiaomi Token Plan (Europe)'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      8192
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

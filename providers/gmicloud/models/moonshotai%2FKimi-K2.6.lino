@@ -1,0 +1,45 @@
+model 'Kimi K2.6'
+  has id
+    'moonshotai/Kimi-K2.6'
+  provider id
+    'gmicloud'
+  provided by
+    'GMI Cloud'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.855
+    output
+      3.6
+    cacheRead
+      0.144

@@ -35,6 +35,6 @@ model 'Nvidia Nemotron Nano 9B V2'
       '131 072'
   costs
     input
-      0.04
+      0.06
     output
-      0.16
+      0.23

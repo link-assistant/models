@@ -30,7 +30,7 @@ model 'gpt-oss-120b (free)'
     context
       '131 072'
     output
-      '32 768'
+      '131 072'
   costs
     input
       0

@@ -6,9 +6,9 @@ model 'Kimi K2.6'
   provided by
     'Nvidia'
   family
-    'kimi-k2.6'
+    'kimi-k2'
   status
-    active
+    deprecated
   released at
     2026-04-21
   last updated at

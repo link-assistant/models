@@ -12,13 +12,12 @@ model 'Gemma 4 Uncensored'
   released at
     2026-04-13
   last updated at
-    2026-04-19
+    2026-06-11
   weights
     open
   capabilities
     (
       tool calls
-      temperature
       attachments
       structured output
     )

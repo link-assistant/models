@@ -1,0 +1,39 @@
+model 'Mistral Small 3'
+  has id
+    'mistralai/mistral-small-24b-instruct-2501'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-01-30
+  last updated at
+    2025-01-30
+  has knowledge cutoff at
+    2023-10-31
+  weights
+    open
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '16 384'
+  costs
+    input
+      0.05
+    output
+      0.08

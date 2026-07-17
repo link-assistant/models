@@ -1,4 +1,4 @@
-model 'GPT-5.2-Codex'
+model 'GPT-5.2 Codex'
   has id
     'openai/gpt-5.2-codex'
   provider id
@@ -10,9 +10,9 @@ model 'GPT-5.2-Codex'
   status
     active
   released at
-    2026-01-14
+    2025-12-11
   last updated at
-    2026-01-14
+    2025-12-11
   has knowledge cutoff at
     2025-08-31
   weights
@@ -21,7 +21,6 @@ model 'GPT-5.2-Codex'
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -33,6 +32,8 @@ model 'GPT-5.2-Codex'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

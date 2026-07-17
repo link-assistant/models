@@ -12,7 +12,7 @@ model 'MiMo-V2.5'
   released at
     2026-04-22
   last updated at
-    2026-04-22
+    2026-06-24
   has knowledge cutoff at
     2024-12
   weights
@@ -37,8 +37,8 @@ model 'MiMo-V2.5'
       '131 072'
   costs
     input
-      0.4
+      0.14
     output
-      2
+      0.28
     cacheRead
-      0.08
+      0.0028

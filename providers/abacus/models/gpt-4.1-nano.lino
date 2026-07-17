@@ -1,4 +1,4 @@
-model 'GPT-4.1 Nano'
+model 'GPT-4.1 nano'
   has id
     'gpt-4.1-nano'
   provider id
@@ -6,7 +6,7 @@ model 'GPT-4.1 Nano'
   provided by
     'Abacus'
   family
-    'gpt'
+    'gpt-nano'
   status
     active
   released at
@@ -22,6 +22,7 @@ model 'GPT-4.1 Nano'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -38,3 +39,5 @@ model 'GPT-4.1 Nano'
       0.1
     output
       0.4
+    cacheRead
+      0.025

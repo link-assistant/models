@@ -1,4 +1,4 @@
-model 'MiniMax M2.5'
+model 'MiniMax-M2.5'
   has id
     'minimax-m2.5'
   provider id

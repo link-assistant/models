@@ -1,4 +1,4 @@
-model 'Route LLM'
+model 'RouteLLM'
   has id
     'route-llm'
   provider id
@@ -12,9 +12,7 @@ model 'Route LLM'
   released at
     2024-01-01
   last updated at
-    2024-01-01
-  has knowledge cutoff at
-    2024-10
+    2026-07-10
   weights
     closed
   capabilities
@@ -32,7 +30,7 @@ model 'Route LLM'
     context
       '128 000'
     output
-      '16 384'
+      '64 000'
   costs
     input
       3

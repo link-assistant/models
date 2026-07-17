@@ -13,8 +13,6 @@ model 'Nemotron 3 Super (free)'
     2026-03-11
   last updated at
     2026-03-11
-  has knowledge cutoff at
-    2024-04
   weights
     open
   capabilities
@@ -22,6 +20,7 @@ model 'Nemotron 3 Super (free)'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,7 +29,7 @@ model 'Nemotron 3 Super (free)'
       text
   limits
     context
-      '262 144'
+      '1 000 000'
     output
       '262 144'
   costs

@@ -1,0 +1,41 @@
+model 'Voxtral Small 24B 2507'
+  has id
+    'mistralai/voxtral-small-24b-2507'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2025-10-30
+  last updated at
+    2025-10-30
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text audio pdf
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.1
+    output
+      0.3
+    cacheRead
+      0.01

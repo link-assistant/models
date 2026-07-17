@@ -1,0 +1,38 @@
+model 'Sonar Reasoning Pro'
+  has id
+    'perplexity/sonar-reasoning-pro'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'sonar-reasoning'
+  status
+    active
+  released at
+    2025-03-07
+  last updated at
+    2025-03-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      2
+    output
+      8

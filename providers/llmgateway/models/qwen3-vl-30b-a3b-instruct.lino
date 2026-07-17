@@ -34,6 +34,6 @@ model 'Qwen3 VL 30B A3B Instruct'
       8192
   costs
     input
-      0.1
+      0.2
     output
-      0.1
+      0.7

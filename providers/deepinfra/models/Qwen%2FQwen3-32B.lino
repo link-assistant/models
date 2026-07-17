@@ -1,0 +1,41 @@
+model 'Qwen3 32B'
+  has id
+    'Qwen/Qwen3-32B'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04
+  last updated at
+    2025-04
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '40 960'
+    output
+      '16 384'
+  costs
+    input
+      0.08
+    output
+      0.28

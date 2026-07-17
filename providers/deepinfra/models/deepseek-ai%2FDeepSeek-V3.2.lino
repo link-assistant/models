@@ -20,6 +20,7 @@ model 'DeepSeek-V3.2'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities

@@ -8,7 +8,7 @@ model 'Nemotron 3 Super Free'
   family
     'nemotron-free'
   status
-    active
+    deprecated
   released at
     2026-03-11
   last updated at

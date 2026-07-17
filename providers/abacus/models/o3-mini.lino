@@ -21,6 +21,7 @@ model 'o3-mini'
     (
       reasoning
       tool calls
+      structured output
     )
   modalities
     input
@@ -37,3 +38,5 @@ model 'o3-mini'
       1.1
     output
       4.4
+    cacheRead
+      0.55

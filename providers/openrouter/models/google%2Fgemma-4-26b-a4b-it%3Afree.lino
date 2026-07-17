@@ -1,4 +1,4 @@
-model 'Gemma 4 26B A4B (free)'
+model 'Gemma 4 26B A4B  (free)'
   has id
     'google/gemma-4-26b-a4b-it:free'
   provider id
@@ -10,11 +10,9 @@ model 'Gemma 4 26B A4B (free)'
   status
     active
   released at
-    2026-04-03
+    2026-04-02
   last updated at
-    2026-04-03
-  has knowledge cutoff at
-    2025-01
+    2026-04-02
   weights
     open
   capabilities
@@ -27,7 +25,7 @@ model 'Gemma 4 26B A4B (free)'
     )
   modalities
     input
-      text image video
+      image text video
     output
       text
   limits

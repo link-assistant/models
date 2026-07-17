@@ -12,7 +12,7 @@ model 'zai-org/GLM-5'
   released at
     2026-02-12
   last updated at
-    2026-02-12
+    2026-06-15
   weights
     open
   capabilities
@@ -35,6 +35,6 @@ model 'zai-org/GLM-5'
       '205 000'
   costs
     input
-      1
+      0.95
     output
-      3.2
+      2.55

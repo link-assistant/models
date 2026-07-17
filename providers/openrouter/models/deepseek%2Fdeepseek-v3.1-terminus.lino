@@ -14,7 +14,7 @@ model 'DeepSeek V3.1 Terminus'
   last updated at
     2025-09-22
   has knowledge cutoff at
-    2025-07
+    2025-03-31
   weights
     open
   capabilities
@@ -31,11 +31,13 @@ model 'DeepSeek V3.1 Terminus'
       text
   limits
     context
-      '131 072'
+      '163 840'
     output
-      '65 536'
+      '32 768'
   costs
     input
       0.27
     output
-      1
+      0.95
+    cacheRead
+      0.13

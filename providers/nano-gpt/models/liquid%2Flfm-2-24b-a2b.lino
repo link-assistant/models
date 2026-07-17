@@ -1,0 +1,32 @@
+model 'LFM2 24B A2B'
+  has id
+    'liquid/lfm-2-24b-a2b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-12-20
+  last updated at
+    2025-12-20
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.03
+    output
+      0.12

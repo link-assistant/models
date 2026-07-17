@@ -12,9 +12,9 @@ model 'MiniMax M2.5'
   released at
     2026-02-12
   last updated at
-    2026-04-12
+    2026-06-11
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -34,8 +34,8 @@ model 'MiniMax M2.5'
       '32 768'
   costs
     input
-      0.34
+      0.27
     output
-      1.19
+      0.95
     cacheRead
-      0.04
+      0.03

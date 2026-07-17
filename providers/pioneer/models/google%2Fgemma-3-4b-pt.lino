@@ -1,0 +1,41 @@
+model 'Gemma 3 4B (Pretrained)'
+  has id
+    'google/gemma-3-4b-pt'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2025-02-28
+  last updated at
+    2025-02-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.15
+    output
+      0.15
+    cacheRead
+      0.15
+    cacheWrite
+      0.15

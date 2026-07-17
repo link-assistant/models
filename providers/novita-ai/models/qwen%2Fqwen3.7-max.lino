@@ -1,0 +1,43 @@
+model 'Qwen3.7-Max'
+  has id
+    'qwen/qwen3.7-max'
+  provider id
+    'novita-ai'
+  provided by
+    'NovitaAI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-05-21
+  last updated at
+    2026-05-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      1.25
+    output
+      3.75
+    cacheRead
+      0.25
+    cacheWrite
+      1.5625

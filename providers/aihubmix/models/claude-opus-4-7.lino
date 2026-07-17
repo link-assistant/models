@@ -22,6 +22,8 @@ model 'Claude Opus 4.7'
       reasoning
       tool calls
       attachments
+      structured output
+      interleaved output
     )
   modalities
     input

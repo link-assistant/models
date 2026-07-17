@@ -1,4 +1,4 @@
-model 'Llama 4 Scout 17B'
+model 'Llama 4 Scout 17B 16E'
   has id
     'meta-llama/llama-4-scout-17b-16e-instruct'
   provider id
@@ -8,7 +8,7 @@ model 'Llama 4 Scout 17B'
   family
     'llama'
   status
-    active
+    beta
   released at
     2025-04-05
   last updated at
@@ -21,6 +21,7 @@ model 'Llama 4 Scout 17B'
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities

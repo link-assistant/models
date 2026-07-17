@@ -1,0 +1,27 @@
+model 'StepAudio 2.5 ASR'
+  has id
+    'stepaudio-2.5-asr'
+  provider id
+    'stepfun-ai'
+  provided by
+    'StepFun (Global)'
+  family
+    'step'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-07-02
+  weights
+    closed
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

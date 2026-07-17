@@ -1,4 +1,4 @@
-model 'Llama 3.3 70B'
+model 'Llama-3.3-70B-Instruct'
   has id
     'nvidia/Llama-3.3-70B-Instruct-FP8'
   provider id
@@ -10,11 +10,19 @@ model 'Llama 3.3 70B'
   status
     active
   released at
-    2024-12-01
+    2024-12-06
   last updated at
-    2024-12-01
+    2024-12-06
+  has knowledge cutoff at
+    2023-12
   weights
     open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
   modalities
     input
       text
@@ -22,11 +30,11 @@ model 'Llama 3.3 70B'
       text
   limits
     context
-      '131 072'
+      '128 000'
     output
-      '32 768'
+      4096
   costs
     input
-      1.18
+      1.15
     output
-      1.18
+      1.15

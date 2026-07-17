@@ -1,0 +1,41 @@
+model 'Step 1 (32K)'
+  has id
+    'step-1-32k'
+  provider id
+    'stepfun-ai'
+  provided by
+    'StepFun (Global)'
+  status
+    active
+  released at
+    2025-01-01
+  last updated at
+    2026-02-13
+  has knowledge cutoff at
+    2024-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      2.05
+    output
+      9.59
+    cacheRead
+      0.41

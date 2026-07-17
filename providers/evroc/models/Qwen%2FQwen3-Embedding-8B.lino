@@ -24,9 +24,9 @@ model 'Qwen3 Embedding 8B'
     context
       '40 960'
     output
-      '40 960'
+      4096
   costs
     input
-      0.12
+      0.115
     output
-      0.12
+      0.115

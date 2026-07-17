@@ -1,0 +1,41 @@
+model 'Nex-N2-Pro'
+  has id
+    'nex-agi/nex-n2-pro'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'agi'
+  status
+    active
+  released at
+    2026-06-08
+  last updated at
+    2026-06-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.25
+    output
+      1
+    cacheRead
+      0.025

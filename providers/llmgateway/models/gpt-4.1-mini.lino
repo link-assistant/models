@@ -31,7 +31,7 @@ model 'GPT-4.1 mini'
       text
   limits
     context
-      '1 047 576'
+      '1 000 000'
     output
       '32 768'
   costs

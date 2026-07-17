@@ -6,11 +6,11 @@ model 'Text Standard'
   provided by
     'The Grid AI'
   status
-    beta
+    active
   released at
     2026-02-26
   last updated at
-    2026-02-26
+    2026-07-06
   weights
     closed
   capabilities
@@ -19,6 +19,7 @@ model 'Text Standard'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -28,5 +29,7 @@ model 'Text Standard'
   limits
     context
       '128 000'
+    input
+      '120 000'
     output
       '16 000'

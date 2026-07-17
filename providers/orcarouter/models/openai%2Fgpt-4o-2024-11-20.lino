@@ -1,0 +1,43 @@
+model 'GPT-4o (2024-11-20)'
+  has id
+    'openai/gpt-4o-2024-11-20'
+  provider id
+    'orcarouter'
+  provided by
+    'OrcaRouter'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-11-20
+  last updated at
+    2024-11-20
+  has knowledge cutoff at
+    2023-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      2.5
+    output
+      10
+    cacheRead
+      1.25

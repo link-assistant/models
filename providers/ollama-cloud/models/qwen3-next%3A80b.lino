@@ -8,7 +8,7 @@ model 'qwen3-next:80b'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2025-09-15
   last updated at

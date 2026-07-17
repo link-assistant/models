@@ -1,0 +1,36 @@
+model 'Qwen2.5 Coder 32B Instruct'
+  has id
+    '@cf/qwen/qwen2.5-coder-32b-instruct'
+  provider id
+    'cloudflare-workers-ai'
+  provided by
+    'Cloudflare Workers AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-02-27
+  last updated at
+    2025-02-27
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.66
+    output
+      1

@@ -1,0 +1,35 @@
+model 'Agent Prime'
+  has id
+    'agent-prime'
+  provider id
+    'the-grid-ai'
+  provided by
+    'The Grid AI'
+  status
+    beta
+  released at
+    2026-05-04
+  last updated at
+    2026-07-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 608'
+    input
+      '120 000'
+    output
+      '30 000'

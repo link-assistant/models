@@ -16,12 +16,13 @@ model 'GPT-OSS-120B'
   has knowledge cutoff at
     2025-08
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
       temperature
-      attachments
+      structured output
     )
   modalities
     input

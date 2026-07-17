@@ -1,0 +1,40 @@
+model 'Ling-2.6-1T'
+  has id
+    'inclusionai/ling-2.6-1t'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-04-23
+  last updated at
+    2026-04-23
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.075
+    output
+      0.625
+    cacheRead
+      0.015

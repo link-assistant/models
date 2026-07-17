@@ -21,6 +21,7 @@ model 'Qwen3 Coder 480B A35B Instruct Turbo'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -36,4 +37,6 @@ model 'Qwen3 Coder 480B A35B Instruct Turbo'
     input
       0.3
     output
-      1.2
+      1
+    cacheRead
+      0.1

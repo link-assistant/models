@@ -1,0 +1,46 @@
+model 'Claude Opus 4.8'
+  has id
+    'claude-opus-4.8'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'claude-opus'
+  status
+    experimental
+  released at
+    2026-05-28
+  last updated at
+    2026-05-28
+  has knowledge cutoff at
+    2026-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    input
+      '168 000'
+    output
+      '64 000'
+  costs
+    input
+      5
+    output
+      25
+    cacheRead
+      0.5
+    cacheWrite
+      6.25

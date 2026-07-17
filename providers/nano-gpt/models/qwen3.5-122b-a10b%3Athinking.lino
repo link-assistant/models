@@ -1,0 +1,37 @@
+model 'Qwen3.5 122B A10B Thinking'
+  has id
+    'qwen3.5-122b-a10b:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-02-24
+  last updated at
+    2026-02-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '260 096'
+    input
+      '260 096'
+    output
+      '65 536'
+  costs
+    input
+      0.36
+    output
+      2.88

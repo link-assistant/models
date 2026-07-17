@@ -18,6 +18,7 @@ model 'Llama 3.3 70B Turbo'
   capabilities
     (
       tool calls
+      structured output
     )
   modalities
     input

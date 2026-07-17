@@ -1,0 +1,40 @@
+model 'Pixtral Large (latest)'
+  has id
+    'mistral/pixtral-large-latest'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'pixtral'
+  status
+    active
+  released at
+    2024-11-01
+  last updated at
+    2024-11-04
+  has knowledge cutoff at
+    2024-11
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      2
+    output
+      6

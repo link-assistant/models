@@ -14,13 +14,13 @@ model 'Gemma 3n 4B'
   last updated at
     2025-05-20
   has knowledge cutoff at
-    2024-06
+    2024-08-31
   weights
     open
   capabilities
     (
       temperature
-      attachments
+      structured output
     )
   modalities
     input
@@ -34,6 +34,6 @@ model 'Gemma 3n 4B'
       '32 768'
   costs
     input
-      0.02
+      0.06
     output
-      0.04
+      0.12

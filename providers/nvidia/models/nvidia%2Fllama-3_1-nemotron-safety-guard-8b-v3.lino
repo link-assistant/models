@@ -5,6 +5,8 @@ model 'llama-3.1-nemotron-safety-guard-8b-v3'
     'nvidia'
   provided by
     'Nvidia'
+  family
+    'nemotron'
   status
     active
   released at

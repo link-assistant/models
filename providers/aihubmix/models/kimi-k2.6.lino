@@ -6,7 +6,7 @@ model 'Kimi K2.6'
   provided by
     'AIHubMix'
   family
-    'kimi-k2.6'
+    'kimi-k2'
   status
     active
   released at
@@ -21,7 +21,6 @@ model 'Kimi K2.6'
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
       interleaved output
@@ -35,11 +34,11 @@ model 'Kimi K2.6'
     context
       '262 144'
     output
-      '262 144'
+      '32 768'
   costs
     input
       0.95
     output
-      3.9995
+      4
     cacheRead
-      0.160835
+      0.16

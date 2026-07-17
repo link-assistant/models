@@ -10,9 +10,11 @@ model 'GPT 5.3 Codex'
   status
     active
   released at
-    2026-02-24
+    2026-02-05
   last updated at
-    2026-02-24
+    2026-02-05
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
@@ -21,6 +23,7 @@ model 'GPT 5.3 Codex'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

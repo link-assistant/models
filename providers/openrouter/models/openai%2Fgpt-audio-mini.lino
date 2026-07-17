@@ -1,0 +1,39 @@
+model 'GPT Audio Mini'
+  has id
+    'openai/gpt-audio-mini'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'o-mini'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text audio
+    output
+      text audio
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.6
+    output
+      2.4

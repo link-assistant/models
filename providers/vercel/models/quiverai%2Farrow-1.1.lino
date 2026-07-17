@@ -1,0 +1,31 @@
+model 'Arrow 1.1'
+  has id
+    'quiverai/arrow-1.1'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'o'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-04-16
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      '131 072'
+    output
+      '131 072'

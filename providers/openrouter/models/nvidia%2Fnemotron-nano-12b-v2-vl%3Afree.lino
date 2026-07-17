@@ -12,9 +12,7 @@ model 'Nemotron Nano 12B 2 VL (free)'
   released at
     2025-10-28
   last updated at
-    2026-01-31
-  has knowledge cutoff at
-    2025-11
+    2025-10-28
   weights
     open
   capabilities
@@ -22,10 +20,11 @@ model 'Nemotron Nano 12B 2 VL (free)'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits

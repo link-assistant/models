@@ -1,0 +1,43 @@
+model 'GLM-5'
+  has id
+    'glm-5'
+  provider id
+    'alibaba-token-plan-cn'
+  provided by
+    'Alibaba Token Plan (China)'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

@@ -35,6 +35,6 @@ model 'Qwen3-Next 80B-A3B (Thinking)'
       '32 768'
   costs
     input
-      0.5
+      0.15
     output
-      6
+      1.2

@@ -1,0 +1,41 @@
+model 'Qwen3 VL 30B A3B Instruct'
+  has id
+    'qwen/qwen3-vl-30b-a3b-instruct'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-10-06
+  last updated at
+    2025-10-06
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.13
+    output
+      0.52

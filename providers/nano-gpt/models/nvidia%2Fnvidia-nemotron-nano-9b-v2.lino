@@ -15,6 +15,10 @@ model 'Nvidia Nemotron Nano 9B v2'
     2025-08-18
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text

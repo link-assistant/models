@@ -1,0 +1,36 @@
+model 'Qwen3.5 Omni Flash'
+  has id
+    'qwen3.5-omni-flash'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-03-30
+  last updated at
+    2026-03-30
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '49 152'
+    input
+      '49 152'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

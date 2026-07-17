@@ -1,0 +1,32 @@
+model 'Whisper Large v3'
+  has id
+    'openai/whisper-large-v3'
+  provider id
+    'nearai'
+  provided by
+    'NEAR AI Cloud'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2023-11-06
+  weights
+    open
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      448
+    output
+      448
+  costs
+    input
+      0.01
+    output
+      0

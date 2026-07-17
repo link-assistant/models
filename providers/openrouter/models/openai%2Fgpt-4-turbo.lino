@@ -1,0 +1,41 @@
+model 'GPT-4 Turbo'
+  has id
+    'openai/gpt-4-turbo'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2024-04-09
+  has knowledge cutoff at
+    2023-12
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      10
+    output
+      30

@@ -1,0 +1,42 @@
+model 'Qwen3.5-35B-A3B'
+  has id
+    'Qwen/Qwen3.5-35B-A3B'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'qwen3.5'
+  status
+    active
+  released at
+    2026-02-24
+  last updated at
+    2026-02-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.25
+    output
+      1.25
+    cacheRead
+      0.25

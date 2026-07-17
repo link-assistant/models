@@ -1,0 +1,31 @@
+model 'Kling v2.5 Turbo Text-to-Video'
+  has id
+    'klingai/kling-v2.5-turbo-t2v'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'ling'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

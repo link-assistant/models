@@ -1,4 +1,4 @@
-model 'DeepSeek R1 Distill Llama 70B'
+model 'R1 Distill Llama 70B'
   has id
     'deepseek/deepseek-r1-distill-llama-70b'
   provider id
@@ -14,14 +14,13 @@ model 'DeepSeek R1 Distill Llama 70B'
   last updated at
     2025-01-23
   has knowledge cutoff at
-    2024-10
+    2024-07-31
   weights
     open
   capabilities
     (
       reasoning
       temperature
-      structured output
     )
   modalities
     input
@@ -30,11 +29,11 @@ model 'DeepSeek R1 Distill Llama 70B'
       text
   limits
     context
-      8192
+      '128 000'
     output
       8192
   costs
     input
-      0
+      0.8
     output
-      0
+      0.8

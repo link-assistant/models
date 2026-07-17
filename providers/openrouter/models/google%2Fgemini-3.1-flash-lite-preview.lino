@@ -13,6 +13,8 @@ model 'Gemini 3.1 Flash Lite Preview'
     2026-03-03
   last updated at
     2026-03-03
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -25,7 +27,7 @@ model 'Gemini 3.1 Flash Lite Preview'
     )
   modalities
     input
-      text image video pdf audio
+      text image video audio pdf
     output
       text
   limits
@@ -41,10 +43,6 @@ model 'Gemini 3.1 Flash Lite Preview'
     cacheRead
       0.025
     cacheWrite
-      0.083
+      0.083333
     reasoning
       1.5
-    inputAudio
-      0.5
-    outputAudio
-      0.5

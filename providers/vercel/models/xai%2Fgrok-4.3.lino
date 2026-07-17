@@ -12,7 +12,7 @@ model 'Grok 4.3'
   released at
     2026-04-30
   last updated at
-    2026-05-01
+    2026-04-17
   weights
     closed
   capabilities
@@ -21,6 +21,7 @@ model 'Grok 4.3'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -38,4 +39,4 @@ model 'Grok 4.3'
     output
       2.5
     cacheRead
-      0.19999999999999998
+      0.2

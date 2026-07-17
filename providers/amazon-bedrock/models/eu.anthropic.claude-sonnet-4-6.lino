@@ -23,6 +23,7 @@ model 'Claude Sonnet 4.6 (EU)'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -36,10 +37,10 @@ model 'Claude Sonnet 4.6 (EU)'
       '64 000'
   costs
     input
-      3
+      3.3
     output
-      15
+      16.5
     cacheRead
-      0.3
+      0.33
     cacheWrite
-      3.75
+      4.125

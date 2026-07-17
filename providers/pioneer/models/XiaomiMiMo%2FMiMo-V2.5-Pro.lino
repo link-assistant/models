@@ -1,0 +1,45 @@
+model 'MiMo-V2.5-Pro'
+  has id
+    'XiaomiMiMo/MiMo-V2.5-Pro'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '131 072'
+  costs
+    input
+      0.435
+    output
+      0.87
+    cacheRead
+      0.0036
+    cacheWrite
+      0.435

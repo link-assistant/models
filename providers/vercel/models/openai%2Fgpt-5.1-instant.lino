@@ -10,7 +10,7 @@ model 'GPT-5.1 Instant'
   status
     active
   released at
-    2025-08-07
+    2025-11-12
   last updated at
     2025-08-07
   has knowledge cutoff at
@@ -19,7 +19,6 @@ model 'GPT-5.1 Instant'
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments
@@ -28,7 +27,7 @@ model 'GPT-5.1 Instant'
     input
       text image pdf
     output
-      text image
+      text
   limits
     context
       '128 000'
@@ -42,4 +41,4 @@ model 'GPT-5.1 Instant'
     output
       10
     cacheRead
-      0.13
+      0.125

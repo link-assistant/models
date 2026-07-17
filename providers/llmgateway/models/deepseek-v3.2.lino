@@ -35,8 +35,8 @@ model 'DeepSeek V3.2'
       '16 384'
   costs
     input
-      0.28
+      0.26
     output
-      0.42
+      0.38
     cacheRead
-      0.03
+      0.13

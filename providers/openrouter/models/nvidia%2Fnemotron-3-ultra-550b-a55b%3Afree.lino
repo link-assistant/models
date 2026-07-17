@@ -1,0 +1,38 @@
+model 'Nemotron 3 Ultra (free)'
+  has id
+    'nvidia/nemotron-3-ultra-550b-a55b:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

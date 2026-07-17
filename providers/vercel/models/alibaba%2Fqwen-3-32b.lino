@@ -10,7 +10,7 @@ model 'Qwen 3.32B'
   status
     active
   released at
-    2025-04
+    2025-04-28
   last updated at
     2025-04
   has knowledge cutoff at
@@ -30,11 +30,11 @@ model 'Qwen 3.32B'
       text
   limits
     context
-      '40 960'
+      '128 000'
     output
-      '16 384'
+      8192
   costs
     input
-      0.1
+      0.16
     output
-      0.3
+      0.64

@@ -20,6 +20,7 @@ model 'GPT OSS 20B'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

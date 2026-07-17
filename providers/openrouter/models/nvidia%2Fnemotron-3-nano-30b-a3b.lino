@@ -1,0 +1,39 @@
+model 'Nemotron 3 Nano 30B A3B'
+  has id
+    'nvidia/nemotron-3-nano-30b-a3b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-12-15
+  last updated at
+    2025-12-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '228 000'
+  costs
+    input
+      0.05
+    output
+      0.2

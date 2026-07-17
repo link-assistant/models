@@ -1,0 +1,36 @@
+model 'Qwen3.5 Omni Plus'
+  has id
+    'qwen3.5-omni-plus'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-03-30
+  last updated at
+    2026-03-30
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '983 616'
+    input
+      '983 616'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

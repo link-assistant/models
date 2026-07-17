@@ -8,11 +8,11 @@ model 'Claude Opus 4.6'
   family
     'claude-opus'
   status
-    active
+    experimental
   released at
     2026-02-05
   last updated at
-    2026-02-05
+    2026-03-13
   has knowledge cutoff at
     2025-05-31
   weights
@@ -26,18 +26,22 @@ model 'Claude Opus 4.6'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
-      '144 000'
+      '200 000'
     input
-      '128 000'
+      '168 000'
     output
-      '64 000'
+      '32 000'
   costs
     input
-      0
+      5
     output
-      0
+      25
+    cacheRead
+      0.5
+    cacheWrite
+      6.25

@@ -10,13 +10,13 @@ model 'Qwen3 Coder Plus'
   status
     active
   released at
-    2025-09-23
+    2025-07-23
   last updated at
-    2025-09-23
+    2025-07-23
   has knowledge cutoff at
     2025-04
   weights
-    open
+    closed
   capabilities
     (
       tool calls

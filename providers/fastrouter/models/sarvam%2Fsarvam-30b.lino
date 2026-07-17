@@ -1,0 +1,38 @@
+model 'Sarvam 30B'
+  has id
+    'sarvam/sarvam-30b'
+  provider id
+    'fastrouter'
+  provided by
+    'FastRouter'
+  family
+    'sarvam'
+  status
+    active
+  released at
+    2026-02-18
+  last updated at
+    2026-02-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.02
+    output
+      0.1

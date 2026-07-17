@@ -31,9 +31,7 @@ model 'GPT-5.4'
       text
   limits
     context
-      '1 050 000'
-    input
-      '922 000'
+      '400 000'
     output
       '128 000'
   costs
@@ -41,3 +39,5 @@ model 'GPT-5.4'
       2.5
     output
       15
+    cacheRead
+      0.25

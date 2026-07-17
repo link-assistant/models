@@ -14,13 +14,12 @@ model 'Qwen2.5 Coder 32B Instruct'
   last updated at
     2024-11-11
   has knowledge cutoff at
-    2024-10
+    2024-06-30
   weights
     open
   capabilities
     (
       temperature
-      structured output
     )
   modalities
     input
@@ -29,11 +28,11 @@ model 'Qwen2.5 Coder 32B Instruct'
       text
   limits
     context
-      '32 768'
+      '128 000'
     output
-      8192
+      '32 768'
   costs
     input
-      0
+      0.66
     output
-      0
+      1

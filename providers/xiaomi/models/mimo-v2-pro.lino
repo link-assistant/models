@@ -8,11 +8,11 @@ model 'MiMo-V2-Pro'
   family
     'mimo'
   status
-    active
+    deprecated
   released at
     2026-03-18
   last updated at
-    2026-03-18
+    2026-06-24
   has knowledge cutoff at
     2024-12
   weights
@@ -36,8 +36,8 @@ model 'MiMo-V2-Pro'
       '131 072'
   costs
     input
-      1
+      0.435
     output
-      3
+      0.87
     cacheRead
-      0.2
+      0.0036

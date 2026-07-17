@@ -1,0 +1,40 @@
+model 'DeepSeek V4 Flash (Thinking)'
+  has id
+    'deepseek/deepseek-v4-flash:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '384 000'
+  costs
+    input
+      0.14
+    output
+      0.28
+    cacheRead
+      0.028

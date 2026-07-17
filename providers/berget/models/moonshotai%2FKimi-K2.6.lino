@@ -1,0 +1,45 @@
+model 'Kimi K2.6'
+  has id
+    'moonshotai/Kimi-K2.6'
+  provider id
+    'berget'
+  provided by
+    'Berget.AI'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-05-07
+  last updated at
+    2026-05-07
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.83
+    output
+      3.85
+    cacheRead
+      0.16

@@ -12,7 +12,7 @@ model 'MiniMax M2.5 High Speed'
   released at
     2026-02-12
   last updated at
-    2026-03-13
+    2026-02-13
   weights
     closed
   capabilities
@@ -28,9 +28,9 @@ model 'MiniMax M2.5 High Speed'
       text
   limits
     context
-      0
+      '204 800'
     output
-      0
+      '131 000'
   costs
     input
       0.6

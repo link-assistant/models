@@ -10,17 +10,16 @@ model 'Hermes 4 405B'
   status
     active
   released at
-    2025-08-25
+    2025-08-26
   last updated at
-    2025-08-25
+    2025-08-26
   has knowledge cutoff at
-    2023-12
+    2024-08-31
   weights
     open
   capabilities
     (
       reasoning
-      tool calls
       temperature
     )
   modalities

@@ -1,4 +1,4 @@
-model 'Qwen3 Next 80B A3B Thinking'
+model 'Qwen3-Next 80B-A3B (Thinking)'
   has id
     'qwen/qwen3-next-80b-a3b-thinking'
   provider id
@@ -10,9 +10,9 @@ model 'Qwen3 Next 80B A3B Thinking'
   status
     active
   released at
-    2025-09-11
+    2025-09
   last updated at
-    2025-09-11
+    2025-09
   has knowledge cutoff at
     2025-04
   weights
@@ -33,9 +33,9 @@ model 'Qwen3 Next 80B A3B Thinking'
     context
       '262 144'
     output
-      '262 144'
+      '32 768'
   costs
     input
-      0.14
+      0.0975
     output
-      1.4
+      0.78

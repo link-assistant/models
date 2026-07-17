@@ -23,10 +23,11 @@ model 'Gemini 3 Flash Preview'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image audio video pdf
+      text image audio
     output
       text
   limits
@@ -39,3 +40,5 @@ model 'Gemini 3 Flash Preview'
       0.5
     output
       3
+    cacheRead
+      0.05

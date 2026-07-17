@@ -10,7 +10,7 @@ model 'Qwen3 VL Instruct'
   status
     active
   released at
-    2025-09-24
+    2025-09-23
   last updated at
     2025-09-24
   has knowledge cutoff at
@@ -35,6 +35,6 @@ model 'Qwen3 VL Instruct'
       '129 024'
   costs
     input
-      0.7
+      0.4
     output
-      2.8
+      1.6

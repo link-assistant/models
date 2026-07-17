@@ -5,6 +5,8 @@ model 'Llama-3.1-Nemotron-Ultra-253B-v1'
     'nebius'
   provided by
     'Nebius Token Factory'
+  family
+    'nemotron'
   status
     active
   released at

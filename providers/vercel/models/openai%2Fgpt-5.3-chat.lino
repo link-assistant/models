@@ -17,7 +17,6 @@ model 'GPT-5.3 Chat'
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments

@@ -17,7 +17,6 @@ model 'Kimi K2 Instruct'
     (
       tool calls
       temperature
-      structured output
     )
   modalities
     input
@@ -28,7 +27,7 @@ model 'Kimi K2 Instruct'
     context
       '131 072'
     output
-      '131 072'
+      '32 768'
   costs
     input
       0.57

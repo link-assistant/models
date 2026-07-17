@@ -6,9 +6,9 @@ model 'kimi-k2:1t'
   provided by
     'Ollama Cloud'
   family
-    'kimi'
+    'kimi-k2'
   status
-    active
+    deprecated
   released at
     2025-07-11
   last updated at

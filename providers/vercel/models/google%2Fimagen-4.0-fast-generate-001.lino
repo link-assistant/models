@@ -10,11 +10,15 @@ model 'Imagen 4 Fast'
   status
     active
   released at
-    2025-06
+    2025-06-01
   last updated at
     2025-06
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text

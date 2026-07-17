@@ -21,6 +21,7 @@ model 'Coding MiniMax M2.7'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -31,7 +32,7 @@ model 'Coding MiniMax M2.7'
     context
       '204 800'
     output
-      '13 100'
+      '128 100'
   costs
     input
       0.2

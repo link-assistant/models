@@ -12,7 +12,7 @@ model 'moonshotai/Kimi-K2.6'
   released at
     2026-04-21
   last updated at
-    2026-04-21
+    2026-06-15
   weights
     open
   capabilities
@@ -35,8 +35,8 @@ model 'moonshotai/Kimi-K2.6'
       '262 000'
   costs
     input
-      0.95
+      0.77
     output
       4
     cacheRead
-      0.16
+      0.2

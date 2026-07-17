@@ -1,0 +1,31 @@
+model 'Lucid Origin'
+  has id
+    'leonardo-ai/lucid-origin'
+  provider id
+    'fastrouter'
+  provided by
+    'FastRouter'
+  family
+    'lucid'
+  status
+    active
+  released at
+    2025-06-01
+  last updated at
+    2025-06-01
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      4096
+    output
+      0

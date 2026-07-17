@@ -15,6 +15,10 @@ model 'Qwen3 Embedding 0.6B'
     2025-11-14
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -25,8 +29,3 @@ model 'Qwen3 Embedding 0.6B'
       '32 768'
     output
       '32 768'
-  costs
-    input
-      0.01
-    output
-      0

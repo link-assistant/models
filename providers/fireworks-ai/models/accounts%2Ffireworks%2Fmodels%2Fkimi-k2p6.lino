@@ -20,6 +20,7 @@ model 'Kimi K2.6'
       reasoning
       tool calls
       temperature
+      attachments
       interleaved output
     )
   modalities

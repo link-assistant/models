@@ -16,17 +16,15 @@ model 'Phi-4-Mini'
   has knowledge cutoff at
     2024-12
   weights
-    closed
+    open
   capabilities
     (
-      reasoning
       tool calls
       temperature
-      attachments
     )
   modalities
     input
-      text image audio
+      text
     output
       text
   limits

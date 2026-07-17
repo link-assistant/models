@@ -1,0 +1,32 @@
+model 'M-Prometheus 14B'
+  has id
+    'Unbabel/M-Prometheus-14B'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-05-29
+  last updated at
+    2026-05-29
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    input
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0.2
+    output
+      0.2

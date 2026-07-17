@@ -6,13 +6,13 @@ model 'Kimi K2.5'
   provided by
     'Venice AI'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
     2026-01-27
   last updated at
-    2026-04-30
+    2026-06-11
   has knowledge cutoff at
     2024-04
   weights
@@ -21,7 +21,6 @@ model 'Kimi K2.5'
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
       interleaved output

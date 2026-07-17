@@ -1,0 +1,38 @@
+model 'Gemma 4 31B IT'
+  has id
+    'google/gemma-4-31B-it'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.13
+    output
+      0.4

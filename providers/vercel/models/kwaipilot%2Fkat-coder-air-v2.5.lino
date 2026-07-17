@@ -1,0 +1,40 @@
+model 'Kat Coder Air V2.5'
+  has id
+    'kwaipilot/kat-coder-air-v2.5'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'kat-coder'
+  status
+    active
+  released at
+    2026-07-10
+  last updated at
+    2026-07-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '80 000'
+  costs
+    input
+      0.15
+    output
+      0.6
+    cacheRead
+      0.03

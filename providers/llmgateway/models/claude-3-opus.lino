@@ -38,3 +38,5 @@ model 'Claude 3 Opus'
       75
     cacheRead
       1.5
+    cacheWrite
+      18.75

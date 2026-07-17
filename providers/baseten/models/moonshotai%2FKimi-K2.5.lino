@@ -6,7 +6,7 @@ model 'Kimi K2.5'
   provided by
     'Baseten'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
@@ -23,20 +23,23 @@ model 'Kimi K2.5'
       tool calls
       temperature
       attachments
+      structured output
       interleaved output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
     context
-      '262 144'
+      '262 000'
     output
-      8192
+      '262 000'
   costs
     input
       0.6
     output
       3
+    cacheRead
+      0.12

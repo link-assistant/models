@@ -6,9 +6,9 @@ model 'Kimi K2.5'
   provided by
     'Together AI'
   family
-    'kimi'
+    'kimi-k2'
   status
-    active
+    deprecated
   released at
     2026-01-27
   last updated at

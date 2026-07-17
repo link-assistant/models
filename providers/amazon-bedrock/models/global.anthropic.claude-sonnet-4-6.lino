@@ -23,6 +23,7 @@ model 'Claude Sonnet 4.6 (Global)'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

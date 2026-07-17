@@ -1,4 +1,4 @@
-model 'Orpheus V1 English'
+model 'Canopy Labs Orpheus V1 English'
   has id
     'canopylabs/orpheus-v1-english'
   provider id
@@ -8,19 +8,13 @@ model 'Orpheus V1 English'
   family
     'canopylabs'
   status
-    active
+    beta
   released at
     2025-12-19
   last updated at
     2025-12-19
-  has knowledge cutoff at
-    2025-12-19
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -31,8 +25,3 @@ model 'Orpheus V1 English'
       4000
     output
       '50 000'
-  costs
-    input
-      0
-    output
-      0

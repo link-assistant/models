@@ -1,0 +1,43 @@
+model 'Nemotron 3 Ultra Free'
+  has id
+    'nemotron-3-ultra-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'nemotron-free'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-04
+  has knowledge cutoff at
+    2026-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

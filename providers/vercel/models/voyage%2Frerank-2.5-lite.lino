@@ -1,0 +1,31 @@
+model 'Voyage Rerank 2.5 Lite'
+  has id
+    'voyage/rerank-2.5-lite'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'voyage'
+  status
+    active
+  released at
+    2025-08-11
+  last updated at
+    2025-08-11
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'

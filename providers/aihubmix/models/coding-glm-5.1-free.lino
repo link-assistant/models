@@ -6,7 +6,7 @@ model 'Coding GLM 5.1 (free)'
   provided by
     'AIHubMix'
   family
-    'glm'
+    'glm-free'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'Coding GLM 5.1 (free)'
   last updated at
     2026-04-11
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -30,13 +30,11 @@ model 'Coding GLM 5.1 (free)'
       text
   limits
     context
-      '204 800'
+      '200 000'
     output
       '128 000'
   costs
     input
       0
     output
-      0
-    cacheRead
       0

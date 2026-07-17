@@ -1,0 +1,40 @@
+model 'MiniMax M3'
+  has id
+    'minimax/minimax-m3'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '512 000'
+    input
+      '512 000'
+    output
+      '80 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

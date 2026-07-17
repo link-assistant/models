@@ -10,9 +10,9 @@ model 'GPT OSS Safeguard 20B'
   status
     active
   released at
-    2024-12-01
+    2025-10-29
   last updated at
-    2024-12-01
+    2025-10-29
   weights
     closed
   capabilities
@@ -30,7 +30,7 @@ model 'GPT OSS Safeguard 20B'
     context
       '128 000'
     output
-      4096
+      '16 384'
   costs
     input
       0.07

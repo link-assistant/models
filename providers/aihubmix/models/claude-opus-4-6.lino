@@ -23,6 +23,8 @@ model 'Claude Opus 4.6'
       tool calls
       temperature
       attachments
+      structured output
+      interleaved output
     )
   modalities
     input

@@ -1,4 +1,4 @@
-model 'MiniMax M2.5 Free'
+model 'MiniMax-M2.5 Free'
   has id
     'minimax-m2.5-free'
   provider id
@@ -8,7 +8,7 @@ model 'MiniMax M2.5 Free'
   family
     'minimax-free'
   status
-    active
+    deprecated
   released at
     2026-02-12
   last updated at

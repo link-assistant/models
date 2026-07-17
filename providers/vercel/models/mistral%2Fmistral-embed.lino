@@ -15,6 +15,10 @@ model 'Mistral Embed'
     2023-12-11
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -25,8 +29,3 @@ model 'Mistral Embed'
       8192
     output
       1536
-  costs
-    input
-      0.1
-    output
-      0

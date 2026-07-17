@@ -37,4 +37,4 @@ model 'GPT-3.5-turbo'
     output
       1.5
     cacheRead
-      1.25
+      0

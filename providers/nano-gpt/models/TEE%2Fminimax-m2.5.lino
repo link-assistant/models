@@ -1,0 +1,38 @@
+model 'MiniMax M2.5 TEE'
+  has id
+    'TEE/minimax-m2.5'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 608'
+    input
+      '196 608'
+    output
+      '131 072'
+  costs
+    input
+      0.2
+    output
+      1.38

@@ -10,9 +10,9 @@ model 'GLM 5.1 TEE'
   status
     active
   released at
-    2026-04-08
+    2026-04-07
   last updated at
-    2026-04-25
+    2026-04-07
   weights
     open
   capabilities
@@ -35,8 +35,8 @@ model 'GLM 5.1 TEE'
       '65 535'
   costs
     input
-      1.05
+      0.98
     output
-      3.5
+      3.08
     cacheRead
-      0.525
+      0.49

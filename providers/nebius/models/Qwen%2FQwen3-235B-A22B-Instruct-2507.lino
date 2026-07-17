@@ -19,7 +19,6 @@ model 'Qwen3 235B A22B Instruct 2507'
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
     )

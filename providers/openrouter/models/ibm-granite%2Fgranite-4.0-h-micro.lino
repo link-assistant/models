@@ -1,0 +1,36 @@
+model 'Granite 4.0 Micro'
+  has id
+    'ibm-granite/granite-4.0-h-micro'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'granite'
+  status
+    active
+  released at
+    2025-10-20
+  last updated at
+    2025-10-20
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.017
+    output
+      0.112

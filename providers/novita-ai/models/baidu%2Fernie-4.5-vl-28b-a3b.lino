@@ -10,7 +10,7 @@ model 'ERNIE 4.5 VL 28B A3B'
   released at
     2025-06-30
   last updated at
-    2025-06-30
+    2026-06-14
   weights
     open
   capabilities
@@ -32,6 +32,6 @@ model 'ERNIE 4.5 VL 28B A3B'
       8000
   costs
     input
-      1.4
+      0.14
     output
-      5.6
+      0.56

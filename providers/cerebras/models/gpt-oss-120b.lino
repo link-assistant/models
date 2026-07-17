@@ -12,7 +12,7 @@ model 'GPT OSS 120B'
   released at
     2025-08-05
   last updated at
-    2025-08-05
+    2026-06-10
   weights
     open
   capabilities
@@ -20,6 +20,7 @@ model 'GPT OSS 120B'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,9 +31,9 @@ model 'GPT OSS 120B'
     context
       '131 072'
     output
-      '32 768'
+      '40 960'
   costs
     input
-      0.25
+      0.35
     output
-      0.69
+      0.75

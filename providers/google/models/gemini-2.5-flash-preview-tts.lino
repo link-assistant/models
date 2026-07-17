@@ -17,6 +17,10 @@ model 'Gemini 2.5 Flash Preview TTS'
     2025-01
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -24,9 +28,9 @@ model 'Gemini 2.5 Flash Preview TTS'
       audio
   limits
     context
-      8000
+      8192
     output
-      '16 000'
+      '16 384'
   costs
     input
       0.5

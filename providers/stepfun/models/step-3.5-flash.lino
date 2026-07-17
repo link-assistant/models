@@ -4,13 +4,13 @@ model 'Step 3.5 Flash'
   provider id
     'stepfun'
   provided by
-    'StepFun'
+    'StepFun (China)'
   status
     active
   released at
     2026-01-29
   last updated at
-    2026-02-13
+    2026-06-15
   has knowledge cutoff at
     2025-01
   weights
@@ -20,6 +20,7 @@ model 'Step 3.5 Flash'
       reasoning
       tool calls
       temperature
+      interleaved output
     )
   modalities
     input
@@ -35,8 +36,8 @@ model 'Step 3.5 Flash'
       '256 000'
   costs
     input
-      0.096
+      0.1
     output
-      0.288
+      0.3
     cacheRead
-      0.019
+      0.02

@@ -10,7 +10,7 @@ model 'Grok 4.1 Fast Reasoning'
   status
     active
   released at
-    2025-07-09
+    2025-11-19
   last updated at
     2025-07-09
   has knowledge cutoff at
@@ -25,14 +25,14 @@ model 'Grok 4.1 Fast Reasoning'
     )
   modalities
     input
-      text
+      text image pdf
     output
       text
   limits
     context
-      '2 000 000'
+      '1 000 000'
     output
-      '30 000'
+      '1 000 000'
   costs
     input
       0.2

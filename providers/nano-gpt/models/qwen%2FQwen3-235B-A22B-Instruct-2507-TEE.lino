@@ -1,0 +1,37 @@
+model 'Qwen 3 235b A22B 2507 (TEE)'
+  has id
+    'qwen/Qwen3-235B-A22B-Instruct-2507-TEE'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2025-07-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '256 000'
+    output
+      '262 144'
+  costs
+    input
+      0.13
+    output
+      0.5

@@ -38,3 +38,5 @@ model 'GLM 4.5 Air'
       0.2
     output
       1.1
+    cacheRead
+      0.03

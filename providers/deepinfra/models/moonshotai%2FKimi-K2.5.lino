@@ -6,7 +6,7 @@ model 'Kimi K2.5'
   provided by
     'Deep Infra'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
@@ -38,6 +38,8 @@ model 'Kimi K2.5'
       '32 768'
   costs
     input
-      0.5
+      0.45
     output
-      2.8
+      2.25
+    cacheRead
+      0.07

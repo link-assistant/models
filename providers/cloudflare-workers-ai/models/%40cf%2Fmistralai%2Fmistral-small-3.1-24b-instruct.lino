@@ -1,0 +1,37 @@
+model 'Mistral Small 3.1 24B Instruct'
+  has id
+    '@cf/mistralai/mistral-small-3.1-24b-instruct'
+  provider id
+    'cloudflare-workers-ai'
+  provided by
+    'Cloudflare Workers AI'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-03-18
+  last updated at
+    2025-03-18
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.351
+    output
+      0.555

@@ -1,0 +1,33 @@
+model 'End-to-End Encrypted'
+  has id
+    'e2e'
+  provider id
+    'trustedrouter'
+  provided by
+    'TrustedRouter'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'

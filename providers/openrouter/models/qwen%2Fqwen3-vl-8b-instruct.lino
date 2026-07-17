@@ -1,0 +1,39 @@
+model 'Qwen3 VL 8B Instruct'
+  has id
+    'qwen/qwen3-vl-8b-instruct'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-10-14
+  last updated at
+    2025-10-14
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 768'
+  costs
+    input
+      0.117
+    output
+      0.455

@@ -42,3 +42,5 @@ model 'Gemini 3 Flash Preview'
       3
     cacheRead
       0.05
+    inputAudio
+      1

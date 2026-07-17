@@ -1,4 +1,4 @@
-model 'GPT-5 Codex'
+model 'GPT-5-Codex'
   has id
     'gpt-5-codex'
   provider id
@@ -6,7 +6,7 @@ model 'GPT-5 Codex'
   provided by
     'Abacus'
   family
-    'gpt'
+    'gpt-codex'
   status
     active
   released at
@@ -40,3 +40,5 @@ model 'GPT-5 Codex'
       1.25
     output
       10
+    cacheRead
+      0.125

@@ -1,0 +1,38 @@
+model 'GPT-Realtime mini'
+  has id
+    'openai/gpt-realtime-mini'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-10-10
+  last updated at
+    2025-10-10
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text audio
+    output
+      text audio
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      0.6
+    output
+      2.4
+    cacheRead
+      0.06

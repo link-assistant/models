@@ -1,0 +1,39 @@
+model 'Nemotron 3 Ultra 550B A55B'
+  has id
+    'nemotron-3-ultra'
+  provider id
+    'routing-run'
+  provided by
+    'routing.run'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 000'
+  costs
+    input
+      0.1
+    output
+      0.1

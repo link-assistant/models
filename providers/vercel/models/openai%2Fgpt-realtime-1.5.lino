@@ -1,0 +1,38 @@
+model 'GPT-Realtime-1.5'
+  has id
+    'openai/gpt-realtime-1.5'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-02-23
+  last updated at
+    2026-02-23
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text audio
+    output
+      text audio
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      4
+    output
+      16
+    cacheRead
+      0.4

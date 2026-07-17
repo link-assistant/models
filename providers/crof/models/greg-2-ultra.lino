@@ -1,0 +1,36 @@
+model 'Greg 2 Ultra'
+  has id
+    'greg-2-ultra'
+  provider id
+    'crof'
+  provided by
+    'CrofAI'
+  status
+    active
+  released at
+    2026-06-14
+  last updated at
+    2026-06-14
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '229 376'
+    output
+      '229 376'
+  costs
+    input
+      3
+    output
+      10
+    cacheRead
+      0.5

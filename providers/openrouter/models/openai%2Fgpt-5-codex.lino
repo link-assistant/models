@@ -1,4 +1,4 @@
-model 'GPT-5 Codex'
+model 'GPT-5-Codex'
   has id
     'openai/gpt-5-codex'
   provider id
@@ -14,14 +14,13 @@ model 'GPT-5 Codex'
   last updated at
     2025-09-15
   has knowledge cutoff at
-    2024-10-01
+    2024-09-30
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -33,6 +32,8 @@ model 'GPT-5 Codex'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

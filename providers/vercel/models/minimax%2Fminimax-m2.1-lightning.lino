@@ -10,7 +10,7 @@ model 'MiniMax M2.1 Lightning'
   status
     active
   released at
-    2025-10-27
+    2025-12-23
   last updated at
     2025-10-27
   has knowledge cutoff at
@@ -41,4 +41,4 @@ model 'MiniMax M2.1 Lightning'
     cacheRead
       0.03
     cacheWrite
-      0.38
+      0.375

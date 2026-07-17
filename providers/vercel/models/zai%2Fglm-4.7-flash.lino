@@ -10,9 +10,11 @@ model 'GLM 4.7 Flash'
   status
     active
   released at
-    2026-03-13
+    2026-01-19
   last updated at
-    2026-03-13
+    2026-01-19
+  has knowledge cutoff at
+    2025-04
   weights
     closed
   capabilities
@@ -35,4 +37,4 @@ model 'GLM 4.7 Flash'
     input
       0.07
     output
-      0.39999999999999997
+      0.4

@@ -14,18 +14,19 @@ model 'Codestral 2508'
   last updated at
     2025-08-01
   has knowledge cutoff at
-    2025-05
+    2025-03-31
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
@@ -38,3 +39,5 @@ model 'Codestral 2508'
       0.3
     output
       0.9
+    cacheRead
+      0.03

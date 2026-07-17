@@ -28,7 +28,7 @@ model 'Sonar'
       text
   limits
     context
-      '128 000'
+      '130 000'
     output
       4096
   costs

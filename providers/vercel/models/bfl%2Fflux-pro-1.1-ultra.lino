@@ -10,11 +10,15 @@ model 'FLUX1.1 [pro] Ultra'
   status
     active
   released at
-    2024-11
+    2024-11-01
   last updated at
     2024-11
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text

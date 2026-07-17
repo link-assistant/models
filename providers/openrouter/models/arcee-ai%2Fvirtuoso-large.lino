@@ -1,0 +1,37 @@
+model 'Virtuoso Large'
+  has id
+    'arcee-ai/virtuoso-large'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2025-05-05
+  last updated at
+    2025-05-05
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '64 000'
+  costs
+    input
+      0.75
+    output
+      1.2

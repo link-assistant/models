@@ -1,0 +1,41 @@
+model 'MiMo-V2.5-Pro'
+  has id
+    'XiaomiMiMo/MiMo-V2.5-Pro'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      3

@@ -13,14 +13,6 @@ model 'Pareto Code Router'
     2026-04-21
   weights
     closed
-  capabilities
-    (
-      reasoning
-      tool calls
-      temperature
-      attachments
-      structured output
-    )
   modalities
     input
       text
@@ -28,6 +20,6 @@ model 'Pareto Code Router'
       text
   limits
     context
-      '200 000'
+      '2 000 000'
     output
       '200 000'

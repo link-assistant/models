@@ -1,0 +1,43 @@
+model 'Saba'
+  has id
+    'mistralai/mistral-saba'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2025-02-17
+  last updated at
+    2025-02-17
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.2
+    output
+      0.6
+    cacheRead
+      0.02

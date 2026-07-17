@@ -1,0 +1,41 @@
+model 'NVIDIA Nemotron 3 Ultra'
+  has id
+    'nvidia-nemotron-3-ultra-550b-a55b'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 768'
+  costs
+    input
+      0.625
+    output
+      3.125
+    cacheRead
+      0.1875

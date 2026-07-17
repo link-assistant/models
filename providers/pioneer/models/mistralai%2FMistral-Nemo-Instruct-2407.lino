@@ -1,0 +1,45 @@
+model 'Mistral Nemo'
+  has id
+    'mistralai/Mistral-Nemo-Instruct-2407'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'mistral-nemo'
+  status
+    active
+  released at
+    2024-07-01
+  last updated at
+    2024-07-01
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '128 000'
+  costs
+    input
+      0.02
+    output
+      0.03
+    cacheRead
+      0.02
+    cacheWrite
+      0.02

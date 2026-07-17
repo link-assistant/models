@@ -1,0 +1,41 @@
+model 'Mistral 7B Instruct v0.3'
+  has id
+    'mistralai/Mistral-7B-Instruct-v0.3'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2023-04-30
+  last updated at
+    2023-04-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      4096
+  costs
+    input
+      0.2
+    output
+      0.2
+    cacheRead
+      0.2
+    cacheWrite
+      0.2

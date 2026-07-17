@@ -1,0 +1,27 @@
+model 'Step TTS 2'
+  has id
+    'step-tts-2'
+  provider id
+    'stepfun'
+  provided by
+    'StepFun (China)'
+  family
+    'step'
+  status
+    active
+  released at
+    2026-03-01
+  last updated at
+    2026-07-02
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      0
+    output
+      0

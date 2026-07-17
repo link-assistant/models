@@ -10,9 +10,9 @@ model 'Gemini 2.5 Flash'
   status
     active
   released at
-    2025-03-20
+    2025-06-17
   last updated at
-    2025-06-05
+    2025-06-17
   has knowledge cutoff at
     2025-01
   weights

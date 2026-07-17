@@ -22,6 +22,7 @@ model 'GPT-5 Nano'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
@@ -31,6 +32,8 @@ model 'GPT-5 Nano'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
@@ -38,3 +41,5 @@ model 'GPT-5 Nano'
       0.05
     output
       0.4
+    cacheRead
+      0.005

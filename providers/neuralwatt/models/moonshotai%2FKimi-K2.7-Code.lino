@@ -1,0 +1,43 @@
+model 'Kimi K2.7 Code'
+  has id
+    'moonshotai/Kimi-K2.7-Code'
+  provider id
+    'neuralwatt'
+  provided by
+    'Neuralwatt'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-06-12
+  last updated at
+    2026-06-12
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.95
+    output
+      4
+    cacheRead
+      0.2375

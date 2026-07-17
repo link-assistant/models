@@ -6,7 +6,7 @@ model 'Qwen3.6 Flash'
   provided by
     'AIHubMix'
   family
-    'qwen'
+    'qwen3.6'
   status
     active
   released at
@@ -24,6 +24,7 @@ model 'Qwen3.6 Flash'
       temperature
       attachments
       structured output
+      interleaved output
     )
   modalities
     input
@@ -37,9 +38,9 @@ model 'Qwen3.6 Flash'
       '64 000'
   costs
     input
-      0.169
+      0.17
     output
-      1.014
+      1.01
     cacheRead
       0.0169
     cacheWrite

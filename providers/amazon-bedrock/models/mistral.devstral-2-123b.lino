@@ -19,6 +19,7 @@ model 'Devstral 2 123B'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

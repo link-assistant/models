@@ -1,0 +1,39 @@
+model 'Qwen3-Next 80B-A3B Instruct'
+  has id
+    'qwen3-next-80b-a3b-instruct'
+  provider id
+    'neon'
+  provided by
+    'Neon'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09
+  last updated at
+    2025-09
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.15
+    output
+      1.2

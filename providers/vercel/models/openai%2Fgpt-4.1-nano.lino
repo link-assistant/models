@@ -40,4 +40,4 @@ model 'GPT-4.1 nano'
     output
       0.4
     cacheRead
-      0.03
+      0.025

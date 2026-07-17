@@ -12,14 +12,13 @@ model 'Mercury 2'
   released at
     2026-02-20
   last updated at
-    2026-04-09
+    2026-06-11
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
       structured output
     )
   modalities

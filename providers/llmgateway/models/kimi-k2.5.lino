@@ -6,7 +6,7 @@ model 'Kimi K2.5'
   provided by
     'LLM Gateway'
   family
-    'kimi-k2.5'
+    'kimi-k2'
   status
     active
   released at
@@ -36,8 +36,8 @@ model 'Kimi K2.5'
       '262 144'
   costs
     input
-      0.6
+      0.405
     output
-      3
+      1.98
     cacheRead
-      0.1
+      0.225

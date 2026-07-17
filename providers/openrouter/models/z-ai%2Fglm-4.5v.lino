@@ -1,4 +1,4 @@
-model 'GLM 4.5V'
+model 'GLM-4.5V'
   has id
     'z-ai/glm-4.5v'
   provider id
@@ -23,16 +23,15 @@ model 'GLM 4.5V'
       tool calls
       temperature
       attachments
-      structured output
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits
     context
-      '64 000'
+      '65 536'
     output
       '16 384'
   costs
@@ -40,3 +39,5 @@ model 'GLM 4.5V'
       0.6
     output
       1.8
+    cacheRead
+      0.11

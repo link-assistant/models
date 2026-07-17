@@ -1,0 +1,41 @@
+model 'gpt-oss-safeguard-120b'
+  has id
+    'gpt-oss-safeguard-120b'
+  provider id
+    'tinfoil'
+  provided by
+    'Tinfoil'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-10-29
+  last updated at
+    2025-10-29
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '32 768'
+  costs
+    input
+      0.15
+    output
+      0.6

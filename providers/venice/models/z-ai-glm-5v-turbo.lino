@@ -6,13 +6,13 @@ model 'GLM 5V Turbo'
   provided by
     'Venice AI'
   family
-    'glmv'
+    'glm'
   status
     active
   released at
     2026-04-01
   last updated at
-    2026-04-12
+    2026-06-11
   weights
     closed
   capabilities

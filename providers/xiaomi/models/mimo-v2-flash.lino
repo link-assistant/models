@@ -8,11 +8,11 @@ model 'MiMo-V2-Flash'
   family
     'mimo'
   status
-    active
+    deprecated
   released at
     2025-12-16
   last updated at
-    2026-02-04
+    2026-06-24
   has knowledge cutoff at
     2024-12-01
   weights
@@ -36,8 +36,8 @@ model 'MiMo-V2-Flash'
       '65 536'
   costs
     input
-      0.1
+      0.14
     output
-      0.3
+      0.28
     cacheRead
-      0.01
+      0.0028

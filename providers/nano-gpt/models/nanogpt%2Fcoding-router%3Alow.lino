@@ -1,0 +1,40 @@
+model 'Coding Router Low'
+  has id
+    'nanogpt/coding-router:low'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-05-12
+  last updated at
+    2026-05-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      0.14
+    output
+      0.28
+    cacheRead
+      0.028

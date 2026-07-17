@@ -1,0 +1,40 @@
+model 'Hy3 preview'
+  has id
+    'tencent/Hy3-preview'
+  provider id
+    'siliconflow'
+  provided by
+    'SiliconFlow'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.066
+    output
+      0.26
+    cacheRead
+      0.029

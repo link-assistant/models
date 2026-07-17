@@ -17,6 +17,7 @@ model 'Nova 2 Lite'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
     )

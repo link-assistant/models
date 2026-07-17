@@ -4,7 +4,7 @@ model 'LucidNova RF1 100B'
   provider id
     'lucidquery'
   provided by
-    'LucidQuery AI'
+    'LucidQuery'
   family
     'nova'
   status

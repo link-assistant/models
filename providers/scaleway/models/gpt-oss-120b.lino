@@ -17,6 +17,7 @@ model 'GPT-OSS 120B'
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments

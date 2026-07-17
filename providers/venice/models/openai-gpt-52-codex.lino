@@ -6,13 +6,13 @@ model 'GPT-5.2 Codex'
   provided by
     'Venice AI'
   family
-    'gpt-codex'
+    'gpt'
   status
     active
   released at
     2025-01-15
   last updated at
-    2026-03-12
+    2026-06-11
   has knowledge cutoff at
     2025-08
   weights
@@ -21,7 +21,6 @@ model 'GPT-5.2 Codex'
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -33,6 +32,8 @@ model 'GPT-5.2 Codex'
   limits
     context
       '256 000'
+    input
+      '272 000'
     output
       '65 536'
   costs

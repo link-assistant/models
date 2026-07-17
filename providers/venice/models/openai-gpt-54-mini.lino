@@ -6,20 +6,21 @@ model 'GPT-5.4 Mini'
   provided by
     'Venice AI'
   family
-    'gpt-mini'
+    'gpt'
   status
     active
   released at
     2026-03-27
   last updated at
-    2026-03-31
+    2026-06-11
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -31,6 +32,8 @@ model 'GPT-5.4 Mini'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

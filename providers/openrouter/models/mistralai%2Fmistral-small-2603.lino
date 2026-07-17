@@ -23,6 +23,7 @@ model 'Mistral Small 4'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -39,3 +40,5 @@ model 'Mistral Small 4'
       0.15
     output
       0.6
+    cacheRead
+      0.015

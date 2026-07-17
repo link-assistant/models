@@ -1,4 +1,4 @@
-model 'GPT OSS Safeguard 20B'
+model 'gpt-oss-safeguard-20b'
   has id
     'openai/gpt-oss-safeguard-20b'
   provider id
@@ -14,12 +14,13 @@ model 'GPT OSS Safeguard 20B'
   last updated at
     2025-10-29
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -36,3 +37,5 @@ model 'GPT OSS Safeguard 20B'
       0.075
     output
       0.3
+    cacheRead
+      0.0375

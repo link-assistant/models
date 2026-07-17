@@ -1,0 +1,44 @@
+model 'GLM 5.2'
+  has id
+    'umans-glm-5.2'
+  provider id
+    'umans-ai-coding-plan'
+  provided by
+    'Umans AI Coding Plan'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '405 504'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

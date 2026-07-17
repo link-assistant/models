@@ -1,0 +1,31 @@
+model 'Whisper'
+  has id
+    'openai/whisper-1'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2022-09-21
+  last updated at
+    2022-09-21
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

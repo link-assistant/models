@@ -1,4 +1,4 @@
-model 'Qwen3 Coder 30B A3B Instruct'
+model 'Qwen3-Coder 30B-A3B Instruct'
   has id
     'qwen/qwen3-coder-30b-a3b-instruct'
   provider id
@@ -10,9 +10,9 @@ model 'Qwen3 Coder 30B A3B Instruct'
   status
     active
   released at
-    2025-07-31
+    2025-04
   last updated at
-    2025-07-31
+    2025-04
   has knowledge cutoff at
     2025-04
   weights
@@ -32,7 +32,7 @@ model 'Qwen3 Coder 30B A3B Instruct'
     context
       '160 000'
     output
-      '65 536'
+      '32 768'
   costs
     input
       0.07

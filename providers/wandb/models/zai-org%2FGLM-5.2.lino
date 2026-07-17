@@ -1,0 +1,41 @@
+model 'GLM 5.2'
+  has id
+    'zai-org/GLM-5.2'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-16
+  last updated at
+    2026-06-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      1.39
+    output
+      4.4
+    cacheRead
+      0.26

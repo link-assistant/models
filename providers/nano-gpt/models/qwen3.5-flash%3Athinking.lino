@@ -1,0 +1,37 @@
+model 'Qwen3.5 Flash Thinking'
+  has id
+    'qwen3.5-flash:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-02-24
+  last updated at
+    2026-02-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '991 808'
+    input
+      '991 808'
+    output
+      '65 536'
+  costs
+    input
+      0.09
+    output
+      0.36

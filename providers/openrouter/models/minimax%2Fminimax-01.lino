@@ -13,12 +13,12 @@ model 'MiniMax-01'
     2025-01-15
   last updated at
     2025-01-15
+  has knowledge cutoff at
+    2024-03-31
   weights
     open
   capabilities
     (
-      reasoning
-      tool calls
       temperature
       attachments
     )
@@ -29,9 +29,9 @@ model 'MiniMax-01'
       text
   limits
     context
-      '1 000 000'
+      '1 000 192'
     output
-      '1 000 000'
+      '1 000 192'
   costs
     input
       0.2

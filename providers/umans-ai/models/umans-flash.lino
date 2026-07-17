@@ -1,0 +1,42 @@
+model 'Umans Flash'
+  has id
+    'umans-flash'
+  provider id
+    'umans-ai'
+  provided by
+    'Umans AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.15
+    output
+      1
+    cacheRead
+      0.05

@@ -12,7 +12,9 @@ model 'MiMo V2 Pro'
   released at
     2026-03-18
   last updated at
-    2026-03-20
+    2026-03-18
+  has knowledge cutoff at
+    2024-12
   weights
     closed
   capabilities
@@ -37,4 +39,4 @@ model 'MiMo V2 Pro'
     output
       3
     cacheRead
-      0.19999999999999998
+      0.2

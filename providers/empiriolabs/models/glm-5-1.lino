@@ -1,0 +1,41 @@
+model 'GLM 5.1'
+  has id
+    'glm-5-1'
+  provider id
+    'empiriolabs'
+  provided by
+    'EmpirioLabs AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-06-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 000'
+    output
+      '128 000'
+  costs
+    input
+      0.825
+    output
+      3.301
+    cacheRead
+      0.165

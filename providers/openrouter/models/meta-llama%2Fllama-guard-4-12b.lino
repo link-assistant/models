@@ -1,0 +1,39 @@
+model 'Llama Guard 4 12B'
+  has id
+    'meta-llama/llama-guard-4-12b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-30
+  last updated at
+    2025-04-30
+  has knowledge cutoff at
+    2024-08-31
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '16 384'
+  costs
+    input
+      0.18
+    output
+      0.18

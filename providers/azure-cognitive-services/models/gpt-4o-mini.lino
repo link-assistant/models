@@ -39,4 +39,4 @@ model 'GPT-4o mini'
     output
       0.6
     cacheRead
-      0.08
+      0.075
