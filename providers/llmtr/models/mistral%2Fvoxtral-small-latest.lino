@@ -1,0 +1,38 @@
+model 'Voxtral Small (latest)'
+  has id
+    'mistral/voxtral-small-latest'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  family
+    'voxtral'
+  status
+    active
+  released at
+    2025-07-15
+  last updated at
+    2025-07-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.1
+    output
+      0.3

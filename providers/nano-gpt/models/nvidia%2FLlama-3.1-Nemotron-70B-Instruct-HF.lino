@@ -14,7 +14,7 @@ model 'Nvidia Nemotron 70b'
   last updated at
     2025-04-15
   weights
-    closed
+    open
   capabilities
     (
       temperature
@@ -36,3 +36,5 @@ model 'Nvidia Nemotron 70b'
       0.357
     output
       0.408
+    cacheRead
+      0.1785

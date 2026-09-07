@@ -1,4 +1,4 @@
-model 'Deepseek V4 Pro'
+model 'DeepSeek V4 Pro'
   has id
     'deepseek-ai/DeepSeek-V4-Pro'
   provider id
@@ -32,7 +32,7 @@ model 'Deepseek V4 Pro'
       text
   limits
     context
-      '262 144'
+      '1 048 576'
     output
       '262 144'
   costs

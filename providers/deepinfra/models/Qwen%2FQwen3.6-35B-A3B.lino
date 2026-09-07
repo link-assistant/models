@@ -35,6 +35,6 @@ model 'Qwen3.6 35B A3B'
       '81 920'
   costs
     input
-      0.15
+      0.1
     output
       0.95

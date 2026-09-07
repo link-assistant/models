@@ -1,4 +1,4 @@
-model 'Qwen3 235B A22B Instruct 2507'
+model 'Qwen3 235B-A22B Instruct 2507'
   has id
     'qwen3-235b-a22b-instruct-2507'
   provider id
@@ -10,18 +10,16 @@ model 'Qwen3 235B A22B Instruct 2507'
   status
     active
   released at
-    2025-07-23
+    2025-07-21
   last updated at
-    2025-07-23
-  has knowledge cutoff at
-    2025-04
+    2025-07-21
   weights
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,11 +28,13 @@ model 'Qwen3 235B A22B Instruct 2507'
       text
   limits
     context
-      '131 000'
+      '262 000'
     output
-      '131 000'
+      '262 000'
   costs
     input
-      0.062
+      0.069
     output
-      0.408
+      0.455
+    cacheRead
+      0.018

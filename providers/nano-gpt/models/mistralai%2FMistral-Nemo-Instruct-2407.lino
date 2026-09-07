@@ -10,11 +10,11 @@ model 'Mistral Nemo'
   status
     active
   released at
-    2024-07-18
+    2024-01-01
   last updated at
     2024-07-18
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Mistral Nemo'
       0.1003
     output
       0.1207
+    cacheRead
+      0.05015

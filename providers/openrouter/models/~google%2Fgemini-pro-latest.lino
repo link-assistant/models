@@ -13,6 +13,8 @@ model 'Google Gemini Pro Latest'
     2026-04-27
   last updated at
     2026-04-27
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities

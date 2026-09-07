@@ -1,0 +1,41 @@
+model 'Muse Spark 1.1'
+  has id
+    'meta/muse-spark-1.1'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'muse'
+  status
+    active
+  released at
+    2026-04-08
+  last updated at
+    2026-07-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      1.25
+    output
+      4.25
+    cacheRead
+      0.15

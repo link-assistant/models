@@ -5,16 +5,21 @@ model 'Qwen3 VL 235B A22B Instruct'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2024-01-01
+    2025-09-23
   last updated at
-    2024-01-01
+    2025-09-23
+  has knowledge cutoff at
+    2025-03-31
   weights
-    closed
+    open
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -24,13 +29,15 @@ model 'Qwen3 VL 235B A22B Instruct'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
-      '128 000'
+      '131 072'
     output
-      '262 144'
+      '32 768'
   costs
     input
       0.3
     output
       1.2
+    cacheRead
+      0.15

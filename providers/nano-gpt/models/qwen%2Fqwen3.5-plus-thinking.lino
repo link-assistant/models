@@ -5,17 +5,22 @@ model 'Qwen3.5 Plus Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
     2026-02-16
   last updated at
     2026-02-16
+  has knowledge cutoff at
+    2025-04
   weights
     closed
   capabilities
     (
       reasoning
+      temperature
       attachments
     )
   modalities

@@ -1,4 +1,4 @@
-model 'Llama 4 Maverick 17B 128E Instruct'
+model 'Llama 4 Maverick'
   has id
     'llama-4-maverick'
   provider id
@@ -31,11 +31,11 @@ model 'Llama 4 Maverick 17B 128E Instruct'
       text
   limits
     context
-      '1 000 000'
+      '128 000'
     output
       '16 384'
   costs
     input
-      0.25
+      0.2
     output
-      0.87
+      0.696

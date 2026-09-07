@@ -5,6 +5,8 @@ model 'Phi 4 Mini'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'phi'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Phi 4 Mini'
   last updated at
     2025-07-26
   weights
-    closed
+    open
   modalities
     input
       text
@@ -30,3 +32,5 @@ model 'Phi 4 Mini'
       0.17
     output
       0.68
+    cacheRead
+      0.085

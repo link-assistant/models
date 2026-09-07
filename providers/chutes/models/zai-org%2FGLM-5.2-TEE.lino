@@ -35,8 +35,8 @@ model 'GLM 5.2 TEE'
       '65 535'
   costs
     input
-      1.4
+      1.25
     output
-      4.4
+      3.95
     cacheRead
-      0.7
+      0.12499999999999997

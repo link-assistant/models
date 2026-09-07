@@ -1,0 +1,40 @@
+model 'DeepSeek V4 Pro 0813 (TensorX)'
+  has id
+    'tensorx/deepseek/deepseek-v4-pro-0813'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '384 000'
+  costs
+    input
+      2
+    output
+      4
+    cacheRead
+      0.5

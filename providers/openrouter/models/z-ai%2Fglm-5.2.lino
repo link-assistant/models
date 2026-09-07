@@ -35,8 +35,8 @@ model 'GLM-5.2'
       '131 072'
   costs
     input
-      0.42
+      0.966
     output
-      1.32
+      3.036
     cacheRead
-      0.078
+      0.1932

@@ -1,0 +1,38 @@
+model 'Grok 4.1 Fast Non-Reasoning (Azure AI Foundry)'
+  has id
+    'azure-ai-foundry/grok-4-1-fast-non-reasoning'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'grok'
+  status
+    active
+  released at
+    2025-11-19
+  last updated at
+    2025-11-19
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '30 000'
+  costs
+    input
+      0.2
+    output
+      0.5

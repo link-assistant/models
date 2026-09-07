@@ -1,0 +1,41 @@
+model 'GLM-5.2 (EmberCloud)'
+  has id
+    'embercloud/glm-5.2'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '203 000'
+    output
+      '131 000'
+  costs
+    input
+      1.26
+    output
+      3.96
+    cacheRead
+      0.234

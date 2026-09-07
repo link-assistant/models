@@ -37,8 +37,8 @@ model 'MiMo V2.5 Pro'
       '128 000'
   costs
     input
-      1.74
+      0.435
     output
-      3.48
+      0.87
     cacheRead
-      0.0145
+      0.003625

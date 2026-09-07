@@ -5,6 +5,8 @@ model 'Qwen3.6 35B A3B'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
@@ -12,9 +14,11 @@ model 'Qwen3.6 35B A3B'
   last updated at
     2026-04-17
   weights
-    closed
+    open
   capabilities
     (
+      tool calls
+      temperature
       attachments
     )
   modalities
@@ -34,3 +38,5 @@ model 'Qwen3.6 35B A3B'
       0.112
     output
       0.8
+    cacheRead
+      0.056

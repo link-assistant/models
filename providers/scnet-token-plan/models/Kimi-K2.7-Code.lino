@@ -1,0 +1,43 @@
+model 'Kimi K2.7 Code'
+  has id
+    'Kimi-K2.7-Code'
+  provider id
+    'scnet-token-plan'
+  provided by
+    'SCNet Token Plan'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-06-12
+  last updated at
+    2026-06-12
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

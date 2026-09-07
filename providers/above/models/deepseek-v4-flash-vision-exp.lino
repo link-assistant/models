@@ -1,0 +1,45 @@
+model 'DeepSeek V4 Flash Vision (Exp)'
+  has id
+    'deepseek-v4-flash-vision-exp'
+  provider id
+    'above'
+  provided by
+    'above.dev'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-08-21
+  last updated at
+    2026-08-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.242
+    output
+      0.726
+    cacheRead
+      0.0077
+    reasoning
+      0.726

@@ -1,0 +1,40 @@
+model 'MiniMax-M2.7'
+  has id
+    'minimax-m2.7'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-05
+  last updated at
+    2026-07-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 100'
+    output
+      6553
+  costs
+    input
+      0.484
+    output
+      1.852
+    cacheWrite
+      0.242

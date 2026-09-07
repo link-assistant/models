@@ -1,0 +1,39 @@
+model 'LiquidAI: LFM2.5-2.6B (free)'
+  has id
+    'liquid/lfm-2.5-2.6b:free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'liquid'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

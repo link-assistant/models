@@ -5,12 +5,14 @@ model 'ByteDance Seed: Seed 1.6'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'seed'
   status
     active
   released at
-    2025-09
+    2025-12-23
   last updated at
-    2025-09
+    2025-12-23
   weights
     closed
   capabilities
@@ -19,6 +21,7 @@ model 'ByteDance Seed: Seed 1.6'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

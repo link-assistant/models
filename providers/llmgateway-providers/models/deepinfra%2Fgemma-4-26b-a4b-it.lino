@@ -1,0 +1,38 @@
+model 'Gemma 4 26B A4B IT (DeepInfra)'
+  has id
+    'deepinfra/gemma-4-26b-a4b-it'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.07
+    output
+      0.34

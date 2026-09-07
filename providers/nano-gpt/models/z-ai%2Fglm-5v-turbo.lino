@@ -5,6 +5,8 @@ model 'GLM 5V Turbo'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'glm'
   status
     active
   released at
@@ -16,6 +18,7 @@ model 'GLM 5V Turbo'
   capabilities
     (
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -30,7 +33,7 @@ model 'GLM 5V Turbo'
     input
       '202 800'
     output
-      '131 100'
+      '131 072'
   costs
     input
       1.2

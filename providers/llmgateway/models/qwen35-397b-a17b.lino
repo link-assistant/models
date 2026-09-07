@@ -4,7 +4,7 @@ model 'Qwen3.5 397B-A17B'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status

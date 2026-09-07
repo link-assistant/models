@@ -32,7 +32,7 @@ model 'Qwen3.5 9B'
     context
       '262 144'
     output
-      '262 144'
+      '235 929'
   costs
     input
       0.1

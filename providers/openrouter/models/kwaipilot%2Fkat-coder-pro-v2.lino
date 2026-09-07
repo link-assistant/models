@@ -28,9 +28,9 @@ model 'KAT-Coder-Pro V2'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
-      '80 000'
+      '144 000'
   costs
     input
       0.3

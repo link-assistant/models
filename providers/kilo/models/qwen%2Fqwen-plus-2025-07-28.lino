@@ -5,18 +5,21 @@ model 'Qwen: Qwen Plus 0728'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-09-09
+    2025-09-08
   last updated at
-    2026-03-15
+    2025-09-08
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

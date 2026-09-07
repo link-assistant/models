@@ -36,10 +36,10 @@ model 'OpenAI GPT Latest'
       '128 000'
   costs
     input
-      5
+      2
     output
-      30
+      10
     cacheRead
-      0.5
+      0.2
     cacheWrite
-      6.25
+      2.5

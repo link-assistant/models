@@ -5,6 +5,8 @@ model 'Claude Haiku Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-haiku'
   status
     active
   released at

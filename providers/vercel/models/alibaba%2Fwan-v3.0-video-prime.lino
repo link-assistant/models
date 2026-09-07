@@ -1,0 +1,31 @@
+model 'Wan v3.0 Video Prime'
+  has id
+    'alibaba/wan-v3.0-video-prime'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'o'
+  status
+    active
+  released at
+    2026-08-28
+  last updated at
+    2026-08-28
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

@@ -23,7 +23,7 @@ model 'Kat Coder Air V2.5'
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

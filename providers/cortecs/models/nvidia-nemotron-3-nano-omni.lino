@@ -1,0 +1,36 @@
+model 'nvidia-nemotron-3-nano-omni'
+  has id
+    'nvidia-nemotron-3-nano-omni'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2026-04-29
+  last updated at
+    2026-04-29
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '300 000'
+    output
+      '65 536'
+  costs
+    input
+      0.059
+    output
+      0.237

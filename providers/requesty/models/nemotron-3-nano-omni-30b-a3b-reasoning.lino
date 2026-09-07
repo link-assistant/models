@@ -1,0 +1,39 @@
+model 'Nemotron 3 Nano Omni 30B A3B Reasoning'
+  has id
+    'nemotron-3-nano-omni-30b-a3b-reasoning'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-04-28
+  last updated at
+    2026-04-28
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '20 480'
+  costs
+    input
+      0
+    output
+      0

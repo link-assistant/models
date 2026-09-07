@@ -1,0 +1,44 @@
+model 'Gemini 3.8 Flash (Google Vertex AI)'
+  has id
+    'google-vertex/gemini-3.8-flash'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gemini'
+  status
+    active
+  released at
+    2026-09-02
+  last updated at
+    2026-09-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.75
+    output
+      3.75
+    cacheRead
+      0.075
+    cacheWrite
+      0.08333

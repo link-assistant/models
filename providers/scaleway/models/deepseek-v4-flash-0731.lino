@@ -1,0 +1,46 @@
+model 'DeepSeek V4 Flash 0731'
+  has id
+    'deepseek-v4-flash-0731'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  family
+    'deepseek-flash'
+  status
+    beta
+  released at
+    2026-07-31
+  last updated at
+    2026-07-31
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '16 384'
+  costs
+    input
+      0.468
+    output
+      0.936
+    cacheRead
+      0.0936
+    reasoning
+      0.936

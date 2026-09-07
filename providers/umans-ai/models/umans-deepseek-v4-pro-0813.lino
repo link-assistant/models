@@ -1,0 +1,42 @@
+model 'DeepSeek V4 Pro'
+  has id
+    'umans-deepseek-v4-pro-0813'
+  provider id
+    'umans-ai'
+  provided by
+    'Umans AI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '393 215'
+  costs
+    input
+      1.32
+    output
+      3.96
+    cacheRead
+      0.044

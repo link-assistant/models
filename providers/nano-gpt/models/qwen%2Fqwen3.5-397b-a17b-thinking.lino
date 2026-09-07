@@ -5,17 +5,21 @@ model 'Qwen3.5 397B A17B Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2026-02-16
+    2026-02-15
   last updated at
-    2026-02-16
+    2026-02-15
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
+      temperature
       attachments
     )
   modalities
@@ -35,3 +39,5 @@ model 'Qwen3.5 397B A17B Thinking'
       0.6
     output
       3.6
+    cacheRead
+      0.3

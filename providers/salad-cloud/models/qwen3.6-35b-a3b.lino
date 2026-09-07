@@ -1,0 +1,42 @@
+model 'Qwen3.6 35B-A3B'
+  has id
+    'qwen3.6-35b-a3b'
+  provider id
+    'salad-cloud'
+  provided by
+    'SaladCloud AI Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.09
+    output
+      0.6

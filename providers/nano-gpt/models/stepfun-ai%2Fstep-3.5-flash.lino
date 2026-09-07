@@ -5,19 +5,20 @@ model 'Step 3.5 Flash'
     'nano-gpt'
   provided by
     'NanoGPT'
-  family
-    'step'
   status
     active
   released at
-    2026-02-02
+    2026-01-29
   last updated at
-    2026-02-02
+    2026-02-13
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      temperature
     )
   modalities
     input
@@ -26,13 +27,15 @@ model 'Step 3.5 Flash'
       text
   limits
     context
-      '256 000'
+      '262 144'
     input
-      '256 000'
+      '262 144'
     output
-      '256 000'
+      '65 536'
   costs
     input
-      0.2
+      0.1
     output
-      0.5
+      0.3
+    cacheRead
+      0.05

@@ -1,0 +1,31 @@
+model 'gpt-realtime-whisper'
+  has id
+    'openai/gpt-realtime-whisper'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2026-05-07
+  last updated at
+    2026-05-07
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

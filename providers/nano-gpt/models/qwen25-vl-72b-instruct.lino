@@ -12,7 +12,7 @@ model 'Qwen25 VL 72b'
   last updated at
     2025-05-10
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -28,9 +28,11 @@ model 'Qwen25 VL 72b'
     input
       '32 000'
     output
-      '32 768'
+      '115 200'
   costs
     input
       0.69989
     output
       0.69989
+    cacheRead
+      0.349945

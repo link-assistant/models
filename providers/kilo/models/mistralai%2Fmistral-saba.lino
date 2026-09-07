@@ -5,31 +5,37 @@ model 'Mistral: Saba'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral'
   status
     active
   released at
     2025-02-17
   last updated at
-    2026-03-15
+    2025-02-17
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
     context
       '32 768'
     output
-      '32 768'
+      '26 214'
   costs
     input
       0.2
     output
       0.6
+    cacheRead
+      0.02

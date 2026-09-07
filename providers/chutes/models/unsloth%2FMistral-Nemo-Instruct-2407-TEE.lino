@@ -37,4 +37,4 @@ model 'Mistral Nemo Instruct 2407 TEE'
     output
       0.0978
     cacheRead
-      0.01225
+      0.0024499999999999995

@@ -5,6 +5,8 @@ model 'OpenAI: gpt-oss-safeguard-20b'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt-oss'
   status
     active
   released at
@@ -18,6 +20,7 @@ model 'OpenAI: gpt-oss-safeguard-20b'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -35,4 +38,4 @@ model 'OpenAI: gpt-oss-safeguard-20b'
     output
       0.3
     cacheRead
-      0.037
+      0.0375

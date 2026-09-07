@@ -1,0 +1,43 @@
+model 'Qwen3.7 Plus'
+  has id
+    'qwen3.7-plus'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-06-15
+  last updated at
+    2026-07-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '64 000'
+  costs
+    input
+      1.2
+    output
+      4.8
+    cacheRead
+      0.24

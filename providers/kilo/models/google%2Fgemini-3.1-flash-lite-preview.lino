@@ -1,16 +1,20 @@
-model 'Google: Gemini 3.1 Flash Lite Preview'
+model 'Gemini 3.1 Flash Lite Preview'
   has id
     'google/gemini-3.1-flash-lite-preview'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gemini-flash-lite'
   status
     active
   released at
     2026-03-03
   last updated at
-    2026-03-15
+    2026-03-03
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -19,10 +23,11 @@ model 'Google: Gemini 3.1 Flash Lite Preview'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      audio image pdf text video
+      text image video audio pdf
     output
       text
   limits
@@ -32,8 +37,12 @@ model 'Google: Gemini 3.1 Flash Lite Preview'
       '65 536'
   costs
     input
-      0.25
+      0.125
     output
-      1.5
+      0.75
+    cacheRead
+      0.0125
+    cacheWrite
+      0.041667
     reasoning
-      1.5
+      0.75

@@ -5,6 +5,8 @@ model 'Cohere: Command A'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'command-a'
   status
     active
   released at
@@ -12,10 +14,11 @@ model 'Cohere: Command A'
   last updated at
     2025-03-13
   weights
-    open
+    closed
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input

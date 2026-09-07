@@ -1,0 +1,39 @@
+model 'Inkling Small'
+  has id
+    'thinkingmachines/inkling-small'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-30
+  last updated at
+    2026-07-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.58
+    output
+      1.44

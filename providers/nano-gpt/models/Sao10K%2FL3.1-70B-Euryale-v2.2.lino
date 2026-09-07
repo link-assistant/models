@@ -10,11 +10,11 @@ model 'Llama 3.1 70B Euryale'
   status
     active
   released at
-    2024-07-23
+    2024-01-01
   last updated at
     2024-07-23
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Llama 3.1 70B Euryale'
       0.306
     output
       0.357
+    cacheRead
+      0.153

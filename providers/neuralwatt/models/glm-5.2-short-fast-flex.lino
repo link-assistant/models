@@ -17,8 +17,10 @@ model 'GLM 5.2 Short Fast Flex'
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      interleaved output
     )
   modalities
     input
@@ -29,11 +31,11 @@ model 'GLM 5.2 Short Fast Flex'
     context
       '199 984'
     output
-      '199 984'
+      '32 000'
   costs
     input
-      0.725
+      0.9425
     output
-      2.25
+      2.925
     cacheRead
-      0.18125
+      0.09425

@@ -1,0 +1,37 @@
+model 'Lyria 3 Pro Preview'
+  has id
+    'lyria-3-pro-preview'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'lyria'
+  status
+    active
+  released at
+    2026-03-25
+  last updated at
+    2026-03-25
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text audio
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

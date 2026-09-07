@@ -1,0 +1,45 @@
+model 'GPT-5.6 Luna (AWS Mantle)'
+  has id
+    'aws-mantle/gpt-5.6-luna'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gpt-luna'
+  status
+    active
+  released at
+    2026-07-09
+  last updated at
+    2026-07-09
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '278 528'
+    output
+      '128 000'
+  costs
+    input
+      0.22
+    output
+      1.32
+    cacheRead
+      0.022
+    cacheWrite
+      0.275

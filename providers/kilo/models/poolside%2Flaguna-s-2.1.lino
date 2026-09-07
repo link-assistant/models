@@ -1,0 +1,40 @@
+model 'Poolside: Laguna S 2.1'
+  has id
+    'poolside/laguna-s-2.1'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'laguna-s'
+  status
+    active
+  released at
+    2026-07-21
+  last updated at
+    2026-07-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.1
+    output
+      0.2
+    cacheRead
+      0.01

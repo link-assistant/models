@@ -1,0 +1,42 @@
+model 'GPT-5.2 Pro (Azure)'
+  has id
+    'azure/gpt-5.2-pro'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gpt-pro'
+  status
+    active
+  released at
+    2025-12-11
+  last updated at
+    2025-12-11
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '272 000'
+  costs
+    input
+      21
+    output
+      168

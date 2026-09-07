@@ -33,7 +33,7 @@ model 'Claude Opus 4'
     context
       '200 000'
     output
-      '32 000'
+      8192
   costs
     input
       15

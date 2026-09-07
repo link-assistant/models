@@ -1,0 +1,40 @@
+model 'InclusionAI Ling 3.0 Flash (DeepInfra)'
+  has id
+    'deepinfra/ling-3.0-flash'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-08-02
+  last updated at
+    2026-08-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.06
+    output
+      0.18
+    cacheRead
+      0.012

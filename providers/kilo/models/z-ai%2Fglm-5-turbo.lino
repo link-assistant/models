@@ -1,18 +1,20 @@
-model 'Z.ai: GLM 5 Turbo'
+model 'GLM-5-Turbo'
   has id
     'z-ai/glm-5-turbo'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'glm'
   status
     active
   released at
-    2026-03-15
+    2026-03-16
   last updated at
-    2026-04-11
+    2026-03-16
   weights
-    open
+    closed
   capabilities
     (
       reasoning

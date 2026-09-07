@@ -1,0 +1,40 @@
+model 'Kimi K3 Fast (Fireworks AI)'
+  has id
+    'fireworks/kimi-k3-fast'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-07-16
+  last updated at
+    2026-07-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 040 384'
+    output
+      '1 040 384'
+  costs
+    input
+      4.5
+    output
+      22.5
+    cacheRead
+      0.45

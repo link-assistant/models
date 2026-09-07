@@ -30,3 +30,5 @@ model 'Doubao 1.5 Pro 256k'
       0.799
     output
       1.445
+    cacheRead
+      0.3995

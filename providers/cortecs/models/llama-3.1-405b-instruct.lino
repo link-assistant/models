@@ -19,8 +19,10 @@ model 'Llama 3.1 405B Instruct'
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -34,6 +36,6 @@ model 'Llama 3.1 405B Instruct'
       '128 000'
   costs
     input
-      0
+      1.95
     output
-      0
+      1.95

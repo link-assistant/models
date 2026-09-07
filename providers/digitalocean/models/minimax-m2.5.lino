@@ -1,4 +1,4 @@
-model 'MiniMax M2.5'
+model 'MiniMax M2.5 (Public Preview)'
   has id
     'minimax-m2.5'
   provider id
@@ -8,7 +8,7 @@ model 'MiniMax M2.5'
   family
     'minimax-m2.5'
   status
-    beta
+    active
   released at
     2026-02-12
   last updated at
@@ -22,19 +22,22 @@ model 'MiniMax M2.5'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
     context
-      '204 800'
+      '65 536'
     output
-      '128 000'
+      '65 536'
   costs
     input
       0.3
     output
       1.2
+    cacheRead
+      0.06

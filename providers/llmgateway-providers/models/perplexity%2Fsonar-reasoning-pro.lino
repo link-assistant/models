@@ -1,0 +1,39 @@
+model 'Sonar Reasoning Pro (Perplexity)'
+  has id
+    'perplexity/sonar-reasoning-pro'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'sonar-reasoning'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2025-09-01
+  has knowledge cutoff at
+    2025-09-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      2
+    output
+      8

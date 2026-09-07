@@ -5,12 +5,14 @@ model 'OpenAI: o4 Mini High'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'o'
   status
     active
   released at
-    2025-04-17
+    2025-04-16
   last updated at
-    2026-03-15
+    2025-04-16
   weights
     closed
   capabilities
@@ -18,10 +20,11 @@ model 'OpenAI: o4 Mini High'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
-      image pdf text
+      image text pdf
     output
       text
   limits
@@ -34,3 +37,5 @@ model 'OpenAI: o4 Mini High'
       1.1
     output
       4.4
+    cacheRead
+      0.275

@@ -38,3 +38,5 @@ model 'Qwen3.6 27B'
       0.412564
     output
       2.475384
+    cacheRead
+      0.412564

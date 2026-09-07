@@ -1,0 +1,37 @@
+model 'Apertus 70B'
+  has id
+    'apertus-70b'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-09-02
+  last updated at
+    2025-09-02
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '16 384'
+  costs
+    input
+      1.393
+    output
+      2.228

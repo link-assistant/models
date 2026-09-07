@@ -1,0 +1,38 @@
+model 'Cohere: North Mini Code (free)'
+  has id
+    'cohere/north-mini-code:free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'north'
+  status
+    active
+  released at
+    2026-06-17
+  last updated at
+    2026-06-17
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0
+    output
+      0

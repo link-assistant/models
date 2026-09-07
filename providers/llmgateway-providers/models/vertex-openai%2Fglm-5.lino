@@ -1,0 +1,41 @@
+model 'GLM-5 (Vertex AI (OpenAI-compatible))'
+  has id
+    'vertex-openai/glm-5'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '32 768'
+  costs
+    input
+      1
+    output
+      3.2
+    cacheRead
+      0.1

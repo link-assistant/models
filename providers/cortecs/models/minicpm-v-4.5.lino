@@ -1,0 +1,35 @@
+model 'minicpm-v-4.5'
+  has id
+    'minicpm-v-4.5'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2026-06-02
+  last updated at
+    2026-06-02
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.651
+    output
+      1.097

@@ -1,0 +1,40 @@
+model 'MiniMax M3 (Together AI)'
+  has id
+    'together-ai/minimax-m3'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

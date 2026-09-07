@@ -1,0 +1,45 @@
+model 'GPT OSS 120B'
+  has id
+    'openai/gpt-oss-120b'
+  provider id
+    'tensorx'
+  provided by
+    'TensorX'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2024-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.04
+    output
+      0.2
+    cacheRead
+      0.01
+    cacheWrite
+      0.05

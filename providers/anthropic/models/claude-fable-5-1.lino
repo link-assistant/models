@@ -1,0 +1,45 @@
+model 'Claude Fable 5.1'
+  has id
+    'claude-fable-5-1'
+  provider id
+    'anthropic'
+  provided by
+    'Anthropic'
+  family
+    'claude-fable'
+  status
+    active
+  released at
+    2026-09-01
+  last updated at
+    2026-09-01
+  has knowledge cutoff at
+    2026-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      10
+    output
+      50
+    cacheRead
+      0.25
+    cacheWrite
+      12.5

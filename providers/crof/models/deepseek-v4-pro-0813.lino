@@ -1,0 +1,42 @@
+model 'DeepSeek V4 Pro (0813)'
+  has id
+    'deepseek-v4-pro-0813'
+  provider id
+    'crof'
+  provided by
+    'CrofAI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.35
+    output
+      0.8
+    cacheRead
+      0.01

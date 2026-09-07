@@ -1,0 +1,39 @@
+model 'Qwen3.5 397B A17B (NovitaAI)'
+  has id
+    'novita/qwen35-397b-a17b'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen3.5'
+  status
+    active
+  released at
+    2026-02-16
+  last updated at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '64 000'
+  costs
+    input
+      0.6
+    output
+      3.6

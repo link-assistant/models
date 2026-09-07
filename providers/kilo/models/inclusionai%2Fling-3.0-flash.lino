@@ -1,0 +1,40 @@
+model 'inclusionAI: Ling 3.0 Flash'
+  has id
+    'inclusionai/ling-3.0-flash'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-23
+  last updated at
+    2026-07-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.06
+    output
+      0.18
+    cacheRead
+      0.012

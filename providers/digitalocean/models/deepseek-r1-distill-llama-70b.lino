@@ -29,9 +29,9 @@ model 'DeepSeek R1 Distill Llama 70B'
       text
   limits
     context
-      '131 072'
+      '32 678'
     output
-      '32 768'
+      8192
   costs
     input
       0.99

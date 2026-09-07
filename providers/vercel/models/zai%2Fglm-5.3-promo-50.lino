@@ -1,0 +1,39 @@
+model 'GLM 5.3 (50% off)'
+  has id
+    'zai/glm-5.3-promo-50'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-18
+  last updated at
+    2026-08-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.7
+    output
+      2.2
+    cacheRead
+      0.13

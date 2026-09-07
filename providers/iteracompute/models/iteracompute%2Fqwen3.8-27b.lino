@@ -1,0 +1,42 @@
+model 'Qwen3.8 27B'
+  has id
+    'iteracompute/qwen3.8-27b'
+  provider id
+    'iteracompute'
+  provided by
+    'IteraCompute'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '327 680'
+    input
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.3
+    output
+      2.5

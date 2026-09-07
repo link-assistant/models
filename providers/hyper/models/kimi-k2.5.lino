@@ -1,0 +1,42 @@
+model 'Kimi K2.5'
+  has id
+    'kimi-k2.5'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-04-13
+  last updated at
+    2026-07-22
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '26 214'
+  costs
+    input
+      0.5144
+    output
+      2.755
+    cacheWrite
+      0.2572

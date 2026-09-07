@@ -1,0 +1,45 @@
+model 'DeepSeek V4 Flash 0731'
+  has id
+    'deepseek/deepseek-v4-flash-0731'
+  provider id
+    'ambient'
+  provided by
+    'Ambient'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-07-31
+  last updated at
+    2026-07-31
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.08
+    output
+      0.18
+    cacheRead
+      0.016
+    cacheWrite
+      0

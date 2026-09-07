@@ -29,9 +29,9 @@ model 'Voxtral Small 24B 2507'
       text
   limits
     context
-      '32 000'
+      '32 768'
     output
-      '32 000'
+      '26 214'
   costs
     input
       0.1

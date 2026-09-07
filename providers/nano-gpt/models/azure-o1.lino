@@ -5,10 +5,12 @@ model 'Azure o1'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'o'
   status
     active
   released at
-    2024-12-17
+    2024-01-01
   last updated at
     2024-12-17
   weights
@@ -27,6 +29,8 @@ model 'Azure o1'
       '100 000'
   costs
     input
-      14.994
+      15
     output
-      59.993
+      60
+    cacheRead
+      7.5

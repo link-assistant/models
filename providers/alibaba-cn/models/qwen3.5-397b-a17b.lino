@@ -35,8 +35,8 @@ model 'Qwen3.5 397B-A17B'
       '65 536'
   costs
     input
-      0.43
+      0.172
     output
-      2.58
+      1.032
     reasoning
-      2.58
+      1.032

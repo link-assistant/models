@@ -14,7 +14,7 @@ model 'Mistral Small 3.2 24b Instruct'
   last updated at
     2025-04-15
   weights
-    closed
+    open
   modalities
     input
       text
@@ -26,9 +26,11 @@ model 'Mistral Small 3.2 24b Instruct'
     input
       '128 000'
     output
-      '131 072'
+      '16 384'
   costs
     input
       0.2
     output
       0.4
+    cacheRead
+      0.1

@@ -5,19 +5,23 @@ model 'Anthropic: Claude Opus Latest'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'claude-opus'
   status
     active
   released at
-    2026-04-16
+    2026-04-21
   last updated at
-    2026-05-01
+    2026-04-21
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
+      structured output
     )
   modalities
     input

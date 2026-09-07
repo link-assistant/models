@@ -5,10 +5,12 @@ model 'Qwen Long 10M'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2025-01-25
+    2024-08-01
   last updated at
     2025-01-25
   weights
@@ -34,3 +36,5 @@ model 'Qwen Long 10M'
       0.1003
     output
       0.408
+    cacheRead
+      0.05015

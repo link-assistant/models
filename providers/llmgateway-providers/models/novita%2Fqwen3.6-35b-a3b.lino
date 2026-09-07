@@ -1,0 +1,39 @@
+model 'Qwen3.6 35B A3B (NovitaAI)'
+  has id
+    'novita/qwen3.6-35b-a3b'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '64 000'
+  costs
+    input
+      0.248
+    output
+      1.485

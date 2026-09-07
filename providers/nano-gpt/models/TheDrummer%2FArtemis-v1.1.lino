@@ -1,0 +1,40 @@
+model 'TheDrummer/Artemis v1.1'
+  has id
+    'TheDrummer/Artemis-v1.1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-09-06
+  last updated at
+    2026-09-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.45
+    cacheRead
+      0.05

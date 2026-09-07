@@ -1,0 +1,40 @@
+model 'LongCat 2.0'
+  has id
+    'meituan/longcat-2.0'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'longcat'
+  status
+    active
+  released at
+    2026-07-20
+  last updated at
+    2026-07-20
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 756'
+    output
+      '262 144'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.006

@@ -1,0 +1,30 @@
+model 'nvidia--llama-3.2-nv-embedqa-1b'
+  has id
+    'nvidia--llama-3.2-nv-embedqa-1b'
+  provider id
+    'sap-ai-core'
+  provided by
+    'SAP AI Core'
+  status
+    active
+  released at
+    2024-09-25
+  last updated at
+    2024-09-25
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      4096
+  costs
+    input
+      0.07
+    output
+      0

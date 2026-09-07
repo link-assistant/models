@@ -4,7 +4,7 @@ model 'Qwen3.6 Plus'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status
@@ -22,6 +22,7 @@ model 'Qwen3.6 Plus'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -30,7 +31,7 @@ model 'Qwen3.6 Plus'
       text
   limits
     context
-      '262 144'
+      '1 000 000'
     output
       '65 536'
   costs

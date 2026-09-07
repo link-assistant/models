@@ -4,7 +4,7 @@ model 'Qwen3-Coder 480B-A35B Instruct'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status
@@ -34,6 +34,6 @@ model 'Qwen3-Coder 480B-A35B Instruct'
       '65 536'
   costs
     input
-      0.3
+      0.38
     output
-      1.3
+      1.55

@@ -28,9 +28,9 @@ model 'UnslopNemo 12B'
       text
   limits
     context
-      '32 768'
+      '1 024 000'
     output
-      '32 768'
+      '819 200'
   costs
     input
       0.4

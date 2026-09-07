@@ -31,7 +31,7 @@ model 'Phi 4'
     context
       '16 384'
     output
-      '16 384'
+      '14 745'
   costs
     input
       0.07

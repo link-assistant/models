@@ -14,7 +14,7 @@ model 'Nvidia Nemotron 3 Nano 30B'
   last updated at
     2025-12-15
   weights
-    closed
+    open
   capabilities
     (
       temperature
@@ -26,13 +26,15 @@ model 'Nvidia Nemotron 3 Nano 30B'
       text
   limits
     context
-      '256 000'
-    input
-      '256 000'
-    output
       '262 144'
+    input
+      '262 144'
+    output
+      '235 929'
   costs
     input
       0.17
     output
       0.68
+    cacheRead
+      0.085

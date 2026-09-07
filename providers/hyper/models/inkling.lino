@@ -1,0 +1,41 @@
+model 'Inkling'
+  has id
+    'inkling'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-08-15
+  last updated at
+    2026-09-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '32 768'
+  costs
+    input
+      1.0888
+    output
+      4.40964
+    cacheRead
+      0.185096

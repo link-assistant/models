@@ -4,7 +4,7 @@ model 'Sonar'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'sonar'
   status

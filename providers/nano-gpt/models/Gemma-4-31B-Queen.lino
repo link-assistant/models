@@ -5,6 +5,8 @@ model 'Gemma 4 31B Queen'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemma'
   status
     active
   released at
@@ -12,15 +14,16 @@ model 'Gemma 4 31B Queen'
   last updated at
     2026-05-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
       attachments
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits
@@ -35,3 +38,5 @@ model 'Gemma 4 31B Queen'
       0.306
     output
       0.306
+    cacheRead
+      0.153

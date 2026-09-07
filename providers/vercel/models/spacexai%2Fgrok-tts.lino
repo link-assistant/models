@@ -1,0 +1,27 @@
+model 'Grok TTS'
+  has id
+    'spacexai/grok-tts'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-03-16
+  last updated at
+    2026-03-16
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      0
+    output
+      0

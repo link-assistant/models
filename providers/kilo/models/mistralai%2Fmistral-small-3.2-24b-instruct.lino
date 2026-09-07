@@ -5,6 +5,8 @@ model 'Mistral: Mistral Small 3.2 24B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral-small'
   status
     active
   released at
@@ -12,12 +14,13 @@ model 'Mistral: Mistral Small 3.2 24B'
   last updated at
     2025-06-20
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -26,13 +29,11 @@ model 'Mistral: Mistral Small 3.2 24B'
       text
   limits
     context
-      '131 072'
+      '128 000'
     output
-      '131 072'
+      '16 384'
   costs
     input
-      0.06
+      0.075
     output
-      0.18
-    cacheRead
-      0.03
+      0.2

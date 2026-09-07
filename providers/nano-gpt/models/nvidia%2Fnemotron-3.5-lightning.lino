@@ -1,0 +1,42 @@
+model 'Nvidia Nemotron 3.5 Lightning'
+  has id
+    'nvidia/nemotron-3.5-lightning'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.05
+    output
+      0.2
+    cacheRead
+      0.01

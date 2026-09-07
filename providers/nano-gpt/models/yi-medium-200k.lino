@@ -5,10 +5,12 @@ model 'Yi Medium 200k'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'yi'
   status
     active
   released at
-    2024-03-01
+    2024-01-01
   last updated at
     2024-03-01
   weights
@@ -30,3 +32,5 @@ model 'Yi Medium 200k'
       2.499
     output
       2.499
+    cacheRead
+      1.2495

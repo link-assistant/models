@@ -1,0 +1,42 @@
+model 'Magistral Medium (latest)'
+  has id
+    'mistral/magistral-medium-latest'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'magistral-medium'
+  status
+    active
+  released at
+    2025-03-17
+  last updated at
+    2025-03-20
+  has knowledge cutoff at
+    2025-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      2
+    output
+      5

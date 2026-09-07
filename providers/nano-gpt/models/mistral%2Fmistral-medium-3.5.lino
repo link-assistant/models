@@ -5,6 +5,8 @@ model 'Mistral Medium 3.5'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'mistral-medium'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Mistral Medium 3.5'
   last updated at
     2026-04-29
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -37,3 +39,5 @@ model 'Mistral Medium 3.5'
       1.5
     output
       7.5
+    cacheRead
+      0.75

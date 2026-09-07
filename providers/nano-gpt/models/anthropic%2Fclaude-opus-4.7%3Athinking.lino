@@ -5,12 +5,16 @@ model 'Claude 4.7 Opus Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-opus'
   status
     active
   released at
     2026-04-16
   last updated at
     2026-04-16
+  has knowledge cutoff at
+    2026-01-31
   weights
     closed
   capabilities
@@ -34,8 +38,8 @@ model 'Claude 4.7 Opus Thinking'
       '128 000'
   costs
     input
-      4.998
+      5
     output
-      25.007
+      25
     cacheRead
-      0.4998
+      0.5

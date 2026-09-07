@@ -4,7 +4,7 @@ model 'GLM-5.2'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'glm'
   status
@@ -30,15 +30,15 @@ model 'GLM-5.2'
       text
   limits
     context
-      '1 024 000'
+      '1 048 576'
     output
       '131 072'
   costs
     input
-      1.26
+      0.55
     output
-      3.96
+      1.784
     cacheRead
-      0.234
+      0.111
     cacheWrite
       0

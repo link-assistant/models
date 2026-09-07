@@ -5,6 +5,8 @@ model 'Nous: Hermes 3 405B Instruct'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'nousresearch'
   status
     active
   released at
@@ -12,10 +14,11 @@ model 'Nous: Hermes 3 405B Instruct'
   last updated at
     2024-08-16
   weights
-    open
+    closed
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input

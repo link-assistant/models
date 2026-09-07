@@ -14,7 +14,7 @@ model 'Ministral 3 14B'
   last updated at
     2025-12-02
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -36,3 +36,5 @@ model 'Ministral 3 14B'
       0.1
     output
       0.4
+    cacheRead
+      0.05

@@ -10,11 +10,11 @@ model 'Neural Daredevil 8B abliterated'
   status
     active
   released at
-    2024-12-01
+    2024-01-01
   last updated at
     2024-12-01
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Neural Daredevil 8B abliterated'
       0.44
     output
       0.44
+    cacheRead
+      0.22

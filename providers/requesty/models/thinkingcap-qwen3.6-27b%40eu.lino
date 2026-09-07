@@ -1,0 +1,39 @@
+model 'thinkingcap-qwen3.6-27b@eu'
+  has id
+    'thinkingcap-qwen3.6-27b@eu'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'qwen3.6'
+  status
+    active
+  released at
+    2026-07-13
+  last updated at
+    2026-07-13
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.4
+    output
+      3
+    cacheRead
+      0.26

@@ -1,0 +1,39 @@
+model 'Qwen Omni Turbo (Alibaba Cloud)'
+  has id
+    'alibaba/qwen-omni-turbo'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-01-19
+  last updated at
+    2025-03-26
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text audio
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0.2
+    output
+      0.8

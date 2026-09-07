@@ -1,0 +1,41 @@
+model 'Inkling'
+  has id
+    'thinkingmachines/inkling'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      1
+    output
+      4.05
+    cacheRead
+      0.17

@@ -30,7 +30,7 @@ model 'Hermes-4-405B'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
       '120 000'
     output

@@ -21,6 +21,7 @@ model 'Qwen3-Next 80B-A3B Instruct'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -31,7 +32,7 @@ model 'Qwen3-Next 80B-A3B Instruct'
     context
       '131 072'
     output
-      '32 768'
+      '10 000'
   costs
     input
       0.15

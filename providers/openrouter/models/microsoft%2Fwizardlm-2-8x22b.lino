@@ -26,7 +26,7 @@ model 'WizardLM-2 8x22B'
       text
   limits
     context
-      '65 536'
+      '65 535'
     output
       8000
   costs

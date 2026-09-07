@@ -10,11 +10,11 @@ model 'Magnum v4 72B'
   status
     active
   released at
-    2025-01-01
+    2024-01-01
   last updated at
     2025-01-01
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -36,3 +36,5 @@ model 'Magnum v4 72B'
       2.006
     output
       2.992
+    cacheRead
+      1.003

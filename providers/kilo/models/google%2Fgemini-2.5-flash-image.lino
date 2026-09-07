@@ -1,35 +1,44 @@
-model 'Google: Nano Banana (Gemini 2.5 Flash Image)'
+model 'Nano Banana'
   has id
     'google/gemini-2.5-flash-image'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gemini-flash'
   status
     active
   released at
-    2025-10-08
+    2025-08-26
   last updated at
-    2026-03-15
+    2025-08-26
+  has knowledge cutoff at
+    2024-06
   weights
     closed
   capabilities
     (
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      image text pdf
     output
-      image text
+      text image
   limits
     context
       '32 768'
     output
-      '32 768'
+      8192
   costs
     input
-      0.3
+      0.15
     output
-      2.5
+      1.25
+    cacheRead
+      0.015
+    cacheWrite
+      0.041667

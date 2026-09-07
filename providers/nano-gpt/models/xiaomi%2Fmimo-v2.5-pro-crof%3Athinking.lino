@@ -1,0 +1,42 @@
+model 'MiMo V2.5 Pro Thinking (Crof)'
+  has id
+    'xiaomi/mimo-v2.5-pro-crof:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'mimo-v2.5-pro'
+  status
+    active
+  released at
+    2026-07-23
+  last updated at
+    2026-07-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.4
+    output
+      0.8
+    cacheRead
+      0.003

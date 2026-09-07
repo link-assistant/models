@@ -39,4 +39,4 @@ model 'gemma 4 31B turbo TEE'
     output
       0.37
     cacheRead
-      0.06
+      0.011999999999999997

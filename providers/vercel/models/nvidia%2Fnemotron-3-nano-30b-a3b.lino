@@ -13,10 +13,8 @@ model 'Nemotron 3 Nano 30B A3B'
     2025-12-15
   last updated at
     2025-12-15
-  has knowledge cutoff at
-    2024-10
   weights
-    closed
+    open
   capabilities
     (
       reasoning

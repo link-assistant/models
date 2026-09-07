@@ -8,7 +8,7 @@ model 'North Mini Code Free'
   family
     'north-free'
   status
-    active
+    deprecated
   released at
     2026-06-09
   last updated at

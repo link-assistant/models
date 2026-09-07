@@ -8,7 +8,7 @@ model 'GLM-4.7'
   family
     'glm'
   status
-    active
+    deprecated
   released at
     2026-01-06
   last updated at
@@ -40,3 +40,5 @@ model 'GLM-4.7'
       0.6
     output
       2.2
+    cacheRead
+      0.06

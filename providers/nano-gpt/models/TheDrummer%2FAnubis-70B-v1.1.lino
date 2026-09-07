@@ -12,7 +12,7 @@ model 'Anubis 70B v1.1'
   last updated at
     2024-01-01
   weights
-    closed
+    open
   modalities
     input
       text
@@ -20,9 +20,9 @@ model 'Anubis 70B v1.1'
       text
   limits
     context
-      '131 072'
+      '32 000'
     input
-      '131 072'
+      '32 000'
     output
       '16 384'
   costs
@@ -30,3 +30,5 @@ model 'Anubis 70B v1.1'
       0.31
     output
       0.31
+    cacheRead
+      0.155

@@ -5,6 +5,8 @@ model 'Claude Opus Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-opus'
   status
     active
   released at
@@ -34,8 +36,10 @@ model 'Claude Opus Latest'
       '128 000'
   costs
     input
-      4.998
+      5
     output
-      25.007
+      25
     cacheRead
-      0.4998
+      0.5
+    cacheWrite
+      6.25

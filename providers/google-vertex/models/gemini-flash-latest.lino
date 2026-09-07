@@ -10,11 +10,11 @@ model 'Gemini Flash Latest'
   status
     active
   released at
-    2025-09-25
+    2026-08-13
   last updated at
-    2025-09-25
+    2026-08-13
   has knowledge cutoff at
-    2025-01
+    2026-03
   weights
     closed
   capabilities
@@ -23,10 +23,11 @@ model 'Gemini Flash Latest'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image audio video pdf
+      text image video audio pdf
     output
       text
   limits
@@ -36,10 +37,10 @@ model 'Gemini Flash Latest'
       '65 536'
   costs
     input
-      0.3
+      1.5
     output
-      2.5
+      9
     cacheRead
-      0.075
-    cacheWrite
-      0.383
+      0.15
+    inputAudio
+      1.5

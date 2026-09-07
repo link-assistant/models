@@ -1,0 +1,41 @@
+model 'Gemini 2.5 Computer Use Preview 10-2025'
+  has id
+    'gemini-2.5-computer-use-preview-10-2025'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2025-10-07
+  last updated at
+    2025-10-07
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      1.25
+    output
+      10

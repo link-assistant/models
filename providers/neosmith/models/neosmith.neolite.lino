@@ -1,0 +1,41 @@
+model 'NeoSmith NeoLite'
+  has id
+    'neosmith.neolite'
+  provider id
+    'neosmith'
+  provided by
+    'NeoSmith'
+  status
+    active
+  released at
+    2026-06-20
+  last updated at
+    2026-08-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '512 000'
+    output
+      '64 000'
+  costs
+    input
+      0.6
+    output
+      2.4
+    cacheRead
+      0.08
+    cacheWrite
+      0

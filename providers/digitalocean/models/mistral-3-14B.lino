@@ -1,4 +1,4 @@
-model 'Ministral 3 14B Instruct'
+model 'Ministral 3 14B'
   has id
     'mistral-3-14B'
   provider id

@@ -1,0 +1,38 @@
+model 'Qwen3.8 27B (Consensus Protocol)'
+  has id
+    'consensusprotocol/Qwen3.8-27B'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  status
+    active
+  released at
+    2026-09-02
+  last updated at
+    2026-09-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.41
+    output
+      2.5
+    cacheRead
+      0.08

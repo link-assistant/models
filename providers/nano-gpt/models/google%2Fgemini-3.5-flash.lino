@@ -5,18 +5,23 @@ model 'Gemini 3.5 Flash'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini-flash'
   status
     active
   released at
     2026-05-19
   last updated at
     2026-05-19
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -39,3 +44,5 @@ model 'Gemini 3.5 Flash'
       9
     cacheRead
       0.15
+    cacheWrite
+      0.083333

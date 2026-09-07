@@ -5,14 +5,16 @@ model 'Nous: Hermes 4 70B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'nousresearch'
   status
     active
   released at
-    2025-08-25
+    2025-08-26
   last updated at
-    2026-03-15
+    2025-08-26
   weights
-    open
+    closed
   capabilities
     (
       reasoning
@@ -27,11 +29,9 @@ model 'Nous: Hermes 4 70B'
     context
       '131 072'
     output
-      '131 072'
+      '117 964'
   costs
     input
       0.13
     output
       0.4
-    cacheRead
-      0.055

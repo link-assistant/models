@@ -1,0 +1,40 @@
+model 'Qwen3 Coder Next (EU)'
+  has id
+    'qwen/qwen3-coder-next@eu'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-03
+  last updated at
+    2026-02-03
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.3
+    output
+      1.5

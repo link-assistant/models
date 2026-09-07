@@ -1,0 +1,41 @@
+model 'Nano Banana 2 Lite'
+  has id
+    'gemini-3.1-flash-lite-image'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-flash-lite'
+  status
+    active
+  released at
+    2026-06-30
+  last updated at
+    2026-06-30
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.25
+    output
+      30

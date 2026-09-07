@@ -27,7 +27,7 @@ model 'Kimi K2.6'
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits

@@ -16,10 +16,11 @@ model 'Greg 1 Mini'
   capabilities
     (
       temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

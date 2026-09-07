@@ -1,0 +1,42 @@
+model 'Ornith 1.5 35B A3B'
+  has id
+    'iteracompute/ornith-1.5-35b-a3b'
+  provider id
+    'iteracompute'
+  provided by
+    'IteraCompute'
+  family
+    'ornith'
+  status
+    active
+  released at
+    2026-08-18
+  last updated at
+    2026-08-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '327 680'
+    input
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.3
+    output
+      3

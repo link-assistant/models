@@ -40,4 +40,4 @@ model 'Qwen3 32B TEE'
     output
       0.416
     cacheRead
-      0.052
+      0.010399999999999998

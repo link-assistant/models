@@ -1,0 +1,37 @@
+model 'Nemotron 3 Super 120B A12B (FlexAI)'
+  has id
+    'flexai/Nemotron-3-Super-120B-A12B'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.085
+    output
+      0.4

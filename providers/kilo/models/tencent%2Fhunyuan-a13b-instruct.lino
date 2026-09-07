@@ -5,18 +5,21 @@ model 'Tencent: Hunyuan A13B Instruct'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'hunyuan'
   status
     active
   released at
-    2025-06-30
+    2025-07-08
   last updated at
-    2025-11-25
+    2025-07-08
   weights
     closed
   capabilities
     (
       reasoning
       temperature
+      structured output
     )
   modalities
     input
@@ -27,7 +30,7 @@ model 'Tencent: Hunyuan A13B Instruct'
     context
       '131 072'
     output
-      '131 072'
+      '117 964'
   costs
     input
       0.14

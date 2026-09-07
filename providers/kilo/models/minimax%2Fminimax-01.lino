@@ -5,6 +5,8 @@ model 'MiniMax: MiniMax-01'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'minimax'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'MiniMax: MiniMax-01'
   last updated at
     2025-01-15
   weights
-    open
+    closed
   capabilities
     (
       temperature
@@ -27,7 +29,7 @@ model 'MiniMax: MiniMax-01'
     context
       '1 000 192'
     output
-      '1 000 192'
+      '900 172'
   costs
     input
       0.2

@@ -1,0 +1,39 @@
+model 'Voxtral Small (latest)'
+  has id
+    'mistral/voxtral-small-latest'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'voxtral'
+  status
+    active
+  released at
+    2025-07-15
+  last updated at
+    2025-07-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 000'
+  costs
+    input
+      0.1
+    output
+      0.4

@@ -1,0 +1,38 @@
+model 'ministral-14b-2512'
+  has id
+    'ministral-14b-2512'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-12-03
+  last updated at
+    2025-12-03
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.223
+    output
+      0.223
+    cacheRead
+      0.022

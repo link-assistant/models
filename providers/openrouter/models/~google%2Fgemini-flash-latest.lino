@@ -37,12 +37,12 @@ model 'Google Gemini Flash Latest'
       '65 536'
   costs
     input
-      1.5
+      0.75
     output
-      9
+      3.75
     cacheRead
-      0.15
+      0.075
     cacheWrite
-      0.083333
+      0.041667
     reasoning
-      9
+      3.75

@@ -5,31 +5,37 @@ model 'Mistral: Voxtral Small 24B 2507'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral'
   status
     active
   released at
-    2025-07-01
+    2025-10-30
   last updated at
-    2025-07-01
+    2025-10-30
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text audio
+      text audio pdf
     output
       text
   limits
     context
-      '32 000'
+      '32 768'
     output
-      6400
+      '26 214'
   costs
     input
       0.1
     output
       0.3
+    cacheRead
+      0.01

@@ -1,0 +1,34 @@
+model 'mistral-7b-instruct-v0.2'
+  has id
+    'mistral-7b-instruct-v0.2'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-05-26
+  last updated at
+    2025-05-26
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      8192
+  costs
+    input
+      0.159
+    output
+      0.219

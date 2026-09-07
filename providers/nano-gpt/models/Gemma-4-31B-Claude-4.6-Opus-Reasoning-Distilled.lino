@@ -5,6 +5,8 @@ model 'Gemma 4 31B Claude 4.6 Opus Reasoning Distilled'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude'
   status
     active
   released at
@@ -12,15 +14,16 @@ model 'Gemma 4 31B Claude 4.6 Opus Reasoning Distilled'
   last updated at
     2026-05-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
       attachments
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits

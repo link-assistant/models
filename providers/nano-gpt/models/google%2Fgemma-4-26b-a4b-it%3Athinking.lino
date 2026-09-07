@@ -5,6 +5,8 @@ model 'Gemma 4 26B A4B Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemma'
   status
     active
   released at
@@ -12,10 +14,12 @@ model 'Gemma 4 26B A4B Thinking'
   last updated at
     2026-04-02
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
+      temperature
       attachments
       structured output
     )
@@ -36,3 +40,5 @@ model 'Gemma 4 26B A4B Thinking'
       0.13
     output
       0.4
+    cacheRead
+      0.065

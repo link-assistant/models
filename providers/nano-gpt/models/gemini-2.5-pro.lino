@@ -5,33 +5,43 @@ model 'Gemini 2.5 Pro'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini-pro'
   status
     active
   released at
-    2025-06-05
+    2025-06-17
   last updated at
-    2025-06-05
+    2025-06-17
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
       reasoning
+      tool calls
+      temperature
       attachments
     )
   modalities
     input
-      text image
+      text image audio
     output
       text
   limits
     context
-      '1 048 756'
+      '1 048 576'
     input
-      '1 048 756'
+      '1 048 576'
     output
       '65 536'
   costs
     input
-      2.5
+      1.25
     output
       10
+    cacheRead
+      0.125
+    cacheWrite
+      0.375

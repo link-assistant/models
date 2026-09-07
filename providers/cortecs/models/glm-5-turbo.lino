@@ -29,15 +29,15 @@ model 'GLM-5-Turbo'
       text
   limits
     context
-      '200 000'
+      '202 752'
     output
-      '131 072'
+      '202 752'
   costs
     input
-      1.235
+      1.186
     output
-      4.118
+      3.955
     cacheRead
-      0.308
+      0.296
     cacheWrite
       1.544

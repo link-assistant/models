@@ -6,7 +6,7 @@ model 'Step-3'
   provided by
     'ZenMux'
   status
-    active
+    deprecated
   released at
     2025-07-31
   last updated at

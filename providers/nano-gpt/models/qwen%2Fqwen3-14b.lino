@@ -5,6 +5,8 @@ model 'Qwen 3 14b'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Qwen 3 14b'
   last updated at
     2024-01-01
   weights
-    closed
+    open
   modalities
     input
       text
@@ -30,3 +32,5 @@ model 'Qwen 3 14b'
       0.08
     output
       0.24
+    cacheRead
+      0.04

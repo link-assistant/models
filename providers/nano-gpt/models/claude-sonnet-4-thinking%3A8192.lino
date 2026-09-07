@@ -5,18 +5,23 @@ model 'Claude 4 Sonnet Thinking (8K)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-sonnet'
   status
     active
   released at
     2025-05-22
   last updated at
     2025-05-22
+  has knowledge cutoff at
+    2025-03-31
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -34,6 +39,8 @@ model 'Claude 4 Sonnet Thinking (8K)'
       '64 000'
   costs
     input
-      2.992
+      3
     output
-      14.994
+      15
+    cacheRead
+      0.3

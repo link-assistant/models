@@ -1,0 +1,36 @@
+model 'cosmos3-super-reasoner'
+  has id
+    'cosmos3-super-reasoner'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2026-06-02
+  last updated at
+    2026-06-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.099
+    output
+      0.296

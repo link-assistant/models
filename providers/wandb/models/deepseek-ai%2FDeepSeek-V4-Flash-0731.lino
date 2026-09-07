@@ -1,0 +1,43 @@
+model 'DeepSeek V4 Flash 0731'
+  has id
+    'deepseek-ai/DeepSeek-V4-Flash-0731'
+  provider id
+    'wandb'
+  provided by
+    'Weights & Biases'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-07-31
+  last updated at
+    2026-07-31
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.13
+    output
+      0.28
+    cacheRead
+      0.07

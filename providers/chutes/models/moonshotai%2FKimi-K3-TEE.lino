@@ -1,0 +1,42 @@
+model 'Kimi K3 TEE'
+  has id
+    'moonshotai/Kimi-K3-TEE'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-07-29
+  last updated at
+    2026-07-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 535'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.29999999999999993

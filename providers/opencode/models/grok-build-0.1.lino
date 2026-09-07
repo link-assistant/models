@@ -10,9 +10,9 @@ model 'Grok Build 0.1'
   status
     active
   released at
-    2026-05-20
+    2026-04-16
   last updated at
-    2026-05-20
+    2026-04-16
   weights
     closed
   capabilities
@@ -25,7 +25,7 @@ model 'Grok Build 0.1'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

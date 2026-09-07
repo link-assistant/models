@@ -6,15 +6,21 @@ model 'Qwen3.6 Max Preview'
   provided by
     'NanoGPT'
   family
-    'qwen3.6'
+    'qwen'
   status
     active
   released at
     2026-04-20
   last updated at
-    2026-04-21
+    2026-04-20
+  has knowledge cutoff at
+    2025-04
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -22,11 +28,15 @@ model 'Qwen3.6 Max Preview'
       text
   limits
     context
-      '245 800'
+      '245 760'
+    input
+      '245 760'
     output
       '65 536'
   costs
     input
-      1.3
+      1.04
     output
-      7.8
+      6.24
+    cacheRead
+      0.52

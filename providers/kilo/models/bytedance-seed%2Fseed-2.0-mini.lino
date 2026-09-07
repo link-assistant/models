@@ -1,28 +1,31 @@
-model 'ByteDance Seed: Seed-2.0-Mini'
+model 'Seed 2.0 Mini'
   has id
     'bytedance-seed/seed-2.0-mini'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'seed'
   status
     active
   released at
-    2026-02-27
+    2026-02-14
   last updated at
-    2026-03-15
+    2026-02-14
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text video
+      text image video
     output
       text
   limits

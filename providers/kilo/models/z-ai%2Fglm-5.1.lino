@@ -1,16 +1,18 @@
-model 'Z.ai: GLM 5.1'
+model 'GLM-5.1'
   has id
     'z-ai/glm-5.1'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'glm'
   status
     active
   released at
-    2026-03-27
+    2026-04-07
   last updated at
-    2026-03-27
+    2026-04-07
   weights
     open
   capabilities
@@ -18,6 +20,7 @@ model 'Z.ai: GLM 5.1'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -26,11 +29,13 @@ model 'Z.ai: GLM 5.1'
       text
   limits
     context
-      '202 752'
+      '200 000'
     output
-      '131 072'
+      '128 000'
   costs
     input
-      1.26
+      1.4
     output
-      3.96
+      4.4
+    cacheRead
+      0.26

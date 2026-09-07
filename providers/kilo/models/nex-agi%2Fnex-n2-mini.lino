@@ -1,0 +1,42 @@
+model 'Nex AGI: Nex-N2-Mini (retires Sep 8)'
+  has id
+    'nex-agi/nex-n2-mini'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'agi'
+  status
+    active
+  released at
+    2026-06-24
+  last updated at
+    2026-06-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '235 929'
+  costs
+    input
+      0.025
+    output
+      0.1
+    cacheRead
+      0.0025

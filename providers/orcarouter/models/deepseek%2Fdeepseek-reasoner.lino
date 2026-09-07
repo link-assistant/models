@@ -37,8 +37,8 @@ model 'DeepSeek Reasoner'
       '384 000'
   costs
     input
-      0.435
+      0.147
     output
-      0.87
+      0.295
     cacheRead
       0.028

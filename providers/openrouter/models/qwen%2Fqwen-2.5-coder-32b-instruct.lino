@@ -28,9 +28,9 @@ model 'Qwen2.5 Coder 32B Instruct'
       text
   limits
     context
-      '128 000'
-    output
       '32 768'
+    output
+      '29 491'
   costs
     input
       0.66

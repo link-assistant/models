@@ -1,16 +1,20 @@
-model 'Mistral: Mistral Large 3 2512'
+model 'Mistral Large 3'
   has id
     'mistralai/mistral-large-2512'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral-large'
   status
     active
   released at
     2024-11-01
   last updated at
-    2025-12-16
+    2025-12-02
+  has knowledge cutoff at
+    2024-11
   weights
     open
   capabilities
@@ -18,19 +22,22 @@ model 'Mistral: Mistral Large 3 2512'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
       '262 144'
     output
-      '52 429'
+      '209 715'
   costs
     input
       0.5
     output
       1.5
+    cacheRead
+      0.05

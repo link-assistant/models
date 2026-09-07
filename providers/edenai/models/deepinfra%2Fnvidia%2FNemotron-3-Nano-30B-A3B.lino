@@ -1,0 +1,41 @@
+model 'Nemotron 3 Nano 30B A3B (Deep Infra)'
+  has id
+    'deepinfra/nvidia/Nemotron-3-Nano-30B-A3B'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-12-15
+  last updated at
+    2025-12-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.05
+    output
+      0.2
+    cacheRead
+      0.025

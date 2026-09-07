@@ -1,4 +1,4 @@
-model 'Seed-2.0-Lite'
+model 'Seed 2.0 Lite'
   has id
     'bytedance-seed/seed-2.0-lite'
   provider id
@@ -10,9 +10,9 @@ model 'Seed-2.0-Lite'
   status
     active
   released at
-    2026-03-10
+    2026-02-14
   last updated at
-    2026-03-10
+    2026-02-14
   weights
     closed
   capabilities

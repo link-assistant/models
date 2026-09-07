@@ -8,14 +8,15 @@ model 'TheDrummer: Skyfall 36B V2'
   status
     active
   released at
-    2025-03-11
+    2025-03-10
   last updated at
-    2026-03-15
+    2025-03-10
   weights
-    open
+    closed
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input
@@ -26,9 +27,11 @@ model 'TheDrummer: Skyfall 36B V2'
     context
       '32 768'
     output
-      '32 768'
+      '29 491'
   costs
     input
       0.55
     output
       0.8
+    cacheRead
+      0.25

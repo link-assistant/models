@@ -1,0 +1,46 @@
+model 'Muse Glimmer 30B TEE'
+  has id
+    'TEE/muse-glimmer-30b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'muse'
+  status
+    active
+  released at
+    2026-08-10
+  last updated at
+    2026-08-10
+  has knowledge cutoff at
+    2026-01-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    input
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.35
+    output
+      1.5
+    cacheRead
+      0.04

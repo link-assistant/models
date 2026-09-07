@@ -5,14 +5,16 @@ model 'Baidu: ERNIE 4.5 VL 424B A47B '
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'ernie'
   status
     active
   released at
     2025-06-30
   last updated at
-    2026-01
+    2025-06-30
   weights
-    open
+    closed
   capabilities
     (
       reasoning

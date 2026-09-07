@@ -10,11 +10,15 @@ model 'Kimi K2 0711 Instruct FP4'
   status
     active
   released at
-    2025-07-11
+    2024-01-01
   last updated at
     2025-07-11
   weights
-    closed
+    open
+  capabilities
+    (
+      tool calls
+    )
   modalities
     input
       text
@@ -22,13 +26,15 @@ model 'Kimi K2 0711 Instruct FP4'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
-      '128 000'
+      '131 072'
     output
       '131 072'
   costs
     input
-      0.1
+      0.4
     output
-      2
+      1.8
+    cacheRead
+      0.2

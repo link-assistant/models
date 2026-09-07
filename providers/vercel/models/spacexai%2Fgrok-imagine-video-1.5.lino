@@ -1,0 +1,27 @@
+model 'Grok Imagine Video 1.5'
+  has id
+    'spacexai/grok-imagine-video-1.5'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-05-30
+  last updated at
+    2026-05-30
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

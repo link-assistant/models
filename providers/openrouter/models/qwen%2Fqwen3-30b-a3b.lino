@@ -13,8 +13,6 @@ model 'Qwen3 30B A3B'
     2025-04-28
   last updated at
     2025-04-28
-  has knowledge cutoff at
-    2025-03-31
   weights
     open
   capabilities
@@ -22,7 +20,6 @@ model 'Qwen3 30B A3B'
       reasoning
       tool calls
       temperature
-      structured output
     )
   modalities
     input

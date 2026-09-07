@@ -1,0 +1,39 @@
+model 'Qwen3.6 27B'
+  has id
+    'qwen/qwen3.6-27b'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.289
+    output
+      2.4

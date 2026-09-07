@@ -5,34 +5,35 @@ model 'Google: Gemma 3 27B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gemma'
   status
     active
   released at
     2025-03-12
   last updated at
-    2026-03-15
+    2025-03-12
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      text image
     output
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      '65 536'
+      '117 964'
   costs
     input
-      0.03
+      0.08
     output
-      0.11
-    cacheRead
-      0.02
+      0.16

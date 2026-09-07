@@ -1,0 +1,31 @@
+model 'Veo 3.1 lite'
+  has id
+    'veo-3.1-lite-generate-preview'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'veo'
+  status
+    active
+  released at
+    2026-03-31
+  last updated at
+    2026-03-31
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      480
+    output
+      8192

@@ -5,18 +5,21 @@ model 'GLM 5V Turbo Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'glm'
   status
     active
   released at
-    2026-04-02
+    2026-04-01
   last updated at
-    2026-04-02
+    2026-04-01
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -31,7 +34,7 @@ model 'GLM 5V Turbo Thinking'
     input
       '202 800'
     output
-      '131 100'
+      '131 072'
   costs
     input
       1.2

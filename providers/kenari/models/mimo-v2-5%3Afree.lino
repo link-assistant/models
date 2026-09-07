@@ -1,0 +1,41 @@
+model 'MiMo-V2.5 (Free)'
+  has id
+    'mimo-v2-5:free'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0

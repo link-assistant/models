@@ -1,0 +1,36 @@
+model 'GPT-4o Transcribe (OpenAI)'
+  has id
+    'openai/gpt-4o-transcribe'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-03-20
+  last updated at
+    2025-03-20
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '16 000'
+    output
+      2000
+  costs
+    input
+      2.5
+    output
+      10

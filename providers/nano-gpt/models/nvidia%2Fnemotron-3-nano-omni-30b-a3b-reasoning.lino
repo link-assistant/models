@@ -14,7 +14,7 @@ model 'Nvidia Nemotron 3 Nano Omni'
   last updated at
     2026-04-28
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -39,3 +39,5 @@ model 'Nvidia Nemotron 3 Nano Omni'
       0.105
     output
       0.42
+    cacheRead
+      0.0525

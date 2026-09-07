@@ -1,0 +1,45 @@
+model 'Qwen3.7 Flash'
+  has id
+    'qwen/qwen3.7-flash'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '991 000'
+    output
+      '65 536'
+  costs
+    input
+      0.03
+    output
+      0.13
+    cacheRead
+      0.006
+    cacheWrite
+      0.038

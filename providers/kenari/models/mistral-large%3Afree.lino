@@ -1,0 +1,40 @@
+model 'Mistral Large (Free)'
+  has id
+    'mistral-large:free'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'mistral-large'
+  status
+    active
+  released at
+    2024-11-01
+  last updated at
+    2025-12-02
+  has knowledge cutoff at
+    2024-11
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

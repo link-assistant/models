@@ -1,0 +1,38 @@
+model 'nvidia-nemotron-3-super-120b-a12b'
+  has id
+    'nvidia-nemotron-3-super-120b-a12b'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.1
+    output
+      0.5

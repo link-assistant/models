@@ -29,7 +29,7 @@ model 'Nemotron 3 Super 120B A12B'
       text
   limits
     context
-      '1 000 000'
+      '256 000'
     output
       '32 000'
   costs

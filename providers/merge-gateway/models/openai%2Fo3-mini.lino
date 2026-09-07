@@ -1,4 +1,4 @@
-model 'o3-mini'
+model 'o3 Mini'
   has id
     'openai/o3-mini'
   provider id

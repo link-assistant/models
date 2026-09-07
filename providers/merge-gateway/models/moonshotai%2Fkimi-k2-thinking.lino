@@ -8,7 +8,7 @@ model 'Kimi K2 Thinking'
   family
     'kimi-thinking'
   status
-    active
+    deprecated
   released at
     2025-11-06
   last updated at

@@ -10,14 +10,14 @@ model 'Code Max'
   released at
     2026-05-04
   last updated at
-    2026-07-06
+    2026-07-24
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
+      attachments
       structured output
       interleaved output
     )

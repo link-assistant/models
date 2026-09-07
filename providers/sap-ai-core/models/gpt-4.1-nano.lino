@@ -1,0 +1,41 @@
+model 'gpt-4.1-nano'
+  has id
+    'gpt-4.1-nano'
+  provider id
+    'sap-ai-core'
+  provided by
+    'SAP AI Core'
+  family
+    'gpt-nano'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2025-04-14
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 047 576'
+    output
+      '32 768'
+  costs
+    input
+      0.08
+    output
+      0.26

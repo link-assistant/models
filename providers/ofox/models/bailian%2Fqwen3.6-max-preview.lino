@@ -1,0 +1,44 @@
+model 'Qwen3.6 Max Preview'
+  has id
+    'bailian/qwen3.6-max-preview'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-20
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      2.15
+    output
+      12.86
+    cacheRead
+      0.2
+    cacheWrite
+      1.17

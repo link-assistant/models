@@ -23,7 +23,7 @@ model 'Nano Banana (Gemini 2.5 Flash Image)'
     )
   modalities
     input
-      text
+      text image
     output
       text image
   limits

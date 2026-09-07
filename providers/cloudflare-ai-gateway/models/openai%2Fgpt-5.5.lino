@@ -31,7 +31,7 @@ model 'GPT-5.5'
       text
   limits
     context
-      '1 050 000'
+      '1 000 000'
     input
       '922 000'
     output
@@ -41,5 +41,3 @@ model 'GPT-5.5'
       5
     output
       30
-    cacheRead
-      0.5

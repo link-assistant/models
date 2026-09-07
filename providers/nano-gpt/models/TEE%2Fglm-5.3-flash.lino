@@ -1,0 +1,44 @@
+model 'GLM 5.3 Flash TEE'
+  has id
+    'TEE/glm-5.3-flash'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.15
+    output
+      0.5
+    cacheRead
+      0.03

@@ -4,7 +4,7 @@ model 'Nemotron 3 Ultra 550B A55B'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'nemotron'
   status
@@ -28,13 +28,13 @@ model 'Nemotron 3 Ultra 550B A55B'
       text
   limits
     context
-      '262 144'
+      '1 048 576'
     output
       '128 000'
   costs
     input
       0.5
     output
-      2.5
+      2.2
     cacheRead
-      0.15
+      0.1

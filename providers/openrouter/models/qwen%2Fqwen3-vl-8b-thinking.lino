@@ -30,11 +30,11 @@ model 'Qwen3 VL 8B Thinking'
       text
   limits
     context
-      '256 000'
+      '131 072'
     output
       '32 768'
   costs
     input
-      0.117
+      0.18
     output
-      1.365
+      2.1

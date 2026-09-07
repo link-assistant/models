@@ -1,0 +1,44 @@
+model 'Kimi K3'
+  has id
+    'moonshotai/Kimi-K3'
+  provider id
+    'modal'
+  provided by
+    'Modal'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-07-16
+  last updated at
+    2026-07-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.3
+    reasoning
+      15

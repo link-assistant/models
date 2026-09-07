@@ -33,7 +33,7 @@ model 'Gemma 4 E2B IT'
     context
       '32 768'
     output
-      4096
+      '32 768'
   costs
     input
       0.1

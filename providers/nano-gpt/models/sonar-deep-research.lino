@@ -5,12 +5,16 @@ model 'Perplexity Deep Research'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'sonar'
   status
     active
   released at
-    2025-02-25
+    2025-02-01
   last updated at
-    2025-02-25
+    2025-09-01
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   modalities
@@ -20,13 +24,15 @@ model 'Perplexity Deep Research'
       text
   limits
     context
-      '60 000'
-    input
-      '60 000'
-    output
       '128 000'
+    input
+      '128 000'
+    output
+      '115 200'
   costs
     input
       3.4
     output
       13.6
+    cacheRead
+      1.7

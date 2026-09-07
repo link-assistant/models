@@ -14,7 +14,7 @@ model 'Veiled Calla 12B'
   last updated at
     2025-04-13
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Veiled Calla 12B'
       0.3
     output
       0.3
+    cacheRead
+      0.15

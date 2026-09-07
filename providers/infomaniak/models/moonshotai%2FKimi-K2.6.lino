@@ -1,0 +1,45 @@
+model 'Kimi K2.6'
+  has id
+    'moonshotai/Kimi-K2.6'
+  provider id
+    'infomaniak'
+  provided by
+    'Infomaniak'
+  family
+    'kimi-k2'
+  status
+    beta
+  released at
+    2026-04-21
+  last updated at
+    2026-08-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.74
+    output
+      3.72

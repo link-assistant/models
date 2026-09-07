@@ -31,9 +31,9 @@ model 'GPT OSS 120B'
     context
       '131 072'
     output
-      '131 072'
+      '117 964'
   costs
     input
-      0.036
+      0.037
     output
-      0.18
+      0.17

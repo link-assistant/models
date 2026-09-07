@@ -6,7 +6,7 @@ model 'Grok 4.1 Fast'
   provided by
     'ZenMux'
   status
-    active
+    deprecated
   released at
     2025-11-20
   last updated at

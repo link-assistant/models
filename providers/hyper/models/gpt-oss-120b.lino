@@ -1,0 +1,41 @@
+model 'GPT OSS 120B'
+  has id
+    'gpt-oss-120b'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2026-04-13
+  last updated at
+    2026-07-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 072'
+    output
+      '13 107'
+  costs
+    input
+      0.188
+    output
+      0.7
+    cacheWrite
+      0.094

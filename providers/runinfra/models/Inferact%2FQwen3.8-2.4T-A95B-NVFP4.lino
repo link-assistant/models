@@ -1,0 +1,41 @@
+model 'Qwen3.8 2.4T A95B (NVFP4)'
+  has id
+    'Inferact/Qwen3.8-2.4T-A95B-NVFP4'
+  provider id
+    'runinfra'
+  provided by
+    'RunInfra'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      2
+    output
+      6
+    cacheRead
+      0.2

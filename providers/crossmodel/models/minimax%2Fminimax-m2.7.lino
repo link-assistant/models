@@ -20,6 +20,7 @@ model 'MiniMax-M2.7'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

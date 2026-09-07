@@ -1,0 +1,38 @@
+model 'voxtral-small-2507'
+  has id
+    'voxtral-small-2507'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2026-02-02
+  last updated at
+    2026-02-02
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.111
+    output
+      0.334
+    cacheRead
+      0.011

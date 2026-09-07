@@ -1,28 +1,30 @@
-model 'OpenAI: GPT-5 Image'
+model 'OpenAI: GPT-5 Image ($$$$)'
   has id
     'openai/gpt-5-image'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
     2025-10-14
   last updated at
-    2026-03-15
+    2025-10-14
   weights
     closed
   capabilities
     (
       reasoning
-      tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image pdf text
+      image text pdf
     output
       image text
   limits
@@ -35,3 +37,5 @@ model 'OpenAI: GPT-5 Image'
       10
     output
       10
+    cacheRead
+      1.25

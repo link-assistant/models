@@ -32,7 +32,7 @@ model 'Grok Build 0.1'
     context
       '256 000'
     output
-      '256 000'
+      '230 400'
   costs
     input
       1

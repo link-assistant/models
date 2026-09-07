@@ -4,7 +4,7 @@ model 'Qwen3 235B A22B Instruct (2507)'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status

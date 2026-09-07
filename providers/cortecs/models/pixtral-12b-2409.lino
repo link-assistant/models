@@ -1,0 +1,37 @@
+model 'pixtral-12b-2409'
+  has id
+    'pixtral-12b-2409'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2024-11-09
+  last updated at
+    2024-11-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.223
+    output
+      0.223

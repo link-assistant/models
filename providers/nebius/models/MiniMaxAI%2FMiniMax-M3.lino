@@ -1,0 +1,38 @@
+model 'MiniMax-M3'
+  has id
+    'MiniMaxAI/MiniMax-M3'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.3
+    output
+      1.2

@@ -5,19 +5,22 @@ model 'Qwen: Qwen3 VL 30B A3B Instruct'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-10-05
+    2025-10-06
   last updated at
-    2025-11-25
+    2025-10-06
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -26,9 +29,9 @@ model 'Qwen: Qwen3 VL 30B A3B Instruct'
       text
   limits
     context
-      '131 072'
+      '262 144'
     output
-      '32 768'
+      '16 384'
   costs
     input
       0.13

@@ -4,7 +4,7 @@ model 'DeepSeek V4 Flash'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'deepseek-flash'
   status
@@ -37,8 +37,8 @@ model 'DeepSeek V4 Flash'
       '384 000'
   costs
     input
-      0.14
+      0.05
     output
-      0.28
+      0.1
     cacheRead
-      0.0028
+      0.01

@@ -21,21 +21,24 @@ model 'Kimi K2.5'
     (
       reasoning
       tool calls
+      attachments
       structured output
       interleaved output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
     context
       '262 144'
     output
-      '32 768'
+      '262 144'
   costs
     input
       0.5
     output
       2.7
+    cacheRead
+      0.203

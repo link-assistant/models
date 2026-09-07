@@ -1,0 +1,41 @@
+model 'mistralai--mistral-small'
+  has id
+    'mistralai--mistral-small'
+  provider id
+    'sap-ai-core'
+  provided by
+    'SAP AI Core'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2026-03-16
+  last updated at
+    2026-03-16
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.07
+    output
+      0.28

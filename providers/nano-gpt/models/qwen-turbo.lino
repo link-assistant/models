@@ -5,14 +5,22 @@ model 'Qwen Turbo'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
     2024-11-01
   last updated at
-    2024-11-01
+    2025-04-28
+  has knowledge cutoff at
+    2024-04
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -30,3 +38,5 @@ model 'Qwen Turbo'
       0.04998
     output
       0.2006
+    cacheRead
+      0.02499

@@ -39,4 +39,4 @@ model 'Qwen3.6 27B TEE'
     output
       2
     cacheRead
-      0.15
+      0.029999999999999992

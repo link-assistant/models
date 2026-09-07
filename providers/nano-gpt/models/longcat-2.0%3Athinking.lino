@@ -1,0 +1,43 @@
+model 'LongCat 2.0 Thinking'
+  has id
+    'longcat-2.0:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'longcat'
+  status
+    active
+  released at
+    2026-06-30
+  last updated at
+    2026-06-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 756'
+    input
+      '1 048 756'
+    output
+      '262 144'
+  costs
+    input
+      0.75
+    output
+      3
+    cacheRead
+      0.015

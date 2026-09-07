@@ -12,7 +12,7 @@ model 'The Drummer Cydonia 24B v4.1'
   last updated at
     2025-08-19
   weights
-    closed
+    open
   modalities
     input
       text
@@ -20,13 +20,15 @@ model 'The Drummer Cydonia 24B v4.1'
       text
   limits
     context
-      '16 384'
+      '131 072'
     input
-      '16 384'
+      '131 072'
     output
-      '32 768'
+      '117 964'
   costs
     input
-      0.1003
+      0.35
     output
-      0.1207
+      0.55
+    cacheRead
+      0.16

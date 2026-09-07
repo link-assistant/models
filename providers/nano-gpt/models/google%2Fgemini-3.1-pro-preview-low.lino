@@ -5,6 +5,8 @@ model 'Gemini 3.1 Pro (Preview Low)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini'
   status
     active
   released at
@@ -22,14 +24,14 @@ model 'Gemini 3.1 Pro (Preview Low)'
     )
   modalities
     input
-      text image
+      text image audio
     output
       text
   limits
     context
-      '1 048 756'
+      '1 048 576'
     input
-      '1 048 756'
+      '1 048 576'
     output
       '65 536'
   costs
@@ -39,3 +41,5 @@ model 'Gemini 3.1 Pro (Preview Low)'
       12
     cacheRead
       0.2
+    cacheWrite
+      0.375

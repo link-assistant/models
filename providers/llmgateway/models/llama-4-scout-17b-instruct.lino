@@ -4,7 +4,7 @@ model 'Llama 4 Scout 17B Instruct'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'llama'
   status

@@ -1,4 +1,4 @@
-model 'DeepSeek V4 Pro'
+model 'Deepseek V4 Pro'
   has id
     'deepseek-v4-pro'
   provider id
@@ -34,9 +34,11 @@ model 'DeepSeek V4 Pro'
     context
       '1 048 576'
     output
-      '393 216'
+      '384 000'
   costs
     input
-      1.74
+      0.87
     output
-      3.48
+      1.74
+    cacheRead
+      0.174

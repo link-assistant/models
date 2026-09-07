@@ -5,12 +5,14 @@ model 'Mancer: Weaver (alpha)'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'alpha'
   status
     active
   released at
     2023-08-02
   last updated at
-    2026-03-15
+    2023-08-02
   weights
     closed
   capabilities
@@ -26,9 +28,9 @@ model 'Mancer: Weaver (alpha)'
     context
       8000
     output
-      2000
+      6000
   costs
     input
-      0.75
+      0.4
     output
-      1
+      0.75

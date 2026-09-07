@@ -1,4 +1,4 @@
-model 'GPT-5 Chat (latest)'
+model 'GPT-5 Chat Latest'
   has id
     'openai/gpt-5-chat-latest'
   provider id
@@ -19,23 +19,19 @@ model 'GPT-5 Chat (latest)'
     closed
   capabilities
     (
-      reasoning
-      temperature
       attachments
       structured output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
-      '400 000'
-    input
-      '272 000'
-    output
       '128 000'
+    output
+      '16 384'
   costs
     input
       1.25

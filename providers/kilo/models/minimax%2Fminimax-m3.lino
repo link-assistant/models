@@ -1,4 +1,4 @@
-model 'MiniMax: MiniMax M3'
+model 'MiniMax-M3'
   has id
     'minimax/minimax-m3'
   provider id
@@ -12,7 +12,7 @@ model 'MiniMax: MiniMax M3'
   released at
     2026-06-01
   last updated at
-    2026-06-30
+    2026-06-01
   weights
     open
   capabilities
@@ -21,6 +21,7 @@ model 'MiniMax: MiniMax M3'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -29,7 +30,7 @@ model 'MiniMax: MiniMax M3'
       text
   limits
     context
-      '1 048 576'
+      '524 288'
     output
       '512 000'
   costs

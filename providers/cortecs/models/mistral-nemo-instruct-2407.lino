@@ -1,0 +1,37 @@
+model 'mistral-nemo-instruct-2407'
+  has id
+    'mistral-nemo-instruct-2407'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2024-08-07
+  last updated at
+    2024-08-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.145
+    output
+      0.145
+    cacheRead
+      0.014

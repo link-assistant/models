@@ -5,6 +5,8 @@ model 'Mistral Code Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'mistral'
   status
     active
   released at
@@ -35,3 +37,5 @@ model 'Mistral Code Latest'
       0.3
     output
       0.9
+    cacheRead
+      0.15

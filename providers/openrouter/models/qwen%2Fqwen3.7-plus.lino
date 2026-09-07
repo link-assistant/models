@@ -34,7 +34,7 @@ model 'Qwen3.7 Plus'
     context
       '1 000 000'
     output
-      '65 536'
+      '131 072'
   costs
     input
       0.32

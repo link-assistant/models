@@ -5,6 +5,8 @@ model 'Claude Sonnet Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-sonnet'
   status
     active
   released at
@@ -34,8 +36,10 @@ model 'Claude Sonnet Latest'
       '128 000'
   costs
     input
-      2.992
+      2
     output
-      14.994
+      10
     cacheRead
-      0.2992
+      0.2
+    cacheWrite
+      2.5

@@ -33,11 +33,11 @@ model 'DeepSeek V4 Pro'
     context
       '1 048 576'
     output
-      '384 000'
+      '1 048 576'
   costs
     input
-      1.553
+      1.73
     output
-      3.106
+      3.46
     cacheRead
-      0.003625
+      0.432

@@ -27,7 +27,7 @@ model 'Kimi K2.7 Code'
     )
   modalities
     input
-      text image video
+      text image pdf
     output
       text
   limits
@@ -37,8 +37,8 @@ model 'Kimi K2.7 Code'
       '262 144'
   costs
     input
-      1.28
+      0.75
     output
-      4.63
+      3.5
     cacheRead
-      0.32
+      0.201

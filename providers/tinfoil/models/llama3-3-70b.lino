@@ -30,7 +30,7 @@ model 'Llama-3.3-70B-Instruct'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
       4096
   costs

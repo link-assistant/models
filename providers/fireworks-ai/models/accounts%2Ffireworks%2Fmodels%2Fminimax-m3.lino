@@ -25,7 +25,7 @@ model 'MiniMax-M3'
     )
   modalities
     input
-      text
+      text image video
     output
       text
   limits

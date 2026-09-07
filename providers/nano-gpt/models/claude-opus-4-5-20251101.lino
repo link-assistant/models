@@ -5,18 +5,23 @@ model 'Claude 4.5 Opus'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-opus'
   status
     active
   released at
     2025-11-01
   last updated at
     2025-11-01
+  has knowledge cutoff at
+    2025-05
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -31,9 +36,11 @@ model 'Claude 4.5 Opus'
     input
       '200 000'
     output
-      '32 000'
+      '64 000'
   costs
     input
-      4.998
+      5
     output
-      25.007
+      25
+    cacheRead
+      0.5
