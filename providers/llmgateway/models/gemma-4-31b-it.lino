@@ -4,7 +4,7 @@ model 'Gemma 4 31B IT'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'gemma'
   status
@@ -35,6 +35,8 @@ model 'Gemma 4 31B IT'
       '32 768'
   costs
     input
-      0.13
+      0.102
     output
-      0.38
+      0.297
+    cacheRead
+      0.012

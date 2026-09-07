@@ -1,0 +1,40 @@
+model 'GLM 4.6V Flash'
+  has id
+    'glm-4-6v-flash'
+  provider id
+    'empiriolabs'
+  provided by
+    'EmpirioLabs AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-08
+  last updated at
+    2025-12-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

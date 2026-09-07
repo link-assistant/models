@@ -1,0 +1,45 @@
+model 'GPT-5.6 Luna'
+  has id
+    'databricks-gpt-5-6-luna'
+  provider id
+    'databricks'
+  provided by
+    'Databricks'
+  family
+    'gpt-luna'
+  status
+    active
+  released at
+    2026-07-09
+  last updated at
+    2026-07-09
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      1
+    output
+      6
+    cacheRead
+      0.1

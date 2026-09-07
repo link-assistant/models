@@ -1,0 +1,31 @@
+model 'MiniMax H3'
+  has id
+    'minimax/minimax-h3'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-07-30
+  last updated at
+    2026-07-30
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

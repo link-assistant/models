@@ -5,14 +5,22 @@ model 'Perplexity Pro'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'sonar-pro'
   status
     active
   released at
-    2025-02-19
+    2024-01-01
   last updated at
-    2025-02-19
+    2025-09-01
+  has knowledge cutoff at
+    2025-09-01
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -27,6 +35,8 @@ model 'Perplexity Pro'
       '128 000'
   costs
     input
-      2.992
+      3
     output
-      14.994
+      15
+    cacheRead
+      1.5

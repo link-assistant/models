@@ -1,0 +1,41 @@
+model 'MiniMax-M3'
+  has id
+    'minimax-m3'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-07-30
+  last updated at
+    2026-07-31
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '512 000'
+    output
+      '512 000'
+  costs
+    input
+      0.32664
+    output
+      1.30656
+    cacheRead
+      0.064239

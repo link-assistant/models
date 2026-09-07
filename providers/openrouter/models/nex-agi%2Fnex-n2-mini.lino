@@ -32,7 +32,7 @@ model 'Nex-N2-Mini'
     context
       '262 144'
     output
-      '262 144'
+      '235 929'
   costs
     input
       0.025

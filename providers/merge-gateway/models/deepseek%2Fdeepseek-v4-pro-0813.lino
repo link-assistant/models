@@ -1,0 +1,41 @@
+model 'DeepSeek V4 Pro 0813'
+  has id
+    'deepseek/deepseek-v4-pro-0813'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.66
+    output
+      1.98
+    cacheRead
+      0.022

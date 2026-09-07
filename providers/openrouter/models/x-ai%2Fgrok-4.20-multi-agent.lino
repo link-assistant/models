@@ -33,7 +33,7 @@ model 'Grok 4.20 Multi-Agent'
     context
       '2 000 000'
     output
-      '2 000 000'
+      '1 800 000'
   costs
     input
       1.25

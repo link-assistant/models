@@ -31,4 +31,6 @@ model 'Codestral 2508'
     input
       0.3
     output
-      0.8999999999999999
+      0.9
+    cacheRead
+      0.15

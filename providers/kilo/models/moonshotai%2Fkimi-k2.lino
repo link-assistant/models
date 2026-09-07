@@ -5,14 +5,16 @@ model 'MoonshotAI: Kimi K2 0711'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'kimi-k2'
   status
     active
   released at
     2025-07-11
   last updated at
-    2026-03-15
+    2025-07-11
   weights
-    open
+    closed
   capabilities
     (
       tool calls
@@ -25,11 +27,11 @@ model 'MoonshotAI: Kimi K2 0711'
       text
   limits
     context
-      '131 000'
+      '131 072'
     output
-      '26 215'
+      '100 352'
   costs
     input
-      0.55
+      0.57
     output
-      2.2
+      2.3

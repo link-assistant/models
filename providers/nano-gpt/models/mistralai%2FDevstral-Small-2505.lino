@@ -14,7 +14,7 @@ model 'Mistral Devstral Small 2505'
   last updated at
     2025-08-02
   weights
-    closed
+    open
   modalities
     input
       text
@@ -29,6 +29,8 @@ model 'Mistral Devstral Small 2505'
       8192
   costs
     input
-      0.060000000000000005
+      0.06
     output
-      0.060000000000000005
+      0.06
+    cacheRead
+      0.03

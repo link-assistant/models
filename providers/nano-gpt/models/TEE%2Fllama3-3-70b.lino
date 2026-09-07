@@ -14,7 +14,7 @@ model 'Llama 3.3 70B'
   last updated at
     2025-07-03
   weights
-    closed
+    open
   modalities
     input
       text
@@ -29,6 +29,8 @@ model 'Llama 3.3 70B'
       '16 384'
   costs
     input
-      2
+      1.75
     output
-      2
+      2.75
+    cacheRead
+      1.75

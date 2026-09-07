@@ -1,0 +1,38 @@
+model 'Llama 3.1 Nemotron Ultra 253B'
+  has id
+    'nvidia/llama-3.1-nemotron-ultra-253b-v1'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-04-07
+  last updated at
+    2025-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

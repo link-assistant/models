@@ -1,0 +1,41 @@
+model 'Qwen3 Coder Next (EmberCloud)'
+  has id
+    'embercloud/qwen3-coder-next'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-03
+  last updated at
+    2026-02-03
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.108
+    output
+      0.675
+    cacheRead
+      0.06

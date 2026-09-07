@@ -1,0 +1,40 @@
+model 'Command A'
+  has id
+    'cohere/command-a-03-2025'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'command-a'
+  status
+    active
+  released at
+    2025-03-13
+  last updated at
+    2025-03-13
+  has knowledge cutoff at
+    2024-06-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '288 000'
+    output
+      8000
+  costs
+    input
+      2.5
+    output
+      10

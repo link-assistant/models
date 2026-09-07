@@ -5,17 +5,22 @@ model 'Qwen Plus'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
     2024-01-25
   last updated at
-    2024-01-25
+    2025-09-11
+  has knowledge cutoff at
+    2024-04
   weights
     closed
   capabilities
     (
       reasoning
+      temperature
     )
   modalities
     input
@@ -34,3 +39,5 @@ model 'Qwen Plus'
       0.3995
     output
       1.2002
+    cacheRead
+      0.19975

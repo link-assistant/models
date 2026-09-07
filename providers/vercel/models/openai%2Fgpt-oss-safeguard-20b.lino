@@ -30,15 +30,13 @@ model 'gpt-oss-safeguard-20b'
       text
   limits
     context
-      '131 072'
+      '128 000'
     input
-      '65 536'
+      '112 000'
     output
-      '65 536'
+      '16 000'
   costs
     input
-      0.075
+      0.07
     output
-      0.3
-    cacheRead
-      0.037
+      0.2

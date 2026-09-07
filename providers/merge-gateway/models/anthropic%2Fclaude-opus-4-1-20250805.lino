@@ -1,4 +1,4 @@
-model 'Claude Opus 4.1'
+model 'Claude Opus 4.1 (20250805)'
   has id
     'anthropic/claude-opus-4-1-20250805'
   provider id
@@ -23,10 +23,11 @@ model 'Claude Opus 4.1'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits

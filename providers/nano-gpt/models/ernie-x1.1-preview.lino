@@ -5,6 +5,8 @@ model 'ERNIE X1.1'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'ernie'
   status
     active
   released at
@@ -34,3 +36,5 @@ model 'ERNIE X1.1'
       0.15
     output
       0.6
+    cacheRead
+      0.075

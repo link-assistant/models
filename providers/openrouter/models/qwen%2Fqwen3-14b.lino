@@ -31,11 +31,11 @@ model 'Qwen3 14B'
       text
   limits
     context
-      '131 702'
+      '131 072'
     output
-      '40 960'
+      '16 384'
   costs
     input
-      0.1
+      0.12
     output
       0.24

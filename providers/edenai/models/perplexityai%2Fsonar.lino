@@ -1,0 +1,39 @@
+model 'Sonar'
+  has id
+    'perplexityai/sonar'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'sonar'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2025-09-01
+  has knowledge cutoff at
+    2025-09-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '127 072'
+    output
+      4096
+  costs
+    input
+      1
+    output
+      1

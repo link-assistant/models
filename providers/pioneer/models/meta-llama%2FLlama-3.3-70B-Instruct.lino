@@ -19,11 +19,9 @@ model 'Llama-3.3-70B-Instruct'
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments
-      interleaved output
     )
   modalities
     input
@@ -32,9 +30,9 @@ model 'Llama-3.3-70B-Instruct'
       text
   limits
     context
-      '131 072'
+      '16 384'
     output
-      4096
+      '16 384'
   costs
     input
       0.9

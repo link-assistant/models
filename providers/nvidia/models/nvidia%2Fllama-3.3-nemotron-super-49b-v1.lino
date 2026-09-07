@@ -1,0 +1,38 @@
+model 'Llama 3.3 Nemotron Super 49B v1'
+  has id
+    'nvidia/llama-3.3-nemotron-super-49b-v1'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-04-07
+  last updated at
+    2025-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

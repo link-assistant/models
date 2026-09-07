@@ -8,15 +8,16 @@ model 'TheDrummer: UnslopNemo 12B'
   status
     active
   released at
-    2024-11-09
+    2024-11-08
   last updated at
-    2026-03-15
+    2024-11-08
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -25,9 +26,9 @@ model 'TheDrummer: UnslopNemo 12B'
       text
   limits
     context
-      '32 768'
+      '1 024 000'
     output
-      '32 768'
+      '819 200'
   costs
     input
       0.4

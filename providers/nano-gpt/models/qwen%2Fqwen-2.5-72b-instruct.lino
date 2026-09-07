@@ -5,6 +5,8 @@ model 'Qwen2.5 72B'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
@@ -12,7 +14,11 @@ model 'Qwen2.5 72B'
   last updated at
     2025-07-03
   weights
-    closed
+    open
+  capabilities
+    (
+      tool calls
+    )
   modalities
     input
       text
@@ -30,3 +36,5 @@ model 'Qwen2.5 72B'
       0.357
     output
       0.408
+    cacheRead
+      0.1785

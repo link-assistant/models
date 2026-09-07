@@ -30,7 +30,7 @@ model 'LFM2 24B A2B'
     context
       '32 768'
     output
-      4096
+      '32 768'
   costs
     input
       0.03

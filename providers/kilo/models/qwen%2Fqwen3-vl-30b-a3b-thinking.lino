@@ -5,24 +5,27 @@ model 'Qwen: Qwen3 VL 30B A3B Thinking'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-10-11
+    2025-10-06
   last updated at
-    2026-03-15
+    2025-10-06
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      text image
     output
       text
   limits
@@ -32,6 +35,6 @@ model 'Qwen: Qwen3 VL 30B A3B Thinking'
       '32 768'
   costs
     input
-      0.13
+      0.2
     output
-      1.56
+      2.4

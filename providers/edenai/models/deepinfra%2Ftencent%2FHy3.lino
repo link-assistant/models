@@ -1,0 +1,41 @@
+model 'Hy3 (Deep Infra)'
+  has id
+    'deepinfra/tencent/Hy3'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-07-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '128 000'
+  costs
+    input
+      0.14
+    output
+      0.58
+    cacheRead
+      0.035

@@ -1,0 +1,42 @@
+model 'GLM Flash Latest'
+  has id
+    '~z-ai/glm-flash-latest'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-08-27
+  last updated at
+    2026-08-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 310 720'
+    output
+      '131 072'
+  costs
+    input
+      0.07125
+    output
+      0.2375
+    cacheRead
+      0.01425

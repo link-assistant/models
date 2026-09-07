@@ -10,11 +10,16 @@ model 'Qwen3.6 Flash'
   status
     active
   released at
-    2026-04-17
+    2026-04-27
   last updated at
-    2026-04-17
+    2026-04-27
   weights
     closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
   modalities
     input
       text image video
@@ -22,7 +27,9 @@ model 'Qwen3.6 Flash'
       text
   limits
     context
-      '991 800'
+      '991 808'
+    input
+      '991 808'
     output
       '65 536'
   costs
@@ -30,3 +37,7 @@ model 'Qwen3.6 Flash'
       0.19
     output
       1.16
+    cacheRead
+      0.02
+    cacheWrite
+      0.24

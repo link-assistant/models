@@ -1,0 +1,37 @@
+model 'nemotron-3.5-lightning-30b-a3b'
+  has id
+    'nemotron-3.5-lightning-30b-a3b'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

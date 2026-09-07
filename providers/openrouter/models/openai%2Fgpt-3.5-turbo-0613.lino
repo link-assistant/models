@@ -32,7 +32,7 @@ model 'GPT-3.5 Turbo (older v0613)'
     context
       4095
     output
-      4096
+      3685
   costs
     input
       1

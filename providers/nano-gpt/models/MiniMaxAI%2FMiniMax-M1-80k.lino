@@ -10,7 +10,7 @@ model 'MiniMax M1 80K'
   status
     active
   released at
-    2025-06-16
+    2025-01-08
   last updated at
     2025-06-16
   weights
@@ -31,4 +31,6 @@ model 'MiniMax M1 80K'
     input
       0.6052
     output
-      2.4225000000000003
+      2.4225
+    cacheRead
+      0.3026

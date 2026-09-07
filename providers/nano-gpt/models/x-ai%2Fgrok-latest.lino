@@ -5,6 +5,8 @@ model 'Grok Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'grok'
   status
     active
   released at
@@ -27,15 +29,15 @@ model 'Grok Latest'
       text
   limits
     context
-      '1 000 000'
+      '500 000'
     input
-      '1 000 000'
+      '500 000'
     output
-      '1 000 000'
+      '450 000'
   costs
     input
-      1.25
+      2
     output
-      2.5
+      6
     cacheRead
-      0.2
+      0.5

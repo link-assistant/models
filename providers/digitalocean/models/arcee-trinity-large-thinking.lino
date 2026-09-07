@@ -1,4 +1,4 @@
-model 'Trinity Large Thinking'
+model 'Arcee Trinity Large Thinking (Public Preview)'
   has id
     'arcee-trinity-large-thinking'
   provider id
@@ -8,11 +8,11 @@ model 'Trinity Large Thinking'
   family
     'trinity'
   status
-    beta
+    active
   released at
-    2026-04-02
+    2026-04-01
   last updated at
-    2026-04-16
+    2026-05-28
   weights
     open
   capabilities
@@ -28,9 +28,9 @@ model 'Trinity Large Thinking'
       text
   limits
     context
-      '256 000'
-    output
       '128 000'
+    output
+      '32 000'
   costs
     input
       0.25

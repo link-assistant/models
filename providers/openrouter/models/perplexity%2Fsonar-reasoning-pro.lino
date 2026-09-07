@@ -30,7 +30,7 @@ model 'Sonar Reasoning Pro'
     context
       '128 000'
     output
-      '128 000'
+      '115 200'
   costs
     input
       2

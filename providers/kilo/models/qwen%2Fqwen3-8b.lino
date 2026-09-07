@@ -5,14 +5,16 @@ model 'Qwen: Qwen3 8B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-04
+    2025-04-28
   last updated at
-    2026-03-15
+    2025-04-28
   weights
-    open
+    closed
   capabilities
     (
       reasoning
@@ -26,13 +28,11 @@ model 'Qwen: Qwen3 8B'
       text
   limits
     context
-      '40 960'
+      '131 072'
     output
       8192
   costs
     input
-      0.05
+      0.117
     output
-      0.4
-    cacheRead
-      0.05
+      0.455

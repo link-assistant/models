@@ -5,6 +5,8 @@ model 'Hermes Low'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'hermes'
   status
     active
   released at
@@ -17,12 +19,11 @@ model 'Hermes Low'
     (
       reasoning
       tool calls
-      attachments
       structured output
     )
   modalities
     input
-      text image pdf
+      text
     output
       text
   limits
@@ -31,11 +32,13 @@ model 'Hermes Low'
     input
       '1 048 576'
     output
-      '65 536'
+      '131 072'
   costs
     input
-      0.25
+      1
     output
-      1.5
+      3.2
     cacheRead
-      0.025
+      0.2
+    cacheWrite
+      0.08333

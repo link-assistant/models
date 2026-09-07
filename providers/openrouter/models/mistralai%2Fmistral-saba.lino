@@ -33,7 +33,7 @@ model 'Saba'
     context
       '32 768'
     output
-      '32 768'
+      '26 214'
   costs
     input
       0.2

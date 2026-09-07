@@ -1,0 +1,43 @@
+model 'GLM 5.3-Flash'
+  has id
+    'glm-5.3-flash'
+  provider id
+    'crof'
+  provided by
+    'CrofAI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.07
+    output
+      0.22
+    cacheRead
+      0.01

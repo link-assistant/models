@@ -1,0 +1,40 @@
+model 'MiniMax-M2.5'
+  has id
+    'minimax-m2.5'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0.1938
+    output
+      1.129
+    cacheRead
+      0.0627

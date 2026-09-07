@@ -1,0 +1,44 @@
+model 'DeepSeek V4 Flash Vision Exp'
+  has id
+    'deepseek/deepseek-v4-flash-vision-exp'
+  provider id
+    'crossmodel'
+  provided by
+    'CrossModel'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-08-21
+  last updated at
+    2026-08-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.405
+    output
+      1.215
+    cacheRead
+      0.0135
+    cacheWrite
+      0.405

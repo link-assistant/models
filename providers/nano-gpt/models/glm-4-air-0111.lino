@@ -5,6 +5,8 @@ model 'GLM 4 Air 0111'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'glm'
   status
     active
   released at
@@ -30,3 +32,5 @@ model 'GLM 4 Air 0111'
       0.1394
     output
       0.1394
+    cacheRead
+      0.0697

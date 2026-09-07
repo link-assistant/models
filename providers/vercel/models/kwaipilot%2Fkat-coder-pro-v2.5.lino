@@ -23,7 +23,7 @@ model 'Kat Coder Pro V2.5'
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

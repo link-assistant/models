@@ -12,7 +12,7 @@ model 'Qwen3 30B A3B Instruct 2507'
   last updated at
     2025-02-20
   weights
-    closed
+    open
   modalities
     input
       text
@@ -30,3 +30,5 @@ model 'Qwen3 30B A3B Instruct 2507'
       0.2
     output
       0.5
+    cacheRead
+      0.1

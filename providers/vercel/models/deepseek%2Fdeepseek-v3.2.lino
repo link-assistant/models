@@ -16,10 +16,11 @@ model 'DeepSeek V3.2'
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input

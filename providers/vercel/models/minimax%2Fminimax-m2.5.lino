@@ -14,7 +14,7 @@ model 'MiniMax M2.5'
   last updated at
     2026-02-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning

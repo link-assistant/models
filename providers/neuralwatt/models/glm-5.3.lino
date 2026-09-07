@@ -1,0 +1,41 @@
+model 'GLM 5.3'
+  has id
+    'glm-5.3'
+  provider id
+    'neuralwatt'
+  provided by
+    'Neuralwatt'
+  family
+    'glm'
+  status
+    beta
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 560'
+    output
+      '1 048 560'
+  costs
+    input
+      1.45
+    output
+      4.5
+    cacheRead
+      0.145

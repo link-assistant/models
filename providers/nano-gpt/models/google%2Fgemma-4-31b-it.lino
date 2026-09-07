@@ -5,6 +5,8 @@ model 'Gemma 4 31B'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemma'
   status
     active
   released at
@@ -12,10 +14,12 @@ model 'Gemma 4 31B'
   last updated at
     2026-04-02
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
+      temperature
       attachments
       structured output
     )
@@ -35,4 +39,6 @@ model 'Gemma 4 31B'
     input
       0.1
     output
-      0.35
+      0.45
+    cacheRead
+      0.05

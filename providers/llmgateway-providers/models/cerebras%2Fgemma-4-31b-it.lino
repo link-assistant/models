@@ -1,0 +1,39 @@
+model 'Gemma 4 31B IT (Cerebras)'
+  has id
+    'cerebras/gemma-4-31b-it'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.99
+    output
+      1.49

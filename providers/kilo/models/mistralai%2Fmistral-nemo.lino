@@ -1,22 +1,27 @@
-model 'Mistral: Mistral Nemo'
+model 'Mistral Nemo'
   has id
     'mistralai/mistral-nemo'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral-nemo'
   status
     active
   released at
     2024-07-01
   last updated at
-    2024-07-30
+    2024-07-01
+  has knowledge cutoff at
+    2024-07
   weights
     open
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,6 +35,6 @@ model 'Mistral: Mistral Nemo'
       '16 384'
   costs
     input
-      0.02
+      0.019
     output
-      0.04
+      0.03

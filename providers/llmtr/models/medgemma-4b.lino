@@ -6,11 +6,11 @@ model 'MedGemma 4B'
   provided by
     'LLMTR'
   status
-    active
+    deprecated
   released at
     2026-04-26
   last updated at
-    2026-04-26
+    2026-08-16
   weights
     open
   capabilities
@@ -27,7 +27,7 @@ model 'MedGemma 4B'
     context
       8192
     output
-      4096
+      8192
   costs
     input
       3

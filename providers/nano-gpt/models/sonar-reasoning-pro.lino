@@ -5,17 +5,22 @@ model 'Perplexity Reasoning Pro'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'sonar-reasoning'
   status
     active
   released at
-    2025-02-19
+    2024-01-01
   last updated at
-    2025-02-19
+    2025-09-01
+  has knowledge cutoff at
+    2025-09-01
   weights
     closed
   capabilities
     (
       reasoning
+      temperature
     )
   modalities
     input
@@ -24,13 +29,15 @@ model 'Perplexity Reasoning Pro'
       text
   limits
     context
-      '127 000'
-    input
-      '127 000'
-    output
       '128 000'
+    input
+      '128 000'
+    output
+      '115 200'
   costs
     input
-      2.006
+      2
     output
-      7.9985
+      8
+    cacheRead
+      1

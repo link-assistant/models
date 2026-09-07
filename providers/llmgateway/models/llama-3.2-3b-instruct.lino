@@ -4,7 +4,7 @@ model 'Llama 3.2 3B Instruct'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'llama'
   status

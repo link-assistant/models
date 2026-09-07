@@ -5,19 +5,22 @@ model 'Meta: Llama 4 Maverick'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'llama'
   status
     active
   released at
     2025-04-05
   last updated at
-    2025-12-24
+    2025-04-05
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -26,11 +29,11 @@ model 'Meta: Llama 4 Maverick'
       text
   limits
     context
-      '1 048 576'
+      '128 000'
     output
-      '16 384'
+      '115 200'
   costs
     input
-      0.15
+      0.2
     output
-      0.6
+      0.696

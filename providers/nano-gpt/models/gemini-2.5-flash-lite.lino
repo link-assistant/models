@@ -5,29 +5,35 @@ model 'Gemini 2.5 Flash Lite'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini-flash-lite'
   status
     active
   released at
     2025-06-17
   last updated at
     2025-06-17
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
       reasoning
+      tool calls
+      temperature
       attachments
     )
   modalities
     input
-      text image
+      text image audio
     output
       text
   limits
     context
-      '1 048 756'
+      '1 048 576'
     input
-      '1 048 756'
+      '1 048 576'
     output
       '65 536'
   costs
@@ -35,3 +41,5 @@ model 'Gemini 2.5 Flash Lite'
       0.1
     output
       0.4
+    cacheRead
+      0.01

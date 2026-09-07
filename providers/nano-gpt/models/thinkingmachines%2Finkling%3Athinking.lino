@@ -1,0 +1,44 @@
+model 'Inkling Thinking'
+  has id
+    'thinkingmachines/inkling:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '1 048 000'
+    input
+      '1 048 000'
+    output
+      '32 768'
+  costs
+    input
+      1
+    output
+      4.05
+    cacheRead
+      0.17

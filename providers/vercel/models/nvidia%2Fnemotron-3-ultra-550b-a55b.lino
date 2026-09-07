@@ -14,7 +14,7 @@ model 'Nemotron 3 Ultra'
   last updated at
     2026-06-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning

@@ -5,17 +5,22 @@ model 'Qwen3 Next 80B A3B (Instruct)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2025-09-11
+    2025-09
   last updated at
-    2025-09-11
+    2025-09
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -25,13 +30,15 @@ model 'Qwen3 Next 80B A3B (Instruct)'
       text
   limits
     context
-      '256 000'
-    input
-      '256 000'
-    output
       '262 144'
+    input
+      '262 144'
+    output
+      '235 929'
   costs
     input
       0.15
     output
       0.65
+    cacheRead
+      0.075

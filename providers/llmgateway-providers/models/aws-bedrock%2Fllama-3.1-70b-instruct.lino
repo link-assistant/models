@@ -1,0 +1,36 @@
+model 'Llama 3.1 70B Instruct (AWS Bedrock)'
+  has id
+    'aws-bedrock/llama-3.1-70b-instruct'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-07-23
+  last updated at
+    2024-07-23
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      2048
+  costs
+    input
+      0.72
+    output
+      0.72

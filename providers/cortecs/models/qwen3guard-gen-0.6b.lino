@@ -1,0 +1,30 @@
+model 'qwen3guard-gen-0.6b'
+  has id
+    'qwen3guard-gen-0.6b'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2026-02-04
+  last updated at
+    2026-02-04
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0
+    output
+      0

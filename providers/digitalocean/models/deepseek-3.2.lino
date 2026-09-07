@@ -1,4 +1,4 @@
-model 'DeepSeek V3.2'
+model 'Deepseek 3.2'
   has id
     'deepseek-3.2'
   provider id
@@ -31,11 +31,13 @@ model 'DeepSeek V3.2'
       text
   limits
     context
-      '128 000'
+      '163 840'
     output
-      '64 000'
+      '163 840'
   costs
     input
-      0.5
+      0.25
     output
-      1.6
+      0.8
+    cacheRead
+      0.075

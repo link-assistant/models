@@ -29,9 +29,9 @@ model 'Qwen3.7 Max'
       text
   limits
     context
-      '1 000 000'
+      '991 000'
     output
-      '65 536'
+      '64 000'
   costs
     input
       1.25

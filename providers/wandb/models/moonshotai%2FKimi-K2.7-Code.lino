@@ -37,8 +37,8 @@ model 'Kimi K2.7 Code'
       '262 144'
   costs
     input
-      0.94
+      0.71
     output
-      4
+      3.5
     cacheRead
-      0.19
+      0.15

@@ -4,7 +4,7 @@ model 'Mistral Large 3'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'mistral-large'
   status

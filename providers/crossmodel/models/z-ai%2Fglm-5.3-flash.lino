@@ -1,0 +1,44 @@
+model 'GLM-5.3-Flash'
+  has id
+    'z-ai/glm-5.3-flash'
+  provider id
+    'crossmodel'
+  provided by
+    'CrossModel'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      0.075
+    output
+      0.25
+    cacheRead
+      0.015
+    cacheWrite
+      0.075

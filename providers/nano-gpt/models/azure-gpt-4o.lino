@@ -5,10 +5,12 @@ model 'Azure gpt-4o'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gpt'
   status
     active
   released at
-    2024-05-13
+    2024-01-01
   last updated at
     2024-05-13
   weights
@@ -33,6 +35,8 @@ model 'Azure gpt-4o'
       '16 384'
   costs
     input
-      2.499
+      2.5
     output
-      9.996
+      10
+    cacheRead
+      1.25

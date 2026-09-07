@@ -4,7 +4,7 @@ model 'Llama-3.3-70B-Instruct'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'llama'
   status
@@ -35,6 +35,6 @@ model 'Llama-3.3-70B-Instruct'
       4096
   costs
     input
-      0.13
+      0.135
     output
       0.4

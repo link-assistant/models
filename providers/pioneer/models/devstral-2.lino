@@ -1,0 +1,43 @@
+model 'Devstral 2'
+  has id
+    'devstral-2'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2025-12-09
+  last updated at
+    2025-12-09
+  has knowledge cutoff at
+    2025-12
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '131 072'
+  costs
+    input
+      0.4
+    output
+      2
+    cacheRead
+      0.4
+    cacheWrite
+      0.4

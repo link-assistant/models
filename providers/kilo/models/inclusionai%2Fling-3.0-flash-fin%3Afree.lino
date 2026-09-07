@@ -1,0 +1,38 @@
+model 'inclusionAI: Ling 3.0 Flash Fin (free)'
+  has id
+    'inclusionai/ling-3.0-flash-fin:free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-08-27
+  last updated at
+    2026-08-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

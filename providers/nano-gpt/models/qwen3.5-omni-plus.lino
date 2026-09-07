@@ -5,6 +5,8 @@ model 'Qwen3.5 Omni Plus'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen3.5'
   status
     active
   released at

@@ -35,8 +35,8 @@ model 'Gemma 4 31B'
       '262 144'
   costs
     input
-      0.12
+      0.1
     output
-      0.35
+      0.34
     cacheRead
-      0.09
+      0.1

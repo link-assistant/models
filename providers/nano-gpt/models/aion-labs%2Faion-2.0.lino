@@ -13,6 +13,10 @@ model 'AionLabs: Aion-2.0'
     2026-02-23
   weights
     closed
+  capabilities
+    (
+      tool calls
+    )
   modalities
     input
       text
@@ -30,3 +34,5 @@ model 'AionLabs: Aion-2.0'
       0.8
     output
       1.6
+    cacheRead
+      0.2

@@ -5,28 +5,32 @@ model 'OpenAI: GPT-3.5 Turbo Instruct'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
-    2023-03-01
+    2023-09-28
   last updated at
-    2023-09-21
+    2023-09-28
   weights
     closed
   capabilities
     (
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
     context
       4095
     output
-      4096
+      3685
   costs
     input
       1.5

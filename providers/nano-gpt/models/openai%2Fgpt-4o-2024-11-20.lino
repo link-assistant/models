@@ -13,10 +13,14 @@ model 'GPT-4o (2024-11-20)'
     2024-11-20
   last updated at
     2024-11-20
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities
     (
+      tool calls
+      temperature
       attachments
     )
   modalities
@@ -36,3 +40,5 @@ model 'GPT-4o (2024-11-20)'
       2.5
     output
       10
+    cacheRead
+      1.25

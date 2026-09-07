@@ -5,10 +5,12 @@ model 'GLM-4 Long'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'glm'
   status
     active
   released at
-    2024-08-01
+    2024-01-01
   last updated at
     2024-08-01
   weights
@@ -30,3 +32,5 @@ model 'GLM-4 Long'
       0.2006
     output
       0.2006
+    cacheRead
+      0.1003

@@ -1,0 +1,38 @@
+model 'GPT OSS 120B (Scaleway)'
+  has id
+    'scaleway/gpt-oss-120b'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.17433
+    output
+      0.69732

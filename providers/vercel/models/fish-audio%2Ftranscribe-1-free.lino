@@ -1,0 +1,27 @@
+model 'Transcribe-1 (Free)'
+  has id
+    'fish-audio/transcribe-1-free'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'o'
+  status
+    active
+  released at
+    2026-03-01
+  last updated at
+    2026-03-01
+  weights
+    closed
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

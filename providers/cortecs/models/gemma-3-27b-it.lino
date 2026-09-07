@@ -1,0 +1,36 @@
+model 'gemma-3-27b-it'
+  has id
+    'gemma-3-27b-it'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-03-12
+  last updated at
+    2025-03-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '110 000'
+  costs
+    input
+      0.099
+    output
+      0.299

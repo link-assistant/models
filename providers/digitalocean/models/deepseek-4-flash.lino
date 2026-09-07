@@ -27,6 +27,13 @@ model 'Deepseek V4 Flash'
       text
   limits
     context
-      '262 144'
+      '1 048 576'
     output
-      8192
+      '384 000'
+  costs
+    input
+      0.0679
+    output
+      0.168
+    cacheRead
+      0.0168

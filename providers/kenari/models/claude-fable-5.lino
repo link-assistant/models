@@ -1,0 +1,40 @@
+model 'Claude Fable 5'
+  has id
+    'claude-fable-5'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'claude-fable'
+  status
+    active
+  released at
+    2026-06-09
+  last updated at
+    2026-06-09
+  has knowledge cutoff at
+    2026-01-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0

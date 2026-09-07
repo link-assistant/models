@@ -10,11 +10,11 @@ model 'Mistral Large 3 675B'
   status
     active
   released at
-    2025-12-02
+    2025-12-25
   last updated at
     2025-12-02
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -36,3 +36,5 @@ model 'Mistral Large 3 675B'
       1
     output
       3
+    cacheRead
+      0.5

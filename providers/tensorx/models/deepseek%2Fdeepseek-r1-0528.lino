@@ -1,0 +1,44 @@
+model 'DeepSeek R1-0528'
+  has id
+    'deepseek/deepseek-r1-0528'
+  provider id
+    'tensorx'
+  provided by
+    'TensorX'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-05-28
+  last updated at
+    2025-05-28
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '164 000'
+    output
+      8192
+  costs
+    input
+      0.66
+    output
+      2.6
+    cacheRead
+      0.165
+    cacheWrite
+      0.825

@@ -1,16 +1,20 @@
-model 'Qwen: Qwen3 235B A22B'
+model 'Qwen3 235B-A22B'
   has id
     'qwen/qwen3-235b-a22b'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2024-12-01
+    2025-04
   last updated at
-    2026-03-15
+    2025-04
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities
@@ -34,5 +38,3 @@ model 'Qwen: Qwen3 235B A22B'
       0.455
     output
       1.82
-    cacheRead
-      0.15

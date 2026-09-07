@@ -5,18 +5,21 @@ model 'Kwaipilot: KAT-Coder-Pro V2'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'kat-coder'
   status
     active
   released at
     2026-03-27
   last updated at
-    2026-04-11
+    2026-03-27
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -25,9 +28,9 @@ model 'Kwaipilot: KAT-Coder-Pro V2'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
-      '80 000'
+      '144 000'
   costs
     input
       0.3

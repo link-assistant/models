@@ -1,16 +1,18 @@
-model 'OpenAI: GPT Mini Latest'
+model 'OpenAI GPT Mini Latest'
   has id
     '~openai/gpt-mini-latest'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt-mini'
   status
     active
   released at
     2026-04-27
   last updated at
-    2026-05-01
+    2026-04-27
   weights
     closed
   capabilities
@@ -18,10 +20,11 @@ model 'OpenAI: GPT Mini Latest'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
-      text image pdf
+      pdf image text
     output
       text
   limits

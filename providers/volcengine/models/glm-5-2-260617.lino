@@ -1,0 +1,42 @@
+model 'GLM-5.2'
+  has id
+    'glm-5-2-260617'
+  provider id
+    'volcengine'
+  provided by
+    'Volcengine Ark'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      1.18747
+    output
+      4.15615
+    cacheRead
+      0.29687

@@ -1,0 +1,40 @@
+model 'cohere--command-a-reasoning'
+  has id
+    'cohere--command-a-reasoning'
+  provider id
+    'sap-ai-core'
+  provided by
+    'SAP AI Core'
+  family
+    'command-a'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  has knowledge cutoff at
+    2024-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      0.63
+    output
+      5.05

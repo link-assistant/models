@@ -5,17 +5,22 @@ model 'Qwen3 Coder 30B A3B Instruct'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2025-08-05
+    2025-04
   last updated at
-    2025-08-05
+    2025-04
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -35,3 +40,5 @@ model 'Qwen3 Coder 30B A3B Instruct'
       0.1
     output
       0.4
+    cacheRead
+      0.05

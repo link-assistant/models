@@ -22,17 +22,20 @@ model 'Qwen3.7 Plus'
       reasoning
       tool calls
       temperature
+      attachments
+      structured output
+      interleaved output
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
     context
       '1 000 000'
     output
-      '64 000'
+      '65 536'
   costs
     input
       0

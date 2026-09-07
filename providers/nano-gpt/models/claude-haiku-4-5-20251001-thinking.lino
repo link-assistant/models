@@ -5,18 +5,23 @@ model 'Claude Haiku 4.5 Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-haiku'
   status
     active
   released at
     2025-10-15
   last updated at
     2025-10-15
+  has knowledge cutoff at
+    2025-02-28
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )

@@ -1,0 +1,37 @@
+model 'Holo2 30B A3B'
+  has id
+    'holo2-30b-a3b'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  status
+    active
+  released at
+    2025-11
+  last updated at
+    2025-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '22 016'
+    output
+      '16 384'
+  costs
+    input
+      0.399
+    output
+      0.969

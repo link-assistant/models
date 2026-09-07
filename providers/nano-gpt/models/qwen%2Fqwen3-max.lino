@@ -5,14 +5,22 @@ model 'Qwen3 Max'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2025-09-05
+    2025-09-23
   last updated at
-    2025-09-05
+    2025-09-23
+  has knowledge cutoff at
+    2025-04
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -27,6 +35,8 @@ model 'Qwen3 Max'
       '32 768'
   costs
     input
-      1.08018
+      1.2002
     output
-      5.4009
+      6.001
+    cacheRead
+      0.6001

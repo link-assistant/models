@@ -5,6 +5,8 @@ model 'Mistral: Mixtral 8x22B Instruct'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral'
   status
     active
   released at
@@ -12,24 +14,28 @@ model 'Mistral: Mixtral 8x22B Instruct'
   last updated at
     2024-04-17
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
     context
       '65 536'
     output
-      '13 108'
+      '52 428'
   costs
     input
       2
     output
       6
+    cacheRead
+      0.2

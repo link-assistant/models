@@ -31,7 +31,7 @@ model 'Mistral Small 3.2 24B'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
       '16 384'
   costs

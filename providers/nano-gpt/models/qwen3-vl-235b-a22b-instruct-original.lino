@@ -34,3 +34,5 @@ model 'Qwen3 VL 235B A22B Instruct Original'
       0.5
     output
       1.2
+    cacheRead
+      0.25

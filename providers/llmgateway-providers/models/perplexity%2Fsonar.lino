@@ -1,0 +1,39 @@
+model 'Sonar (Perplexity)'
+  has id
+    'perplexity/sonar'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'sonar'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2025-09-01
+  has knowledge cutoff at
+    2025-09-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '130 000'
+    output
+      4096
+  costs
+    input
+      1
+    output
+      1

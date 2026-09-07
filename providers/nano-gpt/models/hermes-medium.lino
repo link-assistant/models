@@ -5,6 +5,8 @@ model 'Hermes Medium'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'hermes'
   status
     active
   released at
@@ -26,13 +28,15 @@ model 'Hermes Medium'
       text
   limits
     context
-      '204 800'
+      '1 048 576'
     input
-      '204 800'
+      '1 048 576'
     output
       '131 072'
   costs
     input
-      0.3
+      1
     output
-      1.2
+      3.2
+    cacheRead
+      0.2

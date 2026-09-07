@@ -5,6 +5,8 @@ model 'Qwen3.7 Max Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
@@ -16,6 +18,8 @@ model 'Qwen3.7 Max Thinking'
   capabilities
     (
       reasoning
+      tool calls
+      temperature
     )
   modalities
     input
@@ -35,4 +39,6 @@ model 'Qwen3.7 Max Thinking'
     output
       7.5
     cacheRead
-      0.25
+      0.5
+    cacheWrite
+      3.125

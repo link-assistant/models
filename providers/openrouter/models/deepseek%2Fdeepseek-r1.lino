@@ -31,7 +31,7 @@ model 'DeepSeek-R1'
       text
   limits
     context
-      '163 840'
+      '64 000'
     output
       '16 000'
   costs

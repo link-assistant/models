@@ -33,7 +33,7 @@ model 'Claude Sonnet 4'
     context
       '1 000 000'
     output
-      '64 000'
+      8192
   costs
     input
       3

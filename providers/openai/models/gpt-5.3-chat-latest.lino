@@ -8,7 +8,7 @@ model 'GPT-5.3 Chat (latest)'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
     2026-03-03
   last updated at

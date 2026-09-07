@@ -1,0 +1,41 @@
+model 'Solar Pro 4'
+  has id
+    'upstage/solar-pro4'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  family
+    'solar-pro'
+  status
+    active
+  released at
+    2026-08-06
+  last updated at
+    2026-08-06
+  has knowledge cutoff at
+    2026-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '131 072'
+  costs
+    input
+      0.03
+    output
+      0.12

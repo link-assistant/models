@@ -6,7 +6,7 @@ model 'Claude 3.7 Sonnet'
   provided by
     'ZenMux'
   status
-    active
+    deprecated
   released at
     2025-02-24
   last updated at

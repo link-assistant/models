@@ -1,0 +1,37 @@
+model 'Voxtral Mini 3B'
+  has id
+    'voxtral-mini-3b'
+  provider id
+    'privatemode-ai'
+  provided by
+    'Privatemode AI'
+  family
+    'voxtral'
+  status
+    active
+  released at
+    2025-07
+  last updated at
+    2025-07
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.00462
+    output
+      0

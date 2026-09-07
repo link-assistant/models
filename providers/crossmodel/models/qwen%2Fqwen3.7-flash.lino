@@ -1,0 +1,46 @@
+model 'Qwen3.7 Flash'
+  has id
+    'qwen/qwen3.7-flash'
+  provider id
+    'crossmodel'
+  provided by
+    'CrossModel'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '991 000'
+    output
+      '65 536'
+  costs
+    input
+      0.04
+    output
+      0.13
+    cacheRead
+      0.01
+    cacheWrite
+      0.04

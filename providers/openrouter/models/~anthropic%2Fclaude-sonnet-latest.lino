@@ -13,6 +13,8 @@ model 'Anthropic Claude Sonnet Latest'
     2026-04-27
   last updated at
     2026-04-27
+  has knowledge cutoff at
+    2026-01-31
   weights
     closed
   capabilities

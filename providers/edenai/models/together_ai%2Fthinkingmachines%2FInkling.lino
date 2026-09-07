@@ -1,0 +1,42 @@
+model 'Inkling (Together AI)'
+  has id
+    'together_ai/thinkingmachines/Inkling'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '1 048 576'
+  costs
+    input
+      1
+    output
+      4.05
+    cacheRead
+      0.17

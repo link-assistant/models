@@ -5,18 +5,23 @@ model 'DeepSeek V4 Pro (Thinking)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'deepseek-thinking'
   status
     active
   released at
     2026-04-24
   last updated at
     2026-04-24
+  has knowledge cutoff at
+    2025-05
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       structured output
     )
   modalities

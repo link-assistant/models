@@ -5,6 +5,8 @@ model 'Qwen3.6 35B A3B Uncensored TEE'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen3.6'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Qwen3.6 35B A3B Uncensored TEE'
   last updated at
     2026-05-23
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -37,3 +39,5 @@ model 'Qwen3.6 35B A3B Uncensored TEE'
       0.3
     output
       1.5
+    cacheRead
+      0.15

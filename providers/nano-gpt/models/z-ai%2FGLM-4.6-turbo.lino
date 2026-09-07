@@ -1,0 +1,36 @@
+model 'GLM 4.6 Turbo'
+  has id
+    'z-ai/GLM-4.6-turbo'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-10-02
+  last updated at
+    2025-10-02
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    input
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      3
+    cacheRead
+      0.5

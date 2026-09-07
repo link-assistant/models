@@ -22,6 +22,7 @@ model 'DeepSeek R1 0528'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -35,6 +36,8 @@ model 'DeepSeek R1 0528'
       '164 000'
   costs
     input
-      0.585
+      0.652
     output
-      2.307
+      2.57
+    cacheRead
+      0.163

@@ -1,10 +1,12 @@
-model 'OpenAI: gpt-oss-20b'
+model 'GPT OSS 20B'
   has id
     'openai/gpt-oss-20b'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt-oss'
   status
     active
   released at
@@ -18,6 +20,7 @@ model 'OpenAI: gpt-oss-20b'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,9 +31,9 @@ model 'OpenAI: gpt-oss-20b'
     context
       '131 072'
     output
-      '26 215'
+      '117 964'
   costs
     input
-      0.03
+      0.02
     output
-      0.14
+      0.1

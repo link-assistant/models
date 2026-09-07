@@ -14,11 +14,10 @@ model 'Nvidia Nemotron 3 Super 120B Thinking'
   last updated at
     2026-03-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
-      tool calls
       temperature
     )
   modalities
@@ -38,3 +37,5 @@ model 'Nvidia Nemotron 3 Super 120B Thinking'
       0.05
     output
       0.25
+    cacheRead
+      0.025

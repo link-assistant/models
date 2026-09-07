@@ -10,9 +10,9 @@ model 'DeepSeek V4 Flash'
   status
     active
   released at
-    2026-04-24
+    2026-07-31
   last updated at
-    2026-04-24
+    2026-07-31
   has knowledge cutoff at
     2025-05
   weights
@@ -42,3 +42,5 @@ model 'DeepSeek V4 Flash'
       0.28
     cacheRead
       0.0028
+    reasoning
+      0.28

@@ -18,6 +18,7 @@ model 'Qwen 3 235B A22B Instruct 2507'
   capabilities
     (
       tool calls
+      temperature
       structured output
     )
   modalities

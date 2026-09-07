@@ -30,7 +30,7 @@ model 'Gemma 4 31B IT'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
       '32 768'
   costs

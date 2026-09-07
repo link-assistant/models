@@ -6,13 +6,15 @@ model 'Gemini Embedding 2'
   provided by
     'Vercel AI Gateway'
   family
-    'gemini-embedding'
+    'gemini'
   status
     active
   released at
-    2026-03-10
+    2026-04-22
   last updated at
-    2026-03-23
+    2026-04-22
+  has knowledge cutoff at
+    2025-11
   weights
     closed
   capabilities

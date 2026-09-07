@@ -5,19 +5,22 @@ model 'Qwen: Qwen3 VL 8B Instruct'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-10-15
+    2025-10-14
   last updated at
-    2025-11-25
+    2025-10-14
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -31,6 +34,6 @@ model 'Qwen: Qwen3 VL 8B Instruct'
       '32 768'
   costs
     input
-      0.08
+      0.117
     output
-      0.5
+      0.455

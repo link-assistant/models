@@ -1,0 +1,34 @@
+model 'Motif 3'
+  has id
+    'motif-technologies/motif-3'
+  provider id
+    'aiand'
+  provided by
+    'ai&'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.5
+    output
+      2

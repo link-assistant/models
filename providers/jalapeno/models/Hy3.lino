@@ -1,0 +1,42 @@
+model 'Hy3'
+  has id
+    'Hy3'
+  provider id
+    'jalapeno'
+  provided by
+    'Jalapeno Cloud'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-07-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    input
+      '192 000'
+    output
+      '128 000'
+  costs
+    input
+      0.14
+    output
+      0.58

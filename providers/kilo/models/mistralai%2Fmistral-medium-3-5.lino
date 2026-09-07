@@ -5,12 +5,14 @@ model 'Mistral: Mistral Medium 3.5'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral-medium'
   status
     active
   released at
     2026-04-30
   last updated at
-    2026-05-07
+    2026-04-30
   weights
     closed
   capabilities
@@ -23,14 +25,14 @@ model 'Mistral: Mistral Medium 3.5'
     )
   modalities
     input
-      image text
+      text image pdf
     output
       text
   limits
     context
       '262 144'
     output
-      '262 144'
+      '209 715'
   costs
     input
       1.5

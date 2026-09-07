@@ -40,3 +40,5 @@ model 'Kimi K2.6'
       0.95
     output
       4
+    cacheRead
+      0.19

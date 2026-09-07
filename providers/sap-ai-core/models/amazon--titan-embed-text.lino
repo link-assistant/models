@@ -1,0 +1,30 @@
+model 'amazon--titan-embed-text'
+  has id
+    'amazon--titan-embed-text'
+  provider id
+    'sap-ai-core'
+  provided by
+    'SAP AI Core'
+  status
+    active
+  released at
+    2024-04-30
+  last updated at
+    2024-04-30
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1536
+  costs
+    input
+      0.14
+    output
+      0

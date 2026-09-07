@@ -5,10 +5,12 @@ model 'Azure gpt-4-turbo'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gpt'
   status
     active
   released at
-    2023-11-06
+    2024-01-01
   last updated at
     2024-01-01
   weights
@@ -27,6 +29,6 @@ model 'Azure gpt-4-turbo'
       4096
   costs
     input
-      9.996
+      10
     output
-      30.005
+      30

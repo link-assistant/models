@@ -1,0 +1,40 @@
+model 'GLM-5.2 Turbo (SCX.ai)'
+  has id
+    'scx-ai-gp/glm-5.2-fast'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      1.99
+    output
+      6.16
+    cacheRead
+      0.4

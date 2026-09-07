@@ -1,4 +1,4 @@
-model 'Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)'
+model 'Nano Banana 2 Lite'
   has id
     'google/gemini-3.1-flash-lite-image'
   provider id
@@ -6,7 +6,7 @@ model 'Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)'
   provided by
     'OpenRouter'
   family
-    'gemini'
+    'gemini-flash-lite'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)'
   last updated at
     2026-06-30
   has knowledge cutoff at
-    2025-01-01
+    2025-01
   weights
     closed
   capabilities
@@ -25,14 +25,14 @@ model 'Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)'
     )
   modalities
     input
-      image text
+      text image
     output
-      image text
+      text image
   limits
     context
       '65 536'
     output
-      '66 000'
+      '58 982'
   costs
     input
       0.25

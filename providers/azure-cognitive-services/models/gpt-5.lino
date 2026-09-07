@@ -30,6 +30,8 @@ model 'GPT-5'
       text
   limits
     context
+      '400 000'
+    input
       '272 000'
     output
       '128 000'

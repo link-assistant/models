@@ -1,0 +1,37 @@
+model 'Ministral 3B (Mistral AI)'
+  has id
+    'mistral/ministral-3b-2512'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2025-12-02
+  last updated at
+    2025-12-02
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.1
+    output
+      0.1

@@ -16,7 +16,7 @@ model 'Kimi K2.5'
   has knowledge cutoff at
     2024-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning

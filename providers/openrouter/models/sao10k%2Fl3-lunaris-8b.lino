@@ -31,7 +31,7 @@ model 'Llama 3 8B Lunaris'
     context
       8192
     output
-      '16 384'
+      7372
   costs
     input
       0.04

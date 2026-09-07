@@ -14,7 +14,7 @@ model 'GPT OSS Safeguard 120B'
   last updated at
     2025-10-29
   weights
-    closed
+    open
   capabilities
     (
       tool calls

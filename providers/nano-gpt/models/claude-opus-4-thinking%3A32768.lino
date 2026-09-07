@@ -5,18 +5,23 @@ model 'Claude 4 Opus Thinking (32K)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-opus'
   status
     active
   released at
     2025-05-22
   last updated at
     2025-05-22
+  has knowledge cutoff at
+    2025-03-31
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -34,6 +39,8 @@ model 'Claude 4 Opus Thinking (32K)'
       '32 000'
   costs
     input
-      14.994
+      15
     output
-      75.004
+      75
+    cacheRead
+      1.5

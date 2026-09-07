@@ -14,9 +14,9 @@ model 'GLM 4.7'
   last updated at
     2025-12-22
   has knowledge cutoff at
-    2024-10
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning

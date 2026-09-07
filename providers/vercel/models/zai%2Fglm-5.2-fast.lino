@@ -10,16 +10,17 @@ model 'GLM 5.2 Fast'
   status
     active
   released at
-    2026-06-23
+    2026-06-13
   last updated at
-    2026-06-16
+    2026-06-13
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

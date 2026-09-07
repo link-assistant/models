@@ -5,14 +5,16 @@ model 'Venice Uncensored'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'venice'
   status
     active
   released at
-    2025-02-24
+    2025-10-01
   last updated at
     2025-02-24
   weights
-    closed
+    open
   modalities
     input
       text
@@ -24,9 +26,11 @@ model 'Venice Uncensored'
     input
       '128 000'
     output
-      '16 384'
+      8192
   costs
     input
       0.4
     output
+      1.8
+    cacheRead
       0.4

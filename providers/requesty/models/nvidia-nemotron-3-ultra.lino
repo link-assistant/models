@@ -1,0 +1,36 @@
+model 'nvidia-nemotron-3-ultra'
+  has id
+    'nvidia-nemotron-3-ultra'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-23
+  last updated at
+    2026-06-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.5
+    output
+      2.5

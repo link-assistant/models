@@ -1,16 +1,18 @@
-model 'Google: Gemini Flash Latest'
+model 'Google Gemini Flash Latest'
   has id
     '~google/gemini-flash-latest'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gemini-flash'
   status
     active
   released at
     2026-04-27
   last updated at
-    2026-05-01
+    2026-04-27
   weights
     closed
   capabilities
@@ -19,10 +21,11 @@ model 'Google: Gemini Flash Latest'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image audio video pdf
+      text image video pdf audio
     output
       text
   limits
@@ -32,10 +35,12 @@ model 'Google: Gemini Flash Latest'
       '65 536'
   costs
     input
-      0.5
+      0.75
     output
-      3
+      3.75
     cacheRead
-      0.05
+      0.075
     cacheWrite
-      0.08333333333333334
+      0.041667
+    reasoning
+      3.75

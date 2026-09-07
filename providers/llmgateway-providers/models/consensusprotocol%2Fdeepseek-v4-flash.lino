@@ -1,0 +1,44 @@
+model 'DeepSeek V4 Flash (Consensus Protocol)'
+  has id
+    'consensusprotocol/deepseek-v4-flash'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '393 216'
+  costs
+    input
+      0.05
+    output
+      0.1
+    cacheRead
+      0.01

@@ -1,16 +1,18 @@
-model 'MoonshotAI: Kimi Latest'
+model 'MoonshotAI Kimi Latest'
   has id
     '~moonshotai/kimi-latest'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'kimi'
   status
     active
   released at
     2026-04-27
   last updated at
-    2026-05-01
+    2026-04-27
   weights
     closed
   capabilities
@@ -19,21 +21,22 @@ model 'MoonshotAI: Kimi Latest'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
     context
-      '262 142'
+      '1 048 576'
     output
-      '262 142'
+      '943 718'
   costs
     input
-      0.74
+      2.55
     output
-      3.49
+      12.75
     cacheRead
-      0.14
+      0.256

@@ -33,7 +33,7 @@ model 'Mistral Medium 3.1'
     context
       '131 072'
     output
-      '262 144'
+      '104 857'
   costs
     input
       0.4

@@ -4,7 +4,7 @@ model 'GPT-5.6 Sol'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'gpt-sol'
   status

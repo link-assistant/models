@@ -32,9 +32,9 @@ model 'Mistral Nemo'
     context
       '131 072'
     output
-      '131 072'
+      '16 384'
   costs
     input
-      0.02
+      0.019
     output
       0.03

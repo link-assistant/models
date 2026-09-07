@@ -1,0 +1,38 @@
+model 'Qwen3.5 9B (DeepInfra)'
+  has id
+    'deepinfra/qwen3.5-9b'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-23
+  last updated at
+    2026-02-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.15

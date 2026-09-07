@@ -5,10 +5,12 @@ model 'Yi Large'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'yi'
   status
     active
   released at
-    2024-05-13
+    2024-01-01
   last updated at
     2024-05-13
   weights
@@ -30,3 +32,5 @@ model 'Yi Large'
       3.196
     output
       3.196
+    cacheRead
+      1.598

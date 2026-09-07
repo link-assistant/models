@@ -23,6 +23,7 @@ model 'Kimi K2.5'
       tool calls
       temperature
       attachments
+      structured output
       interleaved output
     )
   modalities
@@ -34,7 +35,7 @@ model 'Kimi K2.5'
     context
       '262 144'
     output
-      '32 768'
+      '98 304'
   costs
     input
       0

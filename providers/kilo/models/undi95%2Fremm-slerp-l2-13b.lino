@@ -10,12 +10,13 @@ model 'ReMM SLERP 13B'
   released at
     2023-07-22
   last updated at
-    2026-03-15
+    2023-07-22
   weights
-    open
+    closed
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input
@@ -26,9 +27,9 @@ model 'ReMM SLERP 13B'
     context
       6144
     output
-      4096
+      5529
   costs
     input
-      0.45
+      0.35
     output
       0.65

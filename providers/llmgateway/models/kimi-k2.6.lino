@@ -4,7 +4,7 @@ model 'Kimi K2.6'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'kimi-k2'
   status
@@ -38,8 +38,8 @@ model 'Kimi K2.6'
       '262 144'
   costs
     input
-      0.4
+      0.22
     output
-      2.2
+      1.137
     cacheRead
-      0.08
+      0.048

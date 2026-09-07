@@ -5,6 +5,8 @@ model 'Mistral Small 31 24b Instruct'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'mistral-small'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Mistral Small 31 24b Instruct'
   last updated at
     2025-04-15
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -28,9 +30,11 @@ model 'Mistral Small 31 24b Instruct'
     input
       '128 000'
     output
-      '131 072'
+      '102 400'
   costs
     input
       0.1
     output
       0.3
+    cacheRead
+      0.05

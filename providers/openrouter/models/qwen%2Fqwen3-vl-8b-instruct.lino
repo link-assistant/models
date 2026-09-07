@@ -29,7 +29,7 @@ model 'Qwen3 VL 8B Instruct'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
       '32 768'
   costs

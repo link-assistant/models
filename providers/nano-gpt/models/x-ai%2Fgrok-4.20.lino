@@ -5,6 +5,8 @@ model 'Grok 4.20'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'grok'
   status
     active
   released at
@@ -37,3 +39,5 @@ model 'Grok 4.20'
       2
     output
       6
+    cacheRead
+      1

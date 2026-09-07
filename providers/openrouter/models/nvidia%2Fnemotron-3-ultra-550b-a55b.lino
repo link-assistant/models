@@ -29,13 +29,13 @@ model 'Nemotron 3 Ultra 550B A55B'
       text
   limits
     context
-      '1 000 000'
+      '262 144'
     output
-      '16 384'
+      '32 768'
   costs
     input
-      0.5
+      0.625
     output
-      2.2
+      3.125
     cacheRead
-      0.1
+      0.1875

@@ -1,4 +1,4 @@
-model 'GPT Image 2'
+model 'OpenAI GPT Image 2'
   has id
     'openai-gpt-image-2'
   provider id
@@ -23,9 +23,14 @@ model 'GPT Image 2'
     input
       text image
     output
-      image
+      image text
   limits
     context
       0
     output
-      0
+      '16 384'
+  costs
+    input
+      8
+    output
+      30

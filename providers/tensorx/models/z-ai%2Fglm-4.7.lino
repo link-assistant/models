@@ -1,0 +1,44 @@
+model 'GLM-4.7'
+  has id
+    'z-ai/glm-4.7'
+  provider id
+    'tensorx'
+  provided by
+    'TensorX'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-22
+  last updated at
+    2025-12-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '200 000'
+  costs
+    input
+      0.6
+    output
+      2.2
+    cacheRead
+      0.15
+    cacheWrite
+      0.75

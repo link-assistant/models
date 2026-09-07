@@ -14,7 +14,7 @@ model 'gpt-oss-120b'
   last updated at
     2025-08-05
   weights
-    closed
+    open
   capabilities
     (
       reasoning

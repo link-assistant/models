@@ -1,0 +1,41 @@
+model 'Nemotron 3.5 Lightning 30B A3B'
+  has id
+    'nvidia/nemotron-3.5-lightning'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.08
+    output
+      0.2
+    cacheRead
+      0.04

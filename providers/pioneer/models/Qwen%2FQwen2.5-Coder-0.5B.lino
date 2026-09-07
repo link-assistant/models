@@ -1,0 +1,40 @@
+model 'Qwen2.5-Coder-0.5B'
+  has id
+    'Qwen/Qwen2.5-Coder-0.5B'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-11-12
+  last updated at
+    2024-11-12
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.1
+    cacheRead
+      0.1
+    cacheWrite
+      0.1

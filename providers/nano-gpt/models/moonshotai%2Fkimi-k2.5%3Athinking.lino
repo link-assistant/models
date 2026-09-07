@@ -6,15 +6,17 @@ model 'Kimi K2.5 Thinking'
   provided by
     'NanoGPT'
   family
-    'kimi-thinking'
+    'kimi-k2'
   status
     active
   released at
-    2026-01-26
+    2026-01
   last updated at
-    2026-01-26
+    2026-01
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -38,3 +40,5 @@ model 'Kimi K2.5 Thinking'
       0.3
     output
       1.9
+    cacheRead
+      0.15

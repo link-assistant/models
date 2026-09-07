@@ -1,0 +1,43 @@
+model 'Inkling (Databricks)'
+  has id
+    'databricks/databricks-inkling'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '1 048 576'
+  costs
+    input
+      1.00002
+    output
+      4.04999
+    cacheRead
+      0.17003
+    cacheWrite
+      1.00002

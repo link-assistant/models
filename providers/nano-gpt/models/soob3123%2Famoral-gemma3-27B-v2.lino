@@ -14,7 +14,7 @@ model 'Amoral Gemma3 27B v2'
   last updated at
     2025-05-23
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Amoral Gemma3 27B v2'
       0.3
     output
       0.3
+    cacheRead
+      0.15

@@ -1,0 +1,41 @@
+model 'Step 3.5 Flash (Deep Infra)'
+  has id
+    'deepinfra/stepfun-ai/Step-3.5-Flash'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  status
+    active
+  released at
+    2026-01-29
+  last updated at
+    2026-02-13
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '256 000'
+  costs
+    input
+      0.09
+    output
+      0.3
+    cacheRead
+      0.02

@@ -24,7 +24,7 @@ model 'Sonar Reasoning Pro'
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

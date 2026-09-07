@@ -13,8 +13,14 @@ model 'OpenAI o3'
     2025-04-16
   last updated at
     2025-04-16
+  has knowledge cutoff at
+    2024-05
   weights
     closed
+  capabilities
+    (
+      reasoning
+    )
   modalities
     input
       text
@@ -32,3 +38,5 @@ model 'OpenAI o3'
       2
     output
       8
+    cacheRead
+      1

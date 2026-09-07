@@ -1,0 +1,37 @@
+model 'nova-2-lite'
+  has id
+    'nova-2-lite'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-12-04
+  last updated at
+    2025-12-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 535'
+  costs
+    input
+      0.373
+    output
+      3.144

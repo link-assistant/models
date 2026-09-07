@@ -33,9 +33,11 @@ model 'Gemma 3 27B'
     context
       '131 072'
     output
-      '16 384'
+      '117 964'
   costs
     input
       0.08
     output
-      0.16
+      0.45
+    cacheRead
+      0.04

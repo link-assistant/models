@@ -1,0 +1,42 @@
+model 'DeepSeek V4 Pro 0813 (Databricks)'
+  has id
+    'databricks/databricks-deepseek-v4-pro-0813'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      1.31999
+    output
+      3.95997
+    cacheRead
+      0.13202
+    cacheWrite
+      1.31999

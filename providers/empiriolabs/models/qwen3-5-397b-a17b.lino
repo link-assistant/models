@@ -38,3 +38,5 @@ model 'Qwen3.5 397B-A17B'
       0.172
     output
       1.032
+    cacheRead
+      0.172

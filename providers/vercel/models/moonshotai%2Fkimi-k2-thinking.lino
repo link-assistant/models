@@ -16,7 +16,7 @@ model 'Kimi K2 Thinking'
   has knowledge cutoff at
     2024-08
   weights
-    closed
+    open
   capabilities
     (
       reasoning

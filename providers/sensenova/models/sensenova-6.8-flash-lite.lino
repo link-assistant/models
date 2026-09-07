@@ -1,0 +1,40 @@
+model 'SenseNova 6.8 Flash Lite'
+  has id
+    'sensenova-6.8-flash-lite'
+  provider id
+    'sensenova'
+  provided by
+    'SenseNova (China)'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

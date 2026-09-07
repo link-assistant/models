@@ -10,9 +10,9 @@ model 'Qwen 3.5 Flash'
   status
     active
   released at
-    2026-02-24
+    2026-02-23
   last updated at
-    2026-02-24
+    2026-02-23
   weights
     closed
   capabilities
@@ -21,6 +21,7 @@ model 'Qwen 3.5 Flash'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

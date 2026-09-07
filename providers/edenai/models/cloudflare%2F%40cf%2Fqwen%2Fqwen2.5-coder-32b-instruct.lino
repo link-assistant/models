@@ -1,0 +1,36 @@
+model 'Qwen2.5-Coder-32B-Instruct (Cloudflare)'
+  has id
+    'cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-11-12
+  last updated at
+    2024-11-12
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0.66
+    output
+      1

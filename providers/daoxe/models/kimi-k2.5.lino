@@ -21,6 +21,7 @@ model 'Kimi K2.5'
     (
       reasoning
       tool calls
+      attachments
       structured output
     )
   modalities

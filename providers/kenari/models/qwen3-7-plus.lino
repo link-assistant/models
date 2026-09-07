@@ -22,10 +22,11 @@ model 'Qwen3.7 Plus'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits

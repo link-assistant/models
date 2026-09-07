@@ -5,17 +5,20 @@ model 'Nous: Hermes 3 70B Instruct'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'nousresearch'
   status
     active
   released at
     2024-08-18
   last updated at
-    2026-03-15
+    2024-08-18
   weights
-    open
+    closed
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input
@@ -26,9 +29,9 @@ model 'Nous: Hermes 3 70B Instruct'
     context
       '131 072'
     output
-      '32 768'
+      '16 384'
   costs
     input
-      0.3
+      0.7
     output
-      0.3
+      0.7

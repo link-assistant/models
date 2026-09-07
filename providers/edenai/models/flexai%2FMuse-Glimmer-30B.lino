@@ -1,0 +1,40 @@
+model 'Muse Glimmer 30B (FlexAI)'
+  has id
+    'flexai/Muse-Glimmer-30B'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'muse'
+  status
+    active
+  released at
+    2026-08-10
+  last updated at
+    2026-08-10
+  has knowledge cutoff at
+    2026-01-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      1.1

@@ -35,7 +35,7 @@ model 'Gemini 3 Flash Preview'
     context
       '1 048 576'
     output
-      '65 535'
+      '65 536'
   costs
     input
       0.5

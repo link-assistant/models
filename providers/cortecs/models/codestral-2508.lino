@@ -21,6 +21,7 @@ model 'Codestral 2508'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -34,8 +35,8 @@ model 'Codestral 2508'
       '256 000'
   costs
     input
-      0.3
+      0.334
     output
-      0.9
+      1.003
     cacheRead
-      0.03
+      0.033

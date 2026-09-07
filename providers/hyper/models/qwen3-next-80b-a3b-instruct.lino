@@ -1,0 +1,41 @@
+model 'Qwen3-Next 80B-A3B Instruct'
+  has id
+    'qwen3-next-80b-a3b-instruct'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-30
+  last updated at
+    2026-07-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '26 214'
+  costs
+    input
+      0.1175
+    output
+      1.136
+    cacheWrite
+      0.05875

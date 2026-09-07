@@ -1,0 +1,40 @@
+model 'Mistral Small 3.2'
+  has id
+    'mistral-small-3.2-24b-instruct-2506'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-06-20
+  last updated at
+    2025-06-20
+  has knowledge cutoff at
+    2025-03
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.228
+    output
+      0.456

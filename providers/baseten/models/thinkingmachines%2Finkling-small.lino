@@ -1,0 +1,43 @@
+model 'Inkling Small'
+  has id
+    'thinkingmachines/inkling-small'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-30
+  last updated at
+    2026-07-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '32 768'
+  costs
+    input
+      0.5
+    output
+      1.2
+    cacheRead
+      0.1

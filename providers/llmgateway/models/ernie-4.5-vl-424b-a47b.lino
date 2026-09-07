@@ -1,0 +1,38 @@
+model 'ERNIE 4.5 VL 424B A47B'
+  has id
+    'ernie-4.5-vl-424b-a47b'
+  provider id
+    'llmgateway'
+  provided by
+    'DevPass (LLM Gateway)'
+  family
+    'ernie'
+  status
+    active
+  released at
+    2025-06-30
+  last updated at
+    2025-06-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '123 000'
+    output
+      '123 000'
+  costs
+    input
+      0.42
+    output
+      1.25

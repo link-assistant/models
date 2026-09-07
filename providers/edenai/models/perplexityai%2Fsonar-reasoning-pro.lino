@@ -1,0 +1,40 @@
+model 'Sonar Reasoning Pro'
+  has id
+    'perplexityai/sonar-reasoning-pro'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'sonar-reasoning'
+  status
+    active
+  released at
+    2024-01-01
+  last updated at
+    2025-09-01
+  has knowledge cutoff at
+    2025-09-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      2
+    output
+      8

@@ -1,0 +1,40 @@
+model 'GLM-5'
+  has id
+    'z-ai/glm-5'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      3.2
+    cacheRead
+      0.2

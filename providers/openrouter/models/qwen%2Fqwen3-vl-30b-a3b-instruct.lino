@@ -33,9 +33,9 @@ model 'Qwen3 VL 30B A3B Instruct'
     context
       '262 144'
     output
-      '32 768'
+      '16 384'
   costs
     input
-      0.13
+      0.15
     output
-      0.52
+      0.6

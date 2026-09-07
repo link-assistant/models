@@ -1,0 +1,40 @@
+model 'Gemini Embedding 2'
+  has id
+    'gemini-embedding-2'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  has knowledge cutoff at
+    2025-11
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image audio video pdf
+    output
+      text
+  limits
+    context
+      8192
+    output
+      1
+  costs
+    input
+      0.2
+    output
+      0
+    inputAudio
+      6.5

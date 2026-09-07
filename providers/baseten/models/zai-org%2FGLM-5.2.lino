@@ -20,19 +20,20 @@ model 'GLM 5.2'
       reasoning
       tool calls
       temperature
+      attachments
       structured output
       interleaved output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
     context
-      '202 720'
+      '1 048 576'
     output
-      '202 720'
+      '262 144'
   costs
     input
       1.4

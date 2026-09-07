@@ -5,6 +5,8 @@ model 'GLM 4.1V Thinking Flash'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'glm'
   status
     active
   released at
@@ -34,3 +36,5 @@ model 'GLM 4.1V Thinking Flash'
       0.3
     output
       0.3
+    cacheRead
+      0.15

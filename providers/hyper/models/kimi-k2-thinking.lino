@@ -1,0 +1,42 @@
+model 'Kimi K2 Thinking'
+  has id
+    'kimi-k2-thinking'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2026-09-02
+  last updated at
+    2026-09-02
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '26 214'
+  costs
+    input
+      0.6
+    output
+      2.5
+    cacheWrite
+      0.3

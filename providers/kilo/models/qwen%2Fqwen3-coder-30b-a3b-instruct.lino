@@ -1,22 +1,27 @@
-model 'Qwen: Qwen3 Coder 30B A3B Instruct'
+model 'Qwen3-Coder 30B-A3B Instruct'
   has id
     'qwen/qwen3-coder-30b-a3b-instruct'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-07-31
+    2025-04
   last updated at
-    2025-07-31
+    2025-04
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -25,11 +30,11 @@ model 'Qwen: Qwen3 Coder 30B A3B Instruct'
       text
   limits
     context
-      '160 000'
+      '262 144'
     output
-      '32 768'
+      '235 929'
   costs
     input
-      0.07
+      0.2925
     output
-      0.27
+      1.4625

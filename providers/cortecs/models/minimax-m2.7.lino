@@ -1,4 +1,4 @@
-model 'MiniMax-m2.7'
+model 'MiniMax-M2.7'
   has id
     'minimax-m2.7'
   provider id
@@ -29,11 +29,11 @@ model 'MiniMax-m2.7'
       text
   limits
     context
-      '202 752'
+      '196 608'
     output
-      '196 072'
+      '196 608'
   costs
     input
-      0.47
+      0.668
     output
-      1.4
+      2.674

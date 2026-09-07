@@ -27,3 +27,8 @@ model 'Qwen3Guard-Gen-8B'
       '32 768'
     output
       '16 384'
+  costs
+    input
+      0
+    output
+      0

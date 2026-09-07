@@ -20,6 +20,7 @@ model 'GLM 5.2 Flex'
       reasoning
       tool calls
       temperature
+      interleaved output
     )
   modalities
     input
@@ -33,8 +34,8 @@ model 'GLM 5.2 Flex'
       '1 048 560'
   costs
     input
-      0.725
+      0.9425
     output
-      2.25
+      2.925
     cacheRead
-      0.18125
+      0.09425

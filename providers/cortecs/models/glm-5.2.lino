@@ -30,13 +30,13 @@ model 'GLM-5.2'
       text
   limits
     context
-      '1 000 000'
+      '1 048 576'
     output
-      '131 072'
+      '1 000 000'
   costs
     input
-      1.44
+      1.2
     output
-      4.53
+      4.2
     cacheRead
-      0.39
+      0.26

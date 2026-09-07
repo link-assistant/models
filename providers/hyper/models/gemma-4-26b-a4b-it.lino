@@ -1,0 +1,41 @@
+model 'Gemma 4 26B A4B IT'
+  has id
+    'gemma-4-26b-a4b-it'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-30
+  last updated at
+    2026-07-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '25 600'
+  costs
+    input
+      0.106
+    output
+      0.368
+    cacheWrite
+      0.053

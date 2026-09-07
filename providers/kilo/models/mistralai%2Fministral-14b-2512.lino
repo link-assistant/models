@@ -5,12 +5,14 @@ model 'Mistral: Ministral 3 14B 2512'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'ministral'
   status
     active
   released at
-    2025-12-16
+    2025-12-02
   last updated at
-    2025-12-16
+    2025-12-02
   weights
     closed
   capabilities
@@ -18,6 +20,7 @@ model 'Mistral: Ministral 3 14B 2512'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -28,9 +31,11 @@ model 'Mistral: Ministral 3 14B 2512'
     context
       '262 144'
     output
-      '52 429'
+      '209 715'
   costs
     input
       0.2
     output
       0.2
+    cacheRead
+      0.02

@@ -1,0 +1,41 @@
+model 'DeepSeek V4 Flash Vision Exp (DeepSeek)'
+  has id
+    'deepseek/deepseek-v4-flash-vision-exp'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-08-21
+  last updated at
+    2026-08-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '393 216'
+  costs
+    input
+      0.14
+    output
+      0.28
+    cacheRead
+      0.0028

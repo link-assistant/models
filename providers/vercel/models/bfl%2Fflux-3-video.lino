@@ -1,0 +1,27 @@
+model 'Flux 3'
+  has id
+    'bfl/flux-3-video'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'flux'
+  status
+    active
+  released at
+    2026-08-04
+  last updated at
+    2026-08-04
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

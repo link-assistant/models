@@ -1,16 +1,20 @@
-model 'Anthropic: Claude Haiku 4.5'
+model 'Claude Haiku 4.5 (latest)'
   has id
     'anthropic/claude-haiku-4.5'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'claude-haiku'
   status
     active
   released at
     2025-10-15
   last updated at
     2025-10-15
+  has knowledge cutoff at
+    2025-02-28
   weights
     closed
   capabilities
@@ -19,10 +23,11 @@ model 'Anthropic: Claude Haiku 4.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      text image pdf
     output
       text
   limits

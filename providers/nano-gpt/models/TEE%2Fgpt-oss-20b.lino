@@ -14,7 +14,11 @@ model 'GPT-OSS 20B TEE'
   last updated at
     2025-08-05
   weights
-    closed
+    open
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -32,3 +36,5 @@ model 'GPT-OSS 20B TEE'
       0.2
     output
       0.8
+    cacheRead
+      0.1

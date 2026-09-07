@@ -1,0 +1,42 @@
+model 'DeepSeek V4 Pro 0813'
+  has id
+    'deepseek-v4-pro-ga-260813'
+  provider id
+    'volcengine'
+  provided by
+    'Volcengine Ark'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      1.3359
+    output
+      4.00771
+    cacheRead
+      0.04453

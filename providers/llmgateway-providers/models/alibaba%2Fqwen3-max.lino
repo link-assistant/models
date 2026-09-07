@@ -1,0 +1,45 @@
+model 'Qwen3 Max (Alibaba Cloud)'
+  has id
+    'alibaba/qwen3-max'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 800'
+  costs
+    input
+      1.2
+    output
+      6
+    cacheRead
+      0.24
+    cacheWrite
+      1.5

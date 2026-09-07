@@ -1,0 +1,40 @@
+model 'Abliterated Model'
+  has id
+    'abliteration-ai/abliterated-model'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-08-27
+  last updated at
+    2026-08-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '262 134'
+  costs
+    input
+      3
+    output
+      3
+    cacheRead
+      0.3

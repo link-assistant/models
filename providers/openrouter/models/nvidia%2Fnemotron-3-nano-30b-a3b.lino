@@ -31,9 +31,11 @@ model 'Nemotron 3 Nano 30B A3B'
     context
       '262 144'
     output
-      '228 000'
+      '235 929'
   costs
     input
       0.05
     output
       0.2
+    cacheRead
+      0.03

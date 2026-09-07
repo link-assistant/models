@@ -1,0 +1,43 @@
+model 'MiMo V2.5 Pro'
+  has id
+    'mimo-v2.5-pro'
+  provider id
+    'above'
+  provided by
+    'above.dev'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.5077
+    output
+      1.0154
+    cacheRead
+      0.0042

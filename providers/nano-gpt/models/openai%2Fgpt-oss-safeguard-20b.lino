@@ -10,11 +10,11 @@ model 'GPT OSS Safeguard 20B'
   status
     active
   released at
-    2025-10-29
+    2026-02-23
   last updated at
     2025-10-29
   weights
-    closed
+    open
   capabilities
     (
       reasoning

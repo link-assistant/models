@@ -1,0 +1,44 @@
+model 'GPT-5'
+  has id
+    'gpt-5'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      1.375
+    output
+      10.96
+    cacheRead
+      0.156

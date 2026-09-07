@@ -24,7 +24,7 @@ model 'Mistral Nemo'
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

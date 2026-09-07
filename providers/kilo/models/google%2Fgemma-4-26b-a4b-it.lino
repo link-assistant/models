@@ -1,16 +1,18 @@
-model 'Google: Gemma 4 26B A4B'
+model 'Gemma 4 26B A4B IT'
   has id
     'google/gemma-4-26b-a4b-it'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gemma'
   status
     active
   released at
-    2026-04-03
+    2026-04-02
   last updated at
-    2026-04-11
+    2026-04-02
   weights
     open
   capabilities
@@ -19,6 +21,7 @@ model 'Google: Gemma 4 26B A4B'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -29,9 +32,9 @@ model 'Google: Gemma 4 26B A4B'
     context
       '262 144'
     output
-      '262 144'
+      '16 384'
   costs
     input
-      0.12
+      0.042
     output
-      0.4
+      0.22

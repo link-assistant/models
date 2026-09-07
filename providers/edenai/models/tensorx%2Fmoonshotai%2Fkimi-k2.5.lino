@@ -1,0 +1,42 @@
+model 'Kimi K2.5 (TensorX)'
+  has id
+    'tensorx/moonshotai/kimi-k2.5'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.5
+    output
+      2.8
+    cacheRead
+      0.125

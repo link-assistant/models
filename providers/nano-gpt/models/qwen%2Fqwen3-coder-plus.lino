@@ -5,14 +5,22 @@ model 'Qwen3 Coder Plus'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2025-09-17
+    2025-07-23
   last updated at
-    2025-09-17
+    2025-07-23
+  has knowledge cutoff at
+    2025-04
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -30,3 +38,5 @@ model 'Qwen3 Coder Plus'
       1
     output
       5
+    cacheRead
+      0.5

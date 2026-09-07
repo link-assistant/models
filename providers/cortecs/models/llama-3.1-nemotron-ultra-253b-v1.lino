@@ -1,0 +1,36 @@
+model 'llama-3.1-nemotron-ultra-253b-v1'
+  has id
+    'llama-3.1-nemotron-ultra-253b-v1'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-04-07
+  last updated at
+    2025-04-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.598
+    output
+      1.794

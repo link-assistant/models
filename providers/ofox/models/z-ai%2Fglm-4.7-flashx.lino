@@ -1,0 +1,42 @@
+model 'GLM-4.7-FlashX'
+  has id
+    'z-ai/glm-4.7-flashx'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.072
+    output
+      0.43
+    cacheRead
+      0.015

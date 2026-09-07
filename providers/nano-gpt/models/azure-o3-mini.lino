@@ -5,10 +5,12 @@ model 'Azure o3-mini'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'o'
   status
     active
   released at
-    2025-01-31
+    2024-01-01
   last updated at
     2025-01-31
   weights
@@ -27,6 +29,8 @@ model 'Azure o3-mini'
       '65 536'
   costs
     input
-      1.088
+      1.1
     output
-      4.3996
+      4.4
+    cacheRead
+      0.55

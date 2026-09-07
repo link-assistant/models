@@ -14,7 +14,7 @@ model 'Llama 4 Maverick'
   last updated at
     2025-09-05
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -35,6 +35,8 @@ model 'Llama 4 Maverick'
       '65 536'
   costs
     input
-      0.18000000000000002
+      0.15
     output
-      0.8
+      0.6
+    cacheRead
+      0.075

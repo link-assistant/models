@@ -5,24 +5,29 @@ model 'Gemini 3.1 Flash Lite'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini-flash-lite'
   status
     active
   released at
-    2026-03-03
+    2026-05-07
   last updated at
-    2026-03-03
+    2026-05-07
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
   modalities
     input
-      text image pdf
+      text image video audio pdf
     output
       text
   limits
@@ -39,3 +44,5 @@ model 'Gemini 3.1 Flash Lite'
       1.5
     cacheRead
       0.025
+    cacheWrite
+      0.08333

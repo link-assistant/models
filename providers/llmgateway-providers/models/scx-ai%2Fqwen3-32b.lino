@@ -1,0 +1,40 @@
+model 'Qwen3 32B (SCX.ai (Turbo))'
+  has id
+    'scx-ai/qwen3-32b'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04
+  last updated at
+    2025-04
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0.36
+    output
+      0.87

@@ -22,6 +22,7 @@ model 'MiMo-V2.5-Pro'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

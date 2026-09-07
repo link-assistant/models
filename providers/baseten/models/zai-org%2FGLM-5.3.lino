@@ -1,0 +1,42 @@
+model 'GLM 5.3'
+  has id
+    'zai-org/GLM-5.3'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      0.14
