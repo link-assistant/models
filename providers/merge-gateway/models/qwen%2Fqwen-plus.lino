@@ -1,0 +1,43 @@
+model 'Qwen Plus'
+  has id
+    'qwen/qwen-plus'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2025-09-11
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '250 000'
+  costs
+    input
+      0.115
+    output
+      0.287
+    cacheRead
+      0.023

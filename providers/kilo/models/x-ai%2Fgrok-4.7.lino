@@ -1,0 +1,44 @@
+model 'Grok 4.7'
+  has id
+    'x-ai/grok-4.7'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-09-21
+  last updated at
+    2026-09-21
+  has knowledge cutoff at
+    2026-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '500 000'
+    output
+      '450 000'
+  costs
+    input
+      1.6
+    output
+      4.8
+    cacheRead
+      0.4

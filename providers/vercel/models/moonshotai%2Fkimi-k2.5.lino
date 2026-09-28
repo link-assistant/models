@@ -10,7 +10,7 @@ model 'Kimi K2.5'
   status
     active
   released at
-    2026-01-26
+    2026-01
   last updated at
     2026-01
   has knowledge cutoff at
@@ -33,13 +33,11 @@ model 'Kimi K2.5'
       text
   limits
     context
-      '262 114'
+      '256 000'
     output
-      '262 114'
+      '256 000'
   costs
     input
       0.6
     output
       3
-    cacheRead
-      0.1

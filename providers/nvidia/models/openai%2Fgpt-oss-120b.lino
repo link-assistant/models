@@ -8,7 +8,7 @@ model 'GPT-OSS-120B'
   family
     'gpt-oss'
   status
-    active
+    deprecated
   released at
     2025-08-04
   last updated at

@@ -1,0 +1,41 @@
+model 'Seed 1.6'
+  has id
+    'volcengine/doubao-seed-1-6'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'seed'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0.12
+    output
+      0.29
+    cacheRead
+      0.023

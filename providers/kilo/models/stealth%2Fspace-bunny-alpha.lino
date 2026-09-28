@@ -1,0 +1,39 @@
+model 'Space Bunny Alpha (new)'
+  has id
+    'stealth/space-bunny-alpha'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'alpha'
+  status
+    active
+  released at
+    2026-09-23
+  last updated at
+    2026-09-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '524 288'
+  costs
+    input
+      0
+    output
+      0

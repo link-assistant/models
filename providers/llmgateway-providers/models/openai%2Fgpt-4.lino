@@ -1,0 +1,39 @@
+model 'GPT-4 (OpenAI)'
+  has id
+    'openai/gpt-4'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2024-04-09
+  has knowledge cutoff at
+    2023-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      8192
+  costs
+    input
+      30
+    output
+      60

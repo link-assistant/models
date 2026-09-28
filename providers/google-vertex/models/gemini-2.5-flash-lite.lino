@@ -33,7 +33,7 @@ model 'Gemini 2.5 Flash-Lite'
     context
       '1 048 576'
     output
-      '65 536'
+      '65 535'
   costs
     input
       0.1

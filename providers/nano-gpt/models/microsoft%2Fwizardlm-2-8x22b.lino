@@ -14,7 +14,7 @@ model 'WizardLM-2 8x22B'
   last updated at
     2025-04-15
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -33,6 +33,8 @@ model 'WizardLM-2 8x22B'
       8192
   costs
     input
-      0.49299999999999994
+      0.493
     output
-      0.49299999999999994
+      0.493
+    cacheRead
+      0.2465

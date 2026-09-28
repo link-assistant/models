@@ -1,0 +1,38 @@
+model 'GPT-4o Transcribe'
+  has id
+    'gpt-4o-transcribe'
+  provider id
+    'llmgateway'
+  provided by
+    'DevPass (LLM Gateway)'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-03-20
+  last updated at
+    2025-03-20
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '16 000'
+    output
+      '16 000'
+  costs
+    input
+      2.5
+    output
+      10

@@ -32,7 +32,7 @@ model 'Seed 1.8'
     context
       '256 000'
     output
-      '64 000'
+      '32 768'
   costs
     input
       0.25

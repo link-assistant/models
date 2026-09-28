@@ -1,0 +1,41 @@
+model 'Solar Mini 4'
+  has id
+    'upstage/solar-mini4'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'solar'
+  status
+    active
+  released at
+    2026-09-23
+  last updated at
+    2026-09-23
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    input
+      '524 288'
+    output
+      '131 072'
+  costs
+    input
+      0.05
+    output
+      0.2
+    cacheRead
+      0.005

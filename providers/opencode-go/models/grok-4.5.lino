@@ -1,0 +1,42 @@
+model 'Grok 4.5'
+  has id
+    'grok-4.5'
+  provider id
+    'opencode-go'
+  provided by
+    'OpenCode Go'
+  family
+    'grok'
+  status
+    deprecated
+  released at
+    2026-07-08
+  last updated at
+    2026-07-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '500 000'
+    output
+      '500 000'
+  costs
+    input
+      2
+    output
+      6
+    cacheRead
+      0.3

@@ -1,0 +1,40 @@
+model 'Hy4 preview'
+  has id
+    'hy4-preview'
+  provider id
+    'tencent-token-plan'
+  provided by
+    'Tencent Token Plan'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-08-28
+  last updated at
+    2026-08-28
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 024 000'
+    output
+      '64 000'
+  costs
+    input
+      0.834
+    output
+      2.501
+    cacheRead
+      0.042

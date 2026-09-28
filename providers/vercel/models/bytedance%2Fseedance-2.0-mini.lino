@@ -1,0 +1,31 @@
+model 'Seedance 2.0 Mini'
+  has id
+    'bytedance/seedance-2.0-mini'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-06-22
+  last updated at
+    2026-06-22
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

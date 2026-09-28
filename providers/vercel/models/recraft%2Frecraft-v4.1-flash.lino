@@ -1,0 +1,27 @@
+model 'Recraft V4.1 Flash'
+  has id
+    'recraft/recraft-v4.1-flash'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'recraft'
+  status
+    active
+  released at
+    2026-09-23
+  last updated at
+    2026-09-23
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

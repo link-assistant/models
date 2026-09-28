@@ -1,0 +1,41 @@
+model 'Inkling'
+  has id
+    'thinkingmachines/inkling'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 000'
+    output
+      '32 000'
+  costs
+    input
+      1
+    output
+      4.05
+    cacheRead
+      0.17

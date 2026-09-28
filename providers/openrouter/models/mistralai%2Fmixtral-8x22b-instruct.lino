@@ -33,7 +33,7 @@ model 'Mixtral 8x22B Instruct'
     context
       '65 536'
     output
-      '65 536'
+      '52 428'
   costs
     input
       2

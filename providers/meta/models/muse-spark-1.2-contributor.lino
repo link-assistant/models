@@ -1,0 +1,42 @@
+model 'Muse Spark 1.2 Contributor'
+  has id
+    'muse-spark-1.2-contributor'
+  provider id
+    'meta'
+  provided by
+    'Meta'
+  family
+    'muse'
+  status
+    active
+  released at
+    2026-08-05
+  last updated at
+    2026-08-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video pdf audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.1
+    output
+      0.2
+    cacheRead
+      0.002

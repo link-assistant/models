@@ -1,4 +1,4 @@
-model 'Qwen3 Coder 30B A3B Instruct'
+model 'Qwen3-Coder 30B-A3B Instruct'
   has id
     'qwen.qwen3-coder-30b-a3b-v1:0'
   provider id
@@ -10,13 +10,13 @@ model 'Qwen3 Coder 30B A3B Instruct'
   status
     active
   released at
-    2025-09-18
+    2025-07-31
   last updated at
     2025-09-18
   has knowledge cutoff at
-    2024-04
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls

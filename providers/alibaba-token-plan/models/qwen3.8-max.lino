@@ -1,0 +1,45 @@
+model 'Qwen3.8 Max'
+  has id
+    'qwen3.8-max'
+  provider id
+    'alibaba-token-plan'
+  provided by
+    'Alibaba Token Plan'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-08-03
+  last updated at
+    2026-08-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

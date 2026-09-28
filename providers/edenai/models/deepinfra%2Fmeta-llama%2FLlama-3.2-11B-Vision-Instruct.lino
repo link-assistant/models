@@ -1,0 +1,40 @@
+model 'Llama-3.2-11B-Vision-Instruct (Deep Infra)'
+  has id
+    'deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-09-25
+  last updated at
+    2024-09-25
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      4096
+  costs
+    input
+      0.345
+    output
+      0.345

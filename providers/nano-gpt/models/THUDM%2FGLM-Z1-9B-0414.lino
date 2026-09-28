@@ -10,11 +10,11 @@ model 'GLM Z1 9B 0414'
   status
     active
   released at
-    2025-04-14
+    2024-01-01
   last updated at
     2025-04-14
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'GLM Z1 9B 0414'
       0.2
     output
       0.2
+    cacheRead
+      0.1

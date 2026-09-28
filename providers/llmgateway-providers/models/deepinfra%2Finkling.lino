@@ -1,0 +1,40 @@
+model 'Inkling (DeepInfra)'
+  has id
+    'deepinfra/inkling'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '262 144'
+  costs
+    input
+      0.95
+    output
+      4.05
+    cacheRead
+      0.16

@@ -35,10 +35,10 @@ model 'Kimi K2.6'
     context
       '262 144'
     output
-      '262 144'
+      '235 929'
   costs
     input
-      0.66
+      0.65
     output
       3.41
     cacheRead

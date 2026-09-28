@@ -1,4 +1,4 @@
-model 'Command R7B'
+model 'Command R7B 12-2024'
   has id
     'cohere/command-r7b-12-2024'
   provider id
@@ -21,6 +21,7 @@ model 'Command R7B'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

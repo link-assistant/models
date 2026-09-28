@@ -4,7 +4,7 @@ model 'MiniMax-M3'
   provider id
     'minimax-cn-coding-plan'
   provided by
-    'MiniMax Token Plan (minimaxi.com)'
+    'MiniMax Token Plan (minimax.cn)'
   family
     'minimax'
   status
@@ -29,9 +29,9 @@ model 'MiniMax-M3'
       text
   limits
     context
-      '1 000 000'
+      '1 048 576'
     output
-      '128 000'
+      '512 000'
   costs
     input
       0

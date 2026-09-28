@@ -1,0 +1,41 @@
+model 'GLM-5.3'
+  has id
+    'glm-5.3'
+  provider id
+    'privatemode-ai'
+  provided by
+    'Privatemode AI'
+  family
+    'glm'
+  status
+    beta
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '131 072'
+  costs
+    input
+      1.791
+    output
+      8.9436
+    cacheRead
+      0.1733

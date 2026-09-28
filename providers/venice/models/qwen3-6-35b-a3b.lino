@@ -1,0 +1,40 @@
+model 'Qwen 3.6 35B A3B'
+  has id
+    'qwen3-6-35b-a3b'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-07-20
+  last updated at
+    2026-07-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '65 536'
+  costs
+    input
+      0.1
+    output
+      1

@@ -5,17 +5,20 @@ model 'Sao10K: Llama 3.3 Euryale 70B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'llama'
   status
     active
   released at
     2024-12-18
   last updated at
-    2026-03-15
+    2024-12-18
   weights
-    open
+    closed
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input

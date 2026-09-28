@@ -30,7 +30,7 @@ model 'Qwen3.7 Max'
     context
       '1 000 000'
     output
-      '65 536'
+      '131 072'
   costs
     input
       2.5

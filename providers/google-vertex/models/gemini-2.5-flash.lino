@@ -40,6 +40,6 @@ model 'Gemini 2.5 Flash'
     output
       2.5
     cacheRead
-      0.075
-    cacheWrite
-      0.383
+      0.03
+    inputAudio
+      1

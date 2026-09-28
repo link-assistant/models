@@ -1,0 +1,44 @@
+model 'Seed 2.1 Pro'
+  has id
+    'volcengine/doubao-seed-2.1-pro'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-06-23
+  last updated at
+    2026-06-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.7072
+    output
+      3.536
+    cacheRead
+      0.1416
+    cacheWrite
+      0.002

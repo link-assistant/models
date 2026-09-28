@@ -10,7 +10,7 @@ model 'OpenAI o3-pro (2025-06-10)'
   status
     active
   released at
-    2025-06-10
+    2024-01-01
   last updated at
     2025-06-10
   weights
@@ -35,6 +35,8 @@ model 'OpenAI o3-pro (2025-06-10)'
       '100 000'
   costs
     input
-      9.996
+      22
     output
-      19.992
+      88
+    cacheRead
+      11

@@ -8,7 +8,7 @@ model 'Phi-4-Mini'
   family
     'phi'
   status
-    active
+    deprecated
   released at
     2024-12-01
   last updated at

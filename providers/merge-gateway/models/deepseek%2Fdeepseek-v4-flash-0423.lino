@@ -1,0 +1,39 @@
+model 'DeepSeek V4 Flash 0423'
+  has id
+    'deepseek/deepseek-v4-flash-0423'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-04-23
+  last updated at
+    2026-04-23
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.139
+    output
+      0.278

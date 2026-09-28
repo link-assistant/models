@@ -1,0 +1,42 @@
+model 'GLM-4.7 FlashX (Z AI)'
+  has id
+    'zai/glm-4.7-flashx'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.07
+    output
+      0.4
+    cacheRead
+      0.01

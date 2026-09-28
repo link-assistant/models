@@ -27,7 +27,7 @@ model 'Gemini 2.5 Pro'
     )
   modalities
     input
-      text image audio video pdf
+      text image audio pdf
     output
       text
   limits

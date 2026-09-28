@@ -10,7 +10,7 @@ model 'MiniMax 01'
   status
     active
   released at
-    2025-01-15
+    2024-01-01
   last updated at
     2025-01-15
   weights
@@ -35,4 +35,6 @@ model 'MiniMax 01'
     input
       0.1394
     output
-      1.1219999999999999
+      1.122
+    cacheRead
+      0.0697

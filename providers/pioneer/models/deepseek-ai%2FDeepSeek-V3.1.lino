@@ -1,0 +1,43 @@
+model 'DeepSeek-V3.1'
+  has id
+    'deepseek-ai/DeepSeek-V3.1'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '131 072'
+  costs
+    input
+      0.56
+    output
+      1.68
+    cacheRead
+      0.56
+    cacheWrite
+      0.56

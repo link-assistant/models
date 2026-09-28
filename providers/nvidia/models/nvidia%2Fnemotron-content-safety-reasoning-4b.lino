@@ -8,7 +8,7 @@ model 'nemotron-content-safety-reasoning-4b'
   family
     'nemotron'
   status
-    active
+    deprecated
   released at
     2026-01-22
   last updated at

@@ -1,0 +1,41 @@
+model 'DeepSeek-V3.1'
+  has id
+    'deepseek-ai/DeepSeek-V3.1'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      8192
+  costs
+    input
+      0.25
+    output
+      0.95
+    cacheRead
+      0.13

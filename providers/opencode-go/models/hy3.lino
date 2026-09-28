@@ -1,0 +1,42 @@
+model 'Hy3'
+  has id
+    'hy3'
+  provider id
+    'opencode-go'
+  provided by
+    'OpenCode Go'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-07-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '192 000'
+    output
+      '128 000'
+  costs
+    input
+      0.14
+    output
+      0.58
+    cacheRead
+      0.035

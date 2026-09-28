@@ -8,7 +8,7 @@ model 'GPT-4o mini'
   family
     'gpt-mini'
   status
-    active
+    deprecated
   released at
     2024-07-18
   last updated at

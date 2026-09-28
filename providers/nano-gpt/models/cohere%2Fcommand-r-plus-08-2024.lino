@@ -13,11 +13,13 @@ model 'Cohere: Command R+'
     2024-08-30
   last updated at
     2024-08-30
+  has knowledge cutoff at
+    2024-06-01
   weights
-    closed
+    open
   capabilities
     (
-      tool calls
+      temperature
     )
   modalities
     input
@@ -36,3 +38,5 @@ model 'Cohere: Command R+'
       2.856
     output
       14.246
+    cacheRead
+      1.428

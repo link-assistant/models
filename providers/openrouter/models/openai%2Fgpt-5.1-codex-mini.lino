@@ -35,11 +35,11 @@ model 'GPT-5.1 Codex mini'
     input
       '272 000'
     output
-      '100 000'
+      '128 000'
   costs
     input
       0.25
     output
       2
     cacheRead
-      0.025
+      0.03

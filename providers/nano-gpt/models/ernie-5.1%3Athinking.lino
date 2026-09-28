@@ -5,6 +5,8 @@ model 'ERNIE 5.1 Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'ernie'
   status
     active
   released at
@@ -16,11 +18,10 @@ model 'ERNIE 5.1 Thinking'
   capabilities
     (
       reasoning
-      attachments
     )
   modalities
     input
-      text image video
+      text
     output
       text
   limits

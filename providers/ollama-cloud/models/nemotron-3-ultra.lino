@@ -31,3 +31,10 @@ model 'nemotron-3-ultra'
       '262 144'
     output
       '128 000'
+  costs
+    input
+      0.1
+    output
+      3
+    cacheRead
+      0.1

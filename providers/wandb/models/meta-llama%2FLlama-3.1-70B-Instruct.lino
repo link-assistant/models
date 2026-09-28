@@ -4,7 +4,7 @@ model 'Llama 3.1 70B'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   family
     'llama'
   status
@@ -13,6 +13,8 @@ model 'Llama 3.1 70B'
     2024-07-23
   last updated at
     2024-07-23
+  has knowledge cutoff at
+    2023-12
   weights
     open
   capabilities
@@ -28,9 +30,9 @@ model 'Llama 3.1 70B'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      '128 000'
+      '131 072'
   costs
     input
       0.8

@@ -1,0 +1,40 @@
+model 'claude-opus-5-thinking'
+  has id
+    'claude-opus-5-thinking'
+  provider id
+    '302ai'
+  provided by
+    '302.AI'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2026-07-24
+  last updated at
+    2026-07-24
+  has knowledge cutoff at
+    2026-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      5
+    output
+      25

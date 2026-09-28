@@ -21,6 +21,7 @@ model 'GPT-5.3 Codex'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
       interleaved output

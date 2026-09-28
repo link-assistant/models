@@ -1,16 +1,18 @@
-model 'Qwen: Qwen3 VL 8B Thinking'
+model 'Qwen: Qwen3 VL 8B Thinking (retires Oct 9)'
   has id
     'qwen/qwen3-vl-8b-thinking'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-10-15
+    2025-10-14
   last updated at
-    2025-11-25
+    2025-10-14
   weights
     closed
   capabilities
@@ -19,6 +21,7 @@ model 'Qwen: Qwen3 VL 8B Thinking'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -32,6 +35,6 @@ model 'Qwen: Qwen3 VL 8B Thinking'
       '32 768'
   costs
     input
-      0.117
+      0.18
     output
-      1.365
+      2.1

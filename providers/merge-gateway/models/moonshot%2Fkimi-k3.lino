@@ -1,0 +1,41 @@
+model 'Kimi K3'
+  has id
+    'moonshot/kimi-k3'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-07-16
+  last updated at
+    2026-07-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      2.9
+    output
+      14
+    cacheRead
+      0.3

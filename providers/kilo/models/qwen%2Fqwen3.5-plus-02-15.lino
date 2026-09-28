@@ -5,12 +5,14 @@ model 'Qwen: Qwen3.5 Plus 2026-02-15'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen3.5'
   status
     active
   released at
-    2026-02-15
+    2026-02-16
   last updated at
-    2026-03-15
+    2026-02-16
   weights
     closed
   capabilities
@@ -19,10 +21,11 @@ model 'Qwen: Qwen3.5 Plus 2026-02-15'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text video
+      text image video
     output
       text
   limits

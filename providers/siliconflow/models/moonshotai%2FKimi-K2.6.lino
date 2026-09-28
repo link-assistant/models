@@ -37,6 +37,6 @@ model 'moonshotai/Kimi-K2.6'
     input
       0.77
     output
-      4
+      3.4
     cacheRead
-      0.2
+      0.14

@@ -1,0 +1,43 @@
+model 'DeepSeek V4 Flash 0731 TEE'
+  has id
+    'deepseek-ai/DeepSeek-V4-Flash-0731-TEE'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-07-31
+  last updated at
+    2026-08-02
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.44
+    output
+      1.32
+    cacheRead
+      0.04399999999999999

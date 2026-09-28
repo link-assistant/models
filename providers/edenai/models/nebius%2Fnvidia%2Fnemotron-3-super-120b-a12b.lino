@@ -1,0 +1,41 @@
+model 'Nemotron 3 Super 120B A12B (Nebius)'
+  has id
+    'nebius/nvidia/nemotron-3-super-120b-a12b'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.3
+    output
+      0.9
+    cacheRead
+      0.3

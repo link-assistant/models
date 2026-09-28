@@ -4,7 +4,7 @@ model 'Mellum2 12B A2.5B'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   status
     active
   released at

@@ -20,7 +20,6 @@ model 'GPT-5 Chat (latest)'
   capabilities
     (
       reasoning
-      temperature
       attachments
       structured output
     )
@@ -35,7 +34,7 @@ model 'GPT-5 Chat (latest)'
     input
       '272 000'
     output
-      '128 000'
+      '100 000'
   costs
     input
       1.25

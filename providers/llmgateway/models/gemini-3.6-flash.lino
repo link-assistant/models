@@ -1,0 +1,46 @@
+model 'Gemini 3.6 Flash'
+  has id
+    'gemini-3.6-flash'
+  provider id
+    'llmgateway'
+  provided by
+    'DevPass (LLM Gateway)'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-07-21
+  last updated at
+    2026-07-21
+  has knowledge cutoff at
+    2026-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.75
+    output
+      3.75
+    cacheRead
+      0.075
+    cacheWrite
+      0.08333

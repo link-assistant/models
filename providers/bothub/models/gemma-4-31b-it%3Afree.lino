@@ -1,0 +1,41 @@
+model 'Gemma 4 31B IT (free)'
+  has id
+    'gemma-4-31b-it:free'
+  provider id
+    'bothub'
+  provided by
+    'Bothub'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

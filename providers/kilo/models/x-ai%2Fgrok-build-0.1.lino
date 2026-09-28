@@ -1,16 +1,18 @@
-model 'xAI: Grok Build 0.1'
+model 'Grok Build 0.1'
   has id
     'x-ai/grok-build-0.1'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'grok-build'
   status
     active
   released at
-    2026-05-20
+    2026-04-16
   last updated at
-    2026-05-27
+    2026-04-16
   weights
     closed
   capabilities
@@ -19,17 +21,18 @@ model 'xAI: Grok Build 0.1'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      text image pdf
     output
       text
   limits
     context
       '256 000'
     output
-      '256 000'
+      '230 400'
   costs
     input
       1

@@ -4,7 +4,7 @@ model 'GPT OSS 120B'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'gpt-oss'
   status
@@ -34,6 +34,8 @@ model 'GPT OSS 120B'
       '32 766'
   costs
     input
-      0.05
+      0.032
     output
-      0.25
+      0.14
+    cacheRead
+      0.032

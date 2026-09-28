@@ -1,4 +1,4 @@
-model 'MiniMax-M2.5-highspeed'
+model 'MiniMax M2.5 Highspeed'
   has id
     'minimax/minimax-m2.5-highspeed'
   provider id
@@ -20,6 +20,7 @@ model 'MiniMax-M2.5-highspeed'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,7 +31,7 @@ model 'MiniMax-M2.5-highspeed'
     context
       '204 800'
     output
-      '131 072'
+      8192
   costs
     input
       0.6

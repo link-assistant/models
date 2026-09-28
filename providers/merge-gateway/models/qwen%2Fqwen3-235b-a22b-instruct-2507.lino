@@ -1,0 +1,39 @@
+model 'Qwen3 235B A22B Instruct 2507'
+  has id
+    'qwen/qwen3-235b-a22b-instruct-2507'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-21
+  last updated at
+    2025-07-21
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.6
+    cacheRead
+      0.05

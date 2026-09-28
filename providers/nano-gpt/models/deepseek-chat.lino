@@ -5,17 +5,22 @@ model 'DeepSeek V3/Deepseek Chat'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'deepseek'
   status
     active
   released at
-    2025-02-27
+    2025-12-01
   last updated at
-    2025-02-27
+    2026-02-28
+  has knowledge cutoff at
+    2025-09
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -33,6 +38,8 @@ model 'DeepSeek V3/Deepseek Chat'
       8192
   costs
     input
-      0.25
+      0.1
     output
-      0.7
+      0.425
+    cacheRead
+      0.05

@@ -1,0 +1,39 @@
+model 'Nemotron 3 Ultra (free)'
+  has id
+    'nemotron-3-ultra-550b-a55b:free'
+  provider id
+    'bothub'
+  provided by
+    'Bothub'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      0
+    output
+      0

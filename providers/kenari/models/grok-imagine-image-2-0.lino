@@ -1,0 +1,36 @@
+model 'Grok Imagine Image 2.0'
+  has id
+    'grok-imagine-image-2-0'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-08-07
+  last updated at
+    2026-08-07
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      8000
+    output
+      0
+  costs
+    input
+      0
+    output
+      0

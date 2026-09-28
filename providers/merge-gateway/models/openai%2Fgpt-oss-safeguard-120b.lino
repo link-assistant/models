@@ -1,0 +1,37 @@
+model 'GPT OSS Safeguard 120B'
+  has id
+    'openai/gpt-oss-safeguard-120b'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-10-29
+  last updated at
+    2025-10-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      4096
+  costs
+    input
+      0.15
+    output
+      0.6

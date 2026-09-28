@@ -31,7 +31,7 @@ model 'Claude Sonnet 4.5 (latest)'
       text
   limits
     context
-      '200 000'
+      '1 000 000'
     output
       '64 000'
   costs

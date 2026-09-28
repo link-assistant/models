@@ -22,7 +22,6 @@ model 'Claude Sonnet 5 (AU)'
       reasoning
       tool calls
       attachments
-      structured output
     )
   modalities
     input
@@ -36,10 +35,10 @@ model 'Claude Sonnet 5 (AU)'
       '128 000'
   costs
     input
-      2
+      2.2
     output
-      10
+      11
     cacheRead
-      0.2
+      0.22
     cacheWrite
-      2.5
+      2.75

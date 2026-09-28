@@ -1,0 +1,40 @@
+model 'Mercury 2.5'
+  has id
+    'mercury-2-5'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'mercury'
+  status
+    active
+  released at
+    2026-09-08
+  last updated at
+    2026-09-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '260 000'
+    output
+      '65 536'
+  costs
+    input
+      0.04999999999999999
+    output
+      0.18749999999999994
+    cacheRead
+      0.004999999999999999

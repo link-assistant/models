@@ -1,4 +1,4 @@
-model 'Claude Sonnet 4'
+model 'Claude Sonnet 4 (latest)'
   has id
     'claude-sonnet-4'
   provider id
@@ -14,13 +14,16 @@ model 'Claude Sonnet 4'
   last updated at
     2025-05-22
   has knowledge cutoff at
-    2025-03
+    2025-03-31
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
@@ -31,9 +34,13 @@ model 'Claude Sonnet 4'
     context
       '200 000'
     output
-      '64 000'
+      '65 000'
   costs
     input
-      3.307
+      2.898
     output
-      16.536
+      14.493
+    cacheRead
+      0.29
+    cacheWrite
+      3.624

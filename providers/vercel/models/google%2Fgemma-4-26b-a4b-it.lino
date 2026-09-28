@@ -14,7 +14,7 @@ model 'Gemma 4 26B A4B IT'
   last updated at
     2026-04-02
   weights
-    closed
+    open
   capabilities
     (
       reasoning

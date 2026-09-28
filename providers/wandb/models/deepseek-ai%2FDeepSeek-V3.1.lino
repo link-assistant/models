@@ -4,7 +4,7 @@ model 'DeepSeek V3.1'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   family
     'deepseek'
   status

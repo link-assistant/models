@@ -10,7 +10,7 @@ model 'OpenAI o4-mini high'
   status
     active
   released at
-    2025-04-16
+    2025-12-04
   last updated at
     2025-04-16
   weights
@@ -38,3 +38,5 @@ model 'OpenAI o4-mini high'
       1.1
     output
       4.4
+    cacheRead
+      0.55

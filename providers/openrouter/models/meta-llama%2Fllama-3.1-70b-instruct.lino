@@ -1,4 +1,4 @@
-model 'Llama 3.1 70B Instruct'
+model 'Llama-3.1-70B-Instruct'
   has id
     'meta-llama/llama-3.1-70b-instruct'
   provider id
@@ -14,7 +14,7 @@ model 'Llama 3.1 70B Instruct'
   last updated at
     2024-07-23
   has knowledge cutoff at
-    2023-12-31
+    2023-12
   weights
     open
   capabilities

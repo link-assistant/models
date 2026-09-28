@@ -1,0 +1,45 @@
+model 'Claude Fable 5.1'
+  has id
+    'claude-fable-5-1'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'claude-fable'
+  status
+    active
+  released at
+    2026-08-29
+  last updated at
+    2026-09-01
+  has knowledge cutoff at
+    2026-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      12
+    output
+      60
+    cacheRead
+      0.3
+    cacheWrite
+      15

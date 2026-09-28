@@ -32,7 +32,7 @@ model 'MiniMax-M2.5'
     context
       '196 608'
     output
-      '196 608'
+      '131 072'
   costs
     input
       0.3

@@ -6,7 +6,7 @@ model 'Step 3.5 Flash'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2026-02-02
   last updated at

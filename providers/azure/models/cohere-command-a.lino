@@ -30,9 +30,9 @@ model 'Command A'
       text
   limits
     context
-      '256 000'
+      '131 072'
     output
-      8000
+      8192
   costs
     input
       2.5

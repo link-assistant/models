@@ -5,17 +5,20 @@ model 'Microsoft: Phi 4'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'phi'
   status
     active
   released at
-    2024-12-11
+    2025-01-10
   last updated at
-    2024-12-11
+    2025-01-10
   weights
-    open
+    closed
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input
@@ -26,9 +29,9 @@ model 'Microsoft: Phi 4'
     context
       '16 384'
     output
-      '16 384'
+      '14 745'
   costs
     input
-      0.06
+      0.07
     output
       0.14

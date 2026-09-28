@@ -1,0 +1,39 @@
+model 'DeepSeek V3.1'
+  has id
+    'deepseek/deepseek-v3.1'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '164 000'
+    output
+      '41 000'
+  costs
+    input
+      0.5
+    output
+      1.5

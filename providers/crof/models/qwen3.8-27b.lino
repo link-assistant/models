@@ -1,0 +1,42 @@
+model 'Qwen3.8 27B'
+  has id
+    'qwen3.8-27b'
+  provider id
+    'crof'
+  provided by
+    'CrofAI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.2
+    output
+      1.5
+    cacheRead
+      0.03

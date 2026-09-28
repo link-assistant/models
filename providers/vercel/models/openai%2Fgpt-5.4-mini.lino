@@ -6,7 +6,7 @@ model 'GPT 5.4 Mini'
   provided by
     'Vercel AI Gateway'
   family
-    'gpt'
+    'gpt-mini'
   status
     active
   released at

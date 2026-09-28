@@ -12,7 +12,7 @@ model 'Qwen-VL OCR'
   released at
     2024-10-28
   last updated at
-    2025-04-13
+    2026-09-11
   has knowledge cutoff at
     2024-04
   weights
@@ -33,6 +33,6 @@ model 'Qwen-VL OCR'
       4096
   costs
     input
-      0.717
+      0.043
     output
-      0.717
+      0.072

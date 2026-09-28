@@ -31,6 +31,8 @@ model 'Qwen3 VL 235B A22B Instruct Original'
       '32 768'
   costs
     input
-      0.5
+      0.3
     output
-      1.2
+      1.9
+    cacheRead
+      0.15

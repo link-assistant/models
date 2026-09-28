@@ -1,0 +1,43 @@
+model 'Seed 1.8'
+  has id
+    'doubao-seed-1-8-251228'
+  provider id
+    'volcengine'
+  provided by
+    'Volcengine Ark'
+  family
+    'seed'
+  status
+    active
+  released at
+    2025-12-28
+  last updated at
+    2025-12-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0.11875
+    output
+      1.18747
+    cacheRead
+      0.02375

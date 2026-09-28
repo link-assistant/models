@@ -33,6 +33,6 @@ model 'Qwen3-Embedding 4B'
       2560
   costs
     input
-      0
+      0.1502
     output
       0

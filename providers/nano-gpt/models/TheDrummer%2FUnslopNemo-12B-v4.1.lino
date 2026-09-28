@@ -12,7 +12,7 @@ model 'UnslopNemo 12b v4'
   last updated at
     2024-01-01
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -24,13 +24,15 @@ model 'UnslopNemo 12b v4'
       text
   limits
     context
-      '32 768'
-    input
-      '32 768'
-    output
       8192
+    input
+      8192
+    output
+      '26 214'
   costs
     input
       0.493
     output
       0.493
+    cacheRead
+      0.2465

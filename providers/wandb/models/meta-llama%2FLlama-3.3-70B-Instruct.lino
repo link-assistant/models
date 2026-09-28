@@ -4,7 +4,7 @@ model 'Llama 3.3 70B'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   family
     'llama'
   status

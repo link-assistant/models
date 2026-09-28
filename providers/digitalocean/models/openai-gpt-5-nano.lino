@@ -1,4 +1,4 @@
-model 'GPT-5 nano'
+model 'OpenAI GPT-5 Nano'
   has id
     'openai-gpt-5-nano'
   provider id

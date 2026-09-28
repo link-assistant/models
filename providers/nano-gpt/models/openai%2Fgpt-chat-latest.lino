@@ -5,6 +5,8 @@ model 'GPT Chat Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gpt'
   status
     active
   released at
@@ -15,6 +17,7 @@ model 'GPT Chat Latest'
     closed
   capabilities
     (
+      reasoning
       tool calls
       attachments
       structured output
@@ -26,15 +29,17 @@ model 'GPT Chat Latest'
       text
   limits
     context
-      '400 000'
+      '1 050 000'
     input
-      '400 000'
+      '1 050 000'
     output
       '128 000'
   costs
     input
-      5
+      2
     output
-      30
+      10
     cacheRead
-      0.5
+      0.2
+    cacheWrite
+      2.5

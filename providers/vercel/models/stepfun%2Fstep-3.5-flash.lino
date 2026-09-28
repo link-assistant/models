@@ -5,8 +5,6 @@ model 'StepFun 3.5 Flash'
     'vercel'
   provided by
     'Vercel AI Gateway'
-  family
-    'step'
   status
     active
   released at
@@ -16,7 +14,7 @@ model 'StepFun 3.5 Flash'
   has knowledge cutoff at
     2025-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -25,7 +23,7 @@ model 'StepFun 3.5 Flash'
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

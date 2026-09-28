@@ -10,11 +10,15 @@ model 'Llama 3.1 8b (uncensored)'
   status
     active
   released at
-    2024-07-23
+    2024-01-01
   last updated at
     2024-07-23
   weights
     closed
+  capabilities
+    (
+      tool calls
+    )
   modalities
     input
       text
@@ -29,6 +33,8 @@ model 'Llama 3.1 8b (uncensored)'
       '16 384'
   costs
     input
-      0.2006
+      0.8
     output
-      0.2006
+      1.6
+    cacheRead
+      0.4

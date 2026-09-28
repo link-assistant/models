@@ -1,0 +1,36 @@
+model 'Atria Dawn Preview'
+  has id
+    'atria-dawn-preview'
+  provider id
+    'llmgateway'
+  provided by
+    'DevPass (LLM Gateway)'
+  status
+    active
+  released at
+    2026-09-12
+  last updated at
+    2026-09-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

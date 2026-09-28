@@ -8,7 +8,7 @@ model 'GPT-5.2 Chat'
   family
     'gpt-codex'
   status
-    active
+    deprecated
   released at
     2025-12-11
   last updated at

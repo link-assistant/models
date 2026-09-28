@@ -32,13 +32,11 @@ model 'GLM-4.7-Flash'
       text
   limits
     context
-      '202 752'
+      '200 000'
     output
-      '16 384'
+      '117 964'
   costs
     input
-      0.06
+      0.0605
     output
       0.4
-    cacheRead
-      0.01

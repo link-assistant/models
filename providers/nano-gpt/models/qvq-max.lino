@@ -5,6 +5,8 @@ model 'Qwen: QvQ Max'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Qwen: QvQ Max'
   last updated at
     2025-03-28
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -31,6 +33,8 @@ model 'Qwen: QvQ Max'
       8192
   costs
     input
-      1.4
+      1.2
     output
-      5.3
+      4.8
+    cacheRead
+      0.6

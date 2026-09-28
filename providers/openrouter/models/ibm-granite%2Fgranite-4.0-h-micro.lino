@@ -28,7 +28,7 @@ model 'Granite 4.0 Micro'
     context
       '131 000'
     output
-      '131 000'
+      '117 900'
   costs
     input
       0.017

@@ -1,0 +1,43 @@
+model 'LongCat 2.5 Preview'
+  has id
+    'longcat-2.5-preview'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'longcat'
+  status
+    active
+  released at
+    2026-09-25
+  last updated at
+    2026-09-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.75
+    output
+      2.95
+    cacheRead
+      0.015

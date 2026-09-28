@@ -5,6 +5,8 @@ model 'Hermes 4 Large (Thinking)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'nousresearch'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Hermes 4 Large (Thinking)'
   last updated at
     2024-01-01
   weights
-    closed
+    open
   capabilities
     (
       structured output
@@ -34,3 +36,5 @@ model 'Hermes 4 Large (Thinking)'
       0.3
     output
       1.2
+    cacheRead
+      0.15

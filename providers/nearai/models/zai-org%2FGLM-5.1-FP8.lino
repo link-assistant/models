@@ -32,9 +32,9 @@ model 'GLM-5.1 FP8'
     context
       '202 752'
     output
-      '131 072'
+      '16 384'
   costs
     input
-      0.85
+      1.4
     output
-      3.3
+      4.4

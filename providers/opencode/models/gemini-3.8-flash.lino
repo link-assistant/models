@@ -1,0 +1,44 @@
+model 'Gemini 3.8 Flash'
+  has id
+    'gemini-3.8-flash'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-09-02
+  last updated at
+    2026-09-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      1.5
+    output
+      7.5
+    cacheRead
+      0.15
+    inputAudio
+      1.5

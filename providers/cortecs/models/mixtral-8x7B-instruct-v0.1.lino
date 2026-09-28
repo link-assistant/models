@@ -19,19 +19,21 @@ model 'Mixtral 8x7B Instruct v0.1'
     (
       reasoning
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
     context
       '32 000'
     output
-      '32 000'
+      4096
   costs
     input
-      0.438
+      0.488
     output
-      0.68
+      0.758

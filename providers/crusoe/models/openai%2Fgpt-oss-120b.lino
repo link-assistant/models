@@ -1,0 +1,42 @@
+model 'GPT OSS 120B'
+  has id
+    'openai/gpt-oss-120b'
+  provider id
+    'crusoe'
+  provided by
+    'Crusoe'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.05
+    output
+      0.2
+    cacheRead
+      0.05

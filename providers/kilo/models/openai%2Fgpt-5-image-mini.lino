@@ -5,24 +5,26 @@ model 'OpenAI: GPT-5 Image Mini'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
     2025-10-16
   last updated at
-    2026-03-15
+    2025-10-16
   weights
     closed
   capabilities
     (
       reasoning
-      tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image pdf text
+      pdf image text
     output
       image text
   limits
@@ -35,3 +37,5 @@ model 'OpenAI: GPT-5 Image Mini'
       2.5
     output
       2
+    cacheRead
+      0.25

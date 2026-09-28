@@ -1,0 +1,41 @@
+model 'Inkling'
+  has id
+    'inkling'
+  provider id
+    'neon'
+  provided by
+    'Neon'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      1
+    output
+      4.05
+    cacheRead
+      0.17

@@ -14,7 +14,7 @@ model 'K2-Think'
   last updated at
     2025-07-26
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'K2-Think'
       0.17
     output
       0.68
+    cacheRead
+      0.085

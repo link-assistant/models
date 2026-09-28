@@ -1,0 +1,37 @@
+model 'Nemotron Nano 9B'
+  has id
+    'nvidia/nemotron-nano-9b-v2'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-08-18
+  last updated at
+    2025-08-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.06
+    output
+      0.23

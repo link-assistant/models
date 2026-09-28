@@ -14,7 +14,7 @@ model 'Nano Banana (Gemini 2.5 Flash Image)'
   last updated at
     2025-08-26
   has knowledge cutoff at
-    2025-01
+    2024-06
   weights
     closed
   capabilities
@@ -23,14 +23,14 @@ model 'Nano Banana (Gemini 2.5 Flash Image)'
     )
   modalities
     input
-      text
+      text image
     output
       text image
   limits
     context
       '32 768'
     output
-      '65 536'
+      '65 535'
   costs
     input
       0.3

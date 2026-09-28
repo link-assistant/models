@@ -23,6 +23,7 @@ model 'OpenAI GPT 120B'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input

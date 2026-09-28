@@ -1,18 +1,20 @@
-model 'Qwen: Qwen3 235B A22B Thinking 2507'
+model 'Qwen: Qwen3 235B A22B Thinking 2507 (retires Oct 9)'
   has id
     'qwen/qwen3-235b-a22b-thinking-2507'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
     2025-07-25
   last updated at
-    2026-03-15
+    2025-07-25
   weights
-    open
+    closed
   capabilities
     (
       reasoning
@@ -26,11 +28,11 @@ model 'Qwen: Qwen3 235B A22B Thinking 2507'
       text
   limits
     context
-      '262 144'
+      '131 072'
     output
-      '262 144'
+      '117 964'
   costs
     input
-      0.11
+      0.23
     output
-      0.6
+      2.3

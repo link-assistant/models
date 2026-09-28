@@ -8,7 +8,7 @@ model 'GPT OSS 120B'
   family
     'gpt-oss'
   status
-    active
+    experimental
   released at
     2025-08-05
   last updated at

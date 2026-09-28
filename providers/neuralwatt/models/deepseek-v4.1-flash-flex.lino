@@ -1,0 +1,45 @@
+model 'DeepSeek V4.1 Flash Flex'
+  has id
+    'deepseek-v4.1-flash-flex'
+  provider id
+    'neuralwatt'
+  provided by
+    'Neuralwatt'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 560'
+    output
+      '393 216'
+  costs
+    input
+      0.0975
+    output
+      0.39
+    cacheRead
+      0.00975

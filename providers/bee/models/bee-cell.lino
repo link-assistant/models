@@ -1,0 +1,40 @@
+model 'Bee Cell 1.0'
+  has id
+    'bee-cell'
+  provider id
+    'bee'
+  provided by
+    'Bee by HEOSSI'
+  status
+    active
+  released at
+    2026-07-10
+  last updated at
+    2026-09-28
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.03
+    cacheWrite
+      0.36

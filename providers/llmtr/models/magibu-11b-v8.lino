@@ -10,7 +10,7 @@ model 'Magibu 11B v8'
   released at
     2026-06-05
   last updated at
-    2026-06-05
+    2026-08-16
   weights
     closed
   capabilities
@@ -26,9 +26,9 @@ model 'Magibu 11B v8'
     context
       8192
     output
-      4096
+      8192
   costs
     input
-      0
+      0.1
     output
-      0
+      0.5

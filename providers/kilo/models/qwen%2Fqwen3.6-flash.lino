@@ -1,16 +1,18 @@
-model 'Qwen: Qwen3.6 Flash'
+model 'Qwen3.6 Flash'
   has id
     'qwen/qwen3.6-flash'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen3.6'
   status
     active
   released at
     2026-04-27
   last updated at
-    2026-05-01
+    2026-04-27
   weights
     closed
   capabilities
@@ -19,6 +21,7 @@ model 'Qwen: Qwen3.6 Flash'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -32,8 +35,8 @@ model 'Qwen: Qwen3.6 Flash'
       '65 536'
   costs
     input
-      0.25
+      0.1875
     output
-      1.5
+      1.125
     cacheWrite
-      0.3125
+      0.234375

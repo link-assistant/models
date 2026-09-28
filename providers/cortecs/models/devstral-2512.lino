@@ -1,10 +1,12 @@
-model 'Devstral 2 2512'
+model 'Devstral 2'
   has id
     'devstral-2512'
   provider id
     'cortecs'
   provided by
     'Cortecs'
+  family
+    'devstral'
   status
     active
   released at
@@ -19,6 +21,7 @@ model 'Devstral 2 2512'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -27,11 +30,13 @@ model 'Devstral 2 2512'
       text
   limits
     context
-      '262 000'
+      '256 000'
     output
-      '262 000'
+      '256 000'
   costs
     input
-      0
+      0.478
     output
-      0
+      2.392
+    cacheRead
+      0.045

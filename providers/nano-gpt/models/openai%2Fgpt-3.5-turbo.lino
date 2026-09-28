@@ -10,11 +10,17 @@ model 'GPT-3.5 Turbo'
   status
     active
   released at
-    2022-11-30
+    2023-03-01
   last updated at
-    2024-01-01
+    2023-11-06
+  has knowledge cutoff at
+    2021-09-01
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text

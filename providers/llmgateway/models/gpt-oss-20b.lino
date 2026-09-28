@@ -4,7 +4,7 @@ model 'GPT OSS 20B'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'gpt-oss'
   status
@@ -36,4 +36,6 @@ model 'GPT OSS 20B'
     input
       0.04
     output
-      0.15
+      0.19
+    cacheRead
+      0.01

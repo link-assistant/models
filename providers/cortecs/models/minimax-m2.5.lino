@@ -20,6 +20,7 @@ model 'MiniMax-M2.5'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -29,11 +30,13 @@ model 'MiniMax-M2.5'
       text
   limits
     context
-      '196 608'
+      '196 000'
     output
-      '196 608'
+      '196 000'
   costs
     input
-      0.32
+      0.296
     output
-      1.18
+      1.186
+    cacheRead
+      0.075

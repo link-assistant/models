@@ -1,4 +1,4 @@
-model 'GLM-4.5-Air'
+model 'GLM-4.5 Air'
   has id
     'zai/glm-4.5-air'
   provider id
@@ -30,7 +30,7 @@ model 'GLM-4.5-Air'
       text
   limits
     context
-      '131 072'
+      '128 000'
     output
       '98 304'
   costs

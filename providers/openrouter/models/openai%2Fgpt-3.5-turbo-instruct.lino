@@ -31,7 +31,7 @@ model 'GPT-3.5 Turbo Instruct'
     context
       4095
     output
-      4096
+      3685
   costs
     input
       1.5

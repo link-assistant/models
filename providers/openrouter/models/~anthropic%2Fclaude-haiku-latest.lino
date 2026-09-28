@@ -1,4 +1,4 @@
-model 'Anthropic Claude Haiku Latest'
+model 'Claude Haiku Latest'
   has id
     '~anthropic/claude-haiku-latest'
   provider id

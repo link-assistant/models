@@ -5,12 +5,14 @@ model 'Amazon: Nova Pro 1.0'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'nova-pro'
   status
     active
   released at
-    2024-12-03
+    2024-12-05
   last updated at
-    2024-12-03
+    2024-12-05
   weights
     closed
   capabilities

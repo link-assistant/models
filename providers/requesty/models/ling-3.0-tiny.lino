@@ -1,0 +1,37 @@
+model 'ling-3.0-tiny'
+  has id
+    'ling-3.0-tiny'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-08-05
+  last updated at
+    2026-08-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

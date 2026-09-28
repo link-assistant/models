@@ -13,10 +13,13 @@ model 'GPT 4.1 Nano'
     2025-04-14
   last updated at
     2025-04-14
+  has knowledge cutoff at
+    2024-04
   weights
     closed
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -36,3 +39,5 @@ model 'GPT 4.1 Nano'
       0.1
     output
       0.4
+    cacheRead
+      0.025

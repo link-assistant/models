@@ -1,0 +1,43 @@
+model 'GLM 5.3 Flash'
+  has id
+    'accounts/fireworks/models/glm-5p3-flash'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'glm-flash'
+  status
+    experimental
+  released at
+    2026-08-26
+  last updated at
+    2026-09-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 573'
+    output
+      '131 072'
+  costs
+    input
+      0.15
+    output
+      0.5
+    cacheRead
+      0.03

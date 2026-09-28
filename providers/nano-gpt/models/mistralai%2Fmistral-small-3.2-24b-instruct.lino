@@ -1,0 +1,36 @@
+model 'Mistral Small 3.2 24B (2506)'
+  has id
+    'mistralai/mistral-small-3.2-24b-instruct'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-04-15
+  last updated at
+    2025-04-15
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.2
+    output
+      0.4
+    cacheRead
+      0.1

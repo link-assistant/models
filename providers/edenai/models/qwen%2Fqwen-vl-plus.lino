@@ -1,0 +1,41 @@
+model 'Qwen-VL Plus'
+  has id
+    'qwen/qwen-vl-plus'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2025-08-15
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.21
+    output
+      0.63
+    cacheRead
+      0.042

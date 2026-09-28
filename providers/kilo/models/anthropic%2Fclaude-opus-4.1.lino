@@ -1,16 +1,20 @@
-model 'Anthropic: Claude Opus 4.1'
+model 'Claude Opus 4.1 (latest)'
   has id
     'anthropic/claude-opus-4.1'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'claude-opus'
   status
     active
   released at
     2025-08-05
   last updated at
-    2026-03-15
+    2025-08-05
+  has knowledge cutoff at
+    2025-03-31
   weights
     closed
   capabilities
@@ -22,7 +26,7 @@ model 'Anthropic: Claude Opus 4.1'
     )
   modalities
     input
-      image pdf text
+      text image pdf
     output
       text
   limits

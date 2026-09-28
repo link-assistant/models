@@ -1,0 +1,36 @@
+model 'Agents-A1'
+  has id
+    'Agents-A1'
+  provider id
+    'inferx'
+  provided by
+    'InferX'
+  status
+    active
+  released at
+    2026-06-26
+  last updated at
+    2026-06-26
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '100 000'
+  costs
+    input
+      0
+    output
+      0

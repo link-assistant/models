@@ -1,0 +1,42 @@
+model 'Inkling Small (Deep Infra)'
+  has id
+    'deepinfra/thinkingmachines/Inkling-Small'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-30
+  last updated at
+    2026-07-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '1 048 576'
+  costs
+    input
+      0.45
+    output
+      1.2
+    cacheRead
+      0.1

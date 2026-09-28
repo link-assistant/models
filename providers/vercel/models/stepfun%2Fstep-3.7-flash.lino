@@ -5,18 +5,16 @@ model 'Step 3.7 Flash'
     'vercel'
   provided by
     'Vercel AI Gateway'
-  family
-    'step'
   status
     active
   released at
-    2026-05-28
+    2026-05-29
   last updated at
     2026-05-29
   has knowledge cutoff at
     2026-03-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -26,7 +24,7 @@ model 'Step 3.7 Flash'
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits

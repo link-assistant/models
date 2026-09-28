@@ -1,0 +1,38 @@
+model 'Laguna S 2.1 Free'
+  has id
+    'poolside/laguna-s-2.1-free'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'laguna'
+  status
+    active
+  released at
+    2026-07-21
+  last updated at
+    2026-07-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

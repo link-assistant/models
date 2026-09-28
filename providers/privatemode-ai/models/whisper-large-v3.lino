@@ -10,16 +10,13 @@ model 'Whisper large-v3'
   status
     active
   released at
-    2023-09-01
+    2024-10-01
   last updated at
-    2023-09-01
-  has knowledge cutoff at
-    2023-09
+    2024-10-01
   weights
     open
   capabilities
     (
-      temperature
       attachments
     )
   modalities
@@ -29,11 +26,11 @@ model 'Whisper large-v3'
       text
   limits
     context
-      0
+      448
     output
       4096
   costs
     input
-      0
+      0.01618
     output
       0

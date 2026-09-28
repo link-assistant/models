@@ -10,14 +10,17 @@ model 'Kimi K2.6'
   status
     active
   released at
-    2026-04-16
+    2026-04-21
   last updated at
     2026-04-21
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
     (
       tool calls
+      temperature
       attachments
     )
   modalities
@@ -28,10 +31,14 @@ model 'Kimi K2.6'
   limits
     context
       '256 000'
+    input
+      '256 000'
     output
       '65 536'
   costs
     input
-      0.53
+      0.5
     output
-      2.73
+      2.6
+    cacheRead
+      0.125

@@ -5,12 +5,14 @@ model 'Perplexity: Sonar Reasoning Pro'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'sonar-reasoning'
   status
     active
   released at
-    2024-01-01
+    2025-03-07
   last updated at
-    2025-09-01
+    2025-03-07
   weights
     closed
   capabilities
@@ -28,7 +30,7 @@ model 'Perplexity: Sonar Reasoning Pro'
     context
       '128 000'
     output
-      '25 600'
+      '115 200'
   costs
     input
       2

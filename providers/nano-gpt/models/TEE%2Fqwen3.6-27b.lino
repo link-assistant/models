@@ -1,0 +1,42 @@
+model 'Qwen3.6 27B TEE'
+  has id
+    'TEE/qwen3.6-27b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.32
+    output
+      2.7
+    cacheRead
+      0.16

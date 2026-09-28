@@ -8,14 +8,17 @@ model 'Step 3.5 Flash 2603'
   status
     active
   released at
-    2026-04-14
+    2026-04-02
   last updated at
-    2026-04-14
+    2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      temperature
     )
   modalities
     input
@@ -24,13 +27,15 @@ model 'Step 3.5 Flash 2603'
       text
   limits
     context
-      '256 000'
+      '262 144'
     input
-      '256 000'
+      '262 144'
     output
-      '256 000'
+      '65 536'
   costs
     input
       0.1
     output
       0.3
+    cacheRead
+      0.05

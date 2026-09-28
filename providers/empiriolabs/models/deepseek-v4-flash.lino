@@ -39,3 +39,5 @@ model 'DeepSeek V4 Flash'
       0.14
     output
       0.28
+    cacheRead
+      0.14

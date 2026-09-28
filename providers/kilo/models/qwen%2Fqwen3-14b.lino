@@ -5,19 +5,22 @@ model 'Qwen: Qwen3 14B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-04
+    2025-04-28
   last updated at
-    2026-03-15
+    2025-04-28
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,11 +31,9 @@ model 'Qwen: Qwen3 14B'
     context
       '40 960'
     output
-      '40 960'
+      '16 384'
   costs
     input
-      0.06
+      0.2275
     output
-      0.24
-    cacheRead
-      0.025
+      0.91

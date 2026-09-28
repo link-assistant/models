@@ -6,7 +6,7 @@ model 'Phi 4 Multimodal'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2025-07-26
   last updated at

@@ -1,0 +1,34 @@
+model 'Aya Expanse 32B'
+  has id
+    'cohere/c4ai-aya-expanse-32b'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  status
+    active
+  released at
+    2024-10-24
+  last updated at
+    2024-10-24
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4000
+  costs
+    input
+      0.5
+    output
+      1.5

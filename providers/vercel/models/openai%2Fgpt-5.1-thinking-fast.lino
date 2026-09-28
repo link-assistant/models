@@ -1,0 +1,42 @@
+model 'GPT 5.1 Thinking (Fast)'
+  has id
+    'openai/gpt-5.1-thinking-fast'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-11-12
+  last updated at
+    2025-11-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      2.5
+    output
+      20
+    cacheRead
+      0.25

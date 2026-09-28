@@ -5,6 +5,8 @@ model 'GLM 4.6V'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'glm'
   status
     active
   released at
@@ -12,9 +14,9 @@ model 'GLM 4.6V'
   last updated at
     2025-12-08
   has knowledge cutoff at
-    2025-01-01
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -31,11 +33,11 @@ model 'GLM 4.6V'
     context
       '200 000'
     output
-      '64 000'
+      '128 000'
   costs
     input
-      0.14
+      0.1456
     output
-      0.42
+      0.4367
     cacheRead
-      0.03
+      0.0291

@@ -32,11 +32,13 @@ model 'zai-org/GLM-5.1'
     context
       '205 000'
     output
-      '205 000'
+      '131 000'
   costs
     input
-      1.4
+      1.19
     output
-      4.4
+      3.74
+    cacheRead
+      0.6
     cacheWrite
       0

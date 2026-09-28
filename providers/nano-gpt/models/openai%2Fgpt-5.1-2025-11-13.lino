@@ -10,11 +10,17 @@ model 'GPT-5.1 (2025-11-13)'
   status
     active
   released at
-    2025-11-13
+    2024-01-01
   last updated at
     2025-11-13
   weights
     closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
   modalities
     input
       text
@@ -22,13 +28,15 @@ model 'GPT-5.1 (2025-11-13)'
       text
   limits
     context
-      '1 000 000'
+      '400 000'
     input
-      '1 000 000'
+      '400 000'
     output
-      '32 768'
+      '128 000'
   costs
     input
       1.25
     output
       10
+    cacheRead
+      0.125

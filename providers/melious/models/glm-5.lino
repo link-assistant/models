@@ -1,0 +1,41 @@
+model 'GLM-5'
+  has id
+    'glm-5'
+  provider id
+    'melious'
+  provided by
+    'Melious'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '203 000'
+    output
+      '131 072'
+  costs
+    input
+      1.10124
+    output
+      3.36168
+    cacheRead
+      0.266616

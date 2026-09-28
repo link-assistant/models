@@ -1,0 +1,35 @@
+model 'Step 5 Preview'
+  has id
+    'step-5-preview'
+  provider id
+    'stepfun-ai-step-plan'
+  provided by
+    'StepFun Step Plan (Global)'
+  status
+    active
+  released at
+    2026-09-16
+  last updated at
+    2026-09-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '65 536'

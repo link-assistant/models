@@ -1,0 +1,42 @@
+model 'Gemini 3.8 Flash'
+  has id
+    'gemini-3-8-flash'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-09-02
+  last updated at
+    2026-09-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.9375
+    output
+      4.6875
+    cacheRead
+      0.09375

@@ -1,0 +1,43 @@
+model 'OpenAI: GPT Sol Latest'
+  has id
+    '~openai/gpt-sol-latest'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'gpt-sol'
+  status
+    active
+  released at
+    2026-09-11
+  last updated at
+    2026-09-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      pdf image text
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '128 000'
+  costs
+    input
+      2
+    output
+      10
+    cacheRead
+      0.2
+    cacheWrite
+      2.5

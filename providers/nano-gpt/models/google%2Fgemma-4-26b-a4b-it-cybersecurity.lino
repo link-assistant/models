@@ -1,0 +1,42 @@
+model 'Gemma 4 26B A4B Cybersecurity'
+  has id
+    'google/gemma-4-26b-a4b-it-cybersecurity'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-09-19
+  last updated at
+    2026-09-19
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.1056
+    output
+      0.3344
+    cacheRead
+      0.0528

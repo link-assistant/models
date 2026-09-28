@@ -10,14 +10,17 @@ model 'GPT 4.1'
   status
     active
   released at
-    2025-09-10
+    2025-04-14
   last updated at
-    2025-09-10
+    2025-04-14
+  has knowledge cutoff at
+    2024-04
   weights
     closed
   capabilities
     (
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -38,3 +41,5 @@ model 'GPT 4.1'
       2
     output
       8
+    cacheRead
+      0.5

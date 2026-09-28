@@ -4,7 +4,7 @@ model 'Claude Haiku 4.5 (latest)'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'claude-haiku'
   status

@@ -1,0 +1,36 @@
+model 'Toast 1'
+  has id
+    'mixedbread/toast-1'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  status
+    active
+  released at
+    2026-08-13
+  last updated at
+    2026-08-13
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      4000
+  costs
+    input
+      0.3
+    output
+      0.72
+    cacheRead
+      0.036
