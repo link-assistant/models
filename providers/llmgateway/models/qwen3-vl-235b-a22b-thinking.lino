@@ -4,7 +4,7 @@ model 'Qwen3 VL 235B A22B Thinking'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status

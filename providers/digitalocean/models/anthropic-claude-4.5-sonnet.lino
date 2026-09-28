@@ -1,4 +1,4 @@
-model 'Claude Sonnet 4.5'
+model 'Anthropic Claude 4.5 Sonnet'
   has id
     'anthropic-claude-4.5-sonnet'
   provider id
@@ -26,12 +26,12 @@ model 'Claude Sonnet 4.5'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
     context
-      '1 000 000'
+      '200 000'
     output
       '64 000'
   costs

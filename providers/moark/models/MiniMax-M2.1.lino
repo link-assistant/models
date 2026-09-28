@@ -36,3 +36,7 @@ model 'MiniMax-M2.1'
       2.1
     output
       8.4
+    cacheRead
+      2.1
+    cacheWrite
+      8.4

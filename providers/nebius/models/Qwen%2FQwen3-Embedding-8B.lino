@@ -24,9 +24,9 @@ model 'Qwen3-Embedding-8B'
       text
   limits
     context
-      '32 768'
+      '40 960'
     input
-      '32 768'
+      '40 960'
     output
       0
   costs

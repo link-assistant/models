@@ -1,0 +1,43 @@
+model 'Nova Micro (APAC)'
+  has id
+    'apac.amazon.nova-micro-v1:0'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'nova-micro'
+  status
+    active
+  released at
+    2024-12-03
+  last updated at
+    2024-12-03
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '10 000'
+  costs
+    input
+      0.037
+    output
+      0.148
+    cacheRead
+      0.00925
+    cacheWrite
+      0.037

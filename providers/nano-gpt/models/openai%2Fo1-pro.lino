@@ -10,9 +10,11 @@ model 'OpenAI o1 Pro'
   status
     active
   released at
-    2025-01-25
+    2025-03-19
   last updated at
-    2025-01-25
+    2025-03-19
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities
@@ -36,3 +38,5 @@ model 'OpenAI o1 Pro'
       150
     output
       600
+    cacheRead
+      75

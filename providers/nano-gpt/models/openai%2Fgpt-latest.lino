@@ -5,6 +5,8 @@ model 'GPT Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gpt'
   status
     active
   released at
@@ -27,15 +29,17 @@ model 'GPT Latest'
       text
   limits
     context
-      '1 000 000'
+      '1 050 000'
     input
-      '1 000 000'
+      '1 050 000'
     output
       '128 000'
   costs
     input
-      5
+      10
     output
-      30
+      50
     cacheRead
-      0.5
+      1
+    cacheWrite
+      12.5

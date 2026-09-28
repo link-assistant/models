@@ -32,7 +32,7 @@ model 'Nova 2 Lite'
     context
       '1 000 000'
     output
-      '1 000 000'
+      '65 535'
   costs
     input
       0.3

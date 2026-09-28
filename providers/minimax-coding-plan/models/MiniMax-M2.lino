@@ -28,9 +28,9 @@ model 'MiniMax-M2'
       text
   limits
     context
-      '196 608'
+      '204 800'
     output
-      '128 000'
+      '131 072'
   costs
     input
       0

@@ -1,0 +1,44 @@
+model 'Grok 4.6 (Vertex AI (OpenAI-compatible))'
+  has id
+    'vertex-openai/grok-4-6'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-12
+  has knowledge cutoff at
+    2026-02-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '500 000'
+    output
+      '500 000'
+  costs
+    input
+      2
+    output
+      6
+    cacheRead
+      0.5

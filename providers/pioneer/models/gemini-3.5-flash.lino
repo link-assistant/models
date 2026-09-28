@@ -33,9 +33,9 @@ model 'Gemini 3.5 Flash'
       text
   limits
     context
-      '1 048 576'
+      '1 000 000'
     output
-      '65 536'
+      '64 000'
   costs
     input
       1.5

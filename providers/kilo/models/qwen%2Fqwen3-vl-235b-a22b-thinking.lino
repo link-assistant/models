@@ -1,16 +1,20 @@
-model 'Qwen: Qwen3 VL 235B A22B Thinking'
+model 'Qwen3 VL 235B A22B Thinking'
   has id
     'qwen/qwen3-vl-235b-a22b-thinking'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-09-24
+    2025-09-23
   last updated at
-    2026-03-15
+    2025-09-23
+  has knowledge cutoff at
+    2025-03-31
   weights
     open
   capabilities
@@ -19,10 +23,11 @@ model 'Qwen: Qwen3 VL 235B A22B Thinking'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      text image
     output
       text
   limits
@@ -32,6 +37,6 @@ model 'Qwen: Qwen3 VL 235B A22B Thinking'
       '32 768'
   costs
     input
-      0.26
+      0.4
     output
-      2.6
+      4

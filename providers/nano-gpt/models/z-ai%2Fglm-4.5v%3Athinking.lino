@@ -6,18 +6,21 @@ model 'GLM 4.5V Thinking'
   provided by
     'NanoGPT'
   family
-    'glmv'
+    'glm'
   status
     active
   released at
-    2025-11-22
+    2025-08-11
   last updated at
-    2025-11-22
+    2025-08-11
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      temperature
       attachments
     )
   modalities
@@ -27,13 +30,15 @@ model 'GLM 4.5V Thinking'
       text
   limits
     context
-      '64 000'
+      '65 536'
     input
-      '64 000'
+      '65 536'
     output
-      '96 000'
+      '16 384'
   costs
     input
       0.6
     output
-      1.7999999999999998
+      1.8
+    cacheRead
+      0.3

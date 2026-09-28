@@ -1,0 +1,42 @@
+model 'DeepSeek V3.2 (NovitaAI)'
+  has id
+    'novita/deepseek-v3.2'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '65 536'
+  costs
+    input
+      0.269
+    output
+      0.4
+    cacheRead
+      0.1345

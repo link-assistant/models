@@ -1,0 +1,41 @@
+model 'Nemotron 3.5 Lightning 30B A3B'
+  has id
+    'accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.05
+    output
+      0.2
+    cacheRead
+      0.01

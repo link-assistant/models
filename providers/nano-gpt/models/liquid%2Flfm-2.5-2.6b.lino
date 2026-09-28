@@ -1,0 +1,42 @@
+model 'LFM2.5 2.6B'
+  has id
+    'liquid/lfm-2.5-2.6b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'liquid'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.2
+    cacheRead
+      0.05

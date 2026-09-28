@@ -1,0 +1,41 @@
+model 'Qwen Max Latest (Qwen3.8 Max)'
+  has id
+    'accounts/fireworks/routers/qwen-max-latest'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'qwen'
+  status
+    experimental
+  released at
+    2026-08-03
+  last updated at
+    2026-09-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      2
+    output
+      6
+    cacheRead
+      0.25

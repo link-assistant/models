@@ -5,31 +5,37 @@ model 'Mistral Large 2407'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral-large'
   status
     active
   released at
     2024-11-19
   last updated at
-    2026-03-15
+    2024-11-19
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
     context
       '131 072'
     output
-      '32 768'
+      '104 857'
   costs
     input
       2
     output
       6
+    cacheRead
+      0.2

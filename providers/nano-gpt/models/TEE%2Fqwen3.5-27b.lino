@@ -5,16 +5,19 @@ model 'Qwen3.5 27B TEE'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2026-03-13
+    2026-02-23
   last updated at
-    2026-03-13
+    2026-02-23
   weights
-    closed
+    open
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -34,3 +37,5 @@ model 'Qwen3.5 27B TEE'
       0.3
     output
       2.4
+    cacheRead
+      0.15

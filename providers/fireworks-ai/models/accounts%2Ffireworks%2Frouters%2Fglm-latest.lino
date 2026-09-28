@@ -1,0 +1,42 @@
+model 'GLM Latest'
+  has id
+    'accounts/fireworks/routers/glm-latest'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'glm'
+  status
+    experimental
+  released at
+    2026-08-14
+  last updated at
+    2026-09-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 573'
+    output
+      '262 144'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      0.26

@@ -13,10 +13,14 @@ model 'GPT-4o (2024-08-06)'
     2024-08-06
   last updated at
     2024-08-06
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities
     (
+      tool calls
+      temperature
       attachments
     )
   modalities
@@ -33,6 +37,8 @@ model 'GPT-4o (2024-08-06)'
       '16 384'
   costs
     input
-      2.499
+      2.5
     output
-      9.996
+      10
+    cacheRead
+      1.25

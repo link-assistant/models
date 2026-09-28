@@ -19,7 +19,6 @@ model 'Anthropic Claude Fable 5'
     (
       reasoning
       tool calls
-      temperature
       attachments
     )
   modalities
@@ -32,3 +31,12 @@ model 'Anthropic Claude Fable 5'
       '1 000 000'
     output
       '128 000'
+  costs
+    input
+      10
+    output
+      50
+    cacheRead
+      1
+    cacheWrite
+      12.5

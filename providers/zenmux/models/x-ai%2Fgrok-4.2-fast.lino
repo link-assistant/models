@@ -5,26 +5,26 @@ model 'Grok 4.2 Fast'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'grok'
   status
     active
   released at
-    2026-03-20
+    2026-03-09
   last updated at
-    2026-03-20
-  has knowledge cutoff at
-    2025-08-31
+    2026-03-09
   weights
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits
@@ -34,6 +34,8 @@ model 'Grok 4.2 Fast'
       '30 000'
   costs
     input
-      3
+      2
     output
-      9
+      6
+    cacheRead
+      0.2

@@ -5,6 +5,8 @@ model 'Phi 4 Multimodal'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'phi'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Phi 4 Multimodal'
   last updated at
     2025-07-26
   weights
-    closed
+    open
   modalities
     input
       text
@@ -30,3 +32,5 @@ model 'Phi 4 Multimodal'
       0.07
     output
       0.11
+    cacheRead
+      0.035

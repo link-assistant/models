@@ -32,7 +32,7 @@ model 'Hunyuan A13B Instruct'
     context
       '131 072'
     output
-      '131 072'
+      '117 964'
   costs
     input
       0.14

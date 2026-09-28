@@ -27,9 +27,9 @@ model 'Qwen3 4B Instruct'
       text
   limits
     context
-      '262 144'
+      '32 768'
     output
-      4096
+      '32 768'
   costs
     input
       0.2

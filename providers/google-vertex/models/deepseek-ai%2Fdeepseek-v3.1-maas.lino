@@ -8,7 +8,7 @@ model 'DeepSeek V3.1'
   family
     'deepseek'
   status
-    active
+    deprecated
   released at
     2025-08-28
   last updated at
@@ -37,3 +37,5 @@ model 'DeepSeek V3.1'
       0.6
     output
       1.7
+    cacheRead
+      0.06

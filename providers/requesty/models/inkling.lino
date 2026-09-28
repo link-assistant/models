@@ -1,0 +1,41 @@
+model 'Inkling'
+  has id
+    'inkling'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '32 768'
+  costs
+    input
+      1.87
+    output
+      4.68
+    cacheRead
+      0.374

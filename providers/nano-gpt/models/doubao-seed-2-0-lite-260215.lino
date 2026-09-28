@@ -5,6 +5,8 @@ model 'Doubao Seed 2.0 Lite'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'seed'
   status
     active
   released at
@@ -30,3 +32,5 @@ model 'Doubao Seed 2.0 Lite'
       0.1462
     output
       0.8738
+    cacheRead
+      0.0731

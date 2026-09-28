@@ -1,26 +1,32 @@
-model 'OpenAI: GPT-4'
+model 'GPT-4'
   has id
     'openai/gpt-4'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
-    2023-03-14
+    2023-11-06
   last updated at
     2024-04-09
+  has knowledge cutoff at
+    2023-11
   weights
     closed
   capabilities
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits

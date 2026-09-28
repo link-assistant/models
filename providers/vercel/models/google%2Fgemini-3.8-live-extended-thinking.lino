@@ -1,0 +1,32 @@
+model 'Gemini 3.8 Live Extended Thinking'
+  has id
+    'google/gemini-3.8-live-extended-thinking'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gemini'
+  status
+    active
+  released at
+    2026-09-15
+  last updated at
+    2026-09-15
+  weights
+    closed
+  modalities
+    input
+      text audio
+    output
+      text audio
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      0.75
+    output
+      4.5

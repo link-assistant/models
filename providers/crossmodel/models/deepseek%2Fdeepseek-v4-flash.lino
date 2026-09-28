@@ -33,13 +33,13 @@ model 'DeepSeek V4 Flash'
     context
       '1 000 000'
     output
-      '65 000'
+      '384 000'
   costs
     input
-      0.16
+      0.27
     output
-      0.32
+      1.08
     cacheRead
-      0.004
+      0.0054
     cacheWrite
-      0.16
+      0.27

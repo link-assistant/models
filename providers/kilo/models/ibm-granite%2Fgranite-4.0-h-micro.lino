@@ -5,14 +5,16 @@ model 'IBM: Granite 4.0 Micro'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'granite'
   status
     active
   released at
     2025-10-20
   last updated at
-    2026-03-15
+    2025-10-20
   weights
-    open
+    closed
   capabilities
     (
       temperature
@@ -26,9 +28,9 @@ model 'IBM: Granite 4.0 Micro'
     context
       '131 000'
     output
-      '32 768'
+      '117 900'
   costs
     input
       0.017
     output
-      0.11
+      0.112

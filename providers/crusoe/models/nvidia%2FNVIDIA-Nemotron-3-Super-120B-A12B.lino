@@ -1,0 +1,40 @@
+model 'Nemotron 3 Super 120B A12B'
+  has id
+    'nvidia/NVIDIA-Nemotron-3-Super-120B-A12B'
+  provider id
+    'crusoe'
+  provided by
+    'Crusoe'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.3
+    output
+      2.4
+    cacheRead
+      0.15

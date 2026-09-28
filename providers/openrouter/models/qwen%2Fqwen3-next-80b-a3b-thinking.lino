@@ -33,9 +33,9 @@ model 'Qwen3-Next 80B-A3B (Thinking)'
     context
       '262 144'
     output
-      '32 768'
+      '235 929'
   costs
     input
-      0.0975
+      0.15
     output
-      0.78
+      1.2

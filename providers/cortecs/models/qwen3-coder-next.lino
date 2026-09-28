@@ -1,4 +1,4 @@
-model 'Qwen3 Coder Next 80B'
+model 'Qwen3 Coder Next'
   has id
     'qwen3-coder-next'
   provider id
@@ -10,18 +10,18 @@ model 'Qwen3 Coder Next 80B'
   status
     active
   released at
-    2026-02-04
+    2026-02-03
   last updated at
-    2026-02-04
+    2026-02-03
   has knowledge cutoff at
-    2025-04
+    2025-09
   weights
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -32,9 +32,9 @@ model 'Qwen3 Coder Next 80B'
     context
       '256 000'
     output
-      '65 536'
+      '256 000'
   costs
     input
-      0.158
+      0.167
     output
-      0.84
+      0.891

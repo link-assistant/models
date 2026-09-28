@@ -1,0 +1,37 @@
+model 'Apertus 70B'
+  has id
+    'apertus-70b'
+  provider id
+    'regolo-ai'
+  provided by
+    'Regolo AI'
+  status
+    active
+  released at
+    2025-09-02
+  last updated at
+    2025-09-02
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '30 000'
+    output
+      '30 000'
+  costs
+    input
+      0.46
+    output
+      2.42

@@ -6,13 +6,13 @@ model 'Voxtral Small 24B 2507'
   provided by
     'Amazon Bedrock'
   family
-    'mistral'
+    'voxtral'
   status
     active
   released at
-    2025-07-01
+    2025-07-15
   last updated at
-    2025-07-01
+    2025-07-15
   weights
     open
   capabilities
@@ -29,11 +29,11 @@ model 'Voxtral Small 24B 2507'
       text
   limits
     context
-      '32 000'
+      '32 768'
     output
       8192
   costs
     input
-      0.15
+      0.1
     output
-      0.35
+      0.3

@@ -13,12 +13,15 @@ model 'DeepSeek V3.2 Thinking'
     2025-12-01
   last updated at
     2025-12-01
+  has knowledge cutoff at
+    2024-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -36,6 +39,8 @@ model 'DeepSeek V3.2 Thinking'
       '65 536'
   costs
     input
-      0.27999999999999997
+      0.28
     output
-      0.42000000000000004
+      0.42
+    cacheRead
+      0.14

@@ -39,3 +39,5 @@ model 'Qwen3 Max'
       1.08
     output
       5.52
+    cacheRead
+      1.08

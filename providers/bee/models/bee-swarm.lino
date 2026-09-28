@@ -1,0 +1,39 @@
+model 'Bee Swarm 1.0'
+  has id
+    'bee-swarm'
+  provider id
+    'bee'
+  provided by
+    'Bee by HEOSSI'
+  status
+    active
+  released at
+    2026-07-10
+  last updated at
+    2026-09-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '64 000'
+  costs
+    input
+      25
+    output
+      150
+    cacheRead
+      2.5
+    cacheWrite
+      30

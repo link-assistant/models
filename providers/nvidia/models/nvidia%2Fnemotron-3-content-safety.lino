@@ -8,7 +8,7 @@ model 'nemotron-3-content-safety'
   family
     'nemotron'
   status
-    active
+    deprecated
   released at
     2026-04-16
   last updated at

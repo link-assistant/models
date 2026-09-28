@@ -29,7 +29,7 @@ model 'Sonar'
     context
       '127 072'
     output
-      '127 072'
+      '114 364'
   costs
     input
       1

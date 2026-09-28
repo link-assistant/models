@@ -5,17 +5,22 @@ model 'Qwen 3 235b A22B'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2025-04-29
+    2025-04
   last updated at
-    2025-04-29
+    2025-04
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -26,13 +31,15 @@ model 'Qwen 3 235b A22B'
       text
   limits
     context
-      '41 000'
+      '262 144'
     input
-      '41 000'
+      '262 144'
     output
-      '32 768'
+      '16 384'
   costs
     input
       0.3
     output
       0.5
+    cacheRead
+      0.15

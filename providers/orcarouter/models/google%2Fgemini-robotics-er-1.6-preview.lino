@@ -1,0 +1,42 @@
+model 'Gemini Robotics-ER 1.6 Preview'
+  has id
+    'google/gemini-robotics-er-1.6-preview'
+  provider id
+    'orcarouter'
+  provided by
+    'OrcaRouter'
+  family
+    'gemini'
+  status
+    active
+  released at
+    2026-04-14
+  last updated at
+    2026-04-14
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      1
+    output
+      5

@@ -6,7 +6,7 @@ model 'Gemini Embedding 001'
   provided by
     'Vercel AI Gateway'
   family
-    'gemini-embedding'
+    'gemini'
   status
     active
   released at

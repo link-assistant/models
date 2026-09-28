@@ -4,7 +4,7 @@ model 'MiniMax-M2.7-highspeed'
   provider id
     'minimax-cn'
   provided by
-    'MiniMax (minimaxi.com)'
+    'MiniMax (minimax.cn)'
   family
     'minimax'
   status

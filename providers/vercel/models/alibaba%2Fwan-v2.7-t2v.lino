@@ -5,8 +5,6 @@ model 'Wan v2.7 Text-to-Video'
     'vercel'
   provided by
     'Vercel AI Gateway'
-  family
-    'o'
   status
     active
   released at

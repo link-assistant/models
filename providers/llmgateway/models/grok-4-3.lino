@@ -4,7 +4,7 @@ model 'Grok 4.3'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'grok'
   status
@@ -39,4 +39,4 @@ model 'Grok 4.3'
     output
       2.5
     cacheRead
-      0.3125
+      0.2

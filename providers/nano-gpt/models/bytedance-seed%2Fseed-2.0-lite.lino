@@ -5,21 +5,25 @@ model 'ByteDance Seed 2.0 Lite'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'seed'
   status
     active
   released at
-    2026-03-10
+    2026-02-14
   last updated at
-    2026-03-10
+    2026-02-14
   weights
     closed
   capabilities
     (
+      temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image video
     output
       text
   limits
@@ -34,3 +38,5 @@ model 'ByteDance Seed 2.0 Lite'
       0.25
     output
       2
+    cacheRead
+      0.125

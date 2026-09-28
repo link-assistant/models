@@ -1,0 +1,34 @@
+model 'GPT Image 2.5 Flare'
+  has id
+    'openai/gpt-image-2.5-flare'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2026-09-08
+  last updated at
+    2026-09-08
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      0
+    output
+      0
+  costs
+    input
+      5
+    output
+      30
+    cacheRead
+      1.25

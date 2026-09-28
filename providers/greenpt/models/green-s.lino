@@ -1,0 +1,30 @@
+model 'Green S'
+  has id
+    'green-s'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  status
+    active
+  released at
+    2025-01
+  last updated at
+    2025-01
+  weights
+    closed
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      8192
+  costs
+    input
+      0.00437
+    output
+      0

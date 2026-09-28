@@ -8,7 +8,7 @@ model 'Devstral 2'
   family
     'devstral'
   status
-    deprecated
+    active
   released at
     2025-12-09
   last updated at
@@ -21,6 +21,7 @@ model 'Devstral 2'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -29,11 +30,13 @@ model 'Devstral 2'
       text
   limits
     context
-      '262 144'
+      '256 000'
     output
-      '262 144'
+      '256 000'
   costs
     input
       0.4
     output
       2
+    cacheRead
+      0.04

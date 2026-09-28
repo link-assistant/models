@@ -4,7 +4,7 @@ model 'Qwen3 14B Instruct'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   family
     'qwen'
   status

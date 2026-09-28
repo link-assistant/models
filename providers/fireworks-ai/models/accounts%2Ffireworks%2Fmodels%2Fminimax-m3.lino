@@ -8,7 +8,7 @@ model 'MiniMax-M3'
   family
     'minimax'
   status
-    active
+    experimental
   released at
     2026-06-12
   last updated at
@@ -20,7 +20,6 @@ model 'MiniMax-M3'
       reasoning
       tool calls
       temperature
-      attachments
       interleaved output
     )
   modalities

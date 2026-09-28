@@ -1,4 +1,4 @@
-model 'gpt-oss-20b'
+model 'OpenAI GPT-oss-20b'
   has id
     'openai-gpt-oss-20b'
   provider id
@@ -31,9 +31,9 @@ model 'gpt-oss-20b'
       text
   limits
     context
-      '131 072'
+      '128 000'
     output
-      '131 072'
+      4096
   costs
     input
       0.05

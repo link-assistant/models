@@ -14,7 +14,7 @@ model 'Llama 3.3 70B Wayfarer'
   last updated at
     2025-02-20
   weights
-    closed
+    open
   modalities
     input
       text
@@ -22,13 +22,15 @@ model 'Llama 3.3 70B Wayfarer'
       text
   limits
     context
-      '16 384'
+      '32 768'
     input
-      '16 384'
+      '32 768'
     output
       '16 384'
   costs
     input
-      0.700000007
+      0.7
     output
-      0.700000007
+      0.7
+    cacheRead
+      0.35

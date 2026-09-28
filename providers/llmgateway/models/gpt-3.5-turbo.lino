@@ -4,7 +4,7 @@ model 'GPT-3.5-turbo'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'gpt'
   status

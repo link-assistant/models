@@ -1,0 +1,42 @@
+model 'MiMo V2.6 Pro UltraSpeed'
+  has id
+    'mimo-v2-6-pro-ultraspeed'
+  provider id
+    'empiriolabs'
+  provided by
+    'EmpirioLabs AI'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-09-21
+  last updated at
+    2026-09-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      4.35
+    output
+      8.7
+    cacheRead
+      4.35

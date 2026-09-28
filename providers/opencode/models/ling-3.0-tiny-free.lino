@@ -1,0 +1,38 @@
+model 'Ling-3.0-tiny Free'
+  has id
+    'ling-3.0-tiny-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'ling'
+  status
+    deprecated
+  released at
+    2026-08-06
+  last updated at
+    2026-08-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

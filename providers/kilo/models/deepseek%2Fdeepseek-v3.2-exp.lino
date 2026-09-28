@@ -1,23 +1,26 @@
-model 'DeepSeek: DeepSeek V3.2 Exp'
+model 'DeepSeek: DeepSeek V3.2 Exp (retires Sep 28)'
   has id
     'deepseek/deepseek-v3.2-exp'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'deepseek'
   status
     active
   released at
-    2025-01-01
+    2025-09-29
   last updated at
     2025-09-29
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

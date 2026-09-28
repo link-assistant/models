@@ -1,16 +1,18 @@
-model 'Arcee AI: Trinity Large Thinking'
+model 'Trinity Large Thinking'
   has id
     'arcee-ai/trinity-large-thinking'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'trinity'
   status
     active
   released at
     2026-04-01
   last updated at
-    2026-04-11
+    2026-05-28
   weights
     open
   capabilities
@@ -28,9 +30,11 @@ model 'Arcee AI: Trinity Large Thinking'
     context
       '262 144'
     output
-      '262 144'
+      '80 000'
   costs
     input
-      0.22
+      0.25
     output
-      0.85
+      0.8
+    cacheRead
+      0.06

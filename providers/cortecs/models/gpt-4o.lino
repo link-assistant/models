@@ -1,0 +1,42 @@
+model 'GPT-4o'
+  has id
+    'gpt-4o'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2024-05-13
+  last updated at
+    2024-08-06
+  has knowledge cutoff at
+    2023-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 000'
+  costs
+    input
+      2.659
+    output
+      10.635
+    cacheRead
+      1.33

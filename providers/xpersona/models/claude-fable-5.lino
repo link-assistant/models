@@ -38,8 +38,8 @@ model 'Claude Fable 5'
     input
       3
     output
-      18
+      18.5
     cacheRead
       0.3
     reasoning
-      18
+      18.5

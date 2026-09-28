@@ -32,9 +32,11 @@ model 'Qwen3 235B A22B Instruct 2507'
     context
       '262 144'
     output
-      '16 384'
+      '235 929'
   costs
     input
-      0.09
+      0.0875
     output
-      0.55
+      0.35
+    cacheRead
+      0.0175

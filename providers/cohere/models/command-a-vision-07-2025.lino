@@ -20,6 +20,7 @@ model 'Command A Vision'
   capabilities
     (
       temperature
+      attachments
     )
   modalities
     input

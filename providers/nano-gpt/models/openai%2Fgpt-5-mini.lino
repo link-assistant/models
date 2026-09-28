@@ -13,6 +13,8 @@ model 'GPT 5 Mini'
     2025-08-07
   last updated at
     2025-08-07
+  has knowledge cutoff at
+    2024-05-30
   weights
     closed
   capabilities
@@ -37,3 +39,5 @@ model 'GPT 5 Mini'
       0.25
     output
       2
+    cacheRead
+      0.025

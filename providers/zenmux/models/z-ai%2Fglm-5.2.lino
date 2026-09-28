@@ -21,6 +21,7 @@ model 'GLM 5.2'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -31,11 +32,11 @@ model 'GLM 5.2'
     context
       '1 000 000'
     output
-      '131 072'
+      '128 000'
   costs
     input
-      1.4
+      0.98
     output
-      4.5
+      3.08
     cacheRead
-      0.26
+      0.182

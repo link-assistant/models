@@ -4,7 +4,7 @@ model 'MiniMax-M3'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'minimax'
   status
@@ -29,13 +29,13 @@ model 'MiniMax-M3'
       text
   limits
     context
-      '512 000'
+      '1 048 576'
     output
-      '128 000'
+      '512 000'
   costs
     input
-      0.6
+      0.3
     output
-      2.4
+      1.2
     cacheRead
-      0.12
+      0.06

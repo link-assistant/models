@@ -5,29 +5,32 @@ model 'OpenAI: GPT-5.2 Chat'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
-    2025-12-11
+    2025-12-10
   last updated at
-    2026-03-15
+    2025-12-10
   weights
     closed
   capabilities
     (
       tool calls
       attachments
+      structured output
     )
   modalities
     input
-      image pdf text
+      pdf image text
     output
       text
   limits
     context
       '128 000'
     output
-      '16 384'
+      '32 000'
   costs
     input
       1.75

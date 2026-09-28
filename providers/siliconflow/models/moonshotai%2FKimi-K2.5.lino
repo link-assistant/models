@@ -38,3 +38,5 @@ model 'moonshotai/Kimi-K2.5'
       0.45
     output
       2.25
+    cacheRead
+      0.07

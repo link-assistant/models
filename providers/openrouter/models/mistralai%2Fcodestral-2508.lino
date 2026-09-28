@@ -33,7 +33,7 @@ model 'Codestral 2508'
     context
       '256 000'
     output
-      '256 000'
+      '204 800'
   costs
     input
       0.3

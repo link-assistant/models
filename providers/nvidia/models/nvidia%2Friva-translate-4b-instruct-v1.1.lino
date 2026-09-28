@@ -1,0 +1,30 @@
+model 'riva-translate-4b-instruct-v1_1'
+  has id
+    'nvidia/riva-translate-4b-instruct-v1.1'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2025-12-12
+  last updated at
+    2025-12-12
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

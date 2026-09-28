@@ -10,11 +10,11 @@ model 'Llama 3.05 Storybreaker Ministral 70b'
   status
     active
   released at
-    2024-12-01
+    2024-01-01
   last updated at
     2024-12-01
   weights
-    closed
+    open
   modalities
     input
       text
@@ -29,6 +29,8 @@ model 'Llama 3.05 Storybreaker Ministral 70b'
       8192
   costs
     input
-      0.49299999999999994
+      0.493
     output
-      0.49299999999999994
+      0.493
+    cacheRead
+      0.2465

@@ -1,0 +1,41 @@
+model 'DeepSeek: DeepSeek Pro Latest'
+  has id
+    '~deepseek/deepseek-pro-latest'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-09-14
+  last updated at
+    2026-09-14
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '943 718'
+  costs
+    input
+      0.128
+    output
+      1.9584
+    cacheRead
+      0.08832

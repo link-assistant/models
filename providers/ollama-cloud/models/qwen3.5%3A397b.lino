@@ -32,3 +32,8 @@ model 'qwen3.5:397b'
       '262 144'
     output
       '65 536'
+  costs
+    input
+      0.6
+    output
+      3.6

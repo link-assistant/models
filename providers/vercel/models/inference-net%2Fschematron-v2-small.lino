@@ -1,0 +1,32 @@
+model 'Schematron V2 Small'
+  has id
+    'inference-net/schematron-v2-small'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-04-16
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.05
+    output
+      0.23
+    cacheRead
+      0.05

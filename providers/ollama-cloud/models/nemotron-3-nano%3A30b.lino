@@ -31,3 +31,8 @@ model 'nemotron-3-nano:30b'
       '1 048 576'
     output
       '131 072'
+  costs
+    input
+      0.06
+    output
+      0.24

@@ -1,0 +1,41 @@
+model 'IBM: Granite 4.2 8B'
+  has id
+    'ibm-granite/granite-4.2-8b'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'granite'
+  status
+    active
+  released at
+    2026-08-31
+  last updated at
+    2026-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '117 964'
+  costs
+    input
+      0.06
+    output
+      0.25
+    cacheRead
+      0.015

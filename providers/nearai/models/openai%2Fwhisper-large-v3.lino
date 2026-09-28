@@ -29,4 +29,4 @@ model 'Whisper Large v3'
     input
       0.01
     output
-      0
+      0.01

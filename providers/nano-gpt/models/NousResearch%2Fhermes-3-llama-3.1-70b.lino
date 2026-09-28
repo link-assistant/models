@@ -5,6 +5,8 @@ model 'Hermes 3 70B'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'nousresearch'
   status
     active
   released at
@@ -12,7 +14,11 @@ model 'Hermes 3 70B'
   last updated at
     2026-01-07
   weights
-    closed
+    open
+  capabilities
+    (
+      tool calls
+    )
   modalities
     input
       text
@@ -30,3 +36,5 @@ model 'Hermes 3 70B'
       0.408
     output
       0.408
+    cacheRead
+      0.204

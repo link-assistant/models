@@ -22,6 +22,7 @@ model 'Claude Opus 4.7'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
@@ -35,10 +36,10 @@ model 'Claude Opus 4.7'
       '128 000'
   costs
     input
-      5.6
+      5.437
     output
-      27.99
+      27.186
     cacheRead
-      0.56
+      0.544
     cacheWrite
-      6.99
+      6.797

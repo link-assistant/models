@@ -1,0 +1,43 @@
+model 'GPT-4.1 nano (EU)'
+  has id
+    'gpt-4.1-nano@eu'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'gpt-nano'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2025-04-14
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 047 576'
+    output
+      '32 768'
+  costs
+    input
+      0.11
+    output
+      0.44
+    cacheRead
+      0.0275

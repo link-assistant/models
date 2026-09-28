@@ -1,0 +1,40 @@
+model 'Qwen Flash'
+  has id
+    'qwen/qwen-flash'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-07-28
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      0.05
+    output
+      0.4

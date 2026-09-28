@@ -1,0 +1,40 @@
+model 'Arrow 2'
+  has id
+    'quiverai/arrow-2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  status
+    active
+  released at
+    2026-09-16
+  last updated at
+    2026-09-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      4
+    output
+      20
+    cacheRead
+      0.4
+    cacheWrite
+      5

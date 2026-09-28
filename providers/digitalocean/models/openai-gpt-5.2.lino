@@ -1,4 +1,4 @@
-model 'GPT-5.2'
+model 'OpenAI GPT-5.2'
   has id
     'openai-gpt-5.2'
   provider id

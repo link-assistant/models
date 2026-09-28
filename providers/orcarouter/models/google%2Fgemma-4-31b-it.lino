@@ -38,3 +38,5 @@ model 'Gemma 4 31B IT'
       0.13
     output
       0.38
+    cacheRead
+      0.02

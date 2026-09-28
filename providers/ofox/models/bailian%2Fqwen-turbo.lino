@@ -1,0 +1,41 @@
+model 'Qwen Turbo'
+  has id
+    'bailian/qwen-turbo'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-11-01
+  last updated at
+    2025-04-28
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.05
+    output
+      0.09
+    cacheRead
+      0.0086

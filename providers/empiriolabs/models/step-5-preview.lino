@@ -1,0 +1,40 @@
+model 'Step 5 Preview'
+  has id
+    'step-5-preview'
+  provider id
+    'empiriolabs'
+  provided by
+    'EmpirioLabs AI'
+  status
+    active
+  released at
+    2026-09-16
+  last updated at
+    2026-09-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 024 000'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      2.7
+    cacheRead
+      0.05

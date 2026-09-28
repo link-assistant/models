@@ -8,7 +8,7 @@ model 'nvidia-nemotron-nano-9b-v2'
   family
     'nemotron'
   status
-    active
+    deprecated
   released at
     2025-08-18
   last updated at

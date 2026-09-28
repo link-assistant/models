@@ -5,6 +5,8 @@ model 'GLM Z1 AirX'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'glm'
   status
     active
   released at
@@ -35,3 +37,5 @@ model 'GLM Z1 AirX'
       0.7
     output
       0.7
+    cacheRead
+      0.35

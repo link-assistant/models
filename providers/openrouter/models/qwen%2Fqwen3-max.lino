@@ -32,7 +32,7 @@ model 'Qwen3 Max'
     context
       '262 144'
     output
-      '32 768'
+      '65 536'
   costs
     input
       0.78

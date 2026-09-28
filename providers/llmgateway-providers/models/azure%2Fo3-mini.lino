@@ -1,0 +1,40 @@
+model 'o3 Mini (Azure)'
+  has id
+    'azure/o3-mini'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'o-mini'
+  status
+    active
+  released at
+    2024-12-20
+  last updated at
+    2025-01-29
+  has knowledge cutoff at
+    2024-05
+  weights
+    closed
+  capabilities
+    (
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      1.1
+    output
+      4.4
+    cacheRead
+      0.55

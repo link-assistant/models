@@ -33,7 +33,7 @@ model 'MiMo-V2.5-Pro'
     context
       '1 050 000'
     output
-      '131 072'
+      '131 000'
   costs
     input
       0.435

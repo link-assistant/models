@@ -13,12 +13,15 @@ model 'GLM 4.6'
     2025-09-30
   last updated at
     2025-09-30
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -35,6 +38,8 @@ model 'GLM 4.6'
       '65 535'
   costs
     input
-      0.4
+      0.35
     output
-      1.5
+      1.4
+    cacheRead
+      0.175

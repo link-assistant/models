@@ -1,0 +1,41 @@
+model 'GLM-5.3-Flash'
+  has id
+    'z-ai/glm-5.3-flash'
+  provider id
+    'iteracompute'
+  provided by
+    'IteraCompute'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.14
+    output
+      0.49
+    cacheRead
+      0.03

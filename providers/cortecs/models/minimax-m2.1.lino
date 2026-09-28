@@ -20,6 +20,7 @@ model 'MiniMax-M2.1'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -34,6 +35,6 @@ model 'MiniMax-M2.1'
       '196 000'
   costs
     input
-      0.34
+      0.359
     output
-      1.34
+      1.435

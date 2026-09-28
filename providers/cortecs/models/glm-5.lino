@@ -1,4 +1,4 @@
-model 'GLM 5'
+model 'GLM-5'
   has id
     'glm-5'
   provider id
@@ -10,9 +10,9 @@ model 'GLM 5'
   status
     active
   released at
-    2026-02-11
+    2026-02-12
   last updated at
-    2026-02-11
+    2026-02-12
   weights
     open
   capabilities
@@ -20,6 +20,7 @@ model 'GLM 5'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -34,6 +35,8 @@ model 'GLM 5'
       '202 752'
   costs
     input
-      1.08
+      0.988
     output
-      3.44
+      3.164
+    cacheRead
+      0.247

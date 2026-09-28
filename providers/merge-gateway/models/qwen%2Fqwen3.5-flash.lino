@@ -1,0 +1,41 @@
+model 'Qwen3.5 Flash'
+  has id
+    'qwen/qwen3.5-flash'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-23
+  last updated at
+    2026-02-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '250 000'
+  costs
+    input
+      0.029
+    output
+      0.287
+    cacheRead
+      0.0058

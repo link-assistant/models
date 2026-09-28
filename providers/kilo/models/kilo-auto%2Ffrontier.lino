@@ -1,16 +1,18 @@
-model 'Kilo Auto Frontier'
+model 'Auto Frontier'
   has id
     'kilo-auto/frontier'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'auto'
   status
     active
   released at
-    2026-03-15
+    1970-01-01
   last updated at
-    2026-03-15
+    1970-01-01
   weights
     closed
   capabilities
@@ -22,7 +24,7 @@ model 'Kilo Auto Frontier'
     )
   modalities
     input
-      image text
+      text image pdf
     output
       text
   limits
@@ -35,3 +37,9 @@ model 'Kilo Auto Frontier'
       5
     output
       25
+    cacheRead
+      0.5
+    cacheWrite
+      6.25
+    reasoning
+      0

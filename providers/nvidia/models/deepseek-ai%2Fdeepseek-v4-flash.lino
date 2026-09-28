@@ -8,7 +8,7 @@ model 'DeepSeek V4 Flash'
   family
     'deepseek-flash'
   status
-    active
+    deprecated
   released at
     2026-04-24
   last updated at

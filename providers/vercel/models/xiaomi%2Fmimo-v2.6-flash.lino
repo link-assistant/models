@@ -1,0 +1,41 @@
+model 'MiMo V2.6 Flash'
+  has id
+    'xiaomi/mimo-v2.6-flash'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-09-22
+  last updated at
+    2026-09-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.14
+    output
+      0.28
+    cacheRead
+      0.0028

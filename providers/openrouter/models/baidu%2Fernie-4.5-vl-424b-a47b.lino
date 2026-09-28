@@ -30,7 +30,7 @@ model 'ERNIE 4.5 VL 424B A47B '
       text
   limits
     context
-      '131 072'
+      '123 000'
     output
       '16 000'
   costs

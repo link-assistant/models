@@ -1,0 +1,45 @@
+model 'Claude Sonnet 5'
+  has id
+    'claude-sonnet-5'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'claude-sonnet'
+  status
+    active
+  released at
+    2026-06-30
+  last updated at
+    2026-06-30
+  has knowledge cutoff at
+    2026-01-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      2.2
+    output
+      11
+    cacheRead
+      0.219
+    cacheWrite
+      2.749

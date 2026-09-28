@@ -29,11 +29,11 @@ model 'Mistral Nemo'
       text
   limits
     context
-      '128 000'
+      '60 288'
     output
-      '128 000'
+      '16 000'
   costs
     input
-      0.15
+      0.04
     output
-      0.15
+      0.17

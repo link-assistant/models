@@ -29,9 +29,9 @@ model 'R1 Distill Llama 70B'
       text
   limits
     context
-      '128 000'
-    output
       8192
+    output
+      7372
   costs
     input
       0.8

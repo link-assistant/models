@@ -6,7 +6,7 @@ model 'Llama 4 Maverick 17b 128e Instruct'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2025-04-01
   last updated at

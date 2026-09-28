@@ -5,16 +5,22 @@ model 'Qwen 3 32b'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2024-01-01
+    2025-04
   last updated at
-    2024-01-01
+    2025-04
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
+      tool calls
+      temperature
       attachments
     )
   modalities
@@ -34,3 +40,5 @@ model 'Qwen 3 32b'
       0.1
     output
       0.3
+    cacheRead
+      0.05

@@ -5,12 +5,14 @@ model 'Perplexity: Sonar Pro'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'sonar-pro'
   status
     active
   released at
-    2024-01-01
+    2025-03-07
   last updated at
-    2025-09-01
+    2025-03-07
   weights
     closed
   capabilities

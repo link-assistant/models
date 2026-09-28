@@ -10,11 +10,11 @@ model 'Lumimaid v0.2'
   status
     active
   released at
-    2024-07-01
+    2024-01-01
   last updated at
     2024-07-01
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Lumimaid v0.2'
       1
     output
       1.5
+    cacheRead
+      0.5

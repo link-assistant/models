@@ -38,6 +38,6 @@ model 'Qwen 3.6 Max Preview'
     output
       7.8
     cacheRead
-      0.26
+      0.13
     cacheWrite
       1.625

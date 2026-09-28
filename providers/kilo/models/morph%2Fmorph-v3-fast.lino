@@ -5,12 +5,14 @@ model 'Morph: Morph V3 Fast'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'morph'
   status
     active
   released at
-    2024-08-15
+    2025-07-07
   last updated at
-    2024-08-15
+    2025-07-07
   weights
     closed
   capabilities

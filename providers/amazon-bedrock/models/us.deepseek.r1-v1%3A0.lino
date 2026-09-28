@@ -20,7 +20,6 @@ model 'DeepSeek-R1 (US)'
   capabilities
     (
       reasoning
-      tool calls
       temperature
     )
   modalities

@@ -14,9 +14,10 @@ model 'DeepSeek V3.1'
   last updated at
     2025-07-26
   weights
-    closed
+    open
   capabilities
     (
+      tool calls
       attachments
     )
   modalities
@@ -36,3 +37,5 @@ model 'DeepSeek V3.1'
       0.2
     output
       0.7
+    cacheRead
+      0.1

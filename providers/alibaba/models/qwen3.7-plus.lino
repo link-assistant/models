@@ -22,6 +22,9 @@ model 'Qwen3.7 Plus'
       reasoning
       tool calls
       temperature
+      attachments
+      structured output
+      interleaved output
     )
   modalities
     input
@@ -32,13 +35,13 @@ model 'Qwen3.7 Plus'
     context
       '1 000 000'
     output
-      '65 536'
+      '131 072'
   costs
     input
-      0.5
+      0.4
     output
-      3
+      1.6
     cacheRead
-      0.05
+      0.04
     cacheWrite
-      0.625
+      0.5

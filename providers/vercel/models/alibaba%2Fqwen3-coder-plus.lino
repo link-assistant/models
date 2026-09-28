@@ -16,7 +16,7 @@ model 'Qwen3 Coder Plus'
   has knowledge cutoff at
     2025-04
   weights
-    open
+    closed
   capabilities
     (
       tool calls

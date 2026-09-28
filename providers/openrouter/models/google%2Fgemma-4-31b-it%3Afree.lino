@@ -31,7 +31,7 @@ model 'Gemma 4 31B (free)'
     context
       '262 144'
     output
-      8192
+      '32 768'
   costs
     input
       0

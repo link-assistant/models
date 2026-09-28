@@ -16,11 +16,10 @@ model 'DeepSeek-R1'
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning
-      tool calls
       temperature
     )
   modalities

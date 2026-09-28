@@ -31,3 +31,10 @@ model 'glm-5.1'
       '202 752'
     output
       '131 072'
+  costs
+    input
+      1
+    output
+      3.2
+    cacheRead
+      0.2

@@ -5,23 +5,28 @@ model 'OpenAI: GPT Audio'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
-    2026-01-20
+    2026-01-19
   last updated at
-    2026-03-15
+    2026-01-19
   weights
     closed
   capabilities
     (
+      tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      audio text
+      text audio pdf
     output
-      audio text
+      text audio
   limits
     context
       '128 000'

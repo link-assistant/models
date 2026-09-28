@@ -19,21 +19,24 @@ model 'Nova Pro 1.0'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
       '300 000'
     output
-      5000
+      '10 000'
   costs
     input
-      1.016
+      0.918
     output
-      4.061
+      3.671

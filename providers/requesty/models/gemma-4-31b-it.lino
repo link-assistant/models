@@ -1,0 +1,39 @@
+model 'Gemma 4 31B IT'
+  has id
+    'gemma-4-31b-it'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

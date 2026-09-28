@@ -1,4 +1,4 @@
-model 'Claude Sonnet 4.5'
+model 'Claude Sonnet 4.5 (20250929)'
   has id
     'anthropic/claude-sonnet-4-5-20250929'
   provider id
@@ -23,6 +23,7 @@ model 'Claude Sonnet 4.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

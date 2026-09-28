@@ -1,0 +1,41 @@
+model 'GLM-5.2 Caveman Ultra'
+  has id
+    'glm-5.2-caveman-ultra'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      1.254
+    output
+      5.016
+    cacheRead
+      0.3135

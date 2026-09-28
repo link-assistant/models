@@ -35,7 +35,7 @@ model 'GPT-5.5 Pro'
     input
       '922 000'
     output
-      '128 000'
+      '100 000'
   costs
     input
       30

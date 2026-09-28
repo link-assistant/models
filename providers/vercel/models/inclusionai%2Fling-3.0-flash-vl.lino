@@ -1,0 +1,40 @@
+model 'Ling 3.0 Flash VL'
+  has id
+    'inclusionai/ling-3.0-flash-vl'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-09-08
+  last updated at
+    2026-09-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      0.075
+    output
+      0.22
+    cacheRead
+      0.015

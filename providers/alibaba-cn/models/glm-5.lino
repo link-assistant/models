@@ -34,6 +34,6 @@ model 'GLM-5'
       '16 384'
   costs
     input
-      0.86
+      0.573
     output
-      3.15
+      2.58

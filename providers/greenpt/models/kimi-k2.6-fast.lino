@@ -1,0 +1,42 @@
+model 'Kimi K2.6 Fast'
+  has id
+    'kimi-k2.6-fast'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  family
+    'kimi-k2'
+  status
+    deprecated
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      1.655
+    output
+      8.778

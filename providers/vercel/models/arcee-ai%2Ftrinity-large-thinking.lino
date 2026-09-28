@@ -12,7 +12,7 @@ model 'Trinity Large Thinking'
   released at
     2026-04-01
   last updated at
-    2026-04-03
+    2026-05-28
   weights
     open
   capabilities
@@ -35,4 +35,4 @@ model 'Trinity Large Thinking'
     input
       0.25
     output
-      0.8999999999999999
+      0.9

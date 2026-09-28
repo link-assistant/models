@@ -37,6 +37,6 @@ model 'Qwen3 VL 235B A22B Thinking'
       '32 768'
   costs
     input
-      0.26
+      0.4
     output
-      2.6
+      4

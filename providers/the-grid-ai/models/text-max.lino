@@ -8,16 +8,16 @@ model 'Text Max'
   status
     active
   released at
-    2026-03-24
+    2026-02-26
   last updated at
-    2026-07-06
+    2026-07-24
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
+      attachments
       structured output
       interleaved output
     )

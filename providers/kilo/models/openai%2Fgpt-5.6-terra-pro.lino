@@ -1,0 +1,47 @@
+model 'GPT-5.6 Terra'
+  has id
+    'openai/gpt-5.6-terra-pro'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'gpt-terra'
+  status
+    active
+  released at
+    2026-07-09
+  last updated at
+    2026-07-09
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.2
+    cacheWrite
+      2.5

@@ -31,9 +31,11 @@ model 'MiniMax-M2.7'
     context
       '204 800'
     output
-      '196 608'
+      '131 072'
   costs
     input
-      0.24
+      0.3
     output
-      0.96
+      1.2
+    cacheRead
+      0.06

@@ -1,0 +1,44 @@
+model 'Mistral Small 4 (EU)'
+  has id
+    'mistral-small-2603@eu'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2026-03-16
+  last updated at
+    2026-03-16
+  has knowledge cutoff at
+    2025-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.165
+    output
+      0.66
+    cacheRead
+      0.165

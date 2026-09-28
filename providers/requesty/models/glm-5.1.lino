@@ -1,0 +1,40 @@
+model 'GLM-5.1'
+  has id
+    'glm-5.1'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      0.26

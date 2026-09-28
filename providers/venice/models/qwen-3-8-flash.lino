@@ -1,0 +1,41 @@
+model 'Qwen 3.8 Flash'
+  has id
+    'qwen-3-8-flash'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.14
+    output
+      0.49
+    cacheRead
+      0.014

@@ -10,11 +10,11 @@ model 'Kimi K2 0711'
   status
     active
   released at
-    2025-07-11
+    2024-01-01
   last updated at
     2025-07-11
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -34,6 +34,8 @@ model 'Kimi K2 0711'
       8192
   costs
     input
-      0.1
+      0.4
     output
-      2
+      1.8
+    cacheRead
+      0.2

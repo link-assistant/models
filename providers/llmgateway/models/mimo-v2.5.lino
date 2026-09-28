@@ -4,7 +4,7 @@ model 'MiMo-V2.5'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'mimo'
   status
@@ -32,7 +32,7 @@ model 'MiMo-V2.5'
       text
   limits
     context
-      '1 000 000'
+      '1 048 576'
     output
       '131 072'
   costs

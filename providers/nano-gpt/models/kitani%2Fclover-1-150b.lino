@@ -1,0 +1,38 @@
+model 'Clover 1 150B Preview'
+  has id
+    'kitani/clover-1-150b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-09-24
+  last updated at
+    2026-09-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    input
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      0.15
+    output
+      0.8

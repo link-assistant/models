@@ -32,7 +32,7 @@ model 'DeepSeek V3.1 Terminus'
     context
       '131 072'
     output
-      '65 536'
+      '32 768'
   costs
     input
       0.27

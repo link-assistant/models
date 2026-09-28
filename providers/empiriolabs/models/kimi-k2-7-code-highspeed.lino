@@ -39,3 +39,5 @@ model 'Kimi K2.7 Code Highspeed'
       1.9
     output
       8
+    cacheRead
+      1.9

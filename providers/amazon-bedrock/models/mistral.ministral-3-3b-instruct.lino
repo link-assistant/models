@@ -19,6 +19,7 @@ model 'Ministral 3 3B'
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
