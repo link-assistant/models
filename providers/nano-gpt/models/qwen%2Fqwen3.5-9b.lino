@@ -5,29 +5,33 @@ model 'Qwen3.5 9B'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen'
   status
     active
   released at
-    2026-03-10
+    2026-02-23
   last updated at
-    2026-03-10
+    2026-02-23
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
+      temperature
       attachments
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
     context
-      '256 000'
+      '262 144'
     input
-      '256 000'
+      '262 144'
     output
       '65 536'
   costs
@@ -35,3 +39,5 @@ model 'Qwen3.5 9B'
       0.05
     output
       0.15
+    cacheRead
+      0.025

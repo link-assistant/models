@@ -1,0 +1,44 @@
+model 'Gemini 3.5 Flash-Lite'
+  has id
+    'gemini-3-5-flash-lite'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'gemini-flash-lite'
+  status
+    active
+  released at
+    2026-07-09
+  last updated at
+    2026-07-21
+  has knowledge cutoff at
+    2026-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.375
+    output
+      3.125
+    cacheRead
+      0.0375

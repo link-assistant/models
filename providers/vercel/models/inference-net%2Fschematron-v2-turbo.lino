@@ -1,0 +1,32 @@
+model 'Schematron V2 Turbo'
+  has id
+    'inference-net/schematron-v2-turbo'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-04-16
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.03
+    output
+      0.15
+    cacheRead
+      0.03

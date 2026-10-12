@@ -1,0 +1,43 @@
+model 'Kimi K2.5 (Deep Infra)'
+  has id
+    'deepinfra/moonshotai/Kimi-K2.5'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.45
+    output
+      2.25
+    cacheRead
+      0.07

@@ -8,7 +8,7 @@ model 'Qwen3.7 Max'
   family
     'qwen3.7-max'
   status
-    active
+    deprecated
   released at
     2026-05-21
   last updated at

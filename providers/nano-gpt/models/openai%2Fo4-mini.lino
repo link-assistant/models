@@ -13,6 +13,8 @@ model 'OpenAI o4-mini'
     2025-04-16
   last updated at
     2025-04-16
+  has knowledge cutoff at
+    2024-05
   weights
     closed
   capabilities
@@ -38,3 +40,5 @@ model 'OpenAI o4-mini'
       1.1
     output
       4.4
+    cacheRead
+      0.55

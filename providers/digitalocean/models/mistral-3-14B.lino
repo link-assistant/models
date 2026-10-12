@@ -1,4 +1,4 @@
-model 'Ministral 3 14B Instruct'
+model 'Ministral 3 14B'
   has id
     'mistral-3-14B'
   provider id
@@ -36,3 +36,5 @@ model 'Ministral 3 14B Instruct'
       0.2
     output
       0.2
+    cacheRead
+      0.04

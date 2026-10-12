@@ -5,6 +5,8 @@ model 'Gemini 2.5 Flash 0520'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini'
   status
     active
   released at
@@ -34,3 +36,5 @@ model 'Gemini 2.5 Flash 0520'
       0.15
     output
       0.6
+    cacheRead
+      0.015

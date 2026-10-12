@@ -35,8 +35,8 @@ model 'Qwen 3.5 35B A3B'
       '16 384'
   costs
     input
-      0.3125
+      0.15
     output
-      1.25
+      1
     cacheRead
-      0.15625
+      0.05

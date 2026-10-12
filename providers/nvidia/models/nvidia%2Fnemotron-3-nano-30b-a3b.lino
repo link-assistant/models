@@ -8,7 +8,7 @@ model 'nemotron-3-nano-30b-a3b'
   family
     'nemotron'
   status
-    active
+    deprecated
   released at
     2024-12
   last updated at

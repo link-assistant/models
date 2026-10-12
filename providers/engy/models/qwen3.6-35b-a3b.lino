@@ -1,0 +1,44 @@
+model 'Qwen3.6 35B-A3B'
+  has id
+    'qwen3.6-35b-a3b'
+  provider id
+    'engy'
+  provided by
+    'engy'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '208 192'
+    input
+      '200 000'
+    output
+      8192
+  costs
+    input
+      0.045
+    output
+      0.3
+    cacheRead
+      0.015

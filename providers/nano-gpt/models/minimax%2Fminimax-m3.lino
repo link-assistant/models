@@ -5,6 +5,8 @@ model 'MiniMax M3'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'minimax'
   status
     active
   released at
@@ -12,10 +14,11 @@ model 'MiniMax M3'
   last updated at
     2026-06-01
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       attachments
       structured output
     )

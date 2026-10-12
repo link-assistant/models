@@ -1,0 +1,41 @@
+model 'GLiNER 2.5 Multi'
+  has id
+    'fastino/gliner2.5-multi-v1'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2026-08-24
+  last updated at
+    2026-08-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      4096
+  costs
+    input
+      0.15
+    output
+      0.15
+    cacheRead
+      0.15
+    cacheWrite
+      0.15

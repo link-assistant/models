@@ -6,7 +6,7 @@ model 'MiMo V2.5 Pro'
   provided by
     'Vercel AI Gateway'
   family
-    'mimo-v2.5-pro'
+    'mimo'
   status
     active
   released at
@@ -16,7 +16,7 @@ model 'MiMo V2.5 Pro'
   has knowledge cutoff at
     2024-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -26,7 +26,7 @@ model 'MiMo V2.5 Pro'
     )
   modalities
     input
-      text pdf
+      text
     output
       text
   limits

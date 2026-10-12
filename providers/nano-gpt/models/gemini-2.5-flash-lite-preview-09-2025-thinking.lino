@@ -5,6 +5,8 @@ model 'Gemini 2.5 Flash Lite Preview (09/2025) – Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini'
   status
     active
   released at
@@ -22,14 +24,14 @@ model 'Gemini 2.5 Flash Lite Preview (09/2025) – Thinking'
     )
   modalities
     input
-      text image pdf
+      text image audio pdf
     output
       text
   limits
     context
-      '1 048 756'
+      '1 048 576'
     input
-      '1 048 756'
+      '1 048 576'
     output
       '65 536'
   costs
@@ -37,3 +39,5 @@ model 'Gemini 2.5 Flash Lite Preview (09/2025) – Thinking'
       0.1
     output
       0.4
+    cacheRead
+      0.01

@@ -14,7 +14,7 @@ model 'Qwen 3.6 27B'
   last updated at
     2026-06-11
   weights
-    closed
+    open
   capabilities
     (
       reasoning

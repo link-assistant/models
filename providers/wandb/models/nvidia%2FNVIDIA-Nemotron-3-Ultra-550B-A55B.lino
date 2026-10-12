@@ -4,7 +4,7 @@ model 'Nemotron 3 Ultra'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   family
     'nemotron'
   status
@@ -34,8 +34,8 @@ model 'Nemotron 3 Ultra'
       '262 144'
   costs
     input
-      0.75
+      0.5
     output
-      2.75
+      2.15
     cacheRead
-      0.15
+      0.1

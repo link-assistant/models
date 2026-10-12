@@ -8,11 +8,11 @@ model 'Hy3 Free'
   family
     'hy3-free'
   status
-    active
+    deprecated
   released at
-    2026-06-26
+    2026-07-06
   last updated at
-    2026-06-26
+    2026-07-06
   weights
     open
   capabilities
@@ -20,6 +20,8 @@ model 'Hy3 Free'
       reasoning
       tool calls
       temperature
+      structured output
+      interleaved output
     )
   modalities
     input
@@ -29,6 +31,8 @@ model 'Hy3 Free'
   limits
     context
       '190 000'
+    input
+      '192 000'
     output
       '64 000'
   costs

@@ -13,10 +13,8 @@ model 'Nvidia Nemotron Nano 9B V2'
     2025-08-18
   last updated at
     2025-08-18
-  has knowledge cutoff at
-    2024-10
   weights
-    closed
+    open
   capabilities
     (
       reasoning

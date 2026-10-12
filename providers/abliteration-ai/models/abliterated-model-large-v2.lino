@@ -1,0 +1,41 @@
+model 'Abliterated Model Large V2'
+  has id
+    'abliterated-model-large-v2'
+  provider id
+    'abliteration-ai'
+  provided by
+    'abliteration.ai'
+  status
+    active
+  released at
+    2026-08-29
+  last updated at
+    2026-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '999 990'
+  costs
+    input
+      5
+    output
+      5
+    cacheRead
+      0.5

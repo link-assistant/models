@@ -8,7 +8,7 @@ model 'Mistral Nemo'
   family
     'mistral-nemo'
   status
-    active
+    deprecated
   released at
     2024-07-01
   last updated at

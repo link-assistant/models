@@ -29,9 +29,9 @@ model 'MiniMax-M3'
       text
   limits
     context
-      '512 000'
+      '1 048 576'
     output
-      '128 000'
+      '512 000'
   costs
     input
       0

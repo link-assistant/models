@@ -10,15 +10,17 @@ model 'Gemma 3 4B IT'
   status
     active
   released at
-    2024-12-01
+    2025-03-12
   last updated at
-    2024-12-01
+    2025-03-12
+  has knowledge cutoff at
+    2024-08
   weights
-    closed
+    open
   capabilities
     (
-      tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -27,7 +29,7 @@ model 'Gemma 3 4B IT'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
       4096
   costs

@@ -5,16 +5,18 @@ model 'GLM 4.5 Air'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'glm-air'
   status
     active
   released at
-    2025-07-25
+    2025-07-28
   last updated at
-    2025-07-25
+    2025-07-28
   has knowledge cutoff at
-    2025-01-01
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -30,11 +32,11 @@ model 'GLM 4.5 Air'
     context
       '128 000'
     output
-      '64 000'
+      '96 000'
   costs
     input
-      0.11
+      0.1165
     output
-      0.56
+      0.2911
     cacheRead
-      0.02
+      0.0233

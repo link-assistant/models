@@ -1,0 +1,43 @@
+model 'DeepSeek V4 Flash (CanopyWave)'
+  has id
+    'canopywave/deepseek-v4-flash'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '393 216'
+  costs
+    input
+      0.14
+    output
+      0.28
+    cacheRead
+      0.03

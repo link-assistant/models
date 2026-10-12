@@ -35,3 +35,5 @@ model 'MiniMaxAI/MiniMax-M2.5'
       0.3
     output
       1.2
+    cacheRead
+      0.03

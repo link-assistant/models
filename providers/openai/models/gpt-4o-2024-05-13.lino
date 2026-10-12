@@ -8,7 +8,7 @@ model 'GPT-4o (2024-05-13)'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
     2024-05-13
   last updated at

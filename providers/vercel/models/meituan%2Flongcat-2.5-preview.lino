@@ -1,0 +1,40 @@
+model 'LongCat 2.5 Preview'
+  has id
+    'meituan/longcat-2.5-preview'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'longcat'
+  status
+    active
+  released at
+    2026-09-26
+  last updated at
+    2026-09-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.006

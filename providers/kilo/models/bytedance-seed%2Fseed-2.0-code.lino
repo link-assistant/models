@@ -1,0 +1,40 @@
+model 'Seed 2.0 Code'
+  has id
+    'bytedance-seed/seed-2.0-code'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-02-14
+  last updated at
+    2026-02-14
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.5
+    output
+      3

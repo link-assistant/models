@@ -25,14 +25,14 @@ model 'Nova Pro'
     )
   modalities
     input
-      text image video
+      text image video pdf
     output
       text
   limits
     context
       '300 000'
     output
-      8192
+      '10 000'
   costs
     input
       0.8
@@ -40,3 +40,5 @@ model 'Nova Pro'
       3.2
     cacheRead
       0.2
+    cacheWrite
+      0.8

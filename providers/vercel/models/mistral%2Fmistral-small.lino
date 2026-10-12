@@ -30,11 +30,13 @@ model 'Mistral Small (latest)'
       text
   limits
     context
-      '32 000'
+      '262 144'
     output
       4000
   costs
     input
-      0.1
+      0.15
     output
-      0.3
+      0.6
+    cacheRead
+      0.015

@@ -32,7 +32,7 @@ model 'Reka Flash 3'
     context
       '65 536'
     output
-      '65 536'
+      '58 982'
   costs
     input
       0.1

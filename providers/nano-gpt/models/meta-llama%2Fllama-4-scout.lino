@@ -14,7 +14,7 @@ model 'Llama 4 Scout'
   last updated at
     2025-09-05
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -38,3 +38,5 @@ model 'Llama 4 Scout'
       0.085
     output
       0.46
+    cacheRead
+      0.0425

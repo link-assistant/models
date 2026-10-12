@@ -37,8 +37,8 @@ model 'Gemini 2.5 Pro'
       '65 536'
   costs
     input
-      2.5
+      1.25
     output
-      15
+      10
     cacheRead
       0.125

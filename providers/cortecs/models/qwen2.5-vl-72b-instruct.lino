@@ -1,0 +1,36 @@
+model 'qwen2.5-vl-72b-instruct'
+  has id
+    'qwen2.5-vl-72b-instruct'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-01-27
+  last updated at
+    2025-01-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      1.014
+    output
+      1.014

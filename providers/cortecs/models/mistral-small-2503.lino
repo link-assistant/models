@@ -1,0 +1,36 @@
+model 'mistral-small-2503'
+  has id
+    'mistral-small-2503'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-03-20
+  last updated at
+    2025-03-20
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.111
+    output
+      0.334

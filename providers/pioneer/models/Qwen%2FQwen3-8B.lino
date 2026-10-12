@@ -31,9 +31,9 @@ model 'Qwen3 8B'
       text
   limits
     context
-      '131 072'
+      '40 960'
     output
-      4096
+      '40 960'
   costs
     input
       0.2

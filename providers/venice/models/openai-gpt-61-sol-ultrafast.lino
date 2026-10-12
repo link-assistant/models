@@ -1,0 +1,43 @@
+model 'GPT-6.1 Sol Ultrafast'
+  has id
+    'openai-gpt-61-sol-ultrafast'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-10-08
+  last updated at
+    2026-10-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '128 000'
+  costs
+    input
+      15
+    output
+      75
+    cacheRead
+      0.75
+    cacheWrite
+      18.75

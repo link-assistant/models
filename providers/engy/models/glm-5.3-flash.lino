@@ -1,0 +1,45 @@
+model 'GLM-5.3-Flash'
+  has id
+    'glm-5.3-flash'
+  provider id
+    'engy'
+  provided by
+    'engy'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '229 376'
+    output
+      '32 768'
+  costs
+    input
+      0.135
+    output
+      0.45
+    cacheRead
+      0.027

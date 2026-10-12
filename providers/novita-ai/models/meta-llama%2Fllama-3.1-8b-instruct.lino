@@ -1,23 +1,27 @@
-model 'Llama 3.1 8B Instruct'
+model 'Llama-3.1-8B-Instruct'
   has id
     'meta-llama/llama-3.1-8b-instruct'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'llama'
   status
     active
   released at
-    2024-07-24
+    2024-07-23
   last updated at
-    2024-07-24
+    2024-07-23
+  has knowledge cutoff at
+    2023-12
   weights
     open
   capabilities
     (
+      tool calls
       temperature
+      structured output
     )
   modalities
     input

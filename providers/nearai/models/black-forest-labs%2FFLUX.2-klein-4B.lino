@@ -21,7 +21,7 @@ model 'FLUX.2 Klein 4B'
     )
   modalities
     input
-      text image
+      text
     output
       image
   limits

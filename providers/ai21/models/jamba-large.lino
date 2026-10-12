@@ -1,0 +1,40 @@
+model 'Jamba Large'
+  has id
+    'jamba-large'
+  provider id
+    'ai21'
+  provided by
+    'AI21 Labs'
+  family
+    'jamba'
+  status
+    active
+  released at
+    2025-07-01
+  last updated at
+    2025-07-01
+  has knowledge cutoff at
+    2024-08-22
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      4096
+  costs
+    input
+      2
+    output
+      8

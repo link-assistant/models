@@ -1,16 +1,20 @@
-model 'OpenAI: GPT-4 Turbo'
+model 'GPT-4 Turbo'
   has id
     'openai/gpt-4-turbo'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
-    2023-09-13
+    2023-11-06
   last updated at
     2024-04-09
+  has knowledge cutoff at
+    2023-12
   weights
     closed
   capabilities
@@ -18,10 +22,11 @@ model 'OpenAI: GPT-4 Turbo'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

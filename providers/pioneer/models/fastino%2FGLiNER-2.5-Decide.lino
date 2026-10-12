@@ -1,0 +1,41 @@
+model 'GLiNER-2.5-Decide'
+  has id
+    'fastino/GLiNER-2.5-Decide'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2026-09-24
+  last updated at
+    2026-09-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      8192
+  costs
+    input
+      0.15
+    output
+      0.15
+    cacheRead
+      0.15
+    cacheWrite
+      0.15

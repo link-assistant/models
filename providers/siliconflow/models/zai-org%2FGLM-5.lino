@@ -38,3 +38,5 @@ model 'zai-org/GLM-5'
       0.95
     output
       2.55
+    cacheRead
+      0.2

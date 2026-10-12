@@ -1,0 +1,40 @@
+model 'Laguna S 2.1'
+  has id
+    'poolside/laguna-s-2.1'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'laguna-s'
+  status
+    active
+  released at
+    2026-07-21
+  last updated at
+    2026-07-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.09
+    output
+      0.18
+    cacheRead
+      0.009

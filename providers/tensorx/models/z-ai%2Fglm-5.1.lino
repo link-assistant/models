@@ -1,0 +1,43 @@
+model 'GLM-5.1'
+  has id
+    'z-ai/glm-5.1'
+  provider id
+    'tensorx'
+  provided by
+    'TensorX'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '202 752'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      0.35
+    cacheWrite
+      1.75

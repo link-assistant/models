@@ -1,0 +1,45 @@
+model 'GPT-5.6 Sol (Official API)'
+  has id
+    'infer/gpt-5.6-sol:official'
+  provider id
+    'infer'
+  provided by
+    'Infer by Flow7'
+  family
+    'gpt-sol'
+  status
+    active
+  released at
+    2026-07-09
+  last updated at
+    2026-07-09
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '271 999'
+    output
+      '128 000'
+  costs
+    input
+      2.5
+    output
+      12.5
+    cacheRead
+      0.25
+    cacheWrite
+      3.125

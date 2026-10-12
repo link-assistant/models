@@ -1,0 +1,27 @@
+model 'GPT-Live 1'
+  has id
+    'openai/gpt-live-1'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  weights
+    closed
+  modalities
+    input
+      text audio
+    output
+      text audio
+  limits
+    context
+      0
+    output
+      0

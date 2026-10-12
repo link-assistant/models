@@ -36,6 +36,6 @@ model 'GLM-4.7'
       '131 072'
   costs
     input
-      3.5
+      0.42
     output
-      14
+      2.2

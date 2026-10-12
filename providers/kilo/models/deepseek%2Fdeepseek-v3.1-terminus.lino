@@ -5,6 +5,8 @@ model 'DeepSeek: DeepSeek V3.1 Terminus'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'deepseek'
   status
     active
   released at
@@ -12,12 +14,13 @@ model 'DeepSeek: DeepSeek V3.1 Terminus'
   last updated at
     2025-09-22
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,11 +31,9 @@ model 'DeepSeek: DeepSeek V3.1 Terminus'
     context
       '163 840'
     output
-      '32 768'
+      '147 456'
   costs
     input
-      0.21
+      0.27
     output
-      0.79
-    cacheRead
-      0.13
+      1

@@ -31,7 +31,7 @@ model 'Mistral Medium 3.5'
       text
   limits
     context
-      '262 144'
+      '256 000'
     output
       '131 072'
   costs

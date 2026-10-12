@@ -1,0 +1,41 @@
+model 'NeoSmith Maestro'
+  has id
+    'neosmith.intelligent-maestro'
+  provider id
+    'neosmith'
+  provided by
+    'NeoSmith'
+  status
+    active
+  released at
+    2026-08-03
+  last updated at
+    2026-08-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      2.4
+    output
+      12
+    cacheRead
+      0.35
+    cacheWrite
+      0

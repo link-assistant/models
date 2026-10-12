@@ -30,3 +30,10 @@ model 'deepseek-v4-flash'
       '1 048 576'
     output
       '1 048 576'
+  costs
+    input
+      0.22
+    output
+      0.66
+    cacheRead
+      0.007

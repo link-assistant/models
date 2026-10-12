@@ -1,0 +1,41 @@
+model 'Kimi K3'
+  has id
+    'kimi-k3'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-07-16
+  last updated at
+    2026-07-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      3.75
+    output
+      18.75
+    cacheRead
+      0.375

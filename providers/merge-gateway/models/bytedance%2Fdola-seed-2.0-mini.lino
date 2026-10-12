@@ -1,0 +1,36 @@
+model 'Seed 2.0 Mini'
+  has id
+    'bytedance/dola-seed-2.0-mini'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-02-15
+  last updated at
+    2026-02-15
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.4

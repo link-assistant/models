@@ -1,0 +1,46 @@
+model 'Claude Opus 4.5 (latest)'
+  has id
+    'anthropic/claude-opus-4-5'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2025-11-24
+  last updated at
+    2025-11-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      5
+    output
+      25
+    cacheRead
+      0.5
+    cacheWrite
+      6.25

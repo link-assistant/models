@@ -20,7 +20,6 @@ model 'Grok Code Fast 1'
       reasoning
       tool calls
       temperature
-      attachments
     )
   modalities
     input

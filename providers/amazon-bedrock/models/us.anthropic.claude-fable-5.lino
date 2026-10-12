@@ -35,10 +35,10 @@ model 'Claude Fable 5 (US)'
       '128 000'
   costs
     input
-      10
+      11
     output
-      50
+      55
     cacheRead
-      1
+      1.1
     cacheWrite
-      12.5
+      13.75

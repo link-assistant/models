@@ -1,0 +1,41 @@
+model 'Mercury 2.5'
+  has id
+    'inception/mercury-2.5'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'mercury'
+  status
+    active
+  released at
+    2026-09-08
+  last updated at
+    2026-09-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '260 000'
+    output
+      '65 536'
+  costs
+    input
+      0.04
+    output
+      0.15
+    cacheRead
+      0.004

@@ -6,7 +6,7 @@ model 'Llama 3.1 70b Instruct'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2024-07-16
   last updated at

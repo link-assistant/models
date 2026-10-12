@@ -1,0 +1,41 @@
+model 'Standard Compute'
+  has id
+    'standardcompute'
+  provider id
+    'standardcompute'
+  provided by
+    'Standard Compute'
+  family
+    'auto'
+  status
+    active
+  released at
+    2026-03-01
+  last updated at
+    2026-08-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '24 576'
+  costs
+    input
+      0
+    output
+      0

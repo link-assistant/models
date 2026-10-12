@@ -10,7 +10,7 @@ model 'Amazon Nova 2 Lite'
   status
     active
   released at
-    2024-12-03
+    2024-01-01
   last updated at
     2024-12-03
   weights
@@ -29,6 +29,8 @@ model 'Amazon Nova 2 Lite'
       '65 535'
   costs
     input
-      0.5099999999999999
+      0.51
     output
       4.25
+    cacheRead
+      0.255

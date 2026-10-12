@@ -1,0 +1,27 @@
+model 'MAI-Voice-2'
+  has id
+    'microsoft/mai-voice-2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mai'
+  status
+    active
+  released at
+    2026-06-02
+  last updated at
+    2026-06-02
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      0
+    output
+      0

@@ -38,3 +38,5 @@ model 'Mistral Large 3'
       0.5
     output
       1.5
+    cacheRead
+      0.05

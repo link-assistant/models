@@ -30,7 +30,7 @@ model 'GLM-5.1'
       text
   limits
     context
-      '202 752'
+      '202 000'
     output
       '131 072'
   costs

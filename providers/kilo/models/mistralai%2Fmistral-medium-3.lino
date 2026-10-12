@@ -5,6 +5,8 @@ model 'Mistral: Mistral Medium 3'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral-medium'
   status
     active
   released at
@@ -18,19 +20,22 @@ model 'Mistral: Mistral Medium 3'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
       '131 072'
     output
-      '26 215'
+      '104 857'
   costs
     input
       0.4
     output
       2
+    cacheRead
+      0.04

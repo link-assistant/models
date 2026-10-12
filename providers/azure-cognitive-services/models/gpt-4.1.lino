@@ -8,7 +8,7 @@ model 'GPT-4.1'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
     2025-04-14
   last updated at

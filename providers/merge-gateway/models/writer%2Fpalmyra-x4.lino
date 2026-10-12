@@ -1,0 +1,37 @@
+model 'Palmyra X4'
+  has id
+    'writer/palmyra-x4'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'palmyra'
+  status
+    active
+  released at
+    2024-10-09
+  last updated at
+    2024-10-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 000'
+  costs
+    input
+      2.5
+    output
+      10

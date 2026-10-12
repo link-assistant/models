@@ -29,7 +29,7 @@ model 'Qwen3 4B Base'
     context
       '32 768'
     output
-      4096
+      '32 768'
   costs
     input
       0.15

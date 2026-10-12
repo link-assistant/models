@@ -1,4 +1,4 @@
-model 'Nano Banana Pro'
+model 'Nano Banana Pro Preview'
   has id
     'gemini-3-pro-image-preview'
   provider id

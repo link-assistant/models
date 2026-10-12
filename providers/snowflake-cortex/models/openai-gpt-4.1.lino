@@ -31,6 +31,6 @@ model 'GPT-4.1'
       text
   limits
     context
-      '1 047 576'
+      '128 000'
     output
-      '32 768'
+      '32 000'

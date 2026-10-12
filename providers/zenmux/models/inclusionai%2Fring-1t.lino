@@ -6,7 +6,7 @@ model 'Ring-1T'
   provided by
     'ZenMux'
   status
-    active
+    deprecated
   released at
     2025-10-12
   last updated at

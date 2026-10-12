@@ -35,6 +35,6 @@ model 'Qwen 3.32B'
       8192
   costs
     input
-      0.16
+      0.15
     output
-      0.64
+      0.6

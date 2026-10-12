@@ -31,8 +31,8 @@ model 'GPT-5 Nano'
       text
   limits
     context
-      '400 000'
+      '272 000'
     input
       '272 000'
     output
-      '128 000'
+      8192

@@ -1,0 +1,31 @@
+model 'Muse Image 1.0'
+  has id
+    'meta/muse-image-1.0'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'muse'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

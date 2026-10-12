@@ -41,4 +41,4 @@ model 'Qwen3 235B A22B Thinking 2507 TEE'
     output
       1.1957
     cacheRead
-      0.14945
+      0.029889999999999993

@@ -12,11 +12,14 @@ model 'GPT-4 Turbo'
   released at
     2023-11-06
   last updated at
-    2024-01-01
+    2024-04-09
+  has knowledge cutoff at
+    2023-12
   weights
     closed
   capabilities
     (
+      temperature
       attachments
     )
   modalities

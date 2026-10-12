@@ -8,7 +8,7 @@ model 'MiniMax-M3'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2026-06-01
   last updated at

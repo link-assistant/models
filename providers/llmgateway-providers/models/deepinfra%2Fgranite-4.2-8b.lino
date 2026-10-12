@@ -1,0 +1,40 @@
+model 'Granite 4.2 8B (DeepInfra)'
+  has id
+    'deepinfra/granite-4.2-8b'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'granite'
+  status
+    active
+  released at
+    2026-09-01
+  last updated at
+    2026-09-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '117 964'
+  costs
+    input
+      0.06
+    output
+      0.25
+    cacheRead
+      0.015

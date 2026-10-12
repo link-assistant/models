@@ -1,0 +1,37 @@
+model 'Apodex 1.1 Mini (free)'
+  has id
+    'apodex/apodex-1.1-mini:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2026-10-01
+  last updated at
+    2026-10-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '235 929'
+  costs
+    input
+      0
+    output
+      0

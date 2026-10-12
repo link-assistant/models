@@ -8,14 +8,15 @@ model 'AionLabs: Aion-2.0'
   status
     active
   released at
-    2026-02-24
+    2026-02-23
   last updated at
-    2026-03-15
+    2026-02-23
   weights
     closed
   capabilities
     (
       reasoning
+      tool calls
       temperature
     )
   modalities
@@ -33,3 +34,5 @@ model 'AionLabs: Aion-2.0'
       0.8
     output
       1.6
+    cacheRead
+      0.2

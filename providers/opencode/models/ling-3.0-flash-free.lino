@@ -1,0 +1,40 @@
+model 'Ling-3.0-flash Free'
+  has id
+    'ling-3.0-flash-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'ling'
+  status
+    deprecated
+  released at
+    2026-07-23
+  last updated at
+    2026-07-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

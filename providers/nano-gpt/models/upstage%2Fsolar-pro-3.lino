@@ -5,6 +5,8 @@ model 'Solar Pro 3'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'solar-pro'
   status
     active
   released at
@@ -20,11 +22,11 @@ model 'Solar Pro 3'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
-      '128 000'
+      '131 072'
     output
-      '128 000'
+      '117 964'
   costs
     input
       0.15

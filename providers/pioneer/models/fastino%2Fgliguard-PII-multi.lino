@@ -1,0 +1,41 @@
+model 'GLiNER2-Guardrails-PII-Multi'
+  has id
+    'fastino/gliguard-PII-multi'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  status
+    active
+  released at
+    2026-07-08
+  last updated at
+    2026-07-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      8192
+  costs
+    input
+      0.15
+    output
+      0.15
+    cacheRead
+      0.15
+    cacheWrite
+      0.15

@@ -5,8 +5,6 @@ model 'Cohere Rerank 4 Pro'
     'vercel'
   provided by
     'Vercel AI Gateway'
-  family
-    'o'
   status
     active
   released at

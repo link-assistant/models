@@ -33,11 +33,9 @@ model 'DeepSeek V3.1 Terminus'
     context
       '163 840'
     output
-      '32 768'
+      '147 456'
   costs
     input
       0.27
     output
-      0.95
-    cacheRead
-      0.13
+      1

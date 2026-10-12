@@ -5,12 +5,14 @@ model 'Amazon: Nova 2 Lite'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'nova'
   status
     active
   released at
-    2024-12-01
+    2025-12-02
   last updated at
-    2026-03-15
+    2025-12-02
   weights
     closed
   capabilities
@@ -22,7 +24,7 @@ model 'Amazon: Nova 2 Lite'
     )
   modalities
     input
-      image pdf text video
+      text image video pdf
     output
       text
   limits

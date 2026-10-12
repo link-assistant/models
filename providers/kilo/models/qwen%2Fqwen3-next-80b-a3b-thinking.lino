@@ -1,16 +1,20 @@
-model 'Qwen: Qwen3 Next 80B A3B Thinking'
+model 'Qwen3-Next 80B-A3B (Thinking)'
   has id
     'qwen/qwen3-next-80b-a3b-thinking'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-09-11
+    2025-09
   last updated at
-    2026-03-15
+    2025-09
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities
@@ -18,6 +22,7 @@ model 'Qwen: Qwen3 Next 80B A3B Thinking'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -26,11 +31,11 @@ model 'Qwen: Qwen3 Next 80B A3B Thinking'
       text
   limits
     context
-      '131 072'
+      '262 144'
     output
-      '32 768'
+      '235 929'
   costs
     input
-      0.0975
+      0.15
     output
-      0.78
+      1.2

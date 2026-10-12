@@ -32,9 +32,9 @@ model 'Mistral Small 4'
       text
   limits
     context
-      '262 144'
+      '32 000'
     output
-      '65 536'
+      '32 000'
   costs
     input
       0.15

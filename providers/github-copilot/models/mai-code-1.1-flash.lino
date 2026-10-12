@@ -1,0 +1,43 @@
+model 'MAI-Code-1.1-Flash'
+  has id
+    'mai-code-1.1-flash'
+  provider id
+    'github-copilot'
+  provided by
+    'GitHub Copilot'
+  family
+    'mai'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.2
+    output
+      1.2
+    cacheRead
+      0.02

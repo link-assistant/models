@@ -1,0 +1,42 @@
+model 'Qwen3 30B A3B Instruct 2507'
+  has id
+    'qwen/qwen3-30b-a3b-instruct-2507'
+  provider id
+    'ambient'
+  provided by
+    'Ambient'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-10-09
+  last updated at
+    2026-10-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.09
+    output
+      0.3
+    cacheRead
+      0.09
+    cacheWrite
+      0

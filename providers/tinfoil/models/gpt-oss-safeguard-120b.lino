@@ -19,7 +19,6 @@ model 'gpt-oss-safeguard-120b'
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
       structured output
@@ -31,7 +30,7 @@ model 'gpt-oss-safeguard-120b'
       text
   limits
     context
-      '131 000'
+      '131 072'
     output
       '32 768'
   costs

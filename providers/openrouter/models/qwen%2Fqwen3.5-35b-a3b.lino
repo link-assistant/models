@@ -32,11 +32,11 @@ model 'Qwen3.5 35B-A3B'
     context
       '262 144'
     output
-      '81 920'
+      '32 768'
   costs
     input
-      0.14
+      0.08
     output
-      1
+      0.75
     cacheRead
-      0.05
+      0.04

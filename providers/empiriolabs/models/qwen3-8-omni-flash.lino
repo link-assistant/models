@@ -1,0 +1,42 @@
+model 'Qwen3.8 Omni Flash'
+  has id
+    'qwen3-8-omni-flash'
+  provider id
+    'empiriolabs'
+  provided by
+    'EmpirioLabs AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-09-17
+  last updated at
+    2026-09-17
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      0.94
+    cacheRead
+      0.3

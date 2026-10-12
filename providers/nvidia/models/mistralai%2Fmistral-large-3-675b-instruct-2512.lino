@@ -8,7 +8,7 @@ model 'Mistral Large 3 675B Instruct 2512'
   family
     'mistral-large'
   status
-    active
+    deprecated
   released at
     2025-12-02
   last updated at

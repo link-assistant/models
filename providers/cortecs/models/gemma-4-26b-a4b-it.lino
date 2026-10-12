@@ -1,0 +1,40 @@
+model 'Gemma 4 26B A4B IT'
+  has id
+    'gemma-4-26b-a4b-it'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '81 920'
+  costs
+    input
+      0.111
+    output
+      0.557

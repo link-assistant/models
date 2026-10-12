@@ -31,11 +31,11 @@ model 'Mistral Small 3.2 24B'
       text
   limits
     context
-      '128 000'
+      '256 000'
     output
       '16 384'
   costs
     input
-      0.075
+      0.09375
     output
-      0.2
+      0.25

@@ -6,7 +6,7 @@ model 'Gemma 3n E4b It'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2025-06-03
   last updated at

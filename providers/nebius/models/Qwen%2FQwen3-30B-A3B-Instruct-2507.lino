@@ -28,9 +28,9 @@ model 'Qwen3-30B-A3B-Instruct-2507'
       text
   limits
     context
-      '128 000'
+      '262 144'
     input
-      '120 000'
+      '262 144'
     output
       8192
   costs

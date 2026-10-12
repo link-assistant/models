@@ -19,6 +19,7 @@ model 'GLM 5'
     (
       reasoning
       tool calls
+      temperature
       interleaved output
     )
   modalities
@@ -28,11 +29,13 @@ model 'GLM 5'
       text
   limits
     context
-      '202 752'
+      '64 000'
     output
-      '128 000'
+      '64 000'
   costs
     input
       1
     output
       3.2
+    cacheRead
+      0.2

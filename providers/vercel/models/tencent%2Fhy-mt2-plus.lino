@@ -1,0 +1,32 @@
+model 'Tencent Hy-MT2-Plus'
+  has id
+    'tencent/hy-mt2-plus'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-06-12
+  last updated at
+    2026-06-12
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8000
+    output
+      4000
+  costs
+    input
+      0.074
+    output
+      0.295

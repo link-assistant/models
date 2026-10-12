@@ -4,7 +4,9 @@ model 'Kimi K2 Instruct'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
+  family
+    'kimi-k2'
   status
     active
   released at
@@ -27,7 +29,7 @@ model 'Kimi K2 Instruct'
     context
       '131 072'
     output
-      '32 768'
+      '98 304'
   costs
     input
       0.57

@@ -32,7 +32,7 @@ model 'Kimi K2.7 Code'
       text
   limits
     context
-      '262 144'
+      '256 000'
     output
       '32 768'
   costs

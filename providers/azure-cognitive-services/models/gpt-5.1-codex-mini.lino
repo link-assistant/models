@@ -31,6 +31,8 @@ model 'GPT-5.1 Codex Mini'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

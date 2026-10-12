@@ -1,0 +1,40 @@
+model 'Qwen3.6 35B A3B TEE'
+  has id
+    'TEE/qwen3.6-35b-a3b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.2
+    output
+      1.27
+    cacheRead
+      0.1

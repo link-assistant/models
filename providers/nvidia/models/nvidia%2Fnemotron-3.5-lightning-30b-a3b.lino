@@ -1,0 +1,39 @@
+model 'Nemotron 3.5 Lightning 30B A3B'
+  has id
+    'nvidia/nemotron-3.5-lightning-30b-a3b'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

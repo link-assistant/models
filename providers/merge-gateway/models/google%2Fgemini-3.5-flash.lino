@@ -27,7 +27,7 @@ model 'Gemini 3.5 Flash'
     )
   modalities
     input
-      text image video audio pdf
+      text image audio pdf
     output
       text
   limits

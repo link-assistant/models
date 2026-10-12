@@ -35,7 +35,7 @@ model 'Kimi K2.6'
     context
       '262 144'
     output
-      '262 144'
+      '32 768'
   costs
     input
       0.95

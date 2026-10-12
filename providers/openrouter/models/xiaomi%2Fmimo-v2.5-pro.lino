@@ -32,7 +32,7 @@ model 'MiMo-V2.5-Pro'
       text
   limits
     context
-      '1 048 576'
+      '1 050 000'
     output
       '131 072'
   costs

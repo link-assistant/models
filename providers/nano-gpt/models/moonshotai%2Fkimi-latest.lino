@@ -5,6 +5,8 @@ model 'Kimi Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'kimi'
   status
     active
   released at
@@ -12,29 +14,30 @@ model 'Kimi Latest'
   last updated at
     2026-05-03
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
     context
-      '256 000'
+      '1 048 576'
     input
-      '256 000'
+      '1 048 576'
     output
-      '65 536'
+      '943 718'
   costs
     input
-      0.5
+      2
     output
-      2.6
+      10
     cacheRead
-      0.125
+      0.2

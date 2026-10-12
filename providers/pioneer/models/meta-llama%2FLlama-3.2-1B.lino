@@ -1,0 +1,42 @@
+model 'Llama-3.2-1B'
+  has id
+    'meta-llama/Llama-3.2-1B'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-09-25
+  last updated at
+    2024-09-25
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.1
+    output
+      0.1
+    cacheRead
+      0.1
+    cacheWrite
+      0.1

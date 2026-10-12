@@ -36,10 +36,10 @@ model 'GPT-5.6 Sol Pro'
       '128 000'
   costs
     input
-      6.25
+      5
     output
-      37.5
+      25
     cacheRead
-      0.625
+      0.5
     cacheWrite
-      7.8125
+      6.25

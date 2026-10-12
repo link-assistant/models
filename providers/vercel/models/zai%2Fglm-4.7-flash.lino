@@ -6,7 +6,7 @@ model 'GLM 4.7 Flash'
   provided by
     'Vercel AI Gateway'
   family
-    'glm'
+    'glm-flash'
   status
     active
   released at
@@ -16,7 +16,7 @@ model 'GLM 4.7 Flash'
   has knowledge cutoff at
     2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning

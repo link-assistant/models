@@ -1,0 +1,40 @@
+model 'Gemma 4 31B IT'
+  has id
+    'gemma4-31b'
+  provider id
+    'qvac'
+  provided by
+    'QVAC'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

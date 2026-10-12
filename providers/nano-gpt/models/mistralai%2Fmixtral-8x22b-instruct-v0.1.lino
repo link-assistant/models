@@ -14,7 +14,7 @@ model 'Mixtral 8x22B'
   last updated at
     2025-12-11
   weights
-    closed
+    open
   modalities
     input
       text
@@ -26,9 +26,11 @@ model 'Mixtral 8x22B'
     input
       '65 536'
     output
-      '32 768'
+      '52 428'
   costs
     input
-      0.8999999999999999
+      2
     output
-      0.8999999999999999
+      6
+    cacheRead
+      0.2

@@ -6,7 +6,7 @@ model 'Qwen2.5 Coder 32b Instruct'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2024-11-06
   last updated at

@@ -31,3 +31,10 @@ model 'kimi-k2.6'
       '262 144'
     output
       '262 144'
+  costs
+    input
+      0.95
+    output
+      4
+    cacheRead
+      0.16

@@ -12,7 +12,7 @@ model 'The Drummer Cydonia 24B v4.3'
   last updated at
     2025-12-25
   weights
-    closed
+    open
   modalities
     input
       text
@@ -27,6 +27,8 @@ model 'The Drummer Cydonia 24B v4.3'
       '32 768'
   costs
     input
-      0.1003
+      0.12
     output
-      0.1207
+      0.15
+    cacheRead
+      0.06

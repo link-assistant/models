@@ -1,0 +1,43 @@
+model 'DeepSeek V4 Flash Vision Exp'
+  has id
+    'deepseek-v4-flash-vision-exp'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-08-21
+  last updated at
+    2026-09-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.155
+    output
+      0.62
+    cacheRead
+      0.0031
