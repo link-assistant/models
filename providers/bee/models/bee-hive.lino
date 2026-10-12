@@ -1,0 +1,42 @@
+model 'Bee Hive 1.0'
+  has id
+    'bee-hive'
+  provider id
+    'bee'
+  provided by
+    'Bee by HEOSSI'
+  status
+    active
+  released at
+    2026-07-10
+  last updated at
+    2026-09-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      5
+    output
+      20
+    cacheRead
+      0.5
+    cacheWrite
+      6

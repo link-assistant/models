@@ -1,0 +1,41 @@
+model 'GLM-5.2'
+  has id
+    'glm-5.2'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-30
+  last updated at
+    2026-07-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      1.52432
+    output
+      4.79072
+    cacheRead
+      0.152432

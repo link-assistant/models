@@ -6,7 +6,7 @@ model 'GPT-5.1 Chat'
   provided by
     'ZenMux'
   status
-    active
+    deprecated
   released at
     2025-11-13
   last updated at

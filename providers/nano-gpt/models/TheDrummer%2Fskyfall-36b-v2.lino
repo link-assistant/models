@@ -12,7 +12,7 @@ model 'TheDrummer Skyfall 36B V2'
   last updated at
     2025-03-10
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -24,13 +24,15 @@ model 'TheDrummer Skyfall 36B V2'
       text
   limits
     context
-      '64 000'
-    input
-      '64 000'
-    output
       '32 768'
+    input
+      '32 768'
+    output
+      '29 491'
   costs
     input
-      0.493
+      0.55
     output
-      0.493
+      0.8
+    cacheRead
+      0.25

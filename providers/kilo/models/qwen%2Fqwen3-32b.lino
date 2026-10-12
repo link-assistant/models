@@ -1,16 +1,20 @@
-model 'Qwen: Qwen3 32B'
+model 'Qwen3 32B'
   has id
     'qwen/qwen3-32b'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2024-12-01
+    2025-04
   last updated at
-    2026-02-04
+    2025-04
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities
@@ -18,6 +22,7 @@ model 'Qwen: Qwen3 32B'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,11 +33,9 @@ model 'Qwen: Qwen3 32B'
     context
       '40 960'
     output
-      '40 960'
+      '16 384'
   costs
     input
       0.08
     output
-      0.24
-    cacheRead
-      0.04
+      0.28

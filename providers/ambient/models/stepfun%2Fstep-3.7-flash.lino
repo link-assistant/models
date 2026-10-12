@@ -1,0 +1,44 @@
+model 'Step 3.7 Flash'
+  has id
+    'stepfun/step-3.7-flash'
+  provider id
+    'ambient'
+  provided by
+    'Ambient'
+  status
+    active
+  released at
+    2026-05-29
+  last updated at
+    2026-05-29
+  has knowledge cutoff at
+    2026-03-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.19
+    output
+      1.14
+    cacheRead
+      0.03
+    cacheWrite
+      0

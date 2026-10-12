@@ -1,0 +1,27 @@
+model 'Grok Imagine Image 2.0'
+  has id
+    'spacexai/grok-imagine-image-2.0'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-08-07
+  last updated at
+    2026-08-07
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

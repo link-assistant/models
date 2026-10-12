@@ -20,20 +20,23 @@ model 'Qwen 3.5 397B A17B'
       reasoning
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image video
     output
       text
   limits
     context
-      '262 144'
+      '131 072'
     output
-      '81 920'
+      '131 072'
   costs
     input
       0.55
     output
       3.5
+    cacheRead
+      0.111

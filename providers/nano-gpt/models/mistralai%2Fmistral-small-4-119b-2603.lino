@@ -5,6 +5,8 @@ model 'Mistral Small 4 119B'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'mistral-small'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Mistral Small 4 119B'
   last updated at
     2026-03-16
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -37,3 +39,5 @@ model 'Mistral Small 4 119B'
       0.4
     output
       1.4
+    cacheRead
+      0.2

@@ -1,0 +1,38 @@
+model 'Mistral Large Latest (Mistral AI)'
+  has id
+    'mistral/mistral-large-latest'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'mistral-large'
+  status
+    active
+  released at
+    2024-11-01
+  last updated at
+    2025-12-02
+  has knowledge cutoff at
+    2024-11
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '262 144'
+  costs
+    input
+      4
+    output
+      12

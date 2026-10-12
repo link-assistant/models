@@ -1,0 +1,43 @@
+model 'MiMo V2.5 Pro (Xiaomi)'
+  has id
+    'xiaomi/mimo-v2.5-pro'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.435
+    output
+      0.87
+    cacheRead
+      0.0036

@@ -5,6 +5,8 @@ model 'Mercury 2'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'mercury'
   status
     active
   released at

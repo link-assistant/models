@@ -1,4 +1,4 @@
-model 'gpt-oss-safeguard-20b'
+model 'GPT OSS Safeguard 20B'
   has id
     'openai/gpt-oss-safeguard-20b'
   provider id

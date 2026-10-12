@@ -1,0 +1,41 @@
+model 'Nemotron 3 Nano 30B A3B FP8'
+  has id
+    'nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8'
+  provider id
+    'infomaniak'
+  provided by
+    'Infomaniak'
+  family
+    'nemotron'
+  status
+    beta
+  released at
+    2025-12-15
+  last updated at
+    2026-08-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '262 144'
+  costs
+    input
+      0.06
+    output
+      0.25

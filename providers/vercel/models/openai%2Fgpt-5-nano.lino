@@ -8,7 +8,7 @@ model 'GPT-5 Nano'
   family
     'gpt-nano'
   status
-    active
+    experimental
   released at
     2025-08-07
   last updated at

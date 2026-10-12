@@ -8,7 +8,7 @@ model 'GLM 5.2'
   family
     'glm'
   status
-    active
+    deprecated
   released at
     2026-06-17
   last updated at
@@ -20,6 +20,7 @@ model 'GLM 5.2'
       reasoning
       tool calls
       temperature
+      interleaved output
     )
   modalities
     input
@@ -37,4 +38,4 @@ model 'GLM 5.2'
     output
       4.5
     cacheRead
-      0.3625
+      0.145

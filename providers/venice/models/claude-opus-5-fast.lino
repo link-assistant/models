@@ -1,0 +1,45 @@
+model 'Claude Opus 5 Fast'
+  has id
+    'claude-opus-5-fast'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2026-07-23
+  last updated at
+    2026-07-24
+  has knowledge cutoff at
+    2026-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      12
+    output
+      60
+    cacheRead
+      1.2
+    cacheWrite
+      15

@@ -29,9 +29,9 @@ model 'Solar Pro 3'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      '128 000'
+      '117 964'
   costs
     input
       0.15

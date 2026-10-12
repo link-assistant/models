@@ -1,0 +1,39 @@
+model 'Step 5 Preview'
+  has id
+    'stepfun/step-5-preview'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  status
+    active
+  released at
+    2026-09-16
+  last updated at
+    2026-09-20
+  weights
+    closed
+  capabilities
+    (
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '1 000 000'
+  costs
+    input
+      1
+    output
+      2.7
+    cacheRead
+      0.05

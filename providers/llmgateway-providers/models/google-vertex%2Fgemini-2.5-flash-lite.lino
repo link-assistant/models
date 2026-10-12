@@ -1,0 +1,43 @@
+model 'Gemini 2.5 Flash Lite (Google Vertex AI)'
+  has id
+    'google-vertex/gemini-2.5-flash-lite'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gemini-flash-lite'
+  status
+    active
+  released at
+    2025-06-17
+  last updated at
+    2025-06-17
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 535'
+  costs
+    input
+      0.1
+    output
+      0.4
+    cacheRead
+      0.01

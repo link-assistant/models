@@ -29,7 +29,7 @@ model 'DiffusionGemma 26B-A4B IT'
     context
       '262 144'
     output
-      4096
+      '131 072'
   costs
     input
       0.5

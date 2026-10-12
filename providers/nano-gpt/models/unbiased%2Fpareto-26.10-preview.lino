@@ -1,0 +1,39 @@
+model 'Pareto 26.10 Preview'
+  has id
+    'unbiased/pareto-26.10-preview'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-10-01
+  last updated at
+    2026-10-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.8
+    output
+      3.2
+    cacheRead
+      0.03

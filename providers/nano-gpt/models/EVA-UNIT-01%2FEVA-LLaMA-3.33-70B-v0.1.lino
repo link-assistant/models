@@ -14,7 +14,7 @@ model 'EVA-LLaMA-3.33-70B-v0.1'
   last updated at
     2025-09-25
   weights
-    closed
+    open
   modalities
     input
       text
@@ -22,9 +22,9 @@ model 'EVA-LLaMA-3.33-70B-v0.1'
       text
   limits
     context
-      '16 384'
+      '32 768'
     input
-      '16 384'
+      '32 768'
     output
       '16 384'
   costs
@@ -32,3 +32,5 @@ model 'EVA-LLaMA-3.33-70B-v0.1'
       2.006
     output
       2.006
+    cacheRead
+      1.003

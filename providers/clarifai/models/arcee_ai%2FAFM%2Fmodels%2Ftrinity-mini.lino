@@ -6,11 +6,11 @@ model 'Trinity Mini'
   provided by
     'Clarifai'
   family
-    'trinity-mini'
+    'trinity'
   status
     active
   released at
-    2025-12
+    2025-12-01
   last updated at
     2026-02-25
   has knowledge cutoff at

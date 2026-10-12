@@ -1,0 +1,35 @@
+model 'Qwen3 235B A22B Thinking 2507 (NovitaAI)'
+  has id
+    'novita/qwen3-235b-a22b-thinking-2507'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  status
+    active
+  released at
+    2025-07-25
+  last updated at
+    2025-07-25
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.3
+    output
+      3

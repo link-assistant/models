@@ -1,4 +1,4 @@
-model 'Qwen3 32B (dense)'
+model 'Qwen3 32B'
   has id
     'qwen.qwen3-32b-v1:0'
   provider id
@@ -10,11 +10,11 @@ model 'Qwen3 32B (dense)'
   status
     active
   released at
-    2025-09-18
+    2025-04
   last updated at
     2025-09-18
   has knowledge cutoff at
-    2024-04
+    2025-04
   weights
     open
   capabilities
@@ -23,6 +23,7 @@ model 'Qwen3 32B (dense)'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -31,7 +32,7 @@ model 'Qwen3 32B (dense)'
       text
   limits
     context
-      '16 384'
+      '32 768'
     output
       '16 384'
   costs

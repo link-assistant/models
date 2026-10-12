@@ -34,10 +34,10 @@ model 'Qwen 3.7 Max'
       '64 000'
   costs
     input
-      1.25
+      2.5
     output
-      3.75
+      7.5
     cacheRead
-      0.25
+      0.5
     cacheWrite
-      1.5625
+      3.125

@@ -1,26 +1,32 @@
-model 'OpenAI: GPT-3.5 Turbo'
+model 'GPT-3.5-turbo'
   has id
     'openai/gpt-3.5-turbo'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
     2023-03-01
   last updated at
     2023-11-06
+  has knowledge cutoff at
+    2021-09-01
   weights
     closed
   capabilities
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits

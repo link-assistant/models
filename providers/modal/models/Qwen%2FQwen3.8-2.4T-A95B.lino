@@ -1,0 +1,42 @@
+model 'Qwen3.8-Max'
+  has id
+    'Qwen/Qwen3.8-2.4T-A95B'
+  provider id
+    'modal'
+  provided by
+    'Modal'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 010 000'
+    output
+      '131 072'
+  costs
+    input
+      2
+    output
+      6
+    cacheRead
+      0.25

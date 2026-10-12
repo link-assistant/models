@@ -31,9 +31,11 @@ model 'Qwen3 Coder Flash'
     context
       '262 144'
     output
-      '65 536'
+      '262 144'
   costs
     input
       0.45
     output
       1.7
+    cacheRead
+      0.09

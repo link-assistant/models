@@ -6,7 +6,7 @@ model 'Mistral: Mixtral 8x22B Instruct'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2024-04-17
   last updated at

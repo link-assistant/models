@@ -1,0 +1,25 @@
+model 'Grok Voice TTS 1.0'
+  has id
+    'x-ai/grok-voice-tts-1.0'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  status
+    active
+  released at
+    2026-07-31
+  last updated at
+    2026-07-31
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      '15 000'
+    output
+      '15 000'

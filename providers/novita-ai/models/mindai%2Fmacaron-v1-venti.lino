@@ -1,0 +1,39 @@
+model 'Macaron V1 Venti'
+  has id
+    'mindai/macaron-v1-venti'
+  provider id
+    'novita-ai'
+  provided by
+    'Novita AI'
+  status
+    active
+  released at
+    2026-07-21
+  last updated at
+    2026-07-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.825
+    output
+      2.475
+    cacheRead
+      0.165

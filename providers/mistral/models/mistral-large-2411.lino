@@ -8,7 +8,7 @@ model 'Mistral Large 2.1'
   family
     'mistral-large'
   status
-    active
+    deprecated
   released at
     2024-11-18
   last updated at

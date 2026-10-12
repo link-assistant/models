@@ -4,7 +4,7 @@ model 'MiniMax-M2.1'
   provider id
     'minimax-cn-coding-plan'
   provided by
-    'MiniMax Token Plan (minimaxi.com)'
+    'MiniMax Token Plan (minimax.cn)'
   family
     'minimax'
   status
@@ -35,4 +35,8 @@ model 'MiniMax-M2.1'
     input
       0
     output
+      0
+    cacheRead
+      0
+    cacheWrite
       0

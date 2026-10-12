@@ -1,24 +1,27 @@
-model 'ByteDance Seed: Seed 1.6 Flash'
+model 'ByteDance Seed: Seed 1.6 Flash (retires Nov 11)'
   has id
     'bytedance-seed/seed-1.6-flash'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'seed'
   status
     active
   released at
     2025-12-23
   last updated at
-    2026-03-15
+    2025-12-23
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

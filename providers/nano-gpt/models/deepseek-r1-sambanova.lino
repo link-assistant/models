@@ -5,6 +5,8 @@ model 'DeepSeek R1 Fast'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'deepseek'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'DeepSeek R1 Fast'
   last updated at
     2025-02-20
   weights
-    closed
+    open
   modalities
     input
       text
@@ -30,3 +32,5 @@ model 'DeepSeek R1 Fast'
       4.998
     output
       6.987
+    cacheRead
+      2.499

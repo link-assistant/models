@@ -4,7 +4,7 @@ model 'Mistral Small 3.2'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'mistral-small'
   status

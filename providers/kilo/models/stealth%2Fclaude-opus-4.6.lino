@@ -5,12 +5,14 @@ model 'Stealth: Claude Opus 4.6 (20% off)'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'claude-opus'
   status
     active
   released at
-    2026-02-05
+    2025-08-26
   last updated at
-    2026-05-27
+    2025-08-26
   weights
     closed
   capabilities
@@ -22,7 +24,7 @@ model 'Stealth: Claude Opus 4.6 (20% off)'
     )
   modalities
     input
-      image pdf text
+      text image pdf
     output
       text
   limits
@@ -39,3 +41,5 @@ model 'Stealth: Claude Opus 4.6 (20% off)'
       0.4
     cacheWrite
       5
+    reasoning
+      0

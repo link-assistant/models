@@ -1,22 +1,27 @@
-model 'DeepSeek: DeepSeek V3'
+model 'DeepSeek Chat'
   has id
     'deepseek/deepseek-chat'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'deepseek'
   status
     active
   released at
-    2024-12-01
+    2025-12-01
   last updated at
-    2026-03-15
+    2026-02-28
+  has knowledge cutoff at
+    2025-09
   weights
     open
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -27,11 +32,9 @@ model 'DeepSeek: DeepSeek V3'
     context
       '163 840'
     output
-      '163 840'
+      '16 384'
   costs
     input
       0.32
     output
       0.89
-    cacheRead
-      0.15

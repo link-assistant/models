@@ -1,0 +1,40 @@
+model 'mistralai--mistral-medium-instruct'
+  has id
+    'mistralai--mistral-medium-instruct'
+  provider id
+    'sap-ai-core'
+  provided by
+    'SAP AI Core'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2025-05-07
+  last updated at
+    2025-05-07
+  has knowledge cutoff at
+    2025-05
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.36
+    output
+      1.22

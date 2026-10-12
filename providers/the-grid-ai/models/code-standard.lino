@@ -10,7 +10,7 @@ model 'Code Standard'
   released at
     2026-05-04
   last updated at
-    2026-07-06
+    2026-07-15
   weights
     closed
   capabilities
@@ -32,4 +32,4 @@ model 'Code Standard'
     input
       '120 000'
     output
-      '16 000'
+      '65 536'

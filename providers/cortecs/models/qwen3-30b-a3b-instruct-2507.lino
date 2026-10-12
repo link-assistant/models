@@ -1,0 +1,36 @@
+model 'qwen3-30b-a3b-instruct-2507'
+  has id
+    'qwen3-30b-a3b-instruct-2507'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-07-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 000'
+    output
+      '262 000'
+  costs
+    input
+      0.099
+    output
+      0.299

@@ -8,7 +8,7 @@ model 'Mistral 7B'
   family
     'mistral'
   status
-    active
+    deprecated
   released at
     2023-09-27
   last updated at

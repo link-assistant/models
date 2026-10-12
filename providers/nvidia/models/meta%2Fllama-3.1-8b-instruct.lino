@@ -8,7 +8,7 @@ model 'Llama 3.1 8B Instruct'
   family
     'llama'
   status
-    active
+    deprecated
   released at
     2025-01-01
   last updated at

@@ -1,4 +1,4 @@
-model 'StepFun: Step 3.5 Flash'
+model 'Step 3.5 Flash'
   has id
     'stepfun/step-3.5-flash'
   provider id
@@ -10,7 +10,9 @@ model 'StepFun: Step 3.5 Flash'
   released at
     2026-01-29
   last updated at
-    2026-01-29
+    2026-02-13
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -26,13 +28,11 @@ model 'StepFun: Step 3.5 Flash'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
-      '256 000'
+      '65 536'
   costs
     input
       0.1
     output
       0.3
-    cacheRead
-      0.02

@@ -29,6 +29,8 @@ model 'Palmyra X5'
   limits
     context
       '1 040 000'
+    input
+      '1 040 000'
     output
       8192
   costs

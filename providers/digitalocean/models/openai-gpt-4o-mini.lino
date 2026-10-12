@@ -1,4 +1,4 @@
-model 'GPT-4o mini'
+model 'OpenAI GPT-4o mini'
   has id
     'openai-gpt-4o-mini'
   provider id
@@ -19,6 +19,7 @@ model 'GPT-4o mini'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
@@ -26,7 +27,7 @@ model 'GPT-4o mini'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits

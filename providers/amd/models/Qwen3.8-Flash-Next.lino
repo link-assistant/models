@@ -1,0 +1,42 @@
+model 'Qwen3.8 Flash Next'
+  has id
+    'Qwen3.8-Flash-Next'
+  provider id
+    'amd'
+  provided by
+    'AMD'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-08-27
+  last updated at
+    2026-08-27
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.15
+    output
+      0.47
+    cacheRead
+      0.016

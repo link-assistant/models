@@ -36,3 +36,5 @@ model 'Perceptron Mk1'
       0.15
     output
       1.5
+    cacheRead
+      0.075

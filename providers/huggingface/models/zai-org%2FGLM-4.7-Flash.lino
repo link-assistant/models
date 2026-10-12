@@ -6,7 +6,7 @@ model 'GLM-4.7-Flash'
   provided by
     'Hugging Face'
   family
-    'glm'
+    'glm-flash'
   status
     active
   released at

@@ -31,7 +31,7 @@ model 'Glm 5.2'
     context
       '262 144'
     output
-      '262 144'
+      '256 000'
   costs
     input
       1.4

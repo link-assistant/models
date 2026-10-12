@@ -8,7 +8,7 @@ model 'Pixtral Large (latest)'
   family
     'pixtral'
   status
-    active
+    deprecated
   released at
     2024-11-01
   last updated at

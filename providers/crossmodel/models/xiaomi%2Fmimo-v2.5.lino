@@ -23,6 +23,7 @@ model 'MiMo-V2.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

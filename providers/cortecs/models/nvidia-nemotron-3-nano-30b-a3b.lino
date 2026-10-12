@@ -1,0 +1,36 @@
+model 'nvidia-nemotron-3-nano-30b-a3b'
+  has id
+    'nvidia-nemotron-3-nano-30b-a3b'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2026-01-12
+  last updated at
+    2026-01-12
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.06
+    output
+      0.24

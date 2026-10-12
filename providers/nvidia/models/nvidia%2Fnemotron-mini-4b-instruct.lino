@@ -8,7 +8,7 @@ model 'nemotron-mini-4b-instruct'
   family
     'nemotron'
   status
-    active
+    deprecated
   released at
     2024-08-21
   last updated at

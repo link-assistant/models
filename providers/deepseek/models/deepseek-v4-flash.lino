@@ -8,11 +8,11 @@ model 'DeepSeek V4 Flash'
   family
     'deepseek-flash'
   status
-    active
+    deprecated
   released at
-    2026-04-24
+    2026-09-10
   last updated at
-    2026-04-24
+    2026-09-10
   has knowledge cutoff at
     2025-05
   weights
@@ -22,23 +22,26 @@ model 'DeepSeek V4 Flash'
       reasoning
       tool calls
       temperature
+      attachments
       structured output
       interleaved output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
     context
       '1 000 000'
     output
-      '384 000'
+      '393 216'
   costs
     input
-      0.14
+      0.15
     output
-      0.28
+      0.6
     cacheRead
-      0.0028
+      0.003
+    reasoning
+      0.6

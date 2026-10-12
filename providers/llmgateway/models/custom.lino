@@ -4,7 +4,7 @@ model 'Custom Model'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'auto'
   status

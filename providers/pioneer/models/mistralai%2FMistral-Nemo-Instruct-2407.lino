@@ -19,10 +19,8 @@ model 'Mistral Nemo'
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
-      interleaved output
     )
   modalities
     input
@@ -31,7 +29,7 @@ model 'Mistral Nemo'
       text
   limits
     context
-      '131 072'
+      '128 000'
     output
       '128 000'
   costs

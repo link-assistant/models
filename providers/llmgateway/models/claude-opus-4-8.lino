@@ -4,7 +4,7 @@ model 'Claude Opus 4.8'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'claude-opus'
   status

@@ -15,8 +15,10 @@ model 'GLiNER2 Base'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      interleaved output
     )
   modalities
     input
@@ -27,7 +29,7 @@ model 'GLiNER2 Base'
     context
       8192
     output
-      4096
+      8192
   costs
     input
       0.15

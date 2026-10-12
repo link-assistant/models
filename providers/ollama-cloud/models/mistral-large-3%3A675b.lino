@@ -30,3 +30,8 @@ model 'mistral-large-3:675b'
       '262 144'
     output
       '262 144'
+  costs
+    input
+      0.5
+    output
+      1.5

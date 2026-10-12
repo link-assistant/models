@@ -1,0 +1,27 @@
+model 'Voyage Rerank 3'
+  has id
+    'voyage/rerank-3'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'voyage'
+  status
+    active
+  released at
+    2026-09-30
+  last updated at
+    2026-09-30
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'

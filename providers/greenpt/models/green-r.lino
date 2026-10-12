@@ -1,0 +1,40 @@
+model 'Green R'
+  has id
+    'green-r'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.399
+    output
+      1.083

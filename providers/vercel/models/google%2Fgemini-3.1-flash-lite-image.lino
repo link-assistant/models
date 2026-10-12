@@ -6,13 +6,15 @@ model 'Gemini 3.1 Flash Lite Image (Nano Banana 2 Lite)'
   provided by
     'Vercel AI Gateway'
   family
-    'gemini'
+    'gemini-flash-lite'
   status
     active
   released at
     2026-06-30
   last updated at
     2026-06-30
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities

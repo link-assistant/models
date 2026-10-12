@@ -6,7 +6,7 @@ model 'Claude 3.5 Haiku'
   provided by
     'ZenMux'
   status
-    active
+    deprecated
   released at
     2024-11-04
   last updated at

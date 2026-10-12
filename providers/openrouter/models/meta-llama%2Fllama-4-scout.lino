@@ -31,7 +31,7 @@ model 'Llama 4 Scout'
       text
   limits
     context
-      '10 000 000'
+      '1 310 720'
     output
       '16 384'
   costs

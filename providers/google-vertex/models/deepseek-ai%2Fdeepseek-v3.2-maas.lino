@@ -8,7 +8,7 @@ model 'DeepSeek V3.2'
   family
     'deepseek'
   status
-    active
+    deprecated
   released at
     2025-12-17
   last updated at
@@ -21,10 +21,11 @@ model 'DeepSeek V3.2'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
-      text pdf
+      text
     output
       text
   limits

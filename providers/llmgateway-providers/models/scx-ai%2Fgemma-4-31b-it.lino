@@ -1,0 +1,37 @@
+model 'Gemma 4 31B IT (SCX.ai (Turbo))'
+  has id
+    'scx-ai/gemma-4-31b-it'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      0.91

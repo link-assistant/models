@@ -1,0 +1,39 @@
+model 'devstral-latest@eu'
+  has id
+    'devstral-latest@eu'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'devstral'
+  status
+    active
+  released at
+    2026-05-27
+  last updated at
+    2026-05-27
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.44
+    output
+      2.2
+    cacheRead
+      0.44

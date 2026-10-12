@@ -29,7 +29,7 @@ model 'Ministral 14B'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
       '256 000'
   costs
@@ -37,3 +37,5 @@ model 'Ministral 14B'
       0.2
     output
       0.2
+    cacheRead
+      0.02

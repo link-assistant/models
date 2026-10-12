@@ -1,0 +1,38 @@
+model 'Gemini 3.1 Flash TTS Preview'
+  has id
+    'gemini-3-1-flash-tts'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-04-15
+  last updated at
+    2026-04-15
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      8192
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

@@ -5,29 +5,33 @@ model 'OpenAI: GPT-3.5 Turbo (older v0613)'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt'
   status
     active
   released at
-    2023-06-13
+    2024-01-25
   last updated at
-    2023-06-13
+    2024-01-25
   weights
     closed
   capabilities
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
     context
       4095
     output
-      4096
+      3685
   costs
     input
       1

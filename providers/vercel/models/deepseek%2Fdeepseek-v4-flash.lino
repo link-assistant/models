@@ -6,11 +6,11 @@ model 'DeepSeek V4 Flash'
   provided by
     'Vercel AI Gateway'
   family
-    'deepseek'
+    'deepseek-flash'
   status
     active
   released at
-    2026-04-23
+    2026-04-24
   last updated at
     2026-04-24
   has knowledge cutoff at
@@ -36,8 +36,8 @@ model 'DeepSeek V4 Flash'
       '384 000'
   costs
     input
-      0.14
+      0.13
     output
-      0.28
+      0.26
     cacheRead
       0.028

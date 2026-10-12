@@ -1,0 +1,42 @@
+model 'Kimi K3 Eco'
+  has id
+    'kimi-k3-eco'
+  provider id
+    'crof'
+  provided by
+    'CrofAI'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-07-16
+  last updated at
+    2026-07-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      4
+    cacheRead
+      0.1

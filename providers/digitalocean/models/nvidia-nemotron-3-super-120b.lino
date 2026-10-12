@@ -1,4 +1,4 @@
-model 'Nemotron-3-Super-120B'
+model 'NVIDIA Nemotron 3 Super 120B  (Public Preview)'
   has id
     'nvidia-nemotron-3-super-120b'
   provider id
@@ -8,13 +8,11 @@ model 'Nemotron-3-Super-120B'
   family
     'nemotron'
   status
-    beta
+    active
   released at
     2026-03-11
   last updated at
-    2026-04-16
-  has knowledge cutoff at
-    2026-02
+    2026-03-11
   weights
     open
   capabilities
@@ -31,7 +29,7 @@ model 'Nemotron-3-Super-120B'
       text
   limits
     context
-      '256 000'
+      '1 000 000'
     output
       '32 768'
   costs
@@ -39,3 +37,5 @@ model 'Nemotron-3-Super-120B'
       0.3
     output
       0.65
+    cacheRead
+      0.06

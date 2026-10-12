@@ -17,7 +17,6 @@ model 'Grok Build 0.1'
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments
@@ -25,7 +24,7 @@ model 'Grok Build 0.1'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits

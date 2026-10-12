@@ -13,8 +13,6 @@ model 'GPT OSS 120B'
     2025-08-05
   last updated at
     2025-08-05
-  has knowledge cutoff at
-    2024-10
   weights
     open
   capabilities
@@ -39,3 +37,5 @@ model 'GPT OSS 120B'
       0.1
     output
       0.5
+    cacheRead
+      0.1

@@ -22,11 +22,11 @@ model 'Qwen3 Embedding 0.6B'
       text
   limits
     context
-      '40 960'
+      '32 768'
     output
       1024
   costs
     input
       0.01
     output
-      0
+      0.01

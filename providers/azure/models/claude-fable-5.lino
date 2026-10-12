@@ -8,7 +8,7 @@ model 'Claude Fable 5'
   family
     'claude-fable'
   status
-    active
+    beta
   released at
     2026-06-09
   last updated at

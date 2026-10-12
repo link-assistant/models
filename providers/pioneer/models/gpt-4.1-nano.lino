@@ -19,12 +19,10 @@ model 'GPT-4.1 nano'
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments
       structured output
-      interleaved output
     )
   modalities
     input

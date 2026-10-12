@@ -1,0 +1,40 @@
+model 'Kimi K2.5 (EmberCloud)'
+  has id
+    'embercloud/kimi-k2.5'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-01
+  last updated at
+    2026-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.405
+    output
+      1.98
+    cacheRead
+      0.225

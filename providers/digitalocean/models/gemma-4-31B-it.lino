@@ -1,4 +1,4 @@
-model 'Gemma 4 31B'
+model 'Gemma 4'
   has id
     'gemma-4-31B-it'
   provider id
@@ -24,7 +24,7 @@ model 'Gemma 4 31B'
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
@@ -37,3 +37,5 @@ model 'Gemma 4 31B'
       0.18
     output
       0.5
+    cacheRead
+      0.036

@@ -1,0 +1,36 @@
+model 'Exo Free'
+  has id
+    'exo-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  status
+    active
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0

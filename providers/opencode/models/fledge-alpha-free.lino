@@ -1,0 +1,37 @@
+model 'Fledge Alpha Free'
+  has id
+    'fledge-alpha-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  status
+    deprecated
+  released at
+    2026-10-01
+  last updated at
+    2026-10-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0

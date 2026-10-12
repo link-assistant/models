@@ -1,0 +1,38 @@
+model 'inkling-256k'
+  has id
+    'inkling-256k'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  status
+    active
+  released at
+    2026-07-16
+  last updated at
+    2026-07-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      1.87
+    output
+      4.68
+    cacheRead
+      0.374

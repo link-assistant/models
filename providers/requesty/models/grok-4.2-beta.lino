@@ -1,0 +1,43 @@
+model 'grok-4.2-beta'
+  has id
+    'grok-4.2-beta'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-03-19
+  last updated at
+    2026-03-19
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '2 000 000'
+  costs
+    input
+      2
+    output
+      6
+    cacheRead
+      0.2
+    cacheWrite
+      2

@@ -8,15 +8,16 @@ model 'ByteDance: UI-TARS 7B '
   status
     active
   released at
-    2025-07-23
+    2025-07-22
   last updated at
-    2026-03-15
+    2025-07-22
   weights
     closed
   capabilities
     (
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -33,3 +34,5 @@ model 'ByteDance: UI-TARS 7B '
       0.1
     output
       0.2
+    cacheRead
+      0.1

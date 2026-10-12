@@ -1,0 +1,40 @@
+model 'nemotron-3-nano-omni'
+  has id
+    'nemotron-3-nano-omni'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-05-20
+  last updated at
+    2026-05-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '300 000'
+    output
+      '300 000'
+  costs
+    input
+      0.06
+    output
+      0.24
+    cacheRead
+      0.06

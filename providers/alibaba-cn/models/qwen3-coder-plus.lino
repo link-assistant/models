@@ -12,7 +12,7 @@ model 'Qwen3 Coder Plus'
   released at
     2025-07-23
   last updated at
-    2025-07-23
+    2026-09-11
   has knowledge cutoff at
     2025-04
   weights
@@ -34,6 +34,6 @@ model 'Qwen3 Coder Plus'
       '65 536'
   costs
     input
-      1
+      0.574
     output
-      5
+      2.296

@@ -1,0 +1,42 @@
+model 'LongCat 2.5 Preview Free'
+  has id
+    'longcat-2.5-preview-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode Zen'
+  family
+    'longcat'
+  status
+    active
+  released at
+    2026-09-25
+  last updated at
+    2026-09-25
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

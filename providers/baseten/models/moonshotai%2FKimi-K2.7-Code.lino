@@ -24,6 +24,7 @@ model 'Kimi K2.7 Code'
       temperature
       attachments
       structured output
+      interleaved output
     )
   modalities
     input

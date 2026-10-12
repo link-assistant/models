@@ -1,0 +1,41 @@
+model 'Inkling (256K)'
+  has id
+    'thinkingmachines/Inkling:peft:262144'
+  provider id
+    'thinkingmachines'
+  provided by
+    'Thinking Machines'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      3.74
+    output
+      9.36
+    cacheRead
+      0.748

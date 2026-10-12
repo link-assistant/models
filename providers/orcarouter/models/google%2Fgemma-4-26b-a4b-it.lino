@@ -38,3 +38,5 @@ model 'Gemma 4 26B A4B IT'
       0.06
     output
       0.33
+    cacheRead
+      0.0075

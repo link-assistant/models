@@ -1,0 +1,27 @@
+model 'Voxtral Mini (latest)'
+  has id
+    'voxtral-mini-latest'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'voxtral'
+  status
+    active
+  released at
+    2026-02-01
+  last updated at
+    2026-02-01
+  weights
+    closed
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

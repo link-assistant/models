@@ -1,0 +1,37 @@
+model 'Pixtral Large (25.02) (Amazon Bedrock)'
+  has id
+    'amazon/mistral.pixtral-large-2502-v1:0'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'pixtral'
+  status
+    active
+  released at
+    2025-04-08
+  last updated at
+    2025-04-08
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      2
+    output
+      6

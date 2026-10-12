@@ -8,7 +8,7 @@ model 'Qwen3-Next-80B-A3B-Instruct'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2024-12-01
   last updated at

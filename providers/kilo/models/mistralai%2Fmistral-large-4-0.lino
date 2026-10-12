@@ -1,0 +1,42 @@
+model 'Mistral: Mistral Large 4 (50% off)'
+  has id
+    'mistralai/mistral-large-4-0'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'mistral-large'
+  status
+    active
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      0.68
+    output
+      2.09
+    cacheRead
+      0.07

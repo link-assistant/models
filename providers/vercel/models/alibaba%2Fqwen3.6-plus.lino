@@ -40,6 +40,6 @@ model 'Qwen 3.6 Plus'
     output
       3
     cacheRead
-      0.1
+      0.05
     cacheWrite
       0.625

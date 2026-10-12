@@ -32,3 +32,5 @@ model 'Mistral Medium 3.1'
       0.4
     output
       2
+    cacheRead
+      0.2

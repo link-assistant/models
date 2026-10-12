@@ -1,0 +1,40 @@
+model 'DeepSeek V4 Pro 0813'
+  has id
+    'deepseek-ai/DeepSeek-V4-Pro-0813'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      1.32
+    output
+      3.96

@@ -1,0 +1,39 @@
+model 'Qwen3 Coder Plus'
+  has id
+    'qwen/qwen3-coder-plus'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-23
+  last updated at
+    2025-07-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      1
+    output
+      5

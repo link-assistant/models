@@ -1,0 +1,37 @@
+model 'Llama 3.1 Nemotron 70B Instruct'
+  has id
+    'nvidia/llama-3.1-nemotron-70b-instruct'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2025-04-15
+  last updated at
+    2025-04-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

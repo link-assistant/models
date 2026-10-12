@@ -10,11 +10,11 @@ model 'Gemma 3 12B IT'
   status
     active
   released at
-    2025-03-10
+    2024-01-01
   last updated at
     2025-03-10
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -26,13 +26,15 @@ model 'Gemma 3 12B IT'
       text
   limits
     context
-      '128 000'
-    input
-      '128 000'
-    output
       '131 072'
+    input
+      '131 072'
+    output
+      '16 384'
   costs
     input
       0.272
     output
       0.272
+    cacheRead
+      0.136

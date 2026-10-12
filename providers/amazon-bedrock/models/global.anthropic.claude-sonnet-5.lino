@@ -22,7 +22,6 @@ model 'Claude Sonnet 5 (Global)'
       reasoning
       tool calls
       attachments
-      structured output
     )
   modalities
     input

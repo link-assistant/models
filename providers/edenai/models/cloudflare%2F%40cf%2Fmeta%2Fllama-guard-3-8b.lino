@@ -1,0 +1,38 @@
+model 'Llama-Guard-3-8B (Cloudflare)'
+  has id
+    'cloudflare/@cf/meta/llama-guard-3-8b'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'llama'
+  status
+    active
+  released at
+    2024-07-23
+  last updated at
+    2024-07-23
+  has knowledge cutoff at
+    2023-12
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      4096
+  costs
+    input
+      0.484
+    output
+      0.03

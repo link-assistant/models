@@ -10,11 +10,11 @@ model 'Gemma 3 4B IT'
   status
     active
   released at
-    2025-03-10
+    2024-01-01
   last updated at
     2025-03-10
   weights
-    closed
+    open
   capabilities
     (
       attachments
@@ -36,3 +36,5 @@ model 'Gemma 3 4B IT'
       0.2006
     output
       0.2006
+    cacheRead
+      0.1003

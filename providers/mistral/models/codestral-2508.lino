@@ -1,0 +1,40 @@
+model 'Codestral 25.08'
+  has id
+    'codestral-2508'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'codestral'
+  status
+    active
+  released at
+    2025-07-30
+  last updated at
+    2025-07-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      0.9
+    cacheRead
+      0.03

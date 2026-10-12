@@ -8,7 +8,7 @@ model 'Codex Mini'
   family
     'gpt-codex-mini'
   status
-    active
+    deprecated
   released at
     2025-05-16
   last updated at

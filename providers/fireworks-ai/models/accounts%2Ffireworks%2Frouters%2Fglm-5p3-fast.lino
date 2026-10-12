@@ -1,0 +1,42 @@
+model 'GLM 5.3 Fast'
+  has id
+    'accounts/fireworks/routers/glm-5p3-fast'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-28
+  last updated at
+    2026-09-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 572'
+    output
+      '262 144'
+  costs
+    input
+      2.1
+    output
+      6.6
+    cacheRead
+      0.39

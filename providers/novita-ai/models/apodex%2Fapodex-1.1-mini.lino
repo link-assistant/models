@@ -1,0 +1,38 @@
+model 'Apodex 1.1 Mini'
+  has id
+    'apodex/apodex-1.1-mini'
+  provider id
+    'novita-ai'
+  provided by
+    'Novita AI'
+  status
+    active
+  released at
+    2026-08-24
+  last updated at
+    2026-08-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

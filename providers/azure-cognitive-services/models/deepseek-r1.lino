@@ -8,7 +8,7 @@ model 'DeepSeek-R1'
   family
     'deepseek-thinking'
   status
-    active
+    deprecated
   released at
     2025-01-20
   last updated at

@@ -1,0 +1,31 @@
+model 'Veo 3.1'
+  has id
+    'veo-3.1-generate-preview'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'veo'
+  status
+    beta
+  released at
+    2025-10-15
+  last updated at
+    2026-01
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      video
+  limits
+    context
+      480
+    output
+      8192

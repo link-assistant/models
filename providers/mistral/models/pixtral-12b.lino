@@ -8,7 +8,7 @@ model 'Pixtral 12B'
   family
     'pixtral'
   status
-    active
+    deprecated
   released at
     2024-09-01
   last updated at

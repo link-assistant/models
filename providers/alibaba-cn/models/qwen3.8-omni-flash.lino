@@ -1,0 +1,42 @@
+model 'Qwen3.8 Omni Flash'
+  has id
+    'qwen3.8-omni-flash'
+  provider id
+    'alibaba-cn'
+  provided by
+    'Alibaba (China)'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-09-17
+  last updated at
+    2026-09-17
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.113
+    output
+      0.382
+    cacheRead
+      0.014

@@ -18,11 +18,12 @@ model 'Mistral Small 3.2 24B Instruct'
   capabilities
     (
       tool calls
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

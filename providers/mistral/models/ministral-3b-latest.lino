@@ -21,15 +21,16 @@ model 'Ministral 3B (latest)'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
       '128 000'
   costs

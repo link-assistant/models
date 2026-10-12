@@ -30,7 +30,7 @@ model 'gpt-oss-120b'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
       '124 000'
     output

@@ -12,9 +12,9 @@ model 'NVIDIA: Nemotron 3 Nano Omni (free)'
   released at
     2026-04-28
   last updated at
-    2026-05-01
+    2026-04-28
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -24,7 +24,7 @@ model 'NVIDIA: Nemotron 3 Nano Omni (free)'
     )
   modalities
     input
-      text audio image video
+      text image video audio
     output
       text
   limits

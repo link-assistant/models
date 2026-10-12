@@ -39,3 +39,5 @@ model 'DeepSeek V4 Pro'
       1.65
     output
       3.3
+    cacheRead
+      1.65

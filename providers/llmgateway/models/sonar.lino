@@ -4,7 +4,7 @@ model 'Sonar'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'sonar'
   status
@@ -33,6 +33,8 @@ model 'Sonar'
       4096
   costs
     input
-      1
+      0.25
     output
-      1
+      2.5
+    cacheWrite
+      0.25

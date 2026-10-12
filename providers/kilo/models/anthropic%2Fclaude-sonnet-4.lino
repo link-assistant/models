@@ -5,12 +5,14 @@ model 'Anthropic: Claude Sonnet 4'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'claude-sonnet'
   status
     active
   released at
     2025-05-22
   last updated at
-    2026-03-15
+    2025-05-22
   weights
     closed
   capabilities
@@ -22,7 +24,7 @@ model 'Anthropic: Claude Sonnet 4'
     )
   modalities
     input
-      image pdf text
+      image text pdf
     output
       text
   limits

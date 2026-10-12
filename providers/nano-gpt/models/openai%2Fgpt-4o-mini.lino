@@ -13,10 +13,13 @@ model 'GPT-4o mini'
     2024-07-18
   last updated at
     2024-07-18
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -33,6 +36,8 @@ model 'GPT-4o mini'
       '16 384'
   costs
     input
-      0.1496
+      0.15
     output
-      0.595
+      0.6
+    cacheRead
+      0.075

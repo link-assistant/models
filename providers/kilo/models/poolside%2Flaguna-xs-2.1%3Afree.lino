@@ -1,0 +1,38 @@
+model 'Poolside: Laguna XS 2.1 (free)'
+  has id
+    'poolside/laguna-xs-2.1:free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'laguna'
+  status
+    active
+  released at
+    2026-07-02
+  last updated at
+    2026-07-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

@@ -1,0 +1,36 @@
+model 'ling-2.6-1t'
+  has id
+    'ling-2.6-1t'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-04-23
+  last updated at
+    2026-04-23
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.3
+    output
+      2.5

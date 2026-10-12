@@ -32,3 +32,5 @@ model 'Amazon Nova Lite 1.0'
       0.0595
     output
       0.238
+    cacheRead
+      0.02975

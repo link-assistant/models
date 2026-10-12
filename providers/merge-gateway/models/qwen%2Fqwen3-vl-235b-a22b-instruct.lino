@@ -1,0 +1,43 @@
+model 'Qwen3-VL 235B A22B Instruct'
+  has id
+    'qwen/qwen3-vl-235b-a22b-instruct'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.287
+    output
+      1.147
+    cacheRead
+      0.15785

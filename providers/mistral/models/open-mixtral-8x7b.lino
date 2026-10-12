@@ -8,7 +8,7 @@ model 'Mixtral 8x7B'
   family
     'mixtral'
   status
-    active
+    deprecated
   released at
     2023-12-11
   last updated at

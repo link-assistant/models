@@ -5,6 +5,8 @@ model 'MiniMax: MiniMax M1'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'minimax'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'MiniMax: MiniMax M1'
   last updated at
     2025-06-17
   weights
-    open
+    closed
   capabilities
     (
       reasoning

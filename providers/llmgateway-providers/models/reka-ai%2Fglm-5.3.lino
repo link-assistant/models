@@ -1,0 +1,41 @@
+model 'GLM-5.3 (reka-ai)'
+  has id
+    'reka-ai/glm-5.3'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      1.17
+    output
+      3.96
+    cacheRead
+      0.234

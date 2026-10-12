@@ -23,7 +23,7 @@ model 'Nano Banana Pro'
     )
   modalities
     input
-      text
+      text image
     output
       text image
   limits

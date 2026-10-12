@@ -32,7 +32,7 @@ model 'GPT-5.2 Chat'
     context
       '128 000'
     output
-      '16 384'
+      '32 000'
   costs
     input
       1.75

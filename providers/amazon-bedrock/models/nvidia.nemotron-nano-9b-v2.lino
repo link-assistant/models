@@ -10,11 +10,11 @@ model 'NVIDIA Nemotron Nano 9B v2'
   status
     active
   released at
-    2024-12-01
+    2025-08-18
   last updated at
-    2024-12-01
+    2025-08-18
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -28,9 +28,9 @@ model 'NVIDIA Nemotron Nano 9B v2'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      4096
+      8192
   costs
     input
       0.06

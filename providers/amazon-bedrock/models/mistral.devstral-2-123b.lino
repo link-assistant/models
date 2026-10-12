@@ -10,9 +10,11 @@ model 'Devstral 2 123B'
   status
     active
   released at
-    2026-02-17
+    2025-12-09
   last updated at
-    2026-02-17
+    2025-12-09
+  has knowledge cutoff at
+    2025-12
   weights
     open
   capabilities
@@ -28,7 +30,7 @@ model 'Devstral 2 123B'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
       8192
   costs

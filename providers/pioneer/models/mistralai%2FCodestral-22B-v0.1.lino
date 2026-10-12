@@ -1,0 +1,40 @@
+model 'Codestral-22B-v0.1'
+  has id
+    'mistralai/Codestral-22B-v0.1'
+  provider id
+    'pioneer'
+  provided by
+    'Pioneer'
+  family
+    'codestral'
+  status
+    active
+  released at
+    2024-05-29
+  last updated at
+    2024-05-29
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4000
+  costs
+    input
+      0.3
+    output
+      0.9
+    cacheRead
+      0.3
+    cacheWrite
+      0.3

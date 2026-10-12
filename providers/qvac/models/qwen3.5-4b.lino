@@ -1,0 +1,37 @@
+model 'Qwen3.5 4B'
+  has id
+    'qwen3.5-4b'
+  provider id
+    'qvac'
+  provided by
+    'QVAC'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-11-01
+  last updated at
+    2025-11-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0
+    output
+      0

@@ -38,8 +38,8 @@ model 'Kimi K2.6 TEE'
       '65 535'
   costs
     input
-      0.66
+      0.5
     output
-      3.5
+      2.85
     cacheRead
-      0.33
+      0.04999999999999999

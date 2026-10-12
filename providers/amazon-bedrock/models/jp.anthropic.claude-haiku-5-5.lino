@@ -1,0 +1,44 @@
+model 'Claude Haiku 5.5 (JP)'
+  has id
+    'jp.anthropic.claude-haiku-5-5'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2026-10-07
+  last updated at
+    2026-10-07
+  has knowledge cutoff at
+    2026-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      0.11
+    output
+      0.55
+    cacheRead
+      0.011
+    cacheWrite
+      0.1375

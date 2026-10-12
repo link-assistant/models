@@ -31,13 +31,13 @@ model 'Qwen3.7 Max'
     context
       '1 000 000'
     output
-      '65 536'
+      '131 072'
   costs
     input
-      1.25
+      1.475
     output
-      3.75
+      4.425
     cacheRead
-      0.25
+      0.295
     cacheWrite
-      1.5625
+      1.84375

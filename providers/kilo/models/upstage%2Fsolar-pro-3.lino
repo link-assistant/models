@@ -5,12 +5,14 @@ model 'Upstage: Solar Pro 3'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'solar-pro'
   status
     active
   released at
     2026-01-27
   last updated at
-    2026-03-15
+    2026-01-27
   weights
     closed
   capabilities
@@ -18,6 +20,7 @@ model 'Upstage: Solar Pro 3'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -26,11 +29,13 @@ model 'Upstage: Solar Pro 3'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      '32 768'
+      '117 964'
   costs
     input
       0.15
     output
       0.6
+    cacheRead
+      0.015

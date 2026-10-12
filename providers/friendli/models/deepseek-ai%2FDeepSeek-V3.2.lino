@@ -1,4 +1,4 @@
-model 'DeepSeek-V3.2'
+model 'DeepSeek V3.2'
   has id
     'deepseek-ai/DeepSeek-V3.2'
   provider id
@@ -13,6 +13,8 @@ model 'DeepSeek-V3.2'
     2025-12-01
   last updated at
     2025-12-01
+  has knowledge cutoff at
+    2024-07
   weights
     open
   capabilities
@@ -32,7 +34,7 @@ model 'DeepSeek-V3.2'
     context
       '163 840'
     output
-      '163 840'
+      '64 000'
   costs
     input
       0.5

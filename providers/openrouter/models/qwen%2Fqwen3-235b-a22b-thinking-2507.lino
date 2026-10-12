@@ -30,11 +30,11 @@ model 'Qwen3 235B A22B Thinking 2507'
       text
   limits
     context
-      '262 144'
+      '128 000'
     output
-      '262 144'
+      '16 384'
   costs
     input
-      0.1495
+      0.45
     output
-      1.495
+      3.5

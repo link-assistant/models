@@ -32,7 +32,7 @@ model 'Nano Banana Pro'
       text image
   limits
     context
-      '65 536'
+      '131 072'
     output
       '32 768'
   costs

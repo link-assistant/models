@@ -1,0 +1,43 @@
+model 'Kimi K2 Thinking (Vertex AI (OpenAI-compatible))'
+  has id
+    'vertex-openai/kimi-k2-thinking'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2025-11-06
+  last updated at
+    2025-11-06
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.6
+    output
+      2.5
+    cacheRead
+      0.06

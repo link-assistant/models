@@ -1,0 +1,27 @@
+model 'MAI-Voice-2-Flash'
+  has id
+    'microsoft/mai-voice-2-flash'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mai'
+  status
+    active
+  released at
+    2026-07-23
+  last updated at
+    2026-07-23
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      0
+    output
+      0

@@ -1,0 +1,38 @@
+model 'Qwen3 235B-A22B Instruct 2507'
+  has id
+    'Qwen/Qwen3-235B-A22B-Instruct-2507'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-21
+  last updated at
+    2025-07-21
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.855
+    output
+      2.565

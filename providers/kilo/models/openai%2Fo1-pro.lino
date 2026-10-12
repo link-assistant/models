@@ -1,26 +1,31 @@
-model 'OpenAI: o1-pro'
+model 'o1-pro'
   has id
     'openai/o1-pro'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'o-pro'
   status
     active
   released at
     2025-03-19
   last updated at
-    2026-03-15
+    2025-03-19
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities
     (
       reasoning
       attachments
+      structured output
     )
   modalities
     input
-      image pdf text
+      text image pdf
     output
       text
   limits
