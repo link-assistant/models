@@ -38,4 +38,4 @@ model 'o3-pro'
     input
       20
     output
-      40
+      80

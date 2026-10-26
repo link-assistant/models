@@ -5,8 +5,10 @@ model 'Doubao Seed 2.0 Pro'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'seed'
   status
-    active
+    deprecated
   released at
     2026-02-14
   last updated at
@@ -19,6 +21,7 @@ model 'Doubao Seed 2.0 Pro'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -30,3 +33,10 @@ model 'Doubao Seed 2.0 Pro'
       '256 000'
     output
       '128 000'
+  costs
+    input
+      0.46376812
+    output
+      2.31884058
+    cacheRead
+      0.09275362

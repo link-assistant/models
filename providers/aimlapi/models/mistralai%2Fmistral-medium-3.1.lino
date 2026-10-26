@@ -1,0 +1,43 @@
+model 'Medium 3.1'
+  has id
+    'mistralai/mistral-medium-3.1'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2025-08-12
+  last updated at
+    2025-08-12
+  has knowledge cutoff at
+    2025-06-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '104 857'
+  costs
+    input
+      0.4232
+    output
+      2.116
+    cacheRead
+      0.04232

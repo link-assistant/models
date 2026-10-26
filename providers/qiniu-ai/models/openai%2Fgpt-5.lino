@@ -5,12 +5,16 @@ model 'OpenAI/GPT-5'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'gpt'
   status
-    active
+    deprecated
   released at
-    2025-09-19
+    2025-08-07
   last updated at
-    2025-09-19
+    2025-08-07
+  has knowledge cutoff at
+    2024-09-30
   weights
     closed
   capabilities
@@ -26,5 +30,7 @@ model 'OpenAI/GPT-5'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'

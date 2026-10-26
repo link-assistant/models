@@ -38,6 +38,6 @@ model 'Claude Fable Latest'
     output
       50
     cacheRead
-      1
+      0.25
     cacheWrite
       12.5

@@ -6,13 +6,13 @@ model 'GPT-5.2 Chat'
   provided by
     'OpenRouter'
   family
-    'gpt-codex'
+    'gpt'
   status
     active
   released at
-    2025-12-10
+    2025-12-11
   last updated at
-    2025-12-10
+    2025-12-11
   has knowledge cutoff at
     2025-08-31
   weights
@@ -32,7 +32,7 @@ model 'GPT-5.2 Chat'
     context
       '128 000'
     output
-      '16 384'
+      '32 000'
   costs
     input
       1.75

@@ -1,4 +1,4 @@
-model 'Mistral Large (latest)'
+model 'Mistral Large 2407'
   has id
     'mistral-large2'
   provider id
@@ -10,26 +10,29 @@ model 'Mistral Large (latest)'
   status
     active
   released at
-    2024-11-01
+    2024-07-24
   last updated at
-    2025-12-02
+    2024-07-24
   has knowledge cutoff at
-    2024-11
+    2024-03-31
   weights
     open
   capabilities
     (
-      tool calls
       temperature
-      attachments
     )
   modalities
     input
-      text image
+      text
     output
       text
   limits
     context
-      '262 144'
+      '128 000'
     output
-      '262 144'
+      8192
+  costs
+    input
+      2
+    output
+      6

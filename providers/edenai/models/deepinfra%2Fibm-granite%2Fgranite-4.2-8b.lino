@@ -1,0 +1,40 @@
+model 'Granite 4.2 8B (Deep Infra)'
+  has id
+    'deepinfra/ibm-granite/granite-4.2-8b'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'granite'
+  status
+    active
+  released at
+    2026-08-25
+  last updated at
+    2026-08-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '117 964'
+  costs
+    input
+      0.06
+    output
+      0.25
+    cacheRead
+      0.015

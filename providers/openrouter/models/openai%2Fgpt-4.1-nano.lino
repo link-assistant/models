@@ -33,11 +33,11 @@ model 'GPT-4.1 nano'
     context
       '1 047 576'
     output
-      '32 768'
+      '942 818'
   costs
     input
       0.1
     output
       0.4
     cacheRead
-      0.025
+      0.03

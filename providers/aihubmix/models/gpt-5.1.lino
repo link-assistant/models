@@ -26,7 +26,7 @@ model 'GPT-5.1'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
@@ -42,4 +42,4 @@ model 'GPT-5.1'
     output
       10
     cacheRead
-      0.13
+      0.125

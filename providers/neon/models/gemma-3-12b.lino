@@ -10,9 +10,9 @@ model 'Gemma 3 12B'
   status
     active
   released at
-    2025-03-13
+    2025-03-12
   last updated at
-    2025-03-13
+    2025-03-12
   has knowledge cutoff at
     2024-08-31
   weights
@@ -33,7 +33,7 @@ model 'Gemma 3 12B'
     context
       '131 072'
     output
-      '16 384'
+      8192
   costs
     input
       0.15

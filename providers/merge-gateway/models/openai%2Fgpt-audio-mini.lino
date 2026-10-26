@@ -1,0 +1,41 @@
+model 'GPT Audio Mini'
+  has id
+    'openai/gpt-audio-mini'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'gpt-mini'
+  status
+    active
+  released at
+    2025-10-06
+  last updated at
+    2025-10-06
+  has knowledge cutoff at
+    2023-10-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.6
+    output
+      2.4

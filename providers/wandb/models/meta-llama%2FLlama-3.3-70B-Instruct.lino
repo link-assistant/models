@@ -4,15 +4,15 @@ model 'Llama 3.3 70B'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   family
     'llama'
   status
     active
   released at
-    2024-12-01
+    2024-12-06
   last updated at
-    2024-12-01
+    2024-12-06
   has knowledge cutoff at
     2023-12
   weights

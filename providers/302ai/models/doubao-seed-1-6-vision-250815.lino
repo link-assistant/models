@@ -5,12 +5,14 @@ model 'doubao-seed-1-6-vision-250815'
     '302ai'
   provided by
     '302.AI'
+  family
+    'seed'
   status
     active
   released at
-    2025-09-30
+    2025-08-15
   last updated at
-    2025-09-30
+    2025-08-15
   weights
     closed
   capabilities

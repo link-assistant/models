@@ -4,17 +4,17 @@ model 'MiMo V2 Flash Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'mimo-flash-free'
+    'mimo'
   status
     deprecated
   released at
     2025-12-16
   last updated at
-    2025-12-16
+    2026-02-04
   has knowledge cutoff at
-    2024-12
+    2024-12-01
   weights
     open
   capabilities

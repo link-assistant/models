@@ -1,0 +1,38 @@
+model 'MiniMax-M2 Her'
+  has id
+    'minimax/m2-her'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-01-23
+  last updated at
+    2026-01-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      2048
+  costs
+    input
+      0.3
+    output
+      1.2

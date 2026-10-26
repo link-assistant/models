@@ -5,6 +5,8 @@ model 'Qwen3.5 27B Queen Derestricted'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen3.5'
   status
     active
   released at
@@ -12,15 +14,16 @@ model 'Qwen3.5 27B Queen Derestricted'
   last updated at
     2026-04-30
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
       attachments
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits
@@ -35,3 +38,5 @@ model 'Qwen3.5 27B Queen Derestricted'
       0.306
     output
       0.306
+    cacheRead
+      0.153

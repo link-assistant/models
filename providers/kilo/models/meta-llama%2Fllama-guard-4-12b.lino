@@ -5,12 +5,14 @@ model 'Meta: Llama Guard 4 12B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'llama'
   status
     active
   released at
-    2025-04-05
+    2025-04-29
   last updated at
-    2025-04-05
+    2025-04-29
   weights
     open
   capabilities
@@ -20,16 +22,16 @@ model 'Meta: Llama Guard 4 12B'
     )
   modalities
     input
-      image text
+      text image
     output
       text
   limits
     context
       '163 840'
     output
-      '32 768'
+      '16 384'
   costs
     input
-      0.18
+      0.144
     output
-      0.18
+      0.144

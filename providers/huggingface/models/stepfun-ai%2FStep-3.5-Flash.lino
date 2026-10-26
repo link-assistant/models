@@ -5,6 +5,8 @@ model 'Step 3.5 Flash'
     'huggingface'
   provided by
     'Hugging Face'
+  family
+    'step'
   status
     active
   released at

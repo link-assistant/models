@@ -6,7 +6,7 @@ model 'x-AI/Grok-4.1-Fast'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2025-11-20
   last updated at

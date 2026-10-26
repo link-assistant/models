@@ -10,13 +10,13 @@ model 'Qwen3 235B A22B Instruct 2507'
   status
     active
   released at
-    2025-07-25
+    2025-07-21
   last updated at
-    2025-10-04
+    2025-07-21
   has knowledge cutoff at
     2025-07
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -37,3 +37,5 @@ model 'Qwen3 235B A22B Instruct 2507'
       0.2
     output
       0.6
+    cacheRead
+      0.2

@@ -21,6 +21,7 @@ model 'Qwen Max'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

@@ -21,6 +21,7 @@ model 'Command A Translate'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

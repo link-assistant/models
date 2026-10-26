@@ -29,9 +29,9 @@ model 'ReMM SLERP 13B'
     context
       6144
     output
-      4096
+      5529
   costs
     input
-      0.45
+      0.35
     output
       0.65

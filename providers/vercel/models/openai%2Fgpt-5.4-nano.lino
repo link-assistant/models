@@ -6,7 +6,7 @@ model 'GPT 5.4 Nano'
   provided by
     'Vercel AI Gateway'
   family
-    'gpt'
+    'gpt-nano'
   status
     active
   released at

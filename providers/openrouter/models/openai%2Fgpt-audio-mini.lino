@@ -1,4 +1,4 @@
-model 'GPT Audio Mini'
+model 'GPT-Audio Mini'
   has id
     'openai/gpt-audio-mini'
   provider id
@@ -6,13 +6,15 @@ model 'GPT Audio Mini'
   provided by
     'OpenRouter'
   family
-    'o-mini'
+    'gpt-mini'
   status
     active
   released at
-    2026-01-19
+    2025-10-06
   last updated at
-    2026-01-19
+    2025-10-06
+  has knowledge cutoff at
+    2023-10-01
   weights
     closed
   capabilities
@@ -36,4 +38,8 @@ model 'GPT Audio Mini'
     input
       0.6
     output
+      2.4
+    inputAudio
+      0.6
+    outputAudio
       2.4

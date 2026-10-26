@@ -10,9 +10,9 @@ model 'MiniMax-M3'
   status
     active
   released at
-    2026-06-12
+    2026-06-01
   last updated at
-    2026-06-12
+    2026-06-01
   weights
     open
   capabilities
@@ -25,14 +25,14 @@ model 'MiniMax-M3'
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
     context
       '524 288'
     output
-      '250 000'
+      '524 288'
   costs
     input
       0.3

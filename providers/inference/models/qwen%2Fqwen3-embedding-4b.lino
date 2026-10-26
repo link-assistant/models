@@ -8,11 +8,11 @@ model 'Qwen 3 Embedding 4B'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
-    2025-01-01
+    2025-06-05
   last updated at
-    2025-01-01
+    2025-06-05
   has knowledge cutoff at
     2024-12
   weights

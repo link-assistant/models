@@ -14,7 +14,7 @@ model 'Llama 3 70B abliterated'
   last updated at
     2025-07-26
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Llama 3 70B abliterated'
       0.7
     output
       0.7
+    cacheRead
+      0.35

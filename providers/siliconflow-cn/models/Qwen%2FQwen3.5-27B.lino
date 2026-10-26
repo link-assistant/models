@@ -10,9 +10,9 @@ model 'Qwen/Qwen3.5-27B'
   status
     active
   released at
-    2026-02-25
+    2026-02-23
   last updated at
-    2026-02-25
+    2026-02-23
   has knowledge cutoff at
     2025-04
   weights
@@ -22,6 +22,7 @@ model 'Qwen/Qwen3.5-27B'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -35,6 +36,6 @@ model 'Qwen/Qwen3.5-27B'
       '65 536'
   costs
     input
-      0.26
+      0.08966849
     output
-      2.09
+      0.71734789

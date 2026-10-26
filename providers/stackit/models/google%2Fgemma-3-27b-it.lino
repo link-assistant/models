@@ -8,11 +8,13 @@ model 'Gemma 3 27B'
   family
     'gemma'
   status
-    active
+    deprecated
   released at
-    2025-05-17
+    2025-03-12
   last updated at
-    2025-05-17
+    2025-03-12
+  has knowledge cutoff at
+    2024-08
   weights
     open
   capabilities

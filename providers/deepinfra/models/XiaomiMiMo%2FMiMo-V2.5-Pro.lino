@@ -8,7 +8,7 @@ model 'MiMo-V2.5-Pro'
   family
     'mimo'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at

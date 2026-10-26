@@ -1,0 +1,37 @@
+model 'Faster Whisper Large v3'
+  has id
+    'faster-whisper-large-v3'
+  provider id
+    'regolo-ai'
+  provided by
+    'Regolo AI'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2023-11-06
+  last updated at
+    2023-11-06
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      448
+    output
+      4096
+  costs
+    input
+      0
+    output
+      0

@@ -8,7 +8,7 @@ model 'GPT-5.1 Codex Max'
   family
     'gpt-codex'
   status
-    active
+    deprecated
   released at
     2025-11-13
   last updated at
@@ -21,6 +21,7 @@ model 'GPT-5.1 Codex Max'
     (
       reasoning
       tool calls
+      attachments
       structured output
     )
   modalities
@@ -31,6 +32,8 @@ model 'GPT-5.1 Codex Max'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

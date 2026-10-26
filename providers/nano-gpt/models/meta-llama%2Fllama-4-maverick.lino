@@ -10,14 +10,17 @@ model 'Llama 4 Maverick'
   status
     active
   released at
-    2025-09-05
+    2025-04-05
   last updated at
-    2025-09-05
+    2025-04-05
+  has knowledge cutoff at
+    2024-08
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -35,6 +38,8 @@ model 'Llama 4 Maverick'
       '65 536'
   costs
     input
-      0.18000000000000002
+      0.1875
     output
-      0.8
+      0.6525
+    cacheRead
+      0.05

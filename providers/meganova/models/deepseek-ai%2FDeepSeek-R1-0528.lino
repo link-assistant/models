@@ -38,3 +38,5 @@ model 'DeepSeek R1 0528'
       0.5
     output
       2.15
+    cacheRead
+      0.4

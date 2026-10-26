@@ -1,0 +1,41 @@
+model 'Ling 3.1 Flash'
+  has id
+    'inclusionai/ling-3.1-flash'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-09-29
+  last updated at
+    2026-09-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '235 929'
+  costs
+    input
+      0.075
+    output
+      0.225
+    cacheRead
+      0.015

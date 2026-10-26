@@ -10,9 +10,9 @@ model 'Google Gemini 2.5 Flash Lite'
   status
     active
   released at
-    2025-07-22
+    2025-06-17
   last updated at
-    2025-07-22
+    2025-06-17
   has knowledge cutoff at
     2025-07
   weights
@@ -22,6 +22,7 @@ model 'Google Gemini 2.5 Flash Lite'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -35,10 +36,10 @@ model 'Google Gemini 2.5 Flash Lite'
       '65 535'
   costs
     input
-      0.09999999999999999
+      0.1
     output
-      0.39999999999999997
+      0.4
     cacheRead
-      0.024999999999999998
+      0.025
     cacheWrite
-      0.09999999999999999
+      0.1

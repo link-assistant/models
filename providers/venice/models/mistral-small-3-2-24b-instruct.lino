@@ -10,19 +10,23 @@ model 'Mistral Small 3.2 24B Instruct'
   status
     active
   released at
-    2026-01-15
+    2025-06-20
   last updated at
-    2026-06-11
+    2025-06-20
+  has knowledge cutoff at
+    2023-10-31
   weights
     open
   capabilities
     (
       tool calls
+      temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      image text
     output
       text
   limits

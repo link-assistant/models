@@ -31,7 +31,7 @@ model 'GPT-5.5'
       text
   limits
     context
-      '272 000'
+      '1 000 000'
     output
       '128 000'
   costs

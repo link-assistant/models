@@ -34,3 +34,5 @@ model 'ASI1 Mini'
       1
     output
       1
+    cacheRead
+      0.5

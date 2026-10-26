@@ -16,12 +16,13 @@ model 'GLM-4.5-Flash'
   has knowledge cutoff at
     2025-04
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
+      interleaved output
     )
   modalities
     input

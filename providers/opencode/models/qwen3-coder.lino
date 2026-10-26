@@ -4,15 +4,15 @@ model 'Qwen3 Coder'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'qwen'
   status
     deprecated
   released at
-    2025-07-23
+    2025-07-22
   last updated at
-    2025-07-23
+    2025-07-22
   has knowledge cutoff at
     2025-04
   weights

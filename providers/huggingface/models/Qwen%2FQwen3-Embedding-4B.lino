@@ -10,9 +10,9 @@ model 'Qwen 3 Embedding 4B'
   status
     active
   released at
-    2025-01-01
+    2025-06-05
   last updated at
-    2025-01-01
+    2025-06-05
   has knowledge cutoff at
     2024-12
   weights
@@ -24,9 +24,9 @@ model 'Qwen 3 Embedding 4B'
       text
   limits
     context
-      '32 000'
+      '32 768'
     output
-      2048
+      0
   costs
     input
       0.01

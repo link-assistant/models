@@ -14,7 +14,7 @@ model 'MiMo-V2.5-TTS'
   last updated at
     2026-04-22
   weights
-    open
+    closed
   modalities
     input
       text

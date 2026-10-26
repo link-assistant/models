@@ -19,7 +19,6 @@ model 'Nano Banana'
     closed
   capabilities
     (
-      reasoning
       temperature
       attachments
     )

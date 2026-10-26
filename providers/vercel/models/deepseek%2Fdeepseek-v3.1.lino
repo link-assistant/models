@@ -13,10 +13,8 @@ model 'DeepSeek-V3.1'
     2025-08-21
   last updated at
     2025-08-21
-  has knowledge cutoff at
-    2024-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -30,11 +28,13 @@ model 'DeepSeek-V3.1'
       text
   limits
     context
-      '128 000'
+      '163 840'
     output
       '128 000'
   costs
     input
-      0.6
+      0.25
     output
-      1.7
+      0.95
+    cacheRead
+      0.13

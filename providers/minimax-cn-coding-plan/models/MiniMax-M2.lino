@@ -4,11 +4,11 @@ model 'MiniMax-M2'
   provider id
     'minimax-cn-coding-plan'
   provided by
-    'MiniMax Token Plan (minimaxi.com)'
+    'MiniMax Token Plan (minimax.cn)'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2025-10-27
   last updated at
@@ -28,9 +28,9 @@ model 'MiniMax-M2'
       text
   limits
     context
-      '196 608'
+      '204 800'
     output
-      '128 000'
+      '131 072'
   costs
     input
       0

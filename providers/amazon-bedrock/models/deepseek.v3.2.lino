@@ -1,4 +1,4 @@
-model 'DeepSeek-V3.2'
+model 'DeepSeek V3.2'
   has id
     'deepseek.v3.2'
   provider id
@@ -10,7 +10,7 @@ model 'DeepSeek-V3.2'
   status
     active
   released at
-    2026-02-06
+    2025-12-01
   last updated at
     2026-02-06
   has knowledge cutoff at
@@ -23,6 +23,7 @@ model 'DeepSeek-V3.2'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input

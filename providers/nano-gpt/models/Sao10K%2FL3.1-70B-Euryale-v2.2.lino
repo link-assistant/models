@@ -10,11 +10,17 @@ model 'Llama 3.1 70B Euryale'
   status
     active
   released at
-    2024-07-23
+    2024-08-28
   last updated at
-    2024-07-23
+    2024-08-28
+  has knowledge cutoff at
+    2023-12-31
   weights
-    closed
+    open
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -32,3 +38,5 @@ model 'Llama 3.1 70B Euryale'
       0.306
     output
       0.357
+    cacheRead
+      0.153

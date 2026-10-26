@@ -1,0 +1,43 @@
+model 'Qwen Plus (Alibaba Cloud)'
+  has id
+    'alibaba/qwen-plus'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2025-09-11
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 000'
+  costs
+    input
+      0.4
+    output
+      1.2
+    cacheRead
+      0.08
+    cacheWrite
+      0.5

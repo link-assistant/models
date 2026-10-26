@@ -1,0 +1,41 @@
+model 'GLM-5.3'
+  has id
+    'glm-5.3'
+  provider id
+    'opper'
+  provided by
+    'Opper'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      1.75
+    output
+      4.6488
+    cacheRead
+      0.44

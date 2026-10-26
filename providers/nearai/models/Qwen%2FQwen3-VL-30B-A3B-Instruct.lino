@@ -10,9 +10,9 @@ model 'Qwen3-VL 30B-A3B Instruct'
   status
     active
   released at
-    2025-09-23
+    2025-10-04
   last updated at
-    2025-09-23
+    2025-10-04
   weights
     open
   capabilities
@@ -29,11 +29,13 @@ model 'Qwen3-VL 30B-A3B Instruct'
       text
   limits
     context
-      '256 000'
+      '16 384'
     output
-      '32 768'
+      8192
   costs
     input
       0.15
     output
       0.55
+    cacheRead
+      0.03

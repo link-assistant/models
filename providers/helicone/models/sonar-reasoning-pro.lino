@@ -10,9 +10,9 @@ model 'Perplexity Sonar Reasoning Pro'
   status
     active
   released at
-    2025-01-27
+    2024-01-01
   last updated at
-    2025-01-27
+    2025-09-01
   has knowledge cutoff at
     2025-01
   weights

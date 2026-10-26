@@ -1,0 +1,34 @@
+model 'OrcaRouter Fusion'
+  has id
+    'orcarouter/fusion'
+  provider id
+    'orcarouter'
+  provided by
+    'OrcaRouter'
+  family
+    'model-router'
+  status
+    active
+  released at
+    2026-06-15
+  last updated at
+    2026-06-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'

@@ -8,7 +8,7 @@ model 'MiniMax-M2.1'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2025-12-23
   last updated at
@@ -33,6 +33,6 @@ model 'MiniMax-M2.1'
       '131 072'
   costs
     input
-      2.1
+      0.29
     output
-      8.4
+      1.2

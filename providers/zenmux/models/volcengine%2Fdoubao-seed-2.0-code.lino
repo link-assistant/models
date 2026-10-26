@@ -5,12 +5,14 @@ model 'Doubao Seed 2.0 Code'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'seed'
   status
-    active
+    deprecated
   released at
-    2026-03-20
+    2026-02-14
   last updated at
-    2026-03-20
+    2026-02-14
   has knowledge cutoff at
     2025-01-01
   weights
@@ -23,7 +25,7 @@ model 'Doubao Seed 2.0 Code'
     )
   modalities
     input
-      text
+      text image video
     output
       text
   limits

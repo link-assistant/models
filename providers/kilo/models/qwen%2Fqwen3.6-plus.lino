@@ -1,16 +1,20 @@
-model 'Qwen: Qwen3.6 Plus'
+model 'Qwen3.6 Plus'
   has id
     'qwen/qwen3.6-plus'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-08-26
+    2026-04-02
   last updated at
-    2026-04-11
+    2026-04-02
+  has knowledge cutoff at
+    2025-04
   weights
     closed
   capabilities
@@ -19,10 +23,11 @@ model 'Qwen: Qwen3.6 Plus'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      text image video
     output
       text
   limits
@@ -35,7 +40,5 @@ model 'Qwen: Qwen3.6 Plus'
       0.325
     output
       1.95
-    cacheRead
-      0.0325
     cacheWrite
       0.40625

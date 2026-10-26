@@ -14,13 +14,12 @@ model 'GLM 5.1'
   last updated at
     2026-04-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       temperature
-      attachments
       structured output
     )
   modalities
@@ -30,13 +29,13 @@ model 'GLM 5.1'
       text
   limits
     context
-      '202 000'
+      '202 800'
     output
-      '202 000'
+      '64 000'
   costs
     input
-      1.3
+      1.4
     output
-      4.3
+      4.4
     cacheRead
       0.26

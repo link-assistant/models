@@ -18,21 +18,20 @@ model 'Qwen3.6 35B-A3B'
   capabilities
     (
       reasoning
-      tool calls
       temperature
       attachments
       structured output
     )
   modalities
     input
-      text image video audio
+      text image video
     output
       text
   limits
     context
       '16 384'
     output
-      '65 536'
+      '16 384'
   costs
     input
       5

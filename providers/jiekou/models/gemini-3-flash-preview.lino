@@ -10,13 +10,16 @@ model 'gemini-3-flash-preview'
   status
     active
   released at
-    2026-01
+    2025-12-17
   last updated at
-    2026-01
+    2025-12-17
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
@@ -34,6 +37,8 @@ model 'gemini-3-flash-preview'
       '65 536'
   costs
     input
-      0.5
+      0.475
     output
-      3
+      2.85
+    cacheRead
+      0.0475

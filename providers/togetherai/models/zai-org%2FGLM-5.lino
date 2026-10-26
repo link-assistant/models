@@ -8,11 +8,11 @@ model 'GLM-5'
   family
     'glm'
   status
-    active
+    deprecated
   released at
-    2026-02-11
+    2026-02-12
   last updated at
-    2026-02-11
+    2026-02-12
   weights
     open
   capabilities

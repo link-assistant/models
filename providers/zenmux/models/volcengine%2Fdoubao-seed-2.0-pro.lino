@@ -5,8 +5,10 @@ model 'Doubao-Seed-2.0-pro'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'seed'
   status
-    active
+    deprecated
   released at
     2026-02-14
   last updated at

@@ -1,4 +1,4 @@
-model 'Qwen3 Coder 30B A3B Instruct'
+model 'Qwen3-Coder 30B-A3B Instruct'
   has id
     'qwen3-coder-30b-a3b-instruct'
   provider id
@@ -19,9 +19,9 @@ model 'Qwen3 Coder 30B A3B Instruct'
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,11 +30,13 @@ model 'Qwen3 Coder 30B A3B Instruct'
       text
   limits
     context
-      '262 000'
+      '262 144'
     output
-      '262 000'
+      '262 144'
   costs
     input
-      0.053
+      0.179
     output
-      0.222
+      0.697
+    cacheRead
+      0.014

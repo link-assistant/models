@@ -5,16 +5,18 @@ model 'qwen3-235b-a22b-instruct-2507'
     '302ai'
   provided by
     '302.AI'
+  family
+    'qwen'
   status
     active
   released at
-    2025-07-30
+    2025-07-21
   last updated at
-    2025-07-30
+    2025-07-21
   has knowledge cutoff at
     2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls

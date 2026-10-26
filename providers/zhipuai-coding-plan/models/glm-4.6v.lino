@@ -8,7 +8,7 @@ model 'GLM-4.6V'
   family
     'glm'
   status
-    active
+    deprecated
   released at
     2025-12-08
   last updated at
@@ -23,6 +23,7 @@ model 'GLM-4.6V'
       tool calls
       temperature
       attachments
+      interleaved output
     )
   modalities
     input
@@ -36,6 +37,10 @@ model 'GLM-4.6V'
       '32 768'
   costs
     input
-      0.3
+      0
     output
-      0.9
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

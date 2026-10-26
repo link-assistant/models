@@ -5,12 +5,16 @@ model 'Claude-Opus-4.6'
     'poe'
   provided by
     'Poe'
+  family
+    'claude-opus'
   status
     active
   released at
-    2026-02-04
+    2026-02-05
   last updated at
-    2026-02-04
+    2026-03-13
+  has knowledge cutoff at
+    2025-05-31
   weights
     closed
   capabilities
@@ -31,10 +35,10 @@ model 'Claude-Opus-4.6'
       '128 000'
   costs
     input
-      4.3
+      4.2929
     output
-      21
+      21.4646
     cacheRead
-      0.43
+      0.4293
     cacheWrite
-      5.3
+      5.3662

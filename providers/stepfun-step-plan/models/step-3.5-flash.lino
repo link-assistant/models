@@ -5,6 +5,8 @@ model 'Step 3.5 Flash'
     'stepfun-step-plan'
   provided by
     'StepFun Step Plan (China)'
+  family
+    'step'
   status
     active
   released at
@@ -20,6 +22,7 @@ model 'Step 3.5 Flash'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities

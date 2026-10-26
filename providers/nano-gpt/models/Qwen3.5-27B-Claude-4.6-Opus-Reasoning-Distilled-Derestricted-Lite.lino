@@ -1,0 +1,42 @@
+model 'Qwen3.5 27B Claude 4.6 Opus Reasoning Distilled Derestricted Lite'
+  has id
+    'Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-Derestricted-Lite'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen3.5'
+  status
+    active
+  released at
+    2026-05-15
+  last updated at
+    2026-05-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.306
+    output
+      0.306
+    cacheRead
+      0.0306

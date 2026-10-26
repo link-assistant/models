@@ -20,7 +20,6 @@ model 'inclusionAI: Ring-2.6-1T'
       reasoning
       tool calls
       temperature
-      attachments
     )
   modalities
     input
@@ -34,8 +33,8 @@ model 'inclusionAI: Ring-2.6-1T'
       '65 000'
   costs
     input
-      0.3
+      0.1318155
     output
-      2.5
+      1.0984625
     cacheRead
-      0.06
+      0.0263631

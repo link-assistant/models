@@ -22,6 +22,7 @@ model 'Qwen3-Omni Flash'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -35,10 +36,10 @@ model 'Qwen3-Omni Flash'
       '16 384'
   costs
     input
-      0.058
+      0.258
     output
-      0.23
+      0.989
     inputAudio
-      3.584
+      2.265
     outputAudio
-      7.168
+      8.974

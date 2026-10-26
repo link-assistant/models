@@ -8,11 +8,11 @@ model 'Mistral Nemo 12B Instruct'
   family
     'mistral-nemo'
   status
-    active
+    deprecated
   released at
-    2025-01-01
+    2024-07-18
   last updated at
-    2025-01-01
+    2024-07-18
   has knowledge cutoff at
     2024-12
   weights

@@ -4,9 +4,9 @@ model 'Kimi K2.5 Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'kimi-free'
+    'kimi-k2'
   status
     deprecated
   released at
@@ -14,14 +14,13 @@ model 'Kimi K2.5 Free'
   last updated at
     2026-01-27
   has knowledge cutoff at
-    2024-10
+    2025-01
   weights
     open
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
       interleaved output
     )

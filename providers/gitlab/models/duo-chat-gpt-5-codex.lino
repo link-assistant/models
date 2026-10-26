@@ -8,11 +8,11 @@ model 'Agentic Chat (GPT-5 Codex)'
   family
     'gpt-codex'
   status
-    active
+    deprecated
   released at
-    2026-01-22
+    2025-09-15
   last updated at
-    2026-01-22
+    2025-09-15
   has knowledge cutoff at
     2024-09-30
   weights
@@ -21,6 +21,7 @@ model 'Agentic Chat (GPT-5 Codex)'
     (
       reasoning
       tool calls
+      attachments
       structured output
     )
   modalities

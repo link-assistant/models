@@ -8,7 +8,7 @@ model 'Gemma 4 31B IT'
   family
     'gemma'
   status
-    active
+    deprecated
   released at
     2026-04-02
   last updated at

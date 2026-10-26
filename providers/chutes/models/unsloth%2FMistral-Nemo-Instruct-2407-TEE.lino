@@ -10,9 +10,9 @@ model 'Mistral Nemo Instruct 2407 TEE'
   status
     active
   released at
-    2024-07-01
+    2024-07-18
   last updated at
-    2024-07-01
+    2024-07-18
   has knowledge cutoff at
     2024-07
   weights
@@ -37,4 +37,4 @@ model 'Mistral Nemo Instruct 2407 TEE'
     output
       0.0978
     cacheRead
-      0.01225
+      0.0024499999999999995

@@ -1,0 +1,43 @@
+model 'Ling 3.1 Flash'
+  has id
+    'inclusionai/ling-3.1-flash'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-09-29
+  last updated at
+    2026-09-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.075
+    output
+      0.22
+    cacheRead
+      0.015

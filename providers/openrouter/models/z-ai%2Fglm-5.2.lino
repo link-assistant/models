@@ -32,11 +32,11 @@ model 'GLM-5.2'
     context
       '1 048 576'
     output
-      '131 072'
+      '943 718'
   costs
     input
-      0.42
+      0.0341
     output
-      1.32
+      7
     cacheRead
-      0.078
+      0.033

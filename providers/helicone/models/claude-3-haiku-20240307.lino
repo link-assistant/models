@@ -10,9 +10,9 @@ model 'Anthropic: Claude 3 Haiku'
   status
     active
   released at
-    2024-03-07
+    2024-03-13
   last updated at
-    2024-03-07
+    2024-03-13
   has knowledge cutoff at
     2024-03
   weights
@@ -21,6 +21,7 @@ model 'Anthropic: Claude 3 Haiku'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

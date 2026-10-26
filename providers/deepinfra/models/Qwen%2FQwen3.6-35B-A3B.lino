@@ -10,9 +10,9 @@ model 'Qwen3.6 35B A3B'
   status
     active
   released at
-    2026-04-01
+    2026-04-17
   last updated at
-    2026-04-01
+    2026-04-17
   weights
     open
   capabilities
@@ -35,6 +35,8 @@ model 'Qwen3.6 35B A3B'
       '81 920'
   costs
     input
-      0.15
+      0.1
     output
       0.95
+    cacheRead
+      0.1

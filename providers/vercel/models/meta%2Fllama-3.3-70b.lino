@@ -21,7 +21,6 @@ model 'Llama-3.3-70B-Instruct'
     (
       tool calls
       temperature
-      attachments
     )
   modalities
     input
@@ -32,9 +31,9 @@ model 'Llama-3.3-70B-Instruct'
     context
       '128 000'
     output
-      4096
+      8192
   costs
     input
-      0
+      0.72
     output
-      0
+      0.72

@@ -4,7 +4,7 @@ model 'GPT-5.1 Codex mini'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'gpt-codex'
   status

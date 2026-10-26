@@ -10,11 +10,11 @@ model 'Gemini Flash-Lite Latest'
   status
     active
   released at
-    2025-09-25
+    2026-07-21
   last updated at
-    2025-09-25
+    2026-07-21
   has knowledge cutoff at
-    2025-01
+    2026-03
   weights
     closed
   capabilities
@@ -27,7 +27,7 @@ model 'Gemini Flash-Lite Latest'
     )
   modalities
     input
-      text image audio video pdf
+      text image video audio pdf
     output
       text
   limits
@@ -37,8 +37,10 @@ model 'Gemini Flash-Lite Latest'
       '65 536'
   costs
     input
-      0.1
+      0.25
     output
-      0.4
+      1.5
     cacheRead
       0.025
+    inputAudio
+      0.5

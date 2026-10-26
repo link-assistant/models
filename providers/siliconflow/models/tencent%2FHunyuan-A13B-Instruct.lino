@@ -14,11 +14,10 @@ model 'tencent/Hunyuan-A13B-Instruct'
   last updated at
     2025-11-25
   weights
-    closed
+    open
   capabilities
     (
       reasoning
-      tool calls
       temperature
       structured output
     )

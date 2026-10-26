@@ -1,16 +1,20 @@
-model 'Z.ai: GLM 4.5V'
+model 'GLM-4.5V'
   has id
     'z-ai/glm-4.5v'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'glm'
   status
     active
   released at
     2025-08-11
   last updated at
     2025-08-11
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities

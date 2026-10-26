@@ -10,9 +10,11 @@ model 'GPT-4o-Aug'
   status
     active
   released at
-    2024-11-21
+    2024-08-06
   last updated at
-    2024-11-21
+    2024-08-06
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities
@@ -32,8 +34,8 @@ model 'GPT-4o-Aug'
       8192
   costs
     input
-      2.2
+      2.2727
     output
-      9
+      9.0909
     cacheRead
-      1.1
+      1.1364

@@ -21,6 +21,7 @@ model 'Hermes 4 405B'
     (
       reasoning
       temperature
+      structured output
     )
   modalities
     input
@@ -31,7 +32,7 @@ model 'Hermes 4 405B'
     context
       '131 072'
     output
-      '131 072'
+      '117 964'
   costs
     input
       1

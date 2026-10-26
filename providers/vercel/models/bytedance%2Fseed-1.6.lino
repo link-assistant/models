@@ -10,11 +10,9 @@ model 'Seed 1.6'
   status
     active
   released at
-    2025-09-01
+    2025-10-15
   last updated at
-    2025-09
-  has knowledge cutoff at
-    2024-10
+    2025-10-15
   weights
     closed
   capabilities
@@ -22,6 +20,8 @@ model 'Seed 1.6'
       reasoning
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input

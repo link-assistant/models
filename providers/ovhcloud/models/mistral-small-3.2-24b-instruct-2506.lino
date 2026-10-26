@@ -5,12 +5,16 @@ model 'Mistral-Small-3.2-24B-Instruct-2506'
     'ovhcloud'
   provided by
     'OVHcloud AI Endpoints'
+  family
+    'mistral-small'
   status
     active
   released at
-    2025-07-16
+    2025-06-20
   last updated at
-    2025-07-16
+    2025-06-20
+  has knowledge cutoff at
+    2023-10-31
   weights
     open
   capabilities
@@ -22,7 +26,7 @@ model 'Mistral-Small-3.2-24B-Instruct-2506'
     )
   modalities
     input
-      text image
+      image text
     output
       text
   limits

@@ -10,11 +10,15 @@ model 'Ministral 14B'
   status
     active
   released at
-    2025-12-04
+    2025-12-02
   last updated at
-    2025-12-04
+    2025-12-02
   weights
-    closed
+    open
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -32,3 +36,5 @@ model 'Ministral 14B'
       0.2
     output
       0.2
+    cacheRead
+      0.1

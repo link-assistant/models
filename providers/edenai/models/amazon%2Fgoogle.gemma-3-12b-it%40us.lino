@@ -1,0 +1,41 @@
+model 'Gemma 3 12B IT (Amazon Bedrock, US)'
+  has id
+    'amazon/google.gemma-3-12b-it@us'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2025-03-12
+  last updated at
+    2025-03-12
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '131 072'
+  costs
+    input
+      0.09
+    output
+      0.29

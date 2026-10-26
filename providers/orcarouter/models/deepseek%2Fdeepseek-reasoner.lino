@@ -22,7 +22,6 @@ model 'DeepSeek Reasoner'
       reasoning
       tool calls
       temperature
-      attachments
       interleaved output
     )
   modalities
@@ -37,8 +36,8 @@ model 'DeepSeek Reasoner'
       '384 000'
   costs
     input
-      0.435
+      0.242
     output
-      0.87
+      0.726
     cacheRead
-      0.028
+      0.0077

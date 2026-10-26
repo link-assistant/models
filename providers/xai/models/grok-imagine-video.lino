@@ -21,7 +21,7 @@ model 'Grok Imagine Video'
     )
   modalities
     input
-      text image video pdf
+      text image video
     output
       video
   limits

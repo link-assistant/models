@@ -15,7 +15,6 @@ model 'bevformer'
     open
   capabilities
     (
-      temperature
       attachments
     )
   modalities

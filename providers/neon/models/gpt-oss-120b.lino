@@ -13,6 +13,8 @@ model 'GPT OSS 120B'
     2025-08-05
   last updated at
     2025-08-05
+  has knowledge cutoff at
+    2024-06
   weights
     open
   capabilities
@@ -31,9 +33,9 @@ model 'GPT OSS 120B'
     context
       '131 072'
     output
-      '32 768'
+      '25 000'
   costs
     input
-      0.072
+      0.15
     output
-      0.28
+      0.6

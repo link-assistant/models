@@ -1,0 +1,37 @@
+model 'Mixtral 8x7B Instruct v0.1 (Deep Infra)'
+  has id
+    'deepinfra/mistralai/Mixtral-8x7B-Instruct-v0.1'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2023-12-11
+  last updated at
+    2023-12-11
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.4
+    output
+      0.4

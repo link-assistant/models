@@ -8,7 +8,7 @@ model 'GLM-4.7-Flash'
   family
     'glm-flash'
   status
-    active
+    deprecated
   released at
     2026-01-19
   last updated at

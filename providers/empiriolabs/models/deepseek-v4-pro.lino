@@ -12,7 +12,7 @@ model 'DeepSeek V4 Pro'
   released at
     2026-04-24
   last updated at
-    2026-06-12
+    2026-04-24
   has knowledge cutoff at
     2025-05
   weights
@@ -39,3 +39,5 @@ model 'DeepSeek V4 Pro'
       1.65
     output
       3.3
+    cacheRead
+      1.65

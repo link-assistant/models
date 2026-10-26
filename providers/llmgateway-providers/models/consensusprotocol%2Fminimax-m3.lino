@@ -1,0 +1,41 @@
+model 'MiniMax M3 (Consensus Protocol)'
+  has id
+    'consensusprotocol/minimax-m3'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '512 000'
+  costs
+    input
+      0.28
+    output
+      1.1
+    cacheRead
+      0.05

@@ -10,12 +10,15 @@ model 'Magnum v4 72B'
   released at
     2024-10-22
   last updated at
-    2026-03-15
+    2024-10-22
+  has knowledge cutoff at
+    2024-06-30
   weights
     open
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input
@@ -24,11 +27,11 @@ model 'Magnum v4 72B'
       text
   limits
     context
-      '16 384'
+      '32 768'
     output
-      2048
+      4096
   costs
     input
-      3
+      2.5
     output
       5

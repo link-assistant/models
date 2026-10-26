@@ -15,10 +15,6 @@ model 'GPT Image 2'
     2026-04-21
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text

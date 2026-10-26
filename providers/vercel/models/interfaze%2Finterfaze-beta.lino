@@ -17,6 +17,7 @@ model 'Interfaze Beta'
     (
       reasoning
       temperature
+      attachments
     )
   modalities
     input

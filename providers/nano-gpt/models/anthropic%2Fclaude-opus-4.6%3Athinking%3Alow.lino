@@ -12,13 +12,16 @@ model 'Claude 4.6 Opus Thinking Low'
   released at
     2026-02-05
   last updated at
-    2026-02-05
+    2026-03-13
+  has knowledge cutoff at
+    2025-05-31
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -36,6 +39,8 @@ model 'Claude 4.6 Opus Thinking Low'
       '128 000'
   costs
     input
-      4.998
+      5
     output
-      25.007
+      25
+    cacheRead
+      0.5

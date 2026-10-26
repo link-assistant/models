@@ -22,6 +22,8 @@ model 'Qwen3-VL Plus'
       reasoning
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
@@ -38,5 +40,7 @@ model 'Qwen3-VL Plus'
       0.143353
     output
       1.433525
-    reasoning
-      4.300576
+    cacheRead
+      0.028671
+    cacheWrite
+      0.179191

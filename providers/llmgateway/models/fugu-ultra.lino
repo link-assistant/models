@@ -4,13 +4,15 @@ model 'Fugu Ultra'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
+  family
+    'fugu'
   status
     active
   released at
-    2026-06-22
+    2026-06-15
   last updated at
-    2026-06-22
+    2026-06-15
   weights
     closed
   capabilities

@@ -1,0 +1,40 @@
+model 'Ling 3.1 Flash'
+  has id
+    'inclusionai/ling-3.1-flash:free'
+  provider id
+    'commandcode'
+  provided by
+    'CommandCode'
+  family
+    'ling'
+  status
+    deprecated
+  released at
+    2026-09-29
+  last updated at
+    2026-09-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

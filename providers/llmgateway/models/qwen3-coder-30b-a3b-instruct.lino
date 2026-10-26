@@ -4,15 +4,15 @@ model 'Qwen3-Coder 30B-A3B Instruct'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status
     active
   released at
-    2025-04
+    2025-07-31
   last updated at
-    2025-04
+    2025-07-31
   has knowledge cutoff at
     2025-04
   weights

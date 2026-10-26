@@ -6,7 +6,7 @@ model 'DeepSeek V3.2 Thinking'
   provided by
     'Vercel AI Gateway'
   family
-    'deepseek-thinking'
+    'deepseek'
   status
     active
   released at
@@ -16,7 +16,7 @@ model 'DeepSeek V3.2 Thinking'
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning

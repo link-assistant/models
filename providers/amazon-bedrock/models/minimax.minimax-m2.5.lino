@@ -1,4 +1,4 @@
-model 'MiniMax M2.5'
+model 'MiniMax-M2.5'
   has id
     'minimax.minimax-m2.5'
   provider id
@@ -10,7 +10,7 @@ model 'MiniMax M2.5'
   status
     active
   released at
-    2026-03-18
+    2026-02-12
   last updated at
     2026-03-18
   weights
@@ -20,6 +20,8 @@ model 'MiniMax M2.5'
       reasoning
       tool calls
       temperature
+      structured output
+      interleaved output
     )
   modalities
     input

@@ -8,7 +8,7 @@ model 'gpt-image-1'
   family
     'gpt-image'
   status
-    active
+    deprecated
   released at
     2025-04-24
   last updated at

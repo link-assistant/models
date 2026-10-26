@@ -15,10 +15,6 @@ model 'GPT Image 1 Mini'
     2025-10-06
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text

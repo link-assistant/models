@@ -13,6 +13,8 @@ model 'Nemotron 3 Super (free)'
     2026-03-11
   last updated at
     2026-03-11
+  has knowledge cutoff at
+    2025-06
   weights
     open
   capabilities
@@ -29,9 +31,9 @@ model 'Nemotron 3 Super (free)'
       text
   limits
     context
-      '1 000 000'
-    output
       '262 144'
+    output
+      '235 929'
   costs
     input
       0

@@ -1,0 +1,41 @@
+model 'Qwen3.6 27B'
+  has id
+    'Qwen/Qwen3.6-27B'
+  provider id
+    'thinkingmachines'
+  provided by
+    'Thinking Machines'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      1.86
+    output
+      5.595
+    cacheRead
+      0.372

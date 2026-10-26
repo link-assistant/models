@@ -10,9 +10,9 @@ model 'claude-sonnet-4-5-20250929'
   status
     active
   released at
-    2025-09-30
+    2025-09-29
   last updated at
-    2025-09-30
+    2025-09-29
   has knowledge cutoff at
     2025-07-31
   weights
@@ -39,3 +39,7 @@ model 'claude-sonnet-4-5-20250929'
       3
     output
       15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

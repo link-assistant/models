@@ -5,12 +5,16 @@ model 'Claude 4.5 Haiku'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'claude-haiku'
   status
-    active
+    deprecated
   released at
-    2025-10-16
+    2025-10-15
   last updated at
-    2025-10-16
+    2025-10-15
+  has knowledge cutoff at
+    2025-02-28
   weights
     closed
   capabilities

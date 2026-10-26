@@ -10,13 +10,13 @@ model 'Kimi K2 Instruct'
   status
     active
   released at
-    2024-09-05
+    2025-09-05
   last updated at
-    2024-09-05
+    2025-09-05
   has knowledge cutoff at
     2024-08
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -34,10 +34,8 @@ model 'Kimi K2 Instruct'
       4096
   costs
     input
-      0.39
+      0.57
     output
-      1.9
+      2.3
     cacheRead
-      0.195
-    cacheWrite
-      0.78
+      0.285

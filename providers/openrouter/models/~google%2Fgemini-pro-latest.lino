@@ -1,4 +1,4 @@
-model 'Google Gemini Pro Latest'
+model 'Gemini Pro Latest'
   has id
     '~google/gemini-pro-latest'
   provider id
@@ -13,6 +13,8 @@ model 'Google Gemini Pro Latest'
     2026-04-27
   last updated at
     2026-04-27
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -32,15 +34,17 @@ model 'Google Gemini Pro Latest'
     context
       '1 048 576'
     output
-      '65 536'
+      '943 718'
   costs
     input
       2
     output
-      12
+      10
     cacheRead
-      0.2
+      0.1
     cacheWrite
-      0.375
+      0.1875
     reasoning
-      12
+      10
+    inputAudio
+      2

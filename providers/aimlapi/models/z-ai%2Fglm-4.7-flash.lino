@@ -1,0 +1,43 @@
+model 'GLM 4.7 Flash'
+  has id
+    'z-ai/glm-4.7-flash'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-01-19
+  last updated at
+    2026-01-19
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '16 384'
+  costs
+    input
+      0.13225
+    output
+      0.529
+    cacheRead
+      0.01058

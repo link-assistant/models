@@ -5,12 +5,14 @@ model 'gpt-5-thinking'
     '302ai'
   provided by
     '302.AI'
+  family
+    'gpt'
   status
     active
   released at
-    2025-08-08
+    2025-08-07
   last updated at
-    2025-08-08
+    2025-08-07
   has knowledge cutoff at
     2024-10
   weights
@@ -30,6 +32,8 @@ model 'gpt-5-thinking'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

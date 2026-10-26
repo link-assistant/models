@@ -5,14 +5,16 @@ model 'GPT-5.2-Codex'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gpt-codex'
   status
     active
   released at
-    2026-01-15
+    2025-12-11
   last updated at
-    2026-01-15
+    2025-12-11
   has knowledge cutoff at
-    2025-01-01
+    2025-08-31
   weights
     closed
   capabilities
@@ -30,11 +32,11 @@ model 'GPT-5.2-Codex'
     context
       '400 000'
     output
-      '64 000'
+      '128 000'
   costs
     input
       1.75
     output
       14
     cacheRead
-      0.17
+      0.175

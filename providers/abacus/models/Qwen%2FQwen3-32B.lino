@@ -10,9 +10,9 @@ model 'Qwen3 32B'
   status
     active
   released at
-    2025-04
+    2025-04-28
   last updated at
-    2025-04
+    2025-04-28
   has knowledge cutoff at
     2025-04
   weights
@@ -35,6 +35,6 @@ model 'Qwen3 32B'
       8192
   costs
     input
-      0.09
+      0.08
     output
-      0.29
+      0.28

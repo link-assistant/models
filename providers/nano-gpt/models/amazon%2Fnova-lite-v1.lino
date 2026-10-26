@@ -10,11 +10,17 @@ model 'Amazon Nova Lite 1.0'
   status
     active
   released at
-    2024-12-03
+    2024-12-05
   last updated at
-    2024-12-03
+    2024-12-05
+  has knowledge cutoff at
+    2024-10-31
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -32,3 +38,5 @@ model 'Amazon Nova Lite 1.0'
       0.0595
     output
       0.238
+    cacheRead
+      0.02975

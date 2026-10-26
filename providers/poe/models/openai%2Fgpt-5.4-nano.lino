@@ -5,12 +5,16 @@ model 'GPT-5.4-Nano'
     'poe'
   provided by
     'Poe'
+  family
+    'gpt-nano'
   status
     active
   released at
-    2026-03-11
+    2026-03-17
   last updated at
-    2026-03-11
+    2026-03-17
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
@@ -23,7 +27,7 @@ model 'GPT-5.4-Nano'
     input
       text image
     output
-      text
+      text image
   limits
     context
       '400 000'
@@ -33,8 +37,8 @@ model 'GPT-5.4-Nano'
       '128 000'
   costs
     input
-      0.18
+      0.1818
     output
-      1.1
+      1.1364
     cacheRead
-      0.018
+      0.0182

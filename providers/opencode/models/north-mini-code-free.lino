@@ -4,11 +4,11 @@ model 'North Mini Code Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'north-free'
+    'north'
   status
-    active
+    deprecated
   released at
     2026-06-09
   last updated at
@@ -22,7 +22,6 @@ model 'North Mini Code Free'
       reasoning
       tool calls
       temperature
-      structured output
       interleaved output
     )
   modalities

@@ -1,0 +1,41 @@
+model 'Kimi K3.1 Pro'
+  has id
+    'moonshot/kimi-k3.1-pro'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-10-23
+  last updated at
+    2026-10-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      2
+    output
+      10
+    cacheRead
+      0.2

@@ -27,7 +27,7 @@ model 'Model Router'
       text
   limits
     context
-      '128 000'
+      '200 000'
     output
       '16 384'
   costs

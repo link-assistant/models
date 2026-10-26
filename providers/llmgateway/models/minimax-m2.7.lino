@@ -4,7 +4,7 @@ model 'MiniMax-M2.7'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'minimax'
   status
@@ -33,10 +33,10 @@ model 'MiniMax-M2.7'
       '131 072'
   costs
     input
-      0.3
+      0.08
     output
-      1.2
+      0.32
     cacheRead
-      0.06
+      0.017
     cacheWrite
       0.375

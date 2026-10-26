@@ -1,4 +1,4 @@
-model 'Qwen2.5 VL 72B Instruct'
+model 'Qwen2.5-VL 72B Instruct'
   has id
     'qwen/qwen2.5-vl-72b-instruct'
   provider id
@@ -10,11 +10,11 @@ model 'Qwen2.5 VL 72B Instruct'
   status
     active
   released at
-    2025-02-01
+    2025-01-26
   last updated at
-    2025-02-01
+    2025-01-26
   has knowledge cutoff at
-    2024-06-30
+    2024-04
   weights
     open
   capabilities
@@ -30,11 +30,13 @@ model 'Qwen2.5 VL 72B Instruct'
       text
   limits
     context
-      '131 072'
-    output
       '128 000'
+    output
+      '115 200'
   costs
     input
-      0.25
+      0.8
     output
-      0.75
+      1
+    cacheRead
+      0.4

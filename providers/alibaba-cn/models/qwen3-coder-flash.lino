@@ -21,6 +21,7 @@ model 'Qwen3 Coder Flash'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -37,3 +38,7 @@ model 'Qwen3 Coder Flash'
       0.144
     output
       0.574
+    cacheRead
+      0.0288
+    cacheWrite
+      0.18

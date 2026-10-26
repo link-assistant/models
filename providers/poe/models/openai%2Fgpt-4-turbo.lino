@@ -8,11 +8,13 @@ model 'GPT-4-Turbo'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
-    2023-09-13
+    2023-11-06
   last updated at
-    2023-09-13
+    2024-04-09
+  has knowledge cutoff at
+    2023-12
   weights
     closed
   capabilities

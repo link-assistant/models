@@ -21,7 +21,6 @@ model 'LucidNova RF1 100B'
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input

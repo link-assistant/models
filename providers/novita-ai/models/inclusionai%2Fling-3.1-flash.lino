@@ -1,0 +1,41 @@
+model 'Ling 3.1 Flash'
+  has id
+    'inclusionai/ling-3.1-flash'
+  provider id
+    'novita-ai'
+  provided by
+    'Novita AI'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-09-29
+  last updated at
+    2026-09-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.3
+    output
+      0.9
+    cacheRead
+      0.06

@@ -17,6 +17,10 @@ model 'OpenAI: o1-mini'
     2025-01
   weights
     closed
+  capabilities
+    (
+      reasoning
+    )
   modalities
     input
       text

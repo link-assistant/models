@@ -27,3 +27,8 @@ model 'Aya Expanse 32B'
       '128 000'
     output
       4000
+  costs
+    input
+      0.5
+    output
+      1.5

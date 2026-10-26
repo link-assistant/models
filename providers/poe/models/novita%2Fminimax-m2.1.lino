@@ -5,19 +5,20 @@ model 'minimax-m2.1'
     'poe'
   provided by
     'Poe'
+  family
+    'minimax'
   status
     active
   released at
-    2025-12-26
+    2025-12-23
   last updated at
-    2025-12-26
+    2025-12-23
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input
@@ -29,3 +30,10 @@ model 'minimax-m2.1'
       '205 000'
     output
       '131 072'
+  costs
+    input
+      0.303
+    output
+      1.2121
+    cacheRead
+      0.1515

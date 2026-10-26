@@ -18,7 +18,6 @@ model 'Grok 3'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

@@ -6,18 +6,22 @@ model 'GPT-Realtime mini'
   provided by
     'Vercel AI Gateway'
   family
-    'gpt'
+    'gpt-mini'
   status
     active
   released at
-    2025-10-10
+    2025-10-06
   last updated at
-    2025-10-10
+    2025-10-06
+  has knowledge cutoff at
+    2023-10-01
   weights
     closed
   capabilities
     (
+      tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -26,9 +30,9 @@ model 'GPT-Realtime mini'
       text audio
   limits
     context
-      0
+      '32 000'
     output
-      0
+      4096
   costs
     input
       0.6
@@ -36,3 +40,7 @@ model 'GPT-Realtime mini'
       2.4
     cacheRead
       0.06
+    inputAudio
+      10
+    outputAudio
+      20

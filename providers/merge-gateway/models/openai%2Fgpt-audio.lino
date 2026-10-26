@@ -1,0 +1,41 @@
+model 'GPT Audio'
+  has id
+    'openai/gpt-audio'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-08-28
+  last updated at
+    2025-08-28
+  has knowledge cutoff at
+    2023-10-01
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      2.5
+    output
+      10

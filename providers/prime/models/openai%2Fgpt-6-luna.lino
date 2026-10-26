@@ -1,0 +1,41 @@
+model 'GPT-6 Luna'
+  has id
+    'openai/gpt-6-luna'
+  provider id
+    'prime'
+  provided by
+    'Prime Inference'
+  family
+    'gpt-luna'
+  status
+    active
+  released at
+    2026-09-22
+  last updated at
+    2026-09-22
+  has knowledge cutoff at
+    2026-05-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '128 000'
+  costs
+    input
+      0.1
+    output
+      0.5

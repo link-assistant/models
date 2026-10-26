@@ -1,0 +1,31 @@
+model 'Qwen3.8 Max 0902'
+  has id
+    'Qwen/Qwen3.8-Max-0902'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'qwen3.8-max'
+  status
+    active
+  released at
+    2026-10-20
+  last updated at
+    2026-10-25
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

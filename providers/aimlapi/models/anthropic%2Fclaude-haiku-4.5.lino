@@ -1,0 +1,45 @@
+model 'Claude 4.5 Haiku'
+  has id
+    'anthropic/claude-haiku-4.5'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  has knowledge cutoff at
+    2025-02-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      1.058
+    output
+      5.29
+    cacheRead
+      0.1058
+    cacheWrite
+      1.3225

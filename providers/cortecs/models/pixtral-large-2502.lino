@@ -1,0 +1,39 @@
+model 'Pixtral Large (25.02)'
+  has id
+    'pixtral-large-2502'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'pixtral'
+  status
+    active
+  released at
+    2025-04-08
+  last updated at
+    2025-04-08
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      1.993
+    output
+      5.978

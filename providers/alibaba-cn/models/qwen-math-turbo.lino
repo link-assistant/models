@@ -8,7 +8,7 @@ model 'Qwen Math Turbo'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2024-09-19
   last updated at

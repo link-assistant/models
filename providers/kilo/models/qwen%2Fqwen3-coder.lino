@@ -5,18 +5,23 @@ model 'Qwen: Qwen3 Coder 480B A35B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-07-23
+    2025-07-22
   last updated at
-    2025-07-23
+    2025-07-22
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -27,11 +32,11 @@ model 'Qwen: Qwen3 Coder 480B A35B'
     context
       '262 144'
     output
-      '52 429'
+      '65 536'
   costs
     input
-      0.22
+      0.3
     output
       1
     cacheRead
-      0.022
+      0.1

@@ -1,4 +1,4 @@
-model 'Xiaomi: MiMo V2.5 Pro'
+model 'MiMo-V2.5-Pro'
   has id
     'xiaomi/mimo-v2.5-pro'
   provider id
@@ -8,7 +8,7 @@ model 'Xiaomi: MiMo V2.5 Pro'
   family
     'mimo'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at
@@ -22,6 +22,7 @@ model 'Xiaomi: MiMo V2.5 Pro'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -31,13 +32,13 @@ model 'Xiaomi: MiMo V2.5 Pro'
       text
   limits
     context
-      '1 048 576'
+      '1 050 000'
     output
-      '131 072'
+      '945 000'
   costs
     input
-      1
+      0.435
     output
-      3
+      0.87
     cacheRead
-      0.2
+      0.004

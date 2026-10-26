@@ -37,3 +37,5 @@ model 'GLM 5.2'
       1.4
     output
       4.4
+    cacheRead
+      1.4

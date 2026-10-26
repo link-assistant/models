@@ -8,7 +8,7 @@ model 'QVQ Max'
   family
     'qvq'
   status
-    active
+    deprecated
   released at
     2025-03-25
   last updated at
@@ -22,6 +22,7 @@ model 'QVQ Max'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

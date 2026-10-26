@@ -1,0 +1,39 @@
+model 'Ambient Small'
+  has id
+    'ambient/small'
+  provider id
+    'ambient'
+  provided by
+    'Ambient'
+  status
+    active
+  released at
+    2026-10-13
+  last updated at
+    2026-10-13
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '101 072'
+    output
+      '101 072'
+  costs
+    input
+      0.001
+    output
+      0.001
+    cacheRead
+      0
+    cacheWrite
+      0

@@ -5,14 +5,14 @@ model 'GLM 5 Turbo'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'glm'
   status
     active
   released at
-    2026-03-20
+    2026-03-16
   last updated at
-    2026-03-20
-  has knowledge cutoff at
-    2025-01-01
+    2026-03-16
   weights
     closed
   capabilities
@@ -20,7 +20,8 @@ model 'GLM 5 Turbo'
       reasoning
       tool calls
       temperature
-      attachments
+      structured output
+      interleaved output
     )
   modalities
     input
@@ -34,6 +35,8 @@ model 'GLM 5 Turbo'
       '128 000'
   costs
     input
-      0.88
+      0.73
     output
-      3.48
+      3.19
+    cacheRead
+      0.174

@@ -6,7 +6,7 @@ model 'MiMo M2.5'
   provided by
     'Vercel AI Gateway'
   family
-    'mimo-v2.5'
+    'mimo'
   status
     active
   released at
@@ -16,7 +16,7 @@ model 'MiMo M2.5'
   has knowledge cutoff at
     2024-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -26,7 +26,7 @@ model 'MiMo M2.5'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
@@ -36,8 +36,8 @@ model 'MiMo M2.5'
       '131 100'
   costs
     input
-      0.14
+      0.119
     output
-      0.28
+      0.238
     cacheRead
-      0.0028
+      0.0025

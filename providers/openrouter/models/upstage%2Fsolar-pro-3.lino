@@ -10,9 +10,11 @@ model 'Solar Pro 3'
   status
     active
   released at
-    2026-01-27
+    2026-01-26
   last updated at
-    2026-01-27
+    2026-03-23
+  has knowledge cutoff at
+    2025-07
   weights
     closed
   capabilities
@@ -29,9 +31,9 @@ model 'Solar Pro 3'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      '128 000'
+      '117 964'
   costs
     input
       0.15

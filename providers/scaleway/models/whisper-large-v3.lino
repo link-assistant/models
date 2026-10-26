@@ -17,6 +17,10 @@ model 'Whisper Large v3'
     2023-09
   weights
     open
+  capabilities
+    (
+      attachments
+    )
   modalities
     input
       audio
@@ -27,8 +31,3 @@ model 'Whisper Large v3'
       0
     output
       8192
-  costs
-    input
-      0.003
-    output
-      0

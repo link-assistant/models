@@ -4,7 +4,7 @@ model 'Ling 2.6 Flash Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'ling-flash-free'
   status

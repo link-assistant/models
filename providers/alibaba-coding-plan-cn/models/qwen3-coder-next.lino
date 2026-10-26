@@ -8,7 +8,7 @@ model 'Qwen3 Coder Next'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2026-02-03
   last updated at

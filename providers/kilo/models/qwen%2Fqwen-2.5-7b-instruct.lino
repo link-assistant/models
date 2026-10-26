@@ -5,18 +5,21 @@ model 'Qwen: Qwen2.5 7B Instruct'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2024-09
+    2024-10-16
   last updated at
-    2025-04-16
+    2024-10-16
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -27,9 +30,9 @@ model 'Qwen: Qwen2.5 7B Instruct'
     context
       '32 768'
     output
-      6554
+      '29 491'
   costs
     input
-      0.04
-    output
       0.1
+    output
+      0.2

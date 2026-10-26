@@ -10,9 +10,9 @@ model 'Mistral Nemo Instruct 2407'
   status
     active
   released at
-    2024-07-01
+    2024-07-18
   last updated at
-    2024-07-01
+    2024-07-18
   has knowledge cutoff at
     2024-05
   weights
@@ -34,10 +34,8 @@ model 'Mistral Nemo Instruct 2407'
       4096
   costs
     input
-      0.02
+      0.0514
     output
-      0.04
+      0.082
     cacheRead
-      0.01
-    cacheWrite
-      0.04
+      0.0257

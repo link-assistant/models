@@ -1,0 +1,42 @@
+model 'Mistral Large 4'
+  has id
+    'mistral-large-4'
+  provider id
+    'mistral'
+  provided by
+    'Mistral'
+  family
+    'mistral-large'
+  status
+    beta
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      1.36
+    output
+      4.18
+    cacheRead
+      0.14

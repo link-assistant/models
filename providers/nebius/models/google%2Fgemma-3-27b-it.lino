@@ -5,14 +5,16 @@ model 'Gemma-3-27b-it'
     'nebius'
   provided by
     'Nebius Token Factory'
+  family
+    'gemma'
   status
     active
   released at
-    2026-01-20
+    2025-03-12
   last updated at
-    2026-02-04
+    2025-03-12
   has knowledge cutoff at
-    2025-10
+    2024-08
   weights
     open
   capabilities
@@ -40,6 +42,4 @@ model 'Gemma-3-27b-it'
     output
       0.3
     cacheRead
-      0.01
-    cacheWrite
-      0.125
+      0.1

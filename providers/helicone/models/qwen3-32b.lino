@@ -16,7 +16,7 @@ model 'Qwen3 32B'
   has knowledge cutoff at
     2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning

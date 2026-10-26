@@ -4,17 +4,19 @@ model 'Qwen3 Coder Next'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status
     active
   released at
-    2025-10-15
+    2026-02-03
   last updated at
-    2025-10-15
+    2026-02-03
+  has knowledge cutoff at
+    2025-09
   weights
-    closed
+    open
   capabilities
     (
       reasoning

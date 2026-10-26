@@ -6,7 +6,7 @@ model 'Meituan/Longcat-Flash-Chat'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2025-11-05
   last updated at

@@ -13,6 +13,8 @@ model 'Nemotron 3 Nano 30B A3B'
     2025-12-15
   last updated at
     2025-12-15
+  has knowledge cutoff at
+    2025-06-25
   weights
     open
   capabilities
@@ -31,9 +33,9 @@ model 'Nemotron 3 Nano 30B A3B'
     context
       '262 144'
     output
-      '228 000'
+      '235 929'
   costs
     input
-      0.05
+      0.06
     output
-      0.2
+      0.24

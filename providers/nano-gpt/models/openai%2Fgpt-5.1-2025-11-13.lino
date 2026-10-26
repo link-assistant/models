@@ -13,8 +13,17 @@ model 'GPT-5.1 (2025-11-13)'
     2025-11-13
   last updated at
     2025-11-13
+  has knowledge cutoff at
+    2024-09-30
   weights
     closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
   modalities
     input
       text
@@ -22,13 +31,15 @@ model 'GPT-5.1 (2025-11-13)'
       text
   limits
     context
-      '1 000 000'
+      '400 000'
     input
-      '1 000 000'
+      '400 000'
     output
-      '32 768'
+      '128 000'
   costs
     input
       1.25
     output
       10
+    cacheRead
+      0.125

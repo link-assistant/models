@@ -12,11 +12,11 @@ model 'Qwen 3 Coder 30B A3B Instruct'
   released at
     2025-07-31
   last updated at
-    2025-04
+    2025-07-31
   has knowledge cutoff at
     2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning

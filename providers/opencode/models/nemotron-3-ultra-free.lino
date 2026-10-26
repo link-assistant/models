@@ -4,9 +4,9 @@ model 'Nemotron 3 Ultra Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'nemotron-free'
+    'nemotron'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'Nemotron 3 Ultra Free'
   last updated at
     2026-06-04
   has knowledge cutoff at
-    2026-02
+    2025-09
   weights
     open
   capabilities

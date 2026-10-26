@@ -8,11 +8,11 @@ model 'Agentic Chat (GPT-5.1)'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
-    2026-01-22
+    2025-11-13
   last updated at
-    2026-01-22
+    2025-11-13
   has knowledge cutoff at
     2024-09-30
   weights
@@ -21,6 +21,7 @@ model 'Agentic Chat (GPT-5.1)'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )

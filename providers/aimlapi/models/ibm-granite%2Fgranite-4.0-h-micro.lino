@@ -1,0 +1,38 @@
+model 'Granite 4.0 Micro'
+  has id
+    'ibm-granite/granite-4.0-h-micro'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'granite'
+  status
+    active
+  released at
+    2025-10-02
+  last updated at
+    2025-10-02
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.017986
+    output
+      0.118496

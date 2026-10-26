@@ -6,7 +6,7 @@ model 'Coding MiniMax M2.7 (Free)'
   provided by
     'AIHubMix'
   family
-    'minimax-free'
+    'minimax'
   status
     active
   released at

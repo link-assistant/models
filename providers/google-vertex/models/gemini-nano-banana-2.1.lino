@@ -1,0 +1,39 @@
+model 'Nano Banana 2.1'
+  has id
+    'gemini-nano-banana-2.1'
+  provider id
+    'google-vertex'
+  provided by
+    'Vertex'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text image
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      1.5
+    output
+      30
+    cacheRead
+      0.15

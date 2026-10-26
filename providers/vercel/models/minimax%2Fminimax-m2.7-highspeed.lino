@@ -20,7 +20,6 @@ model 'MiniMax M2.7 High Speed'
       reasoning
       tool calls
       temperature
-      attachments
     )
   modalities
     input

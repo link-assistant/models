@@ -27,7 +27,7 @@ model 'Gemini 3 Flash Preview'
     )
   modalities
     input
-      text image audio video pdf
+      text image video audio pdf
     output
       text
   limits
@@ -42,3 +42,5 @@ model 'Gemini 3 Flash Preview'
       3
     cacheRead
       0.05
+    inputAudio
+      1

@@ -1,21 +1,26 @@
-model 'Nous: Hermes 3 405B Instruct'
+model 'Nous: Hermes 3 405B Instruct (retires Nov 2)'
   has id
     'nousresearch/hermes-3-llama-3.1-405b'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'nousresearch'
   status
-    active
+    deprecated
   released at
     2024-08-16
   last updated at
     2024-08-16
+  has knowledge cutoff at
+    2023-12-31
   weights
     open
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input

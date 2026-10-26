@@ -21,6 +21,7 @@ model 'GPT-5.2'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -38,8 +39,8 @@ model 'GPT-5.2'
       '128 000'
   costs
     input
-      1.8
+      1.75
     output
-      15.5
+      14
     cacheRead
-      0.18
+      0.175

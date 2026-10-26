@@ -5,12 +5,14 @@ model 'Kimi-K2.6'
     'poe'
   provided by
     'Poe'
+  family
+    'kimi-k2'
   status
     active
   released at
     2026-04-20
   last updated at
-    2026-05-02
+    2026-04-20
   has knowledge cutoff at
     2025-04
   weights
@@ -36,8 +38,8 @@ model 'Kimi-K2.6'
       '262 144'
   costs
     input
-      0.96
+      0.9596
     output
-      4.04
+      4.0404
     cacheRead
-      0.16
+      0.1616

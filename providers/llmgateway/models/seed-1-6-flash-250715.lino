@@ -4,7 +4,7 @@ model 'Seed 1.6 Flash (250715)'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'seed'
   status

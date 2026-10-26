@@ -1,0 +1,44 @@
+model 'DeepSeek V4.1 Flash Fast'
+  has id
+    'deepseek-ai/DeepSeek-V4.1-Flash-Fast'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '32 768'
+  costs
+    input
+      0.6
+    output
+      2.4
+    cacheRead
+      0.014

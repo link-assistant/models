@@ -4,13 +4,15 @@ model 'Qwen3 Omni 30B A3B Thinking'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
+  family
+    'qwen'
   status
     active
   released at
-    2025-09-24
+    2025-09-22
   last updated at
-    2025-09-24
+    2025-09-22
   weights
     open
   capabilities
@@ -23,7 +25,7 @@ model 'Qwen3 Omni 30B A3B Thinking'
     )
   modalities
     input
-      text audio video image
+      text image video audio
     output
       text
   limits
@@ -38,5 +40,3 @@ model 'Qwen3 Omni 30B A3B Thinking'
       0.97
     inputAudio
       2.2
-    outputAudio
-      1.788

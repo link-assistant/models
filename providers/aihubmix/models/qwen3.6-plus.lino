@@ -6,13 +6,13 @@ model 'Qwen3.6 Plus'
   provided by
     'AIHubMix'
   family
-    'qwen3.6'
+    'qwen'
   status
     active
   released at
-    2026-05-09
+    2026-04-02
   last updated at
-    2026-05-09
+    2026-04-02
   has knowledge cutoff at
     2025-04
   weights
@@ -35,12 +35,12 @@ model 'Qwen3.6 Plus'
     context
       '991 000'
     output
-      '64 000'
+      '65 536'
   costs
     input
-      0.28
+      0.282
     output
-      1.69
+      1.692
     cacheRead
       0.0282
     cacheWrite

@@ -8,7 +8,7 @@ model 'GPT-5 Mini'
   family
     'gpt-mini'
   status
-    active
+    experimental
   released at
     2025-08-07
   last updated at
@@ -26,7 +26,7 @@ model 'GPT-5 Mini'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

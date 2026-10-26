@@ -15,10 +15,6 @@ model 'Text Multilingual Embedding 002'
     2024-03
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -28,4 +24,4 @@ model 'Text Multilingual Embedding 002'
     context
       8192
     output
-      1536
+      0

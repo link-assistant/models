@@ -8,11 +8,13 @@ model 'gemini-2.5-flash-lite-preview-06-17'
   family
     'gemini-flash-lite'
   status
-    active
+    deprecated
   released at
-    2026-01
+    2025-06-17
   last updated at
-    2026-01
+    2025-06-17
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -25,7 +27,7 @@ model 'gemini-2.5-flash-lite-preview-06-17'
     )
   modalities
     input
-      text video image audio
+      text image audio video
     output
       text
   limits

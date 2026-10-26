@@ -40,4 +40,4 @@ model 'GLM-4.6V'
     output
       0.9
     cacheRead
-      0.055
+      0.05

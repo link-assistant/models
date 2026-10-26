@@ -1,0 +1,34 @@
+model 'Llama Prompt Guard 2 86M (Groq)'
+  has id
+    'groq/meta-llama/llama-prompt-guard-2-86m'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-29
+  last updated at
+    2025-04-29
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      512
+    output
+      512
+  costs
+    input
+      0.04
+    output
+      0.04
+    cacheRead
+      0.02

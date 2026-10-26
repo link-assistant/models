@@ -14,7 +14,7 @@ model 'OpenReasoning Nemotron 32B'
   last updated at
     2025-08-21
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -36,3 +36,5 @@ model 'OpenReasoning Nemotron 32B'
       0.1
     output
       0.4
+    cacheRead
+      0.05

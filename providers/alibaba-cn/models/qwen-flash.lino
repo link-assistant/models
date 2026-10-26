@@ -22,6 +22,7 @@ model 'Qwen Flash'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -38,3 +39,7 @@ model 'Qwen Flash'
       0.022
     output
       0.216
+    cacheRead
+      0.0044
+    cacheWrite
+      0.0275

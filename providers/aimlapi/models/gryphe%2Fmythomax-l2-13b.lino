@@ -1,0 +1,36 @@
+model 'MythoMax 13B'
+  has id
+    'gryphe/mythomax-l2-13b'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  status
+    active
+  released at
+    2023-08-10
+  last updated at
+    2023-08-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      4096
+  costs
+    input
+      1.98375
+    output
+      1.98375
+    cacheRead
+      1.98375

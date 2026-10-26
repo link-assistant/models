@@ -1,0 +1,40 @@
+model 'Step 5 Preview'
+  has id
+    'stepfun-ai/step-5-preview'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  status
+    active
+  released at
+    2026-09-16
+  last updated at
+    2026-09-20
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0
+    output
+      0

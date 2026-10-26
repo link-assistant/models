@@ -22,7 +22,7 @@ model 'text-embedding-3-small'
       text
   limits
     context
-      8191
+      8192
     output
       1536
   costs

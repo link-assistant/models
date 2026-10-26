@@ -1,0 +1,32 @@
+model 'Synth 2.5 Pro Preview'
+  has id
+    'synth-2.5-pro'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-09-05
+  last updated at
+    2026-09-05
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '30 000'
+    input
+      '30 000'
+    output
+      '30 000'
+  costs
+    input
+      0.1
+    output
+      0.2

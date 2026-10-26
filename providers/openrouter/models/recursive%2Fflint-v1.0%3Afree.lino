@@ -1,0 +1,38 @@
+model 'Flint (free)'
+  has id
+    'recursive/flint-v1.0:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'flint'
+  status
+    active
+  released at
+    2026-10-21
+  last updated at
+    2026-10-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '235 929'
+  costs
+    input
+      0
+    output
+      0

@@ -5,12 +5,16 @@ model 'GPT-5.2-Pro'
     'poe'
   provided by
     'Poe'
+  family
+    'gpt-pro'
   status
     active
   released at
     2025-12-11
   last updated at
     2025-12-11
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
@@ -27,10 +31,12 @@ model 'GPT-5.2-Pro'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
     input
-      19
+      19.0909
     output
-      150
+      152.7273
