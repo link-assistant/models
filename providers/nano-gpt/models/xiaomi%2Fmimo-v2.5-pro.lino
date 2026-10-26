@@ -5,18 +5,23 @@ model 'MiMo V2.5 Pro'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'mimo'
   status
     active
   released at
     2026-04-22
   last updated at
     2026-04-22
+  has knowledge cutoff at
+    2024-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -38,3 +43,5 @@ model 'MiMo V2.5 Pro'
       0.87
     cacheRead
       0.0036
+    cacheWrite
+      0

@@ -8,11 +8,13 @@ model 'GPT-4.1-nano'
   family
     'gpt-nano'
   status
-    active
+    deprecated
   released at
-    2025-04-15
+    2025-04-14
   last updated at
-    2025-04-15
+    2025-04-14
+  has knowledge cutoff at
+    2024-04
   weights
     closed
   capabilities

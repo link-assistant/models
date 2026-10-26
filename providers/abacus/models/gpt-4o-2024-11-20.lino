@@ -8,7 +8,7 @@ model 'GPT-4o (2024-11-20)'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
     2024-11-20
   last updated at
@@ -25,7 +25,7 @@ model 'GPT-4o (2024-11-20)'
     )
   modalities
     input
-      text image audio
+      text image
     output
       text
   limits

@@ -1,0 +1,40 @@
+model 'kolibri-1'
+  has id
+    'kolibri-1'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2026-10-03
+  last updated at
+    2026-10-03
+  has knowledge cutoff at
+    2026-06-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '81 920'
+  costs
+    input
+      0.167
+    output
+      0.613
+    cacheRead
+      0.084

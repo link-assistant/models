@@ -1,16 +1,20 @@
-model 'OpenAI: o3'
+model 'o3'
   has id
     'openai/o3'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'o'
   status
     active
   released at
     2025-04-16
   last updated at
-    2026-03-15
+    2025-04-16
+  has knowledge cutoff at
+    2024-05
   weights
     closed
   capabilities
@@ -18,10 +22,11 @@ model 'OpenAI: o3'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
-      image pdf text
+      text image pdf
     output
       text
   limits

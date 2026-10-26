@@ -10,13 +10,16 @@ model 'Qwen2.5 VL 72B TEE'
   status
     active
   released at
-    2025-02-01
+    2025-01-26
   last updated at
-    2025-02-01
+    2025-01-26
+  has knowledge cutoff at
+    2024-04
   weights
-    closed
+    open
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -36,3 +39,5 @@ model 'Qwen2.5 VL 72B TEE'
       0.7
     output
       0.7
+    cacheRead
+      0.35

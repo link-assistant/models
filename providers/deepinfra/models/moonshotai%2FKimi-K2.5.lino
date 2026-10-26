@@ -8,7 +8,7 @@ model 'Kimi K2.5'
   family
     'kimi-k2'
   status
-    active
+    deprecated
   released at
     2026-01-27
   last updated at

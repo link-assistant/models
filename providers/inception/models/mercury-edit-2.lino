@@ -5,6 +5,8 @@ model 'Mercury Edit 2'
     'inception'
   provided by
     'Inception'
+  family
+    'mercury'
   status
     active
   released at
@@ -15,7 +17,6 @@ model 'Mercury Edit 2'
     closed
   capabilities
     (
-      reasoning
       temperature
     )
   modalities
@@ -25,7 +26,7 @@ model 'Mercury Edit 2'
       text
   limits
     context
-      '128 000'
+      '32 000'
     output
       8192
   costs

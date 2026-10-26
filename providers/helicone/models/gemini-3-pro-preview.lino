@@ -22,6 +22,7 @@ model 'Google Gemini 3 Pro Preview'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -39,4 +40,4 @@ model 'Google Gemini 3 Pro Preview'
     output
       12
     cacheRead
-      0.19999999999999998
+      0.2

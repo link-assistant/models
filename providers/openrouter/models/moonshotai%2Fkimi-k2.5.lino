@@ -10,9 +10,9 @@ model 'Kimi K2.5'
   status
     active
   released at
-    2026-01
+    2026-01-27
   last updated at
-    2026-01
+    2026-01-27
   has knowledge cutoff at
     2025-01
   weights
@@ -35,11 +35,11 @@ model 'Kimi K2.5'
     context
       '262 144'
     output
-      '256 000'
+      '235 929'
   costs
     input
-      0.375
+      0.5
     output
-      2.025
+      2.5
     cacheRead
-      0.203
+      0.15

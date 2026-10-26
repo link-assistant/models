@@ -17,11 +17,11 @@ model 'Kling v3.0 Motion Control'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image video
     output
       video
   limits

@@ -8,7 +8,7 @@ model 'o4-mini'
   family
     'o-mini'
   status
-    active
+    deprecated
   released at
     2025-04-16
   last updated at
@@ -26,12 +26,14 @@ model 'o4-mini'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
       '200 000'
+    input
+      '100 000'
     output
       '100 000'
   costs

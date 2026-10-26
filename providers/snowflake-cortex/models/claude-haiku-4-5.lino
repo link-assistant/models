@@ -23,14 +23,24 @@ model 'Claude Haiku 4.5 (latest)'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
     context
       '200 000'
     output
-      '16 384'
+      '64 000'
+  costs
+    input
+      1
+    output
+      5
+    cacheRead
+      0.1
+    cacheWrite
+      1.25

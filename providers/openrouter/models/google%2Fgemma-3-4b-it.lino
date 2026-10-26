@@ -1,4 +1,4 @@
-model 'Gemma 3 4B'
+model 'Gemma 3 4B IT'
   has id
     'google/gemma-3-4b-it'
   provider id
@@ -10,11 +10,11 @@ model 'Gemma 3 4B'
   status
     active
   released at
-    2025-03-13
+    2025-03-12
   last updated at
-    2025-03-13
+    2025-03-12
   has knowledge cutoff at
-    2024-08-31
+    2024-08
   weights
     open
   capabilities
@@ -32,9 +32,11 @@ model 'Gemma 3 4B'
     context
       '131 072'
     output
-      '16 384'
+      '117 964'
   costs
     input
-      0.05
+      0.04
     output
-      0.1
+      0.05
+    cacheRead
+      0.02

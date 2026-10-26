@@ -21,6 +21,7 @@ model 'Step 3.7 Flash'
       tool calls
       temperature
       attachments
+      structured output
       interleaved output
     )
   modalities

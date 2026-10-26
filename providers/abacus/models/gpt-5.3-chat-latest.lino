@@ -8,16 +8,17 @@ model 'GPT-5.3 Chat Latest'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
-    2026-03-01
+    2026-03-03
   last updated at
-    2026-03-01
+    2026-03-03
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments

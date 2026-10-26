@@ -22,6 +22,7 @@ model 'Moonshot Kimi K2.5'
       reasoning
       tool calls
       temperature
+      attachments
       interleaved output
     )
   modalities
@@ -38,4 +39,8 @@ model 'Moonshot Kimi K2.5'
     input
       0.574
     output
-      2.411
+      3.011
+    cacheRead
+      0.1148
+    cacheWrite
+      0.7175

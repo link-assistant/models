@@ -15,10 +15,6 @@ model 'Kling v2.6 Text-to-Video'
     2025-12-21
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text

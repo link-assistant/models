@@ -13,6 +13,8 @@ model 'Llama 3.3 70B Instruct'
     2024-12-06
   last updated at
     2024-12-06
+  has knowledge cutoff at
+    2023-12
   weights
     open
   capabilities

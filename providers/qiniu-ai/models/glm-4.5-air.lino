@@ -5,14 +5,18 @@ model 'GLM 4.5 Air'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'glm-air'
   status
-    active
+    deprecated
   released at
-    2025-08-05
+    2025-07-28
   last updated at
-    2025-08-05
+    2025-07-28
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning

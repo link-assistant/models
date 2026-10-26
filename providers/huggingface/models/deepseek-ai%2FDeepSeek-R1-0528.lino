@@ -32,7 +32,7 @@ model 'DeepSeek-R1-0528'
     context
       '163 840'
     output
-      '163 840'
+      '32 768'
   costs
     input
       3

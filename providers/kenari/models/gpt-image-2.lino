@@ -29,8 +29,3 @@ model 'GPT-Image-2'
       '272 000'
     output
       '16 384'
-  costs
-    input
-      0
-    output
-      0

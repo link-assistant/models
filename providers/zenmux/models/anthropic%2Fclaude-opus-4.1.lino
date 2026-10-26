@@ -5,6 +5,8 @@ model 'Claude Opus 4.1'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'claude-opus'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Claude Opus 4.1'
   last updated at
     2025-08-05
   has knowledge cutoff at
-    2025-01-01
+    2025-03-31
   weights
     closed
   capabilities
@@ -24,14 +26,14 @@ model 'Claude Opus 4.1'
     )
   modalities
     input
-      image text pdf
+      text image pdf
     output
       text
   limits
     context
       '200 000'
     output
-      '64 000'
+      '32 000'
   costs
     input
       15

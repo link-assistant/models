@@ -1,0 +1,40 @@
+model 'Hermes 3 405B Instruct (Deep Infra)'
+  has id
+    'deepinfra/NousResearch/Hermes-3-Llama-3.1-405B'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'nousresearch'
+  status
+    active
+  released at
+    2024-08-16
+  last updated at
+    2024-08-16
+  has knowledge cutoff at
+    2023-12-31
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      1
+    output
+      1

@@ -33,4 +33,4 @@ model 'Qwen3-VL Embedding 8B'
     input
       0.09
     output
-      0.09
+      0

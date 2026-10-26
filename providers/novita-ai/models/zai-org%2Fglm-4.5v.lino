@@ -1,12 +1,12 @@
-model 'GLM 4.5V'
+model 'GLM-4.5V'
   has id
     'zai-org/glm-4.5v'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
-    'glmv'
+    'glm'
   status
     active
   released at
@@ -24,10 +24,11 @@ model 'GLM 4.5V'
       temperature
       attachments
       structured output
+      interleaved output
     )
   modalities
     input
-      text video image
+      text image video
     output
       text
   limits

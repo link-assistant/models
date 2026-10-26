@@ -10,14 +10,15 @@ model 'Kimi K2 Instruct'
   status
     active
   released at
-    2025-07-01
+    2025-07-11
   last updated at
-    2025-07-01
+    2025-07-11
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -34,6 +35,8 @@ model 'Kimi K2 Instruct'
       8192
   costs
     input
-      0.1
+      0.4
     output
-      2
+      1.8
+    cacheRead
+      0.2

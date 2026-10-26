@@ -6,13 +6,13 @@ model 'DeepSeek V4 Pro'
   provided by
     'Venice AI'
   family
-    'deepseek'
+    'deepseek-thinking'
   status
     active
   released at
     2026-04-24
   last updated at
-    2026-06-11
+    2026-04-24
   has knowledge cutoff at
     2025-05
   weights

@@ -21,10 +21,12 @@ model 'Codestral (latest)'
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
@@ -37,3 +39,5 @@ model 'Codestral (latest)'
       0.3
     output
       0.9
+    cacheRead
+      0.03

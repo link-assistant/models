@@ -38,3 +38,5 @@ model 'Qwen3.5 35B-A3B'
       0.057
     output
       0.459
+    cacheRead
+      0.057

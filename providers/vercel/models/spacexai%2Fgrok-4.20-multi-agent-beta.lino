@@ -1,0 +1,40 @@
+model 'Grok 4.20 Multi Agent Beta'
+  has id
+    'spacexai/grok-4.20-multi-agent-beta'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-03-11
+  last updated at
+    2026-03-11
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '2 000 000'
+  costs
+    input
+      1.25
+    output
+      2.5
+    cacheRead
+      0.2

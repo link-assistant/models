@@ -1,0 +1,39 @@
+model 'Inkling (free)'
+  has id
+    'thinkingmachines/inkling:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

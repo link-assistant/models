@@ -21,7 +21,6 @@ model 'Kimi K2.7 Code Highspeed'
     (
       reasoning
       tool calls
-      attachments
       structured output
       interleaved output
     )

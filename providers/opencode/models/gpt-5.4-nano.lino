@@ -4,7 +4,7 @@ model 'GPT-5.4 Nano'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'gpt-nano'
   status
@@ -21,6 +21,7 @@ model 'GPT-5.4 Nano'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )

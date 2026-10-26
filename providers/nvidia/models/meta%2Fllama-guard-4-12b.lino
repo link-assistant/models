@@ -10,9 +10,9 @@ model 'Llama Guard 4 12B'
   status
     active
   released at
-    2025-04-05
+    2025-04-29
   last updated at
-    2026-04-30
+    2025-04-29
   weights
     open
   capabilities
@@ -27,7 +27,7 @@ model 'Llama Guard 4 12B'
       text
   limits
     context
-      '128 000'
+      '163 840'
     output
       '16 384'
   costs

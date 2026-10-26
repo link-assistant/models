@@ -1,0 +1,42 @@
+model 'Solar Pro 3'
+  has id
+    'upstage/solar-pro-3'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'solar-pro'
+  status
+    active
+  released at
+    2026-01-26
+  last updated at
+    2026-03-23
+  has knowledge cutoff at
+    2025-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.1587
+    output
+      0.6348
+    cacheRead
+      0.01587

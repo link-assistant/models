@@ -19,8 +19,10 @@ model 'Mistral Small 3.1 24B'
     open
   capabilities
     (
+      tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -31,7 +33,7 @@ model 'Mistral Small 3.1 24B'
     context
       '128 000'
     output
-      '128 000'
+      '102 400'
   costs
     input
       0.351

@@ -22,6 +22,9 @@ model 'Qwen3.6 Plus'
       reasoning
       tool calls
       temperature
+      attachments
+      structured output
+      interleaved output
     )
   modalities
     input

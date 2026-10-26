@@ -13,6 +13,8 @@ model 'Gemma 4 31B IT'
     2026-04-02
   last updated at
     2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -32,11 +34,11 @@ model 'Gemma 4 31B IT'
     context
       '262 144'
     output
-      '262 144'
+      '235 929'
   costs
     input
-      0.12
+      0.1
     output
-      0.35
+      0.34
     cacheRead
-      0.09
+      0.1

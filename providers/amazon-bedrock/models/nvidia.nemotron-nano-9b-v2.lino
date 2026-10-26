@@ -8,13 +8,15 @@ model 'NVIDIA Nemotron Nano 9B v2'
   family
     'nemotron'
   status
-    active
+    deprecated
   released at
-    2024-12-01
+    2025-08-18
   last updated at
-    2024-12-01
+    2025-08-18
+  has knowledge cutoff at
+    2024-09
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -28,9 +30,9 @@ model 'NVIDIA Nemotron Nano 9B v2'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      4096
+      8192
   costs
     input
       0.06

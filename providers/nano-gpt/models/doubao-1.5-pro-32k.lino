@@ -8,7 +8,7 @@ model 'Doubao 1.5 Pro 32k'
   status
     active
   released at
-    2025-01-22
+    2024-11-20
   last updated at
     2025-01-22
   weights
@@ -30,3 +30,5 @@ model 'Doubao 1.5 Pro 32k'
       0.1343
     output
       0.3349
+    cacheRead
+      0.06715

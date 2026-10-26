@@ -1,4 +1,4 @@
-model 'GPT Oss 120b'
+model 'GPT OSS 120B'
   has id
     'gpt-oss-120b'
   provider id
@@ -14,7 +14,7 @@ model 'GPT Oss 120b'
   last updated at
     2025-08-05
   has knowledge cutoff at
-    2024-01
+    2024-06
   weights
     open
   capabilities
@@ -22,6 +22,7 @@ model 'GPT Oss 120b'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,11 +31,13 @@ model 'GPT Oss 120b'
       text
   limits
     context
-      '128 000'
+      '131 000'
     output
-      '128 000'
+      '131 000'
   costs
     input
-      0
+      0.089
     output
-      0
+      0.446
+    cacheRead
+      0.01

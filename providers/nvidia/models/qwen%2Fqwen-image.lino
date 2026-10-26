@@ -15,14 +15,9 @@ model 'Qwen Image'
     2025-08-07
   weights
     closed
-  capabilities
-    (
-      temperature
-      attachments
-    )
   modalities
     input
-      text image
+      text
     output
       image
   limits

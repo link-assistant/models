@@ -17,7 +17,6 @@ model 'Qwen Image Edit'
     closed
   capabilities
     (
-      temperature
       attachments
     )
   modalities

@@ -1,4 +1,4 @@
-model 'MiniMax M2-her'
+model 'MiniMax-M2 Her'
   has id
     'minimax/minimax-m2-her'
   provider id

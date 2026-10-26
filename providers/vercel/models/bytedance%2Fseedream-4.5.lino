@@ -15,10 +15,6 @@ model 'Seedream 4.5'
     2025-11-28
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text

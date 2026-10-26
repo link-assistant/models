@@ -5,12 +5,16 @@ model 'GPT-5.3-Codex'
     'poe'
   provided by
     'Poe'
+  family
+    'gpt-codex'
   status
     active
   released at
-    2026-02-10
+    2026-02-05
   last updated at
-    2026-02-10
+    2026-02-05
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
@@ -27,12 +31,14 @@ model 'GPT-5.3-Codex'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
     input
-      1.6
+      1.5909
     output
-      13
+      12.7273
     cacheRead
-      0.16
+      0.1591

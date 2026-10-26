@@ -19,7 +19,6 @@ model 'Qwen Plus Character'
     closed
   capabilities
     (
-      tool calls
       temperature
     )
   modalities

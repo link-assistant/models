@@ -1,16 +1,18 @@
-model 'Anthropic: Claude Opus 4.6'
+model 'Claude Opus 4.6'
   has id
     'anthropic/claude-opus-4.6'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'claude-opus'
   status
     active
   released at
     2026-02-05
   last updated at
-    2026-02-05
+    2026-03-13
   has knowledge cutoff at
     2025-05-31
   weights
@@ -21,10 +23,11 @@ model 'Anthropic: Claude Opus 4.6'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

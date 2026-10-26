@@ -10,9 +10,9 @@ model 'Llama 4 Maverick 17B 128E Instruct'
   status
     active
   released at
-    2025-01-15
+    2025-04-05
   last updated at
-    2025-01-15
+    2025-04-05
   has knowledge cutoff at
     2024-12
   weights
@@ -21,6 +21,7 @@ model 'Llama 4 Maverick 17B 128E Instruct'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -34,10 +35,8 @@ model 'Llama 4 Maverick 17B 128E Instruct'
       4096
   costs
     input
-      0.15
+      0.26875
     output
-      0.6
+      0.82625
     cacheRead
-      0.075
-    cacheWrite
-      0.3
+      0.134375

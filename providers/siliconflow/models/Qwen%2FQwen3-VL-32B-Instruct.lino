@@ -14,7 +14,7 @@ model 'Qwen/Qwen3-VL-32B-Instruct'
   last updated at
     2025-11-25
   weights
-    closed
+    open
   capabilities
     (
       tool calls

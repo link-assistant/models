@@ -1,0 +1,43 @@
+model 'DeepSeek V4.1 Flash (Greenpt)'
+  has id
+    'greenpt/deepseek-v4.1-flash'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.246246
+    output
+      1.231229
+    cacheRead
+      0.012312

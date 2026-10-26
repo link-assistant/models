@@ -1,0 +1,42 @@
+model 'Seed 2.1 Turbo'
+  has id
+    'seed-2-1-turbo'
+  provider id
+    'empiriolabs'
+  provided by
+    'EmpirioLabs AI'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-06-23
+  last updated at
+    2026-06-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '65 536'
+  costs
+    input
+      0.63
+    output
+      3.13
+    cacheRead
+      0.63

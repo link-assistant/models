@@ -5,14 +5,20 @@ model 'Magistral Small 2506'
     'nvidia'
   provided by
     'Nvidia'
+  family
+    'magistral'
   status
-    active
+    deprecated
   released at
-    2025-09-25
+    2025-06-10
   last updated at
-    2025-09-25
+    2025-06-10
   weights
-    closed
+    open
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text

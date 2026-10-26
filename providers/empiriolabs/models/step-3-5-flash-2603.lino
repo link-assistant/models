@@ -5,6 +5,8 @@ model 'Step 3.5 Flash 2603'
     'empiriolabs'
   provided by
     'EmpirioLabs AI'
+  family
+    'step'
   status
     active
   released at
@@ -20,7 +22,6 @@ model 'Step 3.5 Flash 2603'
       reasoning
       tool calls
       temperature
-      structured output
     )
   modalities
     input

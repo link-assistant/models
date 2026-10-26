@@ -1,0 +1,40 @@
+model 'MiniCPM-V 4.7 1B'
+  has id
+    'MiniCPM-V-4.7-1B'
+  provider id
+    'amd'
+  provided by
+    'AMD'
+  status
+    active
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

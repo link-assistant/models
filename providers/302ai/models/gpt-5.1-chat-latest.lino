@@ -6,13 +6,13 @@ model 'gpt-5.1-chat-latest'
   provided by
     '302.AI'
   family
-    'gpt-codex'
+    'gpt'
   status
     active
   released at
-    2025-11-14
+    2025-11-13
   last updated at
-    2025-11-14
+    2025-11-13
   has knowledge cutoff at
     2024-09-30
   weights

@@ -5,6 +5,8 @@ model 'Step 3.5 Flash'
     'openrouter'
   provided by
     'OpenRouter'
+  family
+    'step'
   status
     active
   released at

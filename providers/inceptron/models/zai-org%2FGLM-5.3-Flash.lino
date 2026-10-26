@@ -1,0 +1,44 @@
+model 'GLM 5.3 Flash'
+  has id
+    'zai-org/GLM-5.3-Flash'
+  provider id
+    'inceptron'
+  provided by
+    'Inceptron'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.15
+    output
+      0.55
+    cacheRead
+      0.05
+    cacheWrite
+      0

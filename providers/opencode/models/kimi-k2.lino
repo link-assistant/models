@@ -4,7 +4,7 @@ model 'Kimi K2'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'kimi-k2'
   status

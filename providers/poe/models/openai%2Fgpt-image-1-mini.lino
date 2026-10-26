@@ -6,13 +6,13 @@ model 'GPT-Image-1-Mini'
   provided by
     'Poe'
   family
-    'gpt'
+    'gpt-image'
   status
     active
   released at
-    2025-08-26
+    2025-10-06
   last updated at
-    2025-08-26
+    2025-10-06
   weights
     closed
   capabilities

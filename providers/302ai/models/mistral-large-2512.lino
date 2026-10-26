@@ -5,16 +5,18 @@ model 'mistral-large-2512'
     '302ai'
   provided by
     '302.AI'
+  family
+    'mistral-large'
   status
     active
   released at
-    2025-12-16
+    2025-12-02
   last updated at
-    2025-12-16
+    2025-12-02
   has knowledge cutoff at
     2024-12
   weights
-    closed
+    open
   capabilities
     (
       tool calls

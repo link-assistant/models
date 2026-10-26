@@ -1,0 +1,44 @@
+model 'DeepSeek v4.1 Flash (1017)'
+  has id
+    'deepseek-v4-1-flash-1017'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.0075

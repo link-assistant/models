@@ -5,6 +5,8 @@ model 'Claude Haiku 4.5'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'claude-haiku'
   status
     active
   released at
@@ -12,18 +14,19 @@ model 'Claude Haiku 4.5'
   last updated at
     2025-10-15
   has knowledge cutoff at
-    2025-01-01
+    2025-02-28
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
     )
   modalities
     input
-      image text
+      text image pdf
     output
       text
   limits

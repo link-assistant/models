@@ -1,4 +1,4 @@
-model 'Morph v3 Large'
+model 'Morph V3 Large'
   has id
     'morph/morph-v3-large'
   provider id
@@ -10,11 +10,15 @@ model 'Morph v3 Large'
   status
     active
   released at
-    2024-08-15
+    2025-07-07
   last updated at
-    2024-08-15
+    2025-07-07
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -22,9 +26,9 @@ model 'Morph v3 Large'
       text
   limits
     context
-      '32 000'
+      '262 144'
     output
-      '32 000'
+      '131 072'
   costs
     input
       0.9

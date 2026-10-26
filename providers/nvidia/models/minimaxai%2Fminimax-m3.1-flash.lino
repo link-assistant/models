@@ -1,0 +1,41 @@
+model 'MiniMax-M3.1-Flash'
+  has id
+    'minimaxai/minimax-m3.1-flash'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-10-19
+  last updated at
+    2026-10-19
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

@@ -1,10 +1,12 @@
-model 'MiniMax: MiniMax M2.1'
+model 'MiniMax-M2.1'
   has id
     'minimax/minimax-m2.1'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'minimax'
   status
     active
   released at
@@ -26,13 +28,13 @@ model 'MiniMax: MiniMax M2.1'
       text
   limits
     context
-      '196 608'
+      '204 800'
     output
-      '39 322'
+      '131 072'
   costs
     input
-      0.27
+      0.3
     output
-      0.95
+      1.2
     cacheRead
       0.03

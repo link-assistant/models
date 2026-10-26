@@ -10,9 +10,11 @@ model 'Google Gemma 4 31B Instruct'
   status
     active
   released at
-    2026-04-03
+    2026-04-02
   last updated at
-    2026-06-11
+    2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities

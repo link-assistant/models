@@ -15,10 +15,6 @@ model 'text-embedding-3-large'
     2024-01-25
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -27,7 +23,5 @@ model 'text-embedding-3-large'
   limits
     context
       8192
-    input
-      6656
     output
-      1536
+      0

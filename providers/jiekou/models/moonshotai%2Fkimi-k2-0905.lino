@@ -10,9 +10,9 @@ model 'Kimi K2 0905'
   status
     active
   released at
-    2026-01
+    2025-09-05
   last updated at
-    2026-01
+    2025-09-05
   weights
     open
   capabilities
@@ -30,7 +30,7 @@ model 'Kimi K2 0905'
     context
       '262 144'
     output
-      '262 144'
+      '100 352'
   costs
     input
       0.6

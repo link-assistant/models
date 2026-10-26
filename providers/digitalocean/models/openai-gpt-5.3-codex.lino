@@ -1,4 +1,4 @@
-model 'GPT-5.3 Codex'
+model 'OpenAI GPT-5.3 Codex'
   has id
     'openai-gpt-5.3-codex'
   provider id
@@ -26,12 +26,14 @@ model 'GPT-5.3 Codex'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

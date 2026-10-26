@@ -12,9 +12,9 @@ model 'Nova 2 Lite'
   released at
     2025-12-02
   last updated at
-    2024-12-01
+    2025-12-01
   has knowledge cutoff at
-    2024-10
+    2025-10
   weights
     closed
   capabilities
@@ -32,11 +32,11 @@ model 'Nova 2 Lite'
     context
       '1 000 000'
     output
-      '1 000 000'
+      '65 535'
   costs
     input
-      0.3
+      0.33
     output
-      2.5
+      2.75
     cacheRead
-      0.075
+      0.0825

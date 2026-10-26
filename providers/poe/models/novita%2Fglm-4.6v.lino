@@ -5,14 +5,18 @@ model 'glm-4.6v'
     'poe'
   provided by
     'Poe'
+  family
+    'glm'
   status
     active
   released at
-    2025-12-09
+    2025-12-08
   last updated at
-    2025-12-09
+    2025-12-08
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning

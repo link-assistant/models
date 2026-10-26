@@ -35,8 +35,10 @@ model 'GLM-5.2'
       '262 000'
   costs
     input
-      1.4
+      1.19557982
     output
-      4.4
+      4.18452938
+    cacheRead
+      0.29889496
     cacheWrite
       0

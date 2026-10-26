@@ -15,6 +15,11 @@ model 'Whisper Large v3'
     2023-11-06
   weights
     open
+  capabilities
+    (
+      temperature
+      attachments
+    )
   modalities
     input
       audio
@@ -29,4 +34,4 @@ model 'Whisper Large v3'
     input
       0.01
     output
-      0
+      0.01

@@ -10,15 +10,16 @@ model 'GLM 4.6'
   status
     active
   released at
-    2024-11-15
+    2025-09-30
   last updated at
-    2024-11-15
+    2025-09-30
   has knowledge cutoff at
     2024-10
   weights
-    closed
+    open
   capabilities
     (
+      reasoning
       tool calls
       temperature
     )
@@ -34,10 +35,8 @@ model 'GLM 4.6'
       4096
   costs
     input
-      0.4
+      0.52
     output
-      1.75
+      2.0375
     cacheRead
-      0.2
-    cacheWrite
-      0.8
+      0.26

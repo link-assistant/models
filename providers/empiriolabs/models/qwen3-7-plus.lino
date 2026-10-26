@@ -12,7 +12,7 @@ model 'Qwen3.7 Plus'
   released at
     2026-06-02
   last updated at
-    2026-06-12
+    2026-06-02
   has knowledge cutoff at
     2025-04
   weights
@@ -40,3 +40,5 @@ model 'Qwen3.7 Plus'
       0.4
     output
       1.6
+    cacheRead
+      0.4

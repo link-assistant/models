@@ -5,12 +5,14 @@ model 'X-Ai/Grok 4.1 Fast Reasoning'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'grok'
   status
-    active
+    deprecated
   released at
-    2025-12-19
+    2025-11-19
   last updated at
-    2025-12-19
+    2025-11-19
   weights
     closed
   capabilities
@@ -22,7 +24,7 @@ model 'X-Ai/Grok 4.1 Fast Reasoning'
     )
   modalities
     input
-      text image audio video
+      text image
     output
       text
   limits

@@ -1,0 +1,37 @@
+model 'Iceman Contributor Free'
+  has id
+    'iceman-contributor-free'
+  provider id
+    'opencode-go'
+  provided by
+    'OpenCode Go'
+  status
+    active
+  released at
+    2026-10-24
+  last updated at
+    2026-10-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

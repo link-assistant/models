@@ -1,0 +1,39 @@
+model 'Llama 4 Maverick 17B Instruct (NovitaAI)'
+  has id
+    'novita/llama-4-maverick-17b-instruct'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-05
+  last updated at
+    2025-04-05
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      8192
+  costs
+    input
+      0.27
+    output
+      0.85

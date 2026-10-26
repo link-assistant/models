@@ -23,14 +23,24 @@ model 'Claude Sonnet 4.5 (latest)'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
     context
       '200 000'
     output
-      '16 384'
+      '64 000'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

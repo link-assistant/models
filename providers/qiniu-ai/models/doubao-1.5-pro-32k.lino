@@ -6,7 +6,7 @@ model 'Doubao 1.5 Pro 32k'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2025-08-05
   last updated at
@@ -17,6 +17,7 @@ model 'Doubao 1.5 Pro 32k'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,3 +29,8 @@ model 'Doubao 1.5 Pro 32k'
       '128 000'
     output
       '12 000'
+  costs
+    input
+      0.11594203
+    output
+      0.28985507

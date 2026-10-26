@@ -5,6 +5,8 @@ model 'Step 3.5 Flash'
     'stepfun-ai-step-plan'
   provided by
     'StepFun Step Plan (Global)'
+  family
+    'step'
   status
     active
   released at

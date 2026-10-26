@@ -1,0 +1,41 @@
+model 'GLM-5.2 (Baidu)'
+  has id
+    'baidu/glm-5.2'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      1.4
+    output
+      4.4
+    cacheRead
+      0.26

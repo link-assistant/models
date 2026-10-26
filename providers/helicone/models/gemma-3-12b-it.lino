@@ -10,16 +10,17 @@ model 'Google Gemma 3 12B'
   status
     active
   released at
-    2024-12-01
+    2025-03-12
   last updated at
-    2024-12-01
+    2025-03-12
   has knowledge cutoff at
     2024-12
   weights
-    closed
+    open
   capabilities
     (
       temperature
+      attachments
     )
   modalities
     input
@@ -33,6 +34,6 @@ model 'Google Gemma 3 12B'
       8192
   costs
     input
-      0.049999999999999996
+      0.05
     output
-      0.09999999999999999
+      0.1

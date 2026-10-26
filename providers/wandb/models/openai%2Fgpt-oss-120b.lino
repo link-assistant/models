@@ -4,7 +4,7 @@ model 'gpt-oss-120b'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   family
     'gpt-oss'
   status
@@ -13,6 +13,8 @@ model 'gpt-oss-120b'
     2025-08-05
   last updated at
     2025-08-05
+  has knowledge cutoff at
+    2024-06
   weights
     open
   capabilities
@@ -34,8 +36,8 @@ model 'gpt-oss-120b'
       '131 072'
   costs
     input
-      0.04
+      0.03
     output
-      0.14
+      0.17
     cacheRead
-      0.04
+      0.03

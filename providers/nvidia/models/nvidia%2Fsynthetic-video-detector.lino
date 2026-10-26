@@ -15,7 +15,6 @@ model 'synthetic-video-detector'
     open
   capabilities
     (
-      temperature
       attachments
     )
   modalities

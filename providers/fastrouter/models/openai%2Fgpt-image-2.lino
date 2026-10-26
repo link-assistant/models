@@ -17,7 +17,6 @@ model 'GPT Image 2'
     closed
   capabilities
     (
-      temperature
       attachments
     )
   modalities

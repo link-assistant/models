@@ -5,18 +5,23 @@ model 'Nous: Hermes 4 405B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'hermes'
   status
     active
   released at
-    2025-08-25
+    2025-08-26
   last updated at
-    2025-08-25
+    2025-08-26
+  has knowledge cutoff at
+    2024-08-31
   weights
     open
   capabilities
     (
       reasoning
       temperature
+      structured output
     )
   modalities
     input
@@ -27,7 +32,7 @@ model 'Nous: Hermes 4 405B'
     context
       '131 072'
     output
-      '26 215'
+      '117 964'
   costs
     input
       1

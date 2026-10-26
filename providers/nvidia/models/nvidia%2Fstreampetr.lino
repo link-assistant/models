@@ -15,7 +15,6 @@ model 'streampetr'
     open
   capabilities
     (
-      temperature
       attachments
     )
   modalities

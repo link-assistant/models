@@ -6,7 +6,7 @@ model 'DeepSeek/DeepSeek-V3.2-Exp'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2025-09-29
   last updated at
@@ -28,3 +28,8 @@ model 'DeepSeek/DeepSeek-V3.2-Exp'
       '128 000'
     output
       '32 000'
+  costs
+    input
+      0.28985507
+    output
+      0.43478261

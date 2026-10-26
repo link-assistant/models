@@ -18,7 +18,6 @@ model 'Ideogram-v2a-Turbo'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

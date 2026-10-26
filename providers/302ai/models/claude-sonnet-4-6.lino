@@ -10,7 +10,7 @@ model 'claude-sonnet-4-6'
   status
     active
   released at
-    2026-02-18
+    2026-02-17
   last updated at
     2026-03-13
   has knowledge cutoff at
@@ -39,3 +39,7 @@ model 'claude-sonnet-4-6'
       3
     output
       15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

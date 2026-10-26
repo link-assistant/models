@@ -4,15 +4,15 @@ model 'Qwen3 235B A22B Instruct (2507)'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status
     active
   released at
-    2025-07-08
+    2025-07-21
   last updated at
-    2025-07-08
+    2025-07-21
   weights
     open
   capabilities

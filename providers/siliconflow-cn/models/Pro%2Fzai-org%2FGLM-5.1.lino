@@ -10,9 +10,9 @@ model 'Pro/zai-org/GLM-5.1'
   status
     active
   released at
-    2026-04-08
+    2026-04-07
   last updated at
-    2026-04-08
+    2026-04-07
   weights
     open
   capabilities
@@ -35,8 +35,10 @@ model 'Pro/zai-org/GLM-5.1'
       '205 000'
   costs
     input
-      1.4
+      0.89668487
     output
-      4.4
+      3.58673947
+    cacheRead
+      0.19428172
     cacheWrite
       0

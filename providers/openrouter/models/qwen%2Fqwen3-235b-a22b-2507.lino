@@ -13,8 +13,6 @@ model 'Qwen3 235B A22B Instruct 2507'
     2025-07-21
   last updated at
     2025-07-21
-  has knowledge cutoff at
-    2025-06-30
   weights
     open
   capabilities

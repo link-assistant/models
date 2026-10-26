@@ -12,11 +12,11 @@ model 'Qwen3 Coder 480B A35B Instruct'
   released at
     2025-07-22
   last updated at
-    2025-04
+    2025-07-22
   has knowledge cutoff at
     2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -32,11 +32,11 @@ model 'Qwen3 Coder 480B A35B Instruct'
     context
       '262 144'
     output
-      '65 536'
+      '32 768'
   costs
     input
-      1.5
+      0.22
     output
-      7.5
+      1.8
     cacheRead
-      0.3
+      0.022

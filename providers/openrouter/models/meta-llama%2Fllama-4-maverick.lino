@@ -14,7 +14,7 @@ model 'Llama 4 Maverick'
   last updated at
     2025-04-05
   has knowledge cutoff at
-    2024-08-31
+    2024-08
   weights
     open
   capabilities
@@ -31,11 +31,13 @@ model 'Llama 4 Maverick'
       text
   limits
     context
-      '1 048 576'
+      '524 288'
     output
       '16 384'
   costs
     input
-      0.2
+      0.1875
     output
-      0.8
+      0.6525
+    cacheRead
+      0.05

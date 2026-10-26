@@ -5,22 +5,29 @@ model 'Gemma 4 31B Thinking TEE'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemma'
   status
     active
   released at
-    2026-05-02
+    2026-04-02
   last updated at
-    2026-05-02
+    2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
+      temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
@@ -32,6 +39,8 @@ model 'Gemma 4 31B Thinking TEE'
       '131 072'
   costs
     input
-      0.45
+      0.4
     output
       1
+    cacheRead
+      0.4

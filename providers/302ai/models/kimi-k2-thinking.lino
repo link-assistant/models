@@ -5,16 +5,18 @@ model 'kimi-k2-thinking'
     '302ai'
   provided by
     '302.AI'
+  family
+    'kimi-thinking'
   status
     active
   released at
-    2025-09-05
+    2025-11-06
   last updated at
-    2025-09-05
+    2025-11-06
   has knowledge cutoff at
     2025-06
   weights
-    closed
+    open
   capabilities
     (
       reasoning

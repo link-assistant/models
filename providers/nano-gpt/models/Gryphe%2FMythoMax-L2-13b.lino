@@ -5,16 +5,18 @@ model 'MythoMax 13B'
     'nano-gpt'
   provided by
     'NanoGPT'
-  family
-    'llama'
   status
     active
   released at
-    2025-08-08
+    2023-08-10
   last updated at
-    2025-08-08
+    2023-08-10
   weights
-    closed
+    open
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -22,13 +24,15 @@ model 'MythoMax 13B'
       text
   limits
     context
-      4000
-    input
-      4000
-    output
       4096
+    input
+      4096
+    output
+      3686
   costs
     input
       0.1003
     output
       0.1003
+    cacheRead
+      0.05015

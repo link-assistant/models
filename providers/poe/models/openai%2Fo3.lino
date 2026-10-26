@@ -13,6 +13,8 @@ model 'o3'
     2025-04-16
   last updated at
     2025-04-16
+  has knowledge cutoff at
+    2024-05
   weights
     closed
   capabilities
@@ -33,8 +35,8 @@ model 'o3'
       '100 000'
   costs
     input
-      1.8
+      1.8182
     output
-      7.2
+      7.2727
     cacheRead
-      0.45
+      0.4545

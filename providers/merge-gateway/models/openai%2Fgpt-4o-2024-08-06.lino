@@ -26,7 +26,7 @@ model 'GPT-4o (2024-08-06)'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

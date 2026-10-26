@@ -1,4 +1,4 @@
-model 'Morph v3 Fast'
+model 'Morph V3 Fast'
   has id
     'morph-v3-fast'
   provider id
@@ -10,11 +10,15 @@ model 'Morph v3 Fast'
   status
     active
   released at
-    2024-08-15
+    2025-07-07
   last updated at
-    2024-08-15
+    2025-07-07
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -22,9 +26,9 @@ model 'Morph v3 Fast'
       text
   limits
     context
-      '16 000'
+      '262 144'
     output
-      '16 000'
+      '131 072'
   costs
     input
       0.8

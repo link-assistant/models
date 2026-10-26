@@ -1,0 +1,43 @@
+model 'DeepSeek V4 Pro (Alibaba Cloud)'
+  has id
+    'alibaba/deepseek-v4-pro'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '393 216'
+  costs
+    input
+      2.4
+    output
+      4.8
+    cacheRead
+      0.2

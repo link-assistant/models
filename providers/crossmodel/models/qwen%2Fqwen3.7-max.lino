@@ -20,6 +20,7 @@ model 'Qwen3.7 Max'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

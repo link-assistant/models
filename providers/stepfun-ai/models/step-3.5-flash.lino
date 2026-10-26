@@ -5,12 +5,14 @@ model 'Step 3.5 Flash'
     'stepfun-ai'
   provided by
     'StepFun (Global)'
+  family
+    'step'
   status
     active
   released at
     2026-01-29
   last updated at
-    2026-06-15
+    2026-02-13
   has knowledge cutoff at
     2025-01
   weights
@@ -20,6 +22,7 @@ model 'Step 3.5 Flash'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities

@@ -10,14 +10,14 @@ model 'FLUX.2 Klein 4B'
   status
     active
   released at
-    2026-01-14
+    2026-01-15
   last updated at
-    2026-01-14
+    2026-01-15
   weights
     open
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
@@ -26,11 +26,6 @@ model 'FLUX.2 Klein 4B'
       image
   limits
     context
-      '128 000'
+      0
     output
-      '128 000'
-  costs
-    input
-      1
-    output
-      1
+      0

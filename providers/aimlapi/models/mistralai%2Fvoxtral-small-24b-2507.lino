@@ -1,0 +1,40 @@
+model 'Voxtral Small 24B 2507'
+  has id
+    'mistralai/voxtral-small-24b-2507'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'voxtral'
+  status
+    active
+  released at
+    2025-07-15
+  last updated at
+    2025-07-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text audio
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 768'
+  costs
+    input
+      0.1058
+    output
+      0.3174
+    cacheRead
+      0.01058

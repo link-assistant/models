@@ -5,14 +5,16 @@ model 'MiniMax M1'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'minimax'
   status
     active
   released at
-    2025-06-16
+    2025-01-08
   last updated at
     2025-06-16
   weights
-    closed
+    open
   modalities
     input
       text
@@ -30,3 +32,5 @@ model 'MiniMax M1'
       0.1394
     output
       1.3328
+    cacheRead
+      0.0697

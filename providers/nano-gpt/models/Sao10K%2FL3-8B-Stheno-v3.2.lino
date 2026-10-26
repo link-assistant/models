@@ -10,11 +10,11 @@ model 'Sao10K Stheno 8b'
   status
     active
   released at
-    2024-11-29
+    2024-01-01
   last updated at
     2024-11-29
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Sao10K Stheno 8b'
       0.2006
     output
       0.2006
+    cacheRead
+      0.1003

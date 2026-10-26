@@ -1,0 +1,43 @@
+model 'Deep Research Preview (Apr-21-2026)'
+  has id
+    'deep-research-preview-04-2026'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video audio pdf
+    output
+      text image
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.2

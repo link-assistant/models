@@ -5,16 +5,18 @@ model 'MiniMax M2.5'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'minimax'
   status
     active
   released at
-    2026-02-13
+    2026-02-12
   last updated at
-    2026-02-13
+    2026-02-12
   has knowledge cutoff at
     2025-01-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning

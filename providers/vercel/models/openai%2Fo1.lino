@@ -8,7 +8,7 @@ model 'o1'
   family
     'o'
   status
-    active
+    deprecated
   released at
     2024-12-05
   last updated at
@@ -32,6 +32,8 @@ model 'o1'
   limits
     context
       '200 000'
+    input
+      '100 000'
     output
       '100 000'
   costs

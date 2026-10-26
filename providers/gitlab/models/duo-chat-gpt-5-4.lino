@@ -21,6 +21,7 @@ model 'Agentic Chat (GPT-5.4)'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )

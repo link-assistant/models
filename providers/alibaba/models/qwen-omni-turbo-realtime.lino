@@ -8,7 +8,7 @@ model 'Qwen-Omni Turbo Realtime'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2025-05-08
   last updated at
@@ -21,6 +21,7 @@ model 'Qwen-Omni Turbo Realtime'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

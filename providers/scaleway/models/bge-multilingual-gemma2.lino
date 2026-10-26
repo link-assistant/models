@@ -6,15 +6,15 @@ model 'BGE Multilingual Gemma2'
   provided by
     'Scaleway'
   family
-    'gemma'
+    'bge'
   status
     active
   released at
-    2024-07-26
+    2024-07-25
   last updated at
-    2025-06-15
+    2024-07-25
   weights
-    closed
+    open
   modalities
     input
       text
@@ -24,9 +24,9 @@ model 'BGE Multilingual Gemma2'
     context
       8191
     output
-      3072
+      0
   costs
     input
-      0.1
+      0.11215
     output
       0

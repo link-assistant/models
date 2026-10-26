@@ -8,7 +8,7 @@ model 'Gemini 3.1 Flash Lite Preview'
   family
     'gemini-flash-lite'
   status
-    active
+    deprecated
   released at
     2026-03-03
   last updated at

@@ -1,0 +1,41 @@
+model 'DiffusionGemma 26B A4B IT'
+  has id
+    'google/diffusiongemma-26b-a4b-it'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-06-09
+  last updated at
+    2026-07-15
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '250 000'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

@@ -14,7 +14,7 @@ model 'ByteDance-Seed/Seed-OSS-36B-Instruct'
   last updated at
     2025-11-25
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -33,6 +33,6 @@ model 'ByteDance-Seed/Seed-OSS-36B-Instruct'
       '262 000'
   costs
     input
-      0.21
+      0.22417122
     output
-      0.57
+      0.59778991

@@ -5,18 +5,23 @@ model 'Mistral Small 4 119B Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'mistral-small'
   status
     active
   released at
-    2026-03-17
+    2026-03-16
   last updated at
-    2026-03-17
+    2026-03-16
+  has knowledge cutoff at
+    2025-06
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -37,3 +42,5 @@ model 'Mistral Small 4 119B Thinking'
       0.4
     output
       1.4
+    cacheRead
+      0.2

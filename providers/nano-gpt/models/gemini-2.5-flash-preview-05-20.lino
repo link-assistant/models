@@ -5,16 +5,21 @@ model 'Gemini 2.5 Flash 0520'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini-flash'
   status
-    active
+    deprecated
   released at
     2025-05-20
   last updated at
     2025-05-20
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -34,3 +39,5 @@ model 'Gemini 2.5 Flash 0520'
       0.15
     output
       0.6
+    cacheRead
+      0.015

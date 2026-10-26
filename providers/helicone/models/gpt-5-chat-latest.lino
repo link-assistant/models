@@ -6,13 +6,13 @@ model 'OpenAI GPT-5 Chat Latest'
   provided by
     'Helicone'
   family
-    'gpt-codex'
+    'gpt'
   status
     active
   released at
-    2024-09-30
+    2025-08-07
   last updated at
-    2024-09-30
+    2025-08-07
   has knowledge cutoff at
     2024-09
   weights
@@ -20,6 +20,7 @@ model 'OpenAI GPT-5 Chat Latest'
   capabilities
     (
       tool calls
+      attachments
     )
   modalities
     input
@@ -29,6 +30,8 @@ model 'OpenAI GPT-5 Chat Latest'
   limits
     context
       '128 000'
+    input
+      '272 000'
     output
       '16 384'
   costs
@@ -37,4 +40,4 @@ model 'OpenAI GPT-5 Chat Latest'
     output
       10
     cacheRead
-      0.12500000000000003
+      0.125

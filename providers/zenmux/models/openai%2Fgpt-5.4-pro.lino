@@ -5,12 +5,14 @@ model 'GPT-5.4 Pro'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gpt-pro'
   status
     active
   released at
-    2026-03-20
+    2026-03-05
   last updated at
-    2026-03-20
+    2026-03-05
   has knowledge cutoff at
     2025-08-31
   weights
@@ -24,7 +26,7 @@ model 'GPT-5.4 Pro'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
@@ -34,6 +36,6 @@ model 'GPT-5.4 Pro'
       '128 000'
   costs
     input
-      45
+      30
     output
-      225
+      180

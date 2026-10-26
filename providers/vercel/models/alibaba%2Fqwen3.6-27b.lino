@@ -6,7 +6,7 @@ model 'Qwen 3.6 27B'
   provided by
     'Vercel AI Gateway'
   family
-    'qwen3.6'
+    'qwen'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'Qwen 3.6 27B'
   last updated at
     2026-04-22
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -32,7 +32,7 @@ model 'Qwen 3.6 27B'
     context
       '256 000'
     output
-      '256 000'
+      '65 536'
   costs
     input
       0.6

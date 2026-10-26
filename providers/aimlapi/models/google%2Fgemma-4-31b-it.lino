@@ -1,0 +1,44 @@
+model 'Gemma 4 31B Instruct'
+  has id
+    'google/gemma-4-31b-it'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '16 384'
+  costs
+    input
+      1.04742
+    output
+      1.57642
+    cacheRead
+      1.04742

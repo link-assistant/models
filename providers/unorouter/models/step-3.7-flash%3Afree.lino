@@ -6,7 +6,7 @@ model 'Step 3.7 Flash'
   provided by
     'UnoRouter'
   status
-    active
+    deprecated
   released at
     2026-05-29
   last updated at

@@ -12,10 +12,9 @@ model 'GLiNER2 Large'
   last updated at
     2025-06-30
   weights
-    closed
+    open
   capabilities
     (
-      tool calls
       temperature
     )
   modalities
@@ -27,13 +26,13 @@ model 'GLiNER2 Large'
     context
       8192
     output
-      4096
+      8192
   costs
     input
-      0.15
+      0.03
     output
-      0.15
+      0
     cacheRead
-      0.15
+      0.03
     cacheWrite
-      0.15
+      0.03

@@ -6,7 +6,7 @@ model 'Meituan/Longcat-Flash-Lite'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2026-02-06
   last updated at
@@ -15,8 +15,10 @@ model 'Meituan/Longcat-Flash-Lite'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,3 +30,8 @@ model 'Meituan/Longcat-Flash-Lite'
       '256 000'
     output
       '320 000'
+  costs
+    input
+      0
+    output
+      0

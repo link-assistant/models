@@ -5,12 +5,16 @@ model 'Qwen-Turbo'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'qwen'
   status
-    active
+    deprecated
   released at
-    2025-08-05
+    2024-11-01
   last updated at
-    2025-08-05
+    2025-04-28
+  has knowledge cutoff at
+    2024-04
   weights
     closed
   capabilities
@@ -18,6 +22,7 @@ model 'Qwen-Turbo'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -29,3 +34,8 @@ model 'Qwen-Turbo'
       '1 000 000'
     output
       4096
+  costs
+    input
+      0.04347826
+    output
+      0.08695652

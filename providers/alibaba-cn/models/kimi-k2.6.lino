@@ -40,3 +40,7 @@ model 'Moonshot Kimi K2.6'
       0.929
     output
       3.858
+    cacheRead
+      0.1858
+    cacheWrite
+      1.16125

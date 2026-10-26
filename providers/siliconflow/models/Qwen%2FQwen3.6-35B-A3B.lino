@@ -14,16 +14,17 @@ model 'Qwen3.6 35B-A3B'
   last updated at
     2026-04-17
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
@@ -33,6 +34,8 @@ model 'Qwen3.6 35B-A3B'
       '262 144'
   costs
     input
-      0.2
+      0.24
     output
-      1.6
+      1.8
+    cacheRead
+      0.15

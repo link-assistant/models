@@ -21,6 +21,7 @@ model 'OpenAI GPT-4o-mini'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

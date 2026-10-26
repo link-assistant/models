@@ -6,7 +6,7 @@ model 'GPT-5 pro'
   provided by
     'Vercel AI Gateway'
   family
-    'gpt'
+    'gpt-pro'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'GPT-5 pro'
   last updated at
     2025-10-06
   has knowledge cutoff at
-    2024-10
+    2024-09-30
   weights
     closed
   capabilities

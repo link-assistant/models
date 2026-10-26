@@ -6,13 +6,15 @@ model 'Pro/moonshotai/Kimi-K2.6'
   provided by
     'SiliconFlow (China)'
   family
-    'kimi'
+    'kimi-k2'
   status
     active
   released at
-    2026-04-21
+    2026-04-20
   last updated at
-    2026-04-21
+    2026-04-20
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -20,6 +22,7 @@ model 'Pro/moonshotai/Kimi-K2.6'
       reasoning
       tool calls
       temperature
+      attachments
       structured output
       interleaved output
     )
@@ -35,8 +38,8 @@ model 'Pro/moonshotai/Kimi-K2.6'
       '262 000'
   costs
     input
-      0.95
+      0.97140861
     output
-      4
+      4.0350819
     cacheRead
-      0.16
+      0.16439223

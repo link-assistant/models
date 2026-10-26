@@ -8,7 +8,7 @@ model 'o3-mini'
   family
     'o-mini'
   status
-    active
+    deprecated
   released at
     2024-12-20
   last updated at
@@ -31,6 +31,8 @@ model 'o3-mini'
   limits
     context
       '200 000'
+    input
+      '100 000'
     output
       '100 000'
   costs

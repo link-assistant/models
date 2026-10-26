@@ -6,13 +6,13 @@ model 'GPT-Image-1'
   provided by
     'Poe'
   family
-    'gpt'
+    'gpt-image'
   status
-    active
+    deprecated
   released at
-    2025-03-31
+    2025-04-24
   last updated at
-    2025-03-31
+    2025-04-24
   weights
     closed
   capabilities

@@ -13,11 +13,15 @@ model 'GPT OSS 20B'
     2025-08-05
   last updated at
     2025-08-05
+  has knowledge cutoff at
+    2024-06
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
+      temperature
     )
   modalities
     input
@@ -26,13 +30,13 @@ model 'GPT OSS 20B'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
-      '128 000'
+      '131 072'
     output
       '16 384'
   costs
     input
-      0.04
+      0.02
     output
-      0.15
+      0.1

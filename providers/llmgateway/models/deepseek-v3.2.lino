@@ -4,15 +4,17 @@ model 'DeepSeek V3.2'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'deepseek'
   status
     active
   released at
-    2025-09-29
+    2025-12-01
   last updated at
-    2025-09-29
+    2025-12-01
+  has knowledge cutoff at
+    2024-07
   weights
     open
   capabilities

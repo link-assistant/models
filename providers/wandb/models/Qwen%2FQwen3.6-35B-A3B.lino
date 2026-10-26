@@ -4,15 +4,15 @@ model 'Qwen3.6 35B A3B'
   provider id
     'wandb'
   provided by
-    'Weights & Biases'
+    'CoreWeave'
   family
-    'qwen3.6'
+    'qwen'
   status
     active
   released at
-    2026-04-15
+    2026-04-17
   last updated at
-    2026-04-15
+    2026-04-17
   weights
     open
   capabilities

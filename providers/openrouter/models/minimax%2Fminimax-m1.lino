@@ -35,6 +35,6 @@ model 'MiniMax M1'
       '40 000'
   costs
     input
-      0.4
+      0.55
     output
       2.2

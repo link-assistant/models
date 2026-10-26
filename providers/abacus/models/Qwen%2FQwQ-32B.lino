@@ -8,11 +8,13 @@ model 'QwQ 32B'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
-    2024-11-28
+    2025-03-05
   last updated at
-    2024-11-28
+    2025-03-05
+  has knowledge cutoff at
+    2024-04
   weights
     open
   capabilities

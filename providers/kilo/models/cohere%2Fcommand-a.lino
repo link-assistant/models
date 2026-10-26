@@ -1,21 +1,26 @@
-model 'Cohere: Command A'
+model 'Command A'
   has id
     'cohere/command-a'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'command-a'
   status
     active
   released at
     2025-03-13
   last updated at
     2025-03-13
+  has knowledge cutoff at
+    2024-08-31
   weights
     open
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input

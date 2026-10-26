@@ -21,6 +21,7 @@ model 'Mistral Small 3.2'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

@@ -12,12 +12,15 @@ model 'mistral-large-3:675b'
   released at
     2025-12-02
   last updated at
-    2026-01-19
+    2025-12-02
+  has knowledge cutoff at
+    2024-11
   weights
     open
   capabilities
     (
       tool calls
+      temperature
       attachments
     )
   modalities
@@ -30,3 +33,8 @@ model 'mistral-large-3:675b'
       '262 144'
     output
       '262 144'
+  costs
+    input
+      0.5
+    output
+      1.5

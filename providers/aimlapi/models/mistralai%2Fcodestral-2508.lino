@@ -1,0 +1,40 @@
+model 'Codestral 2508'
+  has id
+    'mistralai/codestral-2508'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'codestral'
+  status
+    active
+  released at
+    2025-07-30
+  last updated at
+    2025-07-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      8192
+  costs
+    input
+      0.3174
+    output
+      0.9522
+    cacheRead
+      0.03174

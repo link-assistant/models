@@ -8,7 +8,7 @@ model 'Llama 4 Maverick 17B Instruct'
   family
     'llama'
   status
-    active
+    deprecated
   released at
     2025-04-05
   last updated at

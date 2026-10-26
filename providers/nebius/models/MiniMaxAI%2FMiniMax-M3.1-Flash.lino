@@ -1,0 +1,43 @@
+model 'MiniMax-M3.1-Flash'
+  has id
+    'MiniMaxAI/MiniMax-M3.1-Flash'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-10-19
+  last updated at
+    2026-10-19
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.15
+    output
+      0.6
+    cacheRead
+      0.015

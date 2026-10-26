@@ -1,0 +1,32 @@
+model 'Whisper'
+  has id
+    'openai/whisper-1'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2023-03-01
+  last updated at
+    2023-03-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      '448 000'
+    output
+      4096

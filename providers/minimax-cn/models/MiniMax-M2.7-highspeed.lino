@@ -4,11 +4,11 @@ model 'MiniMax-M2.7-highspeed'
   provider id
     'minimax-cn'
   provided by
-    'MiniMax (minimaxi.com)'
+    'MiniMax (minimax.cn)'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2026-03-18
   last updated at
@@ -33,10 +33,10 @@ model 'MiniMax-M2.7-highspeed'
       '131 072'
   costs
     input
-      0.6
+      0.6275
     output
-      2.4
+      2.5098
     cacheRead
-      0.06
+      0.0627
     cacheWrite
-      0.375
+      0.3922

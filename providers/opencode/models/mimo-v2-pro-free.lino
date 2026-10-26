@@ -4,9 +4,9 @@ model 'MiMo V2 Pro Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'mimo-pro-free'
+    'mimo'
   status
     deprecated
   released at
@@ -16,13 +16,12 @@ model 'MiMo V2 Pro Free'
   has knowledge cutoff at
     2024-12
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
-      attachments
       interleaved output
     )
   modalities

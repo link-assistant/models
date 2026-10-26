@@ -1,0 +1,41 @@
+model 'LFM2.5-24B-A2B'
+  has id
+    'liquid/lfm-2.5-24b-a2b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'liquid'
+  status
+    active
+  released at
+    2026-10-13
+  last updated at
+    2026-10-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.05
+    output
+      0.7
+    cacheRead
+      0.025

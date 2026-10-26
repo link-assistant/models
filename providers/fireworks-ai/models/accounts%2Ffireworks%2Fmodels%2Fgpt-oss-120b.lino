@@ -8,11 +8,13 @@ model 'GPT OSS 120B'
   family
     'gpt-oss'
   status
-    active
+    deprecated
   released at
     2025-08-05
   last updated at
-    2026-06-16
+    2025-08-05
+  has knowledge cutoff at
+    2024-06
   weights
     open
   capabilities
@@ -20,6 +22,7 @@ model 'GPT OSS 120B'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

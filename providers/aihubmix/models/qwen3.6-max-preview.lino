@@ -6,13 +6,13 @@ model 'Qwen3.6 Max Preview'
   provided by
     'AIHubMix'
   family
-    'qwen3.6'
+    'qwen'
   status
-    active
+    deprecated
   released at
-    2026-05-09
+    2026-04-20
   last updated at
-    2026-05-09
+    2026-04-20
   has knowledge cutoff at
     2025-04
   weights

@@ -5,18 +5,23 @@ model 'Qwen3 Coder 480B A35B Instruct'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'qwen'
   status
-    active
+    deprecated
   released at
-    2025-08-14
+    2025-07-22
   last updated at
-    2025-08-14
+    2025-07-22
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,3 +33,8 @@ model 'Qwen3 Coder 480B A35B Instruct'
       '262 000'
     output
       4096
+  costs
+    input
+      0.86956522
+    output
+      3.47826087

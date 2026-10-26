@@ -35,6 +35,6 @@ model 'Mistral Medium 3.5 128B'
       '16 384'
   costs
     input
-      1.5
+      1.68225
     output
-      7.5
+      8.41125

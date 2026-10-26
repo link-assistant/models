@@ -15,10 +15,6 @@ model 'Seedream 5.0 Pro'
     2026-07-11
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text

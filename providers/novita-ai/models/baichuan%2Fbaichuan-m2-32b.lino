@@ -1,10 +1,10 @@
-model 'baichuan-m2-32b'
+model 'Baichuan M2 32B'
   has id
     'baichuan/baichuan-m2-32b'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'baichuan'
   status
@@ -13,12 +13,11 @@ model 'baichuan-m2-32b'
     2025-08-13
   last updated at
     2025-08-13
-  has knowledge cutoff at
-    2024-12
   weights
     open
   capabilities
     (
+      reasoning
       temperature
     )
   modalities

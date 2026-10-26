@@ -1,0 +1,40 @@
+model 'Codestral 25.08'
+  has id
+    'auto/mistralai/codestral-2508'
+  provider id
+    'lowrouter'
+  provided by
+    'LowRouter'
+  family
+    'codestral'
+  status
+    active
+  released at
+    2025-07-30
+  last updated at
+    2025-07-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.3138
+    output
+      0.9413
+    cacheRead
+      0.0314

@@ -10,9 +10,9 @@ model 'Claude Haiku 4.5'
   status
     active
   released at
-    2025-10-01
+    2025-10-15
   last updated at
-    2025-10-01
+    2025-10-15
   has knowledge cutoff at
     2025-07-31
   weights

@@ -8,11 +8,11 @@ model 'Llama 3.1 8B Instruct'
   family
     'llama'
   status
-    active
+    deprecated
   released at
-    2025-01-01
+    2024-07-23
   last updated at
-    2025-01-01
+    2024-07-23
   has knowledge cutoff at
     2023-12
   weights

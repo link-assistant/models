@@ -1,0 +1,41 @@
+model 'GLM-5.3'
+  has id
+    'z-ai/glm-5.3'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '943 718'
+  costs
+    input
+      0.0699
+    output
+      1.4
+    cacheRead
+      0.0689

@@ -23,6 +23,7 @@ model 'GLM-4.5V'
       tool calls
       temperature
       attachments
+      interleaved output
     )
   modalities
     input
@@ -39,3 +40,7 @@ model 'GLM-4.5V'
       0.6
     output
       1.8
+    cacheRead
+      0.11
+    cacheWrite
+      0

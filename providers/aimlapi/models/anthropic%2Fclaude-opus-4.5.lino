@@ -1,0 +1,45 @@
+model 'Claude 4.5 Opus'
+  has id
+    'anthropic/claude-opus-4.5'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2025-11-24
+  last updated at
+    2025-11-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      5.29
+    output
+      26.45
+    cacheRead
+      0.529
+    cacheWrite
+      6.6125

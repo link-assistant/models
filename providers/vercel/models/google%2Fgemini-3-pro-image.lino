@@ -20,10 +20,11 @@ model 'Nano Banana Pro'
   capabilities
     (
       temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       text image
   limits

@@ -8,7 +8,7 @@ model 'Qwen3.6 27B'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at

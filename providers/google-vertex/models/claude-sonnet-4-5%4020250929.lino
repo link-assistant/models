@@ -8,7 +8,7 @@ model 'Claude Sonnet 4.5'
   family
     'claude-sonnet'
   status
-    active
+    deprecated
   released at
     2025-09-29
   last updated at
@@ -23,6 +23,7 @@ model 'Claude Sonnet 4.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

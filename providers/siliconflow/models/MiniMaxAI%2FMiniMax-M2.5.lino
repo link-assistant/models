@@ -8,13 +8,13 @@ model 'MiniMaxAI/MiniMax-M2.5'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
-    2026-02-15
+    2026-02-12
   last updated at
-    2026-06-15
+    2026-02-12
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -35,3 +35,5 @@ model 'MiniMaxAI/MiniMax-M2.5'
       0.3
     output
       1.2
+    cacheRead
+      0.03

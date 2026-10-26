@@ -14,7 +14,7 @@ model 'Qwen 2.5 32B Abliterated'
   last updated at
     2025-01-06
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Qwen 2.5 32B Abliterated'
       0.7
     output
       0.7
+    cacheRead
+      0.35

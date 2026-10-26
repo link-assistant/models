@@ -1,0 +1,30 @@
+model 'Apply 3'
+  has id
+    'relace/relace-apply-3'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  status
+    active
+  released at
+    2025-09-26
+  last updated at
+    2025-09-26
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      0.8993
+    output
+      1.3225

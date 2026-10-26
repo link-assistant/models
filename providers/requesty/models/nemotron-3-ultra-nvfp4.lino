@@ -1,0 +1,39 @@
+model 'nemotron-3-ultra-nvfp4'
+  has id
+    'nemotron-3-ultra-nvfp4'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.6
+    output
+      2.4
+    cacheRead
+      0.12

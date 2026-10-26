@@ -21,6 +21,7 @@ model 'GPT-5.3 Codex'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -42,4 +43,4 @@ model 'GPT-5.3 Codex'
     output
       14
     cacheRead
-      0.18
+      0.175

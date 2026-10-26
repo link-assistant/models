@@ -10,15 +10,16 @@ model 'Nvidia Nemotron 3 Super 120B'
   status
     active
   released at
-    2026-03-01
+    2026-03-11
   last updated at
-    2026-03-01
+    2026-03-11
+  has knowledge cutoff at
+    2025-06
   weights
-    closed
+    open
   capabilities
     (
       reasoning
-      tool calls
       temperature
     )
   modalities
@@ -38,3 +39,5 @@ model 'Nvidia Nemotron 3 Super 120B'
       0.05
     output
       0.25
+    cacheRead
+      0.025

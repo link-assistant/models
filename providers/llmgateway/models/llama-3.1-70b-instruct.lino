@@ -4,7 +4,7 @@ model 'Llama 3.1 70B Instruct'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'llama'
   status
@@ -13,6 +13,8 @@ model 'Llama 3.1 70B Instruct'
     2024-07-23
   last updated at
     2024-07-23
+  has knowledge cutoff at
+    2023-12
   weights
     open
   capabilities

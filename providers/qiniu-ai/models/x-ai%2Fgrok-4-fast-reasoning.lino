@@ -5,8 +5,10 @@ model 'X-Ai/Grok-4-Fast-Reasoning'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'grok'
   status
-    active
+    deprecated
   released at
     2025-12-18
   last updated at

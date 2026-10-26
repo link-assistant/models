@@ -4,9 +4,9 @@ model 'Nemotron 3 Super Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'nemotron-free'
+    'nemotron'
   status
     deprecated
   released at
@@ -14,7 +14,7 @@ model 'Nemotron 3 Super Free'
   last updated at
     2026-03-11
   has knowledge cutoff at
-    2026-02
+    2025-06
   weights
     open
   capabilities

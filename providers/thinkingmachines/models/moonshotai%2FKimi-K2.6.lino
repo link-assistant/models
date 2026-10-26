@@ -1,0 +1,43 @@
+model 'Kimi K2.6'
+  has id
+    'moonshotai/Kimi-K2.6'
+  provider id
+    'thinkingmachines'
+  provided by
+    'Thinking Machines'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-20
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      2.205
+    output
+      5.49
+    cacheRead
+      0.441

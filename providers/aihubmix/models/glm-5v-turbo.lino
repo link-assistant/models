@@ -6,13 +6,13 @@ model 'GLM 5 Vision Turbo'
   provided by
     'AIHubMix'
   family
-    'glmv'
+    'glm'
   status
     active
   released at
-    2026-05-09
+    2026-04-01
   last updated at
-    2026-05-09
+    2026-04-01
   weights
     closed
   capabilities
@@ -26,14 +26,14 @@ model 'GLM 5 Vision Turbo'
     )
   modalities
     input
-      text image video
+      text image video pdf
     output
       text
   limits
     context
       '200 000'
     output
-      '128 000'
+      '131 072'
   costs
     input
       0.7042

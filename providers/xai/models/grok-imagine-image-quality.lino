@@ -8,7 +8,7 @@ model 'Grok Imagine Image Quality'
   family
     'grok'
   status
-    active
+    deprecated
   released at
     2026-04-03
   last updated at
@@ -21,11 +21,11 @@ model 'Grok Imagine Image Quality'
     )
   modalities
     input
-      text image pdf
+      text image
     output
-      image pdf
+      image
   limits
     context
-      8000
+      '16 000'
     output
       0

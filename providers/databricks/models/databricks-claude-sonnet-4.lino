@@ -1,4 +1,4 @@
-model 'Claude Sonnet 4.5'
+model 'Claude Sonnet 4'
   has id
     'databricks-claude-sonnet-4'
   provider id
@@ -8,13 +8,13 @@ model 'Claude Sonnet 4.5'
   family
     'claude-sonnet'
   status
-    active
+    deprecated
   released at
-    2025-09-29
+    2025-05-22
   last updated at
-    2025-09-29
+    2025-05-22
   has knowledge cutoff at
-    2025-07-31
+    2025-03-31
   weights
     closed
   capabilities
@@ -23,6 +23,7 @@ model 'Claude Sonnet 4.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

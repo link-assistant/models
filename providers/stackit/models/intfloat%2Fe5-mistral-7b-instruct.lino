@@ -27,6 +27,6 @@ model 'E5 Mistral 7B'
       4096
   costs
     input
-      0.02
+      0.02243
     output
-      0.02
+      0

@@ -15,10 +15,6 @@ model 'Text Embedding 005'
     2024-08
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -28,4 +24,4 @@ model 'Text Embedding 005'
     context
       8192
     output
-      1536
+      0

@@ -10,11 +10,13 @@ model 'stepfun-ai/Step-3.5-Flash'
   status
     active
   released at
-    2026-02-11
+    2026-01-29
   last updated at
-    2026-02-11
+    2026-02-13
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -31,7 +33,7 @@ model 'stepfun-ai/Step-3.5-Flash'
     context
       '262 000'
     output
-      '262 000'
+      '66 000'
   costs
     input
       0.1

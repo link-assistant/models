@@ -22,6 +22,7 @@ model 'Anthropic: Claude Sonnet 4.5 (20250929)'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -39,6 +40,6 @@ model 'Anthropic: Claude Sonnet 4.5 (20250929)'
     output
       15
     cacheRead
-      0.30000000000000004
+      0.3
     cacheWrite
       3.75

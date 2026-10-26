@@ -4,7 +4,7 @@ model 'MiniMax-M2.5'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'minimax'
   status

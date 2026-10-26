@@ -19,6 +19,7 @@ model 'minimax-m2.7'
     (
       reasoning
       tool calls
+      temperature
     )
   modalities
     input
@@ -30,3 +31,10 @@ model 'minimax-m2.7'
       '196 608'
     output
       '196 608'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

@@ -1,0 +1,35 @@
+model 'Kimi Latest'
+  has id
+    'kimi-latest'
+  provider id
+    'the-grid-ai'
+  provided by
+    'The Grid AI'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-07-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '922 000'
+    output
+      '943 718'
