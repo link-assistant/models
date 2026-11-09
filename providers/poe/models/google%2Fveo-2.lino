@@ -8,7 +8,7 @@ model 'Veo-2'
   family
     'veo'
   status
-    active
+    deprecated
   released at
     2024-12-02
   last updated at
@@ -18,7 +18,6 @@ model 'Veo-2'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

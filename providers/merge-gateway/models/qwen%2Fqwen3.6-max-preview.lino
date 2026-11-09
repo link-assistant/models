@@ -1,0 +1,41 @@
+model 'Qwen3.6 Max Preview'
+  has id
+    'qwen/qwen3.6-max-preview'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-20
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '65 536'
+  costs
+    input
+      1.31
+    output
+      7.88

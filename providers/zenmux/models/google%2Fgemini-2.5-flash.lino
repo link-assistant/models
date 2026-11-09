@@ -5,6 +5,8 @@ model 'Gemini 2.5 Flash'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gemini-flash'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Gemini 2.5 Flash'
   last updated at
     2025-06-17
   has knowledge cutoff at
-    2025-01-01
+    2025-01
   weights
     closed
   capabilities
@@ -24,20 +26,20 @@ model 'Gemini 2.5 Flash'
     )
   modalities
     input
-      pdf image text audio
+      text image audio video pdf
     output
       text
   limits
     context
       '1 048 000'
     output
-      '64 000'
+      '65 535'
   costs
     input
       0.3
     output
       2.5
     cacheRead
-      0.07
-    cacheWrite
+      0.03
+    inputAudio
       1

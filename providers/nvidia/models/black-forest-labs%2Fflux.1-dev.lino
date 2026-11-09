@@ -12,15 +12,11 @@ model 'FLUX.1-dev'
   released at
     2024-08-01
   last updated at
-    2025-09-05
+    2024-08-01
   has knowledge cutoff at
     2024-08
   weights
-    closed
-  capabilities
-    (
-      temperature
-    )
+    open
   modalities
     input
       text
@@ -28,7 +24,7 @@ model 'FLUX.1-dev'
       image
   limits
     context
-      4096
+      0
     output
       0
   costs

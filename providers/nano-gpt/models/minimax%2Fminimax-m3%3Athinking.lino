@@ -5,6 +5,8 @@ model 'MiniMax M3 Thinking'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'minimax'
   status
     active
   released at
@@ -12,11 +14,12 @@ model 'MiniMax M3 Thinking'
   last updated at
     2026-06-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -34,8 +37,8 @@ model 'MiniMax M3 Thinking'
       '80 000'
   costs
     input
-      0.3
+      0.23
     output
-      1.2
+      0.96
     cacheRead
-      0.06
+      0.05

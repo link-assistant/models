@@ -34,10 +34,8 @@ model 'Llama 3.3 70B Instruct'
       4096
   costs
     input
-      0.13
+      0.5466
     output
-      0.38
+      1.0226
     cacheRead
-      0.065
-    cacheWrite
-      0.26
+      0.2733

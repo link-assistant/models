@@ -8,11 +8,13 @@ model 'Claude-Sonnet-4'
   family
     'claude-sonnet'
   status
-    active
+    deprecated
   released at
-    2025-05-21
+    2025-05-22
   last updated at
-    2025-05-21
+    2025-05-22
+  has knowledge cutoff at
+    2025-03-31
   weights
     closed
   capabilities

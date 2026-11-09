@@ -1,16 +1,20 @@
-model 'Qwen: Qwen3 Coder Flash'
+model 'Qwen3 Coder Flash'
   has id
     'qwen/qwen3-coder-flash'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'qwen'
   status
     active
   released at
-    2025-07-23
+    2025-07-28
   last updated at
-    2026-03-15
+    2025-07-28
+  has knowledge cutoff at
+    2025-04
   weights
     closed
   capabilities
@@ -34,4 +38,6 @@ model 'Qwen: Qwen3 Coder Flash'
     output
       0.975
     cacheRead
-      0.06
+      0.039
+    cacheWrite
+      0.24375

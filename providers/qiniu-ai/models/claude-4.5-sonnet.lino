@@ -5,12 +5,16 @@ model 'Claude 4.5 Sonnet'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'claude-sonnet'
   status
-    active
+    deprecated
   released at
-    2025-09-30
+    2025-09-29
   last updated at
-    2025-09-30
+    2025-09-29
+  has knowledge cutoff at
+    2025-07-31
   weights
     closed
   capabilities

@@ -6,9 +6,9 @@ model 'GPT-5.1 Codex Max'
   provided by
     'Abacus'
   family
-    'gpt'
+    'gpt-codex'
   status
-    active
+    deprecated
   released at
     2025-11-13
   last updated at

@@ -4,7 +4,7 @@ model 'ERNIE 4.5 21B A3B'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'ernie'
   status
@@ -13,8 +13,6 @@ model 'ERNIE 4.5 21B A3B'
     2025-06-30
   last updated at
     2025-06-30
-  has knowledge cutoff at
-    2025-03
   weights
     open
   capabilities

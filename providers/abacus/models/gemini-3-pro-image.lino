@@ -1,0 +1,42 @@
+model 'Nano Banana Pro'
+  has id
+    'gemini-3-pro-image'
+  provider id
+    'abacus'
+  provided by
+    'Abacus'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2026-05-28
+  last updated at
+    2026-05-28
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      '65 536'
+    output
+      '32 768'
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.2

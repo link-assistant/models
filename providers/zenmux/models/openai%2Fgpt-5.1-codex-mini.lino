@@ -5,6 +5,8 @@ model 'GPT-5.1-Codex-Mini'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gpt-codex'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'GPT-5.1-Codex-Mini'
   last updated at
     2025-11-13
   has knowledge cutoff at
-    2025-01-01
+    2024-09-30
   weights
     closed
   capabilities
@@ -24,18 +26,18 @@ model 'GPT-5.1-Codex-Mini'
     )
   modalities
     input
-      image text
+      text image
     output
       text
   limits
     context
       '400 000'
     output
-      '64 000'
+      '100 000'
   costs
     input
       0.25
     output
       2
     cacheRead
-      0.03
+      0.025

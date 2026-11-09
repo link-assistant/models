@@ -5,17 +5,20 @@ model 'Claude 3.5 Sonnet'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'claude-sonnet'
   status
-    active
+    deprecated
   released at
-    2025-09-09
+    2024-10-22
   last updated at
-    2025-09-09
+    2024-10-22
+  has knowledge cutoff at
+    2024-04-30
   weights
     closed
   capabilities
     (
-      reasoning
       tool calls
       temperature
       attachments
@@ -29,4 +32,4 @@ model 'Claude 3.5 Sonnet'
     context
       '200 000'
     output
-      8200
+      8192

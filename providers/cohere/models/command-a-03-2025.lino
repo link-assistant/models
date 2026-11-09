@@ -21,6 +21,7 @@ model 'Command A'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

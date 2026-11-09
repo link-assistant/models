@@ -1,0 +1,41 @@
+model 'Doubao-Seed-2.0-mini'
+  has id
+    'bytedance/doubao-seed-2.0-mini'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-02-14
+  last updated at
+    2026-02-14
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '32 000'
+  costs
+    input
+      0.03
+    output
+      0.28
+    cacheRead
+      0.01

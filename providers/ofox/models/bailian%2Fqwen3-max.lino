@@ -1,0 +1,42 @@
+model 'Qwen3 Max'
+  has id
+    'bailian/qwen3-max'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.36
+    output
+      1.43
+    cacheRead
+      0.072

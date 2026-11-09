@@ -14,11 +14,12 @@ model 'MiniMax M2.5'
   last updated at
     2026-02-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -35,6 +36,8 @@ model 'MiniMax M2.5'
       '131 072'
   costs
     input
-      0.3
+      0.27
     output
-      1.2
+      1.08
+    cacheRead
+      0.027

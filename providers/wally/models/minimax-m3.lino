@@ -1,0 +1,42 @@
+model 'MiniMax-M3'
+  has id
+    'minimax-m3'
+  provider id
+    'wally'
+  provided by
+    'Wally'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 287'
+    output
+      '131 072'
+  costs
+    input
+      0.33
+    output
+      1.32
+    cacheRead
+      0.066

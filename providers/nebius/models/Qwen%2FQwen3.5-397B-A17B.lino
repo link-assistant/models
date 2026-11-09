@@ -5,12 +5,14 @@ model 'Qwen3.5-397B-A17B'
     'nebius'
   provided by
     'Nebius Token Factory'
+  family
+    'qwen'
   status
     active
   released at
-    2025-07-15
+    2026-02-15
   last updated at
-    2026-05-07
+    2026-02-15
   has knowledge cutoff at
     2025-07
   weights
@@ -40,6 +42,4 @@ model 'Qwen3.5-397B-A17B'
     output
       3.6
     cacheRead
-      0.06
-    cacheWrite
-      0.75
+      0.12

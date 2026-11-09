@@ -29,11 +29,13 @@ model 'Codestral (latest)'
       text
   limits
     context
-      '256 000'
+      '128 000'
     output
-      4096
+      4000
   costs
     input
       0.3
     output
       0.9
+    cacheRead
+      0.03

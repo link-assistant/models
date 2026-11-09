@@ -1,0 +1,38 @@
+model 'Laguna XS 2.1'
+  has id
+    'poolside/laguna-xs-2.1'
+  provider id
+    'nvidia'
+  provided by
+    'Nvidia'
+  family
+    'laguna'
+  status
+    active
+  released at
+    2026-07-02
+  last updated at
+    2026-07-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0
+    output
+      0

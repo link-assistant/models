@@ -1,4 +1,4 @@
-model 'GLM-5-Turbo'
+model 'GLM-5 Turbo'
   has id
     'zai/glm-5-turbo'
   provider id
@@ -20,7 +20,6 @@ model 'GLM-5-Turbo'
       reasoning
       tool calls
       temperature
-      structured output
       interleaved output
     )
   modalities

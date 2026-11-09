@@ -14,7 +14,7 @@ model 'Qwen 2.5 32B Abliterated'
   last updated at
     2025-01-06
   weights
-    closed
+    open
   modalities
     input
       text

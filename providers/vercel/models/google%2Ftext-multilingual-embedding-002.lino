@@ -10,15 +10,11 @@ model 'Text Multilingual Embedding 002'
   status
     active
   released at
-    2024-03-01
+    2024-05-14
   last updated at
-    2024-03
+    2024-05-14
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -26,6 +22,6 @@ model 'Text Multilingual Embedding 002'
       text
   limits
     context
-      8192
+      2048
     output
-      1536
+      0

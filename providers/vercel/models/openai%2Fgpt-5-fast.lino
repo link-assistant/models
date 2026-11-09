@@ -1,0 +1,45 @@
+model 'GPT-5 (Fast)'
+  has id
+    'openai/gpt-5-fast'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      2.5
+    output
+      20
+    cacheRead
+      0.25

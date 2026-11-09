@@ -22,6 +22,7 @@ model 'Kimi K2.5'
       reasoning
       tool calls
       temperature
+      attachments
       interleaved output
     )
   modalities
@@ -38,4 +39,6 @@ model 'Kimi K2.5'
     input
       0.45
     output
-      2.8
+      2.25
+    cacheRead
+      0.07

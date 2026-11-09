@@ -1,16 +1,18 @@
-model 'xAI: Grok 4.3'
+model 'Grok 4.3'
   has id
     'x-ai/grok-4.3'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'grok'
   status
     active
   released at
-    2026-05-01
+    2026-04-17
   last updated at
-    2026-05-01
+    2026-04-17
   weights
     closed
   capabilities
@@ -19,6 +21,7 @@ model 'xAI: Grok 4.3'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -29,7 +32,7 @@ model 'xAI: Grok 4.3'
     context
       '1 000 000'
     output
-      4096
+      '900 000'
   costs
     input
       1.25

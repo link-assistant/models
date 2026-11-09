@@ -21,19 +21,23 @@ model 'Ministral 8B (latest)'
     (
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text image pdf
     output
       text
   limits
     context
-      '128 000'
+      '262 144'
     output
       '128 000'
   costs
     input
-      0.1
+      0.15
     output
-      0.1
+      0.15
+    cacheRead
+      0.015

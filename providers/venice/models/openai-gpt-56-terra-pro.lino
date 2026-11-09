@@ -36,10 +36,10 @@ model 'GPT-5.6 Terra Pro'
       '128 000'
   costs
     input
-      3.125
+      2
     output
-      18.75
+      12
     cacheRead
-      0.3125
+      0.2
     cacheWrite
-      3.90625
+      2.5

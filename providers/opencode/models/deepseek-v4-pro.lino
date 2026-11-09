@@ -4,7 +4,7 @@ model 'DeepSeek V4 Pro'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'deepseek-thinking'
   status
@@ -39,6 +39,6 @@ model 'DeepSeek V4 Pro'
     input
       1.74
     output
-      3.84
+      3.48
     cacheRead
       0.145

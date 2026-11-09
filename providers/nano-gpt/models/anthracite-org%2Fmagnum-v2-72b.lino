@@ -10,11 +10,11 @@ model 'Magnum V2 72B'
   status
     active
   released at
-    2024-07-01
+    2024-01-01
   last updated at
     2024-07-01
   weights
-    closed
+    open
   modalities
     input
       text
@@ -32,3 +32,5 @@ model 'Magnum V2 72B'
       2.006
     output
       2.992
+    cacheRead
+      1.003

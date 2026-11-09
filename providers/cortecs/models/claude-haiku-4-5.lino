@@ -1,4 +1,4 @@
-model 'Claude Haiku 4.5'
+model 'Claude Haiku 4.5 (latest)'
   has id
     'claude-haiku-4-5'
   provider id
@@ -23,6 +23,7 @@ model 'Claude Haiku 4.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -33,9 +34,13 @@ model 'Claude Haiku 4.5'
     context
       '200 000'
     output
-      '200 000'
+      '64 000'
   costs
     input
-      1.09
+      0.996
     output
-      5.43
+      4.982
+    cacheRead
+      0.099
+    cacheWrite
+      1.186

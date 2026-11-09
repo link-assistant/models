@@ -36,6 +36,6 @@ model 'AGI-01 Frontier'
       '120 000'
   costs
     input
-      4.5
+      5.04675
     output
-      22
+      24.673

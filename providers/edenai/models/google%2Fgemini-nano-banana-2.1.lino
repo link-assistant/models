@@ -1,0 +1,39 @@
+model 'Nano Banana 2.1'
+  has id
+    'google/gemini-nano-banana-2.1'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      image text
+    output
+      text image
+  limits
+    context
+      '65 536'
+    output
+      '32 768'
+  costs
+    input
+      1.5
+    output
+      7.5

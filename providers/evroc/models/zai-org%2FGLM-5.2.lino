@@ -1,0 +1,39 @@
+model 'GLM-5.2'
+  has id
+    'zai-org/GLM-5.2'
+  provider id
+    'evroc'
+  provided by
+    'evroc'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '131 072'
+  costs
+    input
+      1.4375
+    output
+      5.75

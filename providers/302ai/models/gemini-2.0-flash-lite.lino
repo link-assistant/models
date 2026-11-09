@@ -10,9 +10,9 @@ model 'gemini-2.0-flash-lite'
   status
     active
   released at
-    2025-06-16
+    2024-12-11
   last updated at
-    2025-06-16
+    2024-12-11
   has knowledge cutoff at
     2024-11
   weights

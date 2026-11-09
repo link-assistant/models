@@ -17,12 +17,11 @@ model 'Seedance 2.0 Fast'
     closed
   capabilities
     (
-      temperature
       attachments
     )
   modalities
     input
-      text image
+      text image video audio
     output
       video
   limits

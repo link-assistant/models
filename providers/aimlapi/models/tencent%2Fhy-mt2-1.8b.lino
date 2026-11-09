@@ -1,0 +1,36 @@
+model 'Hy-MT2-1.8B'
+  has id
+    'tencent/hy-mt2-1.8b'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-05-21
+  last updated at
+    2026-05-21
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8192
+    output
+      4096
+  costs
+    input
+      0.046552
+    output
+      0.187266

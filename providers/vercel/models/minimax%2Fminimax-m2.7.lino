@@ -20,7 +20,6 @@ model 'Minimax M2.7'
       reasoning
       tool calls
       temperature
-      attachments
     )
   modalities
     input

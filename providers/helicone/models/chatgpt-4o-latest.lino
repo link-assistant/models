@@ -21,6 +21,7 @@ model 'OpenAI ChatGPT-4o'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

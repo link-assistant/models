@@ -34,13 +34,13 @@ model 'Claude Sonnet 4.6 (US)'
     context
       '1 000 000'
     output
-      '64 000'
+      '128 000'
   costs
     input
-      3
+      3.3
     output
-      15
+      16.5
     cacheRead
-      0.3
+      0.33
     cacheWrite
-      3.75
+      4.125

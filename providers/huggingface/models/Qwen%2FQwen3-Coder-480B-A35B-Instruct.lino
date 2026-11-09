@@ -10,9 +10,9 @@ model 'Qwen3-Coder-480B-A35B-Instruct'
   status
     active
   released at
-    2025-07-23
+    2025-07-22
   last updated at
-    2025-07-23
+    2025-07-22
   has knowledge cutoff at
     2025-04
   weights
@@ -31,7 +31,7 @@ model 'Qwen3-Coder-480B-A35B-Instruct'
     context
       '262 144'
     output
-      '66 536'
+      '65 536'
   costs
     input
       2

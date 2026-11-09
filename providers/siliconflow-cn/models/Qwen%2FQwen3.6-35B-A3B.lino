@@ -21,6 +21,7 @@ model 'Qwen/Qwen3.6-35B-A3B'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -34,6 +35,6 @@ model 'Qwen/Qwen3.6-35B-A3B'
       '65 536'
   costs
     input
-      0.23
+      0.26900546
     output
-      1.86
+      1.61403276

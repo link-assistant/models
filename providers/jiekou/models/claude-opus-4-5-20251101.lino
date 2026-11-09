@@ -10,13 +10,16 @@ model 'claude-opus-4-5-20251101'
   status
     active
   released at
-    2026-01
+    2025-11-24
   last updated at
-    2026-01
+    2025-11-24
+  has knowledge cutoff at
+    2025-05
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
@@ -34,6 +37,10 @@ model 'claude-opus-4-5-20251101'
       '65 536'
   costs
     input
-      4.5
+      4.75
     output
-      22.5
+      23.75
+    cacheRead
+      0.475
+    cacheWrite
+      5.9375

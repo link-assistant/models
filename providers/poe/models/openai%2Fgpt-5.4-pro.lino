@@ -5,12 +5,16 @@ model 'GPT-5.4-Pro'
     'poe'
   provided by
     'Poe'
+  family
+    'gpt-pro'
   status
     active
   released at
     2026-03-05
   last updated at
     2026-03-05
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
@@ -23,7 +27,7 @@ model 'GPT-5.4-Pro'
     input
       text image
     output
-      image
+      text image
   limits
     context
       '1 050 000'
@@ -33,6 +37,6 @@ model 'GPT-5.4-Pro'
       '128 000'
   costs
     input
-      27
+      27.2727
     output
-      160
+      163.6364

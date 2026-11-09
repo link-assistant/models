@@ -1,0 +1,40 @@
+model 'Arrow 2 Telos'
+  has id
+    'quiverai/arrow-2-telos'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  status
+    active
+  released at
+    2026-09-16
+  last updated at
+    2026-09-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text image
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      6
+    output
+      30
+    cacheRead
+      0.6
+    cacheWrite
+      7.5

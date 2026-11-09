@@ -1,4 +1,4 @@
-model 'GLM-4.7-FlashX'
+model 'GLM-4.7 FlashX'
   has id
     'zai/glm-4.7-flashx'
   provider id

@@ -1,0 +1,42 @@
+model 'Mistral Large 4'
+  has id
+    'auto/mistralai/mistral-large-4'
+  provider id
+    'lowrouter'
+  provided by
+    'LowRouter'
+  family
+    'mistral-large'
+  status
+    beta
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '262 144'
+  costs
+    input
+      1.4367
+    output
+      4.4156
+    cacheRead
+      0.1479

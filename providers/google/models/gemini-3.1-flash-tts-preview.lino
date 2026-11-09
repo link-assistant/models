@@ -1,0 +1,39 @@
+model 'Gemini 3.1 Flash TTS Preview'
+  has id
+    'gemini-3.1-flash-tts-preview'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-04-15
+  last updated at
+    2026-04-15
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      audio
+  limits
+    context
+      8192
+    output
+      '16 384'
+  costs
+    input
+      1
+    output
+      20

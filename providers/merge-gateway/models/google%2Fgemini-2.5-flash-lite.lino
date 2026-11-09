@@ -27,12 +27,12 @@ model 'Gemini 2.5 Flash-Lite'
     )
   modalities
     input
-      text image audio video pdf
+      text image audio pdf
     output
       text
   limits
     context
-      '1 048 576'
+      '1 000 000'
     output
       '65 536'
   costs

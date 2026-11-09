@@ -1,0 +1,45 @@
+model 'GPT-5 Nano'
+  has id
+    'openai/gpt-5-nano'
+  provider id
+    'cloudflare-ai-gateway'
+  provided by
+    'Cloudflare AI Gateway'
+  family
+    'gpt-nano'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2024-05-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      0.05
+    output
+      0.4
+    cacheRead
+      0.005

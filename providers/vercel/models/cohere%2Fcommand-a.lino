@@ -6,7 +6,7 @@ model 'Command A'
   provided by
     'Vercel AI Gateway'
   family
-    'command'
+    'command-a'
   status
     active
   released at
@@ -14,13 +14,14 @@ model 'Command A'
   last updated at
     2025-03-13
   has knowledge cutoff at
-    2024-10
+    2024-08-31
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

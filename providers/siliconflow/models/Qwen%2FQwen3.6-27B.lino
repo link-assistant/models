@@ -14,16 +14,17 @@ model 'Qwen3.6 27B'
   last updated at
     2026-04-22
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

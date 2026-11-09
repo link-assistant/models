@@ -10,9 +10,9 @@ model 'Command R7B'
   status
     active
   released at
-    2024-12-02
+    2024-12-13
   last updated at
-    2024-12-02
+    2024-12-13
   has knowledge cutoff at
     2024-06-01
   weights
@@ -21,6 +21,7 @@ model 'Command R7B'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

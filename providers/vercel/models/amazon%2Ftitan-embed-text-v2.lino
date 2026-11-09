@@ -15,10 +15,6 @@ model 'Titan Text Embeddings V2'
     2024-04
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -28,4 +24,4 @@ model 'Titan Text Embeddings V2'
     context
       8192
     output
-      1536
+      0

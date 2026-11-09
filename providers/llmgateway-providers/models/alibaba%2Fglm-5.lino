@@ -1,0 +1,39 @@
+model 'GLM-5 (Alibaba Cloud)'
+  has id
+    'alibaba/glm-5'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '16 384'
+  costs
+    input
+      0.573
+    output
+      2.58

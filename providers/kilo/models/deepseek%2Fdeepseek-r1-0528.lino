@@ -1,16 +1,18 @@
-model 'DeepSeek: R1 0528'
+model 'DeepSeek R1 0528'
   has id
     'deepseek/deepseek-r1-0528'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'deepseek-thinking'
   status
     active
   released at
     2025-05-28
   last updated at
-    2026-03-15
+    2025-05-28
   weights
     open
   capabilities
@@ -18,6 +20,7 @@ model 'DeepSeek: R1 0528'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,11 +31,11 @@ model 'DeepSeek: R1 0528'
     context
       '163 840'
     output
-      '65 536'
+      '32 768'
   costs
     input
-      0.45
+      0.5
     output
       2.15
     cacheRead
-      0.2
+      0.35

@@ -1,0 +1,44 @@
+model 'Step 3.5 Flash'
+  has id
+    'stepfun/Step-3.5-Flash'
+  provider id
+    'commandcode'
+  provided by
+    'CommandCode'
+  family
+    'step'
+  status
+    active
+  released at
+    2026-01-29
+  last updated at
+    2026-02-13
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    input
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.09
+    output
+      0.3
+    cacheRead
+      0.02

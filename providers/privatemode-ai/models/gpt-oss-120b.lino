@@ -10,11 +10,11 @@ model 'gpt-oss-120b'
   status
     active
   released at
-    2025-08-04
+    2025-08-05
   last updated at
-    2025-08-14
+    2025-08-05
   has knowledge cutoff at
-    2025-08
+    2024-06
   weights
     open
   capabilities
@@ -33,9 +33,11 @@ model 'gpt-oss-120b'
     context
       '128 000'
     output
-      '128 000'
+      '32 768'
   costs
     input
-      0
+      0.2311
     output
-      0
+      0.7511
+    cacheRead
+      0.0462

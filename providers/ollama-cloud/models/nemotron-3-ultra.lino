@@ -13,6 +13,8 @@ model 'nemotron-3-ultra'
     2026-06-04
   last updated at
     2026-06-04
+  has knowledge cutoff at
+    2025-09
   weights
     open
   capabilities
@@ -31,3 +33,10 @@ model 'nemotron-3-ultra'
       '262 144'
     output
       '128 000'
+  costs
+    input
+      0.1
+    output
+      3
+    cacheRead
+      0.1

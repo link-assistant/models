@@ -33,7 +33,7 @@ model 'MiniMax-M2.5'
     input
       '196 601'
     output
-      '24 576'
+      '32 768'
   costs
     input
       0

@@ -8,7 +8,7 @@ model 'Kimi K2.7 Code'
   family
     'kimi-k2'
   status
-    active
+    deprecated
   released at
     2026-06-12
   last updated at
@@ -37,8 +37,10 @@ model 'Kimi K2.7 Code'
       '262 144'
   costs
     input
-      0.74
+      0.68
     output
-      3.5
+      3.4
     cacheRead
-      0.15
+      0.136
+    cacheWrite
+      0.85

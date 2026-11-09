@@ -8,16 +8,15 @@ model 'Qwen3 235B A22B Instruct'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
-    2025-07-01
+    2025-07-21
   last updated at
-    2025-07-01
+    2025-07-21
   weights
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
     )

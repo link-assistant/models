@@ -8,11 +8,11 @@ model 'Claude Opus 4.5'
   family
     'claude-opus'
   status
-    active
+    deprecated
   released at
-    2025-11-01
+    2025-11-24
   last updated at
-    2025-11-01
+    2025-11-24
   has knowledge cutoff at
     2025-03
   weights

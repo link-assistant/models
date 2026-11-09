@@ -21,7 +21,9 @@ model 'GPT-5.1'
     (
       reasoning
       tool calls
+      temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -30,7 +32,9 @@ model 'GPT-5.1'
       text
   limits
     context
-      '400 000'
+      '128 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
@@ -39,4 +43,4 @@ model 'GPT-5.1'
     output
       10
     cacheRead
-      0.13
+      0.125

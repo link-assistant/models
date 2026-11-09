@@ -8,11 +8,18 @@ model 'The Drummer Cydonia 24B v4.1'
   status
     active
   released at
-    2025-08-19
+    2025-09-27
   last updated at
-    2025-08-19
+    2025-09-27
+  has knowledge cutoff at
+    2024-04-30
   weights
-    closed
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
   modalities
     input
       text
@@ -20,13 +27,15 @@ model 'The Drummer Cydonia 24B v4.1'
       text
   limits
     context
-      '16 384'
+      '131 072'
     input
-      '16 384'
+      '131 072'
     output
-      '32 768'
+      '117 964'
   costs
     input
-      0.1003
+      0.3
     output
-      0.1207
+      0.5
+    cacheRead
+      0.15

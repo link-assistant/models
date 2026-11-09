@@ -1,0 +1,36 @@
+model 'Echo'
+  has id
+    'echo'
+  provider id
+    'echo'
+  provided by
+    'Echo'
+  status
+    beta
+  released at
+    2026-07-19
+  last updated at
+    2026-08-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      10
+    output
+      50

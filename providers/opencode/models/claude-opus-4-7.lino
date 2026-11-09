@@ -4,7 +4,7 @@ model 'Claude Opus 4.7'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'claude-opus'
   status

@@ -5,14 +5,16 @@ model 'Llama 3.1 8B (decentralized)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'llama'
   status
     active
   released at
-    2024-07-23
+    2024-01-01
   last updated at
     2024-07-23
   weights
-    closed
+    open
   modalities
     input
       text
@@ -30,3 +32,5 @@ model 'Llama 3.1 8B (decentralized)'
       0.02
     output
       0.03
+    cacheRead
+      0.01

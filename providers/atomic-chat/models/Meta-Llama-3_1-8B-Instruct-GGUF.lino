@@ -13,6 +13,8 @@ model 'Meta Llama 3.1 8B Instruct (GGUF)'
     2024-07-23
   last updated at
     2024-07-23
+  has knowledge cutoff at
+    2023-12
   weights
     open
   capabilities

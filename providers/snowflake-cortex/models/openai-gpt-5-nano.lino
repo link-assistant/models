@@ -8,7 +8,7 @@ model 'GPT-5 Nano'
   family
     'gpt-nano'
   status
-    beta
+    active
   released at
     2025-08-07
   last updated at
@@ -31,8 +31,15 @@ model 'GPT-5 Nano'
       text
   limits
     context
-      '400 000'
+      '272 000'
     input
       '272 000'
     output
-      '128 000'
+      8192
+  costs
+    input
+      0.06
+    output
+      0.44
+    cacheRead
+      0.01

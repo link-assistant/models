@@ -1,0 +1,45 @@
+model 'Gemini 4 Argon (Google Vertex AI)'
+  has id
+    'google-vertex/gemini-4-argon'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gemini'
+  status
+    active
+  released at
+    2026-10-13
+  last updated at
+    2026-10-13
+  has knowledge cutoff at
+    2026-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      4
+    output
+      20
+    cacheRead
+      0.2
+    cacheWrite
+      0.375

@@ -10,9 +10,11 @@ model 'Claude-Sonnet-3.5'
   status
     deprecated
   released at
-    2024-06-05
+    2024-10-22
   last updated at
-    2024-06-05
+    2024-10-22
+  has knowledge cutoff at
+    2024-04-30
   weights
     closed
   capabilities

@@ -10,11 +10,9 @@ model 'Llama Guard 4 12B'
   status
     active
   released at
-    2025-04-30
+    2025-04-29
   last updated at
-    2025-04-30
-  has knowledge cutoff at
-    2024-08-31
+    2025-04-29
   weights
     open
   capabilities
@@ -24,7 +22,7 @@ model 'Llama Guard 4 12B'
     )
   modalities
     input
-      image text
+      text image
     output
       text
   limits

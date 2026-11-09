@@ -1,0 +1,36 @@
+model 'Qwen 3.8 27B Synthia'
+  has id
+    'qwen/qwen3.8-27b-synthia'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-10-05
+  last updated at
+    2026-10-05
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.6
+    cacheRead
+      0.05

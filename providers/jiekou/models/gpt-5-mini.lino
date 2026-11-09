@@ -10,16 +10,17 @@ model 'gpt-5-mini'
   status
     active
   released at
-    2026-01
+    2025-08-07
   last updated at
-    2026-01
+    2025-08-07
+  has knowledge cutoff at
+    2024-05-30
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -31,10 +32,14 @@ model 'gpt-5-mini'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
     input
-      0.225
+      0.2375
     output
-      1.8
+      1.9
+    cacheRead
+      0.0237

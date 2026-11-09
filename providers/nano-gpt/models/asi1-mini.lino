@@ -13,13 +13,9 @@ model 'ASI1 Mini'
     2025-03-25
   weights
     closed
-  capabilities
-    (
-      attachments
-    )
   modalities
     input
-      text pdf
+      text
     output
       text
   limits
@@ -34,3 +30,5 @@ model 'ASI1 Mini'
       1
     output
       1
+    cacheRead
+      0.5

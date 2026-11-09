@@ -6,13 +6,15 @@ model 'Nano-Banana'
   provided by
     'Poe'
   family
-    'nano-banana'
+    'gemini-flash'
   status
-    active
+    deprecated
   released at
-    2025-08-21
+    2025-08-26
   last updated at
-    2025-08-21
+    2025-08-26
+  has knowledge cutoff at
+    2024-06
   weights
     closed
   capabilities

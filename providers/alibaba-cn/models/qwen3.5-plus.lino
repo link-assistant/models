@@ -12,7 +12,7 @@ model 'Qwen3.5 Plus'
   released at
     2026-02-16
   last updated at
-    2026-02-16
+    2026-09-22
   has knowledge cutoff at
     2025-04
   weights
@@ -22,6 +22,9 @@ model 'Qwen3.5 Plus'
       reasoning
       tool calls
       temperature
+      attachments
+      structured output
+      interleaved output
     )
   modalities
     input
@@ -35,8 +38,8 @@ model 'Qwen3.5 Plus'
       '65 536'
   costs
     input
-      0.573
+      0.115
     output
-      3.44
+      0.688
     reasoning
-      3.44
+      0.688

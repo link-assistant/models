@@ -8,7 +8,7 @@ model 'GPT-4 Turbo Vision'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
     2023-11-06
   last updated at

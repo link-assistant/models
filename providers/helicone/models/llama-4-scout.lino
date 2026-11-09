@@ -10,17 +10,18 @@ model 'Meta Llama 4 Scout 17B 16E'
   status
     active
   released at
-    2025-01-01
+    2025-04-05
   last updated at
-    2025-01-01
+    2025-04-05
   has knowledge cutoff at
     2025-01
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

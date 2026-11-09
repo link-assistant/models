@@ -5,18 +5,23 @@ model 'Gemma 4 31B IT TEE'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemma'
   status
     active
   released at
-    2026-05-26
+    2026-04-02
   last updated at
-    2026-05-26
+    2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
     )
   modalities
     input
@@ -35,3 +40,5 @@ model 'Gemma 4 31B IT TEE'
       0.15
     output
       0.46
+    cacheRead
+      0.075

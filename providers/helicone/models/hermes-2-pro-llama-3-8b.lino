@@ -6,17 +6,17 @@ model 'Hermes 2 Pro Llama 3 8B'
   provided by
     'Helicone'
   family
-    'llama'
+    'hermes'
   status
     active
   released at
-    2024-05-27
+    2024-04-30
   last updated at
-    2024-05-27
+    2024-04-30
   has knowledge cutoff at
     2024-05
   weights
-    closed
+    open
   capabilities
     (
       tool calls

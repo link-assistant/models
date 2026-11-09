@@ -8,7 +8,7 @@ model 'GPT-3.5 Turbo Instruct'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
     2023-09-21
   last updated at

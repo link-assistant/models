@@ -8,7 +8,7 @@ model 'MiniMax-M2.7'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2026-03-18
   last updated at
@@ -29,7 +29,7 @@ model 'MiniMax-M2.7'
       text
   limits
     context
-      '202 752'
+      '196 608'
     output
       '131 072'
   costs

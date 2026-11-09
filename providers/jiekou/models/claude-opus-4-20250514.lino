@@ -8,15 +8,18 @@ model 'claude-opus-4-20250514'
   family
     'claude-opus'
   status
-    active
+    deprecated
   released at
-    2026-01
+    2025-05-22
   last updated at
-    2026-01
+    2025-05-22
+  has knowledge cutoff at
+    2025-03-31
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments

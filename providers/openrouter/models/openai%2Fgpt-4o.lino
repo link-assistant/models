@@ -39,3 +39,5 @@ model 'GPT-4o'
       2.5
     output
       10
+    cacheRead
+      1.25

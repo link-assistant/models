@@ -1,0 +1,41 @@
+model 'Qwen3 30B A3B'
+  has id
+    'qwen/qwen3-30b-a3b'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04-28
+  last updated at
+    2025-04-28
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.108
+    output
+      1.076
+    cacheRead
+      0.0216

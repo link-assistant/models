@@ -38,3 +38,7 @@ model 'Claude-Opus-4.8'
       4.2929
     output
       21.4646
+    cacheRead
+      0.4293
+    cacheWrite
+      5.3662

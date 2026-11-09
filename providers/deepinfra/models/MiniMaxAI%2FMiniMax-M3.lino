@@ -21,6 +21,7 @@ model 'MiniMax-M3'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -31,11 +32,11 @@ model 'MiniMax-M3'
     context
       '524 288'
     output
-      '128 000'
+      '512 000'
   costs
     input
-      0.3
+      0.28
     output
-      1.2
+      1.1
     cacheRead
-      0.06
+      0.056

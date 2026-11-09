@@ -4,15 +4,15 @@ model 'Qwen3 VL 30B A3B Instruct'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'qwen'
   status
     active
   released at
-    2025-10-02
+    2025-10-04
   last updated at
-    2025-10-02
+    2025-10-04
   weights
     open
   capabilities
@@ -29,11 +29,11 @@ model 'Qwen3 VL 30B A3B Instruct'
       text
   limits
     context
-      '131 072'
+      '262 144'
     output
       8192
   costs
     input
-      0.2
+      0.15
     output
-      0.7
+      0.6

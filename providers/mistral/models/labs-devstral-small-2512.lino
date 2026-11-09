@@ -21,6 +21,7 @@ model 'Devstral Small 2'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

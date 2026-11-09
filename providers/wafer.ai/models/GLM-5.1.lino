@@ -8,11 +8,11 @@ model 'GLM-5.1'
   family
     'glm'
   status
-    active
+    deprecated
   released at
     2026-04-07
   last updated at
-    2026-06-01
+    2026-04-07
   has knowledge cutoff at
     2025-04
   weights

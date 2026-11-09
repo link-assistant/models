@@ -13,8 +13,6 @@ model 'MiniMax-M2'
     2025-10-27
   last updated at
     2025-10-27
-  has knowledge cutoff at
-    2024-11
   weights
     open
   capabilities
@@ -22,6 +20,7 @@ model 'MiniMax-M2'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -33,9 +32,9 @@ model 'MiniMax-M2'
     context
       '400 000'
     output
-      '400 000'
+      '196 000'
   costs
     input
-      0.39
+      0.349
     output
-      1.57
+      1.405

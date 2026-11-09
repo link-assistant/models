@@ -4,15 +4,15 @@ model 'Trinity Large Preview'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'trinity'
   status
     deprecated
   released at
-    2026-01-28
+    2026-01-27
   last updated at
-    2026-01-28
+    2026-05-28
   has knowledge cutoff at
     2025-06
   weights

@@ -1,4 +1,4 @@
-model 'Kimi K2 0905'
+model 'Kimi K2 Instruct 0905'
   has id
     'moonshotai/kimi-k2-0905'
   provider id
@@ -10,11 +10,9 @@ model 'Kimi K2 0905'
   status
     active
   released at
-    2025-09-04
+    2025-09-05
   last updated at
-    2025-09-04
-  has knowledge cutoff at
-    2024-12-31
+    2025-09-05
   weights
     open
   capabilities
@@ -32,7 +30,7 @@ model 'Kimi K2 0905'
     context
       '262 144'
     output
-      '100 352'
+      '98 304'
   costs
     input
       0.6

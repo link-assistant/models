@@ -1,4 +1,4 @@
-model 'Claude Opus 4.5'
+model 'Claude Opus 4.5 (latest)'
   has id
     'claude-opus4-5'
   provider id
@@ -14,7 +14,7 @@ model 'Claude Opus 4.5'
   last updated at
     2025-11-24
   has knowledge cutoff at
-    2025-03-31
+    2025-05
   weights
     closed
   capabilities
@@ -23,6 +23,7 @@ model 'Claude Opus 4.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -33,9 +34,13 @@ model 'Claude Opus 4.5'
     context
       '200 000'
     output
-      '200 000'
+      '64 000'
   costs
     input
-      5.98
+      5.313
     output
-      29.89
+      26.568
+    cacheRead
+      0.531
+    cacheWrite
+      6.645

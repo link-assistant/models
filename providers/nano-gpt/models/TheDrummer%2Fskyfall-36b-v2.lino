@@ -11,10 +11,13 @@ model 'TheDrummer Skyfall 36B V2'
     2025-03-10
   last updated at
     2025-03-10
+  has knowledge cutoff at
+    2024-06-30
   weights
-    closed
+    open
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -24,13 +27,15 @@ model 'TheDrummer Skyfall 36B V2'
       text
   limits
     context
-      '64 000'
-    input
-      '64 000'
-    output
       '32 768'
+    input
+      '32 768'
+    output
+      '29 491'
   costs
     input
-      0.493
+      0.55
     output
-      0.493
+      0.8
+    cacheRead
+      0.25

@@ -1,0 +1,43 @@
+model 'GPT-6 Astra Pro'
+  has id
+    'openai/gpt-6-astra-pro'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2026-09-04
+  last updated at
+    2026-09-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      pdf image text
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '128 000'
+  costs
+    input
+      10
+    output
+      50
+    cacheRead
+      1
+    cacheWrite
+      12.5

@@ -6,7 +6,7 @@ model 'Pixtral Large (25.02)'
   provided by
     'Amazon Bedrock'
   family
-    'mistral'
+    'pixtral'
   status
     active
   released at
@@ -19,6 +19,7 @@ model 'Pixtral Large (25.02)'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

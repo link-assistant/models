@@ -1,4 +1,4 @@
-model 'Xiaomi: MiMo-V2.5'
+model 'MiMo-V2.5'
   has id
     'xiaomi/mimo-v2.5'
   provider id
@@ -8,7 +8,7 @@ model 'Xiaomi: MiMo-V2.5'
   family
     'mimo'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at
@@ -23,6 +23,7 @@ model 'Xiaomi: MiMo-V2.5'
       tool calls
       temperature
       attachments
+      structured output
       interleaved output
     )
   modalities
@@ -32,9 +33,9 @@ model 'Xiaomi: MiMo-V2.5'
       text
   limits
     context
-      '1 048 576'
+      '1 000 000'
     output
-      '131 072'
+      '65 536'
   costs
     input
       0.4

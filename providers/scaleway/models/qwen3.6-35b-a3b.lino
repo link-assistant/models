@@ -10,9 +10,9 @@ model 'Qwen3.6 35B A3B'
   status
     beta
   released at
-    2026-05-01
+    2026-04-17
   last updated at
-    2026-05-22
+    2026-04-17
   has knowledge cutoff at
     2025-04
   weights
@@ -37,6 +37,6 @@ model 'Qwen3.6 35B A3B'
       '16 384'
   costs
     input
-      0.25
+      0.280375
     output
-      1.5
+      1.68225

@@ -19,6 +19,7 @@ model 'Xpersona Frieren 1'
     (
       reasoning
       tool calls
+      attachments
       structured output
     )
   modalities

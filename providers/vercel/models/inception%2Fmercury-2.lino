@@ -12,7 +12,7 @@ model 'Mercury 2'
   released at
     2026-02-24
   last updated at
-    2026-03-06
+    2026-02-24
   weights
     closed
   capabilities
@@ -20,6 +20,7 @@ model 'Mercury 2'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -30,11 +31,11 @@ model 'Mercury 2'
     context
       '128 000'
     output
-      '128 000'
+      '50 000'
   costs
     input
       0.25
     output
       0.75
     cacheRead
-      0.024999999999999998
+      0.025

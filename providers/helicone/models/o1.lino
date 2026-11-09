@@ -10,13 +10,17 @@ model 'OpenAI: o1'
   status
     active
   released at
-    2025-01-01
+    2024-12-05
   last updated at
-    2025-01-01
+    2024-12-05
   has knowledge cutoff at
     2025-01
   weights
     closed
+  capabilities
+    (
+      reasoning
+    )
   modalities
     input
       text

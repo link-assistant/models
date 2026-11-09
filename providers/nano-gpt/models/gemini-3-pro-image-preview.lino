@@ -5,16 +5,21 @@ model 'Gemini 3 Pro Image'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini-pro'
   status
     active
   released at
-    2025-11-18
+    2025-11-20
   last updated at
-    2025-11-18
+    2025-11-20
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -24,13 +29,15 @@ model 'Gemini 3 Pro Image'
       text
   limits
     context
-      '1 048 756'
-    input
-      '1 048 756'
-    output
       '65 536'
+    input
+      '65 536'
+    output
+      '32 768'
   costs
     input
       2
     output
       12
+    cacheRead
+      0.2

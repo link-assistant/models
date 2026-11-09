@@ -10,11 +10,17 @@ model 'Mistral Medium 3.1'
   status
     active
   released at
-    2025-09-05
+    2025-08-12
   last updated at
-    2025-09-05
+    2025-08-12
+  has knowledge cutoff at
+    2025-06-30
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -32,3 +38,5 @@ model 'Mistral Medium 3.1'
       0.4
     output
       2
+    cacheRead
+      0.2

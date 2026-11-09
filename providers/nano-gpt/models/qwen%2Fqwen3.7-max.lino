@@ -1,0 +1,44 @@
+model 'Qwen3.7 Max'
+  has id
+    'qwen/qwen3.7-max'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-05-21
+  last updated at
+    2026-05-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      1.475
+    output
+      4.425
+    cacheRead
+      0.295
+    cacheWrite
+      1.84375

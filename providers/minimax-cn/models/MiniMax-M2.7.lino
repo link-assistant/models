@@ -4,11 +4,11 @@ model 'MiniMax-M2.7'
   provider id
     'minimax-cn'
   provided by
-    'MiniMax (minimaxi.com)'
+    'MiniMax (minimax.cn)'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2026-03-18
   last updated at
@@ -33,10 +33,10 @@ model 'MiniMax-M2.7'
       '131 072'
   costs
     input
-      0.3
+      0.3137
     output
-      1.2
+      1.2549
     cacheRead
-      0.06
+      0.0627
     cacheWrite
-      0.375
+      0.3922

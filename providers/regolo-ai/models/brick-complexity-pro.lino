@@ -1,0 +1,36 @@
+model 'Brick Complexity Pro'
+  has id
+    'brick-complexity-pro'
+  provider id
+    'regolo-ai'
+  provided by
+    'Regolo AI'
+  status
+    active
+  released at
+    2026-02-06
+  last updated at
+    2026-02-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '100 000'
+    output
+      '15 000'
+  costs
+    input
+      0.12
+    output
+      0.46

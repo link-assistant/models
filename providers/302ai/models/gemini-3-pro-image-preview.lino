@@ -5,6 +5,8 @@ model 'gemini-3-pro-image-preview'
     '302ai'
   provided by
     '302.AI'
+  family
+    'gemini-pro'
   status
     active
   released at
@@ -24,7 +26,7 @@ model 'gemini-3-pro-image-preview'
     input
       text image
     output
-      text
+      text image
   limits
     context
       '32 768'

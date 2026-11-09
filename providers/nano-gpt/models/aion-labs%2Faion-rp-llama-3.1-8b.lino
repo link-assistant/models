@@ -10,11 +10,18 @@ model 'Llama 3.1 8b (uncensored)'
   status
     active
   released at
-    2024-07-23
+    2025-02-04
   last updated at
-    2024-07-23
+    2025-02-04
+  has knowledge cutoff at
+    2023-12-31
   weights
-    closed
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
   modalities
     input
       text
@@ -29,6 +36,8 @@ model 'Llama 3.1 8b (uncensored)'
       '16 384'
   costs
     input
-      0.2006
+      0.8
     output
-      0.2006
+      1.6
+    cacheRead
+      0.4

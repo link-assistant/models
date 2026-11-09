@@ -1,0 +1,37 @@
+model 'Kimi K2 (NovitaAI)'
+  has id
+    'novita/kimi-k2'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2025-07-11
+  last updated at
+    2025-07-11
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.57
+    output
+      2.3

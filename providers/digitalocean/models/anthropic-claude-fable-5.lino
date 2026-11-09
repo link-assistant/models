@@ -12,14 +12,15 @@ model 'Anthropic Claude Fable 5'
   released at
     2026-06-09
   last updated at
-    2026-06-12
+    2026-06-09
+  has knowledge cutoff at
+    2026-01-31
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
     )
   modalities
@@ -32,3 +33,12 @@ model 'Anthropic Claude Fable 5'
       '1 000 000'
     output
       '128 000'
+  costs
+    input
+      10
+    output
+      50
+    cacheRead
+      1
+    cacheWrite
+      12.5

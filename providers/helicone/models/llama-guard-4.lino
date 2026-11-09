@@ -20,6 +20,7 @@ model 'Meta Llama Guard 4 12B'
   capabilities
     (
       temperature
+      attachments
     )
   modalities
     input

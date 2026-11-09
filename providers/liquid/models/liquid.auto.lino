@@ -1,0 +1,35 @@
+model 'Liquid Auto'
+  has id
+    'liquid.auto'
+  provider id
+    'liquid'
+  provided by
+    'Liquid Inference'
+  family
+    'auto'
+  status
+    active
+  released at
+    2026-10-20
+  last updated at
+    2026-10-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio pdf
+    output
+      text
+  limits
+    context
+      '10 000 000'
+    output
+      '1 048 576'

@@ -1,0 +1,40 @@
+model 'Particle-1'
+  has id
+    'particle-ai/particle-1'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-10-29
+  last updated at
+    2026-10-29
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.25
+    output
+      1
+    cacheRead
+      0.03

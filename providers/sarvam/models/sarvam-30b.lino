@@ -8,11 +8,11 @@ model 'Sarvam-30B'
   family
     'sarvam'
   status
-    active
+    deprecated
   released at
     2026-02-18
   last updated at
-    2026-03-06
+    2026-02-18
   weights
     open
   capabilities

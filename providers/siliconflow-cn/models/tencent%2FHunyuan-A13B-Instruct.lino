@@ -14,11 +14,10 @@ model 'tencent/Hunyuan-A13B-Instruct'
   last updated at
     2025-11-25
   weights
-    closed
+    open
   capabilities
     (
       reasoning
-      tool calls
       temperature
       structured output
     )
@@ -34,6 +33,6 @@ model 'tencent/Hunyuan-A13B-Instruct'
       '131 000'
   costs
     input
-      0.14
+      0.14944748
     output
-      0.57
+      0.59778991

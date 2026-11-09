@@ -1,4 +1,4 @@
-model 'Command A'
+model 'Command A 03-2025'
   has id
     'cohere/command-a-03-2025'
   provider id
@@ -21,6 +21,7 @@ model 'Command A'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

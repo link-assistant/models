@@ -10,9 +10,9 @@ model 'Gemma 4 26B A4B IT'
   status
     beta
   released at
-    2026-04-01
+    2026-04-02
   last updated at
-    2026-05-22
+    2026-04-02
   has knowledge cutoff at
     2025-04
   weights
@@ -37,6 +37,6 @@ model 'Gemma 4 26B A4B IT'
       '16 384'
   costs
     input
-      0.25
+      0.280375
     output
-      0.5
+      0.56075

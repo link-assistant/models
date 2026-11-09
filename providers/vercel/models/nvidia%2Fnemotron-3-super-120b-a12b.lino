@@ -13,8 +13,10 @@ model 'NVIDIA Nemotron 3 Super 120B A12B'
     2026-03-11
   last updated at
     2026-03-11
+  has knowledge cutoff at
+    2025-06
   weights
-    closed
+    open
   capabilities
     (
       reasoning

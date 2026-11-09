@@ -5,26 +5,31 @@ model 'Stepfun/Step-3.5 Flash'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'step'
   status
-    active
+    deprecated
   released at
-    2026-02-02
+    2026-01-29
   last updated at
-    2026-02-02
+    2026-02-13
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       temperature
-      attachments
     )
   modalities
     input
-      text image
+      text
     output
       text
   limits
     context
       '64 000'
+    input
+      '256 000'
     output
       4096

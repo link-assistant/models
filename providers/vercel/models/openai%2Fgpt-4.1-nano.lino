@@ -8,7 +8,7 @@ model 'GPT-4.1 nano'
   family
     'gpt-nano'
   status
-    active
+    deprecated
   released at
     2025-04-14
   last updated at
@@ -26,12 +26,14 @@ model 'GPT-4.1 nano'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
       '1 047 576'
+    input
+      '1 014 808'
     output
       '32 768'
   costs
@@ -40,4 +42,4 @@ model 'GPT-4.1 nano'
     output
       0.4
     cacheRead
-      0.025
+      0.03

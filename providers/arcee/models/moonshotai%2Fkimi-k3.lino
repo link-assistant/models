@@ -1,0 +1,42 @@
+model 'Kimi K3'
+  has id
+    'moonshotai/kimi-k3'
+  provider id
+    'arcee'
+  provided by
+    'Arcee'
+  family
+    'kimi-k3'
+  status
+    beta
+  released at
+    2026-07-16
+  last updated at
+    2026-07-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.3

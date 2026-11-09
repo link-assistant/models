@@ -10,9 +10,9 @@ model 'Mistral Medium 3.1'
   status
     active
   released at
-    2025-08-13
+    2025-08-12
   last updated at
-    2025-08-13
+    2025-08-12
   has knowledge cutoff at
     2025-06-30
   weights
@@ -33,7 +33,7 @@ model 'Mistral Medium 3.1'
     context
       '131 072'
     output
-      '262 144'
+      '104 857'
   costs
     input
       0.4

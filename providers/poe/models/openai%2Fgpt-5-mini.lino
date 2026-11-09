@@ -10,9 +10,11 @@ model 'GPT-5-mini'
   status
     active
   released at
-    2025-06-25
+    2025-08-07
   last updated at
-    2025-06-25
+    2025-08-07
+  has knowledge cutoff at
+    2024-05-30
   weights
     closed
   capabilities
@@ -29,12 +31,14 @@ model 'GPT-5-mini'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
     input
-      0.22
+      0.2273
     output
-      1.8
+      1.8182
     cacheRead
-      0.022
+      0.0227

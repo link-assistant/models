@@ -5,12 +5,14 @@ model 'grok-4-1-fast-reasoning'
     '302ai'
   provided by
     '302.AI'
+  family
+    'grok'
   status
     active
   released at
-    2025-11-20
+    2025-11-19
   last updated at
-    2025-11-20
+    2025-11-19
   has knowledge cutoff at
     2025-06
   weights

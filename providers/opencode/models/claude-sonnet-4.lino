@@ -4,11 +4,11 @@ model 'Claude Sonnet 4'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'claude-sonnet'
   status
-    active
+    deprecated
   released at
     2025-05-22
   last updated at

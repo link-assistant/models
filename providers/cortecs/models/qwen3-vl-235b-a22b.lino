@@ -1,0 +1,42 @@
+model 'qwen3-vl-235b-a22b'
+  has id
+    'qwen3-vl-235b-a22b'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09-23
+  last updated at
+    2025-09-23
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0.617
+    output
+      3.119
+    cacheRead
+      0.052

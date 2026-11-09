@@ -10,9 +10,11 @@ model 'qwen/qwen3-coder-next'
   status
     active
   released at
-    2026-02
+    2026-02-03
   last updated at
-    2026-02
+    2026-02-03
+  has knowledge cutoff at
+    2025-09
   weights
     open
   capabilities

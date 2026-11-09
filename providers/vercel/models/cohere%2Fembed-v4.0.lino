@@ -15,10 +15,6 @@ model 'Embed v4.0'
     2025-04-15
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text

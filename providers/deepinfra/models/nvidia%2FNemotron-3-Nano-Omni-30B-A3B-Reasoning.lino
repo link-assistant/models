@@ -8,7 +8,7 @@ model 'Nemotron 3 Nano Omni 30B A3B Reasoning'
   family
     'nemotron'
   status
-    active
+    deprecated
   released at
     2026-04-28
   last updated at

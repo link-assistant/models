@@ -6,7 +6,7 @@ model 'Cogito v1 Preview Qwen 32B'
   provided by
     'NanoGPT'
   family
-    'qwen'
+    'cogito'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'Cogito v1 Preview Qwen 32B'
   last updated at
     2025-05-10
   weights
-    closed
+    open
   modalities
     input
       text
@@ -29,6 +29,6 @@ model 'Cogito v1 Preview Qwen 32B'
       '32 768'
   costs
     input
-      1.7999999999999998
+      1.8
     output
-      1.7999999999999998
+      1.8

@@ -32,7 +32,7 @@ model 'Llama 3.1 8B Instruct'
     context
       '131 072'
     output
-      '16 384'
+      8192
   costs
     input
       0.15

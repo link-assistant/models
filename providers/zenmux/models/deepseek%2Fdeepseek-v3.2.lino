@@ -5,16 +5,18 @@ model 'DeepSeek V3.2'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'deepseek'
   status
     active
   released at
-    2025-12-05
+    2025-12-01
   last updated at
-    2025-12-05
+    2025-12-01
   has knowledge cutoff at
-    2025-01-01
+    2024-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -30,9 +32,11 @@ model 'DeepSeek V3.2'
     context
       '128 000'
     output
-      '64 000'
+      8000
   costs
     input
-      0.28
+      0.293
     output
-      0.43
+      0.4395
+    cacheRead
+      0.0293

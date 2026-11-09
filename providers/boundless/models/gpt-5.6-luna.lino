@@ -1,0 +1,42 @@
+model 'GPT-5.6 Luna'
+  has id
+    'gpt-5.6-luna'
+  provider id
+    'boundless'
+  provided by
+    'Boundless'
+  family
+    'gpt-luna'
+  status
+    deprecated
+  released at
+    2026-07-09
+  last updated at
+    2026-07-09
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '128 000'
+  costs
+    input
+      0.2
+    output
+      1.2
+    cacheRead
+      0.02

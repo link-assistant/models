@@ -1,0 +1,44 @@
+model 'DeepSeek V4 Pro Fast'
+  has id
+    'deepseek-v4-pro-fast'
+  provider id
+    'wally'
+  provided by
+    'Wally'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      1.91
+    output
+      3.83
+    cacheRead
+      0.16

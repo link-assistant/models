@@ -5,12 +5,14 @@ model 'Qwen3.6-27B'
     'ovhcloud'
   provided by
     'OVHcloud AI Endpoints'
+  family
+    'qwen'
   status
     active
   released at
-    2026-06-01
+    2026-04-22
   last updated at
-    2026-06-01
+    2026-04-22
   weights
     open
   capabilities

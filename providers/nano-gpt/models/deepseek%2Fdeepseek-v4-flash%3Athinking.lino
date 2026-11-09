@@ -5,18 +5,23 @@ model 'DeepSeek V4 Flash (Thinking)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'deepseek-flash'
   status
     active
   released at
     2026-04-24
   last updated at
     2026-04-24
+  has knowledge cutoff at
+    2025-05
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -37,4 +42,4 @@ model 'DeepSeek V4 Flash (Thinking)'
     output
       0.28
     cacheRead
-      0.028
+      0.0028

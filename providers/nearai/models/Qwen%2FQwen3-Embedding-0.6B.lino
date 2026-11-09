@@ -6,13 +6,13 @@ model 'Qwen3 Embedding 0.6B'
   provided by
     'NEAR AI Cloud'
   family
-    'text-embedding'
+    'qwen'
   status
     active
   released at
-    2025-06-03
+    2025-06-05
   last updated at
-    2025-06-03
+    2025-06-05
   weights
     open
   modalities
@@ -22,11 +22,11 @@ model 'Qwen3 Embedding 0.6B'
       text
   limits
     context
-      '40 960'
+      '32 768'
     output
       1024
   costs
     input
       0.01
     output
-      0
+      0.01

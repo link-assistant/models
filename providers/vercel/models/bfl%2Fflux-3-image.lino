@@ -1,0 +1,31 @@
+model 'FLUX 3 Image'
+  has id
+    'bfl/flux-3-image'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'flux'
+  status
+    active
+  released at
+    2026-10-05
+  last updated at
+    2026-10-05
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

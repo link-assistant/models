@@ -16,7 +16,7 @@ model 'Llama 3.1 70B Instruct'
   has knowledge cutoff at
     2023-12
   weights
-    closed
+    open
   capabilities
     (
       tool calls

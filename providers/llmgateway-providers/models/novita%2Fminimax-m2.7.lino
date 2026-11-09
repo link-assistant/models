@@ -1,0 +1,40 @@
+model 'MiniMax M2.7 (NovitaAI)'
+  has id
+    'novita/minimax-m2.7'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 100'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

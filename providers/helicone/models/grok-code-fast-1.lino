@@ -10,15 +10,16 @@ model 'xAI Grok Code Fast 1'
   status
     active
   released at
-    2024-08-25
+    2025-09-02
   last updated at
-    2024-08-25
+    2025-09-02
   has knowledge cutoff at
     2024-08
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
     )
@@ -34,7 +35,7 @@ model 'xAI Grok Code Fast 1'
       '10 000'
   costs
     input
-      0.19999999999999998
+      0.2
     output
       1.5
     cacheRead

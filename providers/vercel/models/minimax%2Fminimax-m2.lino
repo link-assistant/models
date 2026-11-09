@@ -13,8 +13,6 @@ model 'MiniMax M2'
     2025-10-27
   last updated at
     2025-10-27
-  has knowledge cutoff at
-    2024-10
   weights
     open
   capabilities
@@ -33,7 +31,7 @@ model 'MiniMax M2'
     context
       '205 000'
     output
-      '205 000'
+      '196 608'
   costs
     input
       0.3

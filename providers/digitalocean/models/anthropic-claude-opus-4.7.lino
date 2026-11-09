@@ -1,4 +1,4 @@
-model 'Claude Opus 4.7'
+model 'Anthropic Claude Opus 4.7'
   has id
     'anthropic-claude-opus-4.7'
   provider id
@@ -25,14 +25,14 @@ model 'Claude Opus 4.7'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
     context
-      '1 000 000'
+      '200 000'
     output
-      '128 000'
+      8192
   costs
     input
       5

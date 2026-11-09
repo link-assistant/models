@@ -4,17 +4,17 @@ model 'Kimi K2 Thinking'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'kimi-thinking'
   status
     deprecated
   released at
-    2025-09-05
+    2025-11-06
   last updated at
-    2025-09-05
+    2025-11-06
   has knowledge cutoff at
-    2024-10
+    2024-08
   weights
     open
   capabilities

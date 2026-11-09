@@ -26,7 +26,7 @@ model 'GPT-5.5'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
@@ -36,3 +36,10 @@ model 'GPT-5.5'
       '922 000'
     output
       '128 000'
+  costs
+    input
+      5
+    output
+      30
+    cacheRead
+      0.5

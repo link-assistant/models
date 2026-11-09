@@ -10,9 +10,11 @@ model 'Llama Guard 3 8B'
   status
     active
   released at
-    2025-01-22
+    2024-07-23
   last updated at
-    2025-01-22
+    2024-07-23
+  has knowledge cutoff at
+    2023-12
   weights
     open
   capabilities

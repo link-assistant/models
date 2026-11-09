@@ -5,19 +5,22 @@ model 'glm-4.7-flash'
     'poe'
   provided by
     'Poe'
+  family
+    'glm-flash'
   status
     active
   released at
     2026-01-19
   last updated at
     2026-01-19
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input
@@ -29,3 +32,8 @@ model 'glm-4.7-flash'
       '200 000'
     output
       '65 500'
+  costs
+    input
+      0.0707
+    output
+      0.404

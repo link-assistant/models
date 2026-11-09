@@ -1,0 +1,44 @@
+model 'GPT OSS 20B'
+  has id
+    'openai/gpt-oss-20b'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '117 964'
+  costs
+    input
+      0.07935
+    output
+      0.3174
+    cacheRead
+      0.039675

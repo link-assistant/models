@@ -1,16 +1,20 @@
-model 'OpenAI GPT OSS 120B'
+model 'GPT OSS 120B'
   has id
     'openai/gpt-oss-120b'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
+  family
+    'gpt-oss'
   status
     active
   released at
-    2025-08-06
+    2025-08-05
   last updated at
-    2025-08-06
+    2025-08-05
+  has knowledge cutoff at
+    2024-06
   weights
     open
   capabilities
@@ -18,12 +22,12 @@ model 'OpenAI GPT OSS 120B'
       reasoning
       tool calls
       temperature
-      attachments
       structured output
+      interleaved output
     )
   modalities
     input
-      text image
+      text
     output
       text
   limits

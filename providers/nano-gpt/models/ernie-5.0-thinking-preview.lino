@@ -5,6 +5,8 @@ model 'Ernie 5.0 Thinking Preview'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'ernie'
   status
     active
   released at
@@ -32,6 +34,8 @@ model 'Ernie 5.0 Thinking Preview'
       '16 384'
   costs
     input
-      1.1
+      1
     output
-      2
+      3.5
+    cacheRead
+      0.5

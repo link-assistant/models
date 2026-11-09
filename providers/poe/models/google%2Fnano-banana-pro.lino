@@ -6,13 +6,15 @@ model 'Nano-Banana-Pro'
   provided by
     'Poe'
   family
-    'nano-banana'
+    'gemini-pro'
   status
     active
   released at
-    2025-11-19
+    2025-11-20
   last updated at
-    2025-11-19
+    2025-11-20
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -32,8 +34,8 @@ model 'Nano-Banana-Pro'
       0
   costs
     input
-      2
+      2.0202
     output
-      12
+      12.1212
     cacheRead
-      0.2
+      0.202

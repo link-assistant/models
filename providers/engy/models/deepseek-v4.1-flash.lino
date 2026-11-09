@@ -1,0 +1,47 @@
+model 'DeepSeek V4.1 Flash'
+  has id
+    'deepseek-v4.1-flash'
+  provider id
+    'engy'
+  provided by
+    'engy'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '983 040'
+    output
+      '65 536'
+  costs
+    input
+      0.03
+    output
+      0.12
+    cacheRead
+      0.006

@@ -8,11 +8,11 @@ model 'MiMo-V2.5-Pro'
   family
     'mimo'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at
-    2026-06-24
+    2026-04-22
   has knowledge cutoff at
     2024-12
   weights

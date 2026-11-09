@@ -1,0 +1,40 @@
+model 'Ling 3.0 Tiny'
+  has id
+    'inclusionai/ling-3.0-tiny'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-11-07
+  last updated at
+    2026-11-07
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.015
+    output
+      0.045
+    cacheRead
+      0.003

@@ -1,4 +1,4 @@
-model 'Claude Opus 4.8'
+model 'Anthropic Claude Opus 4.8'
   has id
     'anthropic-claude-opus-4.8'
   provider id
@@ -12,7 +12,9 @@ model 'Claude Opus 4.8'
   released at
     2026-05-28
   last updated at
-    2026-05-29
+    2026-05-28
+  has knowledge cutoff at
+    2026-01
   weights
     closed
   capabilities

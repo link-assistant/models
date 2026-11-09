@@ -1,0 +1,42 @@
+model 'Nemotron 3.5 Lightning 30B A3B'
+  has id
+    'nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16:peft:262144'
+  provider id
+    'thinkingmachines'
+  provided by
+    'Thinking Machines'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0.184
+    output
+      0.495
+    cacheRead
+      0.0368

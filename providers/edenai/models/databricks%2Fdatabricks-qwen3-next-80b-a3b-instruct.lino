@@ -1,0 +1,43 @@
+model 'Qwen3-Next 80B-A3B Instruct (Databricks)'
+  has id
+    'databricks/databricks-qwen3-next-80b-a3b-instruct'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-09
+  last updated at
+    2025-09
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.15001
+    output
+      1.20001
+    cacheRead
+      0.015001
+    cacheWrite
+      0.15001

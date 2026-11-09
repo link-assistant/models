@@ -1,0 +1,46 @@
+model 'Qwen3.7 Plus'
+  has id
+    'qwen3.7-plus'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-06-02
+  last updated at
+    2026-06-02
+  has knowledge cutoff at
+    2025-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.32
+    output
+      1.28
+    cacheRead
+      0.032
+    cacheWrite
+      0.4

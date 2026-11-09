@@ -6,13 +6,13 @@ model 'GLM-4.7-Flash'
   provided by
     'Cortecs'
   family
-    'glm'
+    'glm-flash'
   status
     active
   released at
-    2025-08-08
+    2026-01-19
   last updated at
-    2025-08-08
+    2026-01-19
   has knowledge cutoff at
     2025-04
   weights
@@ -22,6 +22,7 @@ model 'GLM-4.7-Flash'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -36,6 +37,6 @@ model 'GLM-4.7-Flash'
       '203 000'
   costs
     input
-      0.09
+      0.08
     output
-      0.53
+      0.478

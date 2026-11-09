@@ -5,22 +5,23 @@ model 'MiniMax M2.7 highspeed'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'minimax'
   status
     active
   released at
-    2026-03-20
+    2026-03-18
   last updated at
-    2026-03-20
+    2026-03-18
   has knowledge cutoff at
     2025-01-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       temperature
-      attachments
     )
   modalities
     input
@@ -37,3 +38,7 @@ model 'MiniMax M2.7 highspeed'
       0.611
     output
       2.4439
+    cacheRead
+      0.0611
+    cacheWrite
+      0.3819

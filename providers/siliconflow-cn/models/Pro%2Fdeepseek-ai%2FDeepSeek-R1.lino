@@ -12,9 +12,9 @@ model 'Pro/deepseek-ai/DeepSeek-R1'
   released at
     2025-05-28
   last updated at
-    2025-11-25
+    2025-05-28
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -34,6 +34,8 @@ model 'Pro/deepseek-ai/DeepSeek-R1'
       '164 000'
   costs
     input
-      0.5
+      0.59778991
     output
-      2.18
+      2.39115964
+    cacheRead
+      0.05977899

@@ -6,7 +6,7 @@ model 'Z-Ai/Autoglm Phone 9b'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2025-12-23
   last updated at

@@ -1,0 +1,38 @@
+model 'Apertus v1.5 70B'
+  has id
+    'swiss-ai/Apertus-v1.5-70B'
+  provider id
+    'infomaniak'
+  provided by
+    'Infomaniak'
+  status
+    beta
+  released at
+    2026-07-24
+  last updated at
+    2026-08-01
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '100 000'
+    input
+      '100 000'
+    output
+      8192
+  costs
+    input
+      0.87
+    output
+      3.1

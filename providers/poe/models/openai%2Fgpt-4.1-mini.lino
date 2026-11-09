@@ -10,9 +10,11 @@ model 'GPT-4.1-mini'
   status
     active
   released at
-    2025-04-15
+    2025-04-14
   last updated at
-    2025-04-15
+    2025-04-14
+  has knowledge cutoff at
+    2024-04
   weights
     closed
   capabilities
@@ -32,8 +34,8 @@ model 'GPT-4.1-mini'
       '32 768'
   costs
     input
-      0.36
+      0.3636
     output
-      1.4
+      1.4545
     cacheRead
-      0.09
+      0.0909

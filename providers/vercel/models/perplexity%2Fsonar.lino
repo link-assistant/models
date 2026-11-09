@@ -33,3 +33,10 @@ model 'Sonar'
       '127 000'
     output
       8000
+  costs
+    input
+      0.25
+    output
+      2.5
+    cacheWrite
+      0.0625

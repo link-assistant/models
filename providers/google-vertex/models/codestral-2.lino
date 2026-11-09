@@ -1,0 +1,38 @@
+model 'Codestral 2'
+  has id
+    'codestral-2'
+  provider id
+    'google-vertex'
+  provided by
+    'Vertex'
+  family
+    'codestral'
+  status
+    active
+  released at
+    2025-07-30
+  last updated at
+    2025-07-30
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8192
+  costs
+    input
+      0.3
+    output
+      0.9

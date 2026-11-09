@@ -6,13 +6,13 @@ model 'Gemini 3.5 Flash'
   provided by
     'Venice AI'
   family
-    'gemini'
+    'gemini-flash'
   status
     active
   released at
-    2026-05-22
+    2026-05-19
   last updated at
-    2026-06-11
+    2026-05-19
   has knowledge cutoff at
     2025-01
   weights

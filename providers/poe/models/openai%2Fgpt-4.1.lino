@@ -13,6 +13,8 @@ model 'GPT-4.1'
     2025-04-14
   last updated at
     2025-04-14
+  has knowledge cutoff at
+    2024-04
   weights
     closed
   capabilities
@@ -32,8 +34,8 @@ model 'GPT-4.1'
       '32 768'
   costs
     input
-      1.8
+      1.8182
     output
-      7.2
+      7.2727
     cacheRead
-      0.45
+      0.4545

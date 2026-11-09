@@ -18,7 +18,6 @@ model 'DeepSeek R1 Distill Llama 70B'
   capabilities
     (
       reasoning
-      tool calls
       temperature
     )
   modalities

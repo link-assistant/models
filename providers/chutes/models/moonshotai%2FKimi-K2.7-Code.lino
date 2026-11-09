@@ -1,0 +1,31 @@
+model 'Kimi K2.7 Code'
+  has id
+    'moonshotai/Kimi-K2.7-Code'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-10-26
+  last updated at
+    2026-10-26
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

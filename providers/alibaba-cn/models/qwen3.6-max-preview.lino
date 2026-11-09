@@ -8,7 +8,7 @@ model 'Qwen3.6 Max Preview'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2026-04-20
   last updated at

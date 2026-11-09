@@ -1,0 +1,34 @@
+model 'GLM Latest'
+  has id
+    'glm-latest'
+  provider id
+    'the-grid-ai'
+  provided by
+    'The Grid AI'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-08-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '917 504'
+    output
+      '131 072'

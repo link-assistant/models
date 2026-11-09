@@ -13,6 +13,8 @@ model 'Gemma 4 31B IT'
     2026-04-02
   last updated at
     2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities

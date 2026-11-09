@@ -10,9 +10,9 @@ model 'Qwen 3 Coder 480B'
   status
     active
   released at
-    2025-01-15
+    2025-07-22
   last updated at
-    2025-01-15
+    2025-07-22
   has knowledge cutoff at
     2024-12
   weights
@@ -34,10 +34,8 @@ model 'Qwen 3 Coder 480B'
       4096
   costs
     input
-      0.22
+      0.46125
     output
-      0.95
+      2.29375
     cacheRead
-      0.11
-    cacheWrite
-      0.44
+      0.230625

@@ -14,7 +14,7 @@ model 'deepseek-ai/DeepSeek-V3.1-Terminus'
   last updated at
     2025-11-25
   weights
-    closed
+    open
   capabilities
     (
       reasoning

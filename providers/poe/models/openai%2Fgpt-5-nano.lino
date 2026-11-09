@@ -10,9 +10,11 @@ model 'GPT-5-nano'
   status
     active
   released at
-    2025-08-05
+    2025-08-07
   last updated at
-    2025-08-05
+    2025-08-07
+  has knowledge cutoff at
+    2024-05-30
   weights
     closed
   capabilities
@@ -29,12 +31,14 @@ model 'GPT-5-nano'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
     input
-      0.045
+      0.0455
     output
-      0.36
+      0.3636
     cacheRead
       0.0045

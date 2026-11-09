@@ -1,0 +1,42 @@
+model 'Gemini Pro Latest (Google AI Studio)'
+  has id
+    'google-ai-studio/gemini-pro-latest'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2026-02-27
+  last updated at
+    2026-02-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      2
+    output
+      12
+    cacheRead
+      0.2

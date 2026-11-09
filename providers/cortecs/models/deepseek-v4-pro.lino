@@ -31,13 +31,13 @@ model 'DeepSeek V4 Pro'
       text
   limits
     context
-      '1 048 576'
+      '1 000 000'
     output
       '384 000'
   costs
     input
-      1.553
+      1.7
     output
-      3.106
+      3.4
     cacheRead
-      0.003625
+      0.15

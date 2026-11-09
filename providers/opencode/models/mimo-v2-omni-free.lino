@@ -4,9 +4,9 @@ model 'MiMo V2 Omni Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'mimo-omni-free'
+    'mimo'
   status
     deprecated
   released at
@@ -16,7 +16,7 @@ model 'MiMo V2 Omni Free'
   has knowledge cutoff at
     2024-12
   weights
-    open
+    closed
   capabilities
     (
       reasoning

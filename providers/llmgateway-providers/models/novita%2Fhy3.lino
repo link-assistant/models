@@ -1,0 +1,43 @@
+model 'Hy3 (NovitaAI)'
+  has id
+    'novita/hy3'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-07-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '192 000'
+    output
+      '262 144'
+  costs
+    input
+      0.14
+    output
+      0.58
+    cacheRead
+      0.035

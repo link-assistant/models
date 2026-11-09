@@ -10,9 +10,9 @@ model 'claude-opus-4-6'
   status
     active
   released at
-    2026-02
+    2026-02-05
   last updated at
-    2026-02
+    2026-03-13
   has knowledge cutoff at
     2025-05-31
   weights
@@ -40,3 +40,7 @@ model 'claude-opus-4-6'
       5
     output
       25
+    cacheRead
+      0.5
+    cacheWrite
+      6.25

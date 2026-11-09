@@ -1,0 +1,37 @@
+model 'AutoGLM Phone 9B Multilingual'
+  has id
+    'zai-org/AutoGLM-Phone-9B-Multilingual'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-10
+  last updated at
+    2025-12-10
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.035
+    output
+      0.138

@@ -10,13 +10,18 @@ model 'OpenAI: GPT-5 Pro'
   status
     active
   released at
-    2025-01-01
+    2025-10-06
   last updated at
-    2025-01-01
+    2025-10-06
   has knowledge cutoff at
     2025-01
   weights
     closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
   modalities
     input
       text
@@ -25,6 +30,8 @@ model 'OpenAI: GPT-5 Pro'
   limits
     context
       '128 000'
+    input
+      '272 000'
     output
       '32 768'
   costs

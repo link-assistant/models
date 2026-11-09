@@ -33,7 +33,7 @@ model 'Gemini 3.1 Pro Preview Custom Tools'
       text
   limits
     context
-      '1 048 756'
+      '1 048 576'
     output
       '65 536'
   costs
@@ -47,3 +47,5 @@ model 'Gemini 3.1 Pro Preview Custom Tools'
       0.375
     reasoning
       12
+    inputAudio
+      2

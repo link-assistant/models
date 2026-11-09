@@ -1,0 +1,41 @@
+model 'Hy3 (Tencent Cloud)'
+  has id
+    'tencent/hy3'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-07-06
+  last updated at
+    2026-07-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0.132
+    output
+      0.528
+    cacheRead
+      0.033

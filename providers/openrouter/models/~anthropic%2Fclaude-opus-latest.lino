@@ -19,7 +19,6 @@ model 'Claude Opus Latest'
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -35,10 +34,10 @@ model 'Claude Opus Latest'
       '128 000'
   costs
     input
-      5
+      4
     output
-      25
+      20
     cacheRead
-      0.5
+      0.2
     cacheWrite
-      6.25
+      5

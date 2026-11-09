@@ -1,0 +1,38 @@
+model 'Brick v1 Beta'
+  has id
+    'brick-v1-beta'
+  provider id
+    'regolo-ai'
+  provided by
+    'Regolo AI'
+  family
+    'model-router'
+  status
+    beta
+  released at
+    2026-02-06
+  last updated at
+    2026-02-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '100 000'
+    output
+      '15 000'
+  costs
+    input
+      0
+    output
+      0

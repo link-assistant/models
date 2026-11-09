@@ -5,14 +5,18 @@ model 'Kimi-K2.5'
     'poe'
   provided by
     'Poe'
+  family
+    'kimi-k2'
   status
-    active
+    deprecated
   released at
     2026-01-27
   last updated at
     2026-01-27
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning

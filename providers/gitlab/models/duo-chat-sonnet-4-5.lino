@@ -8,11 +8,11 @@ model 'Agentic Chat (Claude Sonnet 4.5)'
   family
     'claude-sonnet'
   status
-    active
+    deprecated
   released at
-    2026-01-08
+    2025-09-29
   last updated at
-    2026-01-08
+    2025-09-29
   has knowledge cutoff at
     2025-07-31
   weights

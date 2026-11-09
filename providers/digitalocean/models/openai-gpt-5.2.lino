@@ -1,4 +1,4 @@
-model 'GPT-5.2'
+model 'OpenAI GPT-5.2'
   has id
     'openai-gpt-5.2'
   provider id
@@ -32,6 +32,8 @@ model 'GPT-5.2'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

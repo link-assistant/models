@@ -5,14 +5,16 @@ model 'gpt-oss-120b'
     'nebius'
   provided by
     'Nebius Token Factory'
+  family
+    'gpt-oss'
   status
     active
   released at
-    2026-01-10
+    2025-08-05
   last updated at
-    2026-02-04
+    2025-08-05
   has knowledge cutoff at
-    2025-09
+    2024-06
   weights
     open
   capabilities
@@ -30,7 +32,7 @@ model 'gpt-oss-120b'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
       '124 000'
     output
@@ -41,8 +43,6 @@ model 'gpt-oss-120b'
     output
       0.6
     cacheRead
-      0.015
-    cacheWrite
-      0.18
+      0.15
     reasoning
       0.6

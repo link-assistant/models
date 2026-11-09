@@ -24,7 +24,7 @@ model 'Nano Banana'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text image
   limits
