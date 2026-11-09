@@ -1,0 +1,32 @@
+model 'BGE Reranker V2 M3'
+  has id
+    'baai/bge-reranker-v2-m3'
+  provider id
+    'novita-ai'
+  provided by
+    'Novita AI'
+  family
+    'bge'
+  status
+    active
+  released at
+    2024-03-15
+  last updated at
+    2024-03-15
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      8000
+    output
+      0
+  costs
+    input
+      0.01
+    output
+      0

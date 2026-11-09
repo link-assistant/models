@@ -1,0 +1,44 @@
+model 'Gemini 3.5 Flash Lite (EU)'
+  has id
+    'gemini-3.5-flash-lite@eu'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'gemini-flash-lite'
+  status
+    active
+  released at
+    2026-07-21
+  last updated at
+    2026-07-21
+  has knowledge cutoff at
+    2026-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video audio pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 535'
+  costs
+    input
+      0.33
+    output
+      2.75
+    cacheRead
+      0.033

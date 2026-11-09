@@ -6,9 +6,9 @@ model 'MiniMax-M2.7'
   provided by
     'OpenCode Go'
   family
-    'minimax-m2.7'
+    'minimax'
   status
-    active
+    deprecated
   released at
     2026-03-18
   last updated at
@@ -40,3 +40,5 @@ model 'MiniMax-M2.7'
       1.2
     cacheRead
       0.06
+    cacheWrite
+      0.375

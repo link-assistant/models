@@ -10,9 +10,9 @@ model 'Qwen3 30B A3B Instruct 2507'
   status
     active
   released at
-    2025-07-30
+    2025-07-28
   last updated at
-    2026-02-25
+    2025-07-28
   weights
     open
   capabilities

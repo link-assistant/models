@@ -1,0 +1,43 @@
+model 'Muse Spark Open'
+  has id
+    'muse-spark-open'
+  provider id
+    'ollama-cloud'
+  provided by
+    'Ollama Cloud'
+  family
+    'muse'
+  status
+    active
+  released at
+    2026-10-15
+  last updated at
+    2026-10-15
+  has knowledge cutoff at
+    2026-01-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      1.25
+    output
+      4.25
+    cacheRead
+      0.15

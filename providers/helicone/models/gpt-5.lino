@@ -10,16 +10,18 @@ model 'OpenAI GPT-5'
   status
     active
   released at
-    2025-01-01
+    2025-08-07
   last updated at
-    2025-01-01
+    2025-08-07
   has knowledge cutoff at
     2025-01
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
+      attachments
     )
   modalities
     input
@@ -29,6 +31,8 @@ model 'OpenAI GPT-5'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
@@ -37,4 +41,4 @@ model 'OpenAI GPT-5'
     output
       10
     cacheRead
-      0.12500000000000003
+      0.125

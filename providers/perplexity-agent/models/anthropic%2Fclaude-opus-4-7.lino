@@ -40,3 +40,5 @@ model 'Claude Opus 4.7'
       25
     cacheRead
       0.5
+    cacheWrite
+      6.25

@@ -38,5 +38,7 @@ model 'zai-org/GLM-5V-Turbo'
       1.2
     output
       4
+    cacheRead
+      0.24
     cacheWrite
       0

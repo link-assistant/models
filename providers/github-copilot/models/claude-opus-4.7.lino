@@ -8,7 +8,7 @@ model 'Claude Opus 4.7'
   family
     'claude-opus'
   status
-    experimental
+    deprecated
   released at
     2026-04-16
   last updated at

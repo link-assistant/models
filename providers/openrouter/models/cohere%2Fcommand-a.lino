@@ -19,6 +19,7 @@ model 'Command A'
     open
   capabilities
     (
+      tool calls
       temperature
       structured output
     )

@@ -5,16 +5,19 @@ model 'Kimi K2 0711 Fast'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'kimi-k2'
   status
-    active
+    deprecated
   released at
-    2025-07-15
+    2025-07-11
   last updated at
-    2025-07-15
+    2025-07-11
   weights
-    closed
+    open
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -31,6 +34,8 @@ model 'Kimi K2 0711 Fast'
       '16 384'
   costs
     input
-      0.1
+      0.4
     output
-      2
+      1.8
+    cacheRead
+      0.2

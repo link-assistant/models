@@ -5,6 +5,8 @@ model 'deepseek-v3.2'
     '302ai'
   provided by
     '302.AI'
+  family
+    'deepseek'
   status
     active
   released at
@@ -14,7 +16,7 @@ model 'deepseek-v3.2'
   has knowledge cutoff at
     2024-12
   weights
-    closed
+    open
   capabilities
     (
       tool calls

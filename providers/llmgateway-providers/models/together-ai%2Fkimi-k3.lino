@@ -1,0 +1,40 @@
+model 'Kimi K3 (Together AI)'
+  has id
+    'together-ai/kimi-k3'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-07-16
+  last updated at
+    2026-07-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '1 000 000'
+  costs
+    input
+      3
+    output
+      15
+    cacheRead
+      0.3

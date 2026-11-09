@@ -1,0 +1,36 @@
+model 'Qwen MT Plus'
+  has id
+    'qwen/qwen-mt-plus'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-07-24
+  last updated at
+    2025-07-24
+  weights
+    closed
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      8192
+  costs
+    input
+      2.46
+    output
+      7.37

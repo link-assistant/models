@@ -10,13 +10,13 @@ model 'Kimi K2 (07/11)'
   status
     active
   released at
-    2025-01-01
+    2025-07-11
   last updated at
-    2025-01-01
+    2025-07-11
   has knowledge cutoff at
     2025-01
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -34,6 +34,6 @@ model 'Kimi K2 (07/11)'
       '16 384'
   costs
     input
-      0.5700000000000001
+      0.57
     output
       2.3

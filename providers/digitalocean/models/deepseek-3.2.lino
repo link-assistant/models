@@ -1,4 +1,4 @@
-model 'DeepSeek V3.2'
+model 'Deepseek 3.2'
   has id
     'deepseek-3.2'
   provider id
@@ -10,11 +10,11 @@ model 'DeepSeek V3.2'
   status
     active
   released at
-    2025-12-02
+    2025-12-01
   last updated at
-    2026-04-30
+    2025-12-01
   has knowledge cutoff at
-    2024-12
+    2024-07
   weights
     open
   capabilities
@@ -31,11 +31,13 @@ model 'DeepSeek V3.2'
       text
   limits
     context
-      '128 000'
+      '163 840'
     output
-      '64 000'
+      '163 840'
   costs
     input
       0.5
     output
       1.6
+    cacheRead
+      0.15

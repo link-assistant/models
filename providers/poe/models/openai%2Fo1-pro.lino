@@ -8,11 +8,13 @@ model 'o1-pro'
   family
     'o-pro'
   status
-    active
+    deprecated
   released at
     2025-03-19
   last updated at
     2025-03-19
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities

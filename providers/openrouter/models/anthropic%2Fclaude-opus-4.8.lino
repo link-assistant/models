@@ -21,7 +21,6 @@ model 'Claude Opus 4.8'
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )

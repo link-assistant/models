@@ -5,14 +5,12 @@ model 'All-MiniLM-L6-v2'
     'digitalocean'
   provided by
     'DigitalOcean'
-  family
-    'text-embedding'
   status
     active
   released at
     2021-08-30
   last updated at
-    2026-04-16
+    2021-08-30
   weights
     open
   modalities

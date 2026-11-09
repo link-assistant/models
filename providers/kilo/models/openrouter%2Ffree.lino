@@ -1,4 +1,4 @@
-model 'Free Models Router'
+model 'OpenRouter Free Models Router'
   has id
     'openrouter/free'
   provider id
@@ -10,7 +10,7 @@ model 'Free Models Router'
   released at
     2026-02-01
   last updated at
-    2026-03-15
+    2026-02-01
   weights
     closed
   capabilities
@@ -19,10 +19,11 @@ model 'Free Models Router'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      text image
     output
       text
   limits

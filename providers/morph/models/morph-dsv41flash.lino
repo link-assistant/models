@@ -1,0 +1,45 @@
+model 'DeepSeek V4.1 Flash'
+  has id
+    'morph-dsv41flash'
+  provider id
+    'morph'
+  provided by
+    'Morph'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.12
+    output
+      0.8
+    cacheRead
+      0.008

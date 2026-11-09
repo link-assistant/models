@@ -17,11 +17,11 @@ model 'Veo 3.1'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image video
     output
       video
   limits

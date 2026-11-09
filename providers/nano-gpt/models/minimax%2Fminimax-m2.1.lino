@@ -10,15 +10,16 @@ model 'MiniMax M2.1'
   status
     active
   released at
-    2025-12-19
+    2025-12-23
   last updated at
-    2025-12-19
+    2025-12-23
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -35,6 +36,8 @@ model 'MiniMax M2.1'
       '131 072'
   costs
     input
-      0.33
+      0.3
     output
-      1.32
+      1.2
+    cacheRead
+      0.03

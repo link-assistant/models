@@ -35,8 +35,8 @@ model 'Qwen3.6 27B TEE'
       '65 536'
   costs
     input
-      0.3
+      0.25
     output
       2
     cacheRead
-      0.15
+      0.024999999999999994

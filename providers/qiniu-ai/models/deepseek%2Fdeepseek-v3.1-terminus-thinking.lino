@@ -6,7 +6,7 @@ model 'DeepSeek/DeepSeek-V3.1-Terminus-Thinking'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2025-09-22
   last updated at
@@ -16,6 +16,7 @@ model 'DeepSeek/DeepSeek-V3.1-Terminus-Thinking'
   capabilities
     (
       reasoning
+      tool calls
       temperature
     )
   modalities
@@ -28,3 +29,8 @@ model 'DeepSeek/DeepSeek-V3.1-Terminus-Thinking'
       '128 000'
     output
       '32 000'
+  costs
+    input
+      0.57971014
+    output
+      1.73913043

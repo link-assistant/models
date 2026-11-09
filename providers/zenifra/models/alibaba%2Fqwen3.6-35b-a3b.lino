@@ -20,7 +20,6 @@ model 'Qwen3.6 35B-A3B'
       reasoning
       tool calls
       temperature
-      attachments
       structured output
     )
   modalities

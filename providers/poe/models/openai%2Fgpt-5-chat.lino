@@ -6,13 +6,15 @@ model 'GPT-5-Chat'
   provided by
     'Poe'
   family
-    'gpt-codex'
+    'gpt'
   status
-    active
+    deprecated
   released at
     2025-08-07
   last updated at
     2025-08-07
+  has knowledge cutoff at
+    2024-09-30
   weights
     closed
   capabilities
@@ -28,6 +30,8 @@ model 'GPT-5-Chat'
   limits
     context
       '128 000'
+    input
+      '272 000'
     output
       '16 384'
   costs

@@ -1,0 +1,40 @@
+model 'Sonar Deep Research'
+  has id
+    'perplexity/sonar-deep-research'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  family
+    'sonar'
+  status
+    active
+  released at
+    2025-02-01
+  last updated at
+    2025-09-01
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      2
+    output
+      8
+    reasoning
+      3

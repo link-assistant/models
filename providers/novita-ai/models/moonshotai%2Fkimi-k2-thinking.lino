@@ -4,15 +4,17 @@ model 'Kimi K2 Thinking'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'kimi-thinking'
   status
     active
   released at
-    2025-11-07
+    2025-11-06
   last updated at
-    2026-06-29
+    2025-11-06
+  has knowledge cutoff at
+    2024-08
   weights
     open
   capabilities
@@ -32,7 +34,7 @@ model 'Kimi K2 Thinking'
     context
       '262 144'
     output
-      '262 144'
+      '98 304'
   costs
     input
       0.6

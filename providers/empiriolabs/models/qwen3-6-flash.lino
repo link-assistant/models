@@ -30,7 +30,7 @@ model 'Qwen3.6 Flash'
       text
   limits
     context
-      '1 000 000'
+      '983 616'
     output
       '65 536'
   costs
@@ -38,3 +38,5 @@ model 'Qwen3.6 Flash'
       0.25
     output
       1.5
+    cacheRead
+      0.25

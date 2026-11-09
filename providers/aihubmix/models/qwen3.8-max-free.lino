@@ -1,0 +1,40 @@
+model 'Qwen3.8 Max (free)'
+  has id
+    'qwen3.8-max-free'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-08-03
+  last updated at
+    2026-08-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0

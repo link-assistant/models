@@ -10,11 +10,15 @@ model 'MiniMax M1 80K'
   status
     active
   released at
-    2025-06-16
+    2025-06-17
   last updated at
-    2025-06-16
+    2025-06-17
   weights
-    closed
+    open
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -31,4 +35,6 @@ model 'MiniMax M1 80K'
     input
       0.6052
     output
-      2.4225000000000003
+      2.4225
+    cacheRead
+      0.3026

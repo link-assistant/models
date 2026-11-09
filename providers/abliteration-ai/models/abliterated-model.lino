@@ -10,11 +10,12 @@ model 'Abliterated Model'
   released at
     2026-01-06
   last updated at
-    2026-01-06
+    2026-07-28
   weights
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
@@ -36,3 +37,5 @@ model 'Abliterated Model'
       3
     output
       3
+    cacheRead
+      0.3

@@ -1,0 +1,47 @@
+model 'GPT-6.1 Terra (EU)'
+  has id
+    'gpt-6.1-terra@eu'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'gpt-terra'
+  status
+    active
+  released at
+    2026-10-26
+  last updated at
+    2026-10-26
+  has knowledge cutoff at
+    2026-06-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      1.2
+    output
+      6
+    cacheRead
+      0.06
+    cacheWrite
+      1.5

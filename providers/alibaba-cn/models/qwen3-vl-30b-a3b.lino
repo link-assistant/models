@@ -8,7 +8,7 @@ model 'Qwen3-VL 30B-A3B'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2025-04
   last updated at
@@ -22,6 +22,7 @@ model 'Qwen3-VL 30B-A3B'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

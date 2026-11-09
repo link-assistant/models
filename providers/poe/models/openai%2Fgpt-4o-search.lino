@@ -18,7 +18,6 @@ model 'GPT-4o-Search'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input
@@ -32,6 +31,6 @@ model 'GPT-4o-Search'
       8192
   costs
     input
-      2.2
+      2.2727
     output
-      9
+      9.0909

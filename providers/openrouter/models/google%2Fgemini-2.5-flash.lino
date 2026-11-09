@@ -8,7 +8,7 @@ model 'Gemini 2.5 Flash'
   family
     'gemini-flash'
   status
-    active
+    deprecated
   released at
     2025-06-17
   last updated at
@@ -46,3 +46,5 @@ model 'Gemini 2.5 Flash'
       0.083333
     reasoning
       2.5
+    inputAudio
+      1

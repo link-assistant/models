@@ -15,7 +15,6 @@ model 'sparsedrive'
     open
   capabilities
     (
-      temperature
       attachments
     )
   modalities

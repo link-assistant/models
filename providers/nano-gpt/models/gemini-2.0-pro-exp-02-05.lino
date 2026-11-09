@@ -5,6 +5,8 @@ model 'Gemini 2.0 Pro 0205'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini'
   status
     active
   released at
@@ -19,7 +21,7 @@ model 'Gemini 2.0 Pro 0205'
     )
   modalities
     input
-      text image
+      text image audio
     output
       text
   limits
@@ -34,3 +36,5 @@ model 'Gemini 2.0 Pro 0205'
       1.989
     output
       7.956
+    cacheRead
+      0.49725

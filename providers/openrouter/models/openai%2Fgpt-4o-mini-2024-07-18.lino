@@ -6,7 +6,7 @@ model 'GPT-4o-mini (2024-07-18)'
   provided by
     'OpenRouter'
   family
-    'o-mini'
+    'gpt-mini'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'GPT-4o-mini (2024-07-18)'
   last updated at
     2024-07-18
   has knowledge cutoff at
-    2023-10-31
+    2023-09
   weights
     closed
   capabilities

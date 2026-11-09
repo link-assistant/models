@@ -10,11 +10,13 @@ model 'Mistral Small 4 119B'
   status
     active
   released at
-    2026-03-15
+    2026-03-16
   last updated at
-    2026-03-15
+    2026-03-16
+  has knowledge cutoff at
+    2025-06
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -34,6 +36,6 @@ model 'Mistral Small 4 119B'
       '16 384'
   costs
     input
-      0.75
+      0.56075
     output
-      3
+      2.35515

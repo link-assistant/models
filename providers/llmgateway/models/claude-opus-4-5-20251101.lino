@@ -4,15 +4,15 @@ model 'Claude Opus 4.5'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'claude-opus'
   status
     active
   released at
-    2025-11-01
+    2025-11-24
   last updated at
-    2025-11-01
+    2025-11-24
   has knowledge cutoff at
     2025-05
   weights

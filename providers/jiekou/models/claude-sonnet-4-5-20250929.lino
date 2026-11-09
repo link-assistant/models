@@ -10,13 +10,16 @@ model 'claude-sonnet-4-5-20250929'
   status
     active
   released at
-    2026-01
+    2025-09-29
   last updated at
-    2026-01
+    2025-09-29
+  has knowledge cutoff at
+    2025-07-31
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
@@ -34,6 +37,10 @@ model 'claude-sonnet-4-5-20250929'
       '64 000'
   costs
     input
-      2.7
+      3
     output
-      13.5
+      15
+    cacheRead
+      0.3
+    cacheWrite
+      3.75

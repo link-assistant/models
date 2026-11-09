@@ -10,7 +10,7 @@ model 'Claude Sonnet 5'
   status
     active
   released at
-    2026-06-29
+    2026-06-30
   last updated at
     2026-06-30
   has knowledge cutoff at
@@ -21,7 +21,6 @@ model 'Claude Sonnet 5'
     (
       reasoning
       tool calls
-      temperature
       attachments
     )
   modalities

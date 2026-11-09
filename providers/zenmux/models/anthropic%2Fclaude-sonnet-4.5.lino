@@ -5,6 +5,8 @@ model 'Claude Sonnet 4.5'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'claude-sonnet'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Claude Sonnet 4.5'
   last updated at
     2025-09-29
   has knowledge cutoff at
-    2025-01-01
+    2025-07-31
   weights
     closed
   capabilities

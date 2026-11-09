@@ -15,6 +15,10 @@ model 'StepAudio 2.5 ASR'
     2026-07-02
   weights
     closed
+  capabilities
+    (
+      attachments
+    )
   modalities
     input
       audio

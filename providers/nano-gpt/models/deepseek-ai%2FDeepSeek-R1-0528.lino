@@ -6,7 +6,7 @@ model 'DeepSeek R1 0528'
   provided by
     'NanoGPT'
   family
-    'deepseek'
+    'deepseek-thinking'
   status
     active
   released at
@@ -14,10 +14,12 @@ model 'DeepSeek R1 0528'
   last updated at
     2025-05-28
   weights
-    closed
+    open
   capabilities
     (
       reasoning
+      tool calls
+      temperature
     )
   modalities
     input
@@ -26,13 +28,15 @@ model 'DeepSeek R1 0528'
       text
   limits
     context
-      '128 000'
-    input
-      '128 000'
-    output
       '163 840'
+    input
+      '163 840'
+    output
+      '32 768'
   costs
     input
-      0.4
+      0.5
     output
-      1.7
+      2.15
+    cacheRead
+      0.35

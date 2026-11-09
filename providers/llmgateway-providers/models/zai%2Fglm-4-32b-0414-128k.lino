@@ -1,0 +1,37 @@
+model 'GLM-4 32B (0414-128k) (Z AI)'
+  has id
+    'zai/glm-4-32b-0414-128k'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-04-14
+  last updated at
+    2025-04-14
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '128 000'
+  costs
+    input
+      0.1
+    output
+      0.1

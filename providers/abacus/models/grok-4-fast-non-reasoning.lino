@@ -8,11 +8,11 @@ model 'Grok 4 Fast (Non-Reasoning)'
   family
     'grok'
   status
-    active
+    deprecated
   released at
-    2025-07-09
+    2025-12-18
   last updated at
-    2025-07-09
+    2025-12-18
   weights
     closed
   capabilities

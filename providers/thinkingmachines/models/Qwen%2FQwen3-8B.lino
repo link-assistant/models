@@ -1,0 +1,40 @@
+model 'Qwen3 8B'
+  has id
+    'Qwen/Qwen3-8B'
+  provider id
+    'thinkingmachines'
+  provided by
+    'Thinking Machines'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04-29
+  last updated at
+    2025-04-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      0.195
+    output
+      0.6
+    cacheRead
+      0.039

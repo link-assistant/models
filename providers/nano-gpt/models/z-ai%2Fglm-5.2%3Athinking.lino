@@ -1,0 +1,43 @@
+model 'GLM 5.2 Thinking'
+  has id
+    'z-ai/glm-5.2:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-06-13
+  last updated at
+    2026-06-13
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.42
+    output
+      1.32
+    cacheRead
+      0.078

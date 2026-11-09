@@ -8,11 +8,13 @@ model 'o1'
   family
     'o'
   status
-    active
+    deprecated
   released at
-    2024-12-18
+    2024-12-05
   last updated at
-    2024-12-18
+    2024-12-05
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities

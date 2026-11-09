@@ -30,11 +30,11 @@ model 'Hy3 preview'
     context
       '262 144'
     output
-      '262 144'
+      '235 929'
   costs
     input
-      0.063
+      0.18
     output
-      0.21
+      0.6
     cacheRead
-      0.021
+      0.06

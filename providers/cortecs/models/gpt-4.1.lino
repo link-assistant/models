@@ -1,4 +1,4 @@
-model 'GPT 4.1'
+model 'GPT-4.1'
   has id
     'gpt-4.1'
   provider id
@@ -14,17 +14,18 @@ model 'GPT 4.1'
   last updated at
     2025-04-14
   has knowledge cutoff at
-    2024-06
+    2024-04
   weights
     closed
   capabilities
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
@@ -34,6 +35,8 @@ model 'GPT 4.1'
       '32 768'
   costs
     input
-      2.354
+      2.192
     output
-      9.417
+      8.769
+    cacheRead
+      0.546

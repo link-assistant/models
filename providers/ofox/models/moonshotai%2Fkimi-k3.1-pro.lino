@@ -1,0 +1,40 @@
+model 'Kimi K3.1 Pro'
+  has id
+    'moonshotai/kimi-k3.1-pro'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-10-23
+  last updated at
+    2026-10-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      2
+    output
+      11
+    cacheRead
+      0.2

@@ -1,0 +1,42 @@
+model 'Qwen Plus'
+  has id
+    'alibaba/qwen-plus'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2024-01-25
+  last updated at
+    2025-09-11
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '16 384'
+  costs
+    input
+      0.4
+    output
+      1.2
+    cacheRead
+      0.08

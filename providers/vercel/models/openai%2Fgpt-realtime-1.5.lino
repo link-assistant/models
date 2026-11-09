@@ -13,11 +13,15 @@ model 'GPT-Realtime-1.5'
     2026-02-23
   last updated at
     2026-02-23
+  has knowledge cutoff at
+    2024-09-30
   weights
     closed
   capabilities
     (
+      tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -26,9 +30,9 @@ model 'GPT-Realtime-1.5'
       text audio
   limits
     context
-      0
+      '32 000'
     output
-      0
+      4096
   costs
     input
       4
@@ -36,3 +40,7 @@ model 'GPT-Realtime-1.5'
       16
     cacheRead
       0.4
+    inputAudio
+      32
+    outputAudio
+      64

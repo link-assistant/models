@@ -1,0 +1,42 @@
+model 'LL Alpha Free'
+  has id
+    'll-alpha-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode'
+  status
+    deprecated
+  released at
+    2026-10-15
+  last updated at
+    2026-10-15
+  has knowledge cutoff at
+    2026-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

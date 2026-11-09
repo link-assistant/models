@@ -1,4 +1,4 @@
-model 'OpenAI GPT Mini Latest'
+model 'GPT Mini Latest'
   has id
     '~openai/gpt-mini-latest'
   provider id

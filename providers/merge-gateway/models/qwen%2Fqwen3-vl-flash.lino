@@ -1,0 +1,41 @@
+model 'Qwen3-VL Flash'
+  has id
+    'qwen/qwen3-vl-flash'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.022
+    output
+      0.215
+    cacheRead
+      0.0044
+    cacheWrite
+      0.0275

@@ -42,3 +42,5 @@ model 'DeepSeek V4 Flash'
       0.18
     cacheRead
       0.018
+    cacheWrite
+      0.1125

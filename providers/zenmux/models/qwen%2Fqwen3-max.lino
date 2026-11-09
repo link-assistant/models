@@ -5,14 +5,16 @@ model 'Qwen3-Max-Thinking'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'qwen'
   status
-    active
+    deprecated
   released at
-    2026-01-23
+    2025-09-23
   last updated at
-    2026-01-23
+    2025-09-23
   has knowledge cutoff at
-    2025-01-01
+    2025-04
   weights
     closed
   capabilities

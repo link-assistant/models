@@ -27,14 +27,14 @@ model 'Gemini 2.5 Pro'
     )
   modalities
     input
-      text image audio video pdf
+      text image pdf
     output
       text
   limits
     context
       '1 048 576'
     output
-      '65 536'
+      '65 535'
   costs
     input
       1.25

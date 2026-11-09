@@ -10,9 +10,9 @@ model 'BGE Reranker v2 M3'
   status
     active
   released at
-    2024-03-12
+    2024-03-15
   last updated at
-    2026-04-30
+    2024-03-15
   weights
     open
   modalities

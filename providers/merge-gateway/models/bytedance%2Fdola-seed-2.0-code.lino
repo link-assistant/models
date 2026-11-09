@@ -1,0 +1,37 @@
+model 'Seed 2.0 Code'
+  has id
+    'bytedance/dola-seed-2.0-code'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'seed'
+  status
+    active
+  released at
+    2026-02-14
+  last updated at
+    2026-02-14
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '128 000'
+  costs
+    input
+      0.4
+    output
+      2.4

@@ -13,6 +13,8 @@ model 'o3-pro'
     2025-06-10
   last updated at
     2025-06-10
+  has knowledge cutoff at
+    2024-05
   weights
     closed
   capabilities
@@ -33,6 +35,6 @@ model 'o3-pro'
       '100 000'
   costs
     input
-      18
+      18.1818
     output
-      72
+      72.7273

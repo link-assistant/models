@@ -15,6 +15,10 @@ model 'KB Whisper'
     2024-10-01
   weights
     open
+  capabilities
+    (
+      attachments
+    )
   modalities
     input
       audio
@@ -25,10 +29,3 @@ model 'KB Whisper'
       448
     output
       448
-  costs
-    input
-      0.0023
-    output
-      0.0023
-    outputAudio
-      2.3

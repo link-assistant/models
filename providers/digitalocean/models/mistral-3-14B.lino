@@ -1,4 +1,4 @@
-model 'Ministral 3 14B Instruct'
+model 'Ministral 3 14B'
   has id
     'mistral-3-14B'
   provider id
@@ -10,9 +10,9 @@ model 'Ministral 3 14B Instruct'
   status
     active
   released at
-    2025-12-15
+    2025-12-02
   last updated at
-    2026-04-30
+    2025-12-02
   weights
     open
   capabilities
@@ -36,3 +36,5 @@ model 'Ministral 3 14B Instruct'
       0.2
     output
       0.2
+    cacheRead
+      0.04

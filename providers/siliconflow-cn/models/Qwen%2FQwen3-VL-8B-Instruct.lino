@@ -14,7 +14,7 @@ model 'Qwen/Qwen3-VL-8B-Instruct'
   last updated at
     2025-11-25
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -24,7 +24,7 @@ model 'Qwen/Qwen3-VL-8B-Instruct'
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
@@ -34,6 +34,6 @@ model 'Qwen/Qwen3-VL-8B-Instruct'
       '262 000'
   costs
     input
-      0.18
+      0.07472374
     output
-      0.68
+      0.29889496

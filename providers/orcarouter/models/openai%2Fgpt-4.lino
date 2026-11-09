@@ -21,7 +21,6 @@ model 'GPT-4'
     (
       tool calls
       temperature
-      attachments
     )
   modalities
     input

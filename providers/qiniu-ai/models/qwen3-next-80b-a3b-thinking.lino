@@ -5,19 +5,24 @@ model 'Qwen3 Next 80B A3B Thinking'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'qwen'
   status
-    active
+    deprecated
   released at
-    2025-09-12
+    2025-09
   last updated at
-    2025-09-12
+    2025-09
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -29,3 +34,8 @@ model 'Qwen3 Next 80B A3B Thinking'
       '131 072'
     output
       '32 768'
+  costs
+    input
+      0.14492754
+    output
+      1.44927536

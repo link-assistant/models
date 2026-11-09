@@ -34,6 +34,6 @@ model 'grok-4-0709'
       8192
   costs
     input
-      2.7
+      2.85
     output
-      13.5
+      14.25

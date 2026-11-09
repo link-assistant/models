@@ -22,7 +22,6 @@ model 'kimi-k2.7-code'
       reasoning
       tool calls
       attachments
-      structured output
     )
   modalities
     input
@@ -34,3 +33,10 @@ model 'kimi-k2.7-code'
       '262 144'
     output
       '262 144'
+  costs
+    input
+      0.95
+    output
+      4
+    cacheRead
+      0.19

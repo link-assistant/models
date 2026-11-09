@@ -1,22 +1,27 @@
-model 'Llama 4 Maverick Instruct'
+model 'Llama 4 Maverick 17B Instruct'
   has id
     'meta-llama/llama-4-maverick-17b-128e-instruct-fp8'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
+  family
+    'llama'
   status
     active
   released at
-    2025-04-06
+    2025-04-05
   last updated at
-    2025-04-06
+    2025-04-05
+  has knowledge cutoff at
+    2024-08
   weights
     open
   capabilities
     (
       temperature
       attachments
+      structured output
     )
   modalities
     input

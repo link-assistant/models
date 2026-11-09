@@ -1,16 +1,20 @@
-model 'OpenAI: GPT-5.4 Pro'
+model 'GPT-5.4 Pro'
   has id
     'openai/gpt-5.4-pro'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt-pro'
   status
     active
   released at
-    2026-03-06
+    2026-03-05
   last updated at
-    2026-03-15
+    2026-03-05
+  has knowledge cutoff at
+    2025-08-31
   weights
     closed
   capabilities
@@ -18,15 +22,18 @@ model 'OpenAI: GPT-5.4 Pro'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
-      image pdf text
+      text image pdf
     output
       text
   limits
     context
       '1 050 000'
+    input
+      '922 000'
     output
       '128 000'
   costs

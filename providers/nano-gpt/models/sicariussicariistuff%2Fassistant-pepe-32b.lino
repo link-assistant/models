@@ -1,0 +1,34 @@
+model 'Assistant Pepe 32B'
+  has id
+    'sicariussicariistuff/assistant-pepe-32b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-11-03
+  last updated at
+    2026-11-03
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '40 960'
+    input
+      '40 960'
+    output
+      8192
+  costs
+    input
+      0.1
+    output
+      0.45
+    cacheRead
+      0.05

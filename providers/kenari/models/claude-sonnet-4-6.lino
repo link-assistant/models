@@ -36,6 +36,10 @@ model 'Claude Sonnet 4.6'
       '64 000'
   costs
     input
-      0
+      3.6
     output
-      0
+      17.71428571
+    cacheRead
+      0.36
+    cacheWrite
+      4.45714286

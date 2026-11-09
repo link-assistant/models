@@ -30,11 +30,11 @@ model 'DeepSeek Chat'
       text
   limits
     context
-      '131 072'
+      '163 840'
     output
-      '16 000'
+      '16 384'
   costs
     input
-      0.2002
+      0.32
     output
-      0.8001
+      0.89

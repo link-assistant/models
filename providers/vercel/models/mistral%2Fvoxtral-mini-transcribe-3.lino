@@ -1,0 +1,31 @@
+model 'Voxtral Mini Transcribe 3'
+  has id
+    'mistral/voxtral-mini-transcribe-3'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mistral'
+  status
+    active
+  released at
+    2026-10-20
+  last updated at
+    2026-10-20
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

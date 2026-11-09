@@ -39,6 +39,6 @@ model 'Coding Xiaomi MiMo-V2.5'
     input
       0.08
     output
-      0.4
+      0.16
     cacheRead
-      0.016
+      0.0016

@@ -42,4 +42,4 @@ model 'GPT-5 Nano'
     output
       0.4
     cacheRead
-      0.01
+      0.005

@@ -12,7 +12,7 @@ model 'Claude Opus 4.6'
   released at
     2026-02-05
   last updated at
-    2026-06-11
+    2026-03-13
   has knowledge cutoff at
     2025-05-31
   weights
@@ -37,10 +37,10 @@ model 'Claude Opus 4.6'
       '128 000'
   costs
     input
-      6
+      5
     output
-      30
+      25
     cacheRead
-      0.6
+      0.5
     cacheWrite
-      7.5
+      6.25

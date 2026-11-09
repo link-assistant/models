@@ -1,0 +1,42 @@
+model 'Nova Micro'
+  has id
+    'amazon/amazon.nova-micro-v1:0'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'nova-micro'
+  status
+    active
+  released at
+    2024-12-03
+  last updated at
+    2024-12-03
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '10 000'
+  costs
+    input
+      0.035
+    output
+      0.14
+    cacheRead
+      0.00875

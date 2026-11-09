@@ -10,11 +10,11 @@ model 'GLM 5 Turbo'
   status
     active
   released at
-    2026-03-15
+    2026-03-16
   last updated at
-    2026-06-11
+    2026-03-16
   weights
-    open
+    closed
   capabilities
     (
       reasoning

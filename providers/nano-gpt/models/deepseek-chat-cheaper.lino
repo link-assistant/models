@@ -5,6 +5,8 @@ model 'DeepSeek V3/Chat Cheaper'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'deepseek'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'DeepSeek V3/Chat Cheaper'
   last updated at
     2025-04-15
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -33,6 +35,8 @@ model 'DeepSeek V3/Chat Cheaper'
       8192
   costs
     input
-      0.25
+      0.1
     output
-      0.7
+      0.425
+    cacheRead
+      0.05

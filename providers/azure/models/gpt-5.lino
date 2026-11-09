@@ -25,11 +25,13 @@ model 'GPT-5'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits
     context
+      '400 000'
+    input
       '272 000'
     output
       '128 000'
@@ -39,4 +41,4 @@ model 'GPT-5'
     output
       10
     cacheRead
-      0.13
+      0.125

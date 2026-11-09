@@ -13,10 +13,13 @@ model 'GPT 4.1 Mini'
     2025-04-14
   last updated at
     2025-04-14
+  has knowledge cutoff at
+    2024-04
   weights
     closed
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -36,3 +39,5 @@ model 'GPT 4.1 Mini'
       0.4
     output
       1.6
+    cacheRead
+      0.1

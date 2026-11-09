@@ -6,19 +6,21 @@ model 'o4-mini'
   provided by
     'Jiekou.AI'
   family
-    'o'
+    'o-mini'
   status
-    active
+    deprecated
   released at
-    2026-01
+    2025-04-16
   last updated at
-    2026-01
+    2025-04-16
+  has knowledge cutoff at
+    2024-05
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
-      temperature
       attachments
       structured output
     )

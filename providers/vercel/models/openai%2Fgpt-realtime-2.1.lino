@@ -10,7 +10,7 @@ model 'gpt-realtime-2.1'
   status
     active
   released at
-    2026-07-09
+    2026-07-06
   last updated at
     2026-07-06
   has knowledge cutoff at
@@ -20,7 +20,9 @@ model 'gpt-realtime-2.1'
   capabilities
     (
       reasoning
+      tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -41,3 +43,7 @@ model 'gpt-realtime-2.1'
       24
     cacheRead
       0.4
+    inputAudio
+      32
+    outputAudio
+      64

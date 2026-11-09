@@ -16,9 +16,10 @@ model 'Kimi K2 Thinking'
   has knowledge cutoff at
     2025-11
   weights
-    closed
+    open
   capabilities
     (
+      reasoning
       tool calls
       temperature
     )

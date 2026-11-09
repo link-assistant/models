@@ -19,8 +19,10 @@ model 'Anthropic: Claude 3.7 Sonnet'
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -38,6 +40,6 @@ model 'Anthropic: Claude 3.7 Sonnet'
     output
       15
     cacheRead
-      0.30000000000000004
+      0.3
     cacheWrite
       3.75

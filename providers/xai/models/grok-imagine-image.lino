@@ -21,11 +21,11 @@ model 'Grok Imagine Image'
     )
   modalities
     input
-      text image pdf
+      text image
     output
-      image pdf
+      image
   limits
     context
-      8000
+      '16 000'
     output
       0

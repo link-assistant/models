@@ -1,0 +1,41 @@
+model 'Mistral Small 3.1 24B'
+  has id
+    'mistralai/mistral-small-3-1-24b-instruct-2503'
+  provider id
+    'watsonx'
+  provided by
+    'watsonx.ai'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-03-17
+  last updated at
+    2025-03-17
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.106
+    output
+      0.318

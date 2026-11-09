@@ -10,14 +10,16 @@ model 'GPT-4o Transcribe'
   status
     active
   released at
-    2024-03-13
+    2025-03-20
   last updated at
-    2024-03-13
+    2025-03-20
+  has knowledge cutoff at
+    2024-06-01
   weights
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
@@ -26,11 +28,13 @@ model 'GPT-4o Transcribe'
       text
   limits
     context
-      0
+      '16 000'
     output
-      0
+      2000
   costs
     input
       2.5
     output
       10
+    inputAudio
+      2.5

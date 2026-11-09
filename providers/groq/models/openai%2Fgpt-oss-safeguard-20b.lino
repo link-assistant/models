@@ -12,7 +12,7 @@ model 'Safety GPT OSS 20B'
   released at
     2025-10-29
   last updated at
-    2026-06-29
+    2025-10-29
   weights
     open
   capabilities
@@ -37,3 +37,5 @@ model 'Safety GPT OSS 20B'
       0.075
     output
       0.3
+    cacheRead
+      0.0375

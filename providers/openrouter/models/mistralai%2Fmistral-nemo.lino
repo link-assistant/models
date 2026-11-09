@@ -10,9 +10,9 @@ model 'Mistral Nemo'
   status
     active
   released at
-    2024-07-01
+    2024-07-18
   last updated at
-    2024-07-01
+    2024-07-18
   has knowledge cutoff at
     2024-07
   weights
@@ -32,9 +32,9 @@ model 'Mistral Nemo'
     context
       '131 072'
     output
-      '131 072'
+      '16 384'
   costs
     input
-      0.02
+      0.029
     output
       0.03

@@ -6,7 +6,7 @@ model 'DeepSeek V3.1 Thinking'
   provided by
     'NanoGPT'
   family
-    'deepseek-thinking'
+    'deepseek'
   status
     active
   released at
@@ -14,7 +14,12 @@ model 'DeepSeek V3.1 Thinking'
   last updated at
     2025-08-21
   weights
-    closed
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
   modalities
     input
       text
@@ -32,3 +37,5 @@ model 'DeepSeek V3.1 Thinking'
       0.2
     output
       0.7
+    cacheRead
+      0.1

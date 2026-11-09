@@ -6,7 +6,7 @@ model 'Gemini Embedding 001'
   provided by
     'Vercel AI Gateway'
   family
-    'gemini-embedding'
+    'gemini'
   status
     active
   released at
@@ -17,10 +17,6 @@ model 'Gemini Embedding 001'
     2025-05
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -28,6 +24,6 @@ model 'Gemini Embedding 001'
       text
   limits
     context
-      8192
+      2048
     output
-      1536
+      1

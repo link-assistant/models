@@ -8,7 +8,7 @@ model 'Mistral Small 3.2'
   family
     'mistral-small'
   status
-    active
+    deprecated
   released at
     2025-06-20
   last updated at
@@ -21,6 +21,7 @@ model 'Mistral Small 3.2'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

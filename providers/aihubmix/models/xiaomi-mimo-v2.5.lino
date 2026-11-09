@@ -8,7 +8,7 @@ model 'Xiaomi MiMo-V2.5'
   family
     'mimo-v2.5'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at

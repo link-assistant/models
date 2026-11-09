@@ -16,14 +16,14 @@ model 'Mistral Nemo'
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       temperature
     )
   modalities
     input
-      text image
+      text
     output
       text
   limits

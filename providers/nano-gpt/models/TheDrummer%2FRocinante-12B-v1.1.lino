@@ -12,7 +12,7 @@ model 'Rocinante 12b'
   last updated at
     2024-01-01
   weights
-    closed
+    open
   modalities
     input
       text
@@ -30,3 +30,5 @@ model 'Rocinante 12b'
       0.408
     output
       0.595
+    cacheRead
+      0.204

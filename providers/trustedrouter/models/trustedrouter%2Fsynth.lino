@@ -1,0 +1,33 @@
+model 'Synth'
+  has id
+    'trustedrouter/synth'
+  provider id
+    'trustedrouter'
+  provided by
+    'TrustedRouter'
+  status
+    active
+  released at
+    2026-06-20
+  last updated at
+    2026-06-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'

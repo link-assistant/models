@@ -4,7 +4,7 @@ model 'Gemini 3 Pro'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'gemini-pro'
   status

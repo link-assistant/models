@@ -15,10 +15,6 @@ model 'Recraft V4.1 Utility Pro'
     2026-05-14
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text

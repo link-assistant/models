@@ -12,9 +12,11 @@ model 'Kimi K2 Instruct'
   released at
     2025-07-11
   last updated at
-    2025-09-05
+    2025-07-11
+  has knowledge cutoff at
+    2024-12-31
   weights
-    closed
+    open
   capabilities
     (
       tool calls

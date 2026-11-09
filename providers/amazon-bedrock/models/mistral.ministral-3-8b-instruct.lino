@@ -10,20 +10,21 @@ model 'Ministral 3 8B'
   status
     active
   released at
-    2024-12-01
+    2025-12-02
   last updated at
-    2024-12-01
+    2025-12-02
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

@@ -17,11 +17,11 @@ model 'FLUX.1 Kontext Max'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       image
   limits

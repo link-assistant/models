@@ -8,7 +8,7 @@ model 'GLM-4.5'
   family
     'glm'
   status
-    active
+    deprecated
   released at
     2025-07-28
   last updated at

@@ -1,0 +1,44 @@
+model 'Tencent Hy4'
+  has id
+    'tencent/hy4'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-11-04
+  last updated at
+    2026-11-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.462
+    output
+      1.386
+    cacheRead
+      0.0233

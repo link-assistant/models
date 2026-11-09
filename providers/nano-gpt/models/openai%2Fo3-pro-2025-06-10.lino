@@ -13,6 +13,8 @@ model 'OpenAI o3-pro (2025-06-10)'
     2025-06-10
   last updated at
     2025-06-10
+  has knowledge cutoff at
+    2024-05
   weights
     closed
   capabilities
@@ -35,6 +37,8 @@ model 'OpenAI o3-pro (2025-06-10)'
       '100 000'
   costs
     input
-      9.996
+      22
     output
-      19.992
+      88
+    cacheRead
+      11

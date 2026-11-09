@@ -13,12 +13,15 @@ model 'GPT 5.1'
     2025-11-13
   last updated at
     2025-11-13
+  has knowledge cutoff at
+    2024-09-30
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -39,3 +42,5 @@ model 'GPT 5.1'
       1.25
     output
       10
+    cacheRead
+      0.125

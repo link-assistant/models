@@ -6,7 +6,7 @@ model 'DeepSeek v4 Pro'
   provided by
     'FrogBot'
   family
-    'deepseek'
+    'deepseek-thinking'
   status
     active
   released at
@@ -16,12 +16,11 @@ model 'DeepSeek v4 Pro'
   has knowledge cutoff at
     2026-01
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
-      attachments
     )
   modalities
     input
@@ -35,8 +34,8 @@ model 'DeepSeek v4 Pro'
       8192
   costs
     input
-      1.74
+      1.32
     output
-      3.48
+      3.96
     cacheRead
-      0.14
+      0.044

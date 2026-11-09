@@ -1,10 +1,10 @@
-model 'MiniMax M2.5'
+model 'MiniMax-M2.5'
   has id
     'minimax/minimax-m2.5'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'minimax'
   status
@@ -14,7 +14,7 @@ model 'MiniMax M2.5'
   last updated at
     2026-02-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning

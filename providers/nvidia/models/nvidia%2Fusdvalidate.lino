@@ -6,7 +6,7 @@ model 'usdvalidate'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2024-07-24
   last updated at

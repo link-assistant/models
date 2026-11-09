@@ -8,7 +8,7 @@ model 'Qwen3 32B'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2025-04
   last updated at

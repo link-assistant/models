@@ -1,0 +1,41 @@
+model 'GLM-5.1 (NovitaAI)'
+  has id
+    'novita/glm-5.1'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      1.38
+    output
+      4.4
+    cacheRead
+      0.26

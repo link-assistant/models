@@ -14,16 +14,17 @@ model 'Gemma 4 26B A4B IT'
   last updated at
     2026-04-02
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
@@ -33,6 +34,8 @@ model 'Gemma 4 26B A4B IT'
       '262 144'
   costs
     input
-      0.12
+      0.14
     output
       0.4
+    cacheRead
+      0.05

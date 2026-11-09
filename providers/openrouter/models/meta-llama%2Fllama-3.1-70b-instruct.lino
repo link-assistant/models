@@ -1,4 +1,4 @@
-model 'Llama 3.1 70B Instruct'
+model 'Llama-3.1-70B-Instruct'
   has id
     'meta-llama/llama-3.1-70b-instruct'
   provider id
@@ -14,14 +14,12 @@ model 'Llama 3.1 70B Instruct'
   last updated at
     2024-07-23
   has knowledge cutoff at
-    2023-12-31
+    2023-12
   weights
     open
   capabilities
     (
-      tool calls
       temperature
-      structured output
     )
   modalities
     input
@@ -32,9 +30,9 @@ model 'Llama 3.1 70B Instruct'
     context
       '131 072'
     output
-      '16 384'
+      8192
   costs
     input
-      0.4
+      0.72
     output
-      0.4
+      0.72

@@ -4,7 +4,7 @@ model 'GLM-5.1'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'glm'
   status
@@ -35,10 +35,10 @@ model 'GLM-5.1'
       '131 072'
   costs
     input
-      0.931
+      1.38
     output
-      2.93
+      4.4
     cacheRead
-      0.173
+      0.26
     cacheWrite
       0

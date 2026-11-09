@@ -8,7 +8,7 @@ model 'Qwen3 Coder Plus'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2025-07-23
   last updated at

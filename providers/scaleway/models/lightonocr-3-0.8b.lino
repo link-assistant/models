@@ -1,0 +1,35 @@
+model 'LightOnOCR-3 0.8B'
+  has id
+    'lightonocr-3-0.8b'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  status
+    active
+  released at
+    2026-10-08
+  last updated at
+    2026-10-14
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      2.464
+    output
+      0

@@ -1,4 +1,4 @@
-model 'Llama 3.1 8B Instruct'
+model 'Llama-3.1-8B-Instruct'
   has id
     'meta-llama/llama-3.1-8b-instruct'
   provider id
@@ -14,7 +14,7 @@ model 'Llama 3.1 8B Instruct'
   last updated at
     2024-07-23
   has knowledge cutoff at
-    2023-12-31
+    2023-12
   weights
     open
   capabilities
@@ -37,4 +37,4 @@ model 'Llama 3.1 8B Instruct'
     input
       0.02
     output
-      0.03
+      0.04

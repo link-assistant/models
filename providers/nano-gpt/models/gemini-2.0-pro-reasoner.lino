@@ -5,17 +5,23 @@ model 'Gemini 2.0 Pro Reasoner'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'gemini'
   status
     active
   released at
-    2025-02-05
+    2024-01-01
   last updated at
     2025-02-05
   weights
     closed
+  capabilities
+    (
+      attachments
+    )
   modalities
     input
-      text
+      text audio
     output
       text
   limits
@@ -30,3 +36,5 @@ model 'Gemini 2.0 Pro Reasoner'
       1.292
     output
       4.998
+    cacheRead
+      0.323

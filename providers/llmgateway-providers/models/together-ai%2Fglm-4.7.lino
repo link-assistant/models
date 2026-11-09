@@ -1,0 +1,40 @@
+model 'GLM-4.7 (Together AI)'
+  has id
+    'together-ai/glm-4.7'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2025-12-22
+  last updated at
+    2025-12-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '128 000'
+  costs
+    input
+      0.45
+    output
+      2

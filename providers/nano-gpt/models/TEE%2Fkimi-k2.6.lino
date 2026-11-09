@@ -5,17 +5,22 @@ model 'Kimi K2.6 TEE'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'kimi-k2'
   status
     active
   released at
-    2026-04-21
+    2026-04-20
   last updated at
-    2026-04-21
+    2026-04-20
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       attachments
     )
   modalities
@@ -32,8 +37,8 @@ model 'Kimi K2.6 TEE'
       '65 536'
   costs
     input
-      1.5
+      0.39
     output
-      5.25
+      1.8
     cacheRead
-      0.375
+      0.039

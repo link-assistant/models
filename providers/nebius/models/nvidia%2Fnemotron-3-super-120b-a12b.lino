@@ -12,9 +12,9 @@ model 'Nemotron-3-Super-120B-A12B'
   released at
     2026-03-11
   last updated at
-    2026-03-12
+    2026-03-11
   has knowledge cutoff at
-    2026-02
+    2025-06
   weights
     open
   capabilities
@@ -31,9 +31,9 @@ model 'Nemotron-3-Super-120B-A12B'
       text
   limits
     context
-      '256 000'
+      '262 144'
     input
-      '256 000'
+      '262 144'
     output
       '32 768'
   costs
@@ -41,3 +41,5 @@ model 'Nemotron-3-Super-120B-A12B'
       0.3
     output
       0.9
+    cacheRead
+      0.06

@@ -10,11 +10,16 @@ model 'Whisper 3 Large'
   status
     active
   released at
-    2024-10-01
+    2023-11-06
   last updated at
-    2024-10-01
+    2023-11-06
   weights
     open
+  capabilities
+    (
+      temperature
+      attachments
+    )
   modalities
     input
       audio

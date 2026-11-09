@@ -10,16 +10,17 @@ model 'Kimi K2.5'
   status
     active
   released at
-    2026-01
+    2026-01-27
   last updated at
-    2026-01
+    2026-01-27
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -38,3 +39,5 @@ model 'Kimi K2.5'
       0.6
     output
       3
+    cacheRead
+      0.1

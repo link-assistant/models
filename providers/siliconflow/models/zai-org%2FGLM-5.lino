@@ -12,7 +12,7 @@ model 'zai-org/GLM-5'
   released at
     2026-02-12
   last updated at
-    2026-06-15
+    2026-02-12
   weights
     open
   capabilities
@@ -32,9 +32,11 @@ model 'zai-org/GLM-5'
     context
       '205 000'
     output
-      '205 000'
+      '131 072'
   costs
     input
       0.95
     output
       2.55
+    cacheRead
+      0.2

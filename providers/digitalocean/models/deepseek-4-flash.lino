@@ -6,15 +6,17 @@ model 'Deepseek V4 Flash'
   provided by
     'DigitalOcean'
   family
-    'deepseek'
+    'deepseek-flash'
   status
     active
   released at
-    2026-05-27
+    2026-04-24
   last updated at
-    2026-05-29
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -27,6 +29,13 @@ model 'Deepseek V4 Flash'
       text
   limits
     context
-      '262 144'
+      '1 048 576'
     output
-      8192
+      '384 000'
+  costs
+    input
+      0.14
+    output
+      0.28
+    cacheRead
+      0.028

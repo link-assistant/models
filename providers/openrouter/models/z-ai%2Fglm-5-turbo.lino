@@ -29,7 +29,7 @@ model 'GLM-5-Turbo'
       text
   limits
     context
-      '262 144'
+      '202 752'
     output
       '131 072'
   costs

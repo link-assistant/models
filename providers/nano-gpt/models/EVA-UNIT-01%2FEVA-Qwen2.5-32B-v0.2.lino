@@ -6,7 +6,7 @@ model 'EVA-Qwen2.5-32B-v0.2'
   provided by
     'NanoGPT'
   family
-    'qwen'
+    'v0'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'EVA-Qwen2.5-32B-v0.2'
   last updated at
     2025-07-26
   weights
-    closed
+    open
   modalities
     input
       text
@@ -29,6 +29,6 @@ model 'EVA-Qwen2.5-32B-v0.2'
       8192
   costs
     input
-      0.7989999999999999
+      0.799
     output
-      0.7989999999999999
+      0.799

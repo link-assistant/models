@@ -1,0 +1,39 @@
+model 'Agnes 2.5 Flash'
+  has id
+    'agnes-2.5-flash'
+  provider id
+    'agnes'
+  provided by
+    'Agnes AI'
+  status
+    active
+  released at
+    2026-07
+  last updated at
+    2026-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '512 000'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

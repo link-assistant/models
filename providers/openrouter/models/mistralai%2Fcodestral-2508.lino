@@ -1,4 +1,4 @@
-model 'Codestral 2508'
+model 'Codestral 25.08'
   has id
     'mistralai/codestral-2508'
   provider id
@@ -10,11 +10,9 @@ model 'Codestral 2508'
   status
     active
   released at
-    2025-08-01
+    2025-07-30
   last updated at
-    2025-08-01
-  has knowledge cutoff at
-    2025-03-31
+    2025-07-30
   weights
     closed
   capabilities
@@ -33,7 +31,7 @@ model 'Codestral 2508'
     context
       '256 000'
     output
-      '256 000'
+      '204 800'
   costs
     input
       0.3

@@ -10,11 +10,11 @@ model 'Qwen/Qwen3-8B'
   status
     active
   released at
-    2025-04-30
+    2025-04-29
   last updated at
-    2025-11-25
+    2025-04-29
   weights
-    closed
+    open
   capabilities
     (
       reasoning

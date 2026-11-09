@@ -8,7 +8,7 @@ model 'Sonar Pro'
   family
     'sonar-pro'
   status
-    active
+    deprecated
   released at
     2024-01-01
   last updated at

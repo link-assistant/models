@@ -5,18 +5,24 @@ model 'Kimi K2 Thinking'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'kimi-thinking'
   status
-    active
+    deprecated
   released at
-    2025-11-07
+    2025-11-06
   last updated at
-    2025-11-07
+    2025-11-06
+  has knowledge cutoff at
+    2024-08
   weights
-    closed
+    open
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,3 +34,8 @@ model 'Kimi K2 Thinking'
       '256 000'
     output
       '100 000'
+  costs
+    input
+      0.57971014
+    output
+      2.31884058

@@ -1,0 +1,41 @@
+model 'mimo-v25'
+  has id
+    'mimo-v25'
+  provider id
+    'inferx'
+  provided by
+    'InferX'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-04-22
+  last updated at
+    2026-04-22
+  has knowledge cutoff at
+    2024-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '100 000'
+  costs
+    input
+      0
+    output
+      0

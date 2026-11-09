@@ -13,6 +13,8 @@ model 'gemma 4 31B turbo TEE'
     2026-04-02
   last updated at
     2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -39,4 +41,4 @@ model 'gemma 4 31B turbo TEE'
     output
       0.37
     cacheRead
-      0.06
+      0.011999999999999997

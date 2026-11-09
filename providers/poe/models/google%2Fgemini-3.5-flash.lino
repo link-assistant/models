@@ -21,12 +21,13 @@ model 'Gemini-3.5-Flash'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
   modalities
     input
-      text image audio
+      text image video
     output
       text
   limits

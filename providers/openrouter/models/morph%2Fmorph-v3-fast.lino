@@ -18,6 +18,7 @@ model 'Morph V3 Fast'
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input
@@ -26,9 +27,9 @@ model 'Morph V3 Fast'
       text
   limits
     context
-      '81 920'
+      '262 144'
     output
-      '38 000'
+      '131 072'
   costs
     input
       0.8

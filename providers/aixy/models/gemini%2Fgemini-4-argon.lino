@@ -1,0 +1,44 @@
+model 'Gemini 4 Argon'
+  has id
+    'gemini/gemini-4-argon'
+  provider id
+    'aixy'
+  provided by
+    'Aixy'
+  family
+    'gemini'
+  status
+    active
+  released at
+    2026-10-13
+  last updated at
+    2026-10-13
+  has knowledge cutoff at
+    2026-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '32 768'
+  costs
+    input
+      2
+    output
+      10
+    cacheRead
+      0.1
+    inputAudio
+      2

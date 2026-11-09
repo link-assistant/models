@@ -8,11 +8,13 @@ model 'Qwen 3.6 Plus'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2026-04-02
   last updated at
-    2026-04-03
+    2026-04-02
+  has knowledge cutoff at
+    2025-04
   weights
     closed
   capabilities

@@ -1,0 +1,36 @@
+model 'Moondream 3.1'
+  has id
+    'moondream/moondream3.1-9b-a2b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2026-10-15
+  last updated at
+    2026-10-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      4096
+  costs
+    input
+      0.3
+    output
+      2.5

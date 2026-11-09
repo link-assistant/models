@@ -10,15 +10,14 @@ model 'ElevenLabs-v3'
   status
     active
   released at
-    2025-06-05
+    2025-08-20
   last updated at
-    2025-06-05
+    2025-08-20
   weights
     closed
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

@@ -5,14 +5,20 @@ model 'Auto model (Premium)'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'auto'
   status
     active
   released at
-    2024-06-01
+    2025-04-16
   last updated at
     2024-06-01
   weights
     closed
+  capabilities
+    (
+      tool calls
+    )
   modalities
     input
       text
@@ -30,3 +36,5 @@ model 'Auto model (Premium)'
       9.996
     output
       19.992
+    cacheRead
+      4.998

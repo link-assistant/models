@@ -5,19 +5,22 @@ model 'DeepSeek: DeepSeek V3.2 Exp'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'deepseek'
   status
     active
   released at
-    2025-01-01
+    2025-09-29
   last updated at
     2025-09-29
   weights
-    open
+    closed
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,7 +31,7 @@ model 'DeepSeek: DeepSeek V3.2 Exp'
     context
       '163 840'
     output
-      '65 536'
+      '147 456'
   costs
     input
       0.27

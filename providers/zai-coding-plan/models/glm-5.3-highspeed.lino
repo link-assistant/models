@@ -1,0 +1,44 @@
+model 'GLM-5.3 Highspeed'
+  has id
+    'glm-5.3-highspeed'
+  provider id
+    'zai-coding-plan'
+  provided by
+    'Z.AI Coding Plan'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

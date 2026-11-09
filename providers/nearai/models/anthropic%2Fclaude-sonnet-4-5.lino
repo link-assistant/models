@@ -38,7 +38,7 @@ model 'Claude Sonnet 4.5 (latest)'
     input
       3
     output
-      15.5
+      15
     cacheRead
       0.3
     cacheWrite

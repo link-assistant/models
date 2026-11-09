@@ -38,6 +38,8 @@ model 'GPT-5.5'
       '128 000'
   costs
     input
-      0
+      5.71428571
     output
-      0
+      36
+    cacheRead
+      0.57142857

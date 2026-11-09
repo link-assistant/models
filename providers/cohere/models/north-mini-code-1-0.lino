@@ -22,7 +22,6 @@ model 'North Mini Code'
       reasoning
       tool calls
       temperature
-      structured output
       interleaved output
     )
   modalities

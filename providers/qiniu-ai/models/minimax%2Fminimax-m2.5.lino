@@ -5,6 +5,8 @@ model 'Minimax/Minimax-M2.5'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'minimax'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Minimax/Minimax-M2.5'
   last updated at
     2026-02-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -29,3 +31,8 @@ model 'Minimax/Minimax-M2.5'
       '204 800'
     output
       '128 000'
+  costs
+    input
+      0.30434783
+    output
+      1.2173913

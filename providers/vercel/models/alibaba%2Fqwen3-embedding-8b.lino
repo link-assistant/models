@@ -14,11 +14,7 @@ model 'Qwen3 Embedding 8B'
   last updated at
     2025-06-05
   weights
-    closed
-  capabilities
-    (
-      temperature
-    )
+    open
   modalities
     input
       text
@@ -28,4 +24,4 @@ model 'Qwen3 Embedding 8B'
     context
       '32 768'
     output
-      '32 768'
+      0

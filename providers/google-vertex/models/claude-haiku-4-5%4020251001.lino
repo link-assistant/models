@@ -23,6 +23,7 @@ model 'Claude Haiku 4.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

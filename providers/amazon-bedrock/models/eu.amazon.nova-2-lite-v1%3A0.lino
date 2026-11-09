@@ -1,0 +1,45 @@
+model 'Nova 2 Lite (EU)'
+  has id
+    'eu.amazon.nova-2-lite-v1:0'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'nova'
+  status
+    active
+  released at
+    2025-12-02
+  last updated at
+    2025-12-01
+  has knowledge cutoff at
+    2025-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 535'
+  costs
+    input
+      0.374
+    output
+      3.157
+    cacheRead
+      0.0935
+    cacheWrite
+      0.374

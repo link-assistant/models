@@ -1,0 +1,42 @@
+model 'Kimi K2 Thinking'
+  has id
+    'moonshotai/kimi-k2-thinking'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'kimi-thinking'
+  status
+    active
+  released at
+    2025-11-06
+  last updated at
+    2025-11-06
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '98 304'
+  costs
+    input
+      0.6348
+    output
+      2.645
+    cacheRead
+      0.1587

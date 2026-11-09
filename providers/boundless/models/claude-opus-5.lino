@@ -1,0 +1,41 @@
+model 'Claude Opus 5'
+  has id
+    'claude-opus-5'
+  provider id
+    'boundless'
+  provided by
+    'Boundless'
+  family
+    'claude-opus'
+  status
+    deprecated
+  released at
+    2026-07-24
+  last updated at
+    2026-07-24
+  has knowledge cutoff at
+    2026-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '128 000'
+  costs
+    input
+      5
+    output
+      25
+    cacheRead
+      0.5

@@ -5,6 +5,8 @@ model 'Qwen3.5 4B'
     'empiriolabs'
   provided by
     'EmpirioLabs AI'
+  family
+    'qwen'
   status
     active
   released at

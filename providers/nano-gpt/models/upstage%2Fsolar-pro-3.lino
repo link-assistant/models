@@ -5,14 +5,22 @@ model 'Solar Pro 3'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'solar-pro'
   status
     active
   released at
-    2026-03-03
+    2026-01-26
   last updated at
-    2026-03-03
+    2026-03-23
+  has knowledge cutoff at
+    2025-07
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -20,11 +28,11 @@ model 'Solar Pro 3'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
-      '128 000'
+      '131 072'
     output
-      '128 000'
+      '117 964'
   costs
     input
       0.15

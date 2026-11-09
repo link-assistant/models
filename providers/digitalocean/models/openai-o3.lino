@@ -1,4 +1,4 @@
-model 'o3'
+model 'OpenAI o3'
   has id
     'openai-o3'
   provider id
@@ -26,7 +26,7 @@ model 'o3'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits

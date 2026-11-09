@@ -10,11 +10,11 @@ model 'Qwen 3.6 27B'
   status
     active
   released at
-    2026-04-24
+    2026-04-22
   last updated at
-    2026-06-11
+    2026-04-22
   weights
-    closed
+    open
   capabilities
     (
       reasoning

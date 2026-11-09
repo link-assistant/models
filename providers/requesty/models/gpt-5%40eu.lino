@@ -1,0 +1,45 @@
+model 'GPT-5 (EU)'
+  has id
+    'gpt-5@eu'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'gpt'
+  status
+    active
+  released at
+    2025-08-07
+  last updated at
+    2025-08-07
+  has knowledge cutoff at
+    2024-09-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '400 000'
+    input
+      '272 000'
+    output
+      '128 000'
+  costs
+    input
+      1.375
+    output
+      11
+    cacheRead
+      0.1375

@@ -5,24 +5,28 @@ model 'GPT-5.4 Nano'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gpt-nano'
   status
     active
   released at
-    2026-03-20
+    2026-03-17
   last updated at
-    2026-03-20
+    2026-03-17
   has knowledge cutoff at
     2025-08-31
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text
+      text image pdf
     output
       text
   limits
@@ -35,3 +39,5 @@ model 'GPT-5.4 Nano'
       0.2
     output
       1.25
+    cacheRead
+      0.02

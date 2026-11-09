@@ -18,7 +18,6 @@ model 'ElevenLabs-Music'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

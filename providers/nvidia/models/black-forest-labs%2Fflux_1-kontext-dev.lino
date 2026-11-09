@@ -5,12 +5,14 @@ model 'FLUX.1-Kontext-dev'
     'nvidia'
   provided by
     'Nvidia'
+  family
+    'flux'
   status
     active
   released at
-    2025-08-12
+    2025-05-29
   last updated at
-    2025-08-12
+    2025-05-29
   weights
     open
   capabilities
@@ -24,9 +26,9 @@ model 'FLUX.1-Kontext-dev'
       image
   limits
     context
-      '40 960'
+      0
     output
-      '40 960'
+      0
   costs
     input
       0

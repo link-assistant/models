@@ -8,7 +8,7 @@ model 'MiniMax-M2.5-highspeed'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2026-02-13
   last updated at
@@ -37,6 +37,6 @@ model 'MiniMax-M2.5-highspeed'
     output
       2.4
     cacheRead
-      0.06
+      0.03
     cacheWrite
       0.375

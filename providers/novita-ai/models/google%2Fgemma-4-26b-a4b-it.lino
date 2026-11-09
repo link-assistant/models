@@ -1,10 +1,10 @@
-model 'Gemma 4 26B A4B'
+model 'Gemma 4 26B A4B IT'
   has id
     'google/gemma-4-26b-a4b-it'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'gemma'
   status
@@ -22,6 +22,7 @@ model 'Gemma 4 26B A4B'
       temperature
       attachments
       structured output
+      interleaved output
     )
   modalities
     input

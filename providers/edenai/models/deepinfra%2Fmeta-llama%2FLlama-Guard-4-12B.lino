@@ -1,0 +1,37 @@
+model 'Llama Guard 4 12B (Deep Infra)'
+  has id
+    'deepinfra/meta-llama/Llama-Guard-4-12B'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'llama'
+  status
+    active
+  released at
+    2025-04-29
+  last updated at
+    2025-04-29
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '163 840'
+  costs
+    input
+      0.18
+    output
+      0.18

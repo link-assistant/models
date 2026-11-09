@@ -4,7 +4,7 @@ model 'Big Pickle'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'big-pickle'
   status

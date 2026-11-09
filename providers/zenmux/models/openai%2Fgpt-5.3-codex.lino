@@ -5,12 +5,14 @@ model 'GPT-5.3 Codex'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gpt-codex'
   status
     active
   released at
-    2026-03-20
+    2026-02-05
   last updated at
-    2026-03-20
+    2026-02-05
   has knowledge cutoff at
     2025-08-31
   weights
@@ -24,7 +26,7 @@ model 'GPT-5.3 Codex'
     )
   modalities
     input
-      text
+      text image pdf
     output
       text
   limits
@@ -37,3 +39,5 @@ model 'GPT-5.3 Codex'
       1.75
     output
       14
+    cacheRead
+      0.175

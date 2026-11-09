@@ -5,6 +5,8 @@ model 'Claude Opus 4.7'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'claude-opus'
   status
     active
   released at

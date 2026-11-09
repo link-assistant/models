@@ -40,4 +40,4 @@ model 'Gemini 2.5 Pro'
     output
       10
     cacheRead
-      0.31
+      0.125

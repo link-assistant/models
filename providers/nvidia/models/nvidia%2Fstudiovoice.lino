@@ -15,18 +15,18 @@ model 'studiovoice'
     open
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      audio
     output
-      text
+      audio
   limits
     context
-      '128 000'
+      0
     output
-      8192
+      0
   costs
     input
       0

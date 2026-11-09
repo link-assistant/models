@@ -10,16 +10,19 @@ model 'Qwen3 Coder Next'
   status
     active
   released at
-    2025-07-22
+    2026-02-03
   last updated at
-    2026-02-19
+    2026-02-03
+  has knowledge cutoff at
+    2025-09
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

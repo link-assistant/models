@@ -8,11 +8,13 @@ model 'Gemini-2.0-Flash-Lite'
   family
     'gemini-flash-lite'
   status
-    active
+    deprecated
   released at
-    2025-02-05
+    2024-12-11
   last updated at
-    2025-02-05
+    2024-12-11
+  has knowledge cutoff at
+    2024-06
   weights
     closed
   capabilities

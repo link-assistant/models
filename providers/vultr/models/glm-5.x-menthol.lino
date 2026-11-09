@@ -1,0 +1,38 @@
+model 'GLM-5'
+  has id
+    'glm-5.x-menthol'
+  provider id
+    'vultr'
+  provided by
+    'Vultr'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 752'
+    output
+      '131 072'
+  costs
+    input
+      0.4
+    output
+      1.75

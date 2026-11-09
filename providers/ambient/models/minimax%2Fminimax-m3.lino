@@ -1,0 +1,43 @@
+model 'MiniMax-M3'
+  has id
+    'minimax/minimax-m3'
+  provider id
+    'ambient'
+  provided by
+    'Ambient'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 702'
+  costs
+    input
+      0.23
+    output
+      0.96
+    cacheRead
+      0.05
+    cacheWrite
+      0

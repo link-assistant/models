@@ -12,7 +12,7 @@ model 'Google Gemma 4 26B A4B Instruct'
   released at
     2026-04-02
   last updated at
-    2026-06-11
+    2026-04-02
   weights
     open
   capabilities
@@ -32,7 +32,7 @@ model 'Google Gemma 4 26B A4B Instruct'
     context
       '256 000'
     output
-      8192
+      '16 384'
   costs
     input
       0.13

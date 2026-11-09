@@ -5,6 +5,8 @@ model 'DeepSeek Chat 0324'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'deepseek'
   status
     active
   released at
@@ -12,10 +14,11 @@ model 'DeepSeek Chat 0324'
   last updated at
     2025-03-24
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -32,6 +35,8 @@ model 'DeepSeek Chat 0324'
       8192
   costs
     input
-      0.25
+      0.2
     output
-      0.7
+      0.77
+    cacheRead
+      0.135

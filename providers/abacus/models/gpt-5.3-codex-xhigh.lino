@@ -6,9 +6,9 @@ model 'GPT-5.3 Codex XHigh'
   provided by
     'Abacus'
   family
-    'gpt'
+    'gpt-codex'
   status
-    active
+    deprecated
   released at
     2026-02-05
   last updated at

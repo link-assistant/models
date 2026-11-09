@@ -10,11 +10,17 @@ model 'Amazon Nova Pro 1.0'
   status
     active
   released at
-    2024-12-03
+    2024-12-05
   last updated at
-    2024-12-03
+    2024-12-05
+  has knowledge cutoff at
+    2024-10-31
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -29,6 +35,8 @@ model 'Amazon Nova Pro 1.0'
       '32 000'
   costs
     input
-      0.7989999999999999
+      0.799
     output
-      3.1959999999999997
+      3.196
+    cacheRead
+      0.3995

@@ -8,7 +8,7 @@ model 'Glm 5.2'
   family
     'glm'
   status
-    active
+    deprecated
   released at
     2026-06-13
   last updated at
@@ -31,7 +31,7 @@ model 'Glm 5.2'
     context
       '262 144'
     output
-      '262 144'
+      '256 000'
   costs
     input
       1.4

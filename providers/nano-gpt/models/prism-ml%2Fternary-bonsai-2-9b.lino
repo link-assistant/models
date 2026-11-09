@@ -1,0 +1,39 @@
+model 'Ternary Bonsai2 9B'
+  has id
+    'prism-ml/ternary-bonsai-2-9b'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-10-23
+  last updated at
+    2026-10-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.08
+    output
+      0.13
+    cacheRead
+      0.04

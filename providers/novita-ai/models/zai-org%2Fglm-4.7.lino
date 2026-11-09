@@ -4,7 +4,7 @@ model 'GLM-4.7'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'glm'
   status
@@ -13,6 +13,8 @@ model 'GLM-4.7'
     2025-12-22
   last updated at
     2025-12-22
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities

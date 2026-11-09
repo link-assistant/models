@@ -1,0 +1,38 @@
+model 'Abliterated Large V2'
+  has id
+    'abliteration-abliterated-model-large-v2'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  status
+    active
+  released at
+    2026-10-01
+  last updated at
+    2026-10-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      3
+    output
+      5
+    cacheRead
+      0.3

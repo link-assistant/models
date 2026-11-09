@@ -1,0 +1,39 @@
+model 'Inkling Small'
+  has id
+    'thinkingmachines/Inkling-Small'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-30
+  last updated at
+    2026-07-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '1 048 576'
+  costs
+    input
+      0.5
+    output
+      1.2

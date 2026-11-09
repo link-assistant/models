@@ -1,0 +1,31 @@
+model 'MAI-Transcribe 2'
+  has id
+    'microsoft/mai-transcribe-2'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'mai'
+  status
+    active
+  released at
+    2026-09-03
+  last updated at
+    2026-09-03
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

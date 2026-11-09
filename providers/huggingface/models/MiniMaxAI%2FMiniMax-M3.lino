@@ -32,7 +32,7 @@ model 'MiniMax-M3'
     context
       '524 288'
     output
-      '128 000'
+      '512 000'
   costs
     input
       0.3

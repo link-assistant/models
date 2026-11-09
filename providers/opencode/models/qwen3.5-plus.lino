@@ -4,9 +4,9 @@ model 'Qwen3.5 Plus'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'qwen3.5'
+    'qwen'
   status
     active
   released at

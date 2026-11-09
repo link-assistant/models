@@ -14,7 +14,7 @@ model 'MS3.2 24B Magnum Diamond'
   last updated at
     2025-11-24
   weights
-    closed
+    open
   modalities
     input
       text
@@ -22,13 +22,15 @@ model 'MS3.2 24B Magnum Diamond'
       text
   limits
     context
-      '16 384'
+      '32 768'
     input
-      '16 384'
+      '32 768'
     output
       '32 768'
   costs
     input
-      0.49299999999999994
+      0.493
     output
-      0.49299999999999994
+      0.493
+    cacheRead
+      0.2465

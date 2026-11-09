@@ -8,11 +8,11 @@ model 'Llama 3.3 70B'
   family
     'llama'
   status
-    active
+    deprecated
   released at
     2024-12-06
   last updated at
-    2026-07-02
+    2024-12-06
   has knowledge cutoff at
     2023-12
   weights

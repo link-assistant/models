@@ -8,7 +8,7 @@ model 'o3'
   family
     'o'
   status
-    active
+    experimental
   released at
     2025-04-16
   last updated at

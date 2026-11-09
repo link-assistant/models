@@ -13,17 +13,20 @@ model 'Gemma 4 31B IT'
     2026-04-02
   last updated at
     2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      attachments
       structured output
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
@@ -33,6 +36,8 @@ model 'Gemma 4 31B IT'
       '262 144'
   costs
     input
-      0.13
+      0.75
     output
-      0.4
+      1
+    cacheRead
+      0.25
