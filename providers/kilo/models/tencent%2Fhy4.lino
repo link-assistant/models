@@ -1,0 +1,44 @@
+model 'Tencent: Hy4'
+  has id
+    'tencent/hy4'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'Hy'
+  status
+    active
+  released at
+    2026-11-04
+  last updated at
+    2026-11-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '983 010'
+    output
+      '65 536'
+  costs
+    input
+      0.834
+    output
+      2.501
+    cacheRead
+      0.042

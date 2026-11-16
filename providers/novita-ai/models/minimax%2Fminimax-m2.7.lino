@@ -1,12 +1,12 @@
-model 'MiniMax M2.7'
+model 'MiniMax-M2.7'
   has id
     'minimax/minimax-m2.7'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
-    'minimax-m2.7'
+    'minimax'
   status
     active
   released at

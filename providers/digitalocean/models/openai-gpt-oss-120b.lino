@@ -1,4 +1,4 @@
-model 'gpt-oss-120b'
+model 'OpenAI GPT-oss-120b'
   has id
     'openai-gpt-oss-120b'
   provider id
@@ -12,7 +12,7 @@ model 'gpt-oss-120b'
   released at
     2025-08-05
   last updated at
-    2026-04-16
+    2025-08-05
   has knowledge cutoff at
     2024-06
   weights
@@ -32,11 +32,13 @@ model 'gpt-oss-120b'
       text
   limits
     context
-      '131 072'
+      '128 000'
     output
-      '131 072'
+      4096
   costs
     input
       0.1
     output
       0.7
+    cacheRead
+      0.02

@@ -31,7 +31,7 @@ model 'Nova Micro'
     context
       '128 000'
     output
-      8192
+      '10 000'
   costs
     input
       0.035
@@ -39,3 +39,5 @@ model 'Nova Micro'
       0.14
     cacheRead
       0.00875
+    cacheWrite
+      0.035

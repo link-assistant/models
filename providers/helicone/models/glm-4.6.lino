@@ -10,13 +10,13 @@ model 'Zai GLM-4.6'
   status
     active
   released at
-    2024-07-18
+    2025-09-30
   last updated at
-    2024-07-18
+    2025-09-30
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -35,6 +35,6 @@ model 'Zai GLM-4.6'
       '131 072'
   costs
     input
-      0.44999999999999996
+      0.45
     output
       1.5

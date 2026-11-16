@@ -1,0 +1,42 @@
+model 'DeepSeek V4 Flash 0731'
+  has id
+    'deepseek-ai/DeepSeek-V4-Flash-0731'
+  provider id
+    'stepping-stone'
+  provided by
+    'stepping stone AG'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-07-31
+  last updated at
+    2026-07-31
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '384 000'
+  costs
+    input
+      0.5355
+    output
+      2.142
+    cacheRead
+      0.0803

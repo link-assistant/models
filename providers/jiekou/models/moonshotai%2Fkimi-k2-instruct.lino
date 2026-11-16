@@ -10,9 +10,9 @@ model 'Kimi K2 Instruct'
   status
     active
   released at
-    2026-01
+    2025-07-11
   last updated at
-    2026-01
+    2025-07-11
   weights
     open
   capabilities
@@ -30,7 +30,7 @@ model 'Kimi K2 Instruct'
     context
       '131 072'
     output
-      '131 072'
+      '100 352'
   costs
     input
       0.57

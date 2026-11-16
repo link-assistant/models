@@ -5,14 +5,16 @@ model 'Hermes-4-405B'
     'nebius'
   provided by
     'Nebius Token Factory'
+  family
+    'hermes'
   status
     active
   released at
-    2026-01-30
+    2025-08-26
   last updated at
-    2026-02-04
+    2025-08-26
   has knowledge cutoff at
-    2025-11
+    2024-08-31
   weights
     open
   capabilities
@@ -30,7 +32,7 @@ model 'Hermes-4-405B'
       text
   limits
     context
-      '128 000'
+      '131 072'
     input
       '120 000'
     output
@@ -41,8 +43,6 @@ model 'Hermes-4-405B'
     output
       3
     cacheRead
-      0.1
-    cacheWrite
-      1.25
+      1
     reasoning
       3

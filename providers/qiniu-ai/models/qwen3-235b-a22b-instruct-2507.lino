@@ -5,18 +5,21 @@ model 'Qwen3 235b A22B Instruct 2507'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'qwen'
   status
-    active
+    deprecated
   released at
-    2025-08-12
+    2025-07-21
   last updated at
-    2025-08-12
+    2025-07-21
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -28,3 +31,8 @@ model 'Qwen3 235b A22B Instruct 2507'
       '262 144'
     output
       '64 000'
+  costs
+    input
+      0.28985507
+    output
+      1.15942029

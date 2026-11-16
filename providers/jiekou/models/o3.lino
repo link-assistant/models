@@ -5,18 +5,22 @@ model 'o3'
     'jiekou'
   provided by
     'Jiekou.AI'
+  family
+    'o'
   status
     active
   released at
-    2026-01
+    2025-04-16
   last updated at
-    2026-01
+    2025-04-16
+  has knowledge cutoff at
+    2024-05
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
-      temperature
       attachments
       structured output
     )
@@ -27,11 +31,13 @@ model 'o3'
       text
   limits
     context
-      '131 072'
+      '200 000'
     output
-      '131 072'
+      '100 000'
   costs
     input
-      10
+      9.5
     output
-      40
+      38
+    cacheRead
+      0.475

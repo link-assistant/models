@@ -10,9 +10,9 @@ model 'llama-nemotron-embed-vl-1b-v2'
   status
     active
   released at
-    2026-02-10
+    2025-12-18
   last updated at
-    2026-02-10
+    2025-12-18
   weights
     open
   capabilities
@@ -26,7 +26,7 @@ model 'llama-nemotron-embed-vl-1b-v2'
       text
   limits
     context
-      '32 768'
+      8192
     output
       2048
   costs

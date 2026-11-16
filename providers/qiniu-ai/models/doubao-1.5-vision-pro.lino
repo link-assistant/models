@@ -6,7 +6,7 @@ model 'Doubao 1.5 Vision Pro'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2025-08-05
   last updated at
@@ -17,6 +17,7 @@ model 'Doubao 1.5 Vision Pro'
     (
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -28,3 +29,8 @@ model 'Doubao 1.5 Vision Pro'
       '128 000'
     output
       '16 000'
+  costs
+    input
+      0.43478261
+    output
+      1.30434783

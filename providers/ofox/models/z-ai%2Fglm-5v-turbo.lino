@@ -1,0 +1,41 @@
+model 'GLM-5V-Turbo'
+  has id
+    'z-ai/glm-5v-turbo'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-01
+  last updated at
+    2026-04-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '131 072'
+  costs
+    input
+      1.2
+    output
+      4
+    cacheRead
+      0.24

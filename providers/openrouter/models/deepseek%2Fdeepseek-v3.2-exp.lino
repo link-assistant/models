@@ -33,7 +33,7 @@ model 'DeepSeek V3.2 Exp'
     context
       '163 840'
     output
-      '65 536'
+      '147 456'
   costs
     input
       0.27

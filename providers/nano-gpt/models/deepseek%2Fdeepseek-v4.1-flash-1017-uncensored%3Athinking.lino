@@ -1,0 +1,42 @@
+model 'DeepSeek V4.1 Flash 1017 Uncensored Thinking'
+  has id
+    'deepseek/deepseek-v4.1-flash-1017-uncensored:thinking'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-10-27
+  last updated at
+    2026-10-27
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.33
+    output
+      1.32
+    cacheRead
+      0.011

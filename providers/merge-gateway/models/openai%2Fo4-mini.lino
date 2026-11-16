@@ -1,4 +1,4 @@
-model 'o4-mini'
+model 'o4 Mini'
   has id
     'openai/o4-mini'
   provider id
@@ -26,7 +26,7 @@ model 'o4-mini'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

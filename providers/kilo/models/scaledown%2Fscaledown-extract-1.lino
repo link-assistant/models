@@ -1,0 +1,35 @@
+model 'ScaleDown: Extract-1'
+  has id
+    'scaledown/scaledown-extract-1'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-10-20
+  last updated at
+    2026-10-20
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '1 000 000'
+  costs
+    input
+      0.05
+    output
+      0

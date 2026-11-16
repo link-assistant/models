@@ -1,4 +1,4 @@
-model 'MiniMax: MiniMax M2.7'
+model 'MiniMax-M2.7'
   has id
     'minimax/minimax-m2.7'
   provider id
@@ -6,7 +6,7 @@ model 'MiniMax: MiniMax M2.7'
   provided by
     'Kilo Gateway'
   family
-    'minimax-m2.7'
+    'minimax'
   status
     active
   released at
@@ -28,13 +28,13 @@ model 'MiniMax: MiniMax M2.7'
       text
   limits
     context
-      '204 800'
+      '196 608'
     output
-      '131 072'
+      '176 947'
   costs
     input
-      0.3
+      0.21
     output
-      1.2
+      0.84
     cacheRead
-      0.06
+      0.042

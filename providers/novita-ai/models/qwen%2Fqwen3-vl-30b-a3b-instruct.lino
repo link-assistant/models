@@ -1,16 +1,18 @@
-model 'qwen/qwen3-vl-30b-a3b-instruct'
+model 'Qwen3 VL 30B A3B Instruct'
   has id
     'qwen/qwen3-vl-30b-a3b-instruct'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
+  family
+    'qwen'
   status
     active
   released at
-    2025-10-11
+    2025-10-04
   last updated at
-    2025-10-11
+    2025-10-04
   weights
     open
   capabilities
@@ -22,7 +24,7 @@ model 'qwen/qwen3-vl-30b-a3b-instruct'
     )
   modalities
     input
-      text video image
+      text image video
     output
       text
   limits

@@ -6,13 +6,15 @@ model 'Gemini 3.1 Flash Lite Preview'
   provided by
     'Abacus'
   family
-    'gemini-flash'
+    'gemini-flash-lite'
   status
-    active
+    deprecated
   released at
-    2026-03-01
+    2026-03-03
   last updated at
-    2026-03-01
+    2026-03-03
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -25,7 +27,7 @@ model 'Gemini 3.1 Flash Lite Preview'
     )
   modalities
     input
-      text image audio video pdf
+      text image video audio pdf
     output
       text
   limits

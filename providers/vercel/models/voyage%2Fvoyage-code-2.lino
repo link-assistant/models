@@ -15,10 +15,6 @@ model 'voyage-code-2'
     2024-01
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -26,6 +22,6 @@ model 'voyage-code-2'
       text
   limits
     context
-      8192
+      '16 000'
     output
-      1536
+      0

@@ -1,0 +1,35 @@
+model 'Kloker Integration Architect'
+  has id
+    'Kloker-Integration-Architect'
+  provider id
+    'klokintegration'
+  provided by
+    'klokintegration.se'
+  status
+    beta
+  released at
+    2026-08-29
+  last updated at
+    2026-08-29
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '50 000'
+  costs
+    input
+      0.23
+    output
+      1.16

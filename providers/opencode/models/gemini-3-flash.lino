@@ -4,7 +4,7 @@ model 'Gemini 3 Flash'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'gemini-flash'
   status

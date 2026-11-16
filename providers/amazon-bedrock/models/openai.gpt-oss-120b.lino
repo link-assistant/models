@@ -13,8 +13,10 @@ model 'gpt-oss-120b'
     2025-08-05
   last updated at
     2025-08-05
+  has knowledge cutoff at
+    2024-06
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -29,9 +31,9 @@ model 'gpt-oss-120b'
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      '16 384'
+      '131 072'
   costs
     input
       0.15

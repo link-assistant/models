@@ -26,7 +26,7 @@ model 'Doubao Seed 2.0 Pro'
     )
   modalities
     input
-      text image video
+      text image video pdf
     output
       text
   limits
@@ -36,8 +36,8 @@ model 'Doubao Seed 2.0 Pro'
       '128 000'
   costs
     input
-      0.48
+      0.4958
     output
-      2.41
+      2.479
     cacheRead
-      0.09644
+      0.09916

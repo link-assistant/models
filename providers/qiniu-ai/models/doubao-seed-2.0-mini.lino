@@ -5,6 +5,8 @@ model 'Doubao Seed 2.0 Mini'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'seed'
   status
     active
   released at
@@ -19,6 +21,7 @@ model 'Doubao Seed 2.0 Mini'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -30,3 +33,10 @@ model 'Doubao Seed 2.0 Mini'
       '256 000'
     output
       '32 000'
+  costs
+    input
+      0.02898551
+    output
+      0.28985507
+    cacheRead
+      0.0057971

@@ -1,0 +1,39 @@
+model 'Kimi K2 0711'
+  has id
+    'moonshotai/kimi-k2'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2025-07-11
+  last updated at
+    2025-07-11
+  has knowledge cutoff at
+    2024-12-31
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '98 304'
+  costs
+    input
+      0.60306
+    output
+      2.4334

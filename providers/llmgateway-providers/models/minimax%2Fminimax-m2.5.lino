@@ -1,0 +1,40 @@
+model 'MiniMax M2.5 (MiniMax)'
+  has id
+    'minimax/minimax-m2.5'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 100'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.03

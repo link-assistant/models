@@ -10,9 +10,11 @@ model 'XiaomiMiMo/MiMo-V2-Flash'
   status
     active
   released at
-    2026-01
+    2025-12-16
   last updated at
-    2026-01
+    2026-02-04
+  has knowledge cutoff at
+    2024-12-01
   weights
     open
   capabilities
@@ -34,6 +36,8 @@ model 'XiaomiMiMo/MiMo-V2-Flash'
       '131 072'
   costs
     input
-      0
+      0.1
     output
-      0
+      0.3
+    cacheRead
+      0.02

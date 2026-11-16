@@ -5,6 +5,8 @@ model 'Doubao Seed 2.0 Code Preview'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'seed'
   status
     active
   released at
@@ -13,6 +15,10 @@ model 'Doubao Seed 2.0 Code Preview'
     2026-02-14
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -30,3 +36,5 @@ model 'Doubao Seed 2.0 Code Preview'
       0.782
     output
       3.893
+    cacheRead
+      0.391

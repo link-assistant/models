@@ -5,6 +5,8 @@ model 'Claude Haiku Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'claude-haiku'
   status
     active
   released at
@@ -27,15 +29,17 @@ model 'Claude Haiku Latest'
       text
   limits
     context
-      '200 000'
+      '1 000 000'
     input
-      '200 000'
+      '1 000 000'
     output
-      '64 000'
+      '128 000'
   costs
     input
-      1
-    output
-      5
-    cacheRead
       0.1
+    output
+      0.5
+    cacheRead
+      0.01
+    cacheWrite
+      0.125

@@ -10,9 +10,11 @@ model 'ERNIE 4.5 VL 424B A47B'
   status
     active
   released at
-    2026-01
+    2025-06-30
   last updated at
-    2026-01
+    2025-06-30
+  has knowledge cutoff at
+    2025-03-31
   weights
     open
   capabilities
@@ -24,7 +26,7 @@ model 'ERNIE 4.5 VL 424B A47B'
     )
   modalities
     input
-      text image
+      image text
     output
       text
   limits

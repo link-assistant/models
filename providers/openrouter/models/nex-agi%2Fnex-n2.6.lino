@@ -1,0 +1,42 @@
+model 'Nex-N2.6'
+  has id
+    'nex-agi/nex-n2.6'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'agi'
+  status
+    active
+  released at
+    2026-11-10
+  last updated at
+    2026-11-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '235 929'
+  costs
+    input
+      0.12
+    output
+      0.4
+    cacheRead
+      0.024

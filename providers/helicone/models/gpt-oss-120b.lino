@@ -10,13 +10,13 @@ model 'OpenAI GPT-OSS 120b'
   status
     active
   released at
-    2024-06-01
+    2025-08-05
   last updated at
-    2024-06-01
+    2025-08-05
   has knowledge cutoff at
     2024-06
   weights
-    closed
+    open
   capabilities
     (
       reasoning

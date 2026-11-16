@@ -1,0 +1,43 @@
+model 'DeepSeek V4.1 Flash'
+  has id
+    'deepseek-v4.1-flash-552b'
+  provider id
+    'aki-io'
+  provided by
+    'AKI.IO'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '81 920'
+  costs
+    input
+      0.280375
+    output
+      1.1215
+    cacheRead
+      0.11215

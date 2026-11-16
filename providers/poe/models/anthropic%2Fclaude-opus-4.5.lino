@@ -10,9 +10,11 @@ model 'Claude-Opus-4.5'
   status
     active
   released at
-    2025-11-21
+    2025-11-24
   last updated at
-    2025-11-21
+    2025-11-24
+  has knowledge cutoff at
+    2025-05
   weights
     closed
   capabilities
@@ -33,10 +35,10 @@ model 'Claude-Opus-4.5'
       '64 000'
   costs
     input
-      4.3
+      4.2929
     output
-      21
+      21.4646
     cacheRead
-      0.43
+      0.4293
     cacheWrite
-      5.3
+      5.3662

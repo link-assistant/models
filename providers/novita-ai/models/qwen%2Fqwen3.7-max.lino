@@ -1,10 +1,10 @@
-model 'Qwen3.7-Max'
+model 'Qwen3.7 Max'
   has id
     'qwen/qwen3.7-max'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'qwen'
   status
@@ -12,7 +12,7 @@ model 'Qwen3.7-Max'
   released at
     2026-05-21
   last updated at
-    2026-05-27
+    2026-05-21
   weights
     closed
   capabilities
@@ -21,6 +21,7 @@ model 'Qwen3.7-Max'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -39,5 +40,3 @@ model 'Qwen3.7-Max'
       3.75
     cacheRead
       0.25
-    cacheWrite
-      1.5625

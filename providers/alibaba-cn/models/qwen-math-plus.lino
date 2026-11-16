@@ -8,7 +8,7 @@ model 'Qwen Math Plus'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2024-08-16
   last updated at

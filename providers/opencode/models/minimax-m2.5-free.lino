@@ -4,9 +4,9 @@ model 'MiniMax-M2.5 Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'minimax-free'
+    'minimax'
   status
     deprecated
   released at

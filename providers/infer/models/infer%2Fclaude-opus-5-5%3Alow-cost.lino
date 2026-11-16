@@ -1,0 +1,44 @@
+model 'Claude Opus 5.5 (Low cost)'
+  has id
+    'infer/claude-opus-5-5:low-cost'
+  provider id
+    'infer'
+  provided by
+    'Infer by Flow7'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2026-09-22
+  last updated at
+    2026-09-22
+  has knowledge cutoff at
+    2026-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      1.97
+    output
+      9.81
+    cacheRead
+      0.1
+    cacheWrite
+      2.46

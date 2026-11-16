@@ -6,13 +6,13 @@ model 'GPT-5.3 Codex'
   provided by
     'FrogBot'
   family
-    'gpt'
+    'gpt-codex'
   status
     active
   released at
-    2026-02-15
+    2026-02-05
   last updated at
-    2026-02-15
+    2026-02-05
   has knowledge cutoff at
     2026-01-31
   weights
@@ -31,6 +31,8 @@ model 'GPT-5.3 Codex'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

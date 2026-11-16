@@ -8,7 +8,7 @@ model 'GPT-3.5-turbo'
   family
     'gpt'
   status
-    active
+    deprecated
   released at
     2023-03-01
   last updated at

@@ -6,13 +6,13 @@ model 'Voxtral Small 24B 2507'
   provided by
     'OpenRouter'
   family
-    'mistral'
+    'voxtral'
   status
     active
   released at
-    2025-10-30
+    2025-07-15
   last updated at
-    2025-10-30
+    2025-07-15
   weights
     open
   capabilities
@@ -29,9 +29,9 @@ model 'Voxtral Small 24B 2507'
       text
   limits
     context
-      '32 000'
+      '32 768'
     output
-      '32 000'
+      '26 214'
   costs
     input
       0.1

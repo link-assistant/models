@@ -4,9 +4,9 @@ model 'Hy3 preview Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'hy3-free'
+    'Hy'
   status
     deprecated
   released at

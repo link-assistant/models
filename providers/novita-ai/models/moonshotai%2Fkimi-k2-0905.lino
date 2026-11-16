@@ -1,10 +1,10 @@
-model 'Kimi K2 0905'
+model 'Kimi K2 Instruct 0905'
   has id
     'moonshotai/kimi-k2-0905'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'kimi-k2'
   status
@@ -13,8 +13,6 @@ model 'Kimi K2 0905'
     2025-09-05
   last updated at
     2025-09-05
-  has knowledge cutoff at
-    2024-10
   weights
     open
   capabilities
@@ -32,7 +30,7 @@ model 'Kimi K2 0905'
     context
       '262 144'
     output
-      '262 144'
+      '98 304'
   costs
     input
       0.6

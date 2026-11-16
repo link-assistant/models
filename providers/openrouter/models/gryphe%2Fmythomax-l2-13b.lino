@@ -1,4 +1,4 @@
-model 'MythoMax 13B'
+model 'MythoMax L2 13B'
   has id
     'gryphe/mythomax-l2-13b'
   provider id
@@ -8,11 +8,9 @@ model 'MythoMax 13B'
   status
     active
   released at
-    2023-07-02
+    2023-08-10
   last updated at
-    2023-07-02
-  has knowledge cutoff at
-    2023-06-30
+    2023-08-10
   weights
     open
   capabilities
@@ -27,11 +25,11 @@ model 'MythoMax 13B'
       text
   limits
     context
-      4096
+      8192
     output
-      4096
+      3686
   costs
     input
-      0.06
+      0.08
     output
-      0.06
+      0.11

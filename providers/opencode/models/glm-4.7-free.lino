@@ -4,9 +4,9 @@ model 'GLM-4.7 Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'glm-free'
+    'glm'
   status
     deprecated
   released at

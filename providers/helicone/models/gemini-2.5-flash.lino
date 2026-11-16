@@ -22,6 +22,7 @@ model 'Google Gemini 2.5 Flash'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

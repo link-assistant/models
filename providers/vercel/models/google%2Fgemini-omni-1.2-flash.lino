@@ -1,0 +1,37 @@
+model 'Gemini Omni 1.2 Flash'
+  has id
+    'google/gemini-omni-1.2-flash'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'gemini'
+  status
+    active
+  released at
+    2026-11-05
+  last updated at
+    2026-11-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      video
+  limits
+    context
+      '131 072'
+    output
+      '260 640'
+  costs
+    input
+      1.5
+    output
+      9

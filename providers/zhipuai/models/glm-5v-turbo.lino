@@ -35,10 +35,10 @@ model 'GLM-5V-Turbo'
       '131 072'
   costs
     input
-      5
+      0.74698
     output
-      22
+      3.28669
     cacheRead
-      1.2
+      0.17927
     cacheWrite
       0

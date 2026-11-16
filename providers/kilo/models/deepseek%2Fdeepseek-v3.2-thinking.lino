@@ -1,0 +1,38 @@
+model 'DeepSeek: DeepSeek V3.2 Thinking'
+  has id
+    'deepseek/deepseek-v3.2-thinking'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-12-01
+  last updated at
+    2025-12-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      8000
+  costs
+    input
+      0.62
+    output
+      1.85

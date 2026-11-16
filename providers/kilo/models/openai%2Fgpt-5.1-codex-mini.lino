@@ -1,16 +1,20 @@
-model 'OpenAI: GPT-5.1-Codex-Mini'
+model 'GPT-5.1 Codex mini'
   has id
     'openai/gpt-5.1-codex-mini'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'gpt-codex'
   status
     active
   released at
     2025-11-13
   last updated at
     2025-11-13
+  has knowledge cutoff at
+    2024-09-30
   weights
     closed
   capabilities
@@ -18,21 +22,24 @@ model 'OpenAI: GPT-5.1-Codex-Mini'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
-      image text
+      image text pdf
     output
       text
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
-      '100 000'
+      '128 000'
   costs
     input
       0.25
     output
       2
     cacheRead
-      0.025
+      0.03

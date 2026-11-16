@@ -1,4 +1,4 @@
-model 'MiniMax-M3'
+model 'MiniMax M3'
   has id
     'minimax/minimax-m3'
   provider id
@@ -21,19 +21,22 @@ model 'MiniMax-M3'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image video
+      text image
     output
       text
   limits
     context
-      '512 000'
+      '1 000 000'
     output
       '128 000'
   costs
     input
-      0.6
+      0.3
     output
-      2.4
+      1.2
+    cacheRead
+      0.06

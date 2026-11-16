@@ -1,0 +1,43 @@
+model 'Qwen3.8 Max'
+  has id
+    'qwen3.8-max'
+  provider id
+    'abliteratedllm'
+  provided by
+    'AbliteratedLLM'
+  family
+    'qwen'
+  status
+    experimental
+  released at
+    2026-08-03
+  last updated at
+    2026-08-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      1.8
+    output
+      5.4
+    cacheRead
+      0.225

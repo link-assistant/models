@@ -21,7 +21,6 @@ model 'Gemma 4 26B A4B  (free)'
       tool calls
       temperature
       attachments
-      structured output
     )
   modalities
     input

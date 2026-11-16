@@ -16,7 +16,7 @@ model 'Qwen3 Coder 30B A3B Instruct'
   has knowledge cutoff at
     2025-07
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -34,6 +34,6 @@ model 'Qwen3 Coder 30B A3B Instruct'
       '262 144'
   costs
     input
-      0.09999999999999999
+      0.1
     output
       0.3

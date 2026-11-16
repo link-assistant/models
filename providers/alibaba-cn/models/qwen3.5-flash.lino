@@ -12,7 +12,7 @@ model 'Qwen3.5 Flash'
   released at
     2026-02-23
   last updated at
-    2026-02-23
+    2026-09-22
   has knowledge cutoff at
     2025-04
   weights
@@ -24,6 +24,7 @@ model 'Qwen3.5 Flash'
       temperature
       attachments
       structured output
+      interleaved output
     )
   modalities
     input
@@ -37,8 +38,8 @@ model 'Qwen3.5 Flash'
       '65 536'
   costs
     input
-      0.172
+      0.029
     output
-      1.72
+      0.287
     reasoning
-      1.72
+      0.287

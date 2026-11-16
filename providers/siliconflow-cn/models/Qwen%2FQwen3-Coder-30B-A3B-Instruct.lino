@@ -10,11 +10,13 @@ model 'Qwen/Qwen3-Coder-30B-A3B-Instruct'
   status
     active
   released at
-    2025-08-01
+    2025-07-31
   last updated at
-    2025-11-25
+    2025-07-31
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -33,6 +35,6 @@ model 'Qwen/Qwen3-Coder-30B-A3B-Instruct'
       '262 000'
   costs
     input
-      0.07
+      0.10461323
     output
-      0.28
+      0.41845294

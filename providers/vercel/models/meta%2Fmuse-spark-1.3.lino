@@ -1,0 +1,42 @@
+model 'Muse Spark 1.3'
+  has id
+    'meta/muse-spark-1.3'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'muse'
+  status
+    active
+  released at
+    2026-09-02
+  last updated at
+    2026-09-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      1.25
+    output
+      4.25
+    cacheRead
+      0.15

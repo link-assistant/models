@@ -1,0 +1,44 @@
+model 'Kimi K2.6'
+  has id
+    'moonshotai/kimi-k2.6'
+  provider id
+    'iteracompute'
+  provided by
+    'IteraCompute'
+  family
+    'kimi-k2'
+  status
+    active
+  released at
+    2026-04-20
+  last updated at
+    2026-04-20
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      0.87
+    output
+      3.51
+    cacheRead
+      0.07

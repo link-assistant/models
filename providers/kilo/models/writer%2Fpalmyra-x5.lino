@@ -5,6 +5,8 @@ model 'Writer: Palmyra X5'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'palmyra'
   status
     active
   released at

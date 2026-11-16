@@ -17,11 +17,11 @@ model 'Seedream 5.0 Pro'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       image
   limits

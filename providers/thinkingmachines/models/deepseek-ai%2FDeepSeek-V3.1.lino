@@ -1,0 +1,40 @@
+model 'DeepSeek-V3.1'
+  has id
+    'deepseek-ai/DeepSeek-V3.1'
+  provider id
+    'thinkingmachines'
+  provided by
+    'Thinking Machines'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2025-08-21
+  last updated at
+    2025-08-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      '32 768'
+  costs
+    input
+      1.695
+    output
+      4.215
+    cacheRead
+      0.339

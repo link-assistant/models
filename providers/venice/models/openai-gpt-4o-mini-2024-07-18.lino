@@ -6,13 +6,13 @@ model 'GPT-4o Mini'
   provided by
     'Venice AI'
   family
-    'gpt'
+    'gpt-mini'
   status
     active
   released at
-    2026-02-28
+    2024-07-18
   last updated at
-    2026-06-11
+    2024-07-18
   has knowledge cutoff at
     2023-09
   weights
@@ -36,8 +36,8 @@ model 'GPT-4o Mini'
       '16 384'
   costs
     input
-      0.1875
+      0.15
     output
-      0.75
+      0.6
     cacheRead
-      0.09375
+      0.075

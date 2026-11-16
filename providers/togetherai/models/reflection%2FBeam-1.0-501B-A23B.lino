@@ -1,0 +1,44 @@
+model 'Beam 1.0 501B A23B'
+  has id
+    'reflection/Beam-1.0-501B-A23B'
+  provider id
+    'togetherai'
+  provided by
+    'Together AI'
+  family
+    'beam'
+  status
+    active
+  released at
+    2026-10-05
+  last updated at
+    2026-10-16
+  has knowledge cutoff at
+    2026-06-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0.4
+    output
+      1.2
+    cacheRead
+      0.04

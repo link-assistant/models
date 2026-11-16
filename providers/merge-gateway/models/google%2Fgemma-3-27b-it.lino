@@ -1,0 +1,40 @@
+model 'Gemma 3 27B IT'
+  has id
+    'google/gemma-3-27b-it'
+  provider id
+    'merge-gateway'
+  provided by
+    'Merge Gateway'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2025-03-12
+  last updated at
+    2025-03-12
+  has knowledge cutoff at
+    2024-08
+  weights
+    open
+  capabilities
+    (
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '32 768'
+  costs
+    input
+      0.08
+    output
+      0.45
+    cacheRead
+      0.04

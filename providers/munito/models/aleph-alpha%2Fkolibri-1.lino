@@ -1,0 +1,42 @@
+model 'Kolibri 1'
+  has id
+    'aleph-alpha/kolibri-1'
+  provider id
+    'munito'
+  provided by
+    'Munito AI'
+  status
+    active
+  released at
+    2026-10-03
+  last updated at
+    2026-10-03
+  has knowledge cutoff at
+    2026-06-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '943 718'
+  costs
+    input
+      0.13
+    output
+      0.51
+    cacheRead
+      0.078

@@ -8,7 +8,7 @@ model 'Claude Opus 4.6'
   family
     'claude-opus'
   status
-    experimental
+    active
   released at
     2026-02-04
   last updated at

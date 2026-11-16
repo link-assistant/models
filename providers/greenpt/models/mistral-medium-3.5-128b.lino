@@ -1,0 +1,40 @@
+model 'Mistral Medium 3.5'
+  has id
+    'mistral-medium-3.5-128b'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2026-04-29
+  last updated at
+    2026-04-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '16 384'
+  costs
+    input
+      2.052
+    output
+      10.26

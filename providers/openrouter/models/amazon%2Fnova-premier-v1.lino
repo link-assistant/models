@@ -8,11 +8,13 @@ model 'Nova Premier 1.0'
   family
     'nova'
   status
-    active
+    deprecated
   released at
-    2025-10-31
+    2025-04-30
   last updated at
-    2025-10-31
+    2025-04-30
+  has knowledge cutoff at
+    2024-10
   weights
     closed
   capabilities

@@ -30,11 +30,13 @@ model 'Qwen3 VL Instruct'
       text
   limits
     context
-      '131 072'
+      '262 144'
     output
-      '129 024'
+      '262 144'
   costs
     input
-      0.4
+      0.2
     output
-      1.6
+      0.88
+    cacheRead
+      0.11

@@ -1,0 +1,41 @@
+model 'MiniMax-M3.1-Flash'
+  has id
+    'MiniMaxAI/MiniMax-M3.1-Flash'
+  provider id
+    'tenstorrent'
+  provided by
+    'Tenstorrent'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-10-19
+  last updated at
+    2026-10-19
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '512 000'
+  costs
+    input
+      0.05
+    output
+      0.2
+    cacheRead
+      0.005

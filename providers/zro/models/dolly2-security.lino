@@ -1,0 +1,40 @@
+model 'Dolly 2 Security'
+  has id
+    'dolly2-security'
+  provider id
+    'zro'
+  provided by
+    'Zro'
+  status
+    active
+  released at
+    2026-10-20
+  last updated at
+    2026-10-20
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 000'
+  costs
+    input
+      2.1
+    output
+      6.3
+    cacheRead
+      0.45

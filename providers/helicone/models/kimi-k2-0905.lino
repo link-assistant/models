@@ -16,7 +16,7 @@ model 'Kimi K2 (09/05)'
   has knowledge cutoff at
     2025-09
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -38,4 +38,4 @@ model 'Kimi K2 (09/05)'
     output
       2
     cacheRead
-      0.39999999999999997
+      0.4

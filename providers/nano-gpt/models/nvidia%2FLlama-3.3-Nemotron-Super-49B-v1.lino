@@ -10,11 +10,11 @@ model 'Nvidia Nemotron Super 49B'
   status
     active
   released at
-    2025-08-08
+    2025-03-18
   last updated at
-    2025-08-08
+    2025-03-18
   weights
-    closed
+    open
   capabilities
     (
       temperature
@@ -36,3 +36,5 @@ model 'Nvidia Nemotron Super 49B'
       0.15
     output
       0.15
+    cacheRead
+      0.075

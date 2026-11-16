@@ -10,14 +10,15 @@ model 'Kimi K2 0905'
   status
     active
   released at
-    2025-09-25
+    2025-09-05
   last updated at
-    2025-09-25
+    2025-09-05
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -27,13 +28,15 @@ model 'Kimi K2 0905'
       text
   limits
     context
-      '256 000'
-    input
-      '256 000'
-    output
       '262 144'
+    input
+      '262 144'
+    output
+      '100 352'
   costs
     input
       0.4
     output
-      2
+      1.8
+    cacheRead
+      0.2

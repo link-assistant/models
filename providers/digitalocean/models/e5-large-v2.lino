@@ -5,14 +5,12 @@ model 'E5 Large v2'
     'digitalocean'
   provided by
     'DigitalOcean'
-  family
-    'text-embedding'
   status
     active
   released at
-    2023-05-19
+    2023-05
   last updated at
-    2026-04-30
+    2023-05
   weights
     open
   modalities

@@ -1,0 +1,43 @@
+model 'Mistral Medium 3 (EU)'
+  has id
+    'mistral/mistral-medium-3@eu'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'mistral-medium'
+  status
+    active
+  released at
+    2025-05-07
+  last updated at
+    2025-05-07
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '104 857'
+  costs
+    input
+      0.44
+    output
+      2.2
+    cacheRead
+      0.044

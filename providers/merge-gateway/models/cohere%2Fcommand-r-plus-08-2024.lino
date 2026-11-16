@@ -1,4 +1,4 @@
-model 'Command R+'
+model 'Command R+ 08-2024'
   has id
     'cohere/command-r-plus-08-2024'
   provider id
@@ -21,6 +21,7 @@ model 'Command R+'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

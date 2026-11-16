@@ -5,25 +5,28 @@ model 'Qwen3.5 Flash'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'qwen'
   status
     active
   released at
-    2026-03-20
+    2026-02-23
   last updated at
-    2026-03-20
+    2026-02-23
   has knowledge cutoff at
     2025-01-01
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
@@ -36,3 +39,7 @@ model 'Qwen3.5 Flash'
       0.1
     output
       0.4
+    cacheRead
+      0.02
+    cacheWrite
+      0.125

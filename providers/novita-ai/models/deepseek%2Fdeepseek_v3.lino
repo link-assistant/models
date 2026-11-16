@@ -1,0 +1,37 @@
+model 'DeepSeek-V3'
+  has id
+    'deepseek/deepseek_v3'
+  provider id
+    'novita-ai'
+  provided by
+    'Novita AI'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2024-12-26
+  last updated at
+    2024-12-26
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '64 000'
+    output
+      '16 000'
+  costs
+    input
+      0.89
+    output
+      0.89

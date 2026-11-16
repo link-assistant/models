@@ -1,0 +1,45 @@
+model 'Claude Opus 4.1 (latest)'
+  has id
+    'anthropic/claude-opus-4.1'
+  provider id
+    'hubris'
+  provided by
+    'Hubris'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2025-03-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '32 000'
+  costs
+    input
+      22.9386
+    output
+      114.6928
+    cacheRead
+      2.2938
+    cacheWrite
+      28.6732

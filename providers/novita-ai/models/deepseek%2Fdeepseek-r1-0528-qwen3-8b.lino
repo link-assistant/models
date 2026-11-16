@@ -4,7 +4,9 @@ model 'DeepSeek R1 0528 Qwen3 8B'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
+  family
+    'deepseek-thinking'
   status
     active
   released at

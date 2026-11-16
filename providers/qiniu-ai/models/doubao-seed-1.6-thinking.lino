@@ -6,7 +6,7 @@ model 'Doubao-Seed 1.6 Thinking'
   provided by
     'Qiniu'
   status
-    active
+    deprecated
   released at
     2025-08-15
   last updated at
@@ -19,6 +19,7 @@ model 'Doubao-Seed 1.6 Thinking'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -30,3 +31,8 @@ model 'Doubao-Seed 1.6 Thinking'
       '256 000'
     output
       '32 000'
+  costs
+    input
+      0.11594203
+    output
+      1.15942029

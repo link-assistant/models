@@ -12,7 +12,7 @@ model 'Llama-3.3-70B-Instruct'
   released at
     2024-12-06
   last updated at
-    2026-03-17
+    2024-12-06
   has knowledge cutoff at
     2023-12
   weights
@@ -21,7 +21,6 @@ model 'Llama-3.3-70B-Instruct'
     (
       tool calls
       temperature
-      attachments
     )
   modalities
     input
@@ -35,6 +34,6 @@ model 'Llama-3.3-70B-Instruct'
       '16 384'
   costs
     input
-      0.9
+      1.00935
     output
-      0.9
+      1.00935

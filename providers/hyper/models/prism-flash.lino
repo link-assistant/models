@@ -1,0 +1,37 @@
+model 'Prism Flash'
+  has id
+    'prism-flash'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  status
+    active
+  released at
+    1970-01-01
+  last updated at
+    2026-11-06
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.33
+    output
+      1.31
+    cacheRead
+      0.03

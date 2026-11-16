@@ -1,0 +1,42 @@
+model 'DeepSeek V4.1 Flash 1017'
+  has id
+    'deepseek/deepseek-v4.1-flash-1017'
+  provider id
+    'kitani'
+  provided by
+    'Kitani'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.25
+    output
+      1.1
+    cacheRead
+      0.006

@@ -1,0 +1,44 @@
+model 'Claude Sonnet 5.5'
+  has id
+    'claude-sonnet-5-5'
+  provider id
+    'xxapi'
+  provided by
+    'xxapi'
+  family
+    'claude-sonnet'
+  status
+    active
+  released at
+    2026-09-28
+  last updated at
+    2026-09-28
+  has knowledge cutoff at
+    2026-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      0.7692
+    output
+      3.846
+    cacheRead
+      0.03846
+    cacheWrite
+      0.9615

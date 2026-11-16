@@ -1,0 +1,45 @@
+model 'GPT-6 Luna'
+  has id
+    'gpt-6-luna'
+  provider id
+    'uplinkswitch'
+  provided by
+    'UplinkSwitch'
+  family
+    'gpt-luna'
+  status
+    active
+  released at
+    2026-09-22
+  last updated at
+    2026-09-22
+  has knowledge cutoff at
+    2026-05-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      0.0625
+    output
+      0.2
+    cacheRead
+      0.0125

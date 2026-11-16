@@ -1,0 +1,36 @@
+model 'MythoMax L2 13B (Deep Infra)'
+  has id
+    'deepinfra/Gryphe/MythoMax-L2-13b'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  status
+    active
+  released at
+    2023-08-10
+  last updated at
+    2023-08-10
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      4096
+    output
+      3200
+  costs
+    input
+      0.4
+    output
+      0.4

@@ -5,6 +5,8 @@ model 'MiniMax M2.5 highspeed'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'minimax'
   status
     active
   released at
@@ -14,7 +16,7 @@ model 'MiniMax M2.5 highspeed'
   has knowledge cutoff at
     2025-01-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -35,8 +37,8 @@ model 'MiniMax M2.5 highspeed'
     input
       0.6
     output
-      4.8
+      2.4
     cacheRead
-      0.06
+      0.03
     cacheWrite
-      0.75
+      0.375

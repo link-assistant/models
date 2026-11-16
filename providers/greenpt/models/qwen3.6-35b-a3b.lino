@@ -1,0 +1,40 @@
+model 'Qwen3.6 35B-A3B'
+  has id
+    'qwen3.6-35b-a3b'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-04-17
+  last updated at
+    2026-04-17
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.342
+    output
+      2.052

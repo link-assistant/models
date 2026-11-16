@@ -1,0 +1,42 @@
+model 'Kimi K3.1 Pro'
+  has id
+    'moonshotai/Kimi-K3.1-Pro'
+  provider id
+    'baseten'
+  provided by
+    'Baseten'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-10-23
+  last updated at
+    2026-10-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '262 144'
+  costs
+    input
+      2
+    output
+      10
+    cacheRead
+      0.2

@@ -21,6 +21,7 @@ model 'GPT-5.5'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -41,3 +42,5 @@ model 'GPT-5.5'
       5
     output
       30
+    cacheRead
+      0.5

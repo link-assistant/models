@@ -5,12 +5,16 @@ model 'Gemini 2.5 Flash Image'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'gemini-flash'
   status
-    active
+    deprecated
   released at
-    2025-10-22
+    2025-08-26
   last updated at
-    2025-10-22
+    2025-08-26
+  has knowledge cutoff at
+    2024-06
   weights
     closed
   capabilities

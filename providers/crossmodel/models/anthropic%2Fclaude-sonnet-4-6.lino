@@ -23,6 +23,7 @@ model 'Claude Sonnet 4.6'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -33,7 +34,7 @@ model 'Claude Sonnet 4.6'
     context
       '1 000 000'
     output
-      '64 000'
+      '128 000'
   costs
     input
       3

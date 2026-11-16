@@ -8,7 +8,7 @@ model 'Gemini 2.5 Pro'
   family
     'gemini-pro'
   status
-    active
+    deprecated
   released at
     2025-06-17
   last updated at
@@ -23,6 +23,7 @@ model 'Gemini 2.5 Pro'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

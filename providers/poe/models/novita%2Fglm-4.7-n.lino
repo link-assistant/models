@@ -5,19 +5,22 @@ model 'glm-4.7-n'
     'poe'
   provided by
     'Poe'
+  family
+    'glm'
   status
     active
   released at
     2025-12-22
   last updated at
     2025-12-22
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input

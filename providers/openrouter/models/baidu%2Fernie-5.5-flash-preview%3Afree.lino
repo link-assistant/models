@@ -1,0 +1,39 @@
+model 'ERNIE-5.5-Flash-Preview (free)'
+  has id
+    'baidu/ernie-5.5-flash-preview:free'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'ernie'
+  status
+    active
+  released at
+    2026-11-10
+  last updated at
+    2026-11-10
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 024 000'
+    output
+      '921 600'
+  costs
+    input
+      0
+    output
+      0

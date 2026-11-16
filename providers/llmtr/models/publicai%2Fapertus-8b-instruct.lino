@@ -1,0 +1,37 @@
+model 'Apertus 8B Instruct'
+  has id
+    'publicai/apertus-8b-instruct'
+  provider id
+    'llmtr'
+  provided by
+    'LLMTR'
+  status
+    active
+  released at
+    2025-09-02
+  last updated at
+    2025-09-02
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      8192
+  costs
+    input
+      0.1
+    output
+      0.2

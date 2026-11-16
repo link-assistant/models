@@ -5,8 +5,10 @@ model 'Perplexity Sonar Deep Research'
     'perplexity'
   provided by
     'Perplexity'
+  family
+    'sonar'
   status
-    active
+    deprecated
   released at
     2025-02-01
   last updated at

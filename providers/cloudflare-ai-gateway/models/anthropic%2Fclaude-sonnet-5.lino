@@ -22,7 +22,7 @@ model 'Claude Sonnet 5'
       reasoning
       tool calls
       attachments
-      interleaved output
+      structured output
     )
   modalities
     input

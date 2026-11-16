@@ -10,16 +10,15 @@ model 'Grok Code Fast 1'
   status
     active
   released at
-    2025-08-22
+    2025-09-02
   last updated at
-    2025-08-22
+    2025-09-02
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input

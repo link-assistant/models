@@ -5,6 +5,8 @@ model 'Step 3.5 Flash 2603'
     'stepfun'
   provided by
     'StepFun (China)'
+  family
+    'step'
   status
     active
   released at
@@ -20,6 +22,7 @@ model 'Step 3.5 Flash 2603'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities
@@ -36,8 +39,8 @@ model 'Step 3.5 Flash 2603'
       '256 000'
   costs
     input
-      0.1
+      0.10461
     output
-      0.3
+      0.31384
     cacheRead
-      0.02
+      0.02092

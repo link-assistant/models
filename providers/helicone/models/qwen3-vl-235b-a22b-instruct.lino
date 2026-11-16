@@ -16,11 +16,12 @@ model 'Qwen3 VL 235B A22B Instruct'
   has knowledge cutoff at
     2025-09
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

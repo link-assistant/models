@@ -1,0 +1,37 @@
+model 'mistral-large-2402'
+  has id
+    'mistral-large-2402'
+  provider id
+    'cortecs'
+  provided by
+    'Cortecs'
+  status
+    active
+  released at
+    2025-05-26
+  last updated at
+    2025-05-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      8192
+  costs
+    input
+      4.284
+    output
+      12.952

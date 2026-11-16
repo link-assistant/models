@@ -1,0 +1,40 @@
+model 'DeepSeek V4 Pro 0813'
+  has id
+    'deepseek-v4-pro'
+  provider id
+    'nan'
+  provided by
+    'NaN'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-13
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      1.85328
+    output
+      5.55984
+    cacheRead
+      0.061776

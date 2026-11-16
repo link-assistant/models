@@ -5,12 +5,14 @@ model 'qwen3-max-2025-09-23'
     '302ai'
   provided by
     '302.AI'
+  family
+    'qwen'
   status
     active
   released at
-    2025-09-24
+    2025-09-23
   last updated at
-    2025-09-24
+    2025-09-23
   has knowledge cutoff at
     2025-04
   weights

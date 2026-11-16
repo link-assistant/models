@@ -4,9 +4,9 @@ model 'Qwen3.6 Plus Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'qwen-free'
+    'qwen'
   status
     deprecated
   released at

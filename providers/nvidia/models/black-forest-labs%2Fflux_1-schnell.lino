@@ -5,12 +5,14 @@ model 'FLUX.1-schnell'
     'nvidia'
   provided by
     'Nvidia'
+  family
+    'flux'
   status
     active
   released at
     2024-08-01
   last updated at
-    2026-02-04
+    2024-08-01
   has knowledge cutoff at
     2024-07
   weights
@@ -22,9 +24,7 @@ model 'FLUX.1-schnell'
       image
   limits
     context
-      77
-    input
-      77
+      0
     output
       0
   costs

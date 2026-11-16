@@ -1,0 +1,41 @@
+model 'Gemini 3.8 Flash'
+  has id
+    'gemini-3.8-flash'
+  provider id
+    'dothoosh'
+  provided by
+    'DotHoosh'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-09-02
+  last updated at
+    2026-09-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.962503
+    output
+      4.812501
+    cacheRead
+      0.096252

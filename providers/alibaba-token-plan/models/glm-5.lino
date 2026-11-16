@@ -20,6 +20,7 @@ model 'GLM-5'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities

@@ -5,6 +5,8 @@ model 'GLM 4.7 Flash (Free)'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'glm-flash'
   status
     active
   released at
@@ -12,9 +14,9 @@ model 'GLM 4.7 Flash (Free)'
   last updated at
     2026-01-19
   has knowledge cutoff at
-    2025-01-01
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -31,9 +33,11 @@ model 'GLM 4.7 Flash (Free)'
     context
       '200 000'
     output
-      '64 000'
+      '128 000'
   costs
     input
       0
     output
+      0
+    cacheRead
       0

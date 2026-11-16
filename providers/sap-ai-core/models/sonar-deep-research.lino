@@ -6,7 +6,7 @@ model 'sonar-deep-research'
   provided by
     'SAP AI Core'
   family
-    'sonar-deep-research'
+    'sonar'
   status
     active
   released at

@@ -37,8 +37,8 @@ model 'Kimi K2.7 Code HighSpeed'
       '262 144'
   costs
     input
-      1.9
+      1.9421
     output
-      8
+      8.0673
     cacheRead
-      0.38
+      0.3884

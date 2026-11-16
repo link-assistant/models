@@ -23,6 +23,7 @@ model 'Claude Opus 4.6'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -33,9 +34,13 @@ model 'Claude Opus 4.6'
     context
       '1 000 000'
     output
-      '1 000 000'
+      '128 000'
   costs
     input
-      5.98
+      5.313
     output
-      29.89
+      26.561
+    cacheRead
+      0.531
+    cacheWrite
+      6.645

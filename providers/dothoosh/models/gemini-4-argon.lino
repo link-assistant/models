@@ -1,0 +1,42 @@
+model 'Gemini 4 Argon'
+  has id
+    'gemini-4-argon'
+  provider id
+    'dothoosh'
+  provided by
+    'DotHoosh'
+  family
+    'gemini'
+  status
+    active
+  released at
+    2026-10-13
+  last updated at
+    2026-10-13
+  has knowledge cutoff at
+    2026-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      2.566667
+    output
+      12.833336
+    cacheRead
+      0.128336

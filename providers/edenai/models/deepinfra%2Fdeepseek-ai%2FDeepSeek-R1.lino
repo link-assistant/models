@@ -1,0 +1,40 @@
+model 'DeepSeek-R1 (Deep Infra)'
+  has id
+    'deepinfra/deepseek-ai/DeepSeek-R1'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2025-01-20
+  last updated at
+    2025-05-29
+  has knowledge cutoff at
+    2024-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '32 768'
+  costs
+    input
+      0.7
+    output
+      2.4

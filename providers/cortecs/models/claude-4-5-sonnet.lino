@@ -1,4 +1,4 @@
-model 'Claude 4.5 Sonnet'
+model 'Claude Sonnet 4.5 (latest)'
   has id
     'claude-4-5-sonnet'
   provider id
@@ -23,6 +23,7 @@ model 'Claude 4.5 Sonnet'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -33,9 +34,13 @@ model 'Claude 4.5 Sonnet'
     context
       '200 000'
     output
-      '200 000'
+      '64 000'
   costs
     input
-      3.259
+      2.989
     output
-      16.296
+      14.945
+    cacheRead
+      0.326
+    cacheWrite
+      4.078

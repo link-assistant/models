@@ -1,0 +1,31 @@
+model 'GPT-Image-2'
+  has id
+    'gpt-image-2-c'
+  provider id
+    'steadyrouter'
+  provided by
+    'SteadyRouter'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2026-04-21
+  last updated at
+    2026-04-21
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

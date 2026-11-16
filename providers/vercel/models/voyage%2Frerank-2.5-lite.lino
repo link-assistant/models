@@ -15,10 +15,6 @@ model 'Voyage Rerank 2.5 Lite'
     2025-08-11
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -28,4 +24,4 @@ model 'Voyage Rerank 2.5 Lite'
     context
       '32 000'
     output
-      '32 000'
+      0

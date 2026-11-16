@@ -1,16 +1,18 @@
-model 'MiniMax: MiniMax M2'
+model 'MiniMax: MiniMax M2 (retires Nov 18)'
   has id
     'minimax/minimax-m2'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'minimax'
   status
     active
   released at
-    2025-10-23
+    2025-10-27
   last updated at
-    2026-03-15
+    2025-10-27
   weights
     open
   capabilities
@@ -18,6 +20,7 @@ model 'MiniMax: MiniMax M2'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -26,13 +29,15 @@ model 'MiniMax: MiniMax M2'
       text
   limits
     context
-      '196 608'
+      '205 000'
     output
-      '196 608'
+      '205 000'
   costs
     input
-      0.255
+      0.3
     output
-      1
+      1.2
     cacheRead
       0.03
+    cacheWrite
+      0.375

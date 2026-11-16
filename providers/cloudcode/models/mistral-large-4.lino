@@ -1,0 +1,43 @@
+model 'Mistral Large 4'
+  has id
+    'mistral-large-4'
+  provider id
+    'cloudcode'
+  provided by
+    'CloudCode.ONE'
+  family
+    'mistral-large'
+  status
+    active
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      1.54
+    output
+      4.62
+    cacheRead
+      0.154

@@ -1,0 +1,43 @@
+model 'Qwen3.7 Max'
+  has id
+    'qwen3.7-max'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-05-21
+  last updated at
+    2026-05-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      2.5
+    output
+      7.5
+    cacheRead
+      0.25
+    cacheWrite
+      3.125

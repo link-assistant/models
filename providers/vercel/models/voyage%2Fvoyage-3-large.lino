@@ -15,10 +15,6 @@ model 'voyage-3-large'
     2024-09
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -26,6 +22,6 @@ model 'voyage-3-large'
       text
   limits
     context
-      8192
+      '32 000'
     output
-      1536
+      0

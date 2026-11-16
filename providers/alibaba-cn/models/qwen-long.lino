@@ -19,8 +19,8 @@ model 'Qwen Long'
     closed
   capabilities
     (
-      tool calls
       temperature
+      structured output
     )
   modalities
     input

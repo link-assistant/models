@@ -8,7 +8,7 @@ model 'Imagen-3'
   family
     'imagen'
   status
-    active
+    deprecated
   released at
     2024-10-15
   last updated at
@@ -18,7 +18,6 @@ model 'Imagen-3'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

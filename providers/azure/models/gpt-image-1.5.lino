@@ -33,6 +33,6 @@ model 'GPT-Image-1.5'
     input
       5
     output
-      32
+      10
     cacheRead
       1.25

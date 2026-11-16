@@ -1,0 +1,27 @@
+model 'Embed v1 0.6b'
+  has id
+    'perplexity/pplx-embed-v1-0.6b'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'v0'
+  status
+    active
+  released at
+    2026-02-26
+  last updated at
+    2026-02-26
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      0

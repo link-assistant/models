@@ -21,7 +21,6 @@ model 'LucidQuery Nexus Coder'
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input

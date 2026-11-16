@@ -13,17 +13,19 @@ model 'DeepSeek V3.2'
     2025-12-01
   last updated at
     2025-12-01
+  has knowledge cutoff at
+    2024-07
   weights
-    closed
+    open
   capabilities
     (
       tool calls
-      attachments
+      temperature
       structured output
     )
   modalities
     input
-      text pdf
+      text
     output
       text
   limits
@@ -35,6 +37,8 @@ model 'DeepSeek V3.2'
       '65 536'
   costs
     input
-      0.27999999999999997
+      0.26
     output
-      0.42000000000000004
+      0.38
+    cacheRead
+      0.13

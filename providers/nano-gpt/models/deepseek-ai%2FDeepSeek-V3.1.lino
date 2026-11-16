@@ -10,18 +10,19 @@ model 'DeepSeek V3.1'
   status
     active
   released at
-    2025-07-26
+    2025-08-21
   last updated at
-    2025-07-26
+    2025-08-21
   weights
-    closed
+    open
   capabilities
     (
-      attachments
+      tool calls
+      temperature
     )
   modalities
     input
-      text pdf
+      text
     output
       text
   limits
@@ -36,3 +37,5 @@ model 'DeepSeek V3.1'
       0.2
     output
       0.7
+    cacheRead
+      0.1

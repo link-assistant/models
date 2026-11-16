@@ -4,9 +4,9 @@ model 'Codestral'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
-    'mistral'
+    'codestral'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'Codestral'
   last updated at
     2025-07-30
   weights
-    open
+    closed
   capabilities
     (
       temperature

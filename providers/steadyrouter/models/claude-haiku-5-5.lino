@@ -1,0 +1,35 @@
+model 'Claude Haiku 5.5'
+  has id
+    'claude-haiku-5-5'
+  provider id
+    'steadyrouter'
+  provided by
+    'SteadyRouter'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2026-10-07
+  last updated at
+    2026-10-07
+  has knowledge cutoff at
+    2026-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'

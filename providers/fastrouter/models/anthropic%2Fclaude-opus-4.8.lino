@@ -38,3 +38,7 @@ model 'Claude Opus 4.8'
       5
     output
       25
+    cacheRead
+      0.5
+    cacheWrite
+      6.25

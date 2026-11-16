@@ -1,0 +1,45 @@
+model 'Gemini 3.1 Pro Preview (Low cost)'
+  has id
+    'infer/gemini-3.1-pro-preview:low-cost'
+  provider id
+    'infer'
+  provided by
+    'Infer by Flow7'
+  family
+    'gemini-pro'
+  status
+    active
+  released at
+    2026-02-19
+  last updated at
+    2026-02-19
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '199 999'
+    output
+      '65 536'
+  costs
+    input
+      1.18
+    output
+      5.3
+    cacheRead
+      0.12
+    cacheWrite
+      1.33

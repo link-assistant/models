@@ -32,7 +32,7 @@ model 'Grok Latest'
     context
       '500 000'
     output
-      '1 000 000'
+      '450 000'
   costs
     input
       2
@@ -40,3 +40,5 @@ model 'Grok Latest'
       6
     cacheRead
       0.5
+    cacheWrite
+      0

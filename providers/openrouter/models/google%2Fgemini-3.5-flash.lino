@@ -46,3 +46,5 @@ model 'Gemini 3.5 Flash'
       0.083333
     reasoning
       9
+    inputAudio
+      3

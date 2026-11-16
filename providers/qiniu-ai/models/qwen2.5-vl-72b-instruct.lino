@@ -5,23 +5,28 @@ model 'Qwen 2.5 VL 72B Instruct'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'qwen'
   status
-    active
+    deprecated
   released at
-    2025-08-05
+    2025-01-26
   last updated at
-    2025-08-05
+    2025-01-26
+  has knowledge cutoff at
+    2024-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      text image audio video
+      text image video
     output
       text
   limits
@@ -29,3 +34,8 @@ model 'Qwen 2.5 VL 72B Instruct'
       '128 000'
     output
       8192
+  costs
+    input
+      2.31884058
+    output
+      6.95652174

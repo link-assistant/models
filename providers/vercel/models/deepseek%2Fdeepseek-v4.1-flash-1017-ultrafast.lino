@@ -1,0 +1,40 @@
+model 'DeepSeek V4.1 Flash 1017 Ultrafast'
+  has id
+    'deepseek/deepseek-v4.1-flash-1017-ultrafast'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-11-06
+  last updated at
+    2026-11-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      2.4
+    output
+      9.6
+    cacheRead
+      0.048

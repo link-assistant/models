@@ -1,0 +1,39 @@
+model 'Mistral Small 3.2 (Mistral AI)'
+  has id
+    'mistral/mistral-small-2506'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-06-20
+  last updated at
+    2025-06-20
+  has knowledge cutoff at
+    2025-03
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.1
+    output
+      0.3

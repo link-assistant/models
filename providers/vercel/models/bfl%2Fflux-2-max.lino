@@ -17,11 +17,11 @@ model 'FLUX.2 [max]'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       image
   limits

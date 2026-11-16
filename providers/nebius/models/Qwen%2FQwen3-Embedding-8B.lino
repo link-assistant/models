@@ -6,13 +6,13 @@ model 'Qwen3-Embedding-8B'
   provided by
     'Nebius Token Factory'
   family
-    'text-embedding'
+    'qwen'
   status
     active
   released at
-    2026-01-10
+    2025-06-05
   last updated at
-    2026-02-04
+    2025-06-05
   has knowledge cutoff at
     2025-10
   weights
@@ -24,9 +24,9 @@ model 'Qwen3-Embedding-8B'
       text
   limits
     context
-      '32 768'
+      '40 960'
     input
-      '32 768'
+      '40 960'
     output
       0
   costs

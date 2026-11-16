@@ -8,7 +8,7 @@ model 'gpt-image-1.5'
   family
     'gpt-image'
   status
-    active
+    deprecated
   released at
     2025-11-25
   last updated at
@@ -31,3 +31,10 @@ model 'gpt-image-1.5'
       0
     output
       0
+  costs
+    input
+      5
+    output
+      10
+    cacheRead
+      1.25

@@ -1,4 +1,4 @@
-model 'GPT-4o mini'
+model 'GPT-4o Mini'
   has id
     'openai/gpt-4o-mini'
   provider id

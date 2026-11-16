@@ -8,7 +8,7 @@ model 'Claude Sonnet 3.7'
   family
     'claude-sonnet'
   status
-    active
+    deprecated
   released at
     2025-02-19
   last updated at

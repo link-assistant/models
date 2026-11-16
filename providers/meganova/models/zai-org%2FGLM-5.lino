@@ -10,9 +10,9 @@ model 'GLM-5'
   status
     active
   released at
-    2026-02-11
+    2026-02-12
   last updated at
-    2026-02-11
+    2026-02-12
   weights
     open
   capabilities
@@ -37,3 +37,5 @@ model 'GLM-5'
       0.8
     output
       2.56
+    cacheRead
+      0.2

@@ -13,6 +13,8 @@ model 'Nova 2 Lite'
     2025-12-02
   last updated at
     2025-12-02
+  has knowledge cutoff at
+    2025-10
   weights
     closed
   capabilities

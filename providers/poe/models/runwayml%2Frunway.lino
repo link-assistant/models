@@ -8,7 +8,7 @@ model 'Runway'
   family
     'runway'
   status
-    active
+    deprecated
   released at
     2024-10-11
   last updated at
