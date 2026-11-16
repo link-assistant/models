@@ -1,0 +1,43 @@
+model 'Gemma 4 31B IT'
+  has id
+    'google/gemma-4-31B-it'
+  provider id
+    'stepping-stone'
+  provided by
+    'stepping stone AG'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      '32 768'
+  costs
+    input
+      0.2975
+    output
+      1.19
+    cacheRead
+      0.0446

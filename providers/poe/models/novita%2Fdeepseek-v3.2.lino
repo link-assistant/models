@@ -5,12 +5,16 @@ model 'DeepSeek-V3.2'
     'poe'
   provided by
     'Poe'
+  family
+    'deepseek'
   status
     active
   released at
     2025-12-01
   last updated at
     2025-12-01
+  has knowledge cutoff at
+    2024-07
   weights
     open
   capabilities
@@ -18,7 +22,6 @@ model 'DeepSeek-V3.2'
       reasoning
       tool calls
       temperature
-      attachments
     )
   modalities
     input
@@ -32,8 +35,8 @@ model 'DeepSeek-V3.2'
       0
   costs
     input
-      0.27
+      0.2626
     output
-      0.4
+      0.3838
     cacheRead
-      0.13
+      0.1313

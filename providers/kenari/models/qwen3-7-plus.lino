@@ -22,10 +22,11 @@ model 'Qwen3.7 Plus'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
@@ -35,6 +36,10 @@ model 'Qwen3.7 Plus'
       '64 000'
   costs
     input
-      0
+      0.38285714
     output
-      0
+      1.48571429
+    cacheRead
+      0.07428571
+    cacheWrite
+      0.48

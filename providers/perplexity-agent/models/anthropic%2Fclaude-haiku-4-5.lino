@@ -41,3 +41,5 @@ model 'Claude Haiku 4.5'
       5
     cacheRead
       0.1
+    cacheWrite
+      1.25

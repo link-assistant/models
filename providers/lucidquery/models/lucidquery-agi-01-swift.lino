@@ -36,6 +36,6 @@ model 'AGI-01 Swift'
       '120 000'
   costs
     input
-      2.5
+      2.80375
     output
-      15
+      16.8225

@@ -4,7 +4,7 @@ model 'Kimi K2.5'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'kimi-k2'
   status
@@ -14,14 +14,13 @@ model 'Kimi K2.5'
   last updated at
     2026-01-27
   has knowledge cutoff at
-    2024-10
+    2025-01
   weights
     open
   capabilities
     (
       reasoning
       tool calls
-      temperature
       attachments
       interleaved output
     )
@@ -41,4 +40,4 @@ model 'Kimi K2.5'
     output
       3
     cacheRead
-      0.08
+      0.1

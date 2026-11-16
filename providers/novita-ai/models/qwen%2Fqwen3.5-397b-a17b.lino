@@ -1,18 +1,18 @@
-model 'Qwen3.5-397B-A17B'
+model 'Qwen3.5 397B-A17B'
   has id
     'qwen/qwen3.5-397b-a17b'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'qwen'
   status
     active
   released at
-    2026-02-17
+    2026-02-15
   last updated at
-    2026-02-17
+    2026-02-15
   weights
     open
   capabilities
@@ -22,6 +22,7 @@ model 'Qwen3.5-397B-A17B'
       temperature
       attachments
       structured output
+      interleaved output
     )
   modalities
     input
@@ -32,7 +33,7 @@ model 'Qwen3.5-397B-A17B'
     context
       '262 144'
     output
-      '64 000'
+      '65 536'
   costs
     input
       0.6

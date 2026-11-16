@@ -1,0 +1,40 @@
+model 'DeepSeek V4 Pro 0813'
+  has id
+    'deepseek/deepseek-v4-pro-0813'
+  provider id
+    'obscurify'
+  provided by
+    'Obscurify.ai'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-13
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.7293
+    output
+      2.7625
+    cacheRead
+      0.0442

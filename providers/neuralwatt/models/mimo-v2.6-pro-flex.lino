@@ -1,0 +1,43 @@
+model 'MiMo-V2.6-Pro Flex'
+  has id
+    'mimo-v2.6-pro-flex'
+  provider id
+    'neuralwatt'
+  provided by
+    'Neuralwatt'
+  family
+    'mimo'
+  status
+    active
+  released at
+    2026-09-22
+  last updated at
+    2026-09-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '1 048 560'
+    output
+      '393 216'
+  costs
+    input
+      0.28275
+    output
+      0.5655
+    cacheRead
+      0.00234

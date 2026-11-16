@@ -1,0 +1,43 @@
+model 'DeepSeek V4 Pro (ByteDance)'
+  has id
+    'bytedance/deepseek-v4-pro'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '393 216'
+  costs
+    input
+      1.32
+    output
+      3.96
+    cacheRead
+      0.044

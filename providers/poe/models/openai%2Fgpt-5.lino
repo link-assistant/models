@@ -10,9 +10,11 @@ model 'GPT-5'
   status
     active
   released at
-    2025-08-05
+    2025-08-07
   last updated at
-    2025-08-05
+    2025-08-07
+  has knowledge cutoff at
+    2024-09-30
   weights
     closed
   capabilities
@@ -29,12 +31,14 @@ model 'GPT-5'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs
     input
-      1.1
+      1.1364
     output
-      9
+      9.0909
     cacheRead
-      0.11
+      0.1136

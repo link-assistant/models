@@ -8,18 +8,19 @@ model 'o3-deep-research'
   family
     'o'
   status
-    active
+    deprecated
   released at
-    2025-06-27
+    2025-06-26
   last updated at
-    2025-06-27
+    2025-06-26
+  has knowledge cutoff at
+    2024-05
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input

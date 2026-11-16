@@ -1,0 +1,42 @@
+model 'GLM-5.3'
+  has id
+    'zai-org/GLM-5.3'
+  provider id
+    'entrim'
+  provided by
+    'Entrim'
+  family
+    'glm'
+  status
+    beta
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.5
+    output
+      2
+    cacheRead
+      0.15

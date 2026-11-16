@@ -1,0 +1,37 @@
+model 'Ampersand v0.1'
+  has id
+    'humansand/ampersand-v0.1'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'v0'
+  status
+    active
+  released at
+    2026-11-06
+  last updated at
+    2026-11-06
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0

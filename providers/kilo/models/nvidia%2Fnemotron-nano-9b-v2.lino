@@ -1,4 +1,4 @@
-model 'NVIDIA: Nemotron Nano 9B V2'
+model 'NVIDIA: Nvidia Nemotron Nano 9B V2'
   has id
     'nvidia/nemotron-nano-9b-v2'
   provider id
@@ -13,6 +13,8 @@ model 'NVIDIA: Nemotron Nano 9B V2'
     2025-08-18
   last updated at
     2025-08-18
+  has knowledge cutoff at
+    2024-09
   weights
     open
   capabilities
@@ -30,9 +32,9 @@ model 'NVIDIA: Nemotron Nano 9B V2'
     context
       '131 072'
     output
-      '26 215'
+      '131 072'
   costs
     input
-      0.04
+      0.06
     output
-      0.16
+      0.23

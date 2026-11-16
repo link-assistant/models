@@ -1,0 +1,42 @@
+model 'Inkling'
+  has id
+    'thinkingmachines/Inkling-NVFP4'
+  provider id
+    'modal'
+  provided by
+    'Modal'
+  family
+    'ling'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      1.2
+    output
+      5
+    cacheRead
+      0.27

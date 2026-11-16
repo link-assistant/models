@@ -1,0 +1,47 @@
+model 'superbot-fast'
+  has id
+    'superbot-fast'
+  provider id
+    'superbot-gg'
+  provided by
+    'superbot'
+  family
+    'deepseek-flash'
+  status
+    experimental
+  released at
+    2026-09-10
+  last updated at
+    2026-09-10
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '500 000'
+    output
+      '131 072'
+  costs
+    input
+      1
+    output
+      5
+    cacheRead
+      0.05
+    cacheWrite
+      1.25
+    reasoning
+      5

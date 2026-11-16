@@ -1,0 +1,40 @@
+model 'Ternary Bonsai 2 9B'
+  has id
+    'prism-ml/ternary-bonsai-2-9b'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  status
+    active
+  released at
+    2026-10-16
+  last updated at
+    2026-10-16
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.08
+    output
+      0.13
+    cacheRead
+      0.04

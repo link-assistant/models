@@ -5,18 +5,19 @@ model 'ReMM SLERP 13B'
     'nano-gpt'
   provided by
     'NanoGPT'
-  family
-    'llama'
   status
     active
   released at
-    2025-01-01
+    2023-07-22
   last updated at
-    2025-01-01
+    2023-07-22
+  has knowledge cutoff at
+    2023-06-30
   weights
-    closed
+    open
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -33,6 +34,8 @@ model 'ReMM SLERP 13B'
       4096
   costs
     input
-      0.7989999999999999
+      0.799
     output
-      1.2069999999999999
+      1.207
+    cacheRead
+      0.3995

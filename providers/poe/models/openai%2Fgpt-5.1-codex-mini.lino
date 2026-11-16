@@ -8,18 +8,19 @@ model 'GPT-5.1-Codex-Mini'
   family
     'gpt-codex'
   status
-    active
+    deprecated
   released at
-    2025-11-12
+    2025-11-13
   last updated at
-    2025-11-12
+    2025-11-13
+  has knowledge cutoff at
+    2024-09-30
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input
@@ -29,6 +30,8 @@ model 'GPT-5.1-Codex-Mini'
   limits
     context
       '400 000'
+    input
+      '272 000'
     output
       '128 000'
   costs

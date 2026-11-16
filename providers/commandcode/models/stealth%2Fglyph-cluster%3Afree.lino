@@ -1,0 +1,38 @@
+model 'Glyph Cluster'
+  has id
+    'stealth/glyph-cluster:free'
+  provider id
+    'commandcode'
+  provided by
+    'CommandCode'
+  status
+    active
+  released at
+    2026-10-07
+  last updated at
+    2026-10-07
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '256 000'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

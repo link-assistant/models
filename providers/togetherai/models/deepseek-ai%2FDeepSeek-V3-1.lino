@@ -13,8 +13,6 @@ model 'DeepSeek V3.1'
     2025-08-21
   last updated at
     2025-08-21
-  has knowledge cutoff at
-    2025-08
   weights
     open
   capabilities

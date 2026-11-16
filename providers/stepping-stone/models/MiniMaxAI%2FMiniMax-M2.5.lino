@@ -1,0 +1,40 @@
+model 'MiniMax-M2.5'
+  has id
+    'MiniMaxAI/MiniMax-M2.5'
+  provider id
+    'stepping-stone'
+  provided by
+    'stepping stone AG'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '196 608'
+    output
+      '131 072'
+  costs
+    input
+      2.3086
+    output
+      11.543
+    cacheRead
+      0.3463

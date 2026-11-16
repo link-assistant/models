@@ -25,7 +25,7 @@ model 'Claude Opus 4.7'
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits

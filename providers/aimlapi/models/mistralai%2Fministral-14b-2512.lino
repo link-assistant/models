@@ -1,0 +1,41 @@
+model 'Ministral 3 14B 2512'
+  has id
+    'mistralai/ministral-14b-2512'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'ministral'
+  status
+    active
+  released at
+    2025-12-02
+  last updated at
+    2025-12-02
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '209 715'
+  costs
+    input
+      0.3703
+    output
+      0.3703
+    cacheRead
+      0.02116

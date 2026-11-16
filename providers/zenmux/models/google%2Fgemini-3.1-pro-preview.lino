@@ -5,6 +5,8 @@ model 'Gemini 3.1 Pro Preview'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gemini-pro'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'Gemini 3.1 Pro Preview'
   last updated at
     2026-02-19
   has knowledge cutoff at
-    2026-02-19
+    2025-01
   weights
     closed
   capabilities
@@ -24,14 +26,14 @@ model 'Gemini 3.1 Pro Preview'
     )
   modalities
     input
-      text image pdf audio video
+      text image video audio pdf
     output
       text
   limits
     context
       '1 048 000'
     output
-      '64 000'
+      '65 535'
   costs
     input
       2
@@ -39,5 +41,3 @@ model 'Gemini 3.1 Pro Preview'
       12
     cacheRead
       0.2
-    cacheWrite
-      4.5

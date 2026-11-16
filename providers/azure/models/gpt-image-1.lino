@@ -29,10 +29,3 @@ model 'GPT-Image-1'
       0
     output
       0
-  costs
-    input
-      5
-    output
-      40
-    cacheRead
-      1.25

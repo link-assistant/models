@@ -47,3 +47,5 @@ model 'Gemini 3.1 Pro Preview'
       0.375
     reasoning
       12
+    inputAudio
+      2

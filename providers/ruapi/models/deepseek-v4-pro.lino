@@ -1,0 +1,43 @@
+model 'DeepSeek V4 Pro'
+  has id
+    'deepseek-v4-pro'
+  provider id
+    'ruapi'
+  provided by
+    'RuAPI'
+  family
+    'deepseek-thinking'
+  status
+    active
+  released at
+    2026-08-13
+  last updated at
+    2026-08-22
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      1.584
+    output
+      4.752
+    cacheRead
+      0.06
+    reasoning
+      4.752

@@ -36,6 +36,8 @@ model 'DeepSeek V4 Flash'
       '384 000'
   costs
     input
-      0
+      0.15714286
     output
-      0
+      0.31428571
+    cacheRead
+      0.00371429

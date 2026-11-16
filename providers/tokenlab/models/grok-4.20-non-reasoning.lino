@@ -1,0 +1,40 @@
+model 'Grok 4.20 (Non-Reasoning)'
+  has id
+    'grok-4.20-non-reasoning'
+  provider id
+    'tokenlab'
+  provided by
+    'TokenLab'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-03-09
+  last updated at
+    2026-03-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '30 000'
+  costs
+    input
+      0.625
+    output
+      1.25
+    cacheRead
+      0.1

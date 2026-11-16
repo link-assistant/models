@@ -1,0 +1,42 @@
+model 'MiniMax Latest'
+  has id
+    'accounts/fireworks/routers/minimax-latest'
+  provider id
+    'fireworks-ai'
+  provided by
+    'Fireworks AI'
+  family
+    'minimax'
+  status
+    experimental
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '512 000'
+    output
+      '512 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

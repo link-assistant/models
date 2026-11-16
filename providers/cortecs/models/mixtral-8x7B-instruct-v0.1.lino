@@ -5,33 +5,35 @@ model 'Mixtral 8x7B Instruct v0.1'
     'cortecs'
   provided by
     'Cortecs'
+  family
+    'mistral'
   status
     active
   released at
     2023-12-11
   last updated at
     2023-12-11
-  has knowledge cutoff at
-    2023-09
   weights
     open
   capabilities
     (
       reasoning
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text
+      text pdf
     output
       text
   limits
     context
       '32 000'
     output
-      '32 000'
+      4096
   costs
     input
-      0.438
+      0.488
     output
-      0.68
+      0.758

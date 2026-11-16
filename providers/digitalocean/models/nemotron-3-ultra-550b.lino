@@ -12,9 +12,11 @@ model 'Nemotron 3 Ultra'
   released at
     2026-06-04
   last updated at
-    2026-06-12
+    2026-06-04
+  has knowledge cutoff at
+    2025-09
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -29,4 +31,11 @@ model 'Nemotron 3 Ultra'
     context
       '131 072'
     output
-      8192
+      '131 072'
+  costs
+    input
+      0.9
+    output
+      1.7
+    cacheRead
+      0.18

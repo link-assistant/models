@@ -6,13 +6,13 @@ model 'Qwen3 Embedding 8B'
   provided by
     'evroc'
   family
-    'text-embedding'
+    'qwen'
   status
     active
   released at
-    2025-07-30
+    2025-06-05
   last updated at
-    2025-07-30
+    2025-06-05
   weights
     open
   modalities

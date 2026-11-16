@@ -5,6 +5,8 @@ model 'Step 3.5 Flash'
     'empiriolabs'
   provided by
     'EmpirioLabs AI'
+  family
+    'step'
   status
     active
   released at
@@ -20,7 +22,6 @@ model 'Step 3.5 Flash'
       reasoning
       tool calls
       temperature
-      structured output
     )
   modalities
     input
@@ -29,7 +30,7 @@ model 'Step 3.5 Flash'
       text
   limits
     context
-      '256 000'
+      '262 144'
     input
       '256 000'
     output

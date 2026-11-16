@@ -1,0 +1,31 @@
+model 'Sparrow Auto'
+  has id
+    'sparrow/auto'
+  provider id
+    'sparrowcodes'
+  provided by
+    'SparrowCodes'
+  status
+    active
+  released at
+    2026-11-10
+  last updated at
+    2026-11-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'

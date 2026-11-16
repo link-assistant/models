@@ -8,22 +8,21 @@ model 'Grok Code Fast 1'
   family
     'grok'
   status
-    active
+    deprecated
   released at
-    2025-09-01
+    2025-09-02
   last updated at
-    2025-09-01
+    2025-09-02
   weights
     closed
   capabilities
     (
       tool calls
       temperature
-      attachments
     )
   modalities
     input
-      text image
+      text
     output
       text
   limits

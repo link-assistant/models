@@ -18,7 +18,6 @@ model 'Lyria'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

@@ -5,12 +5,16 @@ model 'Gemini 3.0 Pro Preview'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'gemini-pro'
   status
-    active
+    deprecated
   released at
-    2025-11-19
+    2025-11-18
   last updated at
-    2025-11-19
+    2025-11-18
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities

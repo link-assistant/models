@@ -5,38 +5,41 @@ model 'Gemini 2.5 Flash Lite'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gemini-flash-lite'
   status
     active
   released at
-    2025-07-22
+    2025-06-17
   last updated at
-    2025-07-22
+    2025-06-17
   has knowledge cutoff at
-    2025-01-01
+    2025-01
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
     )
   modalities
     input
-      pdf image text audio
+      text image audio video pdf
     output
       text
   limits
     context
       '1 048 000'
     output
-      '64 000'
+      '65 535'
   costs
     input
       0.1
     output
       0.4
     cacheRead
-      0.03
-    cacheWrite
-      1
+      0.01
+    inputAudio
+      0.3

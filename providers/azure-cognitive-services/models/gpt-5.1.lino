@@ -8,7 +8,7 @@ model 'GPT-5.1'
   family
     'gpt'
   status
-    active
+    experimental
   released at
     2025-11-14
   last updated at
@@ -26,11 +26,13 @@ model 'GPT-5.1'
     )
   modalities
     input
-      text image audio
+      text image pdf
     output
-      text image audio
+      text
   limits
     context
+      '400 000'
+    input
       '272 000'
     output
       '128 000'

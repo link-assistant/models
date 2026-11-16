@@ -6,15 +6,21 @@ model 'Mixtral 8x22B'
   provided by
     'NanoGPT'
   family
-    'mixtral'
+    'mistral'
   status
     active
   released at
-    2025-12-11
+    2024-04-17
   last updated at
-    2025-12-11
+    2024-04-17
+  has knowledge cutoff at
+    2024-01-31
   weights
-    closed
+    open
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -26,9 +32,11 @@ model 'Mixtral 8x22B'
     input
       '65 536'
     output
-      '32 768'
+      '52 428'
   costs
     input
-      0.8999999999999999
+      2
     output
-      0.8999999999999999
+      6
+    cacheRead
+      0.2

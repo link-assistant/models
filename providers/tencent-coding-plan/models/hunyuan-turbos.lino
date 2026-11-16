@@ -8,7 +8,7 @@ model 'Hunyuan-TurboS'
   family
     'hunyuan'
   status
-    active
+    deprecated
   released at
     2026-03-08
   last updated at

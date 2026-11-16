@@ -8,7 +8,7 @@ model 'MiniMax M2.7 Highspeed'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
     2026-03-18
   last updated at
@@ -20,7 +20,6 @@ model 'MiniMax M2.7 Highspeed'
       reasoning
       tool calls
       temperature
-      structured output
     )
   modalities
     input
@@ -29,9 +28,9 @@ model 'MiniMax M2.7 Highspeed'
       text
   limits
     context
-      '200 000'
+      '204 800'
     output
-      '32 768'
+      '131 072'
   costs
     input
       0.3

@@ -1,0 +1,41 @@
+model 'Qwen3 Coder Next'
+  has id
+    'Qwen/Qwen3-Coder-Next'
+  provider id
+    'stepping-stone'
+  provided by
+    'stepping stone AG'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-02-03
+  last updated at
+    2026-02-03
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.4046
+    output
+      2.023
+    cacheRead
+      0.0446

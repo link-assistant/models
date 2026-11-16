@@ -1,0 +1,41 @@
+model 'DeepSeek V4.1 Flash 1017 Uncensored'
+  has id
+    'deepseek-v4-1-flash-1017-uncensored'
+  provider id
+    'moneo'
+  provided by
+    'Moneo'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.33
+    output
+      1.32

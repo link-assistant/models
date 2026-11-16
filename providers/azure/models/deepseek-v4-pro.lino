@@ -20,8 +20,10 @@ model 'DeepSeek-V4-Pro'
   capabilities
     (
       reasoning
+      tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input

@@ -1,0 +1,38 @@
+model 'DeepSeek V4.1 Flash 1017 (Economy)'
+  has id
+    'deepseek-v4.1-flash-1017-economy'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  status
+    active
+  released at
+    1970-01-01
+  last updated at
+    2026-11-14
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      0.2
+    output
+      0.6
+    cacheRead
+      0.01

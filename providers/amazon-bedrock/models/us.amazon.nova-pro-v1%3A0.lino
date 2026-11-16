@@ -1,0 +1,44 @@
+model 'Nova Pro (US)'
+  has id
+    'us.amazon.nova-pro-v1:0'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'nova-pro'
+  status
+    active
+  released at
+    2024-12-03
+  last updated at
+    2024-12-03
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '300 000'
+    output
+      '10 000'
+  costs
+    input
+      0.8
+    output
+      3.2
+    cacheRead
+      0.2
+    cacheWrite
+      0.8

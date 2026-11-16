@@ -17,6 +17,10 @@ model 'Qwen3-ASR Flash'
     2024-04
   weights
     closed
+  capabilities
+    (
+      attachments
+    )
   modalities
     input
       audio
@@ -27,8 +31,3 @@ model 'Qwen3-ASR Flash'
       '53 248'
     output
       4096
-  costs
-    input
-      0.032
-    output
-      0.032

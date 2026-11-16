@@ -5,6 +5,8 @@ model 'GPT-5.2-Pro'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gpt-pro'
   status
     active
   released at

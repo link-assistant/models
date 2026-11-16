@@ -1,0 +1,47 @@
+model 'GPT-5.6 Terra'
+  has id
+    'gpt-5-6-terra'
+  provider id
+    'kunavo'
+  provided by
+    'Kunavo'
+  family
+    'gpt-terra'
+  status
+    active
+  released at
+    2026-07-09
+  last updated at
+    2026-07-09
+  has knowledge cutoff at
+    2026-02-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      0.7
+    output
+      4.2
+    cacheRead
+      0.07
+    cacheWrite
+      0.875

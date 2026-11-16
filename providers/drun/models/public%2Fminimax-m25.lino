@@ -10,11 +10,11 @@ model 'MiniMax M2.5'
   status
     active
   released at
-    2025-03-01
+    2026-02-12
   last updated at
-    2025-03-01
+    2026-02-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning

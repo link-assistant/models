@@ -5,14 +5,18 @@ model 'Qwen3 Next 80B A3B Instruct'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'qwen'
   status
-    active
+    deprecated
   released at
-    2025-09-12
+    2025-09
   last updated at
-    2025-09-12
+    2025-09
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -28,3 +32,8 @@ model 'Qwen3 Next 80B A3B Instruct'
       '131 072'
     output
       '32 768'
+  costs
+    input
+      0.14492754
+    output
+      0.57971014

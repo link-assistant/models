@@ -1,0 +1,31 @@
+model 'Grok Voice STT 1.0'
+  has id
+    'x-ai/grok-voice-stt-1.0'
+  provider id
+    'zenmux'
+  provided by
+    'ZenMux'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-09-17
+  last updated at
+    2026-09-17
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      '15 000'
+    output
+      '15 000'

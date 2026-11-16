@@ -1,0 +1,42 @@
+model 'Nemotron 3 Ultra 550B A55B (Arkanecloud)'
+  has id
+    'arkanecloud/nvidia/nemotron-3-ultra-550b-a55b'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-06-04
+  last updated at
+    2026-06-04
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '512 288'
+    output
+      '128 000'
+  costs
+    input
+      0.6
+    output
+      3.5
+    cacheRead
+      0.2

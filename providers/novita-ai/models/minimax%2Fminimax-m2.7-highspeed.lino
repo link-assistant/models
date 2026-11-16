@@ -4,7 +4,7 @@ model 'MiniMax-M2.7-highspeed'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'minimax'
   status
@@ -12,7 +12,7 @@ model 'MiniMax-M2.7-highspeed'
   released at
     2026-03-18
   last updated at
-    2026-05-27
+    2026-03-18
   weights
     open
   capabilities
@@ -21,6 +21,7 @@ model 'MiniMax-M2.7-highspeed'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input

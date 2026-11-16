@@ -1,0 +1,38 @@
+model 'Pareto'
+  has id
+    'unbiased/pareto'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  status
+    active
+  released at
+    2026-09-17
+  last updated at
+    2026-09-17
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      2.645
+    output
+      7.935
+    cacheRead
+      0.2645

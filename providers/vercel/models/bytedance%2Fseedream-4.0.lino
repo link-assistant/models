@@ -17,11 +17,11 @@ model 'Seedream 4.0'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       image
   limits

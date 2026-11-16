@@ -14,7 +14,7 @@ model 'inclusionAI/Ling-flash-2.0'
   last updated at
     2025-11-25
   weights
-    closed
+    open
   capabilities
     (
       tool calls

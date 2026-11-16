@@ -10,7 +10,7 @@ model 'Text Standard'
   released at
     2026-02-26
   last updated at
-    2026-07-06
+    2026-10-06
   weights
     closed
   capabilities
@@ -32,4 +32,4 @@ model 'Text Standard'
     input
       '120 000'
     output
-      '16 000'
+      '65 536'

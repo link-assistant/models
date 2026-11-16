@@ -8,7 +8,7 @@ model 'Qwen-VL Max'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2024-04-08
   last updated at
@@ -21,6 +21,7 @@ model 'Qwen-VL Max'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

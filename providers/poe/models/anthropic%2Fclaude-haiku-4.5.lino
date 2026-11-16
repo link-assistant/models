@@ -13,6 +13,8 @@ model 'Claude-Haiku-4.5'
     2025-10-15
   last updated at
     2025-10-15
+  has knowledge cutoff at
+    2025-02-28
   weights
     closed
   capabilities
@@ -33,10 +35,10 @@ model 'Claude-Haiku-4.5'
       '64 000'
   costs
     input
-      0.85
+      0.8586
     output
-      4.3
+      4.2929
     cacheRead
-      0.085
+      0.0859
     cacheWrite
-      1.1
+      1.0732

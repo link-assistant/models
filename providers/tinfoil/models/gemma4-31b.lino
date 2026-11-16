@@ -13,6 +13,8 @@ model 'Gemma 4 31B IT'
     2026-04-02
   last updated at
     2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -30,7 +32,7 @@ model 'Gemma 4 31B IT'
       text
   limits
     context
-      '256 000'
+      '262 144'
     output
       '32 768'
   costs

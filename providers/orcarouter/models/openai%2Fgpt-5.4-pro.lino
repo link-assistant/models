@@ -37,6 +37,6 @@ model 'GPT-5.4 Pro'
       '128 000'
   costs
     input
-      60
+      30
     output
-      270
+      180

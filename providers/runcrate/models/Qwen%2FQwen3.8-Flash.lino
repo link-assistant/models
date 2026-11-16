@@ -1,0 +1,42 @@
+model 'Qwen3.8 Flash'
+  has id
+    'Qwen/Qwen3.8-Flash'
+  provider id
+    'runcrate'
+  provided by
+    'Runcrate'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.11865
+    output
+      0.4011
+    cacheRead
+      0.014805

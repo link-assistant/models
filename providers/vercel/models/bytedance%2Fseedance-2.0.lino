@@ -10,14 +10,13 @@ model 'Seedance 2.0'
   status
     active
   released at
-    2026-04-14
+    2026-02-12
   last updated at
-    2026-04-14
+    2026-10-04
   weights
     closed
   capabilities
     (
-      temperature
       attachments
     )
   modalities

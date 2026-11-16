@@ -1,0 +1,43 @@
+model 'GPT OSS 20B'
+  has id
+    'openai/gpt-oss-20b'
+  provider id
+    'sokkan'
+  provided by
+    'SOKKAN Router'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.015
+    output
+      0.075
+    cacheRead
+      0.008

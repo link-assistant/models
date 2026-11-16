@@ -8,15 +8,16 @@ model 'grok-4-fast-reasoning'
   family
     'grok'
   status
-    active
+    deprecated
   released at
-    2026-01
+    2025-12-18
   last updated at
-    2026-01
+    2025-12-18
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments

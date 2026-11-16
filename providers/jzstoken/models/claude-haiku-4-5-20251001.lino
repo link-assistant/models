@@ -1,0 +1,46 @@
+model 'Claude Haiku 4.5'
+  has id
+    'claude-haiku-4-5-20251001'
+  provider id
+    'jzstoken'
+  provided by
+    'JZSTOKEN'
+  family
+    'claude-haiku'
+  status
+    active
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  has knowledge cutoff at
+    2025-02-28
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '64 000'
+  costs
+    input
+      0.0778
+    output
+      0.3892
+    cacheRead
+      0.0078
+    cacheWrite
+      0.1168

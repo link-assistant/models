@@ -6,13 +6,13 @@ model 'Perplexity Sonar Deep Research'
   provided by
     'Helicone'
   family
-    'sonar-deep-research'
+    'sonar'
   status
     active
   released at
-    2025-01-27
+    2025-02-01
   last updated at
-    2025-01-27
+    2025-09-01
   has knowledge cutoff at
     2025-01
   weights

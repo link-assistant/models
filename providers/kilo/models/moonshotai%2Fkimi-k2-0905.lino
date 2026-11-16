@@ -1,10 +1,12 @@
-model 'MoonshotAI: Kimi K2 0905'
+model 'Kimi K2 Instruct 0905'
   has id
     'moonshotai/kimi-k2-0905'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'kimi-k2'
   status
     active
   released at
@@ -17,6 +19,7 @@ model 'MoonshotAI: Kimi K2 0905'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -25,13 +28,11 @@ model 'MoonshotAI: Kimi K2 0905'
       text
   limits
     context
-      '131 072'
+      '262 144'
     output
-      '26 215'
+      '98 304'
   costs
     input
-      0.4
+      0.6
     output
-      2
-    cacheRead
-      0.15
+      2.5

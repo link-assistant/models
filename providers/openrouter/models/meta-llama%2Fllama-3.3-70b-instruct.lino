@@ -32,9 +32,11 @@ model 'Llama-3.3-70B-Instruct'
     context
       '131 072'
     output
-      '16 384'
+      '115 200'
   costs
     input
-      0.1
+      0.71
     output
-      0.32
+      0.71
+    cacheRead
+      0.71

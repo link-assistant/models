@@ -4,7 +4,7 @@ model 'DeepSeek R1 0528'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'deepseek-thinking'
   status
@@ -13,8 +13,6 @@ model 'DeepSeek R1 0528'
     2025-05-28
   last updated at
     2025-05-28
-  has knowledge cutoff at
-    2024-07
   weights
     open
   capabilities

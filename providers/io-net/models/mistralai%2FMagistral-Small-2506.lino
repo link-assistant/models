@@ -6,17 +6,17 @@ model 'Magistral Small 2506'
   provided by
     'IO.NET'
   family
-    'magistral-small'
+    'magistral'
   status
-    active
+    deprecated
   released at
-    2025-06-01
+    2025-06-10
   last updated at
-    2025-06-01
+    2025-06-10
   has knowledge cutoff at
     2025-01
   weights
-    closed
+    open
   capabilities
     (
       tool calls

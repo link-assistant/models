@@ -10,22 +10,22 @@ model 'Veo 3.1'
   status
     active
   released at
-    2025-10-15
+    2025-11-17
   last updated at
-    2026-06-08
+    2025-11-17
   weights
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image video
     output
       video
   limits
     context
-      0
+      1024
     output
       0

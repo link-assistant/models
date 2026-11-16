@@ -21,6 +21,7 @@ model 'MiniMax-M3'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

@@ -25,8 +25,3 @@ model 'Stable Diffusion 3.5 Large'
       256
     output
       1
-  costs
-    input
-      0.08
-    output
-      0

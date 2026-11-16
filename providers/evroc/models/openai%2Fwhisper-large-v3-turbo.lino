@@ -15,6 +15,11 @@ model 'Whisper Large v3 Turbo'
     2024-10-01
   weights
     open
+  capabilities
+    (
+      temperature
+      attachments
+    )
   modalities
     input
       audio

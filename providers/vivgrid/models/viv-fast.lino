@@ -1,0 +1,41 @@
+model 'Viv Fast'
+  has id
+    'viv-fast'
+  provider id
+    'vivgrid'
+  provided by
+    'Vivgrid'
+  status
+    active
+  released at
+    2026-09-21
+  last updated at
+    2026-09-21
+  has knowledge cutoff at
+    2026-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '256 000'
+  costs
+    input
+      0.13
+    output
+      0.4
+    cacheRead
+      0.05

@@ -18,7 +18,6 @@ model 'Imagen-4-Fast'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

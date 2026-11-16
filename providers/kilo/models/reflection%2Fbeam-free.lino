@@ -1,0 +1,39 @@
+model 'Reflection: Beam 1.0 (Free)'
+  has id
+    'reflection/beam-free'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'beam'
+  status
+    active
+  released at
+    2026-10-16
+  last updated at
+    2026-10-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0

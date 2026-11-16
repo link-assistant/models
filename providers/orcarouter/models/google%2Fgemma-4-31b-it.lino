@@ -13,6 +13,8 @@ model 'Gemma 4 31B IT'
     2026-04-02
   last updated at
     2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -38,3 +40,5 @@ model 'Gemma 4 31B IT'
       0.13
     output
       0.38
+    cacheRead
+      0.02

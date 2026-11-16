@@ -1,0 +1,44 @@
+model 'DeepSeek V4.1 Flash 1017 Ultrafast'
+  has id
+    'deepseek-v4.1-flash-1017-ultrafast'
+  provider id
+    'abliteratedllm'
+  provided by
+    'AbliteratedLLM'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      2.16
+    output
+      8.64
+    cacheRead
+      0.0432

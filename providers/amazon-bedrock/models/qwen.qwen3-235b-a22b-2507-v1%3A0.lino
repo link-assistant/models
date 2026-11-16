@@ -1,4 +1,4 @@
-model 'Qwen3 235B A22B 2507'
+model 'Qwen3 235B-A22B Instruct 2507'
   has id
     'qwen.qwen3-235b-a22b-2507-v1:0'
   provider id
@@ -10,11 +10,9 @@ model 'Qwen3 235B A22B 2507'
   status
     active
   released at
-    2025-09-18
+    2025-07-21
   last updated at
     2025-09-18
-  has knowledge cutoff at
-    2024-04
   weights
     open
   capabilities

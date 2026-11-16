@@ -1,0 +1,43 @@
+model 'Large 2407'
+  has id
+    'mistralai/mistral-large-2407'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'mistral-large'
+  status
+    active
+  released at
+    2024-07-24
+  last updated at
+    2024-07-24
+  has knowledge cutoff at
+    2024-03-31
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '104 857'
+  costs
+    input
+      2.116
+    output
+      6.348
+    cacheRead
+      0.2116

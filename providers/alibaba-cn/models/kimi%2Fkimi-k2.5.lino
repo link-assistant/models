@@ -21,6 +21,7 @@ model 'kimi/kimi-k2.5'
     (
       reasoning
       tool calls
+      attachments
       structured output
       interleaved output
     )

@@ -21,7 +21,6 @@ model 'DeepSeek Chat'
     (
       tool calls
       temperature
-      attachments
     )
   modalities
     input

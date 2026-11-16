@@ -1,0 +1,42 @@
+model 'Qwen3.8 27B Uncensored'
+  has id
+    'qwen3.8-27b-uncensored'
+  provider id
+    'unrestricted'
+  provided by
+    'Unrestricted'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2026-09-15
+  last updated at
+    2026-11-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.5
+    output
+      1
+    cacheRead
+      0.05

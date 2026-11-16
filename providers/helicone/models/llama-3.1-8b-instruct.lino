@@ -16,7 +16,7 @@ model 'Meta Llama 3.1 8B Instruct'
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -36,4 +36,4 @@ model 'Meta Llama 3.1 8B Instruct'
     input
       0.02
     output
-      0.049999999999999996
+      0.05

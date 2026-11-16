@@ -5,6 +5,8 @@ model 'MiniMax M2'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'minimax'
   status
     active
   released at
@@ -14,7 +16,7 @@ model 'MiniMax M2'
   has knowledge cutoff at
     2025-01-01
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -30,7 +32,7 @@ model 'MiniMax M2'
     context
       '204 000'
     output
-      '64 000'
+      '128 000'
   costs
     input
       0.3
@@ -39,4 +41,4 @@ model 'MiniMax M2'
     cacheRead
       0.03
     cacheWrite
-      0.38
+      0.375

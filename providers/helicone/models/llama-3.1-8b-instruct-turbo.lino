@@ -16,7 +16,7 @@ model 'Meta Llama 3.1 8B Instruct Turbo'
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       tool calls

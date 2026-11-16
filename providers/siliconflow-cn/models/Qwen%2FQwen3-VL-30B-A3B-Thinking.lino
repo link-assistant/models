@@ -14,7 +14,7 @@ model 'Qwen/Qwen3-VL-30B-A3B-Thinking'
   last updated at
     2025-11-25
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -25,7 +25,7 @@ model 'Qwen/Qwen3-VL-30B-A3B-Thinking'
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
@@ -35,6 +35,6 @@ model 'Qwen/Qwen3-VL-30B-A3B-Thinking'
       '262 000'
   costs
     input
-      0.29
+      0.10461323
     output
-      1
+      0.41845294

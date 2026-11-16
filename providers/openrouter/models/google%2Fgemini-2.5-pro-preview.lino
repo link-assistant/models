@@ -46,3 +46,5 @@ model 'Gemini 2.5 Pro Preview 06-05'
       0.375
     reasoning
       10
+    inputAudio
+      1.25

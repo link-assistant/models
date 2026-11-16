@@ -1,0 +1,43 @@
+model 'Laguna S 2.1'
+  has id
+    'poolside/laguna-s-2.1'
+  provider id
+    'poolside'
+  provided by
+    'Poolside'
+  family
+    'laguna'
+  status
+    active
+  released at
+    2026-07-21
+  last updated at
+    2026-07-21
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '32 768'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

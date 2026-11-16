@@ -4,7 +4,7 @@ model 'MiniMax-M3'
   provider id
     'minimax-cn'
   provided by
-    'MiniMax (minimaxi.com)'
+    'MiniMax (minimax.cn)'
   family
     'minimax'
   status
@@ -31,11 +31,11 @@ model 'MiniMax-M3'
     context
       '1 000 000'
     output
-      '128 000'
+      '524 288'
   costs
     input
-      0.3
+      0.3137
     output
-      1.2
+      1.2549
     cacheRead
-      0.06
+      0.0627

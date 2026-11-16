@@ -8,15 +8,16 @@ model 'Aion 3.0 Mini'
   status
     active
   released at
-    2026-07-08
+    2026-05-14
   last updated at
-    2026-07-08
+    2026-05-14
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       structured output
     )
   modalities

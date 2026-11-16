@@ -5,16 +5,18 @@ model 'qwen3-coder-480b-a35b-instruct'
     '302ai'
   provided by
     '302.AI'
+  family
+    'qwen'
   status
     active
   released at
-    2025-07-23
+    2025-07-22
   last updated at
-    2025-07-23
+    2025-07-22
   has knowledge cutoff at
     2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls

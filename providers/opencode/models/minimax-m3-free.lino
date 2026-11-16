@@ -4,15 +4,15 @@ model 'MiniMax-M3 Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'minimax-m3-free'
+    'minimax'
   status
     deprecated
   released at
-    2026-05-31
+    2026-06-01
   last updated at
-    2026-05-31
+    2026-06-01
   has knowledge cutoff at
     2025-01
   weights
@@ -22,6 +22,7 @@ model 'MiniMax-M3 Free'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

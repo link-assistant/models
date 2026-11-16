@@ -1,0 +1,43 @@
+model 'Qwen3.6 Flash'
+  has id
+    'zenifra/qwen3.6-flash'
+  provider id
+    'zenifra'
+  provided by
+    'Zenifra'
+  family
+    'qwen3.6'
+  status
+    active
+  released at
+    2026-04-27
+  last updated at
+    2026-04-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '991 808'
+    output
+      '65 536'
+  costs
+    input
+      0.1541
+    output
+      0.9248
+    cacheRead
+      0.0163

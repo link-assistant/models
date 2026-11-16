@@ -6,13 +6,13 @@ model 'OpenAI GPT-5.1 Chat'
   provided by
     'Helicone'
   family
-    'gpt-codex'
+    'gpt'
   status
     active
   released at
-    2025-01-01
+    2025-11-13
   last updated at
-    2025-01-01
+    2025-11-13
   has knowledge cutoff at
     2025-01
   weights
@@ -20,12 +20,13 @@ model 'OpenAI GPT-5.1 Chat'
   capabilities
     (
       tool calls
+      attachments
     )
   modalities
     input
       text image
     output
-      text image
+      text
   limits
     context
       '128 000'
@@ -37,4 +38,4 @@ model 'OpenAI GPT-5.1 Chat'
     output
       10
     cacheRead
-      0.12500000000000003
+      0.125

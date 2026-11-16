@@ -28,7 +28,7 @@ model 'GPT-5 Nano'
     input
       text image
     output
-      text image
+      text
   limits
     context
       '400 000'
@@ -42,4 +42,4 @@ model 'GPT-5 Nano'
     output
       0.4
     cacheRead
-      0.005
+      0.01

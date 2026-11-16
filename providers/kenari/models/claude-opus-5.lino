@@ -1,0 +1,44 @@
+model 'Claude Opus 5'
+  has id
+    'claude-opus-5'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'claude-opus'
+  status
+    active
+  released at
+    2026-07-24
+  last updated at
+    2026-07-24
+  has knowledge cutoff at
+    2026-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      5.71428571
+    output
+      28.57142857
+    cacheRead
+      2.28571429
+    cacheWrite
+      5.71428571

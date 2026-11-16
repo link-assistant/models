@@ -1,0 +1,44 @@
+model 'MiniMax-M3'
+  has id
+    'minimax/minimax-m3'
+  provider id
+    'standardcompute'
+  provided by
+    'Standard Compute'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '850 000'
+    output
+      '50 000'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

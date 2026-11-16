@@ -1,0 +1,40 @@
+model 'Green L'
+  has id
+    'green-l'
+  provider id
+    'greenpt'
+  provided by
+    'GreenPT'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-06-20
+  last updated at
+    2025-06-20
+  has knowledge cutoff at
+    2025-03
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '32 768'
+  costs
+    input
+      0.285
+    output
+      0.912

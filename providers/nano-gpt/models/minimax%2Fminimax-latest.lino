@@ -5,6 +5,8 @@ model 'MiniMax Latest'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'minimax'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'MiniMax Latest'
   last updated at
     2026-05-03
   weights
-    closed
+    open
   capabilities
     (
       reasoning

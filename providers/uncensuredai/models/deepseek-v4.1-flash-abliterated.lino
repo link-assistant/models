@@ -1,0 +1,42 @@
+model 'DeepSeek V4.1 Flash Abliterated'
+  has id
+    'deepseek-v4.1-flash-abliterated'
+  provider id
+    'uncensuredai'
+  provided by
+    'UncensuredAI'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.27
+    output
+      0.95
+    cacheRead
+      0.06

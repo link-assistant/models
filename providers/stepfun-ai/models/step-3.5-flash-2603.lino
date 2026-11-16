@@ -5,6 +5,8 @@ model 'Step 3.5 Flash 2603'
     'stepfun-ai'
   provided by
     'StepFun (Global)'
+  family
+    'step'
   status
     active
   released at
@@ -20,6 +22,7 @@ model 'Step 3.5 Flash 2603'
       reasoning
       tool calls
       temperature
+      structured output
       interleaved output
     )
   modalities

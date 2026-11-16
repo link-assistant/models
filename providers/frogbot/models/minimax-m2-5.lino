@@ -8,20 +8,19 @@ model 'MiniMax-M2.5'
   family
     'minimax'
   status
-    active
+    deprecated
   released at
-    2025-01-15
+    2026-02-12
   last updated at
-    2025-02-22
+    2026-02-12
   has knowledge cutoff at
     2024-09
   weights
-    closed
+    open
   capabilities
     (
       tool calls
       temperature
-      attachments
     )
   modalities
     input

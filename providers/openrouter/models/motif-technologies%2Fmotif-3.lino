@@ -1,0 +1,41 @@
+model 'Motif 3'
+  has id
+    'motif-technologies/motif-3'
+  provider id
+    'openrouter'
+  provided by
+    'OpenRouter'
+  family
+    'motif'
+  status
+    active
+  released at
+    2026-11-02
+  last updated at
+    2026-11-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '235 929'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

@@ -1,0 +1,40 @@
+model 'HUMAIN M3 Research Preview'
+  has id
+    'humain-m3-research-preview'
+  provider id
+    'humain'
+  provided by
+    'HUMAIN'
+  family
+    'minimax'
+  status
+    beta
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '16 384'
+  costs
+    input
+      0.3
+    output
+      1.2

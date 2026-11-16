@@ -25,7 +25,7 @@ model 'Nano Banana Pro'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text image
   limits
@@ -37,4 +37,6 @@ model 'Nano Banana Pro'
     input
       2
     output
-      120
+      12
+    cacheRead
+      0.2

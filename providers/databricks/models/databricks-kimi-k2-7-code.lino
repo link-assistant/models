@@ -8,7 +8,7 @@ model 'Kimi K2.7 Code'
   family
     'kimi-k2'
   status
-    active
+    deprecated
   released at
     2026-06-12
   last updated at

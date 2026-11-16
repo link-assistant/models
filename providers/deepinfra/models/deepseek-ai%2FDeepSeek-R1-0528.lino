@@ -5,6 +5,8 @@ model 'DeepSeek-R1-0528'
     'deepinfra'
   provided by
     'Deep Infra'
+  family
+    'deepseek-thinking'
   status
     active
   released at
@@ -14,7 +16,7 @@ model 'DeepSeek-R1-0528'
   has knowledge cutoff at
     2024-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning

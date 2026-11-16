@@ -8,7 +8,7 @@ model 'Grok 4.1 Fast (Non-Reasoning)'
   family
     'grok'
   status
-    active
+    deprecated
   released at
     2025-11-19
   last updated at

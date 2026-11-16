@@ -1,0 +1,41 @@
+model 'Nemotron 3.5 Super VL 120B A12B'
+  has id
+    'nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16'
+  provider id
+    'thinkingmachines'
+  provided by
+    'Thinking Machines'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-10-15
+  last updated at
+    2026-10-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      '65 536'
+  costs
+    input
+      0.57
+    output
+      1.44
+    cacheRead
+      0.114

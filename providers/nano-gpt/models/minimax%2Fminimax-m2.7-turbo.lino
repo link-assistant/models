@@ -5,6 +5,8 @@ model 'MiniMax M2.7 Turbo'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'minimax-m2.7'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'MiniMax M2.7 Turbo'
   last updated at
     2026-03-18
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -36,3 +38,5 @@ model 'MiniMax M2.7 Turbo'
       0.6
     output
       2.4
+    cacheRead
+      0.3

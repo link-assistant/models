@@ -17,11 +17,11 @@ model 'Kling v3.0 Image-to-Video'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       video
   limits

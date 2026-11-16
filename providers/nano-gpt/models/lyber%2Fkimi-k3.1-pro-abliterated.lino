@@ -1,0 +1,42 @@
+model 'Kimi K3.1 Pro Abliterated (Lyber)'
+  has id
+    'lyber/kimi-k3.1-pro-abliterated'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'kimi-k3'
+  status
+    active
+  released at
+    2026-11-16
+  last updated at
+    2026-11-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      4
+    output
+      15
+    cacheRead
+      0.4

@@ -1,0 +1,46 @@
+model 'Claude Sonnet 4.6'
+  has id
+    'claude-sonnet-4-6'
+  provider id
+    'xpersona'
+  provided by
+    'Xpersona'
+  family
+    'claude-sonnet'
+  status
+    active
+  released at
+    2026-02-17
+  last updated at
+    2026-03-13
+  has knowledge cutoff at
+    2025-08-31
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '128 000'
+  costs
+    input
+      0.9
+    output
+      5.55
+    cacheRead
+      0.09
+    reasoning
+      5.55

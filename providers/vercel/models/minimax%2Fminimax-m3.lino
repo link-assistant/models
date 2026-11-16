@@ -6,11 +6,11 @@ model 'MiniMax M3'
   provided by
     'Vercel AI Gateway'
   family
-    'minimax-m3'
+    'minimax'
   status
     active
   released at
-    2026-05-31
+    2026-06-01
   last updated at
     2026-06-01
   weights

@@ -8,11 +8,13 @@ model 'Gemini-2.5-Pro'
   family
     'gemini-pro'
   status
-    active
+    deprecated
   released at
-    2025-02-05
+    2025-06-17
   last updated at
-    2025-02-05
+    2025-06-17
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities

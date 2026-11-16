@@ -1,0 +1,40 @@
+model 'Fugu Ultra'
+  has id
+    'fugu-ultra'
+  provider id
+    'requesty'
+  provided by
+    'Requesty'
+  family
+    'fugu'
+  status
+    active
+  released at
+    2026-06-15
+  last updated at
+    2026-06-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      5
+    output
+      30
+    cacheRead
+      0.5

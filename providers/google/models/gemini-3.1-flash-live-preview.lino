@@ -1,0 +1,45 @@
+model 'Gemini 3.1 Flash Live Preview'
+  has id
+    'gemini-3.1-flash-live-preview'
+  provider id
+    'google'
+  provided by
+    'Google'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2026-03-26
+  last updated at
+    2026-03-26
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video audio
+    output
+      text audio
+  limits
+    context
+      '131 072'
+    output
+      '65 536'
+  costs
+    input
+      0.75
+    output
+      4.5
+    inputAudio
+      3
+    outputAudio
+      12

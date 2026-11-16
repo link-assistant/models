@@ -1,0 +1,40 @@
+model 'MiniMax-M2.5'
+  has id
+    'MiniMaxAI/MiniMax-M2.5'
+  provider id
+    'commandcode'
+  provided by
+    'CommandCode'
+  family
+    'minimax'
+  status
+    active
+  released at
+    2026-02-12
+  last updated at
+    2026-02-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.03

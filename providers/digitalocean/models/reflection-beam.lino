@@ -1,0 +1,40 @@
+model 'Beam'
+  has id
+    'reflection-beam'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'beam'
+  status
+    active
+  released at
+    2026-10-21
+  last updated at
+    2026-10-21
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.4
+    output
+      1.2
+    cacheRead
+      0.04

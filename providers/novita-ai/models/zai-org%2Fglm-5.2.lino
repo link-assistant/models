@@ -4,7 +4,7 @@ model 'GLM-5.2'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
     'glm'
   status

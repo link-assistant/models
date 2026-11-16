@@ -1,0 +1,38 @@
+model 'Granite-4.0-H-Small'
+  has id
+    'ibm/granite-4-h-small'
+  provider id
+    'watsonx'
+  provided by
+    'watsonx.ai'
+  family
+    'granite'
+  status
+    active
+  released at
+    2025-10-02
+  last updated at
+    2025-10-02
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '131 072'
+  costs
+    input
+      0.0636
+    output
+      0.265

@@ -8,7 +8,7 @@ model 'Tencent HY 2.0 Instruct'
   family
     'hunyuan'
   status
-    active
+    deprecated
   released at
     2026-03-08
   last updated at

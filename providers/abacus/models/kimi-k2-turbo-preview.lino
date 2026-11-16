@@ -8,7 +8,7 @@ model 'Kimi K2 Turbo Preview'
   family
     'kimi-k2'
   status
-    active
+    deprecated
   released at
     2025-07-08
   last updated at

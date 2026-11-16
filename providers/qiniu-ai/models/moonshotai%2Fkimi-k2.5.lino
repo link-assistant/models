@@ -5,19 +5,25 @@ model 'Moonshotai/Kimi-K2.5'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'kimi-k2'
   status
-    active
+    deprecated
   released at
-    2026-01-28
+    2026-01-27
   last updated at
-    2026-01-28
+    2026-01-27
+  has knowledge cutoff at
+    2025-01
   weights
-    closed
+    open
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -29,3 +35,8 @@ model 'Moonshotai/Kimi-K2.5'
       '256 000'
     output
       '256 000'
+  costs
+    input
+      0.57971014
+    output
+      3.04347826

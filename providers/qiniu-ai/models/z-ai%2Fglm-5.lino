@@ -5,6 +5,8 @@ model 'Z-Ai/GLM 5'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'glm'
   status
     active
   released at
@@ -12,12 +14,13 @@ model 'Z-Ai/GLM 5'
   last updated at
     2026-02-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -29,3 +32,8 @@ model 'Z-Ai/GLM 5'
       '200 000'
     output
       '128 000'
+  costs
+    input
+      0.57971014
+    output
+      2.60869565

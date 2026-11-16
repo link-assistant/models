@@ -1,0 +1,42 @@
+model 'Nemotron 3.5 Lightning 30B A3B (free)'
+  has id
+    'nemotron-3.5-lightning-free'
+  provider id
+    'aihubmix'
+  provided by
+    'AIHubMix'
+  family
+    'nemotron'
+  status
+    active
+  released at
+    2026-08-11
+  last updated at
+    2026-08-11
+  has knowledge cutoff at
+    2025-09
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '262 144'
+  costs
+    input
+      0
+    output
+      0

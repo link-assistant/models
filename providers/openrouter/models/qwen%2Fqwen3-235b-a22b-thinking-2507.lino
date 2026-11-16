@@ -1,4 +1,4 @@
-model 'Qwen3 235B A22B Thinking 2507'
+model 'Qwen3 235B-A22B Thinking 2507'
   has id
     'qwen/qwen3-235b-a22b-thinking-2507'
   provider id
@@ -13,8 +13,6 @@ model 'Qwen3 235B A22B Thinking 2507'
     2025-07-25
   last updated at
     2025-07-25
-  has knowledge cutoff at
-    2025-06-30
   weights
     open
   capabilities
@@ -30,11 +28,11 @@ model 'Qwen3 235B A22B Thinking 2507'
       text
   limits
     context
-      '262 144'
+      '128 000'
     output
-      '262 144'
+      '16 384'
   costs
     input
-      0.1495
+      0.45
     output
-      1.495
+      3.5

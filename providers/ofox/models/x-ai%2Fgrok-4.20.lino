@@ -1,0 +1,42 @@
+model 'Grok 4.20 (Reasoning)'
+  has id
+    'x-ai/grok-4.20'
+  provider id
+    'ofox'
+  provided by
+    'Ofox'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-03-09
+  last updated at
+    2026-03-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '128 000'
+  costs
+    input
+      4
+    output
+      12
+    cacheRead
+      0.4

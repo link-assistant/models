@@ -22,7 +22,6 @@ model 'DeepSeek Reasoner'
       reasoning
       tool calls
       temperature
-      attachments
       interleaved output
     )
   modalities

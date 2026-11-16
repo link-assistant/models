@@ -1,0 +1,44 @@
+model 'Flint 40B Free'
+  has id
+    'flint-40b-free'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode'
+  family
+    'flint'
+  status
+    active
+  released at
+    2026-10-21
+  last updated at
+    2026-10-21
+  has knowledge cutoff at
+    2026-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0

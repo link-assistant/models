@@ -6,7 +6,7 @@ model 'GPT-5.1 Chat'
   provided by
     'OrcaRouter'
   family
-    'gpt-codex'
+    'gpt'
   status
     active
   released at
