@@ -6,13 +6,13 @@ model 'MiniMax M1'
   provided by
     'Jiekou.AI'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
-    2026-01
+    2025-06-17
   last updated at
-    2026-01
+    2025-06-17
   weights
     open
   capabilities

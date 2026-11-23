@@ -6,9 +6,9 @@ model 'Qwen3-Omni Flash Realtime'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwen-omni-realtime-flash'
   status
-    active
+    deprecated
   released at
     2025-09-15
   last updated at
@@ -21,6 +21,7 @@ model 'Qwen3-Omni Flash Realtime'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

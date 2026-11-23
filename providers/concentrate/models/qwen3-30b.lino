@@ -1,0 +1,40 @@
+model 'Qwen3 30B A3B'
+  has id
+    'qwen3-30b'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'qwen'
+  status
+    active
+  released at
+    2025-04-28
+  last updated at
+    2025-04-28
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '40 960'
+    output
+      '16 384'
+  costs
+    input
+      0.12
+    output
+      0.5

@@ -6,15 +6,15 @@ model 'DeepSeek V3.1 Terminus (Thinking)'
   provided by
     'NanoGPT'
   family
-    'deepseek-thinking'
+    'deepseek'
   status
     active
   released at
-    2025-09-22
+    2024-01-01
   last updated at
     2025-09-22
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -34,6 +34,8 @@ model 'DeepSeek V3.1 Terminus (Thinking)'
       '65 536'
   costs
     input
-      0.25
+      0.34
     output
-      0.7
+      1.24
+    cacheRead
+      0.32

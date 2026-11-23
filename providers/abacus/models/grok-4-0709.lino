@@ -8,7 +8,7 @@ model 'Grok 4'
   family
     'grok'
   status
-    active
+    deprecated
   released at
     2025-07-09
   last updated at

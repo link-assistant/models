@@ -6,9 +6,9 @@ model 'MiMo-V2.5-Pro-UltraSpeed'
   provided by
     'Xiaomi'
   family
-    'mimo'
+    'mimo-pro'
   status
-    beta
+    deprecated
   released at
     2026-06-08
   last updated at

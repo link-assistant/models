@@ -6,7 +6,7 @@ model 'GLM-5-Turbo'
   provided by
     'CrossModel'
   family
-    'glm'
+    'glm-turbo'
   status
     active
   released at

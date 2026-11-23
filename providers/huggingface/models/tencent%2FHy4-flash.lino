@@ -1,0 +1,42 @@
+model 'Hy4 flash'
+  has id
+    'tencent/Hy4-flash'
+  provider id
+    'huggingface'
+  provided by
+    'Hugging Face'
+  family
+    'hy-flash'
+  status
+    active
+  released at
+    2026-11-16
+  last updated at
+    2026-11-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '983 040'
+    output
+      '65 536'
+  costs
+    input
+      0.035
+    output
+      0.1405

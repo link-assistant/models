@@ -1,0 +1,41 @@
+model 'GPT-6.2 Astra'
+  has id
+    'openai/gpt-6.2-astra'
+  provider id
+    'prime'
+  provided by
+    'Prime Inference'
+  family
+    'gpt-astra'
+  status
+    active
+  released at
+    2026-11-17
+  last updated at
+    2026-11-17
+  has knowledge cutoff at
+    2026-05-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      image text
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '128 000'
+  costs
+    input
+      8
+    output
+      40

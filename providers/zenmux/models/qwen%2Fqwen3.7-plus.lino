@@ -6,7 +6,7 @@ model 'Qwen3.7 Plus'
   provided by
     'ZenMux'
   family
-    'qwen'
+    'qwen-plus'
   status
     active
   released at
@@ -22,10 +22,11 @@ model 'Qwen3.7 Plus'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits

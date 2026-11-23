@@ -1,0 +1,41 @@
+model 'Muse Spark 1.3'
+  has id
+    'muse-spark-1-3'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'muse-spark'
+  status
+    active
+  released at
+    2026-09-02
+  last updated at
+    2026-09-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      image pdf text video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 072'
+  costs
+    input
+      1.14
+    output
+      4.57
+    cacheRead
+      0.1143

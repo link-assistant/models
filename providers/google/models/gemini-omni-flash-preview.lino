@@ -6,7 +6,7 @@ model 'Gemini Omni Flash Preview'
   provided by
     'Google'
   family
-    'gemini'
+    'gemini-omni-flash'
   status
     active
   released at

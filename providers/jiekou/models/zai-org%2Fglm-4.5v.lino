@@ -10,9 +10,11 @@ model 'GLM 4.5V'
   status
     active
   released at
-    2026-01
+    2025-08-11
   last updated at
-    2026-01
+    2025-08-11
+  has knowledge cutoff at
+    2025-04
   weights
     open
   capabilities

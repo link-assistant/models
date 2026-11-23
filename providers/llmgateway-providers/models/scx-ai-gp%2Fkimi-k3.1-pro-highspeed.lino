@@ -1,0 +1,42 @@
+model 'Kimi K3.1 Pro Highspeed (scx-ai-gp)'
+  has id
+    'scx-ai-gp/kimi-k3.1-pro-highspeed'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'kimi-pro'
+  status
+    active
+  released at
+    2026-10-23
+  last updated at
+    2026-10-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '1 000 000'
+  costs
+    input
+      3.8
+    output
+      19
+    cacheRead
+      0.19

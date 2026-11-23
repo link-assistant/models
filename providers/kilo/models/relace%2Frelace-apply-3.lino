@@ -5,12 +5,14 @@ model 'Relace: Relace Apply 3'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'relace-apply'
   status
     active
   released at
     2025-09-26
   last updated at
-    2026-03-15
+    2025-09-26
   weights
     closed
   modalities

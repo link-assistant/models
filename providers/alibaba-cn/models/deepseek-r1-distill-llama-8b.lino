@@ -6,9 +6,9 @@ model 'DeepSeek R1 Distill Llama 8B'
   provided by
     'Alibaba (China)'
   family
-    'deepseek-thinking'
+    'deepseek-r'
   status
-    active
+    deprecated
   released at
     2025-01-01
   last updated at

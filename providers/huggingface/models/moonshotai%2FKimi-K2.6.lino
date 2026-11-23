@@ -6,7 +6,7 @@ model 'Kimi-K2.6'
   provided by
     'Hugging Face'
   family
-    'kimi-k2'
+    'kimi'
   status
     active
   released at

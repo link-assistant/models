@@ -6,13 +6,13 @@ model 'MiMo-V2.5-Pro'
   provided by
     'Xiaomi'
   family
-    'mimo'
+    'mimo-pro'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at
-    2026-06-24
+    2026-04-22
   has knowledge cutoff at
     2024-12
   weights

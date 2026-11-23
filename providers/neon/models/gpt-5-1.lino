@@ -21,6 +21,7 @@ model 'GPT-5.1'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
@@ -28,7 +29,7 @@ model 'GPT-5.1'
     input
       text image
     output
-      text image
+      text
   limits
     context
       '400 000'

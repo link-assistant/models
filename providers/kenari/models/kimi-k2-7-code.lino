@@ -6,7 +6,7 @@ model 'Kimi K2.7 Code'
   provided by
     'Kenari'
   family
-    'kimi-k2'
+    'kimi-code'
   status
     active
   released at
@@ -36,6 +36,8 @@ model 'Kimi K2.7 Code'
       '262 144'
   costs
     input
-      0
+      0.57142857
     output
-      0
+      2.85714286
+    cacheRead
+      0.11428571

@@ -6,7 +6,7 @@ model 'Gemini 2.5 Pro TTS'
   provided by
     'Vertex'
   family
-    'gemini-pro'
+    'gemini-tts-pro'
   status
     active
   released at
@@ -25,6 +25,8 @@ model 'Gemini 2.5 Pro TTS'
   limits
     context
       '32 768'
+    input
+      8192
     output
       '16 384'
   costs

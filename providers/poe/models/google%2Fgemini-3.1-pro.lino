@@ -5,19 +5,25 @@ model 'Gemini-3.1-Pro'
     'poe'
   provided by
     'Poe'
+  family
+    'gemini-pro'
   status
     active
   released at
     2026-02-19
   last updated at
     2026-02-19
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -31,8 +37,8 @@ model 'Gemini-3.1-Pro'
       '65 536'
   costs
     input
-      2
+      2.0202
     output
-      12
+      12.1212
     cacheRead
-      0.2
+      0.202

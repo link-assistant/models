@@ -14,7 +14,7 @@ model 'GPT OSS 120B'
   last updated at
     2025-08-05
   has knowledge cutoff at
-    2025-08
+    2024-06
   weights
     open
   capabilities
@@ -22,6 +22,7 @@ model 'GPT OSS 120B'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

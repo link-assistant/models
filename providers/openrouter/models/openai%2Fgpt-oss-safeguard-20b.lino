@@ -1,4 +1,4 @@
-model 'gpt-oss-safeguard-20b'
+model 'GPT OSS Safeguard 20B'
   has id
     'openai/gpt-oss-safeguard-20b'
   provider id
@@ -6,7 +6,7 @@ model 'gpt-oss-safeguard-20b'
   provided by
     'OpenRouter'
   family
-    'gpt-oss'
+    'gpt-oss-safeguard'
   status
     active
   released at

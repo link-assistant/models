@@ -8,15 +8,18 @@ model 'gemini-3-pro-preview'
   family
     'gemini-pro'
   status
-    active
+    deprecated
   released at
-    2026-01
+    2025-11-18
   last updated at
-    2026-01
+    2025-11-18
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
       temperature
       attachments

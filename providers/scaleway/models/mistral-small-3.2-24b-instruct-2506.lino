@@ -12,7 +12,7 @@ model 'Mistral Small 3.2 24B Instruct (2506)'
   released at
     2025-06-20
   last updated at
-    2026-03-17
+    2025-06-20
   has knowledge cutoff at
     2025-03
   weights
@@ -21,6 +21,7 @@ model 'Mistral Small 3.2 24B Instruct (2506)'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -34,6 +35,6 @@ model 'Mistral Small 3.2 24B Instruct (2506)'
       '32 768'
   costs
     input
-      0.15
+      0.168225
     output
-      0.35
+      0.392525

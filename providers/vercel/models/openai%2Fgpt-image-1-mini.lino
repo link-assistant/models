@@ -6,7 +6,7 @@ model 'GPT Image 1 Mini'
   provided by
     'Vercel AI Gateway'
   family
-    'gpt-image'
+    'gpt-image-mini'
   status
     active
   released at
@@ -17,11 +17,11 @@ model 'GPT Image 1 Mini'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       image
   limits
@@ -29,10 +29,3 @@ model 'GPT Image 1 Mini'
       0
     output
       0
-  costs
-    input
-      2
-    output
-      8
-    cacheRead
-      0.2

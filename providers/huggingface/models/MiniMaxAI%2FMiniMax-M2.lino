@@ -6,7 +6,7 @@ model 'MiniMax-M2'
   provided by
     'Hugging Face'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
@@ -30,7 +30,7 @@ model 'MiniMax-M2'
     context
       '204 800'
     output
-      '128 000'
+      '131 072'
   costs
     input
       0.3

@@ -1,0 +1,44 @@
+model 'GLM-5.3 (Global)'
+  has id
+    'global.zai.glm-5.3'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '128 000'
+  costs
+    input
+      1.68
+    output
+      5.28
+    cacheRead
+      0.312
+    cacheWrite
+      2.1

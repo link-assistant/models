@@ -6,9 +6,9 @@ model 'Kimi K2 Turbo Preview'
   provided by
     'Abacus'
   family
-    'kimi-k2'
+    'kimi'
   status
-    active
+    deprecated
   released at
     2025-07-08
   last updated at

@@ -6,9 +6,9 @@ model 'Qwen3 Max'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwen-max'
   status
-    active
+    deprecated
   released at
     2025-09-23
   last updated at

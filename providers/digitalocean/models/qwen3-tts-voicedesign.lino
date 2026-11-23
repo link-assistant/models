@@ -6,7 +6,7 @@ model 'Qwen3 TTS VoiceDesign'
   provided by
     'DigitalOcean'
   family
-    'qwen'
+    'qwen-tts'
   status
     active
   released at

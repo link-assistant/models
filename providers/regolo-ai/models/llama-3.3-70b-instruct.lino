@@ -8,13 +8,15 @@ model 'Llama 3.3 70B Instruct'
   family
     'llama'
   status
-    active
+    deprecated
   released at
-    2025-04-28
+    2024-12-06
   last updated at
-    2025-04-28
+    2024-12-06
+  has knowledge cutoff at
+    2023-12
   weights
-    closed
+    open
   capabilities
     (
       tool calls

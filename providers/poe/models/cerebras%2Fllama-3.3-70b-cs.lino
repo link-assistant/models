@@ -5,18 +5,18 @@ model 'llama-3.3-70b-cs'
     'poe'
   provided by
     'Poe'
+  family
+    'llama'
   status
     deprecated
   released at
-    2025-05-13
+    2024-12-06
   last updated at
-    2025-05-13
+    2024-12-06
+  has knowledge cutoff at
+    2023-12
   weights
-    closed
-  capabilities
-    (
-      attachments
-    )
+    open
   modalities
     input
       text

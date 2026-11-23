@@ -6,11 +6,11 @@ model 'Gemini 3.1 Pro Preview'
   provided by
     'Vercel AI Gateway'
   family
-    'gemini'
+    'gemini-pro'
   status
     active
   released at
-    2025-11-18
+    2026-02-19
   last updated at
     2026-02-19
   has knowledge cutoff at

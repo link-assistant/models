@@ -6,7 +6,7 @@ model 'Meta Llama Guard 4 12B'
   provided by
     'Helicone'
   family
-    'llama'
+    'llama-guard'
   status
     active
   released at
@@ -20,6 +20,7 @@ model 'Meta Llama Guard 4 12B'
   capabilities
     (
       temperature
+      attachments
     )
   modalities
     input

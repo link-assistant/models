@@ -1,0 +1,43 @@
+model 'Kolibri 1'
+  has id
+    'kolibri-1-tl5'
+  provider id
+    'aki-io'
+  provided by
+    'AKI.IO'
+  family
+    'kolibri'
+  status
+    active
+  released at
+    2026-10-03
+  last updated at
+    2026-10-03
+  has knowledge cutoff at
+    2026-06-18
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '81 920'
+  costs
+    input
+      0.167475
+    output
+      0.614075
+    cacheRead
+      0.0837375

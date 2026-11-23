@@ -1,0 +1,43 @@
+model 'Qwen3-Coder 480B-A35B Instruct'
+  has id
+    'qwen3-coder-480b-a35b'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'qwen-coder'
+  status
+    active
+  released at
+    2025-07-22
+  last updated at
+    2025-07-22
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.3
+    output
+      1
+    cacheRead
+      0.1

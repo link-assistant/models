@@ -6,9 +6,9 @@ model 'Devstral Small 2505'
   provided by
     'IO.NET'
   family
-    'devstral'
+    'devstral-small'
   status
-    active
+    deprecated
   released at
     2025-05-01
   last updated at

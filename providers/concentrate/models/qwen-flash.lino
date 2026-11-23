@@ -1,0 +1,44 @@
+model 'Qwen Flash'
+  has id
+    'qwen-flash'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'qwen-flash'
+  status
+    active
+  released at
+    2025-07-28
+  last updated at
+    2025-07-28
+  has knowledge cutoff at
+    2024-04
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      0.022
+    output
+      0.216
+    cacheRead
+      0.005

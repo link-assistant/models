@@ -1,0 +1,39 @@
+model 'MinerU2.5 2509 1.2B'
+  has id
+    'opendatalab/MinerU2.5-2509-1.2B'
+  provider id
+    'stepping-stone'
+  provided by
+    'stepping stone AG'
+  family
+    'mineru'
+  status
+    active
+  released at
+    2025-09-17
+  last updated at
+    2025-09-17
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '16 384'
+    output
+      '16 384'
+  costs
+    input
+      0.0238
+    output
+      0.0714
+    cacheRead
+      0.0036

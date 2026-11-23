@@ -6,7 +6,7 @@ model 'MiniMax M3 Preview'
   provided by
     'Venice AI'
   family
-    'minimax-m3'
+    'minimax-m'
   status
     active
   released at
@@ -30,7 +30,7 @@ model 'MiniMax M3 Preview'
     context
       '524 288'
     output
-      '65 536'
+      '131 072'
   costs
     input
       0.3

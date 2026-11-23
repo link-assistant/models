@@ -5,6 +5,8 @@ model 'Relace Apply 3'
     'openrouter'
   provided by
     'OpenRouter'
+  family
+    'relace-apply'
   status
     active
   released at

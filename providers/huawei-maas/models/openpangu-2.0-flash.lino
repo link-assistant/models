@@ -1,0 +1,43 @@
+model 'openPangu 2.0 Flash'
+  has id
+    'openpangu-2.0-flash'
+  provider id
+    'huawei-maas'
+  provided by
+    'Huawei Cloud MAAS'
+  family
+    'pangu-flash'
+  status
+    active
+  released at
+    2026-06-30
+  last updated at
+    2026-06-30
+  has knowledge cutoff at
+    2026-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '131 072'
+  costs
+    input
+      0.11994
+    output
+      0.23988
+    cacheRead
+      0.02999

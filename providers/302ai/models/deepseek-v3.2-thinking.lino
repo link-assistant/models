@@ -5,6 +5,8 @@ model 'DeepSeek-V3.2-Thinking'
     '302ai'
   provided by
     '302.AI'
+  family
+    'deepseek'
   status
     active
   released at
@@ -14,7 +16,7 @@ model 'DeepSeek-V3.2-Thinking'
   has knowledge cutoff at
     2024-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning

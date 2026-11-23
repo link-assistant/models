@@ -5,12 +5,14 @@ model 'Relace: Relace Search'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'relace-search'
   status
     active
   released at
-    2025-12-09
+    2025-12-08
   last updated at
-    2026-03-15
+    2025-12-08
   weights
     closed
   capabilities

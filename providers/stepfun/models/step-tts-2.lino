@@ -6,7 +6,7 @@ model 'Step TTS 2'
   provided by
     'StepFun (China)'
   family
-    'step'
+    'step-tts'
   status
     active
   released at

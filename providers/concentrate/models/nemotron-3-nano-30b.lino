@@ -1,0 +1,44 @@
+model 'Nemotron 3 Nano 30B A3B'
+  has id
+    'nemotron-3-nano-30b'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'nemotron-nano'
+  status
+    active
+  released at
+    2025-12-15
+  last updated at
+    2025-12-15
+  has knowledge cutoff at
+    2025-06-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '228 000'
+  costs
+    input
+      0.05
+    output
+      0.2
+    cacheRead
+      0.03

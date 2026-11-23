@@ -6,13 +6,13 @@ model 'Granite 4.0 H Micro'
   provided by
     'Cloudflare Workers AI'
   family
-    'granite'
+    'granite-micro'
   status
     active
   released at
-    2025-10-07
+    2025-10-02
   last updated at
-    2025-10-07
+    2025-10-02
   weights
     open
   capabilities

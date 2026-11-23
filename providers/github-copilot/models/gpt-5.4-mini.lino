@@ -8,7 +8,7 @@ model 'GPT-5.4 mini'
   family
     'gpt-mini'
   status
-    active
+    deprecated
   released at
     2026-03-17
   last updated at
@@ -21,6 +21,7 @@ model 'GPT-5.4 mini'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )

@@ -6,7 +6,7 @@ model 'Uncensored'
   provided by
     'OpenRouter'
   family
-    'mistral'
+    'dolphin'
   status
     active
   released at

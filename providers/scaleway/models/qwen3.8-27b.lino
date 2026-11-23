@@ -1,0 +1,44 @@
+model 'Qwen3.8 27B'
+  has id
+    'qwen3.8-27b'
+  provider id
+    'scaleway'
+  provided by
+    'Scaleway'
+  family
+    'qwen'
+  status
+    beta
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.684
+    output
+      3.762
+    cacheRead
+      0.137
+    reasoning
+      3.762

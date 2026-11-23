@@ -4,9 +4,9 @@ model 'DeepSeek V4 Pro'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
-    'deepseek-thinking'
+    'deepseek-pro'
   status
     active
   released at

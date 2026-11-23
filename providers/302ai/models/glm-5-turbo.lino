@@ -6,7 +6,7 @@ model 'glm-5-turbo'
   provided by
     '302.AI'
   family
-    'glm'
+    'glm-turbo'
   status
     active
   released at

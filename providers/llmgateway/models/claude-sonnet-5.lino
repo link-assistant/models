@@ -4,7 +4,7 @@ model 'Claude Sonnet 5'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
     'claude-sonnet'
   status
@@ -20,7 +20,6 @@ model 'Claude Sonnet 5'
   capabilities
     (
       reasoning
-      temperature
       attachments
       structured output
     )

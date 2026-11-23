@@ -8,7 +8,7 @@ model 'Claude Fable 5'
   family
     'claude-fable'
   status
-    active
+    beta
   released at
     2026-06-09
   last updated at
@@ -22,10 +22,11 @@ model 'Claude Fable 5'
       reasoning
       tool calls
       attachments
+      structured output
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
@@ -33,3 +34,12 @@ model 'Claude Fable 5'
       '1 000 000'
     output
       '128 000'
+  costs
+    input
+      10
+    output
+      50
+    cacheRead
+      1
+    cacheWrite
+      12.5

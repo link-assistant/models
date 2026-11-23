@@ -1,0 +1,39 @@
+model 'KT: Mi:dm K 3.0 Pro'
+  has id
+    'kt/midm-k-3.0-pro'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-11-05
+  last updated at
+    2026-11-05
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '261 795'
+    output
+      '235 615'
+  costs
+    input
+      0.2
+    output
+      0.8
+    cacheRead
+      0.04

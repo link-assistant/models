@@ -5,6 +5,8 @@ model 'Relace Search'
     'openrouter'
   provided by
     'OpenRouter'
+  family
+    'relace-search'
   status
     active
   released at

@@ -6,15 +6,15 @@ model 'DeepSeek R1 Llama 70B Abliterated'
   provided by
     'NanoGPT'
   family
-    'deepseek'
+    'deepseek-r'
   status
     active
   released at
-    2025-01-20
+    2024-01-01
   last updated at
     2025-01-20
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -36,3 +36,5 @@ model 'DeepSeek R1 Llama 70B Abliterated'
       0.7
     output
       0.7
+    cacheRead
+      0.35

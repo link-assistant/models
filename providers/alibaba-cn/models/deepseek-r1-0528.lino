@@ -6,9 +6,9 @@ model 'DeepSeek R1 0528'
   provided by
     'Alibaba (China)'
   family
-    'deepseek-thinking'
+    'deepseek-r'
   status
-    active
+    deprecated
   released at
     2025-05-28
   last updated at

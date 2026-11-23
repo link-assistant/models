@@ -1,0 +1,41 @@
+model 'GLM-5.3-Flash'
+  has id
+    'glm-5.3-flash'
+  provider id
+    'uplinkswitch'
+  provided by
+    'UplinkSwitch'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.0873
+    output
+      0.1455
+    cacheRead
+      0.010864

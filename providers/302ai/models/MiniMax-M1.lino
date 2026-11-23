@@ -6,7 +6,7 @@ model 'MiniMax-M1'
   provided by
     '302.AI'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at

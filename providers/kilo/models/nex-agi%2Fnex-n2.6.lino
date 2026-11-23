@@ -1,0 +1,42 @@
+model 'Nex AGI: Nex-N2.6'
+  has id
+    'nex-agi/nex-n2.6'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'nex-n'
+  status
+    active
+  released at
+    2026-11-10
+  last updated at
+    2026-11-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '235 929'
+  costs
+    input
+      0.15
+    output
+      0.5
+    cacheRead
+      0.03

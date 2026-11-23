@@ -1,0 +1,40 @@
+model 'Grok 4 Fast Non-Reasoning'
+  has id
+    'x-ai/grok-4-fast-non-reasoning'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'grok'
+  status
+    active
+  released at
+    2025-12-18
+  last updated at
+    2025-12-18
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio video
+    output
+      text
+  limits
+    context
+      '2 000 000'
+    output
+      '1 999 000'
+  costs
+    input
+      1.25
+    output
+      2.5
+    cacheRead
+      0.2

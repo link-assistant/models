@@ -6,19 +6,18 @@ model 'ElevenLabs-v2.5-Turbo'
   provided by
     'Poe'
   family
-    'elevenlabs'
+    'elevenlabs-turbo'
   status
     active
   released at
-    2024-10-28
+    2024-07-19
   last updated at
-    2024-10-28
+    2024-07-19
   weights
     closed
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

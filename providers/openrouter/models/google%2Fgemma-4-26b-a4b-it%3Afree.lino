@@ -6,7 +6,7 @@ model 'Gemma 4 26B A4B  (free)'
   provided by
     'OpenRouter'
   family
-    'gemma'
+    'gemma-free'
   status
     active
   released at
@@ -21,7 +21,6 @@ model 'Gemma 4 26B A4B  (free)'
       tool calls
       temperature
       attachments
-      structured output
     )
   modalities
     input

@@ -6,7 +6,7 @@ model 'FLUX.2 [klein] 9B'
   provided by
     'Vercel AI Gateway'
   family
-    'flux'
+    'flux-klein'
   status
     active
   released at
@@ -17,11 +17,11 @@ model 'FLUX.2 [klein] 9B'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       image
   limits

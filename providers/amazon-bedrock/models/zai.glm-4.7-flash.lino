@@ -8,7 +8,7 @@ model 'GLM-4.7-Flash'
   family
     'glm-flash'
   status
-    active
+    deprecated
   released at
     2026-01-19
   last updated at
@@ -23,6 +23,7 @@ model 'GLM-4.7-Flash'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -31,7 +32,7 @@ model 'GLM-4.7-Flash'
       text
   limits
     context
-      '200 000'
+      '202 752'
     output
       '131 072'
   costs

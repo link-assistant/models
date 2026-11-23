@@ -1,0 +1,42 @@
+model 'Abliterated Model Large Flash'
+  has id
+    'abliterated-model-large-flash'
+  provider id
+    'abliteration-ai'
+  provided by
+    'abliteration.ai'
+  status
+    active
+  released at
+    2026-10-23
+  last updated at
+    2026-10-24
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '262 144'
+  costs
+    input
+      1
+    output
+      2
+    cacheRead
+      0.1

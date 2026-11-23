@@ -1,0 +1,33 @@
+model 'Auto (account strategy)'
+  has id
+    'auto'
+  provider id
+    'aistupidlevel'
+  provided by
+    'AI Stupid Level'
+  family
+    'auto'
+  status
+    active
+  released at
+    2025-10-09
+  last updated at
+    2025-10-09
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '64 000'

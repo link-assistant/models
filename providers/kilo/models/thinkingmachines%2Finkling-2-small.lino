@@ -1,0 +1,42 @@
+model 'Thinking Machines: Inkling 2 Small'
+  has id
+    'thinkingmachines/inkling-2-small'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'inkling-small'
+  status
+    active
+  released at
+    2026-11-05
+  last updated at
+    2026-11-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '943 718'
+  costs
+    input
+      0.15
+    output
+      0.5
+    cacheRead
+      0.03

@@ -31,7 +31,7 @@ model 'GLM 4.5 Flash'
       text
   limits
     context
-      '200 000'
+      '131 072'
     output
       '98 304'
   costs

@@ -6,7 +6,7 @@ model 'DeepSeek R1 Distill Llama 70B'
   provided by
     'Helicone'
   family
-    'deepseek-thinking'
+    'deepseek-r'
   status
     active
   released at

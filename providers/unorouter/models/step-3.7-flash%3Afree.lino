@@ -5,8 +5,10 @@ model 'Step 3.7 Flash'
     'unorouter'
   provided by
     'UnoRouter'
+  family
+    'step-flash-free'
   status
-    active
+    deprecated
   released at
     2026-05-29
   last updated at

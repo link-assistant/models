@@ -1,4 +1,4 @@
-model 'Nano Banana 2'
+model 'Nano Banana 2 Preview'
   has id
     'gemini-3.1-flash-image-preview'
   provider id
@@ -6,9 +6,9 @@ model 'Nano Banana 2'
   provided by
     'Abacus'
   family
-    'gemini-flash'
+    'nano-banana'
   status
-    active
+    deprecated
   released at
     2026-02-26
   last updated at

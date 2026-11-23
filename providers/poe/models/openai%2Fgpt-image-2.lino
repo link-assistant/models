@@ -5,6 +5,8 @@ model 'GPT-Image-2'
     'poe'
   provided by
     'Poe'
+  family
+    'gpt-image'
   status
     active
   released at
@@ -31,6 +33,6 @@ model 'GPT-Image-2'
     input
       5.0505
     output
-      32.3232
+      30.303
     cacheRead
       1.2626

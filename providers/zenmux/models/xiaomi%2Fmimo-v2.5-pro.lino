@@ -6,9 +6,9 @@ model 'MiMo-V2.5-Pro'
   provided by
     'ZenMux'
   family
-    'mimo'
+    'mimo-pro'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at

@@ -1,0 +1,42 @@
+model 'Gemini 2.5 Flash'
+  has id
+    'gemini-2.5-flash'
+  provider id
+    'modelis'
+  provided by
+    'Modelis'
+  family
+    'gemini-flash'
+  status
+    active
+  released at
+    2025-06-17
+  last updated at
+    2025-06-17
+  has knowledge cutoff at
+    2025-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image audio video pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.3
+    output
+      2.5

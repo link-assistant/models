@@ -6,7 +6,7 @@ model 'Wan v2.5 Text-to-Video Preview'
   provided by
     'Vercel AI Gateway'
   family
-    'o'
+    'wan'
   status
     active
   released at
@@ -17,11 +17,11 @@ model 'Wan v2.5 Text-to-Video Preview'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text audio
     output
       video
   limits

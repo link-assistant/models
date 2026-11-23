@@ -1,0 +1,41 @@
+model 'Hy4 flash (Free)'
+  has id
+    'hy4-flash:free'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'hy-flash-free'
+  status
+    active
+  released at
+    2026-11-16
+  last updated at
+    2026-11-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '983 040'
+    output
+      '65 536'
+  costs
+    input
+      0
+    output
+      0

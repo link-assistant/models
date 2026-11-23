@@ -1,0 +1,41 @@
+model 'Apertus v1.5 8B'
+  has id
+    'apertus-ai/Apertus-v1.5-8B'
+  provider id
+    'stepping-stone'
+  provided by
+    'stepping stone AG'
+  family
+    'apertus'
+  status
+    active
+  released at
+    2026-10-15
+  last updated at
+    2026-10-15
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image audio
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      8192
+  costs
+    input
+      0.0238
+    output
+      0.119
+    cacheRead
+      0.0036

@@ -4,9 +4,9 @@ model 'Kimi K2'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
-    'kimi-k2'
+    'kimi'
   status
     active
   released at

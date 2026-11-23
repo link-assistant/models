@@ -6,7 +6,7 @@ model 'Qwen3-Reranker-4B'
   provided by
     'Regolo AI'
   family
-    'qwen'
+    'qwen-reranker'
   status
     active
   released at

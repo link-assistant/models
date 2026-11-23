@@ -6,7 +6,7 @@ model 'Qwen3-VL Plus'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwen-vl-plus'
   status
     active
   released at
@@ -22,10 +22,12 @@ model 'Qwen3-VL Plus'
       reasoning
       tool calls
       temperature
+      attachments
+      structured output
     )
   modalities
     input
-      text image
+      text image video
     output
       text
   limits
@@ -38,5 +40,7 @@ model 'Qwen3-VL Plus'
       0.2
     output
       1.6
-    reasoning
-      4.8
+    cacheRead
+      0.04
+    cacheWrite
+      0.25

@@ -1,0 +1,42 @@
+model 'DeepSeek V4.1 Flash 1017 Abliterated CSF (jcartu)'
+  has id
+    'jcartu/deepseek-v4.1-flash-1017-abliterated-lossless-csf'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-11-18
+  last updated at
+    2026-11-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '943 718'
+  costs
+    input
+      0.315
+    output
+      1.05
+    cacheRead
+      0.021

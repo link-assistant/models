@@ -6,7 +6,7 @@ model 'Kimi K2 Thinking'
   provided by
     'OpenRouter'
   family
-    'kimi-thinking'
+    'kimi'
   status
     active
   released at
@@ -34,7 +34,7 @@ model 'Kimi K2 Thinking'
     context
       '262 144'
     output
-      '100 352'
+      '98 304'
   costs
     input
       0.6

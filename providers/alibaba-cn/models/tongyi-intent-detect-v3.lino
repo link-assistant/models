@@ -6,7 +6,7 @@ model 'Tongyi Intent Detect V3'
   provided by
     'Alibaba (China)'
   family
-    'yi'
+    'tongyi'
   status
     active
   released at

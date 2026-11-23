@@ -6,7 +6,7 @@ model 'MiniMax-M2.7'
   provided by
     'CrossModel'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
@@ -20,6 +20,7 @@ model 'MiniMax-M2.7'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input

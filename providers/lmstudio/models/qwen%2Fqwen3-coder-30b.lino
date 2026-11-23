@@ -6,13 +6,13 @@ model 'Qwen3 Coder 30B'
   provided by
     'LMStudio'
   family
-    'qwen'
+    'qwen-coder'
   status
     active
   released at
-    2025-07-23
+    2025-07-31
   last updated at
-    2025-07-23
+    2025-07-31
   has knowledge cutoff at
     2025-04
   weights

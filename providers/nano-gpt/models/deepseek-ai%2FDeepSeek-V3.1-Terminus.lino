@@ -14,7 +14,7 @@ model 'DeepSeek V3.1 Terminus'
   last updated at
     2025-08-02
   weights
-    closed
+    open
   capabilities
     (
       tool calls
@@ -34,6 +34,8 @@ model 'DeepSeek V3.1 Terminus'
       '65 536'
   costs
     input
-      0.25
+      0.34
     output
-      0.7
+      1.24
+    cacheRead
+      0.32

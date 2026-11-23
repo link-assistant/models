@@ -6,7 +6,7 @@ model 'Cohere Rerank 3.5'
   provided by
     'Vercel AI Gateway'
   family
-    'o'
+    'cohere-rerank'
   status
     active
   released at
@@ -15,10 +15,6 @@ model 'Cohere Rerank 3.5'
     2024-12-02
   weights
     closed
-  capabilities
-    (
-      temperature
-    )
   modalities
     input
       text
@@ -28,4 +24,4 @@ model 'Cohere Rerank 3.5'
     context
       4096
     output
-      4096
+      0

@@ -6,7 +6,7 @@ model 'Qwen3.5 Plus'
   provided by
     'Alibaba Coding Plan'
   family
-    'qwen'
+    'qwen-plus'
   status
     active
   released at
@@ -22,6 +22,7 @@ model 'Qwen3.5 Plus'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

@@ -8,7 +8,7 @@ model 'GPT-5.2'
   family
     'gpt'
   status
-    active
+    experimental
   released at
     2025-12-11
   last updated at
@@ -21,6 +21,7 @@ model 'GPT-5.2'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )

@@ -1,0 +1,44 @@
+model 'OpenAI GPT-6.2 Astra'
+  has id
+    'openai-gpt-6.2-astra'
+  provider id
+    'digitalocean'
+  provided by
+    'DigitalOcean'
+  family
+    'gpt-astra'
+  status
+    active
+  released at
+    2026-11-17
+  last updated at
+    2026-11-17
+  has knowledge cutoff at
+    2026-05-18
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      8
+    output
+      40
+    cacheRead
+      0.4

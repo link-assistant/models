@@ -1,0 +1,44 @@
+model 'GPT-6.1 Sol (Low cost)'
+  has id
+    'infer/gpt-6.1-sol:low-cost'
+  provider id
+    'infer'
+  provided by
+    'Infer by Flow7'
+  family
+    'gpt-sol'
+  status
+    active
+  released at
+    2026-09-29
+  last updated at
+    2026-09-29
+  has knowledge cutoff at
+    2026-04-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '271 999'
+    output
+      '128 000'
+  costs
+    input
+      0.24
+    output
+      0.89
+    cacheRead
+      0.02
+    cacheWrite
+      0.3

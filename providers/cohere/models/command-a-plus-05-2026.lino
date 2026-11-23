@@ -6,7 +6,7 @@ model 'Command A Plus'
   provided by
     'Cohere'
   family
-    'command-a'
+    'command-a-plus'
   status
     active
   released at

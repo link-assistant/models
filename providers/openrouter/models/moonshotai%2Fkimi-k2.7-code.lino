@@ -6,7 +6,7 @@ model 'Kimi K2.7 Code'
   provided by
     'OpenRouter'
   family
-    'kimi-k2'
+    'kimi-code'
   status
     active
   released at
@@ -34,11 +34,11 @@ model 'Kimi K2.7 Code'
     context
       '262 144'
     output
-      '262 144'
+      '235 929'
   costs
     input
-      0.72
+      0.6
     output
-      3.5
+      3
     cacheRead
-      0.15
+      0.12

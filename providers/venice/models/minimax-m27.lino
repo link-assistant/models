@@ -6,13 +6,13 @@ model 'MiniMax M2.7'
   provided by
     'Venice AI'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
     2026-03-18
   last updated at
-    2026-06-11
+    2026-03-18
   weights
     open
   capabilities

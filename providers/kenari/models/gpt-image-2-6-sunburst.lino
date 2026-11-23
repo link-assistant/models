@@ -1,0 +1,31 @@
+model 'GPT Image 2.6 Sunburst'
+  has id
+    'gpt-image-2-6-sunburst'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'gpt-image'
+  status
+    active
+  released at
+    2026-10-28
+  last updated at
+    2026-10-28
+  weights
+    closed
+  capabilities
+    (
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      image
+  limits
+    context
+      0
+    output
+      0

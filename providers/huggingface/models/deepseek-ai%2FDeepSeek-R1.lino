@@ -6,7 +6,7 @@ model 'DeepSeek-R1'
   provided by
     'Hugging Face'
   family
-    'deepseek-thinking'
+    'deepseek-r'
   status
     active
   released at

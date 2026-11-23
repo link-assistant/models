@@ -1,0 +1,40 @@
+model 'Pareto'
+  has id
+    'pareto'
+  provider id
+    'venice'
+  provided by
+    'Venice AI'
+  family
+    'pareto'
+  status
+    active
+  released at
+    2026-09-17
+  last updated at
+    2026-09-17
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      1
+    output
+      4
+    cacheRead
+      0.0375

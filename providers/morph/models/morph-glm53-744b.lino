@@ -1,0 +1,42 @@
+model 'GLM-5.3'
+  has id
+    'morph-glm53-744b'
+  provider id
+    'morph'
+  provided by
+    'Morph'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      1.19
+    output
+      6
+    cacheRead
+      0.1955

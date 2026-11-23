@@ -6,13 +6,13 @@ model 'Kimi K2.6'
   provided by
     'Nvidia'
   family
-    'kimi-k2'
+    'kimi'
   status
     deprecated
   released at
-    2026-04-21
+    2026-04-20
   last updated at
-    2026-04-21
+    2026-04-20
   has knowledge cutoff at
     2025-01
   weights

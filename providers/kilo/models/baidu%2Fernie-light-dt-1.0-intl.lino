@@ -1,0 +1,41 @@
+model 'Baidu: ERNIE-Light-DT-1.0'
+  has id
+    'baidu/ernie-light-dt-1.0-intl'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'ernie'
+  status
+    active
+  released at
+    2026-11-10
+  last updated at
+    2026-11-10
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 024 000'
+    output
+      '131 072'
+  costs
+    input
+      1.13
+    output
+      3.94
+    cacheRead
+      0.113

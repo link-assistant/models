@@ -6,7 +6,7 @@ model 'Qwen Doc Turbo'
   provided by
     'Alibaba (China)'
   family
-    'qwen'
+    'qwen-turbo'
   status
     active
   released at

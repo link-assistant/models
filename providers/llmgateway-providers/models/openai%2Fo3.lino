@@ -1,0 +1,41 @@
+model 'o3 (OpenAI)'
+  has id
+    'openai/o3'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'o'
+  status
+    active
+  released at
+    2025-04-16
+  last updated at
+    2025-04-16
+  has knowledge cutoff at
+    2024-05
+  weights
+    closed
+  capabilities
+    (
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '200 000'
+    output
+      '100 000'
+  costs
+    input
+      2
+    output
+      8
+    cacheRead
+      0.5

@@ -6,7 +6,7 @@ model 'Coding MiniMax M2.7 Highspeed'
   provided by
     'AIHubMix'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at

@@ -10,9 +10,11 @@ model 'OpenAI o1'
   status
     active
   released at
-    2024-12-17
+    2024-12-05
   last updated at
-    2024-12-17
+    2024-12-05
+  has knowledge cutoff at
+    2023-09
   weights
     closed
   capabilities
@@ -33,6 +35,8 @@ model 'OpenAI o1'
       '100 000'
   costs
     input
-      14.993999999999998
+      15
     output
-      59.993
+      60
+    cacheRead
+      7.5

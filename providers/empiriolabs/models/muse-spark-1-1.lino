@@ -6,7 +6,7 @@ model 'Muse Spark 1.1'
   provided by
     'EmpirioLabs AI'
   family
-    'muse'
+    'muse-spark'
   status
     active
   released at
@@ -25,12 +25,12 @@ model 'Muse Spark 1.1'
     )
   modalities
     input
-      text image video
+      text image video audio
     output
       text
   limits
     context
-      '1 000 000'
+      '1 048 576'
     output
       '131 072'
   costs

@@ -5,12 +5,14 @@ model 'Perceptron: Perceptron Mk1'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'perceptron-mk'
   status
     active
   released at
     2026-05-12
   last updated at
-    2026-05-16
+    2026-05-12
   weights
     closed
   capabilities
@@ -18,10 +20,11 @@ model 'Perceptron: Perceptron Mk1'
       reasoning
       temperature
       attachments
+      structured output
     )
   modalities
     input
-      image text video
+      text image video
     output
       text
   limits

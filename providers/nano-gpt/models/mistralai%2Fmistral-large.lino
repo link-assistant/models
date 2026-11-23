@@ -13,8 +13,14 @@ model 'Mistral Large 2411'
     2024-02-26
   last updated at
     2024-02-26
+  has knowledge cutoff at
+    2024-11-30
   weights
     closed
+  capabilities
+    (
+      temperature
+    )
   modalities
     input
       text
@@ -26,9 +32,11 @@ model 'Mistral Large 2411'
     input
       '128 000'
     output
-      '256 000'
+      '102 400'
   costs
     input
       2.006
     output
       6.001
+    cacheRead
+      0.2

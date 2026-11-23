@@ -1,0 +1,39 @@
+model 'GPT OSS Safeguard 20B'
+  has id
+    'gpt-oss-safeguard-20b'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'gpt-oss-safeguard'
+  status
+    active
+  released at
+    2025-10-29
+  last updated at
+    2025-10-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '131 072'
+    output
+      '16 384'
+  costs
+    input
+      0.07
+    output
+      0.2

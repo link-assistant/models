@@ -6,7 +6,7 @@ model 'Qwen3.7 Plus'
   provided by
     'AIHubMix'
   family
-    'qwen'
+    'qwen-plus'
   status
     active
   released at
@@ -22,12 +22,13 @@ model 'Qwen3.7 Plus'
       reasoning
       tool calls
       temperature
+      attachments
       structured output
       interleaved output
     )
   modalities
     input
-      text
+      text image video
     output
       text
   limits

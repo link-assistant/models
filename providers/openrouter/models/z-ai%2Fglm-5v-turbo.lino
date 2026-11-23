@@ -6,7 +6,7 @@ model 'GLM-5V-Turbo'
   provided by
     'OpenRouter'
   family
-    'glm'
+    'glmv-turbo'
   status
     active
   released at

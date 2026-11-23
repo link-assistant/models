@@ -1,0 +1,44 @@
+model 'Tencent Hy4 Flash'
+  has id
+    'tencent/hy4-flash'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'hy-flash'
+  status
+    active
+  released at
+    2026-11-16
+  last updated at
+    2026-11-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.035
+    output
+      0.1405
+    cacheRead
+      0.0015

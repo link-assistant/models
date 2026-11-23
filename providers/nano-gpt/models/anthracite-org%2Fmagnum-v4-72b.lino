@@ -6,17 +6,20 @@ model 'Magnum v4 72B'
   provided by
     'NanoGPT'
   family
-    'llama'
+    'magnum'
   status
     active
   released at
-    2025-01-01
+    2024-10-22
   last updated at
-    2025-01-01
+    2024-10-22
+  has knowledge cutoff at
+    2024-06-30
   weights
-    closed
+    open
   capabilities
     (
+      temperature
       attachments
     )
   modalities
@@ -33,6 +36,8 @@ model 'Magnum v4 72B'
       8192
   costs
     input
-      2.006
+      2.65
     output
-      2.992
+      5.3
+    cacheRead
+      1.325

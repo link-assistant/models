@@ -6,9 +6,9 @@ model 'MiniMax-M2'
   provided by
     'MiniMax Token Plan (minimax.io)'
   family
-    'minimax'
+    'minimax-m'
   status
-    active
+    deprecated
   released at
     2025-10-27
   last updated at
@@ -28,9 +28,9 @@ model 'MiniMax-M2'
       text
   limits
     context
-      '196 608'
+      '204 800'
     output
-      '128 000'
+      '131 072'
   costs
     input
       0

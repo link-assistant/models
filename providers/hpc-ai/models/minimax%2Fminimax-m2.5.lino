@@ -6,7 +6,7 @@ model 'MiniMax-M2.5'
   provided by
     'HPC-AI'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at

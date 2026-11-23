@@ -6,7 +6,7 @@ model 'GPT-5 Image Mini'
   provided by
     'OpenRouter'
   family
-    'gpt'
+    'gpt-image-mini'
   status
     active
   released at

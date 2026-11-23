@@ -6,7 +6,7 @@ model 'Qwen 3.7 Plus'
   provided by
     'Vercel AI Gateway'
   family
-    'qwen3.7-plus'
+    'qwen-plus'
   status
     active
   released at

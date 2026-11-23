@@ -1,0 +1,43 @@
+model 'DeepSeek V4.1 Flash 1017 Abliterated Free'
+  has id
+    'deepseek-v4.1-flash-abliterated-free'
+  provider id
+    'refuseless'
+  provided by
+    'Refuseless'
+  family
+    'deepseek-flash-free'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '131 072'
+  costs
+    input
+      0.14
+    output
+      0.5
+    cacheRead
+      0.035

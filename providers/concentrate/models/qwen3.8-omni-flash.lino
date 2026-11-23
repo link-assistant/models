@@ -1,0 +1,41 @@
+model 'Qwen3.8 Omni Flash'
+  has id
+    'qwen3.8-omni-flash'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'qwen-omni-flash'
+  status
+    active
+  released at
+    2026-09-17
+  last updated at
+    2026-09-17
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.113
+    output
+      0.382
+    cacheRead
+      0.014

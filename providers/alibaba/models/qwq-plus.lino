@@ -6,9 +6,9 @@ model 'QwQ Plus'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwq'
   status
-    active
+    deprecated
   released at
     2025-03-05
   last updated at

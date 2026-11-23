@@ -21,6 +21,7 @@ model 'Anthropic: Claude 3.5 Haiku'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input
@@ -34,7 +35,7 @@ model 'Anthropic: Claude 3.5 Haiku'
       8192
   costs
     input
-      0.7999999999999999
+      0.8
     output
       4
     cacheRead

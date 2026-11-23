@@ -1,0 +1,43 @@
+model 'Gemma 4 26B A4B IT'
+  has id
+    'google/gemma-4-26b-a4b-it-maas'
+  provider id
+    'google-vertex'
+  provided by
+    'Vertex'
+  family
+    'gemma'
+  status
+    alpha
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '128 000'
+  costs
+    input
+      0.15
+    output
+      0.6
+    cacheRead
+      0.015

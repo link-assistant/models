@@ -6,7 +6,7 @@ model 'GLM-4.5-Flash'
   provided by
     'UnoRouter'
   family
-    'glm-flash'
+    'glm-flash-free'
   status
     active
   released at

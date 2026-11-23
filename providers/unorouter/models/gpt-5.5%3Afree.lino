@@ -6,9 +6,9 @@ model 'GPT-5.5'
   provided by
     'UnoRouter'
   family
-    'gpt'
+    'gpt-free'
   status
-    active
+    deprecated
   released at
     2026-04-23
   last updated at
@@ -21,6 +21,7 @@ model 'GPT-5.5'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )

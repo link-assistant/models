@@ -6,7 +6,7 @@ model 'Qwen Max'
   provided by
     'Alibaba (China)'
   family
-    'qwen'
+    'qwen-max'
   status
     active
   released at
@@ -21,6 +21,7 @@ model 'Qwen Max'
     (
       tool calls
       temperature
+      structured output
     )
   modalities
     input

@@ -6,7 +6,7 @@ model 'DeepSeek V4 Pro'
   provided by
     'FastRouter'
   family
-    'deepseek-thinking'
+    'deepseek-pro'
   status
     active
   released at
@@ -39,3 +39,5 @@ model 'DeepSeek V4 Pro'
       1.74
     output
       3.48
+    cacheRead
+      0.145

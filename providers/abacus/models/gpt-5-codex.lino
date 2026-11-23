@@ -8,7 +8,7 @@ model 'GPT-5-Codex'
   family
     'gpt-codex'
   status
-    active
+    deprecated
   released at
     2025-09-15
   last updated at
@@ -21,6 +21,7 @@ model 'GPT-5-Codex'
     (
       reasoning
       tool calls
+      attachments
       structured output
     )
   modalities

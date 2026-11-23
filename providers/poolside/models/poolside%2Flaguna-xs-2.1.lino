@@ -6,7 +6,7 @@ model 'Laguna XS 2.1'
   provided by
     'Poolside'
   family
-    'laguna'
+    'laguna-xs'
   status
     active
   released at

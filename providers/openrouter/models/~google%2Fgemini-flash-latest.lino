@@ -1,4 +1,4 @@
-model 'Google Gemini Flash Latest'
+model 'Gemini Flash Latest'
   has id
     '~google/gemini-flash-latest'
   provider id
@@ -27,22 +27,24 @@ model 'Google Gemini Flash Latest'
     )
   modalities
     input
-      text image video pdf audio
+      audio pdf image text video
     output
       text
   limits
     context
       '1 048 576'
     output
-      '65 536'
+      '943 718'
   costs
     input
       1.5
     output
-      9
+      7.5
     cacheRead
-      0.15
+      0.075
     cacheWrite
       0.083333
     reasoning
-      9
+      7.5
+    inputAudio
+      1.5

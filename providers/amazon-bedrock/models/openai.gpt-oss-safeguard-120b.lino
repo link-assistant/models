@@ -6,7 +6,7 @@ model 'GPT OSS Safeguard 120B'
   provided by
     'Amazon Bedrock'
   family
-    'gpt-oss'
+    'gpt-oss-safeguard'
   status
     active
   released at
@@ -14,9 +14,10 @@ model 'GPT OSS Safeguard 120B'
   last updated at
     2025-10-29
   weights
-    closed
+    open
   capabilities
     (
+      reasoning
       tool calls
       temperature
       structured output

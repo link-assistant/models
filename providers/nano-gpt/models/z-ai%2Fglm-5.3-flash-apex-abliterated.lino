@@ -1,0 +1,42 @@
+model 'Apex Flash 1 Abliterated'
+  has id
+    'z-ai/glm-5.3-flash-apex-abliterated'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-10-05
+  last updated at
+    2026-10-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    input
+      '1 048 576'
+    output
+      '32 768'
+  costs
+    input
+      0.15
+    output
+      0.5
+    cacheRead
+      0.075

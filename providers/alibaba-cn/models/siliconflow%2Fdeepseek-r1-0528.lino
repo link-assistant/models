@@ -6,7 +6,7 @@ model 'siliconflow/deepseek-r1-0528'
   provided by
     'Alibaba (China)'
   family
-    'deepseek-thinking'
+    'deepseek-r'
   status
     active
   released at

@@ -6,9 +6,9 @@ model 'GLM-5-Turbo'
   provided by
     'Z.AI Coding Plan'
   family
-    'glm'
+    'glm-turbo'
   status
-    active
+    deprecated
   released at
     2026-03-16
   last updated at

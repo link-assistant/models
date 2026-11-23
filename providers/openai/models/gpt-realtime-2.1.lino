@@ -6,7 +6,7 @@ model 'GPT-Realtime-2.1'
   provided by
     'OpenAI'
   family
-    'gpt'
+    'gpt-realtime'
   status
     active
   released at

@@ -5,19 +5,20 @@ model 'qwen3-235b-2507-cs'
     'poe'
   provided by
     'Poe'
+  family
+    'qwen'
   status
     deprecated
   released at
-    2025-08-06
+    2025-07-21
   last updated at
-    2025-08-06
+    2025-07-21
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input

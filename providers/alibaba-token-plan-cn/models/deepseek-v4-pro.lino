@@ -6,7 +6,7 @@ model 'DeepSeek V4 Pro'
   provided by
     'Alibaba Token Plan (China)'
   family
-    'deepseek-thinking'
+    'deepseek-pro'
   status
     active
   released at
@@ -41,4 +41,6 @@ model 'DeepSeek V4 Pro'
     output
       0
     cacheRead
+      0
+    cacheWrite
       0

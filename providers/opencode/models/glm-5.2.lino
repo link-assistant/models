@@ -4,11 +4,11 @@ model 'GLM-5.2'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'glm'
   status
-    active
+    deprecated
   released at
     2026-06-13
   last updated at

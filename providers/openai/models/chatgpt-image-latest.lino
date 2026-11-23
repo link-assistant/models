@@ -8,7 +8,7 @@ model 'chatgpt-image-latest'
   family
     'gpt-image'
   status
-    active
+    deprecated
   released at
     2025-12-16
   last updated at
@@ -31,3 +31,10 @@ model 'chatgpt-image-latest'
       0
     output
       0
+  costs
+    input
+      5
+    output
+      10
+    cacheRead
+      1.25

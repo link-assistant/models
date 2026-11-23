@@ -10,9 +10,9 @@ model 'GLM-5.2'
   status
     active
   released at
-    2026-06-16
+    2026-06-13
   last updated at
-    2026-06-16
+    2026-06-13
   weights
     open
   capabilities
@@ -30,7 +30,7 @@ model 'GLM-5.2'
       text
   limits
     context
-      '262 144'
+      '1 048 575'
     output
       '164 000'
   costs

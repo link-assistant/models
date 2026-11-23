@@ -1,0 +1,34 @@
+model 'Artemis 31B v1.2'
+  has id
+    'TheDrummer/artemis-31b-v1.2'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  status
+    active
+  released at
+    2026-11-06
+  last updated at
+    2026-11-06
+  weights
+    open
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    input
+      '65 536'
+    output
+      8192
+  costs
+    input
+      0.1
+    output
+      0.45
+    cacheRead
+      0.05

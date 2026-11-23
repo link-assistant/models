@@ -4,9 +4,9 @@ model 'Gemini Pro Latest'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
-    'gemini'
+    'gemini-pro'
   status
     active
   released at

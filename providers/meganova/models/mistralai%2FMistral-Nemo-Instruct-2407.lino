@@ -6,13 +6,15 @@ model 'Mistral Nemo Instruct 2407'
   provided by
     'Meganova'
   family
-    'mistral'
+    'mistral-nemo'
   status
     active
   released at
     2024-07-18
   last updated at
     2024-07-18
+  has knowledge cutoff at
+    2024-07
   weights
     open
   capabilities

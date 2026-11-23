@@ -4,9 +4,9 @@ model 'Muse Spark 1.1'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
-    'muse'
+    'muse-spark'
   status
     active
   released at
@@ -32,7 +32,7 @@ model 'Muse Spark 1.1'
     context
       '1 048 576'
     output
-      '32 000'
+      '131 072'
   costs
     input
       1.25

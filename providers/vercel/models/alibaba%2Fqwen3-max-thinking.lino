@@ -6,7 +6,7 @@ model 'Qwen 3 Max Thinking'
   provided by
     'Vercel AI Gateway'
   family
-    'qwen'
+    'qwen-max'
   status
     active
   released at

@@ -1,0 +1,42 @@
+model 'Gemma 4 31B Scarlet'
+  has id
+    'gemma-4-31b-it-scarlet'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-10-08
+  last updated at
+    2026-10-08
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    input
+      '262 144'
+    output
+      '32 768'
+  costs
+    input
+      0.1
+    output
+      0.45
+    cacheRead
+      0.05

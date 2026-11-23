@@ -10,9 +10,11 @@ model 'gemini-2.5-flash-preview-05-20'
   status
     active
   released at
-    2026-01
+    2025-05-20
   last updated at
-    2026-01
+    2025-05-20
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
@@ -25,16 +27,18 @@ model 'gemini-2.5-flash-preview-05-20'
     )
   modalities
     input
-      text image video audio
+      text image audio video
     output
       text
   limits
     context
       '1 048 576'
     output
-      '200 000'
+      '65 536'
   costs
     input
-      0.135
+      0.1425
     output
-      3.15
+      3.325
+    cacheRead
+      0.0285

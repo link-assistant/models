@@ -1,0 +1,25 @@
+model 'Starlight Precise 2.6'
+  has id
+    'topaz/starlight-precise-2.6'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  status
+    active
+  released at
+    2026-10-06
+  last updated at
+    2026-10-06
+  weights
+    closed
+  modalities
+    input
+      text
+    output
+      video
+  limits
+    context
+      0
+    output
+      0

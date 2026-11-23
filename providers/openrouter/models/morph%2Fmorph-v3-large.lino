@@ -6,7 +6,7 @@ model 'Morph V3 Large'
   provided by
     'OpenRouter'
   family
-    'morph'
+    'morph-large'
   status
     active
   released at

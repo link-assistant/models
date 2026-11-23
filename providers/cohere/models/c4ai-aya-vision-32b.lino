@@ -5,6 +5,8 @@ model 'Aya Vision 32B'
     'cohere'
   provided by
     'Cohere'
+  family
+    'aya-vision'
   status
     active
   released at

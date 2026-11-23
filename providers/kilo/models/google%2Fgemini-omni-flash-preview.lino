@@ -1,0 +1,41 @@
+model 'Google: Gemini Omni Flash Preview'
+  has id
+    'google/gemini-omni-flash-preview'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'gemini-omni-flash'
+  status
+    active
+  released at
+    2026-06-30
+  last updated at
+    2026-06-30
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf video
+    output
+      text video
+  limits
+    context
+      '1 000 000'
+    output
+      '57 920'
+  costs
+    input
+      1.5
+    output
+      9
+    reasoning
+      0

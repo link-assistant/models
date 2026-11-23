@@ -6,7 +6,7 @@ model 'Seedream 5.0 Lite'
   provided by
     'Vercel AI Gateway'
   family
-    'seed'
+    'seedream-lite'
   status
     active
   released at
@@ -17,11 +17,11 @@ model 'Seedream 5.0 Lite'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       image
   limits

@@ -6,13 +6,13 @@ model 'Qwen 2.5 Coder 32B'
   provided by
     'Abacus'
   family
-    'qwen'
+    'qwen-coder'
   status
-    active
+    deprecated
   released at
-    2024-11-11
+    2024-11-12
   last updated at
-    2024-11-11
+    2024-11-12
   weights
     open
   capabilities

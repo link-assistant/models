@@ -5,6 +5,8 @@ model 'Perceptron Mk1'
     'openrouter'
   provided by
     'OpenRouter'
+  family
+    'perceptron-mk'
   status
     active
   released at

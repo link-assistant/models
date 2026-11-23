@@ -6,7 +6,7 @@ model 'FLUX.2 [max]'
   provided by
     'Vercel AI Gateway'
   family
-    'flux'
+    'flux-max'
   status
     active
   released at
@@ -17,11 +17,11 @@ model 'FLUX.2 [max]'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       image
   limits

@@ -6,7 +6,7 @@ model 'Gemini Omni Flash Preview'
   provided by
     'Vercel AI Gateway'
   family
-    'gemini'
+    'gemini-omni-flash'
   status
     active
   released at
@@ -25,7 +25,7 @@ model 'Gemini Omni Flash Preview'
     input
       text image pdf
     output
-      text
+      video
   limits
     context
       '1 000 000'

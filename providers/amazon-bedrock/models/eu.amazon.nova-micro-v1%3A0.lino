@@ -1,0 +1,43 @@
+model 'Nova Micro (EU)'
+  has id
+    'eu.amazon.nova-micro-v1:0'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'nova-micro'
+  status
+    active
+  released at
+    2024-12-03
+  last updated at
+    2024-12-03
+  has knowledge cutoff at
+    2024-10
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '10 000'
+  costs
+    input
+      0.04
+    output
+      0.16
+    cacheRead
+      0.01
+    cacheWrite
+      0.04

@@ -1,4 +1,4 @@
-model 'Nano Banana Pro'
+model 'Nano Banana Pro Preview'
   has id
     'google/gemini-3-pro-image-preview'
   provider id
@@ -6,7 +6,7 @@ model 'Nano Banana Pro'
   provided by
     'OpenRouter'
   family
-    'gemini-pro'
+    'nano-banana-pro'
   status
     active
   released at
@@ -45,3 +45,5 @@ model 'Nano Banana Pro'
       0.375
     reasoning
       12
+    inputAudio
+      2

@@ -6,7 +6,7 @@ model 'kimi/kimi-k2.5'
   provided by
     'Alibaba (China)'
   family
-    'kimi-k2'
+    'kimi'
   status
     active
   released at
@@ -21,6 +21,7 @@ model 'kimi/kimi-k2.5'
     (
       reasoning
       tool calls
+      attachments
       structured output
       interleaved output
     )

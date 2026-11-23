@@ -6,7 +6,7 @@ model 'Phi-4-mini-reasoning'
   provided by
     'Azure'
   family
-    'phi'
+    'phi-mini'
   status
     active
   released at

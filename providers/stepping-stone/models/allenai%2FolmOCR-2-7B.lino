@@ -1,0 +1,39 @@
+model 'olmOCR 2 7B'
+  has id
+    'allenai/olmOCR-2-7B'
+  provider id
+    'stepping-stone'
+  provided by
+    'stepping stone AG'
+  family
+    'olmocr'
+  status
+    active
+  released at
+    2025-10-22
+  last updated at
+    2025-10-22
+  weights
+    open
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      8192
+    output
+      8192
+  costs
+    input
+      0.0714
+    output
+      0.3451
+    cacheRead
+      0.0107

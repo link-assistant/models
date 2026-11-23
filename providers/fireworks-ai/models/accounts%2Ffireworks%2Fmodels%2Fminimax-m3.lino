@@ -6,13 +6,13 @@ model 'MiniMax-M3'
   provided by
     'Fireworks AI'
   family
-    'minimax'
+    'minimax-m'
   status
-    active
+    experimental
   released at
-    2026-06-12
+    2026-06-01
   last updated at
-    2026-06-12
+    2026-06-01
   weights
     open
   capabilities
@@ -20,7 +20,7 @@ model 'MiniMax-M3'
       reasoning
       tool calls
       temperature
-      attachments
+      structured output
       interleaved output
     )
   modalities

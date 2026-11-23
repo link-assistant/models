@@ -6,7 +6,7 @@ model 'Gemini 2.5 Flash Preview TTS'
   provided by
     'Google'
   family
-    'gemini-flash'
+    'gemini-tts-flash'
   status
     active
   released at

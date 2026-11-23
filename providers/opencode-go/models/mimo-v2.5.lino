@@ -6,7 +6,7 @@ model 'MiMo V2.5'
   provided by
     'OpenCode Go'
   family
-    'mimo-v2.5'
+    'mimo'
   status
     active
   released at

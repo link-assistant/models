@@ -6,7 +6,7 @@ model 'Gemma Sea Lion V4 27B It'
   provided by
     'Cloudflare Workers AI'
   family
-    'gemma'
+    'sea-lion'
   status
     active
   released at

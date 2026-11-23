@@ -6,7 +6,7 @@ model 'DeepSeek V4 Pro'
   provided by
     'Kenari'
   family
-    'deepseek-thinking'
+    'deepseek-pro'
   status
     active
   released at
@@ -36,6 +36,8 @@ model 'DeepSeek V4 Pro'
       '384 000'
   costs
     input
-      0
+      0.5714
     output
-      0
+      1.14
+    cacheRead
+      0.0057

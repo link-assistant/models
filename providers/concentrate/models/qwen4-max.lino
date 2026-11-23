@@ -1,0 +1,42 @@
+model 'Qwen4 Max'
+  has id
+    'qwen4-max'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'qwen-max'
+  status
+    active
+  released at
+    2026-11-16
+  last updated at
+    2026-11-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      1.413
+    output
+      4.24
+    cacheRead
+      0.071

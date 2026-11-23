@@ -6,7 +6,7 @@ model 'Gemini 3.5 Flash'
   provided by
     'Vercel AI Gateway'
   family
-    'gemini'
+    'gemini-flash'
   status
     active
   released at

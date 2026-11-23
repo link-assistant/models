@@ -40,3 +40,5 @@ model 'Gemini 3.5 Flash'
       1.5
     output
       9
+    cacheRead
+      0.15

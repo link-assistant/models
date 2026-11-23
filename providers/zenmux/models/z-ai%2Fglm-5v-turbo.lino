@@ -5,6 +5,8 @@ model 'GLM 5V Turbo'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'glmv-turbo'
   status
     active
   released at
