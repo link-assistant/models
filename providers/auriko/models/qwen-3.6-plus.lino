@@ -6,7 +6,7 @@ model 'Qwen3.6 Plus'
   provided by
     'Auriko'
   family
-    'qwen'
+    'qwen-plus'
   status
     active
   released at
@@ -22,6 +22,7 @@ model 'Qwen3.6 Plus'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

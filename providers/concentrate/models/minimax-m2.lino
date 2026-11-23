@@ -1,0 +1,44 @@
+model 'MiniMax-M2'
+  has id
+    'minimax-m2'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'minimax-m'
+  status
+    active
+  released at
+    2025-10-27
+  last updated at
+    2025-10-27
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '204 800'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.03
+    cacheWrite
+      0.375

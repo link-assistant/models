@@ -10,9 +10,9 @@ model 'Reka Edge'
   status
     active
   released at
-    2026-03-20
+    2026-03-11
   last updated at
-    2026-03-20
+    2026-03-11
   weights
     open
   capabilities
@@ -31,7 +31,7 @@ model 'Reka Edge'
     context
       '16 384'
     output
-      '16 384'
+      '14 745'
   costs
     input
       0.1

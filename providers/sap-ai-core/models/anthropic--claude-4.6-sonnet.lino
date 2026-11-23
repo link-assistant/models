@@ -14,7 +14,7 @@ model 'anthropic--claude-4.6-sonnet'
   last updated at
     2026-03-13
   has knowledge cutoff at
-    2025-08
+    2025-08-31
   weights
     closed
   capabilities

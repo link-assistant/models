@@ -6,7 +6,7 @@ model 'Qwen3 Max'
   provided by
     'OrcaRouter'
   family
-    'qwen'
+    'qwen-max'
   status
     active
   released at

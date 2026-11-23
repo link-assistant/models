@@ -6,7 +6,7 @@ model 'DeepSeek-V4-Pro'
   provided by
     'Azure'
   family
-    'deepseek-thinking'
+    'deepseek-pro'
   status
     active
   released at
@@ -20,8 +20,10 @@ model 'DeepSeek-V4-Pro'
   capabilities
     (
       reasoning
+      tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -38,3 +40,5 @@ model 'DeepSeek-V4-Pro'
       1.74
     output
       3.48
+    cacheRead
+      0.145

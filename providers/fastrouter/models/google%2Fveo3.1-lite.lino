@@ -6,13 +6,13 @@ model 'Veo 3.1 Lite'
   provided by
     'FastRouter'
   family
-    'veo'
+    'veo-lite'
   status
     active
   released at
-    2026-05-01
+    2026-03-31
   last updated at
-    2026-05-01
+    2026-03-31
   weights
     closed
   capabilities

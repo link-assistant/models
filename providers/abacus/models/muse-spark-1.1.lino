@@ -6,7 +6,7 @@ model 'Muse Spark 1.1'
   provided by
     'Abacus'
   family
-    'muse'
+    'muse-spark'
   status
     active
   released at

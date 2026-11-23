@@ -1,0 +1,41 @@
+model 'MiniMax M3'
+  has id
+    'minimax-m3'
+  provider id
+    'frogbot'
+  provided by
+    'FrogBot'
+  family
+    'minimax-m'
+  status
+    active
+  released at
+    2026-06-01
+  last updated at
+    2026-06-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '512 000'
+    output
+      '131 072'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.06

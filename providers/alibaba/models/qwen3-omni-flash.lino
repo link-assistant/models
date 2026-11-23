@@ -6,7 +6,7 @@ model 'Qwen3-Omni Flash'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwen-omni-flash'
   status
     active
   released at
@@ -22,6 +22,7 @@ model 'Qwen3-Omni Flash'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

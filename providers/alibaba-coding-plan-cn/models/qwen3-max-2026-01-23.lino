@@ -6,9 +6,9 @@ model 'Qwen3 Max'
   provided by
     'Alibaba Coding Plan (China)'
   family
-    'qwen'
+    'qwen-max'
   status
-    active
+    deprecated
   released at
     2026-01-23
   last updated at

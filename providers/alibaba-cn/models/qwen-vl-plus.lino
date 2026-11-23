@@ -6,9 +6,9 @@ model 'Qwen-VL Plus'
   provided by
     'Alibaba (China)'
   family
-    'qwen'
+    'qwen-vl-plus'
   status
-    active
+    deprecated
   released at
     2024-01-25
   last updated at
@@ -21,6 +21,7 @@ model 'Qwen-VL Plus'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

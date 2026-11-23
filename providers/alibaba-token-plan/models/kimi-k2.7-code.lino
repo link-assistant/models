@@ -6,7 +6,7 @@ model 'Kimi K2.7 Code'
   provided by
     'Alibaba Token Plan'
   family
-    'kimi-k2'
+    'kimi-code'
   status
     active
   released at
@@ -22,6 +22,7 @@ model 'Kimi K2.7 Code'
       reasoning
       tool calls
       attachments
+      structured output
       interleaved output
     )
   modalities

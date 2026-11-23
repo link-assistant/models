@@ -6,7 +6,7 @@ model 'Qwen Plus'
   provided by
     'OpenRouter'
   family
-    'qwen'
+    'qwen-plus'
   status
     active
   released at

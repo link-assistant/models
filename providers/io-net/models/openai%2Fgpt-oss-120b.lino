@@ -10,15 +10,16 @@ model 'GPT-OSS 120B'
   status
     active
   released at
-    2024-12-01
+    2025-08-05
   last updated at
-    2024-12-01
+    2025-08-05
   has knowledge cutoff at
     2024-10
   weights
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
     )
@@ -34,10 +35,8 @@ model 'GPT-OSS 120B'
       4096
   costs
     input
-      0.04
+      0.188
     output
-      0.4
+      0.7
     cacheRead
-      0.02
-    cacheWrite
-      0.08
+      0.094

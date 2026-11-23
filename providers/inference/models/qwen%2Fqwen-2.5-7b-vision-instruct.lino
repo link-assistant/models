@@ -8,7 +8,7 @@ model 'Qwen 2.5 7B Vision Instruct'
   family
     'qwen'
   status
-    active
+    deprecated
   released at
     2025-01-01
   last updated at

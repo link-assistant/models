@@ -6,7 +6,7 @@ model 'Qwen3.6 Flash'
   provided by
     'Alibaba Token Plan (China)'
   family
-    'qwen3.6'
+    'qwen-flash'
   status
     active
   released at
@@ -22,6 +22,7 @@ model 'Qwen3.6 Flash'
       temperature
       attachments
       structured output
+      interleaved output
     )
   modalities
     input

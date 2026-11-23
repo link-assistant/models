@@ -6,7 +6,7 @@ model 'MiniMax M2.7'
   provided by
     'NanoGPT'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
@@ -14,11 +14,12 @@ model 'MiniMax M2.7'
   last updated at
     2026-03-18
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -35,6 +36,8 @@ model 'MiniMax M2.7'
       '131 072'
   costs
     input
-      0.3
+      0.6543
     output
-      1.2
+      2.7625
+    cacheRead
+      0.32715

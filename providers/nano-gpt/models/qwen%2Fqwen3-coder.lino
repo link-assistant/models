@@ -5,17 +5,22 @@ model 'Qwen 3 Coder 480B'
     'nano-gpt'
   provided by
     'NanoGPT'
+  family
+    'qwen-coder'
   status
     active
   released at
-    2026-03-17
+    2025-07-22
   last updated at
-    2026-03-17
+    2025-07-22
+  has knowledge cutoff at
+    2025-04
   weights
-    closed
+    open
   capabilities
     (
       tool calls
+      temperature
       structured output
     )
   modalities
@@ -32,6 +37,8 @@ model 'Qwen 3 Coder 480B'
       '65 536'
   costs
     input
-      0.13
+      0.3
     output
-      0.5
+      1
+    cacheRead
+      0.1

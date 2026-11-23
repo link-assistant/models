@@ -6,7 +6,7 @@ model 'DeepSeek V4 Pro'
   provided by
     'Model Oracle AI'
   family
-    'deepseek-thinking'
+    'deepseek-pro'
   status
     active
   released at

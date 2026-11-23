@@ -6,7 +6,7 @@ model 'Sonar Reasoning Pro'
   provided by
     'OpenRouter'
   family
-    'sonar-reasoning'
+    'sonar-reasoning-pro'
   status
     active
   released at
@@ -30,7 +30,7 @@ model 'Sonar Reasoning Pro'
     context
       '128 000'
     output
-      '128 000'
+      '115 200'
   costs
     input
       2

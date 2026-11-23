@@ -6,7 +6,7 @@ model 'Nano Banana Pro'
   provided by
     'Vertex'
   family
-    'gemini-pro'
+    'nano-banana-pro'
   status
     active
   released at
@@ -25,7 +25,7 @@ model 'Nano Banana Pro'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text image
   limits
@@ -37,4 +37,6 @@ model 'Nano Banana Pro'
     input
       2
     output
-      120
+      12
+    cacheRead
+      0.2

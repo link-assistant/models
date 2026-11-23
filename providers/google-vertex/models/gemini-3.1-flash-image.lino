@@ -6,7 +6,7 @@ model 'Nano Banana 2'
   provided by
     'Vertex'
   family
-    'gemini-flash'
+    'nano-banana'
   status
     active
   released at
@@ -37,4 +37,6 @@ model 'Nano Banana 2'
     input
       0.5
     output
-      60
+      3
+    cacheRead
+      0.05

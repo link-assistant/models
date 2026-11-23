@@ -1,0 +1,42 @@
+model 'Qwen3.7 Flash'
+  has id
+    'qwen/qwen3.7-flash'
+  provider id
+    'sparrowcodes'
+  provided by
+    'SparrowCodes'
+  family
+    'qwen-flash'
+  status
+    active
+  released at
+    2026-07-15
+  last updated at
+    2026-07-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '991 808'
+    output
+      '65 536'
+  costs
+    input
+      0.035
+    output
+      0.15
+    cacheRead
+      0.007

@@ -6,7 +6,7 @@ model 'MiniMax M2.5'
   provided by
     'Meganova'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
@@ -37,3 +37,5 @@ model 'MiniMax M2.5'
       0.3
     output
       1.2
+    cacheRead
+      0.15

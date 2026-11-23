@@ -6,7 +6,7 @@ model 'Sonar Reasoning Pro'
   provided by
     'AnyAPI'
   family
-    'sonar-reasoning'
+    'sonar-reasoning-pro'
   status
     active
   released at

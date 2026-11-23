@@ -6,9 +6,9 @@ model 'Kimi-K2.5'
   provided by
     'Tencent Coding Plan (China)'
   family
-    'kimi-k2'
+    'kimi'
   status
-    active
+    deprecated
   released at
     2026-01-27
   last updated at

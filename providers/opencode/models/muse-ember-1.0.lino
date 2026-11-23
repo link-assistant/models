@@ -1,0 +1,44 @@
+model 'Muse Ember 1.0'
+  has id
+    'muse-ember-1.0'
+  provider id
+    'opencode'
+  provided by
+    'OpenCode'
+  family
+    'muse-ember'
+  status
+    active
+  released at
+    2026-11-09
+  last updated at
+    2026-11-09
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '270 000'
+  costs
+    input
+      0.1
+    output
+      0.5
+    cacheRead
+      0.004
+    cacheWrite
+      0

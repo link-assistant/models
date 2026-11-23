@@ -8,7 +8,7 @@ model 'Magistral Medium (latest)'
   family
     'magistral-medium'
   status
-    active
+    deprecated
   released at
     2025-03-17
   last updated at
@@ -22,15 +22,16 @@ model 'Magistral Medium (latest)'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
     context
-      '128 000'
+      '262 144'
     output
       '16 384'
   costs

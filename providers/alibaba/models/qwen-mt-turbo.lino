@@ -6,9 +6,9 @@ model 'Qwen-MT Turbo'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwen-mt-turbo'
   status
-    active
+    deprecated
   released at
     2025-01
   last updated at

@@ -6,19 +6,22 @@ model 'deepseek-v4-pro'
   provided by
     'Ollama Cloud'
   family
-    'deepseek-thinking'
+    'deepseek-pro'
   status
     active
   released at
     2026-04-24
   last updated at
     2026-04-24
+  has knowledge cutoff at
+    2025-05
   weights
     open
   capabilities
     (
       reasoning
       tool calls
+      temperature
     )
   modalities
     input
@@ -29,4 +32,11 @@ model 'deepseek-v4-pro'
     context
       '1 048 576'
     output
-      '1 048 576'
+      '65 536'
+  costs
+    input
+      0.66
+    output
+      1.98
+    cacheRead
+      0.022

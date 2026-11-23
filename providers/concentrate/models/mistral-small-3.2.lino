@@ -1,0 +1,41 @@
+model 'Mistral Small 3.2 24B'
+  has id
+    'mistral-small-3.2'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'mistral-small'
+  status
+    active
+  released at
+    2025-06-20
+  last updated at
+    2025-06-20
+  has knowledge cutoff at
+    2023-10-31
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 384'
+  costs
+    input
+      0.1
+    output
+      0.3

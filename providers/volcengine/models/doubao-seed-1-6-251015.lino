@@ -1,0 +1,43 @@
+model 'Seed 1.6'
+  has id
+    'doubao-seed-1-6-251015'
+  provider id
+    'volcengine'
+  provided by
+    'Volcengine Ark'
+  family
+    'seed'
+  status
+    deprecated
+  released at
+    2025-10-15
+  last updated at
+    2025-10-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '256 000'
+    output
+      '64 000'
+  costs
+    input
+      0.11875
+    output
+      1.18747
+    cacheRead
+      0.02375

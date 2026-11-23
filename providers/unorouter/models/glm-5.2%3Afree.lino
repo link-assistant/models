@@ -6,9 +6,9 @@ model 'GLM-5.2'
   provided by
     'UnoRouter'
   family
-    'glm'
+    'glm-free'
   status
-    active
+    deprecated
   released at
     2026-06-13
   last updated at

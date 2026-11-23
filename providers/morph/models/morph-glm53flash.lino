@@ -1,0 +1,43 @@
+model 'GLM-5.3-Flash'
+  has id
+    'morph-glm53flash'
+  provider id
+    'morph'
+  provided by
+    'Morph'
+  family
+    'glm-flash'
+  status
+    active
+  released at
+    2026-08-26
+  last updated at
+    2026-08-26
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.2
+    output
+      0.7
+    cacheRead
+      0.04

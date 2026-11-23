@@ -10,9 +10,9 @@ model 'gpt-5.4-nano'
   status
     active
   released at
-    2026-03-19
+    2026-03-17
   last updated at
-    2026-03-19
+    2026-03-17
   has knowledge cutoff at
     2025-08-31
   weights
@@ -41,3 +41,5 @@ model 'gpt-5.4-nano'
       0.2
     output
       1.25
+    cacheRead
+      0.02

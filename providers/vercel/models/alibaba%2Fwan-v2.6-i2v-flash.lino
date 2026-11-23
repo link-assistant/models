@@ -6,7 +6,7 @@ model 'Wan v2.6 Image-to-Video Flash'
   provided by
     'Vercel AI Gateway'
   family
-    'o'
+    'wan'
   status
     active
   released at
@@ -17,11 +17,11 @@ model 'Wan v2.6 Image-to-Video Flash'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image audio
     output
       video
   limits

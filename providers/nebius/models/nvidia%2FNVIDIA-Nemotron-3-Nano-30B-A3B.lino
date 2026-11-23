@@ -1,4 +1,4 @@
-model 'Nemotron-3-Nano-30B-A3B'
+model 'NVIDIA-Nemotron-3-Nano-30B-A3B'
   has id
     'nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B'
   provider id
@@ -6,19 +6,20 @@ model 'Nemotron-3-Nano-30B-A3B'
   provided by
     'Nebius Token Factory'
   family
-    'nemotron'
+    'nemotron-nano'
   status
     active
   released at
-    2025-08-10
+    2025-12-15
   last updated at
-    2026-02-04
+    2025-12-15
   has knowledge cutoff at
-    2025-05
+    2025-06-25
   weights
     open
   capabilities
     (
+      reasoning
       tool calls
       temperature
       structured output
@@ -30,17 +31,13 @@ model 'Nemotron-3-Nano-30B-A3B'
       text
   limits
     context
-      '32 000'
-    input
-      '30 000'
+      '262 144'
     output
-      4096
+      '262 144'
   costs
     input
       0.06
     output
       0.24
     cacheRead
-      0.006
-    cacheWrite
-      0.075
+      0.012

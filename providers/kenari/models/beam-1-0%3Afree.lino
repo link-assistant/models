@@ -1,0 +1,40 @@
+model 'Beam 1.0 (Free)'
+  has id
+    'beam-1-0:free'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'beam-free'
+  status
+    active
+  released at
+    2026-10-05
+  last updated at
+    2026-10-16
+  has knowledge cutoff at
+    2026-06-30
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '131 072'
+  costs
+    input
+      0
+    output
+      0

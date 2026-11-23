@@ -1,0 +1,40 @@
+model 'GLM 5.3 FlashX Legal'
+  has id
+    'zai/glm-5.3-flashx-legal'
+  provider id
+    'vercel'
+  provided by
+    'Vercel AI Gateway'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-11-02
+  last updated at
+    2026-11-02
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.37
+    output
+      1.25
+    cacheRead
+      0.075

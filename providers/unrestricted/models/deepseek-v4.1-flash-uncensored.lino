@@ -1,0 +1,42 @@
+model 'DeepSeek V4.1 Flash 1017 Uncensored'
+  has id
+    'deepseek-v4.1-flash-uncensored'
+  provider id
+    'unrestricted'
+  provided by
+    'Unrestricted'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-10-29
+  last updated at
+    2026-10-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '65 536'
+  costs
+    input
+      0.15
+    output
+      0.6
+    cacheRead
+      0.05

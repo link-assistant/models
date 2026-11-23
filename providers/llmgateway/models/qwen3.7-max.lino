@@ -4,9 +4,9 @@ model 'Qwen3.7 Max'
   provider id
     'llmgateway'
   provided by
-    'LLM Gateway'
+    'DevPass (LLM Gateway)'
   family
-    'qwen'
+    'qwen-max'
   status
     active
   released at
@@ -30,13 +30,13 @@ model 'Qwen3.7 Max'
     context
       '1 000 000'
     output
-      '65 536'
+      '131 072'
   costs
     input
       1.25
     output
       3.75
     cacheRead
-      0.125
+      0.25
     cacheWrite
       3.125

@@ -4,9 +4,9 @@ model 'GLM-4.7-Flash'
   provider id
     'novita-ai'
   provided by
-    'NovitaAI'
+    'Novita AI'
   family
-    'glm'
+    'glm-flash'
   status
     active
   released at
@@ -23,6 +23,7 @@ model 'GLM-4.7-Flash'
       tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input

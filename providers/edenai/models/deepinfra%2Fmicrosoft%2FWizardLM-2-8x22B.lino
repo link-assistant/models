@@ -1,0 +1,38 @@
+model 'WizardLM 2 8x22B (Deep Infra)'
+  has id
+    'deepinfra/microsoft/WizardLM-2-8x22B'
+  provider id
+    'edenai'
+  provided by
+    'Eden AI'
+  family
+    'wizardlm'
+  status
+    active
+  released at
+    2024-04-15
+  last updated at
+    2024-04-15
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '65 536'
+    output
+      8000
+  costs
+    input
+      0.48
+    output
+      0.48

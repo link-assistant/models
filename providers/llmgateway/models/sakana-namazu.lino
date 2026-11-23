@@ -1,0 +1,41 @@
+model 'Sakana Namazu'
+  has id
+    'sakana-namazu'
+  provider id
+    'llmgateway'
+  provided by
+    'DevPass (LLM Gateway)'
+  family
+    'sakana-namazu'
+  status
+    active
+  released at
+    2026-08-03
+  last updated at
+    2026-08-03
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '65 536'
+  costs
+    input
+      0.95
+    output
+      4
+    cacheRead
+      0.15

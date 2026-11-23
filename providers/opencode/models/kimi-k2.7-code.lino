@@ -4,9 +4,9 @@ model 'Kimi K2.7 Code'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'kimi-k2'
+    'kimi-code'
   status
     active
   released at

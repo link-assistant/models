@@ -6,19 +6,22 @@ model 'kimi-k2.6'
   provided by
     'Ollama Cloud'
   family
-    'kimi-k2'
+    'kimi'
   status
     active
   released at
     2026-04-20
   last updated at
     2026-04-20
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
     )
   modalities
@@ -31,3 +34,10 @@ model 'kimi-k2.6'
       '262 144'
     output
       '262 144'
+  costs
+    input
+      0.95
+    output
+      4
+    cacheRead
+      0.16

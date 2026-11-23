@@ -6,13 +6,13 @@ model 'Qwen3 Coder 30B A3B Instruct'
   provided by
     'Clarifai'
   family
-    'qwen'
+    'qwen-coder'
   status
     active
   released at
     2025-07-31
   last updated at
-    2026-02-12
+    2025-07-31
   has knowledge cutoff at
     2025-04
   weights

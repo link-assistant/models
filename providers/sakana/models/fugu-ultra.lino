@@ -6,7 +6,7 @@ model 'Fugu Ultra'
   provided by
     'Sakana AI'
   family
-    'fugu'
+    'fugu-ultra'
   status
     active
   released at

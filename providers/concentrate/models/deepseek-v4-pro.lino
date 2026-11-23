@@ -1,0 +1,44 @@
+model 'DeepSeek V4 Pro'
+  has id
+    'deepseek-v4-pro'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'deepseek-pro'
+  status
+    active
+  released at
+    2026-04-24
+  last updated at
+    2026-04-24
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '384 000'
+  costs
+    input
+      1.65
+    output
+      3.301
+    cacheRead
+      0.138

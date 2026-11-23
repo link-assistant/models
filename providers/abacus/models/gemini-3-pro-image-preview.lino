@@ -1,4 +1,4 @@
-model 'Nano Banana Pro'
+model 'Nano Banana Pro Preview'
   has id
     'gemini-3-pro-image-preview'
   provider id
@@ -6,9 +6,9 @@ model 'Nano Banana Pro'
   provided by
     'Abacus'
   family
-    'gemini-pro'
+    'nano-banana-pro'
   status
-    active
+    deprecated
   released at
     2025-11-20
   last updated at

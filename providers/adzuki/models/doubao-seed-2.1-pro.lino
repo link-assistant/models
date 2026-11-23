@@ -1,0 +1,42 @@
+model 'Seed 2.1 Pro'
+  has id
+    'doubao-seed-2.1-pro'
+  provider id
+    'adzuki'
+  provided by
+    'Adzuki AI'
+  family
+    'seed-pro'
+  status
+    active
+  released at
+    2026-06-23
+  last updated at
+    2026-06-23
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 024 000'
+    output
+      '256 000'
+  costs
+    input
+      1.7143
+    output
+      8.5714
+    cacheRead
+      0.3429

@@ -6,7 +6,7 @@ model 'Qwen3-VL Embedding 8B'
   provided by
     'STACKIT'
   family
-    'qwen'
+    'qwen-embedding'
   status
     active
   released at
@@ -33,4 +33,4 @@ model 'Qwen3-VL Embedding 8B'
     input
       0.09
     output
-      0.09
+      0

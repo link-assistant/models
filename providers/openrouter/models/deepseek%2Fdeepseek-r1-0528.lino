@@ -1,4 +1,4 @@
-model 'R1 0528'
+model 'DeepSeek R1 0528'
   has id
     'deepseek/deepseek-r1-0528'
   provider id
@@ -6,15 +6,13 @@ model 'R1 0528'
   provided by
     'OpenRouter'
   family
-    'deepseek'
+    'deepseek-r'
   status
     active
   released at
     2025-05-28
   last updated at
     2025-05-28
-  has knowledge cutoff at
-    2025-03-31
   weights
     open
   capabilities
@@ -33,11 +31,9 @@ model 'R1 0528'
     context
       '163 840'
     output
-      '32 768'
+      '32 000'
   costs
     input
-      0.5
+      0.571
     output
-      2.15
-    cacheRead
-      0.35
+      2.286

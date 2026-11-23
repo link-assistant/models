@@ -13,8 +13,6 @@ model 'Qwen3 30B A3B'
     2025-04-28
   last updated at
     2025-04-28
-  has knowledge cutoff at
-    2025-03-31
   weights
     open
   capabilities
@@ -31,7 +29,7 @@ model 'Qwen3 30B A3B'
       text
   limits
     context
-      '131 072'
+      '40 960'
     output
       '16 384'
   costs

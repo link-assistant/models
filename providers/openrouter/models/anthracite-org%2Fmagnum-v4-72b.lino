@@ -5,6 +5,8 @@ model 'Magnum v4 72B'
     'openrouter'
   provided by
     'OpenRouter'
+  family
+    'magnum'
   status
     active
   released at
@@ -29,9 +31,11 @@ model 'Magnum v4 72B'
     context
       '32 768'
     output
-      2048
+      4096
   costs
     input
-      3
+      2.5
     output
       5
+    cacheRead
+      2.5

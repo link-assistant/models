@@ -6,13 +6,13 @@ model 'Kimi K2.7 Code'
   provided by
     'Venice AI'
   family
-    'kimi-k2'
+    'kimi-code'
   status
     active
   released at
-    2026-06-13
+    2026-06-12
   last updated at
-    2026-06-16
+    2026-06-12
   has knowledge cutoff at
     2025-01
   weights

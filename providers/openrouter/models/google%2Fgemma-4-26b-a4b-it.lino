@@ -32,9 +32,11 @@ model 'Gemma 4 26B A4B IT'
     context
       '262 144'
     output
-      '262 144'
+      '235 929'
   costs
     input
-      0.06
+      0.09
     output
-      0.33
+      0.3
+    cacheRead
+      0.05

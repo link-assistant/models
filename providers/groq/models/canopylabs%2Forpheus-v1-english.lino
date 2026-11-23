@@ -6,7 +6,7 @@ model 'Canopy Labs Orpheus V1 English'
   provided by
     'Groq'
   family
-    'canopylabs'
+    'orpheus'
   status
     beta
   released at

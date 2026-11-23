@@ -6,9 +6,9 @@ model 'Xiaomi MiMo-V2.5-Pro (free)'
   provided by
     'AIHubMix'
   family
-    'mimo-v2.5-pro'
+    'mimo-pro-free'
   status
-    active
+    deprecated
   released at
     2026-04-22
   last updated at

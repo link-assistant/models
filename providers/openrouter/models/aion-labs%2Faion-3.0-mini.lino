@@ -5,12 +5,14 @@ model 'Aion-3.0-Mini'
     'openrouter'
   provided by
     'OpenRouter'
+  family
+    'aion-mini'
   status
     active
   released at
-    2026-07-07
+    2026-05-14
   last updated at
-    2026-07-07
+    2026-05-14
   weights
     closed
   capabilities

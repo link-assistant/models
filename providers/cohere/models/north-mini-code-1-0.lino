@@ -6,7 +6,7 @@ model 'North Mini Code'
   provided by
     'Cohere'
   family
-    'north'
+    'north-mini'
   status
     active
   released at
@@ -22,7 +22,6 @@ model 'North Mini Code'
       reasoning
       tool calls
       temperature
-      structured output
       interleaved output
     )
   modalities

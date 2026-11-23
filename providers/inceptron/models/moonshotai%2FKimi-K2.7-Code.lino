@@ -6,7 +6,7 @@ model 'Kimi K2.7 Code'
   provided by
     'Inceptron'
   family
-    'kimi-k2'
+    'kimi-code'
   status
     active
   released at
@@ -21,6 +21,7 @@ model 'Kimi K2.7 Code'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
       interleaved output
@@ -37,10 +38,10 @@ model 'Kimi K2.7 Code'
       '262 144'
   costs
     input
-      0.75
+      0.61
     output
-      3.5
+      3.55
     cacheRead
-      0.2
+      0.17
     cacheWrite
       0

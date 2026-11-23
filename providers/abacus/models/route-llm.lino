@@ -6,7 +6,7 @@ model 'RouteLLM'
   provided by
     'Abacus'
   family
-    'gpt'
+    'model-router'
   status
     active
   released at
@@ -33,6 +33,8 @@ model 'RouteLLM'
       '64 000'
   costs
     input
-      3
+      2
     output
-      15
+      10
+    cacheRead
+      0.1

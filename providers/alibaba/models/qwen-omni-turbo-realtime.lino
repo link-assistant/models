@@ -6,9 +6,9 @@ model 'Qwen-Omni Turbo Realtime'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwen-omni-realtime'
   status
-    active
+    deprecated
   released at
     2025-05-08
   last updated at
@@ -21,6 +21,7 @@ model 'Qwen-Omni Turbo Realtime'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

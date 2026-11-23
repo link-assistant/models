@@ -6,7 +6,7 @@ model 'Wan v2.7 Reference-to-Video'
   provided by
     'Vercel AI Gateway'
   family
-    'o'
+    'wan'
   status
     active
   released at
@@ -17,11 +17,11 @@ model 'Wan v2.7 Reference-to-Video'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image video audio
     output
       video
   limits

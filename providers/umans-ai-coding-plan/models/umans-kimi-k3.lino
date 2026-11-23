@@ -1,0 +1,44 @@
+model 'Kimi K3.1 Pro'
+  has id
+    'umans-kimi-k3'
+  provider id
+    'umans-ai-coding-plan'
+  provided by
+    'Umans AI Coding Plan'
+  family
+    'kimi-pro'
+  status
+    deprecated
+  released at
+    2026-10-23
+  last updated at
+    2026-10-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '131 071'
+  costs
+    input
+      0
+    output
+      0
+    cacheRead
+      0
+    cacheWrite
+      0

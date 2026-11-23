@@ -1,0 +1,43 @@
+model 'Qwen4 Max'
+  has id
+    'qwen4-max'
+  provider id
+    'llmgateway'
+  provided by
+    'DevPass (LLM Gateway)'
+  family
+    'qwen-max'
+  status
+    active
+  released at
+    2026-11-16
+  last updated at
+    2026-11-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image video pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '262 144'
+  costs
+    input
+      1.45
+    output
+      4.25
+    cacheRead
+      0.072
+    cacheWrite
+      1.875

@@ -1,0 +1,36 @@
+model 'Moondream: Moondream 3.1'
+  has id
+    'moondream/moondream3.1-9b-a2b'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  status
+    active
+  released at
+    2026-10-15
+  last updated at
+    2026-10-15
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      4096
+  costs
+    input
+      0.3
+    output
+      2.5

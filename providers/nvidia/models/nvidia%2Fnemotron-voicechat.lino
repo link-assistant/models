@@ -6,7 +6,7 @@ model 'nemotron-voicechat'
   provided by
     'Nvidia'
   family
-    'nemotron'
+    'nemotron-voice'
   status
     active
   released at

@@ -6,7 +6,7 @@ model 'Devstral 2 (latest)'
   provided by
     'Merge Gateway'
   family
-    'devstral'
+    'devstral-medium'
   status
     deprecated
   released at

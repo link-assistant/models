@@ -5,6 +5,8 @@ model 'Step 3.7 Flash'
     'openrouter'
   provided by
     'OpenRouter'
+  family
+    'step-flash'
   status
     active
   released at
@@ -30,11 +32,11 @@ model 'Step 3.7 Flash'
       text
   limits
     context
-      '256 000'
+      '262 144'
     input
       '256 000'
     output
-      '256 000'
+      '230 400'
   costs
     input
       0.2

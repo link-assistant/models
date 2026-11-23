@@ -12,14 +12,13 @@ model 'GLM-5.2'
   released at
     2026-06-13
   last updated at
-    2026-06-22
+    2026-06-13
   weights
     open
   capabilities
     (
       reasoning
       tool calls
-      temperature
       structured output
       interleaved output
     )
@@ -35,10 +34,8 @@ model 'GLM-5.2'
       '131 072'
   costs
     input
-      1.2
+      0.19
     output
-      4.1
+      4.4
     cacheRead
-      0.2
-    cacheWrite
-      0
+      0.18

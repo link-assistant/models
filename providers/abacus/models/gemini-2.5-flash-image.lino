@@ -6,7 +6,7 @@ model 'Nano Banana'
   provided by
     'Abacus'
   family
-    'gemini-flash'
+    'nano-banana'
   status
     active
   released at
@@ -19,7 +19,6 @@ model 'Nano Banana'
     closed
   capabilities
     (
-      reasoning
       temperature
       attachments
     )
@@ -37,4 +36,4 @@ model 'Nano Banana'
     input
       0.3
     output
-      30
+      2.5

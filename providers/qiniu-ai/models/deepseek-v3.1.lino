@@ -5,14 +5,16 @@ model 'DeepSeek-V3.1'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'deepseek'
   status
-    active
+    deprecated
   released at
-    2025-08-19
+    2025-08-21
   last updated at
-    2025-08-19
+    2025-08-21
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -29,3 +31,8 @@ model 'DeepSeek-V3.1'
       '128 000'
     output
       '32 000'
+  costs
+    input
+      0.57971014
+    output
+      1.73913043

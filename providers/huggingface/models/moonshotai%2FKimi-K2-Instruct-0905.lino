@@ -6,13 +6,13 @@ model 'Kimi-K2-Instruct-0905'
   provided by
     'Hugging Face'
   family
-    'kimi-k2'
+    'kimi'
   status
     active
   released at
-    2025-09-04
+    2025-09-05
   last updated at
-    2025-09-04
+    2025-09-05
   has knowledge cutoff at
     2024-10
   weights

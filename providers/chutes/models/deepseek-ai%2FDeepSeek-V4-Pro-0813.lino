@@ -1,0 +1,41 @@
+model 'DeepSeek V4 Pro 0813'
+  has id
+    'deepseek-ai/DeepSeek-V4-Pro-0813'
+  provider id
+    'chutes'
+  provided by
+    'Chutes'
+  family
+    'deepseek-pro'
+  status
+    active
+  released at
+    2026-10-20
+  last updated at
+    2026-10-25
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '393 216'
+  costs
+    input
+      0.85
+    output
+      2.65
+    cacheRead
+      0.15

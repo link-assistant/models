@@ -1,0 +1,44 @@
+model 'DeepSeek V4.1 Flash 1017'
+  has id
+    'deepseek-flash'
+  provider id
+    'dothoosh'
+  provided by
+    'DotHoosh'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '393 216'
+  costs
+    input
+      0.385001
+    output
+      1.54
+    cacheRead
+      0.007701

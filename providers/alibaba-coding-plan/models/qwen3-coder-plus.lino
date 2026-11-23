@@ -6,9 +6,9 @@ model 'Qwen3 Coder Plus'
   provided by
     'Alibaba Coding Plan'
   family
-    'qwen'
+    'qwen-coder-plus'
   status
-    active
+    deprecated
   released at
     2025-07-23
   last updated at

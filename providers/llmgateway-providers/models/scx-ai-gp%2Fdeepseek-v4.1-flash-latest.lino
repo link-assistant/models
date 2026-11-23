@@ -1,0 +1,41 @@
+model 'deepseek-v4.1-flash-latest (scx-ai-gp)'
+  has id
+    'scx-ai-gp/deepseek-v4.1-flash-latest'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    output
+      '1 050 000'
+  costs
+    input
+      0.135
+    output
+      0.54
+    cacheRead
+      0.003

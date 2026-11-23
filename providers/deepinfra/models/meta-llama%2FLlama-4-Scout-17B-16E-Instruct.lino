@@ -13,11 +13,14 @@ model 'Llama 4 Scout 17B'
     2025-04-05
   last updated at
     2025-04-05
+  has knowledge cutoff at
+    2024-08
   weights
     open
   capabilities
     (
       tool calls
+      temperature
       attachments
       structured output
     )

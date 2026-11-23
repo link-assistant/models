@@ -6,7 +6,7 @@ model 'usdcode'
   provided by
     'Nvidia'
   status
-    active
+    deprecated
   released at
     2026-01-01
   last updated at

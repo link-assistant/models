@@ -6,7 +6,7 @@ model 'Qwen3-VL 30B-A3B'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwen-vl'
   status
     active
   released at
@@ -22,6 +22,7 @@ model 'Qwen3-VL 30B-A3B'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

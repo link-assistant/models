@@ -6,13 +6,13 @@ model 'Grok 4.1 Fast (Reasoning)'
   provided by
     'FrogBot'
   family
-    'grok'
+    'grok-code'
   status
     active
   released at
-    2025-08-28
+    2025-09-02
   last updated at
-    2025-08-28
+    2025-09-02
   has knowledge cutoff at
     2023-10
   weights

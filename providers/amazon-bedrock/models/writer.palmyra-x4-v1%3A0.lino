@@ -8,9 +8,9 @@ model 'Palmyra X4'
   family
     'palmyra'
   status
-    active
+    deprecated
   released at
-    2025-04-28
+    2024-10-09
   last updated at
     2025-04-28
   weights

@@ -38,3 +38,5 @@ model 'Grok Build 0.1'
       1
     output
       2
+    cacheRead
+      0.2

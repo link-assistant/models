@@ -1,0 +1,40 @@
+model 'Ling 3.1 Flash'
+  has id
+    'ling-3.1-flash'
+  provider id
+    'llmgateway'
+  provided by
+    'DevPass (LLM Gateway)'
+  family
+    'ling-flash'
+  status
+    active
+  released at
+    2026-09-29
+  last updated at
+    2026-09-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '32 768'
+  costs
+    input
+      0.3
+    output
+      0.9
+    cacheRead
+      0.06

@@ -6,20 +6,21 @@ model 'kimi-k2-thinking'
   provided by
     'Poe'
   family
-    'kimi-thinking'
+    'kimi'
   status
-    active
+    deprecated
   released at
-    2025-11-07
+    2025-11-06
   last updated at
-    2025-11-07
+    2025-11-06
+  has knowledge cutoff at
+    2024-08
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
-      attachments
     )
   modalities
     input

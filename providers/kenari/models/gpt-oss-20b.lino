@@ -13,12 +13,15 @@ model 'GPT OSS 20B'
     2025-08-05
   last updated at
     2025-08-05
+  has knowledge cutoff at
+    2024-06
   weights
     open
   capabilities
     (
       reasoning
       tool calls
+      temperature
     )
   modalities
     input
@@ -29,9 +32,11 @@ model 'GPT OSS 20B'
     context
       '131 072'
     output
-      '32 768'
+      '131 072'
   costs
     input
-      0
+      0.036
     output
-      0
+      0.1543
+    cacheRead
+      0.0037

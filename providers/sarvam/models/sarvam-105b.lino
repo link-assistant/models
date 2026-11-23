@@ -12,7 +12,7 @@ model 'Sarvam-105B'
   released at
     2026-02-18
   last updated at
-    2026-03-06
+    2026-02-18
   weights
     open
   capabilities
@@ -29,6 +29,13 @@ model 'Sarvam-105B'
       text
   limits
     context
-      '131 072'
+      '128 000'
     output
-      '131 072'
+      '128 000'
+  costs
+    input
+      0.10638298
+    output
+      0.26595745
+    cacheRead
+      0.00265957

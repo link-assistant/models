@@ -1,0 +1,43 @@
+model 'Grok 4.6 (US)'
+  has id
+    'us.xai.grok-4.6'
+  provider id
+    'amazon-bedrock'
+  provided by
+    'Amazon Bedrock'
+  family
+    'grok'
+  status
+    active
+  released at
+    2026-08-12
+  last updated at
+    2026-08-18
+  has knowledge cutoff at
+    2026-02-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '500 000'
+    output
+      '500 000'
+  costs
+    input
+      2.2
+    output
+      6.6
+    cacheRead
+      0.55

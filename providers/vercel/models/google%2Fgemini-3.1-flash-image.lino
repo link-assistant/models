@@ -6,7 +6,7 @@ model 'Nano Banana 2'
   provided by
     'Vercel AI Gateway'
   family
-    'gemini-flash'
+    'nano-banana'
   status
     active
   released at

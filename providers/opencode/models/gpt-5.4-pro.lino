@@ -4,7 +4,7 @@ model 'GPT-5.4 Pro'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'gpt-pro'
   status

@@ -6,11 +6,11 @@ model 'GPT 5.5 Pro'
   provided by
     'Vercel AI Gateway'
   family
-    'gpt'
+    'gpt-pro'
   status
     active
   released at
-    2026-04-24
+    2026-04-23
   last updated at
     2026-04-23
   has knowledge cutoff at

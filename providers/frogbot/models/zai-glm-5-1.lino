@@ -8,11 +8,11 @@ model 'Z.AI GLM-5.1'
   family
     'glm'
   status
-    active
+    deprecated
   released at
-    2025-01-20
+    2026-04-07
   last updated at
-    2025-02-22
+    2026-04-07
   has knowledge cutoff at
     2024-10
   weights
@@ -21,7 +21,6 @@ model 'Z.AI GLM-5.1'
     (
       tool calls
       temperature
-      attachments
     )
   modalities
     input

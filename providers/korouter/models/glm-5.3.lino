@@ -1,0 +1,40 @@
+model 'GLM-5.3'
+  has id
+    'glm-5.3'
+  provider id
+    'korouter'
+  provided by
+    'KoRouter'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-08-14
+  last updated at
+    2026-08-14
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      0.714
+    output
+      2.24
+    cacheRead
+      0.1326

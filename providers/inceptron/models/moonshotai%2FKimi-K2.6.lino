@@ -6,13 +6,13 @@ model 'Kimi K2.6'
   provided by
     'Inceptron'
   family
-    'kimi-k2'
+    'kimi'
   status
     active
   released at
-    2026-04-21
+    2026-04-20
   last updated at
-    2026-04-21
+    2026-04-20
   has knowledge cutoff at
     2025-01
   weights
@@ -38,10 +38,10 @@ model 'Kimi K2.6'
       '262 144'
   costs
     input
-      0.66
+      0.5648
     output
-      3.5
+      2.788
     cacheRead
-      0.2
+      0.19
     cacheWrite
       0

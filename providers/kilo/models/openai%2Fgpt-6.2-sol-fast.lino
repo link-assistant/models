@@ -1,0 +1,49 @@
+model 'OpenAI: GPT-6.2 Sol (Fast)'
+  has id
+    'openai/gpt-6.2-sol-fast'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'gpt-sol'
+  status
+    active
+  released at
+    2026-11-17
+  last updated at
+    2026-11-17
+  has knowledge cutoff at
+    2026-06-01
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 050 000'
+    input
+      '922 000'
+    output
+      '128 000'
+  costs
+    input
+      4
+    output
+      20
+    cacheRead
+      0.2
+    cacheWrite
+      5
+    reasoning
+      0

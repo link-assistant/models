@@ -20,8 +20,10 @@ model 'DeepSeek-V4-Flash'
   capabilities
     (
       reasoning
+      tool calls
       temperature
       structured output
+      interleaved output
     )
   modalities
     input
@@ -38,3 +40,5 @@ model 'DeepSeek-V4-Flash'
       0.19
     output
       0.51
+    cacheRead
+      0.028

@@ -1,0 +1,41 @@
+model 'OpenAI: GPT OSS Safeguard 120B'
+  has id
+    'openai/gpt-oss-safeguard-120b'
+  provider id
+    'kilo'
+  provided by
+    'Kilo Gateway'
+  family
+    'gpt-oss-safeguard'
+  status
+    active
+  released at
+    2025-10-29
+  last updated at
+    2025-10-29
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      '16 000'
+  costs
+    input
+      0.15
+    output
+      0.6
+    reasoning
+      0

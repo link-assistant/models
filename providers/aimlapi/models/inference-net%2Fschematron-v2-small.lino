@@ -1,0 +1,37 @@
+model 'Schematron V2 Small'
+  has id
+    'inference-net/schematron-v2-small'
+  provider id
+    'aimlapi'
+  provided by
+    'AI/ML API'
+  family
+    'schematron-small'
+  status
+    active
+  released at
+    2026-04-16
+  last updated at
+    2026-04-16
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '128 000'
+    output
+      4096
+  costs
+    input
+      0.0529
+    output
+      0.24334

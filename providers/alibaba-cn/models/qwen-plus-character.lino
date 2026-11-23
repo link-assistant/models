@@ -6,7 +6,7 @@ model 'Qwen Plus Character'
   provided by
     'Alibaba (China)'
   family
-    'qwen'
+    'qwen-plus'
   status
     active
   released at
@@ -19,7 +19,6 @@ model 'Qwen Plus Character'
     closed
   capabilities
     (
-      tool calls
       temperature
     )
   modalities

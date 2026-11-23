@@ -1,0 +1,32 @@
+model 'Whisper'
+  has id
+    'whisper-1'
+  provider id
+    'kenari'
+  provided by
+    'Kenari'
+  family
+    'whisper'
+  status
+    active
+  released at
+    2023-03-01
+  last updated at
+    2023-03-01
+  weights
+    closed
+  capabilities
+    (
+      temperature
+      attachments
+    )
+  modalities
+    input
+      audio
+    output
+      text
+  limits
+    context
+      0
+    output
+      0

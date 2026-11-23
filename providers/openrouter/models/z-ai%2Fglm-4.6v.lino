@@ -6,7 +6,7 @@ model 'GLM-4.6V'
   provided by
     'OpenRouter'
   family
-    'glm'
+    'glmv'
   status
     active
   released at

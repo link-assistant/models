@@ -1,0 +1,38 @@
+model 'DeepSeek-V3'
+  has id
+    'deepseek-ai/DeepSeek-V3'
+  provider id
+    'deepinfra'
+  provided by
+    'Deep Infra'
+  family
+    'deepseek'
+  status
+    active
+  released at
+    2024-12-26
+  last updated at
+    2024-12-26
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '163 840'
+    output
+      8192
+  costs
+    input
+      0.32
+    output
+      0.89

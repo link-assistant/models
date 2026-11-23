@@ -6,7 +6,7 @@ model 'Nemotron 3 Nano Omni'
   provided by
     'Nvidia'
   family
-    'nemotron'
+    'nemotron-nano'
   status
     active
   released at

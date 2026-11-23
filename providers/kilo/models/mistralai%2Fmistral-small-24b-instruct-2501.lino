@@ -1,22 +1,26 @@
-model 'Mistral: Mistral Small 3'
+model 'Mistral Small 3'
   has id
     'mistralai/mistral-small-24b-instruct-2501'
   provider id
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mistral-small'
   status
     active
   released at
-    2025-12-29
+    2025-01-30
   last updated at
-    2026-01-10
+    2025-01-30
+  has knowledge cutoff at
+    2023-10-31
   weights
     open
   capabilities
     (
-      tool calls
       temperature
+      structured output
     )
   modalities
     input

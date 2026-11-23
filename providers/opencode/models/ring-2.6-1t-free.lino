@@ -4,9 +4,9 @@ model 'Ring 2.6 1T Free'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
-    'ring-1t-free'
+    'ring-free'
   status
     deprecated
   released at

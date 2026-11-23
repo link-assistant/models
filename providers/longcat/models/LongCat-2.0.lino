@@ -14,12 +14,11 @@ model 'LongCat-2.0'
   last updated at
     2026-06-30
   weights
-    closed
+    open
   capabilities
     (
       reasoning
       tool calls
-      temperature
       interleaved output
     )
   modalities
@@ -29,13 +28,13 @@ model 'LongCat-2.0'
       text
   limits
     context
-      '1 000 000'
+      '1 048 576'
     output
       '131 072'
   costs
     input
-      0.75
+      0.3
     output
-      2.95
+      1.2
     cacheRead
-      0.015
+      0.006

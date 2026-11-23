@@ -1,4 +1,4 @@
-model 'MiniMax: MiniMax M3'
+model 'MiniMax-M3'
   has id
     'minimax/minimax-m3'
   provider id
@@ -6,13 +6,13 @@ model 'MiniMax: MiniMax M3'
   provided by
     'Kilo Gateway'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
     2026-06-01
   last updated at
-    2026-06-30
+    2026-06-01
   weights
     open
   capabilities
@@ -21,6 +21,7 @@ model 'MiniMax: MiniMax M3'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -29,13 +30,13 @@ model 'MiniMax: MiniMax M3'
       text
   limits
     context
-      '1 048 576'
+      '262 144'
     output
-      '512 000'
+      '235 929'
   costs
     input
-      0.3
+      0.23
     output
-      1.2
+      0.96
     cacheRead
-      0.06
+      0.05

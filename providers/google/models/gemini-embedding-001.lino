@@ -6,7 +6,7 @@ model 'Gemini Embedding 001'
   provided by
     'Google'
   family
-    'gemini'
+    'gemini-embedding'
   status
     active
   released at

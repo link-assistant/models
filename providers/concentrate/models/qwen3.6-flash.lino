@@ -1,0 +1,39 @@
+model 'Qwen3.6 Flash'
+  has id
+    'qwen3.6-flash'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'qwen-flash'
+  status
+    active
+  released at
+    2026-04-27
+  last updated at
+    2026-04-27
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '65 536'
+  costs
+    input
+      0.165
+    output
+      0.99

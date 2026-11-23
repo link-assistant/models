@@ -6,7 +6,7 @@ model 'Minimax M2.7'
   provided by
     'Vercel AI Gateway'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
@@ -20,7 +20,6 @@ model 'Minimax M2.7'
       reasoning
       tool calls
       temperature
-      attachments
     )
   modalities
     input
@@ -31,7 +30,7 @@ model 'Minimax M2.7'
     context
       '204 800'
     output
-      '131 000'
+      '131 072'
   costs
     input
       0.3
@@ -39,5 +38,3 @@ model 'Minimax M2.7'
       1.2
     cacheRead
       0.06
-    cacheWrite
-      0.375

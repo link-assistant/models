@@ -1,4 +1,4 @@
-model 'Claude Haiku 4.5'
+model 'Claude Haiku 4.5 (20251001)'
   has id
     'anthropic/claude-haiku-4-5-20251001'
   provider id
@@ -23,6 +23,7 @@ model 'Claude Haiku 4.5'
       tool calls
       temperature
       attachments
+      structured output
     )
   modalities
     input

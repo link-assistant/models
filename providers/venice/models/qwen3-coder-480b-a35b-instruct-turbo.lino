@@ -6,7 +6,7 @@ model 'Qwen 3 Coder 480B Turbo'
   provided by
     'Venice AI'
   family
-    'qwen'
+    'qwen-coder'
   status
     active
   released at

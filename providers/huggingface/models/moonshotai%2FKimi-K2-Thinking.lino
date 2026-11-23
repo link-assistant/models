@@ -6,7 +6,7 @@ model 'Kimi-K2-Thinking'
   provided by
     'Hugging Face'
   family
-    'kimi-thinking'
+    'kimi'
   status
     active
   released at

@@ -6,7 +6,7 @@ model 'Nemotron 3 Nano Omni (free)'
   provided by
     'OpenRouter'
   family
-    'nemotron'
+    'nemotron-nano-free'
   status
     active
   released at

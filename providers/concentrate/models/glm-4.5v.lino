@@ -1,0 +1,42 @@
+model 'GLM-4.5V'
+  has id
+    'glm-4.5v'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'glmv'
+  status
+    active
+  released at
+    2025-08-11
+  last updated at
+    2025-08-11
+  has knowledge cutoff at
+    2025-04
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image pdf
+    output
+      text
+  limits
+    context
+      '64 000'
+    output
+      '16 384'
+  costs
+    input
+      0.6
+    output
+      1.8
+    cacheRead
+      0.11

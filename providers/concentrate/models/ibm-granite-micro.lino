@@ -1,0 +1,39 @@
+model 'Granite-4.0-H-Micro'
+  has id
+    'ibm-granite-micro'
+  provider id
+    'concentrate'
+  provided by
+    'Concentrate'
+  family
+    'granite-micro'
+  status
+    active
+  released at
+    2025-10-02
+  last updated at
+    2025-10-02
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text pdf
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '32 750'
+  costs
+    input
+      0.017
+    output
+      0.112

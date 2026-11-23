@@ -5,17 +5,20 @@ model 'MythoMax 13B'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'mythomax'
   status
     active
   released at
-    2024-04-25
+    2023-08-10
   last updated at
-    2024-04-25
+    2023-08-10
   weights
     open
   capabilities
     (
       temperature
+      structured output
     )
   modalities
     input
@@ -24,11 +27,11 @@ model 'MythoMax 13B'
       text
   limits
     context
-      4096
+      8192
     output
-      4096
+      7372
   costs
     input
-      0.06
+      0.08
     output
-      0.06
+      0.11

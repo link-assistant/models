@@ -16,7 +16,7 @@ model 'Qwen3 235B A22B Thinking'
   has knowledge cutoff at
     2025-07
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -24,7 +24,7 @@ model 'Qwen3 235B A22B Thinking'
     )
   modalities
     input
-      text image video
+      text
     output
       text
   limits
@@ -36,4 +36,4 @@ model 'Qwen3 235B A22B Thinking'
     input
       0.3
     output
-      2.9000000000000004
+      2.9

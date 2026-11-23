@@ -37,6 +37,6 @@ model 'Gemma 4 31B Instruct'
       8192
   costs
     input
-      0.275
+      0.280375
     output
-      0.55
+      0.56075

@@ -1,0 +1,43 @@
+model 'openPangu 2.0 Pro'
+  has id
+    'openpangu-2.0-pro'
+  provider id
+    'huawei-maas'
+  provided by
+    'Huawei Cloud MAAS'
+  family
+    'pangu-pro'
+  status
+    active
+  released at
+    2026-07-31
+  last updated at
+    2026-07-31
+  has knowledge cutoff at
+    2026-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '524 288'
+    output
+      '131 072'
+  costs
+    input
+      0.47976
+    output
+      2.17391
+    cacheRead
+      0.11994

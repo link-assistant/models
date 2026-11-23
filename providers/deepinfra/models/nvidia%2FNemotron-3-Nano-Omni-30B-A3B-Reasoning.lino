@@ -6,9 +6,9 @@ model 'Nemotron 3 Nano Omni 30B A3B Reasoning'
   provided by
     'Deep Infra'
   family
-    'nemotron'
+    'nemotron-nano'
   status
-    active
+    deprecated
   released at
     2026-04-28
   last updated at

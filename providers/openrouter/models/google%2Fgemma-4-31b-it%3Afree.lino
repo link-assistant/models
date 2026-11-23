@@ -6,13 +6,15 @@ model 'Gemma 4 31B (free)'
   provided by
     'OpenRouter'
   family
-    'gemma'
+    'gemma-free'
   status
     active
   released at
     2026-04-02
   last updated at
     2026-04-02
+  has knowledge cutoff at
+    2025-01
   weights
     open
   capabilities
@@ -31,7 +33,7 @@ model 'Gemma 4 31B (free)'
     context
       '262 144'
     output
-      8192
+      '32 768'
   costs
     input
       0

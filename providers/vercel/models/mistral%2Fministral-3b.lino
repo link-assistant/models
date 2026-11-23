@@ -10,30 +10,33 @@ model 'Ministral 3B (latest)'
   status
     active
   released at
-    2024-10-01
+    2024-10-16
   last updated at
     2024-10-04
   has knowledge cutoff at
     2024-10
   weights
-    open
+    closed
   capabilities
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       text
   limits
     context
-      '128 000'
+      '131 072'
     output
-      '128 000'
+      4000
   costs
     input
-      0.04
+      0.1
     output
-      0.04
+      0.1
+    cacheRead
+      0.01

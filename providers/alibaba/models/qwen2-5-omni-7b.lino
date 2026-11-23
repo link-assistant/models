@@ -6,9 +6,9 @@ model 'Qwen2.5-Omni 7B'
   provided by
     'Alibaba'
   family
-    'qwen'
+    'qwen-omni'
   status
-    active
+    deprecated
   released at
     2024-12
   last updated at
@@ -21,6 +21,7 @@ model 'Qwen2.5-Omni 7B'
     (
       tool calls
       temperature
+      attachments
     )
   modalities
     input

@@ -6,9 +6,9 @@ model 'Qwen Turbo'
   provided by
     'Alibaba (China)'
   family
-    'qwen'
+    'qwen-turbo'
   status
-    active
+    deprecated
   released at
     2024-11-01
   last updated at

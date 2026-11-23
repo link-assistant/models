@@ -22,6 +22,7 @@ model 'Anthropic: Claude Opus 4.1 (20250805)'
       reasoning
       tool calls
       temperature
+      attachments
     )
   modalities
     input

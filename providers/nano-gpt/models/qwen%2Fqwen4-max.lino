@@ -1,0 +1,46 @@
+model 'Qwen 4 Max'
+  has id
+    'qwen/qwen4-max'
+  provider id
+    'nano-gpt'
+  provided by
+    'NanoGPT'
+  family
+    'qwen-max'
+  status
+    active
+  released at
+    2026-11-16
+  last updated at
+    2026-11-16
+  weights
+    closed
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    input
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      1.413
+    output
+      4.24
+    cacheRead
+      0.071
+    cacheWrite
+      1.767

@@ -6,7 +6,7 @@ model 'Qwen3.5 Plus 2026-04-20'
   provided by
     'OpenRouter'
   family
-    'qwen3.5'
+    'qwen-plus'
   status
     active
   released at

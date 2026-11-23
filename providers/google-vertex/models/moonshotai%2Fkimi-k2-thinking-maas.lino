@@ -6,9 +6,9 @@ model 'Kimi K2 Thinking'
   provided by
     'Vertex'
   family
-    'kimi-thinking'
+    'kimi'
   status
-    active
+    deprecated
   released at
     2025-11-13
   last updated at
@@ -40,3 +40,5 @@ model 'Kimi K2 Thinking'
       0.6
     output
       2.5
+    cacheRead
+      0.06

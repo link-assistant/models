@@ -6,7 +6,7 @@ model 'Canopy Labs Orpheus Arabic Saudi'
   provided by
     'Groq'
   family
-    'canopylabs'
+    'orpheus'
   status
     beta
   released at

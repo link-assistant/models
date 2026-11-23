@@ -6,9 +6,9 @@ model 'Kimi K2.7 Code'
   provided by
     'Databricks'
   family
-    'kimi-k2'
+    'kimi-code'
   status
-    active
+    deprecated
   released at
     2026-06-12
   last updated at

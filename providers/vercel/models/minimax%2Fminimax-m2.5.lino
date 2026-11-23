@@ -6,7 +6,7 @@ model 'MiniMax M2.5'
   provided by
     'Vercel AI Gateway'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
@@ -14,7 +14,7 @@ model 'MiniMax M2.5'
   last updated at
     2026-02-12
   weights
-    closed
+    open
   capabilities
     (
       reasoning
@@ -28,15 +28,11 @@ model 'MiniMax M2.5'
       text
   limits
     context
-      '204 800'
+      '1 000 000'
     output
-      '131 000'
+      8192
   costs
     input
       0.3
     output
       1.2
-    cacheRead
-      0.03
-    cacheWrite
-      0.375

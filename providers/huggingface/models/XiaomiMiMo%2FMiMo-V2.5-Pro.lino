@@ -6,7 +6,7 @@ model 'MiMo-V2.5-Pro'
   provided by
     'Hugging Face'
   family
-    'mimo'
+    'mimo-pro'
   status
     active
   released at

@@ -5,6 +5,8 @@ model 'Step 3.7 Flash'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'step-flash'
   status
     active
   released at
@@ -39,3 +41,5 @@ model 'Step 3.7 Flash'
       0.2
     output
       1.15
+    cacheRead
+      0.04

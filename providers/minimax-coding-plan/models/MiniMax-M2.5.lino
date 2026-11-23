@@ -6,9 +6,9 @@ model 'MiniMax-M2.5'
   provided by
     'MiniMax Token Plan (minimax.io)'
   family
-    'minimax'
+    'minimax-m'
   status
-    active
+    deprecated
   released at
     2026-02-12
   last updated at

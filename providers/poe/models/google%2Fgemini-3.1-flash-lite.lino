@@ -5,19 +5,25 @@ model 'Gemini-3.1-Flash-Lite'
     'poe'
   provided by
     'Poe'
+  family
+    'gemini-flash-lite'
   status
     active
   released at
-    2026-02-18
+    2026-05-07
   last updated at
-    2026-02-18
+    2026-05-07
+  has knowledge cutoff at
+    2025-01
   weights
     closed
   capabilities
     (
       reasoning
       tool calls
+      temperature
       attachments
+      structured output
     )
   modalities
     input
@@ -31,6 +37,6 @@ model 'Gemini-3.1-Flash-Lite'
       '65 536'
   costs
     input
-      0.25
+      0.2525
     output
-      1.5
+      1.5152

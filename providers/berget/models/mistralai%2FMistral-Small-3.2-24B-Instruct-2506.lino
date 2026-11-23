@@ -10,9 +10,9 @@ model 'Mistral Small 3.2 24B Instruct 2506'
   status
     active
   released at
-    2025-10-01
+    2025-06-20
   last updated at
-    2025-10-01
+    2025-06-20
   has knowledge cutoff at
     2025-09
   weights
@@ -36,6 +36,6 @@ model 'Mistral Small 3.2 24B Instruct 2506'
       8192
   costs
     input
-      0.33
+      0.33645
     output
-      0.33
+      0.33645

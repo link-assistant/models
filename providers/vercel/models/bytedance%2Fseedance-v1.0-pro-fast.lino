@@ -6,7 +6,7 @@ model 'Seedance v1.0 Pro Fast'
   provided by
     'Vercel AI Gateway'
   family
-    'seed'
+    'seedance-pro'
   status
     active
   released at
@@ -17,11 +17,11 @@ model 'Seedance v1.0 Pro Fast'
     closed
   capabilities
     (
-      temperature
+      attachments
     )
   modalities
     input
-      text
+      text image
     output
       video
   limits

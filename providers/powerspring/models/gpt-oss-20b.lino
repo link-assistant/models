@@ -1,0 +1,42 @@
+model 'GPT OSS 20B'
+  has id
+    'gpt-oss-20b'
+  provider id
+    'powerspring'
+  provided by
+    'Powerspring'
+  family
+    'gpt-oss'
+  status
+    active
+  released at
+    2025-08-05
+  last updated at
+    2025-08-05
+  has knowledge cutoff at
+    2024-06
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '131 000'
+    output
+      '131 000'
+  costs
+    input
+      0.044208
+    output
+      0.16578

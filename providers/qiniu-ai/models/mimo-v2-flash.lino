@@ -6,9 +6,9 @@ model 'Mimo-V2-Flash'
   provided by
     'Qiniu'
   family
-    'mimo'
+    'mimo-flash'
   status
-    active
+    deprecated
   released at
     2025-12-16
   last updated at

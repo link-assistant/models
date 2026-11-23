@@ -6,9 +6,9 @@ model 'gpt-image-1-mini'
   provided by
     'OpenAI'
   family
-    'gpt-image'
+    'gpt-image-mini'
   status
-    active
+    deprecated
   released at
     2025-09-26
   last updated at

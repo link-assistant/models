@@ -20,7 +20,7 @@ model 'deepseek-ai/DeepSeek-OCR'
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

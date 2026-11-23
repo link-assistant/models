@@ -18,7 +18,6 @@ model 'Tako'
   capabilities
     (
       tool calls
-      attachments
     )
   modalities
     input

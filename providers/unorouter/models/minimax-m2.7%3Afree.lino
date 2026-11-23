@@ -6,7 +6,7 @@ model 'MiniMax-M2.7'
   provided by
     'UnoRouter'
   family
-    'minimax'
+    'minimax-m-free'
   status
     active
   released at

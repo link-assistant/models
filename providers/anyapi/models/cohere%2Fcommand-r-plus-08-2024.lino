@@ -6,7 +6,7 @@ model 'Command R+'
   provided by
     'AnyAPI'
   family
-    'command-r'
+    'command-r-plus'
   status
     active
   released at

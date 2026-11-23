@@ -10,16 +10,15 @@ model 'Qwen3 235B A22B Instruct 2507'
   status
     active
   released at
-    2025-07-01
+    2025-07-21
   last updated at
-    2026-03-17
+    2025-07-21
   has knowledge cutoff at
     2025-04
   weights
     open
   capabilities
     (
-      reasoning
       tool calls
       temperature
     )
@@ -35,8 +34,6 @@ model 'Qwen3 235B A22B Instruct 2507'
       '16 384'
   costs
     input
-      0.75
+      0.841125
     output
-      2.25
-    reasoning
-      8.4
+      2.523375

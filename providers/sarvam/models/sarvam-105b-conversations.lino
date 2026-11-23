@@ -1,0 +1,39 @@
+model 'Sarvam-105B Conversations'
+  has id
+    'sarvam-105b-conversations'
+  provider id
+    'sarvam'
+  provided by
+    'Sarvam AI'
+  family
+    'sarvam'
+  status
+    active
+  released at
+    2026-02-18
+  last updated at
+    2026-02-18
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 000'
+    output
+      '32 000'
+  costs
+    input
+      0.10638298
+    output
+      0.26595745
+    cacheRead
+      0.00265957

@@ -6,7 +6,7 @@ model 'Pixtral Large (latest)'
   provided by
     'Merge Gateway'
   family
-    'pixtral'
+    'pixtral-large'
   status
     active
   released at

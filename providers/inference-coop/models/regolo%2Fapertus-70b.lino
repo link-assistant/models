@@ -1,0 +1,39 @@
+model 'Apertus 1.5 70B'
+  has id
+    'regolo/apertus-70b'
+  provider id
+    'inference-coop'
+  provided by
+    'Inference Cooperative'
+  family
+    'apertus'
+  status
+    active
+  released at
+    2026-07-24
+  last updated at
+    2026-07-24
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      8192
+  costs
+    input
+      1.16
+    output
+      3.94

@@ -6,7 +6,7 @@ model 'GLM-5-Turbo'
   provided by
     'Z.AI'
   family
-    'glm'
+    'glm-turbo'
   status
     active
   released at

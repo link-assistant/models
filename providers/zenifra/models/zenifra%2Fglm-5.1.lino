@@ -1,0 +1,42 @@
+model 'GLM-5.1'
+  has id
+    'zenifra/glm-5.1'
+  provider id
+    'zenifra'
+  provided by
+    'Zenifra'
+  family
+    'glm'
+  status
+    active
+  released at
+    2026-04-07
+  last updated at
+    2026-04-07
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '202 745'
+    output
+      '131 072'
+  costs
+    input
+      1.079
+    output
+      4.3176
+    cacheRead
+      0.2158

@@ -6,7 +6,7 @@ model 'Qwen Image 2.0 Pro'
   provided by
     'Alibaba Token Plan (China)'
   family
-    'qwen'
+    'qwen-image-pro'
   status
     active
   released at

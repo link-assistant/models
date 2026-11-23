@@ -8,11 +8,11 @@ model 'Gemma 4 Uncensored'
   family
     'gemma'
   status
-    active
+    deprecated
   released at
     2026-04-13
   last updated at
-    2026-06-11
+    2026-11-18
   weights
     open
   capabilities

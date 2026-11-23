@@ -6,9 +6,9 @@ model 'Runway-Gen-4-Turbo'
   provided by
     'Poe'
   family
-    'runway'
+    'runway-gen'
   status
-    active
+    deprecated
   released at
     2025-05-09
   last updated at

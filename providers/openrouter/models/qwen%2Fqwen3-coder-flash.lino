@@ -6,7 +6,7 @@ model 'Qwen3 Coder Flash'
   provided by
     'OpenRouter'
   family
-    'qwen'
+    'qwen-coder-flash'
   status
     active
   released at

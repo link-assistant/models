@@ -1,0 +1,43 @@
+model 'DeepSeek V4.1 Flash 1017 (NovitaAI)'
+  has id
+    'novita/deepseek-v4.1-flash-1017'
+  provider id
+    'llmgateway-providers'
+  provided by
+    'LLM Gateway'
+  family
+    'deepseek-flash'
+  status
+    active
+  released at
+    2026-10-17
+  last updated at
+    2026-10-17
+  has knowledge cutoff at
+    2025-05
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '393 216'
+  costs
+    input
+      0.3
+    output
+      1.2
+    cacheRead
+      0.006

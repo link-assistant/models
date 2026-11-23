@@ -40,5 +40,3 @@ model 'Grok 4.3'
       2.5
     cacheRead
       0.2
-    cacheWrite
-      0

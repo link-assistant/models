@@ -1,0 +1,37 @@
+model 'Prism'
+  has id
+    'prism'
+  provider id
+    'hyper'
+  provided by
+    'Charm Hyper'
+  status
+    active
+  released at
+    1970-01-01
+  last updated at
+    2026-10-15
+  weights
+    closed
+  capabilities
+    (
+      tool calls
+      attachments
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 000 000'
+    output
+      '131 072'
+  costs
+    input
+      2.2
+    output
+      11
+    cacheRead
+      0.22

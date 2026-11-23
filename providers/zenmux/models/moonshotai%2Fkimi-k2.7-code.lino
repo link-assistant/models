@@ -6,7 +6,7 @@ model 'Kimi K2.7 Code'
   provided by
     'ZenMux'
   family
-    'kimi-k2'
+    'kimi-code'
   status
     active
   released at
@@ -40,4 +40,4 @@ model 'Kimi K2.7 Code'
     output
       4
     cacheRead
-      0.16
+      0.19

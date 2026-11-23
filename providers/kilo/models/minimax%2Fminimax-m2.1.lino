@@ -5,6 +5,8 @@ model 'MiniMax: MiniMax M2.1'
     'kilo'
   provided by
     'Kilo Gateway'
+  family
+    'minimax-m'
   status
     active
   released at
@@ -18,6 +20,7 @@ model 'MiniMax: MiniMax M2.1'
       reasoning
       tool calls
       temperature
+      structured output
     )
   modalities
     input
@@ -26,13 +29,15 @@ model 'MiniMax: MiniMax M2.1'
       text
   limits
     context
-      '196 608'
+      '204 800'
     output
-      '39 322'
+      '131 072'
   costs
     input
-      0.27
+      0.3
     output
-      0.95
+      1.2
     cacheRead
-      0.03
+      0.15
+    reasoning
+      0

@@ -6,7 +6,7 @@ model 'GPT-5 Image'
   provided by
     'OpenRouter'
   family
-    'gpt'
+    'gpt-image'
   status
     active
   released at

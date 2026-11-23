@@ -1,0 +1,41 @@
+model 'Kimi K3.1 Pro'
+  has id
+    'kimi-k3.1-pro'
+  provider id
+    'adzuki'
+  provided by
+    'Adzuki AI'
+  family
+    'kimi-pro'
+  status
+    active
+  released at
+    2026-10-23
+  last updated at
+    2026-10-23
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image video
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      3.7143
+    output
+      19.4286
+    cacheRead
+      0.3714

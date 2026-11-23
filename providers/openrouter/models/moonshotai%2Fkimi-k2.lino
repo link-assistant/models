@@ -6,7 +6,7 @@ model 'Kimi K2 0711'
   provided by
     'OpenRouter'
   family
-    'kimi-k2'
+    'kimi'
   status
     active
   released at
@@ -31,7 +31,7 @@ model 'Kimi K2 0711'
     context
       '131 072'
     output
-      '100 352'
+      '98 304'
   costs
     input
       0.57

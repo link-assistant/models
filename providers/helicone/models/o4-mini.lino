@@ -10,16 +10,18 @@ model 'OpenAI o4 Mini'
   status
     active
   released at
-    2024-06-01
+    2025-04-16
   last updated at
-    2024-06-01
+    2025-04-16
   has knowledge cutoff at
     2024-06
   weights
     closed
   capabilities
     (
+      reasoning
       tool calls
+      attachments
     )
   modalities
     input

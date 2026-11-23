@@ -1,4 +1,4 @@
-model 'Claude Haiku 4.5'
+model 'Anthropic Claude Haiku 4.5'
   has id
     'anthropic-claude-haiku-4.5'
   provider id
@@ -26,20 +26,20 @@ model 'Claude Haiku 4.5'
     )
   modalities
     input
-      text image pdf
+      text image
     output
       text
   limits
     context
       '200 000'
     output
-      '64 000'
+      8192
   costs
     input
       1
     output
       5
     cacheRead
-      1
+      0.1
     cacheWrite
       1.25

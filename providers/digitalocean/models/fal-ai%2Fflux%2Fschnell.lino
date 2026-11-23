@@ -6,7 +6,7 @@ model 'FLUX.1 [schnell]'
   provided by
     'DigitalOcean'
   family
-    'flux'
+    'flux-schnell'
   status
     active
   released at

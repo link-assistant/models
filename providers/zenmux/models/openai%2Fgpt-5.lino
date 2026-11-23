@@ -5,6 +5,8 @@ model 'GPT-5'
     'zenmux'
   provided by
     'ZenMux'
+  family
+    'gpt'
   status
     active
   released at
@@ -12,7 +14,7 @@ model 'GPT-5'
   last updated at
     2025-08-07
   has knowledge cutoff at
-    2025-01-01
+    2024-09-30
   weights
     closed
   capabilities
@@ -31,11 +33,11 @@ model 'GPT-5'
     context
       '400 000'
     output
-      '64 000'
+      '128 000'
   costs
     input
       1.25
     output
       10
     cacheRead
-      0.12
+      0.125

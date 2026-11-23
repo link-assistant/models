@@ -4,7 +4,7 @@ model 'GPT-5 Nano'
   provider id
     'opencode'
   provided by
-    'OpenCode Zen'
+    'OpenCode'
   family
     'gpt-nano'
   status

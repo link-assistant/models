@@ -1,0 +1,36 @@
+model 'DiffusionGemma 26B A4B IT'
+  has id
+    'google/diffusiongemma-26B-A4B-it'
+  provider id
+    'trustedtokens'
+  provided by
+    'TrustedTokens'
+  family
+    'gemma-diffusion'
+  status
+    active
+  released at
+    2026-06-09
+  last updated at
+    2026-07-15
+  has knowledge cutoff at
+    2025-01
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      attachments
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '262 144'
+    output
+      '32 768'

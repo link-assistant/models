@@ -6,7 +6,7 @@ model 'Grok Imagine Video'
   provided by
     'xAI'
   family
-    'grok'
+    'grok-imagine-video'
   status
     active
   released at
@@ -21,7 +21,7 @@ model 'Grok Imagine Video'
     )
   modalities
     input
-      text image video pdf
+      text image video
     output
       video
   limits

@@ -21,12 +21,13 @@ model 'GPT-5.2'
     (
       reasoning
       tool calls
+      temperature
       attachments
       structured output
     )
   modalities
     input
-      text image
+      text image pdf
     output
       text
   limits

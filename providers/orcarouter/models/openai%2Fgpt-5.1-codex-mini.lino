@@ -6,7 +6,7 @@ model 'GPT-5.1 Codex mini'
   provided by
     'OrcaRouter'
   family
-    'gpt-codex'
+    'gpt-codex-mini'
   status
     active
   released at

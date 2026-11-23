@@ -6,7 +6,7 @@ model 'Gemini 2.5 Flash TTS'
   provided by
     'Vertex'
   family
-    'gemini-flash'
+    'gemini-tts-flash'
   status
     active
   released at
@@ -25,6 +25,8 @@ model 'Gemini 2.5 Flash TTS'
   limits
     context
       '32 768'
+    input
+      8192
     output
       '16 384'
   costs

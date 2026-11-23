@@ -6,9 +6,9 @@ model 'Qwen Math Turbo'
   provided by
     'Alibaba (China)'
   family
-    'qwen'
+    'qwen-math-turbo'
   status
-    active
+    deprecated
   released at
     2024-09-19
   last updated at

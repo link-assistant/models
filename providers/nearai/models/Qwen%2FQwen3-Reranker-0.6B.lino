@@ -6,13 +6,13 @@ model 'Qwen3 Reranker 0.6B'
   provided by
     'NEAR AI Cloud'
   family
-    'qwen'
+    'qwen-reranker'
   status
     active
   released at
-    2025-06-03
+    2025-06-05
   last updated at
-    2025-06-03
+    2025-06-05
   weights
     open
   modalities

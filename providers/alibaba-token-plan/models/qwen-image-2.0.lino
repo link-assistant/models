@@ -6,7 +6,7 @@ model 'Qwen Image 2.0'
   provided by
     'Alibaba Token Plan'
   family
-    'qwen'
+    'qwen-image'
   status
     active
   released at

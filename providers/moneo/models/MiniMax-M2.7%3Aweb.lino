@@ -1,0 +1,37 @@
+model 'MiniMax M2.7 (Web)'
+  has id
+    'MiniMax-M2.7:web'
+  provider id
+    'moneo'
+  provided by
+    'Moneo'
+  family
+    'minimax-m'
+  status
+    active
+  released at
+    2026-03-18
+  last updated at
+    2026-03-18
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '198 000'
+    output
+      '131 072'
+  costs
+    input
+      0.35
+    output
+      1.5

@@ -6,7 +6,7 @@ model 'MiniMax-M2.5'
   provided by
     'OpenRouter'
   family
-    'minimax'
+    'minimax-m'
   status
     active
   released at
@@ -30,13 +30,13 @@ model 'MiniMax-M2.5'
       text
   limits
     context
-      '204 800'
+      '198 000'
     output
-      '196 608'
+      '32 768'
   costs
     input
-      0.15
+      0.27
     output
-      0.9
+      0.95
     cacheRead
-      0.05
+      0.03

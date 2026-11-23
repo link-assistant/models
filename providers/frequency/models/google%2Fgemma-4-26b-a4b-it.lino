@@ -1,0 +1,40 @@
+model 'Gemma 4 26B A4B IT'
+  has id
+    'google/gemma-4-26b-a4b-it'
+  provider id
+    'frequency'
+  provided by
+    'Frequency'
+  family
+    'gemma'
+  status
+    active
+  released at
+    2026-04-02
+  last updated at
+    2026-04-02
+  weights
+    open
+  capabilities
+    (
+      tool calls
+      temperature
+      structured output
+    )
+  modalities
+    input
+      text
+    output
+      text
+  limits
+    context
+      '32 768'
+    output
+      8192
+  costs
+    input
+      0.15
+    output
+      0.55
+    cacheRead
+      0.093

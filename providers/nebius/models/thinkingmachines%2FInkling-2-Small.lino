@@ -1,0 +1,43 @@
+model 'Inkling 2 Small'
+  has id
+    'thinkingmachines/Inkling-2-Small'
+  provider id
+    'nebius'
+  provided by
+    'Nebius Token Factory'
+  family
+    'inkling-small'
+  status
+    active
+  released at
+    2026-11-05
+  last updated at
+    2026-11-12
+  weights
+    open
+  capabilities
+    (
+      reasoning
+      tool calls
+      temperature
+      attachments
+      structured output
+      interleaved output
+    )
+  modalities
+    input
+      text image
+    output
+      text
+  limits
+    context
+      '1 048 576'
+    output
+      '1 048 576'
+  costs
+    input
+      0.3
+    output
+      1
+    cacheRead
+      0.06

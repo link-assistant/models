@@ -6,7 +6,7 @@ model 'DeepSeek TNG R1T2 Chimera'
   provided by
     'Helicone'
   family
-    'deepseek-thinking'
+    'deepseek-r'
   status
     active
   released at
@@ -31,7 +31,7 @@ model 'DeepSeek TNG R1T2 Chimera'
     context
       '130 000'
     output
-      '163 840'
+      '130 000'
   costs
     input
       0.3

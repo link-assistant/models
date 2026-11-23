@@ -5,12 +5,16 @@ model 'Claude 4.5 Opus'
     'qiniu-ai'
   provided by
     'Qiniu'
+  family
+    'claude-opus'
   status
-    active
+    deprecated
   released at
-    2025-11-25
+    2025-11-24
   last updated at
-    2025-11-25
+    2025-11-24
+  has knowledge cutoff at
+    2025-05
   weights
     closed
   capabilities
